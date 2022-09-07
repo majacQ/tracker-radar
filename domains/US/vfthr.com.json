@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000759,
-    "sites": 11,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "www"
     ],
@@ -13,46 +13,64 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "vfthr\\.com\\/en\\/us\\/banner\\/javascript\\/html\\/zone",
-            "cookies": 0.0000414,
-            "fingerprinting": 0,
+            "rule": "vfthr\\.com\\/js\\/interactive2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornhub.com",
+                "ok.porn"
+            ]
+        },
+        {
+            "rule": "vfthr\\.com\\/en\\/us\\/banner\\/javascript\\/html\\/zone",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f9cddb6d3f0a202c8150a8526bfd045f072d1e5d9f8978b0f23f703e2226894d",
-                "ee71208a848785bd2a1dd9a4f59fbedc45c155cc6fb61e7a434add289c8a2e76",
-                "2e11c47405d9d8166b23303ad9837651b76ef8df730e181723875183f4a61a98",
-                "0889aa63992381a5ca926d04954a52dba31a3b3de1bf06b237ca1b9108819286",
-                "20d820922e5030a51fbd7262820be1de871dcbd41c15889661347e0e89caee7d"
+                "7249f3eb94350b0630a9311f2e1a7871a71979ae50cb19231ba2a7f1f706f255"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hello.porn",
-                "max.porn",
                 "ok.porn",
-                "pornstars.tube",
-                "www.pornhat.com",
-                "www.pornhat.one"
+                "www.pornpics.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000759,
+    "cookies": 0.0000271,
     "types": {
-        "Document": 6
+        "Script": 2,
+        "Document": 2
     },
     "nameservers": [
-        "ns-131.awsdns-16.com",
-        "ns-538.awsdns-03.net",
         "ns-1217.awsdns-24.org",
-        "ns-1841.awsdns-38.co.uk"
+        "ns-131.awsdns-16.com",
+        "ns-1841.awsdns-38.co.uk",
+        "ns-538.awsdns-03.net"
     ]
 }

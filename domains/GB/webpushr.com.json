@@ -16,38 +16,74 @@
     "resources": [
         {
             "rule": "webpushr\\.com\\/app\\.min\\.js",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 6,
-                "window.localStorage": 6,
                 "Navigator.prototype.platform": 6,
+                "window.localStorage": 6,
                 "Notification.permission": 6,
-                "window.sessionStorage": 6
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
             },
             "sites": 6,
             "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "043136bfa4e20d65a72219479759be169b64d7384bb089cf0479442156adcddc"
+                "60f745fcfd76bf5dfef0d1faddb39ec531f46ab763a179a59c65fe6bdd02822b"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_webpushrPageViews": {
+                    "ttl": 7776003,
+                    "length": 1,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "teslamotorsclub.com",
                 "thelincolnite.co.uk",
+                "worldofbuzz.com",
                 "www.idownloadblog.com",
-                "www.iphonehacks.com",
                 "www.opendemocracy.net",
+                "www.thesouthafrican.com",
                 "zwiftinsider.com"
             ]
         },
         {
-            "rule": "webpushr\\.com\\/prompt\\/bell",
+            "rule": "webpushr\\.com\\/sw-server\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "438b418e128965f54e6a712546b9d6629fa44d8cad6c4a2fcc751ed39d5fc5f5"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelincolnite.co.uk",
+                "worldofbuzz.com",
+                "www.idownloadblog.com",
+                "www.opendemocracy.net",
+                "www.thesouthafrican.com",
+                "zwiftinsider.com"
+            ]
+        },
+        {
+            "rule": "webpushr\\.com\\/prompt\\/get_info",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -58,21 +94,20 @@
             "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "12a28d4172358581279de5a2cf73037ba11e88ab8417af2e7f46b8c0fe51315d",
-                "95e095361e03adfa8b35aa81465404c539c89cdaacd6a70c5c6005dfd9ef95ee",
-                "6dffd563b3a462531c495ac5bae627943779534379c1cb5bb1d41c7c020cb0f9",
-                "23fdbfa6e50ca069506cb24a104682566dd46fd160f17e74f32928916b8c7e45",
-                "7cd8bb3765d64aa7405dc8cc0d856bc77eff88e5401ac48a81fe7db0060822d5"
+                "a6b2637310583d86167a47dabf0f107ac996fdfe89da6d83060ae6a90d639c89",
+                "af2268baf609d057ae05bc16bd5386cf9a24bbef3b3941cb38507d774858b89d",
+                "a3e2760aa8f0a3b72daca8fe0148a5274ec3b6ec77be4e8b347020ecc92f6163",
+                "db09df0fb3efaeb2bcc04e27d61e6ceba2392f74cb7562f47e61022aac7c0215"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "teslamotorsclub.com",
                 "thelincolnite.co.uk",
+                "worldofbuzz.com",
                 "www.idownloadblog.com",
-                "www.iphonehacks.com",
                 "www.opendemocracy.net",
+                "www.thesouthafrican.com",
                 "zwiftinsider.com"
             ]
         },
@@ -94,11 +129,11 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "teslamotorsclub.com",
                 "thelincolnite.co.uk",
+                "worldofbuzz.com",
                 "www.idownloadblog.com",
-                "www.iphonehacks.com",
                 "www.opendemocracy.net",
+                "www.thesouthafrican.com",
                 "zwiftinsider.com"
             ]
         },
@@ -120,24 +155,50 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "teslamotorsclub.com",
                 "thelincolnite.co.uk",
-                "www.iphonehacks.com",
+                "www.opendemocracy.net",
+                "www.thesouthafrican.com",
+                "zwiftinsider.com"
+            ]
+        },
+        {
+            "rule": "webpushr\\.com\\/impression\\/prompt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelincolnite.co.uk",
+                "worldofbuzz.com",
+                "www.opendemocracy.net",
+                "www.thesouthafrican.com",
                 "zwiftinsider.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
         "Script": 6,
-        "Fetch": 16
+        "Other": 6,
+        "Fetch": 21
     },
     "nameservers": [
-        "ns-514.awsdns-00.net",
         "ns-397.awsdns-49.com",
         "ns-1581.awsdns-05.co.uk",
-        "ns-1225.awsdns-25.org"
+        "ns-1225.awsdns-25.org",
+        "ns-514.awsdns-00.net"
     ]
 }

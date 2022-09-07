@@ -4,34 +4,164 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
-        "aflac"
+        "cdn-espndotcom-v2",
+        "cdn-aflac-v2",
+        "cdn-micron",
+        "espndotcom-v2-dashboard",
+        "micron-dashboard",
+        "micron-assets"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "suth\\.digital\\/js\\/embed\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "aflac"
+                "cdn-espndotcom-v2",
+                "cdn-aflac-v2",
+                "cdn-micron"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "0c2b29f2babba0f6455b31b9795b38aa6c97cb1f20352a9a9425fc7d848297f6"
+                "c66e5174f9f57145795b21e153ffde1d1e347f400765f262db0202e259dc2307",
+                "f83cf8ce273c214c54884d38317adfb0fcba8c48412f8c899c8eb9867e55638b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "aflac.com",
-                "www.aflac.com"
+                "espn.com",
+                "www.aflac.com",
+                "www.crucial.com"
+            ]
+        },
+        {
+            "rule": "suth\\.digital\\/api\\/widget\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "espndotcom-v2-dashboard",
+                "micron-dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1fa40397c58ae69efa5f43cbf03fe80ed72f579bc959564e746fd8fc1ee3c61a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.crucial.com"
+            ]
+        },
+        {
+            "rule": "suth\\.digital\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-espndotcom-v2",
+                "cdn-micron"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d7ffcc402bbbeddbafd1ff5bc2c198b09cf019a60e3aeb7b8192a32ae8e9e331"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.crucial.com"
+            ]
+        },
+        {
+            "rule": "suth\\.digital\\/css\\/locl\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-espndotcom-v2",
+                "cdn-micron"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3889fe61eb8a6c7f2193f112cfa170446976f31648f1e741cc350bf0e3ac8400"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.crucial.com"
+            ]
+        },
+        {
+            "rule": "suth\\.digital\\/js\\/locl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-espndotcom-v2",
+                "cdn-micron"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dd6cddf54de2cdf59fb16ed0caabe985c464f4f49006fa0c95a3804ea8dee9a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.crucial.com"
+            ]
+        },
+        {
+            "rule": "suth\\.digital\\/launcher\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "micron-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "48570166e5939e09969ec00f4638d8b109b02cee8d1da3fbbddfd7b5a5d04d90"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crucial.com",
+                "www.crucial.com"
             ]
         }
     ],
@@ -39,12 +169,16 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 5,
+        "XHR": 2,
+        "Document": 2,
+        "Stylesheet": 2,
+        "Image": 2
     },
     "nameservers": [
-        "ns-623.awsdns-13.net",
-        "ns-1130.awsdns-13.org",
         "ns-2022.awsdns-60.co.uk",
-        "ns-346.awsdns-43.com"
+        "ns-623.awsdns-13.net",
+        "ns-346.awsdns-43.com",
+        "ns-1130.awsdns-13.org"
     ]
 }

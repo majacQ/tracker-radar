@@ -1,6 +1,9 @@
 {
     "domain": "split.io",
-    "owner": {},
+    "owner": {
+        "name": "Split Software, Inc.",
+        "displayName": "Split Software"
+    },
     "source": [
         "DuckDuckGo-NO"
     ],
@@ -32,11 +35,11 @@
             "exampleSites": [
                 "miro.com",
                 "www.crunchbase.com",
-                "www.hellotech.com",
                 "www.leafly.com",
+                "www.menti.com",
                 "www.mentimeter.com",
-                "www.myfitnesspal.com",
-                "zapier.com"
+                "www.ramirent.no",
+                "www.vivino.com"
             ]
         },
         {
@@ -51,12 +54,11 @@
             "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "112fb69fc6354e7f20374b652efa63b9ce246d65d742640bc511a28a166f20ea",
-                "f87275c8d6454b4b7baad5e3c40d627e65f590f62c42d94a7db71fb9cfb68d23",
-                "a892a111217b921b0f98921943a4abeb3cde2c8f5409a5f54dcc6f2d99fa9d14",
-                "01b2b8a890e384bd375c9347b1abdebeccb4c568e4a05326e8b3141be089d1de",
-                "8dd3ab09f12b731ed8d929471cb50a7b53084db6cd8408248ce7e6ca4a70aa11",
-                "af6d415c6fec2be10921cc70a2caab6b1d46cf86960a31915370bbb9432b59e9"
+                "ef49f97b88b84cba155d28918d6f27cb50a0ff90bb3bf405d0916147069086be",
+                "a8a3a3b70befc4fac7ac6f1546524befd6792ec982cc93a5958b748b22cefc3c",
+                "9d28a8ae381517be1a470344407dfd6683789521a1754187e06c534ad80ebfd9",
+                "049ef2f2adce1a1c3887484d3b39318307b949fbb6e4541b6e782b5a7e75f783",
+                "4f3d80da151ce3a91d97ae9bc0bcfc6304ea08a973095f6e31ce834283ec9f5c"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -64,23 +66,51 @@
             "exampleSites": [
                 "miro.com",
                 "www.crunchbase.com",
-                "www.hellotech.com",
                 "www.leafly.com",
+                "www.menti.com",
                 "www.mentimeter.com",
-                "www.myfitnesspal.com",
-                "zapier.com"
+                "www.ramirent.no",
+                "www.vivino.com"
             ]
         },
         {
-            "rule": "split\\.io\\/api\\/auth",
+            "rule": "split\\.io\\/api\\/v2\\/auth",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "auth"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "228303a5a57e77c65b1e4ad02590302b22bf121688e147b0a9daac6a95491867",
+                "6828feda4828727bcd2c058df6e084ff6ab25720deb4b9fb88cf8ade8327ddd8",
+                "a17eeaa2136c277b27776ce1384748f6d7508d0f6f65ec3f3282e0fe6e577555",
+                "21749f84e9a2443211823f02611ab68d83e70a08ee3acb31a96baf35c5e834ef"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miro.com",
+                "www.menti.com",
+                "www.mentimeter.com",
+                "www.ramirent.no",
+                "www.vivino.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/api\\/v2\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -88,73 +118,14 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "miro.com",
-                "www.crunchbase.com",
-                "www.hellotech.com",
-                "www.leafly.com",
+                "www.menti.com",
                 "www.mentimeter.com",
-                "www.myfitnesspal.com",
-                "zapier.com"
+                "www.ramirent.no",
+                "www.vivino.com"
             ]
         },
         {
-            "rule": "split\\.io\\/api\\/auth",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "auth"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "992fcef3fe83715ee118ad8a364d9138b72bb2501bfb0ae285c7955ecb026db4",
-                "7ea1f2743cb38fdc870bfebf9fcff127a8af0caf5643211db8ea20e9e3710b99",
-                "1bdeca86a697089c6a50ea4b50a4605fceb75f9c63007defaad6dbe0a76d0bf3",
-                "6d0a6e5f77e3c455b282966927d678b7b575f03ef1f36dc2c86e866e2eba9b78",
-                "c2d251ca82db05352fa278f202edda39b36c26812a958f06e701920068aa6fa5",
-                "d00e189b1fa990db471be6f5ed0af9e048e62fd1b201d8b2f611ddb8fdea9c7f"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miro.com",
-                "www.crunchbase.com",
-                "www.hellotech.com",
-                "www.leafly.com",
-                "www.mentimeter.com",
-                "www.myfitnesspal.com",
-                "zapier.com"
-            ]
-        },
-        {
-            "rule": "split\\.io\\/sse",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "streaming"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "EventSource",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miro.com",
-                "www.crunchbase.com",
-                "www.hellotech.com",
-                "www.leafly.com",
-                "www.mentimeter.com",
-                "www.myfitnesspal.com",
-                "zapier.com"
-            ]
-        },
-        {
-            "rule": "split\\.io\\/api\\/mySegments\\/4D77280A4CD257612E004D0302820B8B",
+            "rule": "split\\.io\\/api\\/mySegments\\/4EB9280A0091FD622C00423B02B0FB10",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -174,29 +145,69 @@
             ]
         },
         {
-            "rule": "split\\.io\\/api\\/mySegments\\/e1d953c2-3188-43bd-8808-03268614b979",
+            "rule": "split\\.io\\/api\\/auth",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "sdk"
+                "auth"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "2070e9ec5ea66461693a174cf782efa1090e0ca1988968cc1115d019e7b80a95"
+                "3072a2bb5707c344f20ee4dfd8a77f0f8b93a98fdf7b0eca392fe18700ce0139"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hellotech.com",
-                "www.hellotech.com"
+                "crunchbase.com",
+                "www.leafly.com"
             ]
         },
         {
-            "rule": "split\\.io\\/api\\/mySegments\\/UxAbyBXdqLtycn_NJFpNn",
+            "rule": "split\\.io\\/api\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crunchbase.com",
+                "www.leafly.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/sse",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "streaming"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "EventSource",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crunchbase.com",
+                "www.leafly.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/api\\/mySegments\\/57661c5c63b4e51bbe4dad9b24d8e9c3",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -218,7 +229,7 @@
             ]
         },
         {
-            "rule": "split\\.io\\/api\\/mySegments\\/50ecd060-46b8-4181-bcf0-233f0bc6e610",
+            "rule": "split\\.io\\/api\\/mySegments\\/f23675f5-9d06-4861-96fc-25ae88f12071",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -228,19 +239,17 @@
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [
-                "2070e9ec5ea66461693a174cf782efa1090e0ca1988968cc1115d019e7b80a95"
-            ],
-            "type": "Fetch",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mentimeter.com",
-                "www.mentimeter.com"
+                "vivino.com",
+                "www.vivino.com"
             ]
         },
         {
-            "rule": "split\\.io\\/api\\/mySegments\\/key",
+            "rule": "split\\.io\\/api\\/mySegments\\/f23675f5-9d06-4861-96fc-25ae88f12071",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -257,8 +266,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "myfitnesspal.com",
-                "www.myfitnesspal.com"
+                "vivino.com",
+                "www.vivino.com"
             ]
         }
     ],
@@ -266,9 +275,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 14,
-        "Fetch": 24,
-        "EventSource": 7
+        "Preflight": 16,
+        "Fetch": 20,
+        "EventSource": 2
     },
     "nameservers": [
         "ns-1183.awsdns-19.org",

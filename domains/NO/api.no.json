@@ -7,16 +7,15 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.00482,
-    "sites": 48,
+    "prevalence": 0.00622,
+    "sites": 62,
     "subdomains": [
         "services",
-        "sero.gcloud",
-        "r",
+        "varnish-local",
         "services.gcloud",
-        "bed",
+        "r",
         "web.avis",
-        "g"
+        "bed"
     ],
     "cnames": [
         {
@@ -27,48 +26,6 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "api\\.no\\/api\\/bazaar\\/assets\\/v2\\/bazaar\\.js",
-            "cookies": 0.0001,
-            "fingerprinting": 2,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "window.indexedDB": 2,
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Screen.prototype.width": 2,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "98fdd75b09d73c78e18dca7c7ba9243b068677bd82ff51f6bcee992afc2fbc3e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "amedia%3Afpbid": {
-                    "ttl": 315360001,
-                    "length": 36,
-                    "prevalence": 0.00010035122930255896,
-                    "uniqueness": 1
-                },
-                "amedia%3Avisitid": {
-                    "ttl": 1803,
-                    "length": 50,
-                    "prevalence": 0.00010035122930255896,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bodonu.no",
-                "www.budstikka.no"
-            ]
-        },
-        {
             "rule": "api\\.no\\/api\\/bazaar\\/v2\\/iab\\/consent\\.json",
             "cookies": 0,
             "fingerprinting": 0,
@@ -76,698 +33,371 @@
                 "services"
             ],
             "apis": {},
-            "sites": 43,
-            "prevalence": 0.00432,
+            "sites": 59,
+            "prevalence": 0.00592,
             "cnames": [],
             "responseHashes": [
-                "07cbd48a88dcb1ec9845588ca8299df594849ece196d3734a1fad7c97f149efd",
-                "1c007d7b10c06bb06024b30342b9c741684dcef725e14c67b369938620117828"
+                "4b1e3390bec42b8c7086a60ae099ca49804bce90a8abfe46df640d7f7cb8162c",
+                "8c85936734426033bbacbe1a7ca75eb85a8d2e340d2f9c7f89f101798ce27e1c",
+                "8c434ead125b357c2214774ad894176e8699366868790eb90139e1c1279c1a19"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.tk.no",
-                "www.avisenagder.no",
-                "www.gjengangeren.no",
-                "www.oa.no",
-                "www.sandnesposten.no",
-                "www.firdaposten.no",
-                "www.nidaros.no",
-                "www.pd.no",
-                "www.ringblad.no",
-                "www.bygdeposten.no",
-                "www.hadeland.no",
-                "www.moss-avis.no",
-                "www.ba.no",
-                "www.dalane-tidende.no",
-                "www.nordlys.no",
                 "www.gd.no",
-                "www.an.no",
-                "www.firda.no",
-                "www.op.no",
-                "www.smaalenene.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/bazaar\\/assets\\/v2\\/prebid_ext\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8a63a6b1033f7bea59be23dcfa93a7226ce903c1967fabc65680ff163672848a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
+                "www.oblad.no",
+                "www.kv.no",
+                "www.ha-halden.no",
+                "www.laagendalsposten.no",
+                "www.rb.no",
+                "www.ostlendingen.no",
+                "www.dalane-tidende.no",
+                "www.telen.no",
+                "www.moss-avis.no",
+                "www.aasavis.no",
+                "www.jbl.no",
+                "www.oa.no",
+                "www.glomdalen.no",
+                "www.ta.no",
+                "www.gjengangeren.no",
                 "bodonu.no",
-                "www.budstikka.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v2\\/bundle\\/nettavisen_comscore",
-            "cookies": 0.0001,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "window.sessionStorage": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "Navigator.prototype.platform": 2,
-                "Document.cookie setter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "d47af6afe7544407a24fe1e9e85eca866d71f5a005b5bb67ba325cd6d50c9785"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "cookies.js": {
-                    "ttl": 3,
-                    "length": 9,
-                    "prevalence": 0.00010035122930255896,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nettavisen.no",
-                "reisetips.nettavisen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/",
-            "cookies": 0.00421,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sero.gcloud"
-            ],
-            "apis": {},
-            "sites": 42,
-            "prevalence": 0.00421,
-            "cnames": [],
-            "responseHashes": [
-                "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.sb.no",
-                "www.f-b.no",
-                "www.firda.no",
-                "www.bygdeposten.no",
-                "www.ringblad.no",
-                "www.namdalsavisa.no",
-                "www.tb.no",
-                "nettavisen.no",
-                "www.lofotposten.no",
-                "www.t-a.no",
-                "www.tk.no",
-                "www.nord24.no",
-                "www.ostlendingen.no",
-                "www.oblad.no",
-                "reisetips.nettavisen.no",
-                "www.ha-halden.no",
-                "www.ifinnmark.no",
-                "www.sa.no",
-                "www.h-avis.no",
-                "www.ba.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/main-b1222cca\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "cb71dbb255bed0e2f602b3d941951036a950610af6ecbe6632e3a47f63e1393d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.nord24.no",
-                "www.nettavisen.no",
-                "www.nordlys.no",
-                "www.ifinnmark.no",
-                "www.oblad.no",
-                "www.ostlendingen.no",
-                "www.ao.no",
-                "www.oa.no",
-                "www.ta.no",
-                "www.f-b.no",
-                "www.dt.no",
-                "www.glomdalen.no",
-                "www.dalane-tidende.no",
-                "www.hadeland.no",
-                "www.namdalsavisa.no",
-                "www.sb.no",
-                "www.gjengangeren.no",
-                "www.avisenagder.no",
-                "www.op.no",
-                "www.ba.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@amedia\\/frontend-rpc-47a4f221\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "824c927bcbe730844ccf7780c03bafcf1662567c241896de41a93b047d37788a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.tk.no",
-                "www.sb.no",
-                "www.tb.no",
-                "www.ringblad.no",
-                "www.lofotposten.no",
-                "www.op.no",
-                "www.rb.no",
-                "www.firdaposten.no",
-                "www.t-a.no",
-                "www.oblad.no",
-                "www.sa.no",
-                "www.nidaros.no",
-                "www.ifinnmark.no",
-                "www.glomdalen.no",
-                "www.moss-avis.no",
-                "www.hadeland.no",
-                "www.ha-halden.no",
-                "an.no",
-                "www.f-b.no",
-                "www.nordlys.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@amedia\\/uuid-852e1b2d\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "e6266d3b538c91b1b4e69c945f093e1f815f33b674a55fc9306dd293c59d6fd7"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.bygdeposten.no",
-                "www.f-b.no",
-                "www.ifinnmark.no",
-                "www.glomdalen.no",
-                "www.ta.no",
-                "www.laagendalsposten.no",
-                "www.nordlys.no",
-                "www.gd.no",
-                "www.ba.no",
-                "www.sandnesposten.no",
-                "www.namdalsavisa.no",
-                "www.op.no",
-                "www.avisenagder.no",
-                "www.ostlendingen.no",
-                "www.rb.no",
-                "www.nidaros.no",
-                "www.ha-halden.no",
-                "www.oa.no",
-                "www.dt.no",
-                "www.ringblad.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@amedia\\/adplogger-logger-384bccb9\\.js",
-            "cookies": 0.00401,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "window.localStorage": 41,
-                "Document.cookie getter": 41,
-                "Document.cookie setter": 40
-            },
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "51d1b32a386257d2567a071380722bb7e2ed9e23af9dfc427561b87920bfff06"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "amedia:visitid": {
-                    "ttl": 1806,
-                    "length": 50,
-                    "prevalence": 0.004014049172102358,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.namdalsavisa.no",
-                "www.ostlendingen.no",
-                "www.bygdeposten.no",
-                "www.firdaposten.no",
-                "www.gd.no",
-                "an.no",
-                "www.tk.no",
-                "www.ringblad.no",
-                "www.nettavisen.no",
-                "www.noblad.no",
-                "www.sandnesposten.no",
-                "www.ba.no",
-                "www.moss-avis.no",
-                "www.nidaros.no",
-                "www.op.no",
-                "www.ha-halden.no",
-                "www.h-avis.no",
-                "www.dalane-tidende.no",
-                "www.sa.no",
-                "www.ao.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/main-745b2f37\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "0f9eee1479c5c82834ac117d22c4714667f0adb71c0013a9e99316a66cab2973"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.namdalsavisa.no",
-                "www.lofotposten.no",
-                "www.dalane-tidende.no",
-                "www.oa.no",
-                "www.h-avis.no",
-                "www.nettavisen.no",
-                "www.rb.no",
-                "www.f-b.no",
-                "www.laagendalsposten.no",
-                "www.nordlys.no",
-                "www.ostlendingen.no",
-                "www.oblad.no",
-                "www.ba.no",
-                "www.ringblad.no",
-                "www.ifinnmark.no",
-                "an.no",
-                "www.gjengangeren.no",
-                "www.nord24.no",
-                "www.dt.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/localforage-fd3b56f5\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "window.indexedDB": 41,
-                "Navigator.prototype.userAgent": 41,
-                "window.localStorage": 41
-            },
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "b5311d3361517d99f4e64ac709f0866cd2db4b6bb93f3b93094b36c4ac4495e3"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.laagendalsposten.no",
-                "www.gd.no",
-                "www.firdaposten.no",
-                "www.lofotposten.no",
-                "www.nettavisen.no",
-                "www.tb.no",
-                "an.no",
-                "www.sa.no",
-                "www.avisenagder.no",
-                "www.bygdeposten.no",
-                "www.ifinnmark.no",
-                "www.ba.no",
-                "www.noblad.no",
-                "www.f-b.no",
-                "www.dt.no",
-                "www.moss-avis.no",
+                "www.fremover.no",
                 "www.smaalenene.no",
-                "www.nordlys.no",
-                "www.namdalsavisa.no",
-                "www.oblad.no"
+                "www.nidaros.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/js-cookie-32faeb5f\\.js",
-            "cookies": 0.00401,
+            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/main-e1a7789b\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "services"
             ],
             "apis": {
-                "Document.cookie getter": 41,
-                "Document.cookie setter": 40
+                "window.innerHeight": 59,
+                "window.localStorage": 59,
+                "Navigator.prototype.userAgent": 59,
+                "Date.prototype.getTime": 1,
+                "Event.prototype.timeStamp": 1
             },
-            "sites": 41,
-            "prevalence": 0.00411,
+            "sites": 59,
+            "prevalence": 0.00592,
             "cnames": [],
             "responseHashes": [
-                "6b2135e56b6d437d5ee28eba61cac53f5a0f96596f7c5811b9f2149095ddf625"
+                "ce3d61e454d99809c70712686effb11a4facead9f8bc4ccb14364944064540c3"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "amedia%3Avisitid": {
-                    "ttl": 1806,
-                    "length": 50,
-                    "prevalence": 0.004014049172102358,
-                    "uniqueness": 1
-                }
-            },
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "an.no",
-                "www.tb.no",
-                "www.ao.no",
                 "www.firda.no",
-                "www.gd.no",
-                "www.namdalsavisa.no",
+                "www.op.no",
                 "www.h-avis.no",
-                "www.tk.no",
                 "www.dt.no",
-                "www.ba.no",
-                "www.oblad.no",
-                "www.glomdalen.no",
-                "www.nordlys.no",
-                "www.pd.no",
-                "www.ifinnmark.no",
-                "www.ta.no",
-                "www.ha-halden.no",
-                "www.lofotposten.no",
-                "www.noblad.no",
-                "www.sandnesposten.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@amedia\\/browserid-4440bfa4\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "be1d1f6ff220a3eee053a05ed5ebba70afa2e921cc506c85ccfc4c6aa1381d8e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.tb.no",
-                "www.ba.no",
-                "www.sb.no",
-                "www.ha-halden.no",
-                "www.nordlys.no",
-                "www.op.no",
-                "www.f-b.no",
-                "an.no",
-                "www.ta.no",
-                "www.moss-avis.no",
-                "www.gjengangeren.no",
-                "www.oblad.no",
-                "www.laagendalsposten.no",
-                "www.oa.no",
-                "www.nettavisen.no",
-                "www.namdalsavisa.no",
-                "www.pd.no",
-                "www.smaalenene.no",
-                "www.t-a.no",
-                "www.nord24.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/uuid-fa134ce0\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "0f2297ab584dcbb2e64f4e1e54192a2593cdde77f732cd219153806f8634ab7f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.f-b.no",
-                "www.t-a.no",
-                "www.sb.no",
-                "www.nettavisen.no",
-                "www.ostlendingen.no",
-                "www.moss-avis.no",
-                "www.op.no",
-                "www.ao.no",
-                "www.tk.no",
-                "www.glomdalen.no",
-                "www.ba.no",
-                "www.oa.no",
-                "www.avisenagder.no",
-                "www.sa.no",
-                "an.no",
-                "www.laagendalsposten.no",
-                "www.tb.no",
-                "www.ringblad.no",
-                "www.bygdeposten.no",
-                "www.gjengangeren.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@juggle\\/resize-observer-50d581f0\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 41
-            },
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "47271c6d2dbd6b51e87d0353b804635da648b7f0c01f511a50ffad81eff10801"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.rb.no",
-                "www.pd.no",
-                "www.bygdeposten.no",
-                "www.sandnesposten.no",
-                "www.noblad.no",
-                "www.namdalsavisa.no",
                 "www.gd.no",
-                "www.tk.no",
-                "www.nord24.no",
-                "www.moss-avis.no",
-                "www.t-a.no",
-                "www.ao.no",
-                "www.oblad.no",
-                "www.laagendalsposten.no",
-                "www.ba.no",
-                "www.firdaposten.no",
                 "www.ringblad.no",
-                "www.ostlendingen.no",
-                "www.op.no",
-                "www.gjengangeren.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/bazaar\\/assets\\/cache\\/prebid_ext\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 41,
-                "Navigator.prototype.cookieEnabled": 41,
-                "window.sessionStorage": 41,
-                "Date.prototype.getTime": 41,
-                "Screen.prototype.width": 41,
-                "Screen.prototype.height": 41,
-                "Document.cookie getter": 1,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.doNotTrack": 1,
-                "Navigator.prototype.vendor": 1
-            },
-            "sites": 41,
-            "prevalence": 0.00411,
-            "cnames": [],
-            "responseHashes": [
-                "8a63a6b1033f7bea59be23dcfa93a7226ce903c1967fabc65680ff163672848a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.h-avis.no",
-                "www.nettavisen.no",
-                "www.glomdalen.no",
-                "www.firdaposten.no",
-                "www.nidaros.no",
-                "www.tk.no",
-                "www.ta.no",
-                "www.dt.no",
                 "www.dalane-tidende.no",
-                "www.nord24.no",
-                "www.sandnesposten.no",
+                "www.sa.no",
+                "www.retten.no",
                 "www.t-a.no",
-                "www.namdalsavisa.no",
-                "www.oblad.no",
-                "www.firda.no",
-                "www.ostlendingen.no",
+                "www.nordnorskdebatt.no",
+                "www.moss-avis.no",
+                "www.ao.no",
+                "www.amta.no",
+                "www.glomdalen.no",
+                "www.smaalenene.no",
+                "www.kvinnheringen.no",
+                "www.ha-halden.no",
+                "www.hadeland.no",
+                "www.avisa-hordaland.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@amedia\\/frontend-rpc-d5b438cf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00592,
+            "cnames": [],
+            "responseHashes": [
+                "ccac7de67713ca7b33966f113c5d7781847767f52ed19d3c3cdc5db25f90c39f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hadeland.no",
+                "www.ao.no",
+                "www.noblad.no",
+                "www.smaalenene.no",
+                "www.ha-halden.no",
+                "www.dalane-tidende.no",
                 "www.ba.no",
-                "www.gd.no",
+                "www.lofotposten.no",
+                "www.sognavis.no",
+                "www.ringsaker-blad.no",
+                "www.ta.no",
+                "www.jbl.no",
+                "www.austagderblad.no",
+                "www.ranablad.no",
+                "www.tk.no",
+                "www.avisa-valdres.no",
+                "www.rb.no",
+                "www.budstikka.no",
+                "www.f-b.no",
+                "www.ifinnmark.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@amedia\\/uuid-c15f2d54\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00592,
+            "cnames": [],
+            "responseHashes": [
+                "c871f175a459695f8d94651a7fece29c67a931de0d5ac2f1446bfca3b937a0f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.sageneavis.no",
+                "www.avisenagder.no",
+                "www.nab.no",
+                "www.jbl.no",
+                "www.sognavis.no",
+                "www.hadeland.no",
                 "www.bygdeposten.no",
-                "www.ringblad.no"
+                "www.gd.no",
+                "www.lofot-tidende.no",
+                "www.ranablad.no",
+                "www.retten.no",
+                "www.ostlendingen.no",
+                "www.telen.no",
+                "www.ifinnmark.no",
+                "www.ringsaker-blad.no",
+                "www.namdalsavisa.no",
+                "www.oa.no",
+                "www.glomdalen.no",
+                "www.kvinnheringen.no",
+                "www.ha-halden.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/uuid-d7440bed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00592,
+            "cnames": [],
+            "responseHashes": [
+                "269aaa59c1c3d0d8b4c95d90c3a36984965ac51996eeec52f2a21f6f018d4822"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.ostlendingen.no",
+                "www.austagderblad.no",
+                "www.jbl.no",
+                "www.avisa-valdres.no",
+                "www.op.no",
+                "www.ifinnmark.no",
+                "www.avisenagder.no",
+                "www.hadeland.no",
+                "www.nab.no",
+                "www.nettavisen.no",
+                "www.bygdeposten.no",
+                "www.dalane-tidende.no",
+                "www.sognavis.no",
+                "www.gjengangeren.no",
+                "www.lofotposten.no",
+                "www.retten.no",
+                "aasavis.no",
+                "www.t-a.no",
+                "www.ao.no",
+                "www.kv.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/adplogger\\/v3\\/@juggle\\/resize-observer-915472e8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 59
+            },
+            "sites": 59,
+            "prevalence": 0.00592,
+            "cnames": [],
+            "responseHashes": [
+                "0b05144c46ffc5c66cc71f6781470ebf112ee1408b0a3aca01bca74ac1dc5001"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.direktesport.no",
+                "www.f-b.no",
+                "www.ranablad.no",
+                "www.tvedestrandsposten.no",
+                "www.avisenagder.no",
+                "www.nettavisen.no",
+                "www.firda.no",
+                "www.retten.no",
+                "www.fremover.no",
+                "www.h-avis.no",
+                "www.nab.no",
+                "www.gjengangeren.no",
+                "www.tb.no",
+                "www.ilevanger.no",
+                "www.ringsaker-blad.no",
+                "www.bygdeposten.no",
+                "www.nordnorskdebatt.no",
+                "www.ostlendingen.no",
+                "www.t-a.no",
+                "www.namdalsavisa.no"
             ]
         },
         {
             "rule": "api\\.no\\/api\\/bazaar\\/assets\\/v2\\/bundle\\.js",
-            "cookies": 0.00401,
-            "fingerprinting": 2,
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "services"
             ],
             "apis": {
-                "window.indexedDB": 41,
-                "Navigator.prototype.userAgent": 41,
-                "window.localStorage": 41,
-                "Screen.prototype.width": 41,
-                "Document.cookie getter": 40,
-                "Document.cookie setter": 40
+                "Document.cookie getter": 58,
+                "Screen.prototype.width": 58,
+                "Navigator.prototype.userAgent": 58,
+                "window.innerWidth": 58
             },
-            "sites": 41,
-            "prevalence": 0.00411,
+            "sites": 58,
+            "prevalence": 0.00582,
             "cnames": [],
             "responseHashes": [
-                "7c5d5cebf0b827a5d8ec54ed812e4ea5abda10bd5c9ea8af9cf378fa7a2f320b"
+                "d7dc7826acb3d66a9e27a61d2ade17761f1164af7a2a785c689478e8745f02b6"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "amedia%3Avisitid": {
-                    "ttl": 1806,
-                    "length": 50,
-                    "prevalence": 0.004014049172102358,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.sandnesposten.no",
-                "www.hadeland.no",
-                "www.h-avis.no",
-                "www.ao.no",
-                "www.bygdeposten.no",
-                "www.dt.no",
-                "www.ringblad.no",
-                "www.gd.no",
-                "www.sb.no",
-                "www.ifinnmark.no",
-                "www.namdalsavisa.no",
-                "www.firdaposten.no",
-                "www.noblad.no",
-                "www.nidaros.no",
-                "www.avisenagder.no",
-                "an.no",
-                "www.ba.no",
-                "www.ha-halden.no",
-                "www.f-b.no",
-                "www.moss-avis.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.an\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "de436a04c23cb1a445d8d12e467cf147d6bd6b2222c85f16d0eb03a0d0cf10e9"
-            ],
-            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "an.no",
-                "www.an.no"
+                "www.oa.no",
+                "www.tvedestrandsposten.no",
+                "www.nordlys.no",
+                "www.nidaros.no",
+                "www.nordnorskdebatt.no",
+                "www.sageneavis.no",
+                "www.sa.no",
+                "www.laagendalsposten.no",
+                "www.nab.no",
+                "www.fremover.no",
+                "www.noblad.no",
+                "www.avisa-valdres.no",
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.dt.no",
+                "www.sb.no",
+                "www.t-a.no",
+                "www.ringsaker-blad.no",
+                "aasavis.no",
+                "www.jbl.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/bazaar\\/assets\\/bazaar\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.00582,
+            "cnames": [],
+            "responseHashes": [
+                "99e26abc41fbff34b2d7edd4d20a094cf844b7436089934e0af62e9b2630cb7f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.h-avis.no",
+                "www.ringsaker-blad.no",
+                "www.op.no",
+                "www.kv.no",
+                "www.gjengangeren.no",
+                "www.ifinnmark.no",
+                "www.kvinnheringen.no",
+                "www.austagderblad.no",
+                "www.t-a.no",
+                "www.f-b.no",
+                "www.jbl.no",
+                "www.ba.no",
+                "www.tb.no",
+                "aasavis.no",
+                "www.oa.no",
+                "www.laagendalsposten.no",
+                "www.budstikka.no",
+                "www.ilevanger.no",
+                "www.hadeland.no",
+                "www.sa.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/gaia\\/api\\/public\\/v1\\/siteconfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "varnish-local"
+            ],
+            "apis": {},
+            "sites": 60,
+            "prevalence": 0.00602,
+            "cnames": [],
+            "responseHashes": [
+                "359a31e228668f2a2039eb63874a0ec5e1e0df2364ff76c91a86c6f32f2c6cdd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.sa.no",
+                "www.avisa-valdres.no",
+                "www.namdalsavisa.no",
+                "www.op.no",
+                "www.ta.no",
+                "www.ha-halden.no",
+                "www.sageneavis.no",
+                "www.sognavis.no",
+                "www.nidaros.no",
+                "www.t-a.no",
+                "www.ringsaker-blad.no",
+                "www.gd.no",
+                "www.ilevanger.no",
+                "www.budstikka.no",
+                "www.nordnorskdebatt.no",
+                "www.ifinnmark.no",
+                "www.firda.no",
+                "www.ostlendingen.no",
+                "www.an.no",
+                "www.h-avis.no"
             ]
         },
         {
@@ -778,8 +408,8 @@
                 "services.gcloud"
             ],
             "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
+            "sites": 59,
+            "prevalence": 0.00592,
             "cnames": [],
             "responseHashes": [
                 "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
@@ -788,30 +418,70 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.avisenagder.no",
                 "www.oblad.no",
-                "an.no",
-                "www.oa.no",
-                "www.sandnesposten.no",
-                "www.glomdalen.no",
-                "www.op.no",
-                "www.ha-halden.no",
-                "www.nordlys.no",
-                "www.t-a.no",
-                "www.f-b.no",
+                "www.dt.no",
+                "www.nettavisen.no",
+                "www.ifinnmark.no",
+                "www.sb.no",
+                "www.austagderblad.no",
+                "www.laagendalsposten.no",
+                "www.kvinnheringen.no",
                 "www.ba.no",
-                "www.dalane-tidende.no",
-                "www.nidaros.no",
-                "www.h-avis.no",
-                "www.gd.no",
-                "www.moss-avis.no",
-                "www.firdaposten.no",
-                "www.nord24.no",
-                "www.firda.no"
+                "www.budstikka.no",
+                "www.ostlendingen.no",
+                "www.nordnorskdebatt.no",
+                "www.sognavis.no",
+                "www.sa.no",
+                "www.rb.no",
+                "www.avisenagder.no",
+                "www.amta.no",
+                "www.ao.no",
+                "www.tvedestrandsposten.no",
+                "www.glomdalen.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-589441c990e0b10777338cfe\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/challenge\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00592,
+            "cnames": [],
+            "responseHashes": [
+                "3a1bc190427e906f1ccd66fc65951cf3e09458dfccb7bd8c246775cfd91a4dc7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gd.no",
+                "www.sa.no",
+                "www.nidaros.no",
+                "www.ilevanger.no",
+                "www.nettavisen.no",
+                "www.ranablad.no",
+                "www.nordnorskdebatt.no",
+                "www.rb.no",
+                "www.firda.no",
+                "www.bygdeposten.no",
+                "www.telen.no",
+                "www.avisa-valdres.no",
+                "www.ba.no",
+                "www.moss-avis.no",
+                "www.f-b.no",
+                "www.sb.no",
+                "www.gjengangeren.no",
+                "www.kvinnheringen.no",
+                "www.nab.no",
+                "www.austagderblad.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.aasavis\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -822,182 +492,127 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "9e3fc294d47eeed40ed4ed48cbb7a8a85d5f67f45429e9ed21e4b400e080c4ee"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "an.no",
-                "www.an.no"
+                "aasavis.no",
+                "www.aasavis.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/falaffel\\/v1\\/challenge\\/settitlecode\\/",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.aasavis\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "9e7c88ba8ffa1313bb7186d33bba59f749f95599582709cd0f7481982f7dd4be",
-                "ebfc2b374907baa384d6d20a7a2a93872ef4d937717c39ba50330da409969a10"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.ao.no",
-                "www.moss-avis.no",
-                "www.sandnesposten.no",
-                "an.no",
-                "www.sb.no",
-                "www.sa.no",
-                "www.tb.no",
-                "www.pd.no",
-                "www.hadeland.no",
-                "www.oblad.no",
-                "www.ifinnmark.no",
-                "www.nettavisen.no",
-                "www.f-b.no",
-                "www.h-avis.no",
-                "www.avisenagder.no",
-                "www.nidaros.no",
-                "www.nord24.no",
-                "www.firdaposten.no",
-                "www.t-a.no",
-                "www.ringblad.no"
+                "aasavis.no",
+                "www.aasavis.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/falaffel\\/v1\\/challenge\\/get\\/",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.amta\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 41,
-            "prevalence": 0.00411,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "1fb4ce8e93a12c0dbb22345d388e87986a86c2353facf2402ae74ec8cf785236",
-                "6235c985ed0e7651a85244e0dbf78f76ff5e540f449d5f41e7a3a9025005325f",
-                "e4d65f851dfb3a313ec724f1a4281bab709c425d083f9d16492b14ed901e1824",
-                "46f8dd97d2ba964a52d743aa2af3ef19a3bb603542b250719bad44fa814ea218",
-                "accee78d7a5e7bef9d5b2a2a5726dbe3bff0cd183e6215e9366694a42c2ff5f0",
-                "7b03734967d89288b43df0296fc8facd0208a707fc822949340ae5bba5f0c611",
-                "10e83702c70a9408d3fb131fb03dde8f9d7ed1b982b849d3a6685ed3a60f8f2f",
-                "1cab860a421e0ae30de132988d7929002f831889abd0184025a0af9e1de71c7a",
-                "eb924736654d10eaaf9a12fe03c61c605e56a671b811491f746808bfe6c6436f",
-                "097ac07e0ac8a9b7dcde98e9a2e6205231e7c32042137131b9c6fe41a99efd78",
-                "1df6f7f62449cb18ae3a811ce558525fa5d7113b1844f84043867853efbc2ed5",
-                "25361a340e3ca50f6037631a41bff3bf499522b47c4fa6e21fafbabd0e6f4263",
-                "a08e4684c57ce3e928903a77780906ca030da7b298d7d847eddab0525261dd87",
-                "52d21d4d56cde1c9da27675e3ed779223e04dd342bd76203ec3146849cb8b1c3",
-                "d3cc923197972958d7e6d30541c90f5b4f26048aacd78a2280477b427852912e",
-                "195a277a9131a52e3d03d89f404289cbb8eaf96b49408ebf2accfebf3abde48b",
-                "3f6ad362c245bce0c6459dbf800f683ed75883ecd8a782c370553c94833edf70",
-                "9deefb416643e9a1c2576c58b1acc352305dc06f638f62cc41565963696d61ab",
-                "14502dee6e70d3aa3baf7a4ed67960f99e18dd96431d5e85fced7fc6bdc948b4",
-                "d5c8b82bc2a547301267ad4c9fbce90a4894b7ae673977d63cbbc04b0c30db82",
-                "7fff6d72eb7ad5c65ee30abe6ad27fb99670010e7af220db77521c72525b54b7",
-                "73e2ea9d35e6ee970f26a1221f13df281cda486e65ba2296164d8466abecf80e",
-                "c0110aeccdf0140a5cc32d495c301e608efc0d5de81b3fe2470dfee839b0d779",
-                "aa7b050b1d4e6abf1d5d6779de03531fcebed7fec5d1964e0ff6ce5ce56ce0a1",
-                "a5ecf7e9088ae440874a787666176e21ed5c3017a2ba4b3c8f302c44840e7291",
-                "cfa23dedb3ec623dfe08a0d56bd9b0f3faea8271a156a4407912bfa8a55052b4",
-                "aadc1b2feb16a8159b653ba2c651f7136895f94c7b0c738a5a423b81c7757f9c",
-                "82bff12b6143b9cdf216e00cf261c9f7212a4ff5a55a37534d700ba994a0cb08",
-                "921ebf75c090ddd707baa44b0c5f50f3e0318fe3f7b79945fe166567d36c428e",
-                "d43bb797d96b84fd2e21c6406c5b0f242ee52d2531117245b959f6220605531f",
-                "2262279055d698fa47aa1ee0b05f42cc8cc1de0656cb1555432c155cb56edf17",
-                "67b30cd737b2e13a6bce516933b933c5b00e5d0360465acb1b0cf4a341dbd042",
-                "064c429810e2fc54d31dd72bc8cbcf1243f410cb9285143ede1249d4dfdd2aca",
-                "70c13dcfa2b9d13fb34348f3e08073e6940af68f18fc6010735986c438f13fb3",
-                "d0f8c7be5d99a8d6fb41afb67671f841ae311c9d687c48c0b51c5ac782359f04",
-                "3ef655abfa9a3ed319ec3977abe4b28ba0f23b6c085701421e4e5ffdd1579d8e",
-                "dcf8b4624e4d1d970bf9030ef4af8ccfd52eade2feb94f8bd62145756776c313",
-                "5dc5e320a822b586fa7c7158b4d482a7295aa33ae07e6674b7354854471801db",
-                "d49fc6db49f0a9b7a3d67418da0828983f2a077657a95790ad15bafe21063f6b",
-                "55dac39bafb6ee893deef0d05053e2259254af5dc38c3d25ef69a6be47abbd0c"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.laagendalsposten.no",
-                "www.firdaposten.no",
+                "amta.no",
+                "www.amta.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.amta\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amta.no",
+                "www.amta.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.r-a\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
                 "an.no",
-                "www.smaalenene.no",
-                "www.glomdalen.no",
-                "www.firda.no",
-                "www.h-avis.no",
-                "www.sb.no",
-                "www.ba.no",
-                "www.nettavisen.no",
-                "www.f-b.no",
-                "www.lofotposten.no",
-                "www.ta.no",
                 "www.an.no",
-                "www.tk.no",
-                "www.nord24.no",
-                "www.op.no",
-                "www.oa.no",
-                "www.nordlys.no",
-                "www.nidaros.no"
+                "www.dalane-tidende.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/pipek\\/v2\\/classified\\/search\\/cached",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.r-a\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "bed"
+                "services"
             ],
             "apis": {},
-            "sites": 44,
-            "prevalence": 0.00442,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e0417eee31dbf88ce2cfdf45efa46385dca40aa046197391cb2b4ae93a8b770a",
-                "f4b01588988d71cc013582d4dc2910a9edd19dc8e3052e9fd043ef18cdec7a99",
-                "bc563d9ed82ea71e1b6b030a87c400540f6335542cab79f45b48ecec32a6dca8",
-                "8b3b306dfdc2831e683d48abed397f8765816f384edfa630f6daab87544ec5b4",
-                "bd8fc43d87e2f4d4e7ca4cb43e5ca846b75c3b8d301cee8147f7d2a7f7460e35",
-                "4346b8521bd0ff0be9362ecea6950c7fa6ac5eae4ec6cf72cbd26f3b44744b37",
-                "1cb310c67f82b02aea469cd634d5f61de27153dad91f6b4ec99b4a47114864f4",
-                "6dca9eafd713e83b7d401a645f435a93254b90a2ad6bb328c241432728837902",
-                "7ec541222db714ab229f0134fff4fb45f1e76d7d6535440f5e89bf3b65fd5144"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.oa.no",
-                "www.lofotposten.no",
-                "www.nidaros.no",
-                "www.sb.no",
-                "www.ba.no",
-                "www.nord24.no",
-                "www.bygdeposten.no",
-                "www.moss-avis.no",
-                "www.namdalsavisa.no",
-                "www.ta.no",
-                "www.h-a.no",
-                "www.budstikka.no",
-                "www.ao.no",
-                "www.stangeavisa.no",
-                "www.f-b.no",
-                "www.ifinnmark.no",
-                "www.tk.no",
-                "www.firda.no",
-                "www.smaalenene.no",
-                "www.t-a.no"
+                "an.no",
+                "www.an.no",
+                "www.dalane-tidende.no"
             ]
         },
         {
@@ -1012,7 +627,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "70c502b389edaf6a40a9f822d418a4bfe38505bda7baad442b2769c32f38c00a"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1023,7 +638,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ao\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ao\\.no\\/gfx\\/small\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1034,7 +649,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "7b765282cefcdb8588fd9f4c216ea53c5f99b0bc1778cc8e24be43c0b6836e83"
+                "e68e67b556da3763e1291b71efcc14642a779590724cc1be16b482305d639b64"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1056,7 +671,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1067,29 +682,55 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.avisenagder\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.dt\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "r"
+                "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "62f805895b17ada3c08fb20d21b7799692f3f46116fc15efec41e44c5052092c"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "avisenagder.no",
-                "www.avisenagder.no"
+                "ao.no",
+                "www.ao.no",
+                "www.dt.no",
+                "www.lofotposten.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5c5aba33d7da4570640976a3\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.dt\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ao.no",
+                "www.ao.no",
+                "www.lofotposten.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.austagderblad\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1100,14 +741,168 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "fe92396d96ade7baf7ca34c9d9747101712ec6a015e05ecd425e00c793ca96d1"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "avisenagder.no",
-                "www.avisenagder.no"
+                "austagderblad.no",
+                "www.austagderblad.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.austagderblad\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "austagderblad.no",
+                "www.austagderblad.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.avisa-hordaland\\.no\\/gfx\\/small\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eeb6c208b16b73872611321e36531304f24e4b3d80ac5228031a804f9587e58c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisa-hordaland.no",
+                "www.avisa-hordaland.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.avisa-hordaland\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisa-hordaland.no",
+                "www.avisa-hordaland.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.avisa-hordaland\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisa-hordaland.no",
+                "www.avisa-hordaland.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.avisa-valdres\\.no\\/gfx\\/small\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1de5f6724344e6cf185e66948f08758e3318d10ed9ac7f105d140c2c9d290230"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisa-valdres.no",
+                "www.avisa-valdres.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.avisa-valdres\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisa-valdres.no",
+                "www.avisa-valdres.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.avisa-valdres\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisa-valdres.no",
+                "www.avisa-valdres.no"
             ]
         },
         {
@@ -1118,44 +913,94 @@
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "960c7bfc8444c726d1c46fddbe01f886692c59be4915855009c3ba88b2272088"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "avisenagder.no",
-                "www.avisenagder.no"
+                "www.avisenagder.no",
+                "www.oa.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ba\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.avisenagder\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "r"
+                "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "6697cb09b3a026d4ef016f76840f0f2f276391363f5a393ba2c1d60df5d3975d"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
             ],
-            "type": "Image",
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avisenagder.no",
+                "www.avisenagder.no",
+                "www.oa.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.ifinnmark\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ba.no",
-                "www.ba.no"
+                "www.ba.no",
+                "www.ifinnmark.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58ca581ecb73e217590c22fe\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.ifinnmark\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ba.no",
+                "www.ba.no",
+                "www.ifinnmark.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.budstikka\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1166,268 +1011,398 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5d30c3f55270ddd53e6bc7897b470f4e02efe4ec99e6590f6209a8dcc4e3783b"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ba.no",
-                "www.ba.no"
+                "budstikka.no",
+                "www.budstikka.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/tivoli\\/jobcarousel\\/preview",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.isandnessjoen\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "services",
-                "web.avis"
+                "services"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "rubrikk.h-a.no",
-                    "resolved": "web.avis.api.no"
-                }
-            ],
+            "cnames": [],
             "responseHashes": [
-                "f1116228da0004d25e7bb6e1d5e793a31909551e78fe4ff7e75dcff7396ea1b2"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
-            "type": "Document",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "budstikka.no",
-                "www.h-a.no"
+                "www.budstikka.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/tivoli\\/assets\\/polyfills\\.js",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.isandnessjoen\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "services",
-                "web.avis"
+                "services"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "rubrikk.h-a.no",
-                    "resolved": "web.avis.api.no"
-                }
-            ],
+            "cnames": [],
             "responseHashes": [
-                "f730e3703ab53cd9e4ea48346e4bdf7f12011ff083a24ac624582adae02c0fdc"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "budstikka.no",
+                "www.budstikka.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.helg\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bygdeposten.no",
+                "www.bygdeposten.no",
+                "www.ha-halden.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.helg\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bygdeposten.no",
+                "www.bygdeposten.no",
+                "www.ha-halden.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.dalane-tidende\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dalane-tidende.no",
+                "www.dalane-tidende.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.direktesport\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "direktesport.no",
+                "www.direktesport.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/countdown\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4f69e046eab10d6c6ac1e42cc4b8cab3fe3fa68347009e8ba1faa451f768a81f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dt.no",
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/countdown\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "4f69e046eab10d6c6ac1e42cc4b8cab3fe3fa68347009e8ba1faa451f768a81f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "budstikka.no",
-                "www.h-a.no"
+                "dt.no",
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.bygdeposten\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "4a58e35c3ca8c85ef2f421e0845bb85e19cb77b8bd41a9a73a5549c5f7c7e96c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bygdeposten.no",
-                "www.bygdeposten.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.bygdeposten\\.no\\/",
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/push\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "70c502b389edaf6a40a9f822d418a4bfe38505bda7baad442b2769c32f38c00a"
+                "44d6e0c6dbad9dcdfc09bed0af99588a93702474a5dd7402bd32793d1388f66a"
             ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bygdeposten.no",
-                "www.bygdeposten.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.dalane-tidende\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fd707dee0f7543f199c9e9631b9a2b9129fb9f1dcde21bb9427e1625dc1f240e"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dalane-tidende.no",
-                "www.dalane-tidende.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5c5abbc24213c9156fb154ef\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "3c29d5162a19f7323cae9691acdbf17e625552e4d647a09a7b2866df8168a922"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dalane-tidende.no",
-                "www.dalane-tidende.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.dt\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f69365d9b68293eb9bebe97196eb2177fa6709e62a3dbdca16e4d3277a7fe401"
-            ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dt.no",
-                "www.dt.no"
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5898345890e0b10777347c39\\/rendered",
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/countdown-bottom\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "cd54c45f50f161d39c893e9d3b11ae0632511407db70ac6e5948133ad0a6d0c4"
+                "8ec34cf2bfee02f82c5ad47db30a86bc0582de38aef1cb6993eb29c2aeff837f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dt.no",
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/countdown-vignette\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "8a54f87db1ee18d981c3cee23b2ab600ef4de9833375d5f6ee7bbd002c7aabc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dt.no",
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/push\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "44d6e0c6dbad9dcdfc09bed0af99588a93702474a5dd7402bd32793d1388f66a"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dt.no",
-                "www.dt.no"
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.dt\\.no\\/",
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/countdown-bottom\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "8ec34cf2bfee02f82c5ad47db30a86bc0582de38aef1cb6993eb29c2aeff837f"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dt.no",
-                "www.dt.no"
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.f-b\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "db79c5baa13406d7f457aeedddd51c98fd59b5827bf9bc34b6ef4cd2e2f7f01f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "f-b.no",
-                "www.f-b.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58caa5d0cb73e217590cf883\\/rendered",
+            "rule": "api\\.no\\/api\\/scorponok\\/v1\\/assets\\/js\\/countdown-vignette\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "d5e48d90ced1463edc2941cb72be2797223c46bcc67fd65398cd69e5f2501325"
+                "8a54f87db1ee18d981c3cee23b2ab600ef4de9833375d5f6ee7bbd002c7aabc6"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "f-b.no",
-                "www.f-b.no"
+                "dt.no",
+                "www.f-b.no",
+                "www.lofotposten.no",
+                "www.nidaros.no",
+                "www.sa.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.namdalsavisa\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dt.no",
+                "www.dt.no",
+                "www.namdalsavisa.no",
+                "www.op.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.namdalsavisa\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dt.no",
+                "www.dt.no",
+                "www.namdalsavisa.no",
+                "www.op.no"
             ]
         },
         {
@@ -1438,62 +1413,47 @@
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "bc8febb771b35f79cbe47db238c14b5f19dfc6e6d5895ffded9735ceb50fc05e"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "f-b.no",
-                "www.f-b.no"
+                "www.f-b.no",
+                "www.rb.no",
+                "www.sa.no",
+                "www.ta.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.firda\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fbeafddf093814ad58526a9c586d0c90615ab494451386ed339a5e6c06512b6c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "firda.no",
-                "www.firda.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5885f86e33523e076b8beb69\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.f-b\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "c81df957361772b1dd060fa4a0c1cc63ea785447dbb508a3431b1430512f2093"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "firda.no",
-                "www.firda.no"
+                "f-b.no",
+                "www.f-b.no",
+                "www.rb.no",
+                "www.sa.no",
+                "www.ta.no"
             ]
         },
         {
@@ -1508,7 +1468,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1519,29 +1479,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.firdaposten\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "7cfa11f60489ab31b4c373aa9c59c1ab7419a80edb161efbcd189441c049a962"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "firdaposten.no",
-                "www.firdaposten.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.firdaposten\\.no\\/",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.firda\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1552,14 +1490,85 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "firdaposten.no",
-                "www.firdaposten.no"
+                "firda.no",
+                "www.firda.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.fremover\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fremover.no",
+                "www.fremover.no",
+                "www.ilevanger.no",
+                "www.laagendalsposten.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.iharstad\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fremover.no",
+                "www.fremover.no",
+                "www.ringsaker-blad.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.iharstad\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fremover.no",
+                "www.fremover.no",
+                "www.ringsaker-blad.no"
             ]
         },
         {
@@ -1585,28 +1594,6 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.gd\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "5ae020fb7a8d0851880d1e068b40bbbc5d2df5de857350b71f8fd87e3eac4617"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gd.no",
-                "www.gd.no"
-            ]
-        },
-        {
             "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.gd\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
@@ -1618,7 +1605,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b725fb868a98d0c335dc6f385c6196a21d2bf210c4a49930a8007afec2207d77"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1629,29 +1616,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.gjengangeren\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "66c3a10cebe87f4f02f89d5fe79fe32cc08081549ee29e87222e96fd7a3ea0fa"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gjengangeren.no",
-                "www.gjengangeren.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.gjengangeren\\.no\\/",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.gd\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1662,40 +1627,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "70c502b389edaf6a40a9f822d418a4bfe38505bda7baad442b2769c32f38c00a"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gjengangeren.no",
-                "www.gjengangeren.no"
+                "gd.no",
+                "www.gd.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.glomdalen\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fc884eb58d4cc4efbe35f3e67e9df870d195404d9e665e88c8cd46f21297a1d9"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "glomdalen.no",
-                "www.glomdalen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cb995153215e0ad6b50ee4\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.sb\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1706,14 +1649,36 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "dc438bf362de76c1ecc07a2b6892a6af86d22a4a4481b386f74e7ae0f31c9a51"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "glomdalen.no",
-                "www.glomdalen.no"
+                "gjengangeren.no",
+                "www.gjengangeren.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.sb\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gjengangeren.no",
+                "www.gjengangeren.no"
             ]
         },
         {
@@ -1728,7 +1693,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1739,29 +1704,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.h-avis\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f7f187c8a01cbbadf18a26263abad94a2aed87b45fdcba6262c78a31d69b40e9"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "h-avis.no",
-                "www.h-avis.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cba88ecb73e217590d5745\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.glomdalen\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1772,14 +1715,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ef224ccdc2e46ab9b61b321fa10072d294deacde7587c2cdc5ce1f4311109995"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "h-avis.no",
-                "www.h-avis.no"
+                "glomdalen.no",
+                "www.glomdalen.no"
             ]
         },
         {
@@ -1794,7 +1737,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "075926fa15d12d47310cc2bf35e1d923431f92a483c9bd1e7a0f197a72c5de7f"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1805,29 +1748,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ha-halden\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "4bc2be508dc8d5b17740959ace2e1144f0abe01340290eb717ea0e00952d9fd4"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ha-halden.no",
-                "www.ha-halden.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cba06453215e0ad6b513f8\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.ba\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1838,14 +1759,36 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "da1006f659f9468ecf80ca3d4589ec299188c7100687417a313fee1d912bc4b7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ha-halden.no",
-                "www.ha-halden.no"
+                "h-avis.no",
+                "www.h-avis.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.ba\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h-avis.no",
+                "www.h-avis.no"
             ]
         },
         {
@@ -1860,7 +1803,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1868,94 +1811,6 @@
             "exampleSites": [
                 "ha-halden.no",
                 "www.ha-halden.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/355x223rp-hi\\/1633086109000\\/80\\/2d\\/802df93c867f7a92b6bf0d3b6d45c733",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "ddaa6e0e92794a36741337719855202733b02789933cbcd99c9062e0d0d70120"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "h-a.no",
-                "www.stangeavisa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/rubrikk\\.h-a\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "247486ca1e5d40d07cbaef8cf5035cb7b9cd8e990422307ccbb83c5b21764e9c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "h-a.no",
-                "www.stangeavisa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.hadeland\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f7c98cbfa629ee3e019d89082c9171510bc5ed2044c5653434cb42031676ac99"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hadeland.no",
-                "www.hadeland.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cba41b53215e0ad6b5176d\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "ac790f8bd0f30c1cdac032ea603e70b09d24f87adeee6cfb614468e5c2efa029"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hadeland.no",
-                "www.hadeland.no"
             ]
         },
         {
@@ -1970,7 +1825,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "dd0945ae5d43cdc1405125421eae2a4e71192f52da961041b5aa122695873c8b"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1981,29 +1836,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ifinnmark\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "aaba54f9ec16ce180337fd48c2f9411ed12c18db8b95fa31f37548bcbf79433f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ifinnmark.no",
-                "www.ifinnmark.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.ifinnmark\\.no\\/",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.hadeland\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2014,18 +1847,65 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ifinnmark.no",
-                "www.ifinnmark.no"
+                "hadeland.no",
+                "www.hadeland.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.laagendalsposten\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/api\\/tivoli\\/jobcarousel\\/preview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web.avis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "rubrikk.h-a.no",
+                    "resolved": "web.avis.api.no"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h-a.no",
+                "www.h-a.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/pipek\\/v2\\/classified\\/search\\/cached",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "221cb897579a0e1f1c13687a37933bd07395641b8c70bbdf80811a79c3595611"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h-a.no",
+                "www.h-a.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ilevanger\\.no\\/gfx\\/small\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2036,18 +1916,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "f4dd675202a19d910e8c9aae33c898819083a008c7de6fb7e78134c0b0e74148"
+                "1ed849b35d88cbad9f49691d35f06a9ac54dda240d31b77b242bbc81c13ce68a"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "laagendalsposten.no",
-                "www.laagendalsposten.no"
+                "ilevanger.no",
+                "www.ilevanger.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-57c97affd410453c5c0eb9b9\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.ilevanger\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2058,14 +1938,214 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "65d76f53259dcb7c00840805d3ae8b65c7cad727fb7d420b8e0d476cce0a608b"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "laagendalsposten.no",
+                "ilevanger.no",
+                "www.ilevanger.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.fremover\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilevanger.no",
+                "www.ilevanger.no",
                 "www.laagendalsposten.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.jbl\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbl.no",
+                "www.jbl.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.jbl\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbl.no",
+                "www.jbl.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.kv\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kv.no",
+                "www.kv.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.kv\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kv.no",
+                "www.kv.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/mnemonic\\/v1\\/public\\/smartembed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ed3ec7d80a856599d42e68c0aeb0efc5ab0cac01e3caa1fed354b67f204bb28"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kv.no",
+                "www.tvedestrandsposten.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/mnemonic\\/v1\\/public\\/smartembed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ed3ec7d80a856599d42e68c0aeb0efc5ab0cac01e3caa1fed354b67f204bb28"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kv.no",
+                "www.tvedestrandsposten.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.kvinnheringen\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvinnheringen.no",
+                "www.kvinnheringen.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.kvinnheringen\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvinnheringen.no",
+                "www.kvinnheringen.no"
             ]
         },
         {
@@ -2080,7 +2160,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8d628f471691524c3a8a6455053e15e95249d1ddd1072634faf104e4a3a1aa6b"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2091,7 +2171,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.lofotposten\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.lofot-tidende\\.no\\/gfx\\/small\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2102,18 +2182,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "867fd37fda09fb32087c48e806d6400984d555ec8d29d935b2d4225ad8790f36"
+                "47bb7f1e746c560dcf1945742e076c6c9cb240edbe982cf951cfbcfbd6d8e9c7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lofotposten.no",
-                "www.lofotposten.no"
+                "lofot-tidende.no",
+                "www.lofot-tidende.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cbbcdecb73e217590d7f6e\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.lofot-tidende\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2124,14 +2204,36 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "20e0197b65ab89e11819b2854bb71f04152af81988976b3a7ef5a02f634f1469"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lofotposten.no",
-                "www.lofotposten.no"
+                "lofot-tidende.no",
+                "www.lofot-tidende.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.lofot-tidende\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lofot-tidende.no",
+                "www.lofot-tidende.no"
             ]
         },
         {
@@ -2146,7 +2248,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2157,47 +2259,50 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.moss-avis\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f3a995b896283ce21add8f2aebb304adf22d874c63631100eadac56de0453562"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "moss-avis.no",
-                "www.moss-avis.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cbbe5453215e0ad6b53f7d\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.nordhordland\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "fe1dd4662548112a36013932a1fddc5e3f1c84061625d2958d497f17c8eaec8b"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "moss-avis.no",
-                "www.moss-avis.no"
+                "www.moss-avis.no",
+                "www.tb.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.nordhordland\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moss-avis.no",
+                "www.moss-avis.no",
+                "www.tb.no"
             ]
         },
         {
@@ -2212,7 +2317,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2220,6 +2325,72 @@
             "exampleSites": [
                 "moss-avis.no",
                 "www.moss-avis.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.nab\\.no\\/gfx\\/small\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eb225e353ec9e9e465a4bc277a8c2043a72ff7d593079b2f083d6d07f4363e09"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nab.no",
+                "www.nab.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.nab\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nab.no",
+                "www.nab.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.nab\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nab.no",
+                "www.nab.no"
             ]
         },
         {
@@ -2245,182 +2416,6 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.namdalsavisa\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "62b158e525801d615566b8dfa5d9e794761986fd6beeb0af2ca807371a9efdda"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "namdalsavisa.no",
-                "www.namdalsavisa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5f3408b39e011204a8462780\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "73f7edd4ce56f09f13ffde73984c4a9c3d3ce0653a4a9cae95f032ab65cb972f"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "namdalsavisa.no",
-                "www.namdalsavisa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.namdalsavisa\\.no\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "d4e9e5d846ad907b4774aa1e7568e7ac1dc909244e22f5f976514d37439614e9"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "namdalsavisa.no",
-                "www.namdalsavisa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5c3354f2c10c5c572985205e\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "acc9843edd8c9028dbd0b4dc511e8ab0c24fde0f6b6d5f117fc4b0b1b81d2c12"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nettavisen.no",
-                "www.nettavisen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-6098e772147b08a638fccd25\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "697cbd951a3e0bbca57f46307f831dee94e29d89c4e92d94c5c068b7047ec403"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nettavisen.no",
-                "www.nettavisen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-6098e73b147b08a638fccc20\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "321ac011169cffccbe8dc7daf3fcf024bb051bd27e31842d11ec878bd9a2c1ec"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nettavisen.no",
-                "www.nettavisen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-607d519851893ef8d1970d03\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "86ce8911a0f1a61de13a2497d43e73e420c8e8794d450738499f4dff8948b04d"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nettavisen.no",
-                "www.nettavisen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-6098e6fff939845a32f5015c\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "dc14f372a141178387d9dbb279a02d639971738c3a624871c7f7c6531b651059"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nettavisen.no",
-                "www.nettavisen.no"
-            ]
-        },
-        {
             "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.nettavisen\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
@@ -2432,7 +2427,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "71dc7b2af6a8607e485bff8a264b9c14feca9ac6d2095ed75419946e045e4e00"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2443,7 +2438,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.nidaros\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.nidaros\\.no\\/gfx\\/small\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2454,31 +2449,9 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b55e0bc3b4bad3713135735504336347978d5217f792d995bd34e89e4f889bdb"
+                "2e1fdc1f318b49baa88828b3171ec6af7a9d191fc358b268ac8fdf887bf84944"
             ],
             "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nidaros.no",
-                "www.nidaros.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5ddf91dd53ab2f09215a01d6\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "028c4b44551d18222c4eb16b918a1bfe4beb3f3343a92298de72a9b1016deadc"
-            ],
-            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -2498,7 +2471,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "1b0b62639af4368505afe2e244491ec497072a57c7a2a14e3f57c4dfbd72bdbe"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2509,25 +2482,25 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.noblad\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.nidaros\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "r"
+                "services"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "86b81cb1b3cf5da64f86c3a4f3139cdc37999ac963da734873961f27c34362a7"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "noblad.no",
-                "www.noblad.no"
+                "nidaros.no",
+                "www.nidaros.no"
             ]
         },
         {
@@ -2542,7 +2515,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2553,47 +2526,25 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.nord24\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.noblad\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "r"
+                "services"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "83c9fb7b38987ddba0e2b77bc8bdd76e71be76d03d466a9f908096924d2b9270"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nord24.no",
-                "www.nord24.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.nordlys\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "adf278e4edbc9a6055be0ab9f55c8f9e9267fd8aa68355367564ff7a3f039991"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nordlys.no",
-                "www.nordlys.no"
+                "noblad.no",
+                "www.noblad.no"
             ]
         },
         {
@@ -2608,7 +2559,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6d4db40ae08bf7e73af91d0c377e3c7363ef766bd8dcc4610a957554d271e0f3"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2619,29 +2570,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.oa\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "9ff44793546a89507a76c71c7716260d5a3f3c6b22949f3a42be6e072735aad3"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "oa.no",
-                "www.oa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cbc40c53215e0ad6b5518b\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.nordlys\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2652,14 +2581,58 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "db9c2f1dbc483d7ffb7357f752b11f1b8f58a91729490f973fdbcdc612fe0337"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "oa.no",
-                "www.oa.no"
+                "nordlys.no",
+                "www.nordlys.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.nordnorskdebatt\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordnorskdebatt.no",
+                "www.nordnorskdebatt.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.nordnorskdebatt\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordnorskdebatt.no",
+                "www.nordnorskdebatt.no"
             ]
         },
         {
@@ -2670,40 +2643,19 @@
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "oa.no",
-                "www.oa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.oblad\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "5989c2e052ceb2e93408b98df443e91d0019c653c4b2e486ca595fb8b403f9bc"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "oblad.no",
-                "www.oblad.no"
+                "www.oa.no",
+                "www.telen.no"
             ]
         },
         {
@@ -2718,7 +2670,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2729,51 +2681,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.op\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "dc069f8088bf09d55d27b8898454c5b94f89cc64ba73731d0ba5b9af4cd77953"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "op.no",
-                "www.op.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ostlendingen\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "bddb7cc862ea47e8c73cc663b884bacafa301c241f2feccf8d2ed18a5848d493"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ostlendingen.no",
-                "www.ostlendingen.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58d0e989baa9743445d26486\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.oblad\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2784,14 +2692,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ac26605f19c1db4a3621bc799335c3f283935bf1676f58d6a9b10cff5d18236e"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ostlendingen.no",
-                "www.ostlendingen.no"
+                "oblad.no",
+                "www.oblad.no"
             ]
         },
         {
@@ -2802,308 +2710,94 @@
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "8b3f48a5a0b4413e2e3874bcdb97219ac8d5c1a5fc930e67ff37debb2637a12a"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ostlendingen.no",
-                "www.ostlendingen.no"
+                "www.ostlendingen.no",
+                "www.sb.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.pd\\.no\\/gfx\\/small\\.svg",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.ostlendingen\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "r"
+                "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "8246aa5b2b24bcce028963a3ad818d28d7ef19775937b593d377357b4b447ab0"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pd.no",
-                "www.pd.no"
+                "ostlendingen.no",
+                "www.ostlendingen.no",
+                "www.sb.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.pd\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.retten\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "r"
+                "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "580667b4b36741f8596627bb36c4bcb51c74804040200d3a32282865a89e2d16"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pd.no",
-                "www.pd.no"
+                "ranablad.no",
+                "www.ranablad.no",
+                "www.retten.no"
             ]
         },
         {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/27\\/8c\\/278c26fa127ccde4cfeda0d839bd8182",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.retten\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "g"
+                "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d42ad523b95085d567102de1c3c2fff58919a9ccce90f6369e02a860cf31730c"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb",
+                "4a43cd89931e79db1a07e75107c0fa45f07e73d5023cddbad0c03cad55feb967"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pd.no",
-                "www.ta.no"
+                "ranablad.no",
+                "www.ranablad.no",
+                "www.retten.no"
             ]
         },
         {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/b9\\/6b\\/b96be2f9211524b53f81d871da77d66d",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fe978ceb3029dbf1ca9a3c14cd76ed24d7ab4c3d513e14c5d5b73479e79fe23d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/53\\/cf\\/53cf906795abefaeda05ff9f0ac74272",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "76f579ef4a7d08353d217d3b3ba2dd8bbc8b3e1ad6fbb853012d6413de31d65b"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/07\\/ec\\/07ec837e0ea5f97de65ec848f0f06f4a",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fcd76c676c08c87cf877b0e2b760ecbb2fffc9aef1fe2cbb2a7399d0e07acf03"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/4c\\/c3\\/4cc33b74da0626ecc2d9e5979b2eb7eb",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fe978ceb3029dbf1ca9a3c14cd76ed24d7ab4c3d513e14c5d5b73479e79fe23d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/45\\/fa\\/45faece5ddf48aa06cdfc7084162fabc",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fe978ceb3029dbf1ca9a3c14cd76ed24d7ab4c3d513e14c5d5b73479e79fe23d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/9a\\/71\\/9a717a152924fc7ac0e8b294ae831d62",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fcd76c676c08c87cf877b0e2b760ecbb2fffc9aef1fe2cbb2a7399d0e07acf03"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/2d\\/3e\\/2d3ee821a9a44a6d5b1ce47815b2f5eb",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "7d182ce1a28a56dbf76d0e6e61bf92e26032af3854c97a974add2ba1acbdac83"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/89\\/e6\\/89e66b5aed7361327712c7c8ddc6e2ab",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "7d182ce1a28a56dbf76d0e6e61bf92e26032af3854c97a974add2ba1acbdac83"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/obscura\\/API\\/image\\/r1\\/zett\\/90x90r\\/1510165749000\\/65\\/22\\/6522ff008f7a41f68e75d3bc78a60b32",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fe978ceb3029dbf1ca9a3c14cd76ed24d7ab4c3d513e14c5d5b73479e79fe23d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pd.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.rb\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "72ac758cd62ba5a37e7a6e48d7ef94d4d31c50a11f73db857e36c92d55cea9b1"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "rb.no",
-                "www.rb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cbdc5753215e0ad6b59726\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.ranablad\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3114,80 +2808,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "9d1873aa34f0fb9b040670972fe61eb899818125e2d606a67550f360c5bec441"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "rb.no",
-                "www.rb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.rb\\.no\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "rb.no",
-                "www.rb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ringblad\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "34496ad2a597879c358900dd06bd60ee8986594aac527cef5fcc3e90b3df24f2"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ringblad.no",
-                "www.ringblad.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-57db8e48b3fa23cd74eef696\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "b5bb9e33a97d747ba1b7f20865dad2393ecc08d94475b6c6d55312e2b3a9a25a"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ringblad.no",
-                "www.ringblad.no"
+                "ranablad.no",
+                "www.ranablad.no"
             ]
         },
         {
@@ -3202,7 +2830,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8d628f471691524c3a8a6455053e15e95249d1ddd1072634faf104e4a3a1aa6b"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -3213,29 +2841,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.sa\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "a41afd7ffb93849622ed8f2a81950d83a7447c48e0a9cbf9b22403250b460eed"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "sa.no",
-                "www.sa.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cbdf4dcb73e217590ddd68\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.ringblad\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3246,14 +2852,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "27f8973d0ab9354a7a721592ba9b4734df5c1179e022f4d2decdc176a35c03d3"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sa.no",
-                "www.sa.no"
+                "ringblad.no",
+                "www.ringblad.no"
             ]
         },
         {
@@ -3268,7 +2874,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -3279,7 +2885,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.sandnesposten\\.no\\/gfx\\/small-positive\\.svg",
+            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.sageneavis\\.no\\/gfx\\/small\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3290,18 +2896,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "30af96e2fca9bdd9f11c86e6110f560306908c7daf643a50537d12c4bd5bd8ac"
+                "dd02cb32b81d5f982b845601d43c357c086cdf28a34b68e487d93f01eb23f6c5"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sandnesposten.no",
-                "www.sandnesposten.no"
+                "sageneavis.no",
+                "www.sageneavis.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-5c5abd72d7da457064098863\\/rendered",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.sageneavis\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3312,18 +2918,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "528737029e361b6693719d3f0d4b239b9d5fdaec6fcccacf1e5981d91ec92e40"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sandnesposten.no",
-                "www.sandnesposten.no"
+                "sageneavis.no",
+                "www.sageneavis.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.sandnesposten\\.no\\/",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.sageneavis\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3334,40 +2940,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sandnesposten.no",
-                "www.sandnesposten.no"
+                "sageneavis.no",
+                "www.sageneavis.no"
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.sb\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "9b702b6a3079093377f6ce93dd3dd3f003f47e28ebd9614a7698849c849f9aed"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "sb.no",
-                "www.sb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.sb\\.no\\/",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.finnmarksposten\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3378,36 +2962,80 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "70c502b389edaf6a40a9f822d418a4bfe38505bda7baad442b2769c32f38c00a"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "sb.no",
-                "www.sb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.smaalenene\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "53ad9bfa6e86976ac93f995520fd6d629dca6b5129b265b4b7cd04d8f6537a13"
-            ],
-            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "smaalenene.no",
                 "www.smaalenene.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.finnmarksposten\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smaalenene.no",
+                "www.smaalenene.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.sognavis\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sognavis.no",
+                "www.sognavis.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.sognavis\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sognavis.no",
+                "www.sognavis.no"
             ]
         },
         {
@@ -3433,28 +3061,6 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.t-a\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8ec94b11e2c70da61c6bd15bf4f7c2f72b4548e873d90e8e754dc4d8de37558f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "t-a.no",
-                "www.t-a.no"
-            ]
-        },
-        {
             "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.t-a\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
@@ -3466,7 +3072,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -3477,29 +3083,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.ta\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "73520bcbbe6665a69fde2a86012b290b19a7f52bb1d01c05216ef1c79f723822"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ta.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58f9a386a6f2370785432a0a\\/rendered",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.t-a\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3510,18 +3094,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b6cf9e9a9b756846d16cb8b2534a1e0d58da05db143969dd96fb98e962f1e9d1"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ta.no",
-                "www.ta.no"
+                "t-a.no",
+                "www.t-a.no"
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.ta\\.no\\/",
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.mittlillestrom\\.no\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3532,51 +3116,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "c68c02024ce6bd41f63103d5a58803c3e12b5e00eae9d279c028de63b29d273b"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ta.no",
-                "www.ta.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.tb\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "0a097c9d49a82f03edbfe4e288b694c621edd7ddbdcf476b700b48103c24fa05"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "tb.no",
-                "www.tb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/api\\/prowl\\/v1\\/lists\\/11-58cf8fd953215e0ad6b6dfda\\/rendered",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "785aa0c89ec6eb68be58ac20d4d7f9e50c0f8b17dcc216a539251d963ad12665"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -3587,7 +3127,7 @@
             ]
         },
         {
-            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.tb\\.no\\/",
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.oa\\.no\\/challenge\\/embed\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3598,36 +3138,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8db2babe033751b526e7fac2695bd76c1e35ce752a2a05b6b23e81d77717cda7"
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tb.no",
-                "www.tb.no"
-            ]
-        },
-        {
-            "rule": "api\\.no\\/local\\/v3\\/publications\\/www\\.tk\\.no\\/gfx\\/small-positive\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "3a0b3214e14abc9434b824f2a605840397ea488e739b5859eadba7ca1951437e"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "tk.no",
-                "www.tk.no"
+                "telen.no",
+                "www.telen.no"
             ]
         },
         {
@@ -3642,7 +3160,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ad50654f2f84828dbd2038209880cd4239328b31e392db8000dc284c1046bdc3"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -3651,22 +3169,88 @@
                 "tk.no",
                 "www.tk.no"
             ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.tk\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tk.no",
+                "www.tk.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shoal\\/v1\\/bundle_runtime\\/www\\.tvedestrandsposten\\.no\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvedestrandsposten.no",
+                "www.tvedestrandsposten.no"
+            ]
+        },
+        {
+            "rule": "api\\.no\\/api\\/shawarma\\/v1\\/www\\.tvedestrandsposten\\.no\\/challenge\\/embed\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a671ee5c3301912464a3258e8652974b668251b09fd55257b5313bf0598726bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvedestrandsposten.no",
+                "www.tvedestrandsposten.no"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.00432,
+    "cookies": 0.0001,
     "types": {
-        "Script": 500,
-        "XHR": 43,
-        "Other": 42,
-        "Image": 112,
-        "Fetch": 295,
+        "XHR": 59,
+        "Script": 373,
+        "Stylesheet": 60,
+        "Fetch": 433,
+        "Image": 22,
         "Document": 2
     },
     "nameservers": [
-        "ns-zoo.i.bitbit.net",
-        "ns-foo.i.bitbit.net",
-        "ns-bar.i.bitbit.net"
+        "nsp.dnsnode.net",
+        "nsb.dnsnode.net",
+        "nsu.dnsnode.net"
     ]
 }

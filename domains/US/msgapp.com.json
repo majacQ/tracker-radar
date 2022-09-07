@@ -4,13 +4,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000552,
-    "sites": 8,
+    "prevalence": 0.000061,
+    "sites": 9,
     "subdomains": [
-        "www",
-        "share",
         "hostssl",
-        "eu.hostssl"
+        "eu.hostssl",
+        "recaptcha"
     ],
     "cnames": [
         {
@@ -18,97 +17,55 @@
             "resolved": "eu.hostssl.msgapp.com"
         },
         {
-            "original": "marketing.charlottepipe.com",
-            "resolved": "share.msgapp.com"
+            "original": "emails.offenderwatch.com",
+            "resolved": "hostssl.msgapp.com"
         },
         {
-            "original": "marketing.clevelandbrowns.com",
+            "original": "emarketing.starrett.com",
+            "resolved": "hostssl.msgapp.com"
+        },
+        {
+            "original": "marketing.jayco.com.au",
+            "resolved": "hostssl.msgapp.com"
+        },
+        {
+            "original": "marketing.jbweld.com",
             "resolved": "hostssl.msgapp.com"
         }
     ],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "msgapp\\.com\\/js\\/frs-app\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Screen.prototype.pixelDepth": 2,
-                "Navigator.prototype.platform": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTimezoneOffset": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "5c3112ed5d6a33e28672b2b32c43b37d8d4226aced9e68837f59611cc5643b0c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "thebrunswicknews.com",
-                "www.post-gazette.com"
-            ]
-        },
-        {
-            "rule": "msgapp\\.com\\/web\\.gif",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "8c8cb3e3e555ee218e51b16a7c33fa44957f35ec1909701633756306a3fa4fc6"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "thebrunswicknews.com",
-                "www.post-gazette.com"
-            ]
-        },
-        {
             "rule": "msgapp\\.com\\/js\\/frs-next\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "share",
                 "hostssl",
                 "eu.hostssl"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [
                 {
-                    "original": "marketing.charlottepipe.com",
-                    "resolved": "share.msgapp.com"
-                },
-                {
-                    "original": "marketing.clevelandbrowns.com",
+                    "original": "emails.offenderwatch.com",
                     "resolved": "hostssl.msgapp.com"
                 },
                 {
                     "original": "emails.guidapsicologi.it",
                     "resolved": "eu.hostssl.msgapp.com"
+                },
+                {
+                    "original": "marketing.jayco.com.au",
+                    "resolved": "hostssl.msgapp.com"
+                },
+                {
+                    "original": "marketing.jbweld.com",
+                    "resolved": "hostssl.msgapp.com"
+                },
+                {
+                    "original": "emarketing.starrett.com",
+                    "resolved": "hostssl.msgapp.com"
                 }
             ],
             "responseHashes": [
@@ -118,57 +75,79 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "charlottepipe.com",
-                "www.charlottepipe.com",
-                "www.clevelandbrowns.com",
-                "www.guidapsicologi.it"
+                "offenderwatch.com",
+                "www.guidapsicologi.it",
+                "www.jayco.com.au",
+                "www.jbweld.com",
+                "www.starrett.com"
+            ]
+        },
+        {
+            "rule": "msgapp\\.com\\/recaptcha-light\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recaptcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d5d762435f705f9162c378817065fedf73f17a2bf9457ef8676b962d2dcd9892"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbweld.com",
+                "www.jbweld.com"
             ]
         },
         {
             "rule": "msgapp\\.com\\/web-next\\.gif",
-            "cookies": 0.0000207,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
-                "hostssl",
-                "eu.hostssl"
+                "hostssl"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
-                    "original": "marketing.clevelandbrowns.com",
+                    "original": "marketing.jbweld.com",
                     "resolved": "hostssl.msgapp.com"
                 },
                 {
-                    "original": "emails.guidapsicologi.it",
-                    "resolved": "eu.hostssl.msgapp.com"
+                    "original": "emarketing.starrett.com",
+                    "resolved": "hostssl.msgapp.com"
                 }
             ],
             "responseHashes": [
-                "8c8cb3e3e555ee218e51b16a7c33fa44957f35ec1909701633756306a3fa4fc6"
+                "a2492aab8fd8c10293bb9e0729ccbbc28601112a98157ae21d92fe382225b256"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "clevelandbrowns.com",
-                "www.clevelandbrowns.com",
-                "www.guidapsicologi.it"
+                "jbweld.com",
+                "www.jbweld.com",
+                "www.starrett.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000414,
+    "cookies": 0.0000203,
     "types": {
-        "Script": 6,
-        "Image": 5
+        "Script": 7,
+        "Image": 3
     },
     "nameservers": [
-        "ns-1377.awsdns-44.org",
-        "ns-1686.awsdns-18.co.uk",
         "ns-9.awsdns-01.com",
-        "ns-911.awsdns-49.net"
+        "ns-911.awsdns-49.net",
+        "ns-1686.awsdns-18.co.uk",
+        "ns-1377.awsdns-44.org"
     ]
 }

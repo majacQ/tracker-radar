@@ -18,12 +18,15 @@
     "resources": [
         {
             "rule": "woopra\\.com\\/js\\/w\\.js",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
                 "Navigator.prototype.language": 2
@@ -32,14 +35,21 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6ef15eed978de3844ca891b9a8366ac1ef46aac71bb3de02cf9c0631c3c2c595"
+                "8005d6985772e75c0bd7aa6ca023bf68d57a81fc4479a4704468bd0e4aa3c484"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "wooTracker": {
+                    "ttl": 63072002,
+                    "length": 12,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "60millions-mag.com",
-                "www.catalansdragons.com"
+                "www.sanitaire-social.com"
             ]
         },
         {
@@ -54,20 +64,22 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "9fe9d73be460845d3a5c568cf655a124f420c5a1c30dfd1ca8e56410665fe249"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "wooTracker": 0.00020064205457463884
+            },
             "exampleSites": [
                 "60millions-mag.com",
-                "www.catalansdragons.com"
+                "www.sanitaire-social.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
         "Script": 4
     },

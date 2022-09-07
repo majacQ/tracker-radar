@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000173,
-    "sites": 25,
+    "prevalence": 0.000217,
+    "sites": 32,
     "subdomains": [
         "cdn.static",
         "api.static",
@@ -16,54 +16,76 @@
     "resources": [
         {
             "rule": "kiwisizing\\.com\\/SizingPlugin\\.prod\\.js",
-            "cookies": 0.0000759,
+            "cookies": 0.000108,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn.static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 13,
-                "Navigator.prototype.cookieEnabled": 13,
-                "Document.cookie getter": 12,
-                "Date.prototype.getTime": 13,
-                "Document.cookie setter": 11
+                "Navigator.prototype.userAgent": 16,
+                "Navigator.prototype.cookieEnabled": 16,
+                "Document.cookie getter": 16,
+                "Date.prototype.getTime": 16,
+                "Document.cookie setter": 16,
+                "window.localStorage": 2
             },
-            "sites": 13,
-            "prevalence": 0.0000897,
+            "sites": 16,
+            "prevalence": 0.000108,
             "cnames": [],
             "responseHashes": [
-                "05a6c59abef79f56984d8707c07b210202ea1357744f5172fff9f3af95655da1"
+                "59d6ead30dc71528970a964431d37a206180a6c189beca1c8d2d8f3ec490703c"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_ks_scriptVersion": {
-                    "ttl": 31536004,
+                    "ttl": 31536011,
                     "length": 3,
-                    "prevalence": 0.00007592280721128627,
-                    "uniqueness": 0.09090909090909091
+                    "prevalence": 0.00010844663747644675,
+                    "uniqueness": 0.0625
                 },
                 "_ks_scriptVersionChecked": {
-                    "ttl": 86404,
+                    "ttl": 86411,
                     "length": 4,
-                    "prevalence": 0.00007592280721128627,
-                    "uniqueness": 0.09090909090909091
+                    "prevalence": 0.00010844663747644675,
+                    "uniqueness": 0.0625
+                },
+                "kiwi-sizing-token": {
+                    "ttl": 3609,
+                    "length": 188,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                },
+                "_ks_userCountryUnit": {
+                    "ttl": 86408,
+                    "length": 1,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "_ks_countryCodeFromIP": {
+                    "ttl": 86408,
+                    "length": 2,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "balticborn.com",
+                "eberlestock.com",
                 "hauteflair.com",
+                "kavu.com",
+                "lavinialingerie.com",
                 "lordandtaylor.com",
                 "lucyandyak.com",
                 "store.barstoolsports.com",
-                "www.goruck.com",
-                "www.leatherup.com",
-                "www.motherhood.com",
-                "www.primary.com",
+                "thehalara.com",
+                "wamaunderwear.com",
+                "www.awn.de",
+                "www.fittedhats.com",
+                "www.muji.us",
+                "www.neweracap.com",
                 "www.raceface.com",
-                "www.startfitness.co.uk",
-                "www.stussy.com",
-                "www.toddsnyder.com"
+                "www.stussy.com"
             ]
         },
         {
@@ -74,29 +96,78 @@
                 "api.static"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.0000897,
+            "sites": 16,
+            "prevalence": 0.000108,
             "cnames": [],
             "responseHashes": [
-                "baff08194186dad06067b803ae6fc612c2e8471f5ec335ba6fc53b748aae8e3d"
+                "770a8759421687f3b9411e1cc72036fdaa4534ba80d924732ea56bf6dfea055c"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "balticborn.com",
+                "eberlestock.com",
                 "hauteflair.com",
+                "kavu.com",
+                "lavinialingerie.com",
                 "lordandtaylor.com",
                 "lucyandyak.com",
                 "store.barstoolsports.com",
-                "www.goruck.com",
-                "www.leatherup.com",
-                "www.motherhood.com",
-                "www.primary.com",
+                "thehalara.com",
+                "wamaunderwear.com",
+                "www.awn.de",
+                "www.fittedhats.com",
+                "www.muji.us",
+                "www.neweracap.com",
                 "www.raceface.com",
-                "www.startfitness.co.uk",
-                "www.stussy.com",
-                "www.toddsnyder.com"
+                "www.stussy.com"
+            ]
+        },
+        {
+            "rule": "kiwisizing\\.com\\/api\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balticborn.com",
+                "kavu.com",
+                "lavinialingerie.com",
+                "www.raceface.com"
+            ]
+        },
+        {
+            "rule": "kiwisizing\\.com\\/api\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balticborn.com",
+                "kavu.com",
+                "lavinialingerie.com",
+                "www.raceface.com"
             ]
         },
         {
@@ -107,22 +178,19 @@
                 "app"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "bcfa4d3a0a92f8e8a3adf92f78134211d732bbacb311b52f88d88ce89216c971",
-                "ba5f3ea40e95f49bce11942f375ebd3882eb837976eda5c0cb78b9b99ca7b485"
+                "bcfa4d3a0a92f8e8a3adf92f78134211d732bbacb311b52f88d88ce89216c971"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "balticborn.com",
-                "hauteflair.com",
-                "lordandtaylor.com",
-                "www.goruck.com",
-                "www.leatherup.com"
+                "kavu.com",
+                "lavinialingerie.com",
+                "www.raceface.com"
             ]
         },
         {
@@ -133,8 +201,8 @@
                 "cdn.static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "55741ead4a7f676dcaa187aff86ce912930f850a681178a0d1bb9f09c567176e"
@@ -142,14 +210,21 @@
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "swym-cu_ct": 0.000006902073382844206
+                "returngo_customer_id": 0.000006777914842277922,
+                "_y": 0.000006777914842277922,
+                "_s": 0.000006777914842277922,
+                "_shopify_y": 0.000006777914842277922,
+                "_shopify_s": 0.000006777914842277922,
+                "_shopify_sa_t": 0.000006777914842277922,
+                "_ga": 0.000006777914842277922,
+                "_gid": 0.000006777914842277922,
+                "_gat": 0.000006777914842277922,
+                "_fbp": 0.000006777914842277922
             },
             "exampleSites": [
-                "balticborn.com",
-                "hauteflair.com",
-                "lordandtaylor.com",
-                "www.goruck.com",
-                "www.leatherup.com"
+                "kavu.com",
+                "lavinialingerie.com",
+                "www.raceface.com"
             ]
         },
         {
@@ -160,111 +235,57 @@
                 "app"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "e475a6c2fa94cbd197a0d906605a285212b0901cffb2c07226a1c170088a4376",
-                "20ff8872d5f3c2f284826747d4f48bb782328ea81815362ed8de2f3b8f147cc7",
-                "121a3dfadd59a770519fdd8b4a4de5b9783555ec8e5d69c45da8e8bb8cedb8f8",
-                "07554a29e6978d00fa1627b78b4857f4e9f72d0d80e0b42c947528e843db39ce"
+                "0a3b12d0524aa0578a6d10d9be97675ceb161876021c4cf4a9ed2815c11e4272",
+                "0ab6a6c9ccce3eb76563ea6c7b88d1f7572627b84daf4d1629ad6bc58af73184"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "balticborn.com",
-                "hauteflair.com",
-                "lordandtaylor.com",
-                "www.goruck.com",
-                "www.leatherup.com"
+                "kavu.com",
+                "lavinialingerie.com",
+                "www.raceface.com"
             ]
         },
         {
-            "rule": "kiwisizing\\.com\\/plugin\\/SizingPlugin\\.execute\\.631883c2893242c36a62\\.prod\\.js",
+            "rule": "kiwisizing\\.com\\/plugin\\/SizingPlugin\\.execute\\.5de5b6ebe8328143f558\\.prod\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn.static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "9eb11a809cdfc528b0be18b162f9d44b824b4898c2de030ef23a9e66d4f43379"
+                "ddfbfa183ea912c189bd91c62fb914cc71a5cb8416b40ef18a84e9839e6eec38"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "balticborn.com",
-                "hauteflair.com",
-                "lordandtaylor.com",
-                "www.goruck.com",
-                "www.leatherup.com"
-            ]
-        },
-        {
-            "rule": "kiwisizing\\.com\\/api\\/log",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "app"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "balticborn.com",
-                "hauteflair.com",
-                "lordandtaylor.com",
-                "www.goruck.com",
-                "www.leatherup.com"
-            ]
-        },
-        {
-            "rule": "kiwisizing\\.com\\/api\\/log",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "app"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [
-                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "balticborn.com",
-                "hauteflair.com",
-                "lordandtaylor.com",
-                "www.goruck.com",
-                "www.leatherup.com"
+                "kavu.com",
+                "lavinialingerie.com",
+                "www.raceface.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000145,
+    "cookies": 0.000217,
     "types": {
-        "Script": 18,
-        "XHR": 28,
-        "Stylesheet": 5,
-        "Preflight": 5
+        "Script": 19,
+        "XHR": 26,
+        "Preflight": 4,
+        "Stylesheet": 3
     },
     "nameservers": [
-        "pdns1.registrar-servers.com",
-        "pdns2.registrar-servers.com"
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
     ]
 }

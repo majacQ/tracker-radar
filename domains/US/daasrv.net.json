@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
         "analytics"
@@ -15,27 +15,20 @@
         {
             "rule": "daasrv\\.net\\/js\\/container_D5CVhD6p\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "analytics"
             ],
             "apis": {
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
-                "Date.prototype.getTimezoneOffset": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.platform": 2,
-                "window.name": 2
+                "Date.prototype.getTimezoneOffset": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "07681ea6bcf36171166f267c1b821b17c76543deb54178dc3b7e23b81e9f1966"
+                "1962dd93abd39f4ee98d9dad9e44c00542cb3363ea812b28adce518b2852c4b0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -43,53 +36,6 @@
             "exampleSites": [
                 "heizungsfinder.de",
                 "www.heizungsfinder.de"
-            ]
-        },
-        {
-            "rule": "daasrv\\.net\\/matomo\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "analytics"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "heizungsfinder.de",
-                "www.heizungsfinder.de",
-                "www.solaranlagen-portal.com"
-            ]
-        },
-        {
-            "rule": "daasrv\\.net\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "analytics"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "5ccfe0457104537594ce69e4b22167fb45d5ec2ac30538a4d3f2f44245c8aa3c",
-                "bf43d2f092f16498204d44765931f7b8ae13df2910698f4af4fb4a8b794f12c1"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "heizungsfinder.de",
-                "www.heizungsfinder.de",
-                "www.solaranlagen-portal.com"
             ]
         },
         {
@@ -102,22 +48,45 @@
             "apis": {
                 "Date.prototype.getTime": 2,
                 "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.name": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
                 "Navigator.prototype.mimeTypes": 2,
                 "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
                 "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.platform": 2,
-                "window.name": 2
+                "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7567f37ccd2447e364a7730c1999caa2d3c7fcec44afe1a0a6fbaf34293a839b"
+                "170aadac4a82e0b3347c1d02454ba338418e4e67cb24ea1387c98e62ebffe8bb"
             ],
             "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "solaranlagen-portal.com",
+                "www.solaranlagen-portal.com"
+            ]
+        },
+        {
+            "rule": "daasrv\\.net\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -130,11 +99,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 7,
-        "Other": 3
+        "Script": 4,
+        "Ping": 2
     },
     "nameservers": [
-        "ns1.antagus.de",
-        "ns2.antagus.de"
+        "helium.ns.hetzner.de",
+        "hydrogen.ns.hetzner.com",
+        "oxygen.ns.hetzner.com"
     ]
 }

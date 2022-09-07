@@ -9,30 +9,35 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.00281,
-    "sites": 28,
+    "prevalence": 0.00361,
+    "sites": 36,
     "subdomains": [
-        "experience",
-        "sandbox",
-        "dashboard",
         "cdn",
+        "sandbox",
         "buy",
+        "api",
+        "experience",
+        "dashboard",
         "id",
         "social-fastcompany",
-        "id-japantimes",
-        "api-v3",
+        "auth-forbes",
         "auth-townhall",
+        "id-spectator",
         "id-thedailybeast",
-        "api"
+        "api-v3"
     ],
     "cnames": [
         {
-            "original": "auth.japantimes.co.jp",
-            "resolved": "id-japantimes.tinypass.com"
+            "original": "auth.forbes.com",
+            "resolved": "auth-forbes.tinypass.com"
         },
         {
             "original": "auth.townhall.com",
             "resolved": "auth-townhall.tinypass.com"
+        },
+        {
+            "original": "id.spectator.co.uk",
+            "resolved": "id-spectator.tinypass.com"
         },
         {
             "original": "id.thedailybeast.com",
@@ -46,151 +51,112 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "tinypass\\.com\\/xbuilder\\/experience\\/load",
-            "cookies": 0.0001,
-            "fingerprinting": 0,
-            "subdomains": [
-                "experience",
-                "sandbox",
-                "dashboard"
-            ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.00151,
-            "cnames": [],
-            "responseHashes": [
-                "93fedbd388cef9544d43ee0483153de3bfd520e31e25b108971084402c54ff16",
-                "e7508eac4589b365c0c254c1b22eacdf65f45f85e823b3ff758516d6c216e675",
-                "77721dfcd3c9ee1469c826e6d51ff81f6be88531088c5fa438f27fd638dbc023",
-                "43cecb942dedd0e30e6cf86a69f8d7fbcec2b02c909fc6cab118f23c84d5d5c0",
-                "f8a40d798b94029bf1911cbd3550a8c51a7dd6a679a42c7f6b1b171230bb6529",
-                "effc4e0052c8622c525e11d045174830be560e4a0e402cb318a5ed2e495f85fd",
-                "ccb5ac6a8c0da316b2c6aa01ae8b3f72454a7e6708baa7d307f7a27693b628c7",
-                "df0847955bd47a55f1db9300ab6542560f8a62cf45010cc0a4b551277d18d39c",
-                "206c838dee26aea0042e9b3152063baa0fc139adbdbe16489ba87d8d2a06f233",
-                "766c9b77ce788a0b1c432197344245b7cf3fdbb9da70e44d733da7e28095005e",
-                "2896ed7bd752239ed23c5eb456a62053dcd6cc070a7b34cbcce0dedcb36cde96",
-                "9716914e18bbfe1c745b25478bb8fd2e9e77339eb1e15e8a84e9a427b76c0e6c",
-                "5834d3f79aa4d8b0375881c98c0b5d0ec14cecba5b768d7069900a7fba96d553"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "beaumonde.nl",
-                "nationalpost.com",
-                "panorama.nl",
-                "revu.nl",
-                "slate.com",
-                "thechive.com",
-                "townhall.com",
-                "www.biblestudytools.com",
-                "www.businessinsider.com",
-                "www.businessinsider.nl",
-                "www.cnbc.com",
-                "www.motorcyclenews.com",
-                "www.pinknews.co.uk",
-                "www.politico.com",
-                "www.snopes.com"
-            ]
-        },
-        {
             "rule": "tinypass\\.com\\/api\\/tinypass\\.min\\.js",
-            "cookies": 0.00241,
-            "fingerprinting": 2,
+            "cookies": 0.00331,
+            "fingerprinting": 3,
             "subdomains": [
                 "cdn",
                 "sandbox",
                 "buy"
             ],
             "apis": {
-                "Navigator.prototype.platform": 27,
-                "Navigator.prototype.userAgent": 27,
-                "window.localStorage": 27,
-                "window.name": 27,
-                "Date.prototype.getTime": 27,
-                "Document.cookie getter": 26,
-                "Navigator.prototype.language": 27,
-                "Date.prototype.getTimezoneOffset": 27,
-                "Navigator.prototype.plugins": 27,
-                "Screen.prototype.height": 27,
-                "Screen.prototype.width": 27,
-                "Screen.prototype.colorDepth": 27,
-                "window.sessionStorage": 27,
-                "Notification.permission": 25,
-                "Navigator.prototype.appVersion": 25,
-                "Document.cookie setter": 24,
-                "Event.prototype.timeStamp": 7,
-                "Element.prototype.getClientRects": 6,
-                "Navigator.prototype.doNotTrack": 4
+                "window.localStorage": 34,
+                "window.name": 34,
+                "Date.prototype.getTime": 34,
+                "Document.cookie setter": 33,
+                "Document.cookie getter": 33,
+                "Navigator.prototype.userAgent": 34,
+                "Navigator.prototype.language": 34,
+                "Date.prototype.getTimezoneOffset": 34,
+                "Navigator.prototype.plugins": 34,
+                "Screen.prototype.height": 34,
+                "Screen.prototype.width": 34,
+                "Screen.prototype.colorDepth": 34,
+                "window.sessionStorage": 34,
+                "Navigator.prototype.platform": 34,
+                "window.innerWidth": 34,
+                "window.innerHeight": 34,
+                "Notification.permission": 33,
+                "Navigator.prototype.appVersion": 33,
+                "window.screenLeft": 9,
+                "window.screenTop": 9,
+                "window.outerHeight": 8,
+                "Navigator.prototype.doNotTrack": 6,
+                "Element.prototype.getClientRects": 2
             },
-            "sites": 27,
-            "prevalence": 0.00271,
+            "sites": 35,
+            "prevalence": 0.00351,
             "cnames": [],
             "responseHashes": [
-                "6c402e2dd4a19f34f95b58c32b371eef03903b90b574bcb44743d998ff5f60ec"
+                "e7c90307819b8687c69adc3241394ed898b23eaafa0f47289dc137ac63224bb3"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "_pctx": {
+                    "ttl": 63072008,
+                    "length": 169,
+                    "prevalence": 0.0032064128256513026,
+                    "uniqueness": 1
+                },
                 "__tbc": {
-                    "ttl": 63072004,
-                    "length": 139,
-                    "prevalence": 0.002207505518763797,
+                    "ttl": 63072005,
+                    "length": 86,
+                    "prevalence": 0.003006012024048096,
+                    "uniqueness": 1
+                },
+                "cX_P": {
+                    "ttl": 63072006,
+                    "length": 16,
+                    "prevalence": 0.002104208416833667,
                     "uniqueness": 1
                 },
                 "get_top_level_domain_cookie": {
-                    "ttl": -1633163389,
+                    "ttl": -1660846315,
                     "length": 13,
-                    "prevalence": 0.002207505518763797,
+                    "prevalence": 0.003006012024048096,
                     "uniqueness": 1
                 },
                 "__pat": {
-                    "ttl": 2592004,
+                    "ttl": 2592005,
                     "length": 8,
-                    "prevalence": 0.002207505518763797,
-                    "uniqueness": 0.22727272727272727
+                    "prevalence": 0.003006012024048096,
+                    "uniqueness": 0.23333333333333334
                 },
                 "__pvi": {
-                    "ttl": 86404,
-                    "length": 130,
-                    "prevalence": 0.002207505518763797,
+                    "ttl": 86405,
+                    "length": 123,
+                    "prevalence": 0.003006012024048096,
                     "uniqueness": 1
                 },
                 "xbc": {
-                    "ttl": 63072004,
-                    "length": 413,
-                    "prevalence": 0.002207505518763797,
+                    "ttl": 63072005,
+                    "length": 306,
+                    "prevalence": 0.003006012024048096,
                     "uniqueness": 1
                 },
-                "_pc_accessLevel": {
+                "_pc_hpdirect": {
                     "ttl": null,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
+                    "length": 3,
+                    "prevalence": 0.0001002004008016032,
                     "uniqueness": 1
                 },
-                "_pc_segment": {
+                "LANG": {
                     "ttl": null,
-                    "length": 7,
-                    "prevalence": 0.00010034115994380895,
+                    "length": 5,
+                    "prevalence": 0.0002004008016032064,
                     "uniqueness": 1
                 },
                 "__pnahc": {
-                    "ttl": 7779603,
+                    "ttl": 7779606,
                     "length": 1,
-                    "prevalence": 0.0013044350792695164,
-                    "uniqueness": 0.07692307692307693
+                    "prevalence": 0.0012024048096192384,
+                    "uniqueness": 0.08333333333333333
                 },
                 "__pil": {
-                    "ttl": 2592005,
+                    "ttl": 2592016,
                     "length": 5,
-                    "prevalence": 0.0002006823198876179,
+                    "prevalence": 0.0002004008016032064,
                     "uniqueness": 0.5
-                },
-                "_pc_rcsad_abbonato": {
-                    "ttl": 31536005,
-                    "length": 5,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
@@ -202,65 +168,135 @@
                 "townhall.com",
                 "www.businessinsider.com",
                 "www.cnbc.com",
+                "www.forbes.com",
                 "www.independent.co.uk",
                 "www.politico.com",
+                "torontosun.com",
+                "www.telegraph.co.uk",
+                "markets.businessinsider.com",
+                "observer.com",
+                "www.autosport.com",
+                "www.biblestudytools.com",
                 "www.snopes.com",
-                "www.economist.com",
-                "wibnet.nl",
-                "www.inc.com",
-                "www.thedailybeast.com",
+                "www.billboard.com",
                 "www.businessinsider.nl",
-                "revu.nl",
-                "nationalpost.com",
-                "www.rd.nl",
-                "www.scmp.com",
-                "panorama.nl"
+                "nl.motorsport.com"
             ]
         },
         {
             "rule": "tinypass\\.com\\/api\\/v3\\/anon\\/captcha\\/get\\.js",
-            "cookies": 0.000301,
+            "cookies": 0.000902,
             "fingerprinting": 0,
             "subdomains": [
                 "buy",
-                "sandbox"
+                "sandbox",
+                "api"
             ],
             "apis": {},
-            "sites": 26,
-            "prevalence": 0.00261,
+            "sites": 35,
+            "prevalence": 0.00351,
             "cnames": [],
             "responseHashes": [
-                "3179e7a338633628288269797f59e9a3274d599bf487855b618b989e652588ff",
-                "880348b4dbb5fd12b46e7001c19c4f67344d878873d50858f049cd799fd5c4d3",
-                "d41b5922a107805c34a91bf6cc60cafb78c0951ad1892fd8192102178b3289f7",
-                "830296ac87e6f4726e4f64d44137defd6a330d8931dc925d5854d8146631b4f9",
-                "4120e8391851c4de038d8a1470079ffcf94ceae46f16e96b3b69d5e561709e7c",
-                "f626187fa0b145acc7cb07a75792e73a1cbd98dad6120c27b4bb0ec4d9ff4885",
-                "0be54c165a3272287d76ebacf2b1b40e772e7b3dfc2ad92a5694577540d66825",
-                "11c63129db4f72298921177566f258c5a6fcf75c23c57eaadc0ec6d33b51fab9",
-                "5f563da743f30172f2a4b3fb1999003dff6c2a2e1ab8eb500961b66beb952687",
-                "b8a37a21ef51abd2407179fb137e8f4afceb013f6813b4c9d42cbd2fe90f9a6d",
-                "e46ad2a696e04a865a56e6bd79f76bf49c74446df24eceb02735be82a4f13765",
-                "fe3a1e505f3afca5530643b967951a149d288368ac90d8ddf4b0e050dd07e8a3",
-                "0bcdb055930243b1e9e4f486c573265cc01ed9026993a7d8cba738e44525b967",
-                "485901b32ad4d25275ed06680fc4941692bd9593ec7b0a965b412107f7ecb96b",
-                "f671b153c6110b29a1178529b8d626a1784b4ffcbde001a823f4a48f0d4f2d25",
-                "79d4904f331289d9dc1317f466efb021241bfd452a4f482b173d7b2d19875332",
-                "c7f3a80a9e302ec270b706583c885b024f458c57bd9d1e9686fefd0297a3cfa8",
-                "dc08d0b8a54164bd22071526b5946a7593e2bcb41f3d5ea214daa77ec28169ac",
-                "b70e2436e4adc92086c76002a7d7e827121751a1959a3e626f61f062f4791c30",
-                "353a9db6eeeb2a4df065afa988ca9d5f7b935b3f0f39607e62a585b2bcd89460",
-                "2043846227aff34c92df21f5ea47a8f956724db2586bd55cbc3ab08cd5492cf3",
-                "494ae7321279f41ad5c8a20c7cf08d98f946818a83effbd1674664473867b6ba",
-                "87a7e7491f4fc1b54f6d9db64e0550cab43443b0459dd83e759d500abb153112",
-                "8200e976faf336594a045b30209048c864ee8ceb8f5d7cfc67a05e1f777bce72"
+                "0b81e7d40e3622c2f320082a445371f616f00a5b57df7292bf6f489abe8ef797",
+                "6a9c0803c9497d898f4f9c500515cd5a9177fdb46088c1c5745720760b5e4de4",
+                "b37431cade126e2f2de42909a67345cd6f68678992e88b4fade88264b2ce1c59",
+                "7f903600462f18a5624f2a434f5c68b60a4943d9cb08fff26f3b6756e5b7eaa1",
+                "f09eb09588bcdae01337accec755a96006c693808937c01811a7cbbf85ad824d",
+                "e39e973d3d89583a5394b50580b29ad4e74813df248eef9626a42c6e004f3814",
+                "e769836d0a17b39feb2bb0e8f0a5bedc20c83a8f7b1a66fd12917d173c158f42",
+                "1878e221a7833dc0ea8f2f5168a6a05625d515f78e2a7a7f9efb27e2c1db4469",
+                "a4c185e29b5d853ce8fe6656c05fd1e4b4b88e68a499c490e6c280a2266d4b60",
+                "f87a63da72b613fb21d758603e3be2c7b632b2e6402a3ef50ece8336aa31e295",
+                "b42d560b83214fa241fa3f6bf50349db1970fd3c3c6c1d18558c17c021d39a66",
+                "13c35e246395420839b079fb8e3551bee831a844043aaa4b659f1d94d543ea19",
+                "71a90f3a9f0ad384637c1a83f6b8d7d46e8a2e8667146d5bf50d8bfd9b38f7e9",
+                "97afb1118cb186b2c80b7e348901cf97b9d08b5cca915a9b8aca71f5d377d8cd",
+                "d600f18185441b011ff092d78bdaa3f8c0e5354cd97344b4a6b1163ba78d7268",
+                "2052630821c43636dbbf90bbde269c93eb70634d2540937fd6390949f774cfae",
+                "20e2f0e73acfa5169df9e814cf93992bb4f000498de0050b5dbd14f2a60b5ccd",
+                "ea505d75c26bbed64b40b3036538445d6e3549dfe3df2cf900aaaae8af130225",
+                "35d0b0f501009328fafa0ecd09e0a6066a9b0724882cbb0c35e45f2dbe6deb41",
+                "d9ee8ae522b0e48d0c12674186f88e413881e34939508b567e408733c10f874c",
+                "7b0daa3f84474f1b241d6a8a473f65107056a016cbb71b8f7df03df388eac4d8",
+                "e365ad0c415d19d509a56e3884814f0ee399f393596ddf193f66b0224cbb34c8",
+                "370c1ac065059d114558d9171e08d9748823fe0d5ce09d6ae8226188ea052f2b",
+                "2502b6799a6e47195b5e6d89e645432674ffb1e89aa799fd7f9be8ae9c0bc2b8",
+                "f9ec1499e2cd87ca7e48150fac8362a40d23e68a9c758c85e990319de3dc2828",
+                "501a12e2d8878f9e004fa6297a7dcdefde875bee88cc86269fb978ed334bce7c",
+                "d547a529b90d63921f982268ca99678af474f80a96546d4d85918e045099c174",
+                "7bf0b99b07bd66968a5235c42ddc2417616be3a1f9bf9343d767c209b4024a19",
+                "e559aa65505efcf14688fa0c5620828f24581a299d6228a00b286140e815bdf2",
+                "15c8a0be7ac2bf77341904291b12b7bef179059135202434e0492f696a15ae14",
+                "293f4780821ed6d2b3afc2e25eb0603d8d752d76a8fada41c712195dbd3699f5",
+                "212fd28fa31a3fb389572284e04a4b20fcae0263834351cf2bcde1fce1ca65d6",
+                "10e77931d8b5e5e2e5276ca633b5e50de43d00514a1b90b937989270152d3e71"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fortune.com",
                 "seekingalpha.com",
+                "slate.com",
+                "thechive.com",
+                "townhall.com",
+                "www.businessinsider.com",
+                "www.cnbc.com",
+                "www.forbes.com",
+                "www.independent.co.uk",
+                "www.politico.com",
+                "www.snopes.com",
+                "wibnet.nl",
+                "www.fastcompany.com",
+                "www.businessinsider.nl",
+                "hbr.org",
+                "www.economist.com",
+                "nl.motorsport.com",
+                "www.inc.com",
+                "www.biblestudytools.com",
+                "www.pinknews.co.uk",
+                "torontosun.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/xbuilder\\/experience\\/load",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "experience",
+                "sandbox",
+                "dashboard"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 21,
+            "prevalence": 0.0021,
+            "cnames": [],
+            "responseHashes": [
+                "eaa1d73f7c6cdc81c9ac28dbbcd132e7f04639c313f5af9783a9a1bbb560238f",
+                "06d02e4f25eb29a62c100f1e96eb3f71801b0005b0d621259c0d2edc1e3992c2",
+                "d9eb42b051e4dfce9efc6bb9a4ac3237f9060e8f3531e6b93e9b4300602278d4",
+                "43cecb942dedd0e30e6cf86a69f8d7fbcec2b02c909fc6cab118f23c84d5d5c0",
+                "f8a40d798b94029bf1911cbd3550a8c51a7dd6a679a42c7f6b1b171230bb6529",
+                "2d93d459bd535fad98b44b7f05b772d5a78396dd9efbff76ba895d7df4921142",
+                "cdf5d5b6df703dc9f57f4d32390ffc5174c32dacec3be929d445f3e6d311fc15",
+                "008321a0c1a9ca883d4761909fe79c67c1745a8cde4763777f965a64c3aec2a6",
+                "67dda4d4fa546b23627458bba47e787da33eaccaf0381c74ba4f61503c7e5f8b",
+                "1d2e355798a896e45d694062f74071bd8c17d5dd2dda7d07788b2dba08600e34",
+                "df0847955bd47a55f1db9300ab6542560f8a62cf45010cc0a4b551277d18d39c",
+                "ef59847d85902d0938a35fe34758908a825ea222cc424e714c49fc51acbe2be4",
+                "2896ed7bd752239ed23c5eb456a62053dcd6cc070a7b34cbcce0dedcb36cde96",
+                "9716914e18bbfe1c745b25478bb8fd2e9e77339eb1e15e8a84e9a427b76c0e6c",
+                "d26736305423a51d32469f27c9d722c77c650b9c386a2478d5e786b634a31aee",
+                "930678ce46f4145e988831e7ac53940f79d7e1ce027b326d24854b8b3cd77385",
+                "75dfa7c2a29429f83fd19460369bf41e85533224f6d706d70e5504806711e45d",
+                "f8c0576f81d450f9036f043c43b2005fd86bff7e6133d3d1c7bf09d262890056",
+                "25ca9288114dde6c884235fe53a0847cbedfa780341d5a65ce221bbbaf0580df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
                 "slate.com",
                 "thechive.com",
                 "townhall.com",
@@ -268,101 +304,292 @@
                 "www.cnbc.com",
                 "www.politico.com",
                 "www.snopes.com",
-                "markets.businessinsider.com",
+                "www.telegraph.co.uk",
+                "www.uol.com.br",
+                "torontosun.com",
+                "observer.com",
+                "www.biblestudytools.com",
+                "www.autosport.com",
+                "www.spectator.co.uk",
+                "www.billboard.com",
+                "www.refinery29.com",
+                "inews.co.uk",
+                "nl.motorsport.com",
                 "panorama.nl",
-                "www.rd.nl",
-                "www.thedailybeast.com",
-                "www.inc.com",
-                "revu.nl",
-                "www.scmp.com",
-                "www.economist.com",
-                "nationalpost.com",
-                "www.pinknews.co.uk",
-                "www.fastcompany.com"
+                "www.businessinsider.nl"
             ]
         },
         {
             "rule": "tinypass\\.com\\/id\\/api\\/v1\\/identity\\/token\\/verify",
-            "cookies": 0.00151,
+            "cookies": 0.0013,
             "fingerprinting": 0,
             "subdomains": [
                 "id",
-                "sandbox",
                 "social-fastcompany",
-                "id-japantimes"
+                "auth-forbes"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.00151,
+            "sites": 13,
+            "prevalence": 0.0013,
             "cnames": [
                 {
                     "original": "social.fastcompany.com",
                     "resolved": "social-fastcompany.tinypass.com"
                 },
                 {
-                    "original": "auth.japantimes.co.jp",
-                    "resolved": "id-japantimes.tinypass.com"
+                    "original": "auth.forbes.com",
+                    "resolved": "auth-forbes.tinypass.com"
                 }
             ],
             "responseHashes": [
-                "9d408057fc53a77b8fa03de5513e7e07b57aa23e08de720d94577e94e737d52b",
-                "f95bf34e3ff816950fb438b8bcd3b9eafc4e74bd380b1a45258a2c3b79495d26",
-                "6815fb25a6731fb783f5d7a8f3b3cfa2765d5c14ebdb028df9e83c0d9d0cbb42",
-                "326a516497461550d81b05564c59e2c515ec26105bae3841c83511e74e862c97",
-                "48ab76159b0b9b9e17532078c50ae80d0ac0e4ba42d929ee7710385d43e4fb2d",
-                "fe11ca6fab9f1fa33997090fb2b311bb7cb23402ffcc8431373eec7acb68b424",
-                "2bcf2f74fe64ad8fcf299f1722081c45331743170a1e9915e7ec336e2ae75e28",
-                "e4ab0fb38519cb2d8f06babf0159b8db2a9a42058f89a15f63907a5b30bb1947",
-                "1032fecb6d203e0d503f52de8eb9b3c17eb4aff2ec44c91235fd1b9a47388ed9",
-                "0fdb8e787e0271a956532afd1d555d11b478182eb6df5df5b817a2d6bb2868fd",
-                "dbea7ddd29b9d8a4219b88f4d1ffbf59378ba6d05f13f95db93f0ac0e92d3bc9",
-                "401c6da80cbdae7832c048b2fe98b3785a40edf6ac98912cad5c6c42c6f44859",
-                "94e8c8c20df12e6dfdba1aa648ef89bcb453b9b59270b9579a78a25022b0859b"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "a70f0325a4a9f9851ed30bfb4d8ddf600e3faeb0591f087a309d6ededa1cc095",
+                "0ddcfdede096ccad81b149bc1e26dbadb78c3a2c3853db9b27851abc56a439d8",
+                "008eadcc534b89b8351e665b830c814fe6b0b43cad01580117556df486804baf",
+                "75d85d1254d29ccfbf383036178eae951dfbd7aa1af7c9179038bd3bc042e5a3",
+                "b59469b9c894069405973ef22f682de7f02ae2f8d514e147f152a4c720ba76da",
+                "612bc4089e3a712b695d1a506df5b8fe48c8bcecdf4b3af501323d8de311775b",
+                "7d8ca5b5fa02d19fb29e8e162b6d4e6c0e24916e8a67e7674c9c23004e07e113",
+                "11f7c2a95ec4bfe0399dad6d2b189910aba7c97801afc41113c862128d8a6865",
+                "9b6c3d4101ca76e17d52976322729d38a5469552b6bacd398f7978670fe3b6ac",
+                "08bebf6dc7ccec9b4251750053a0005d0951a3bded4b40632238b1da0407e794",
+                "6cd90e16d7dba5931b7a159b4fd4c8e8c6c4450d2ac05221567de60696f6d211"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.0008027292795504716,
-                "gpv_p12": 0.00010034115994380895
+                "_li_dcdm_c": 0.0002004008016032064,
+                "get_top_level_domain_cookie": 0.0009018036072144289,
+                "_dor_zuWlHZZk": 0.0001002004008016032,
+                "gpv_p12": 0.0001002004008016032,
+                "_dor": 0.0001002004008016032,
+                "_dor_VvT57L3U": 0.0001002004008016032
             },
             "exampleSites": [
-                "beaumonde.nl",
-                "fortune.com",
+                "inews.co.uk",
                 "panorama.nl",
-                "revu.nl",
                 "slate.com",
                 "townhall.com",
                 "www.biblestudytools.com",
-                "www.businessinsider.com",
                 "www.businessinsider.nl",
+                "www.businessinsider.com",
                 "www.fastcompany.com",
+                "www.forbes.com",
                 "www.inc.com",
-                "www.japantimes.co.jp",
                 "www.pinknews.co.uk",
                 "www.snopes.com",
                 "www.thedailybeast.com"
             ]
         },
         {
+            "rule": "tinypass\\.com\\/api\\/v3\\/anon\\/template\\/loadTemplateContext",
+            "cookies": 0.000802,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy",
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "b45a5b52eb3ada8550adb8e140ebcd76f3b97dccc853ade54a36eda13fd31dec",
+                "08d7c1143374e5a139e6fd9ff5928051b0e2994a7df11df1caf1b4814ec37f3e",
+                "5143521137a3ec535e3766e8c32fa5b58d0d06f4cc02739430f8ae38a315db23",
+                "595efced919783237788b6bf66f2a0167bba73e035be2777f9ba1c1fc7f7784a",
+                "1f79302438f6fc5c48d0c80e432c0f85cb13744be073b21e904f8d56c118ff91",
+                "26d3c2c430a444d78c769aa93515bd2016c791a24c7df923405dd8c2558ab645"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slate.com",
+                "www.autosport.com",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.economist.com",
+                "www.independent.co.uk",
+                "www.snopes.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/checkout\\/template\\/cacheableShow",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy",
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "7e1f7ac4434a50c0db70d8c6e8b6394416c332fbddd8bda60299325f9d1f7610",
+                "b4576ca38e821ec41f499087a230471d830031f3880ca475b7f4e13fa79e3880",
+                "8d874cb4da5d2bd585237617ce5aa48ce987efcd614a196490e101529edf1911",
+                "0593fc757b2f2303decdc34ef0e88fa976fea43118cf6f5a0c61e3b9e81f012b",
+                "c17d1dd878cbb2cd44aacdeeb7fce9647fbdbab649e1e1f4aed95db33602cbee",
+                "62e47892d657640ca238308036b7c372528a031499206e34a5a02743570536b3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.0007014028056112224,
+                "_li_dcdm_c": 0.0001002004008016032
+            },
+            "exampleSites": [
+                "slate.com",
+                "www.autosport.com",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.economist.com",
+                "www.independent.co.uk",
+                "www.snopes.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
             "rule": "tinypass\\.com\\/checkout\\/offer\\/show",
-            "cookies": 0.000201,
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
                 "buy"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "a6d174edfde596138fec8672d3479066f751fe2cbe32ee177d4fd84f7023a4eb"
+                "f3f03648c1171d7d20dc55b974d914181d572c523b03f6fa14e58cf8b1dbf26f"
             ],
             "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.0001002004008016032
+            },
+            "exampleSites": [
+                "slate.com",
+                "www.thedailybeast.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/widget\\/dist\\/template\\/css\\/template\\.bundle\\.1\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy",
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000701,
+            "cnames": [],
+            "responseHashes": [
+                "734421d9e2fa5fe78c7bbd157c8de6a60bd1e0752c8abfcd2ca27f4a477ff2e5"
+            ],
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "slate.com",
-                "www.thedailybeast.com"
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.economist.com",
+                "www.independent.co.uk",
+                "www.snopes.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/showtemplate\\/general\\/loadTranslationMap",
+            "cookies": 0.000501,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy",
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "d1ddd87e48b65c981cff34b7dafeb66c912fe02ef7ff89703ecb875e65e080a7",
+                "0bc2af178dd2a0d726911d67d2e400bb76e2291b638982f6667426548eb45670",
+                "0bad6b39878c06825c51ad277f9783c9fe1628a66cb11b71312039ca0b0703c2",
+                "ccef3ab3266fafccf8cc8f7d1eb968e95ee95b37b9952a9d99a49e91c8e53b52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slate.com",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.independent.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/ng\\/common\\/i18n\\/platform-translation-map_en_US\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy",
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "920daffef39b8a08b68663b747d1f8c72f207ea442f5422890d68620a260dcfa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slate.com",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.independent.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/_sam\\/H4sIAAAAAAAAAD3IwQ6AIAgA0B9KmJ76m4bJHI6oBa7f7-bt7eEnrXNgEw8Mvh6lYBy-DHVaU95QpTqS9an0pgwFSkHJu63T-yTlgy1Nh-E_BjVxNVoAAAA",
+            "cookies": 0.000701,
+            "fingerprinting": 1,
+            "subdomains": [
+                "buy",
+                "api"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000701,
+            "cnames": [],
+            "responseHashes": [
+                "bcc2b4610f2dbc921a4d77384835c78a5b6e6705b1f9d20cda7bb8fa1fe7eba8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slate.com",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.economist.com",
+                "www.independent.co.uk",
+                "www.snopes.com",
+                "www.standard.co.uk"
             ]
         },
         {
@@ -374,10 +601,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "0bcc101f667e8a0416fd01ddbfd39a347892eabf3fdecbd05a147908a33c6d52"
+                "753a797ce726c94e6fd020bb9ec382c68fb4ba268e63716ce315484cfeeceb6d"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -388,49 +615,24 @@
             ]
         },
         {
-            "rule": "tinypass\\.com\\/ng\\/common\\/i18n\\/platform-translation-map_en_US\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "27c0582e6a85338085368c6dd6f759c6632c3fa22872651c2341794ee1a3cbe1"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "slate.com",
-                "www.corriere.it"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/_sam\\/H4sIAAAAAAAAAD3ISQrAIAwAwA_VBD31N8Ul2NgQoYn0-715GwY_bp0cG5tjvak-czkO24aytAmBcL_9QOFimLUvyW-IkCAl5HjqPpk1C12kYRkM-wFw5y1kYAAAAA",
-            "cookies": 0.0001,
+            "rule": "tinypass\\.com\\/_sam\\/H4sIAAAAAAAAAK2YTW8aMRCG_1ADCr30mtKqqdRKKKS5VrP2sEzweix_sCy_vrMQEFIOxUOOLPt4xvPxerzTnmyLeWop5alZo9lwyXcd2-Jw-pqmjpoIkTBNjs8-Tf8DWMgYyGwwXktk6ioJKHn9-_BLCLO5FjPsLS4ib8liVPCBwPNP-26F64xHtJSf0GIXMrGvo8eoJtWWi89xWKJDk1mz6YacI98-WBsxaVwIkFLP0bpLvMb0nP2KWl2-E_qsIOP7NF0Pt7TS2CyhjWBRQaY1iMPL0iQTSeu1BCuTL_i8jojflosSzRqSxp0cDhmL3Zy7TuXLWDLiB5dW0-apb-vqLETueM4Xsb8Kw13AKJKgcBEk1qsIxc4hZInzy-c60-_42Uc4MbtBG9NF9T0hmExbUFZigKGTtr3BmYyx-yGKucS4JaOpYXARwQ6PkB6M0emeOTaBNgoN-M0STYka9y81d3EMpy4RAdz3XRiVf_72vyYSh6PPQLRqJxSg7dk50OS-gz37rtclnXyjk83xXQXGAb3EaA5Jo5V7jKxLSr-GPHDpQVVauJMe9eBeREFXZNRSEcln_WhizjWtCv2xNL8-a2osBIfSmSpYOttZMf606zSNccIfQ7iBfuYNalKWRE3QuuEbrqC4vMxRhLodblhJwvjnF2ToPmAtTSnblpz40IOKplYVRrmVSemL0_oh6-18TfPHOl2VUEugfVJbPq-w4JRX5MEb_TYQ0jDqn5ofE6CmNw5ExtQ4N6RmDxIiO0-1CTyDWeY1VMJS7ZWkGRopNpZ7Ra3NCzJ3tbs9tGclwx5zJaIKZk8Rx7GoEmt5hMbZzlajctGpI2QOVbj4NsPjvp4r5C2BMXpyO9OyJZAW9Y2CNGtyqNqq6P-e3A1oo_KXHXeNMjsnOKTaPhlpuWsXlVmIIvBZTplq-nxO5V7OWi3cMrcHydQucJLcSn7LroVahkKoFdjDhUe7t-MIXS9ilg1XS5lwiVd5vFnXnkCHG2xbFFrdMRS9vkcO5LXB_aDRTD-UqQcq3SiloxbaDwyJfW1P7h2Z2to7ThbocDxQaxvt9Og8ZZ52mm5b5m2FI-yoGb8mtkVyd3c_mU1msyndf_HnZ04K2uFf9HclTV7TPylUP1Z0GgAA",
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "buy"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "window.name": 2,
-                "Date.prototype.getTime": 1,
-                "Element.prototype.getClientRects": 2,
-                "Document.cookie setter": 1,
                 "Document.cookie getter": 2,
-                "Event.prototype.timeStamp": 1
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "39c5d8708e17c84228cf0474e7d0c3c44414f9419f34cf833e2410938c442e21"
+                "7625a4507e218088876d2f25c18a054998ea20bc7fb37aba8f5dce034ad426c5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -441,18 +643,43 @@
             ]
         },
         {
+            "rule": "tinypass\\.com\\/widget\\/dist\\/template\\/css\\/img\\/fail-icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "3ed2d612d85e582c424cb012116f95cc1fc6217547f920fe78ba0c2f8af04626"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slate.com",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.economist.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
             "rule": "tinypass\\.com\\/checkout\\/offer\\/trackShow",
-            "cookies": 0.000201,
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
                 "buy"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "4d5b84707a4efc7bedd0adbbc1a8b967b78e7004c958890d5d2ac43741372e31"
+                "22225cd9d4887d17a5451e337a860999db165448283ad99adf1249993738fc61"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -464,22 +691,22 @@
         },
         {
             "rule": "tinypass\\.com\\/api\\/v3\\/anon\\/assets\\/performanceMetrics",
-            "cookies": 0.000201,
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
                 "buy"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "9aed0f6ec9f7a665f396e81947c3a2e41c9dbed3ac8e5e746306ad03523af016"
+                "5ac8b723db16667bb0b3a0ee8090422732382476e53375123cbc807a1abfe5e3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "__tbc": 0.00010034115994380895
+                "__tbc": 0.0002004008016032064
             },
             "exampleSites": [
                 "slate.com",
@@ -498,98 +725,20 @@
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "411a891c52a100e8bbccf99f158cbf31ccf0104e2b73155bd24b92286f5aa705",
-                "8cd0ba7731abaf089f28f929d8e6a76776d590370f041980abcd731f6dd9bc97",
-                "528a39443836f28a398294d02d0bc8266ac8fb6e1e10bf198f4abfccca6efc4a"
+                "a6c6ea4942ab53eb7fd748ebfe8d4a61f062d9a380587ae14648e4e134cfe49e",
+                "9503372e21b050f00dbd0a8aaf363b22b201a448def624871306b6408cce6520",
+                "eb2d7fde916603402a2e8ded7b3d959b415cd9ab0178ae66996279eb4ad20719"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "__tbc": 0.00030102347983142685
+                "__tbc": 0.0004008016032064128
             },
             "exampleSites": [
                 "slate.com",
-                "townhall.com",
-                "www.biblestudytools.com",
-                "www.thedailybeast.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/checkout\\/template\\/cacheableShow",
-            "cookies": 0.0001,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "2389bbe34a3f6d3d3557d3ddff5dd30cfed924bc00d252fee6facfe038839c19",
-                "9f27b31899ead5aabfc0b1232136985aa00d478207ab1b55644a1d7b6645a98f",
-                "f1811667aeffb1cf5a955fe17566980e6f3da24ad177e7a9c3d114410a947bea"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_ga": 0.00010034115994380895
-            },
-            "exampleSites": [
-                "townhall.com",
-                "www.corriere.it",
-                "www.economist.com",
-                "www.snopes.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/api\\/v3\\/anon\\/template\\/loadTemplateContext",
-            "cookies": 0.000401,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "4be6daeae6944bb6fee3b769e4c1c957601ddfcd3a1d723bb7d6b22988c8a788",
-                "acd3ee8a9d93f375c551fb25311d14cc71ad1e17b34e2bfbeed28abf0702fbea",
-                "4ed94eb0fe6745d23d46ad8bfaf349de0841a19b77b0f2b93a9bfd871821ead0"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "townhall.com",
-                "www.corriere.it",
-                "www.economist.com",
-                "www.snopes.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/api\\/v3\\/composer\\/logExecutionStats",
-            "cookies": 0.000401,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api-v3"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "townhall.com",
-                "www.businessinsider.com",
-                "www.businessinsider.nl",
-                "www.snopes.com"
+                "www.inc.com",
+                "www.thedailybeast.com",
+                "www.uol.com.br"
             ]
         },
         {
@@ -598,15 +747,20 @@
             "fingerprinting": 0,
             "subdomains": [
                 "auth-townhall",
+                "id-spectator",
                 "id-thedailybeast"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [
                 {
                     "original": "auth.townhall.com",
                     "resolved": "auth-townhall.tinypass.com"
+                },
+                {
+                    "original": "id.spectator.co.uk",
+                    "resolved": "id-spectator.tinypass.com"
                 },
                 {
                     "original": "id.thedailybeast.com",
@@ -621,110 +775,8 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "townhall.com",
+                "www.spectator.co.uk",
                 "www.thedailybeast.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/widget\\/dist\\/template\\/css\\/template\\.bundle\\.1\\.0\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "734421d9e2fa5fe78c7bbd157c8de6a60bd1e0752c8abfcd2ca27f4a477ff2e5"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "townhall.com",
-                "www.corriere.it",
-                "www.economist.com",
-                "www.snopes.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/_sam\\/H4sIAAAAAAAAAD3IwQ6AIAgA0B9KmJ76m4bJHI6oBa7f7-bt7eEnrXNgEw8Mvh6lYBy-DHVaU95QpTqS9an0pgwFSkHJu63T-yTlgy1Nh-E_BjVxNVoAAAA",
-            "cookies": 0.0001,
-            "fingerprinting": 1,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "window.name": 4,
-                "Element.prototype.getClientRects": 4,
-                "Document.cookie getter": 4,
-                "Event.prototype.timeStamp": 3,
-                "Date.prototype.getTime": 1,
-                "Document.cookie setter": 1
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "b56aca8eae4356e82bae67f9800cc8cbdeb655c3bed31d0df18f59406ebb961b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "townhall.com",
-                "www.corriere.it",
-                "www.economist.com",
-                "www.snopes.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/widget\\/dist\\/template\\/css\\/img\\/fail-icon\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "be36cf242d7b206d66842ab5b36af859b780372bba70cb5d72acda2626ffe52e"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "townhall.com",
-                "www.corriere.it",
-                "www.economist.com",
-                "www.snopes.com"
-            ]
-        },
-        {
-            "rule": "tinypass\\.com\\/showtemplate\\/general\\/loadTranslationMap",
-            "cookies": 0.0001,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "0bc2af178dd2a0d726911d67d2e400bb76e2291b638982f6667426548eb45670"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "corriere.it",
-                "www.corriere.it"
             ]
         },
         {
@@ -737,7 +789,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "256a84015377e0d25696b43c13dd0cd9851bf46f14d7fdb4098f08afd09afbf7"
@@ -747,6 +799,312 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "fastcompany.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "cba2ecbbbcf81bdd5577010a76879cd9cb48d2a417682fcfecfbb751c82786f3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_dor_VvT57L3U": 0.0002004008016032064,
+                "__tbc": 0.0002004008016032064,
+                "get_top_level_domain_cookie": 0.0002004008016032064
+            },
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/styles\\.66b29e843686f1b80d18\\.css",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "44c4af2f7f762dffcbb22ade9b61e2b1e311d08c6e21fa71f4a16c2a19054827"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/runtime-es2015\\.409b8c7f184a79f8c600\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "f422a95ee6052b7e8661efe59876bc7de5368537477410fd3cc715e92cb6c144"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/polyfills-es2015\\.99622606bdaff8c2429d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "40e70e0d0a3088231dee39a0867e1ef03c4cccb2bd2fda66039dbded86fd0e04"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/main-es2015\\.56d1b326e39d0224ed40\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "KeyboardEvent.prototype.keyCode": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "9a9258c9dfbf900fc57470501a4f9ee7e092ced49d748cd3848a497fff4bdc4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/0-es2015\\.ef3f74c0aa69363e6dfb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "fbfe80ff4af85633d1c1dc583fd90a24f380de225e7f8623980061b90a70b610"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/2-es2015\\.0d6e540447cbeb149520\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "a1cd8955b34972692e0952f39524bc36e4dc2bbd12ccf57caabc6069702cf1e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/AezVxbkgJt\\/8-es2015\\.511ad3d59ebf8a8170ef\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "65e7cbe4bd72cdd7bb0a9e0745ba4de5fad74754936c0d16d210d0128a1e4f2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/api\\/v1\\/assets\\/AezVxbkgJt",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "6999801a14371abcadd35e9048c4b6a62ccbcd226e116a3692f9c9d0bd722571"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_dor_VvT57L3U": 0.0002004008016032064,
+                "__tbc": 0.0002004008016032064,
+                "get_top_level_domain_cookie": 0.0002004008016032064
+            },
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/api\\/v1\\/userAgentData",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "410926035d7f2824e9f8b70da3a11f764329b95388c594080d452212a7bacb25"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__tbc": 0.0002004008016032064
+            },
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/api\\/v1\\/assets\\/AezVxbkgJt\\/lang",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "77d4294a606f41740b9c8ddb8eebdaba73b35d0784f5c8c61538e960d6b3f646"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__tbc": 0.0002004008016032064
+            },
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/ml\\/cropped_AezVxbkgJt_1_pzdvf5\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inc.com",
+                "www.inc.com"
+            ]
+        },
+        {
+            "rule": "tinypass\\.com\\/api\\/v3\\/customform\\/log\\/impression",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "aee08a97ba09281a0aa9542a1250df251e4c66fcdb89cac0ae767eb30db34164"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_pltp": 0.0002004008016032064,
+                "cookies.js_dtest": 0.0002004008016032064,
+                "parsely_uuid": 0.0002004008016032064
+            },
+            "exampleSites": [
+                "inc.com",
                 "www.inc.com"
             ]
         }
@@ -761,14 +1119,13 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.00251,
+    "cookies": 0.00341,
     "types": {
-        "Script": 101,
-        "Document": 6,
-        "Stylesheet": 6,
-        "XHR": 8,
-        "Other": 4,
-        "Image": 4
+        "Script": 145,
+        "XHR": 19,
+        "Document": 12,
+        "Stylesheet": 11,
+        "Image": 7
     },
     "nameservers": [
         "emma.ns.cloudflare.com",

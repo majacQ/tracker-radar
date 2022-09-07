@@ -10,13 +10,56 @@
     "prevalence": 0.0001,
     "sites": 1,
     "subdomains": [
+        "logapi",
         "webapi"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "alza\\.cz\\/api\\/catalog\\/icons\\/dynamicIcon",
+            "rule": "alza\\.cz\\/api\\/log\\/v2\\/logs",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alza.de",
+                "www.alza.de"
+            ]
+        },
+        {
+            "rule": "alza\\.cz\\/api\\/log\\/v2\\/logs",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alza.de",
+                "www.alza.de"
+            ]
+        },
+        {
+            "rule": "alza\\.cz\\/api\\/localization\\/v1\\/translations",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -24,12 +67,32 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alza.de",
+                "www.alza.de"
+            ]
+        },
+        {
+            "rule": "alza\\.cz\\/api\\/localization\\/v1\\/translations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "328aa5c52970dea8c42e4e84977f809f15e8c77eccb3a3ec77d7763a9380fa47"
+                "d83034966615738649250e7ee93dff723dbe005438d9410640c7b4eb7ace5f4e"
             ],
-            "type": "Image",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -40,13 +103,13 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Image": 2
+        "XHR": 4,
+        "Preflight": 4
     },
     "nameservers": [
-        "alfa.ns.active24.cz",
-        "beta.ns.active24.cz",
-        "gama.ns.active24.sk"
+        "beau.ns.cloudflare.com",
+        "gigi.ns.cloudflare.com"
     ]
 }

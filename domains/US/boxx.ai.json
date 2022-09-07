@@ -4,39 +4,42 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000759,
-    "sites": 11,
+    "prevalence": 0.000129,
+    "sites": 19,
     "subdomains": [
         "js",
+        "eun1-js",
+        "sfs",
         "loki",
-        "use1-loki",
-        "eve",
-        "upload"
+        "eun1-loki",
+        "use1-loki"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "boxx\\.ai\\/js_init\\/",
-            "cookies": 0.0000276,
+            "cookies": 0.0000203,
             "fingerprinting": 1,
             "subdomains": [
-                "js"
+                "js",
+                "eun1-js"
             ],
             "apis": {
+                "Document.cookie getter": 5,
                 "Date.prototype.getTime": 5,
-                "Document.cookie getter": 4,
-                "Document.cookie setter": 4
+                "Document.cookie setter": 3
             },
-            "sites": 7,
-            "prevalence": 0.0000483,
+            "sites": 13,
+            "prevalence": 0.0000881,
             "cnames": [],
             "responseHashes": [
-                "354b5e33574f295cbc20fe8c1112135012b98a6bfcf5b0a1c0978a4408ab4299",
-                "24db938cea22086fa98b0bc1e025193d6c9d8762fe5fb9364c51f267e37c6010",
-                "b80945e730f4e910536d5dd4824dc61871d61a82335d292c6666350b683d1470",
-                "e508984eb89fe3fa5d3f086c3ea78ca60600e3d7d4e0f8682468185db07be0fe",
-                "d29c6a660733f1fb6a7d968837f6feae8187ab7126b02162cdab9df1ed7a419e",
+                "d6e847de9056efd24fc2c028e7a596cf1a41dd6d3d7693e8798cead1f8756f66",
+                "1f5f1e927ed9b4ac96a05309ada099830aed505a6fcf3439da6929f8da0815f1",
+                "2ef02f7de94ff0441f9c95093bbb5494d6b902a92bad239d8b6ea366af167f04",
+                "f2e59b1a177e1249c042b43518c3e6a68bd7b4fae13d5d123f2f0c616ad58c54",
+                "062a43fda040cec191f71b64ef7d09869a6a169cd674dbc6df039d646f7ec8f9",
+                "ce562ed83cda2bd6fa399e85d407c58df2a381e4e3b8351999f25740aabe66a6",
                 "0cc774c9edcfacef32f5d7401c7e74d7e601de7e6a977a0a8d0b1667341cc62d"
             ],
             "type": "Script",
@@ -44,144 +47,221 @@
                 "bxSesT": {
                     "ttl": 1803,
                     "length": 24,
-                    "prevalence": 0.000027608293531376825,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 },
                 "bxSesC": {
                     "ttl": 63072003,
                     "length": 24,
-                    "prevalence": 0.000027608293531376825,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 },
                 "bxSegDetail": {
                     "ttl": 63072006,
-                    "length": 205,
-                    "prevalence": 0.000027608293531376825,
+                    "length": 201,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 },
                 "boxx_token_id": {
                     "ttl": 3196800006,
                     "length": 48,
-                    "prevalence": 0.000027608293531376825,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 }
             },
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013555829684555844,
+                "get_top_level_domain_cookie": 0.000006777914842277922
+            },
             "exampleSites": [
-                "cermati.com",
-                "www.easemytrip.com",
+                "rumah123.com",
+                "artikel.rumah123.com",
+                "canada.desertcart.com",
+                "www.cermati.com",
+                "www.desertcart.co.za",
+                "www.desertcart.com.au",
+                "www.desertcart.com.om",
+                "www.desertcart.nz",
                 "www.gramedia.com",
-                "www.outlookindia.com",
-                "www.shoptiques.com",
+                "www.merkur.si",
+                "www.pep.ph",
                 "www.tennis-point.com",
                 "www.thestar.com.my"
             ]
         },
         {
-            "rule": "boxx\\.ai\\/",
+            "rule": "boxx\\.ai\\/sdk",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sfs"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "da23b1909568b6673a0b393fc1a9d03ff46527f3e8d4417b0c57a42aa8289d3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bxSesT": {
+                    "ttl": 1805,
+                    "length": 24,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "bxSesC": {
+                    "ttl": 63072005,
+                    "length": 24,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "bxSegDetail": {
+                    "ttl": 63072010,
+                    "length": 204,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "boxx_token_id": {
+                    "ttl": 31536005,
+                    "length": 48,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "bxCacheInit": {
+                    "ttl": 610,
+                    "length": 8,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rumah123.com",
+                "artikel.rumah123.com"
+            ]
+        },
+        {
+            "rule": "boxx\\.ai\\/nav",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loki"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f06591d39baa50c42f94e87a990e8cc4b41e03da88ad43712303a534d34d020"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rumah123.com",
+                "artikel.rumah123.com"
+            ]
+        },
+        {
+            "rule": "boxx\\.ai\\/nav",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loki"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rumah123.com",
+                "artikel.rumah123.com"
+            ]
+        },
+        {
+            "rule": "boxx\\.ai\\/sdk\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "window.sessionStorage": 6,
-                "Navigator.prototype.userAgent": 6,
-                "Screen.prototype.availWidth": 6,
-                "Screen.prototype.availHeight": 6,
-                "Screen.prototype.width": 6,
-                "Screen.prototype.height": 6,
-                "window.localStorage": 6,
-                "Date.prototype.getTime": 2
+                "window.sessionStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 1
             },
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "92692ba0a8df6098de091d3fd7d68bb5e19bd47421caf9ef8506ec329d7b6d55",
-                "21ec21153e337dacb24c656e5a9579a7cc9fcffb9239e191becfb2f2a56b20ac",
-                "d5477bf2a729ceac328976021ce23bde162513f7d17ad4fc0d85691d205a8e71",
-                "1fe473e810ad8cd79b4797fff6eedd26f9e122bc13758283fac4339341bd1fac",
-                "248b2df73bb8ba58b6364f2692f7b5930dd3f08b3d823a4f8731bbedac70c362"
+                "f72152f5e07884ec5615b886e411eab865d9dbb453304582dc7787dc3c637567",
+                "12be7503df7c169cac107d9a09c8140e8da43a7e34b8118bb0d9e85f323aacb9"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "easemytrip.com",
-                "www.easemytrip.com",
-                "www.gramedia.com",
-                "www.outlookindia.com",
-                "www.shoptiques.com",
+                "gramedia.com",
+                "www.merkur.si",
                 "www.tennis-point.com"
             ]
         },
         {
             "rule": "boxx\\.ai\\/nav\\/",
-            "cookies": 0.0000414,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "loki",
+                "eun1-loki",
                 "use1-loki"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "easemytrip.com",
-                "www.easemytrip.com",
-                "www.gramedia.com",
-                "www.outlookindia.com",
-                "www.shoptiques.com",
-                "www.tennis-point.com"
-            ]
-        },
-        {
-            "rule": "boxx\\.ai\\/nav\\/",
-            "cookies": 0.0000414,
-            "fingerprinting": 0,
-            "subdomains": [
-                "loki",
-                "use1-loki"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "26a66cfdf623b08303e9822b5f1740f3f8ee74027fae465333f9bc4c012038f8",
-                "9ed5ad151f23ea0fe5d735986b121d644305bbbc942912f93ae0410cabcaaccf",
-                "9050917bd3ed925efe9edaaff9ec4bc3d52be058f56fb01358948e75adf7d28e",
-                "21ee7ee825ce7cac1548479786bd1517332869ab965ff22e7c0408ca1b7fa696",
-                "2a88bb7fdc5c4f3e70ca8d8c42a3665384f6dbe0ea88bf93766b911d1d69371a"
+                "4edc136d6388abcde1badc5836790d6170871f5cee78be6650d6b6d2b41ecffc",
+                "9b5c47b15f6738fc04dd3b6ea9ac1069dbdf11d2c76ed004e4212ab4a2921ae8"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "easemytrip.com",
-                "www.easemytrip.com",
-                "www.gramedia.com",
-                "www.outlookindia.com",
-                "www.shoptiques.com",
+                "gramedia.com",
+                "www.merkur.si",
                 "www.tennis-point.com"
             ]
         },
         {
-            "rule": "boxx\\.ai\\/export",
-            "cookies": 0,
+            "rule": "boxx\\.ai\\/nav\\/",
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
-                "eve"
+                "loki",
+                "eun1-loki",
+                "use1-loki"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -189,82 +269,18 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gramedia.com",
-                "www.shoptiques.com"
-            ]
-        },
-        {
-            "rule": "boxx\\.ai\\/export",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "eve"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "08e2c358ce13cb67f94ebb35b0f67c8763190a857c0db68da6eb196dfe9da46a"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gramedia.com",
-                "www.shoptiques.com"
-            ]
-        },
-        {
-            "rule": "boxx\\.ai\\/transaction\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "upload"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "c657d48bf8c50dd0ed644753b4d9ee9205f74786c4454ccdce3778fb4ce4aace"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "shoptiques.com",
-                "www.tennis-point.com"
-            ]
-        },
-        {
-            "rule": "boxx\\.ai\\/transaction\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "upload"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "shoptiques.com",
+                "www.merkur.si",
                 "www.tennis-point.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000621,
+    "cookies": 0.0000407,
     "types": {
-        "Script": 13,
-        "Preflight": 10,
-        "Fetch": 8,
-        "XHR": 2
+        "Script": 18,
+        "Fetch": 5,
+        "Preflight": 5
     },
     "nameservers": [
         "ns-280.awsdns-35.com",

@@ -7,42 +7,128 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000702,
-    "sites": 7,
+    "prevalence": 0.00371,
+    "sites": 37,
     "subdomains": [
-        "futureplc"
+        "offer",
+        "futureplc",
+        "games-workshop",
+        "topdoctors"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
         {
+            "rule": "slgnt\\.eu\\/1d2ca38a6c1e4ed3909badcdbf072420\\/75ded6155d0643\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 27,
+                "window.localStorage": 27,
+                "window.indexedDB": 27,
+                "window.sessionStorage": 27,
+                "Date.prototype.getTime": 27
+            },
+            "sites": 30,
+            "prevalence": 0.00301,
+            "cnames": [],
+            "responseHashes": [
+                "e11c76e88ca40436605a3005d3d3c1038fdcd95e3e056e8b8df0ad081386876b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.womanandhome.com",
+                "www.pcgamer.com",
+                "www.realhomes.com",
+                "androidcentral.com",
+                "www.loudersound.com",
+                "www.t3.com",
+                "www.imore.com",
+                "www.whattowatch.com",
+                "www.gamesradar.com",
+                "www.cyclingweekly.com",
+                "www.livescience.com",
+                "www.digitalcameraworld.com",
+                "www.toptenreviews.com",
+                "www.cinemablend.com",
+                "www.creativebloq.com",
+                "www.fourfourtwo.com",
+                "www.whathifi.com"
+            ]
+        },
+        {
             "rule": "slgnt\\.eu\\/renderers\\/xml\\.ashx",
-            "cookies": 0.000602,
+            "cookies": 0.000501,
             "fingerprinting": 0,
             "subdomains": [
                 "futureplc"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "a64059b849592d5d578caf8bef5d2dd4f55c2e58138bd54fe14ddd0f7f83ec87",
-                "b10e0c9a8e0633713fcfbea95fbd9ca714009d81d5286d0083e750873a668a35",
-                "a92ec0f38d14bc6ca28457e1d184534b31fed91325ed8561a28184b5bf6cfaf1",
-                "11a4486a25984a6887898f6a31fe9386e6159a871269ff3086ddac8fbf3b3630",
-                "ed6cdbad5338e3711171996d929c3a0d681d782038ab22a5be4b302876d3d537"
+                "ca3dce238604844a6ec0a5af9402d9d01ba961f034df46a183bf5148ca4caaa1",
+                "507ef84e4da2f8888f89f769443288a24f7767026fe154cb190b28e0425c8357",
+                "023752a03895c078720236b2a8510a479f9195dc5d5e173fa2774642a84eba34",
+                "125d853e04cd385bcb621f598c098d1da59af924b422a94dc857e87d9484396e"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "decanter.com",
-                "www.goodto.com",
-                "www.idealhome.co.uk",
                 "www.marieclaire.co.uk",
+                "www.pbo.co.uk",
                 "www.shootinguk.co.uk",
                 "www.yachtingmonthly.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/webtracker\\.dll",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "games-workshop",
+                "topdoctors"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c39ddc4286dc5b83d9fae479f2e34f8124bc0e7c3d8874940421c06a49c99ded"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "m_ses": {
+                    "ttl": null,
+                    "length": 14,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 1
+                },
+                "m_cnt": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forgeworld.co.uk",
+                "www.topdoctors.co.uk"
             ]
         }
     ],
@@ -50,7 +136,8 @@
     "performance": {},
     "cookies": 0.000702,
     "types": {
-        "Fetch": 6
+        "Script": 32,
+        "Fetch": 5
     },
     "nameservers": [
         "ns10.dnsmadeeasy.com",

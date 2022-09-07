@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.00211,
-    "sites": 21,
+    "prevalence": 0.00341,
+    "sites": 34,
     "subdomains": [
         "events",
-        "api"
+        "api",
+        "api.tiles"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -24,8 +25,8 @@
                 "events"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 8,
+            "prevalence": 0.000803,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -37,6 +38,7 @@
                 "arcep.fr",
                 "cartefibre.arcep.fr",
                 "mapcarta.com",
+                "maps.mybus.io",
                 "www.kayak.com",
                 "www.kayak.fr",
                 "www.terrain-construction.com",
@@ -66,7 +68,33 @@
             ]
         },
         {
-            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v1\\.11\\.0\\/mapbox-gl\\.css",
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v1\\.9\\.0\\/mapbox-gl\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api.tiles"
+            ],
+            "apis": {
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "URL.createObjectURL": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8bcfffd66e207b83b719901c04b023b226846d3b0b22ef225a0d448a711f2e0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "icisete.fr",
+                "noostuff.com",
+                "vendre-son-velo.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v1\\.13\\.2\\/mapbox-gl\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -77,7 +105,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "f80d0d241321e4821b86874153a10ee2d3535b874d1e65bb2e0cc2c061ac0f52"
+                "735c576dcdec74bb5b5557938b53c8932ee1cfe0197ee59df1531195f61beca0"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -88,28 +116,49 @@
             ]
         },
         {
-            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v1\\.11\\.0\\/mapbox-gl\\.js",
+            "rule": "mapbox\\.com\\/mapbox\\.js\\/plugins\\/leaflet-fullscreen\\/v1\\.0\\.1\\/leaflet\\.fullscreen\\.css",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
-            "apis": {
-                "Navigator.prototype.hardwareConcurrency": 2,
-                "URL.createObjectURL": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5b98e3094baaa343884cfc5094db505bb7be6072f3346808f573ad4d2056b5b2"
+                "6136e10c6107e5a988fc97e8b4f30dec8072169b0df5ee2d0819efe6835dbc75"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr",
+                "www.calculitineraires.fr"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox\\.js\\/plugins\\/leaflet-fullscreen\\/v1\\.0\\.1\\/Leaflet\\.fullscreen\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "30c5a3ff214e7ab723ce193cc0a2082b20c22bba255ebc24ffb47b4e30e1198b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "laforet.com",
-                "www.laforet.com"
+                "bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr",
+                "www.calculitineraires.fr"
             ]
         },
         {
@@ -124,7 +173,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ce10356c162e2ba67221beef25fcbb31a2658f6ae95453f562247f36956a8f91"
+                "cbab75fed14ed413fffa98b4a2f2bd3b316b29b6bf5ea6e1bc287c7e525a5e69"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -133,6 +182,94 @@
                 "mapcarta.com",
                 "www.kayak.com",
                 "www.kayak.fr"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/1\\/1\\/0\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ec407c11be0ec3bbea002173f2051845bb0e832905682cf1cc4a768854f2f57b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapcarta.com",
+                "www.kayak.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/1\\/0\\/0\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dfa12cb06b5e06e3feaa629a31a96fa0ae55e475f8d94de2642c53928ea193f3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapcarta.com",
+                "www.kayak.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/1\\/1\\/1\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cdf8387a5205713e24fde13e50bd6baf847c935d777bc529fe169690f2c51a9a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapcarta.com",
+                "www.kayak.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/1\\/0\\/1\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "24070dd9dd2258b86eadfaf9f194825315ce2b308b0ee9f9b6289f9b9c8d3d61"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapcarta.com",
+                "www.kayak.com"
             ]
         },
         {
@@ -159,6 +296,59 @@
             ]
         },
         {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v0\\.53\\.0\\/mapbox-gl\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tiles"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f7c66bb2d710f6b225b395b0d37e51465c4d9469bea00dbb6efc205ddefe3c78"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mybus.io",
+                "www.tourisme-rennes.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v0\\.53\\.0\\/mapbox-gl\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api.tiles"
+            ],
+            "apis": {
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "URL.createObjectURL": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "window.localStorage": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dbdf0727a4c3a99c28d5195332706126cdb6ee4cbbbdd6e8505088374fc3f4d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mybus.io",
+                "www.tourisme-rennes.com"
+            ]
+        },
+        {
             "rule": "mapbox\\.com\\/mapbox-gl-js\\/plugins\\/mapbox-gl-rtl-text\\/v0\\.2\\.3\\/mapbox-gl-rtl-text\\.js",
             "cookies": 0,
             "fingerprinting": 0,
@@ -166,8 +356,8 @@
                 "api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "142f4fc31b4911887bacfea4df1813df67be28dfcb4c56e3f8f576f2e6fdf5d2"
@@ -176,8 +366,54 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kayak.com",
+                "moovitapp.com",
+                "www.kayak.com",
                 "www.kayak.fr"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/plugins\\/mapbox-gl-rtl-text\\/v0\\.2\\.3\\/mapbox-gl-rtl-text\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "142f4fc31b4911887bacfea4df1813df67be28dfcb4c56e3f8f576f2e6fdf5d2"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moovitapp.com",
+                "www.kayak.com",
+                "www.kayak.fr"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v1\\.9\\.0\\/mapbox-gl\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tiles"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f80d0d241321e4821b86874153a10ee2d3535b874d1e65bb2e0cc2c061ac0f52"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noostuff.com",
+                "vendre-son-velo.com"
             ]
         },
         {
@@ -236,162 +472,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "336933f2158b33753b0656698e481cbb16624e7f35e505322c1b63db07a71339"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/mapbox-gl-js\\/plugins\\/mapbox-gl-rtl-text\\/v0\\.2\\.3\\/mapbox-gl-rtl-text\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "142f4fc31b4911887bacfea4df1813df67be28dfcb4c56e3f8f576f2e6fdf5d2"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/2\\/1\\.vector\\.pbf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f852de4017f5aaf6271574be376a137eb5f51ca566c92dd1db8522e4e93ace92"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/1\\/1\\.vector\\.pbf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "cfd834c0265517a37e7e1db1255619d3febe1b7efd733d900a947622cdca7a04"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/2\\/0\\.vector\\.pbf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "5de58fb343ab25fd98f100b89f9935d2f6c8b6f68d01af3ff46062a087eff0e5"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/3\\/1\\.vector\\.pbf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "577913f59b79ab5906e16d4c32db4def5792ac1826f9ec74c4789a80c641a0e9"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/1\\/0\\.vector\\.pbf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "c915bc66b2117dd9cf73295943e9bcf3f6149a6b6a76d706351ab10e5e046697"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kayak.com",
-                "www.kayak.fr"
-            ]
-        },
-        {
-            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/3\\/0\\.vector\\.pbf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "900bb2ad957ffdba498f83cd0774e8a677d6c8b459162e373e57961865ea7536"
+                "91cdeb91e69aa80d8c68c7231bb95ad3d105384a117d2c3a671d0380cb92f244"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -413,7 +494,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a12060b8bd923ff137c3e126582bc3bf337762347dd5778bce051a9cd2bcd448"
+                "54fff5df153b7350191f1b64910b98c60c5dbc8e7ab6c57a0b0f9953c75faa17"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -435,7 +516,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "09078019a9471d3ce12800a999af301f05dfb730fb974a1e572142ceda9443a8"
+                "9f3d5672804525c749397997f6a182e1c7fda13a00a761230b5f337f64c9c624"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -443,6 +524,28 @@
             "exampleSites": [
                 "kayak.com",
                 "www.kayak.fr"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox\\.js\\/plugins\\/leaflet-markercluster\\/v1\\.0\\.0\\/leaflet\\.markercluster\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "008e8d681f9d8c37cf406083a0715212f9356cbc06c06199eb3522290c7f7b5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loireavelo.fr",
+                "www.tourisme-rennes.com"
             ]
         }
     ],
@@ -453,10 +556,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 37,
+        "Fetch": 35,
         "Other": 5,
-        "Stylesheet": 2,
-        "Script": 2
+        "Script": 10,
+        "Stylesheet": 9
     },
     "nameservers": [
         "ns-1401.awsdns-47.org",

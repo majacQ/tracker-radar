@@ -7,11 +7,17 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000903,
+    "sites": 9,
     "subdomains": [
+        "akademikerne.containers",
+        "bibliotek",
         "opanalytics",
-        "bibliotek"
+        "itslearning.containers",
+        "rxreedpop.containers",
+        "akademikerne",
+        "itslearning",
+        "rxreedpop"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -21,34 +27,44 @@
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
+                "akademikerne.containers",
+                "bibliotek",
                 "opanalytics",
-                "bibliotek"
+                "itslearning.containers",
+                "rxreedpop.containers"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.platform": 2,
-                "window.name": 2,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.mimeTypes": 8,
+                "Navigator.prototype.javaEnabled": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Date.prototype.getTime": 8,
+                "Navigator.prototype.platform": 8,
+                "window.name": 8,
                 "Navigator.prototype.appVersion": 1,
-                "PerformanceTiming.prototype.navigationStart": 2
+                "PerformanceTiming.prototype.navigationStart": 5
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 8,
+            "prevalence": 0.000802,
             "cnames": [],
             "responseHashes": [
-                "6995c7720622636886885ab1e7f235f19386adf19c0681bf48cebf5fb48e1ef4"
+                "5185fd5f87560ef232bd8e57408cff4e4b27c4986ba62708c9e66ea1a1a1ba8f",
+                "559e729c20a906611c1cc59ed46bb970176f0f4fd7ac153700baaef221c076cd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "europa.eu",
-                "tnb.no"
+                "akademikerne.no",
+                "arendalbibliotek.no",
+                "eur-lex.europa.eu",
+                "itslearning.com",
+                "sandefjordbibliotekene.no",
+                "www.eurogamer.net",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
             ]
         },
         {
@@ -56,31 +72,84 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "opanalytics",
-                "bibliotek"
+                "akademikerne",
+                "bibliotek",
+                "itslearning",
+                "rxreedpop"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Image",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "europa.eu",
-                "tnb.no"
+                "akademikerne.no",
+                "arendalbibliotek.no",
+                "itslearning.com",
+                "sandefjordbibliotekene.no",
+                "www.eurogamer.net",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "piwik\\.pro\\/consent\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rxreedpop"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurogamer.net",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "piwik\\.pro\\/consent\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rxreedpop"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurogamer.net",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.000802,
     "types": {
-        "Script": 2,
-        "Image": 2
+        "Script": 8,
+        "Ping": 7,
+        "XHR": 3,
+        "Preflight": 3
     },
     "nameservers": [
         "ns-344.awsdns-43.com",

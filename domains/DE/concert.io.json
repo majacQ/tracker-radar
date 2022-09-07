@@ -7,63 +7,58 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.0002,
+    "sites": 2,
     "subdomains": [
+        "bids",
         "cdn"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "concert\\.io\\/lib\\/concert-ads\\/v2-latest\\/concert_ads\\.js",
+            "rule": "concert\\.io\\/bids\\/prebid",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "cdn"
+                "bids"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3,
-                "window.sessionStorage": 3,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "b76dea2059775414ef4d4cca7730cf22fc9a7f0cda64d1c9711615edf5a15776"
+                "55aabd4f133660977420281f291a1ed0c58714a47679738bdaad2e8d59c31004"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nymag.com",
-                "www.thecut.com",
+                "newyorker.com",
                 "www.vulture.com"
             ]
         },
         {
-            "rule": "concert\\.io\\/lookup\\/client\\.json",
+            "rule": "concert\\.io\\/lib\\/bids\\/sync\\.html",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "f3caeb1688453aaa314d1d7f087b3370b317a7b178b9c8f7b9ca2248ffd304ab"
+                "bfcdc5bb514538c16b96948274609c06a933ee0f19dd90e3086f887a7df0e79b"
             ],
-            "type": "Other",
+            "type": "Document",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "eupubconsent-v2": 0.00010023053021950487
+            },
             "exampleSites": [
-                "nymag.com",
-                "www.thecut.com",
+                "newyorker.com",
                 "www.vulture.com"
             ]
         }
@@ -72,13 +67,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 3,
-        "Other": 3
+        "XHR": 2,
+        "Document": 2
     },
     "nameservers": [
+        "ns-1474.awsdns-56.org",
         "ns-189.awsdns-23.com",
         "ns-591.awsdns-09.net",
-        "ns-1474.awsdns-56.org",
         "ns-1667.awsdns-16.co.uk"
     ]
 }

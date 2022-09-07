@@ -7,19 +7,13 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "consent",
-        "login",
-        "audio",
-        "geolocation"
+        "login"
     ],
     "cnames": [
-        {
-            "original": "audio.t-online.de",
-            "resolved": "audio.stroeerdp.de"
-        },
         {
             "original": "consent.t-online.de",
             "resolved": "consent.stroeerdp.de"
@@ -29,18 +23,18 @@
             "resolved": "login.stroeerdp.de"
         }
     ],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "stroeerdp\\.de\\/wrapperMessagingWithoutDetection\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000203,
             "fingerprinting": 1,
             "subdomains": [
                 "consent"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "consent.t-online.de",
@@ -48,13 +42,15 @@
                 }
             ],
             "responseHashes": [
-                "79ea6bea9dbe5d24763b0570ce68e4b0463f505d561315b0fb5aa4697c0e7ab9"
+                "4179f8cde82f87c5ad16df590748fb908b41c8c0bbfae05f078525043979e431",
+                "bfb8735f4aa6e814dac05a3dfd611407fd833bc341e723ca59eb0f3f3875aef6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
@@ -66,8 +62,8 @@
                 "login"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "login.t-online.de",
@@ -82,11 +78,40 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
         {
-            "rule": "stroeerdp\\.de\\/wrapper\\/tcfv2\\/v1\\/gdpr\\/native-message",
+            "rule": "stroeerdp\\.de\\/mms\\/v2\\/get_site_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "consent.t-online.de",
+                    "resolved": "consent.stroeerdp.de"
+                }
+            ],
+            "responseHashes": [
+                "322fd58834baf88101323c2f4bd49b72569f1413f34cd3531a42637bdc4d3efd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-online.de",
+                "email.t-online.de",
+                "www.t-online.de"
+            ]
+        },
+        {
+            "rule": "stroeerdp\\.de\\/wrapper\\/tcfv2\\/v2\\/gdpr\\/native-message\\/new-user",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -94,7 +119,34 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "consent.t-online.de",
+                    "resolved": "consent.stroeerdp.de"
+                }
+            ],
+            "responseHashes": [
+                "c7d2aeb46e95fd62e3aca8428460cb0f68cbc999803efaffae26c15e3b9c3d40"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-online.de",
+                "email.t-online.de"
+            ]
+        },
+        {
+            "rule": "stroeerdp\\.de\\/wrapper\\/tcfv2\\/v2\\/gdpr\\/native-message\\/new-user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "consent.t-online.de",
@@ -107,34 +159,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
-                "www.t-online.de"
-            ]
-        },
-        {
-            "rule": "stroeerdp\\.de\\/wrapper\\/tcfv2\\/v1\\/gdpr\\/native-message",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "consent"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "consent.t-online.de",
-                    "resolved": "consent.stroeerdp.de"
-                }
-            ],
-            "responseHashes": [
-                "9d09ebb57274489a57e847a207fed0012b0311fa59d8b3dcd37a2727f775ed27"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "t-online.de",
-                "www.t-online.de"
+                "email.t-online.de"
             ]
         },
         {
@@ -145,8 +170,8 @@
                 "consent"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "consent.t-online.de",
@@ -154,26 +179,27 @@
                 }
             ],
             "responseHashes": [
-                "a260891bd547b0e0b0e84f532fb25d3f0ae51246ff443150dc1201ca450030a0"
+                "869d747f2bf6b7f0c75ea35b9c806658e2d812731bdaef414bb707243f292a73"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
         {
-            "rule": "stroeerdp\\.de\\/Notice\\.03819\\.css",
+            "rule": "stroeerdp\\.de\\/Notice\\.a2194\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "consent"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "consent.t-online.de",
@@ -181,13 +207,14 @@
                 }
             ],
             "responseHashes": [
-                "51eb44a48f2ec3bf5ee39395698b49d23ad55ed26f05bcbbccbeb1e128f477ef"
+                "d07c218cf2ede8daec9179c818dce7dce1e65d78ae24c9e9bf08f26f42386077"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
@@ -199,8 +226,8 @@
                 "consent"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "consent.t-online.de",
@@ -215,19 +242,20 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
         {
-            "rule": "stroeerdp\\.de\\/Notice\\.f7529\\.js",
+            "rule": "stroeerdp\\.de\\/Notice\\.0b008\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "consent"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "consent.t-online.de",
@@ -235,61 +263,63 @@
                 }
             ],
             "responseHashes": [
-                "45b3ed28f8c8462d7f7486977f798ab4a4b6e32f4f2f4daba42763c120372e09"
+                "51cd20cbb2c5e74c8b23c00ad7ea5fc75d2beabb048db2fd0eebbb6cbd2bcbc4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
         {
-            "rule": "stroeerdp\\.de\\/podigee\\/css\\/theme_master\\.css",
+            "rule": "stroeerdp\\.de\\/consent\\/tcfv2\\/vendor-list\\/categories",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "audio"
+                "consent"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
-                    "original": "audio.t-online.de",
-                    "resolved": "audio.stroeerdp.de"
+                    "original": "consent.t-online.de",
+                    "resolved": "consent.stroeerdp.de"
                 }
             ],
             "responseHashes": [
-                "91b77e24b099dc53e0545eff18b60a57b92ddaf65b8fcb77db3afd24128f8ea6"
+                "f5b28134193f2a2679c6fe9638dcb455faf281bf2ffe9615085787496261a959"
             ],
-            "type": "Stylesheet",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "t-online.de",
+                "email.t-online.de",
                 "www.t-online.de"
             ]
         },
         {
-            "rule": "stroeerdp\\.de\\/podigee\\/html\\/theme_master\\.html",
+            "rule": "stroeerdp\\.de\\/wrapper\\/tcfv2\\/v2\\/gdpr\\/native-message",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "audio"
+                "consent"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "audio.t-online.de",
-                    "resolved": "audio.stroeerdp.de"
+                    "original": "consent.t-online.de",
+                    "resolved": "consent.stroeerdp.de"
                 }
             ],
             "responseHashes": [
-                "0322a06da605e9bba9a5f464e7dc51937643fe1022b6887c962fdd8c805f489d"
+                "b422c60d243611a7807299f92040361423742753d309ef7782555b3ef1268ff2"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -300,20 +330,23 @@
             ]
         },
         {
-            "rule": "stroeerdp\\.de\\/iplocation\\/",
+            "rule": "stroeerdp\\.de\\/wrapper\\/tcfv2\\/v2\\/gdpr\\/native-message",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "geolocation"
+                "consent"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f4b5bee529230506425394bee0afc7cee9d84c198b742aa664cc240cc3a1bcc2"
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "consent.t-online.de",
+                    "resolved": "consent.stroeerdp.de"
+                }
             ],
-            "type": "Script",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -324,16 +357,14 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000271,
     "types": {
-        "Script": 8,
-        "XHR": 6,
-        "Preflight": 2,
-        "Document": 2,
-        "Stylesheet": 4
+        "Script": 9,
+        "XHR": 10,
+        "Preflight": 4,
+        "Document": 3,
+        "Stylesheet": 3,
+        "Fetch": 3
     },
-    "nameservers": [
-        "dns1.hadcs.de",
-        "dns2.hadcs.de"
-    ]
+    "nameservers": []
 }

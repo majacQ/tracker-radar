@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000201,
+    "sites": 2,
     "subdomains": [
-        "ga"
+        "ga",
+        "ga2"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 0,
     "resources": [
         {
-            "rule": "getresponse\\.com\\/index\\.php",
+            "rule": "getresponse\\.com\\/script\\/ga\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -24,12 +25,32 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "f57d766df71456af38e334352a4708a95c2f52fa132c705da0f6d7d6b0e81019"
             ],
-            "type": "Image",
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "educba.com",
+                "www.mojanorwegia.pl"
+            ]
+        },
+        {
+            "rule": "getresponse\\.com\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ga2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "gaVisitorUuid": 0.00010035122930255896
+                "gaVisitorUuid": 0.00020062192797672785
             },
             "exampleSites": [
                 "educba.com",
@@ -39,15 +60,16 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0,
     "types": {
-        "Image": 2
+        "Script": 2,
+        "Fetch": 2
     },
     "nameservers": [
-        "ns1.dnsmadeeasy.com",
-        "ns4.dnsmadeeasy.com",
         "ns3.dnsmadeeasy.com",
-        "ns0.dnsmadeeasy.com",
-        "ns2.dnsmadeeasy.com"
+        "ns2.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com"
     ]
 }

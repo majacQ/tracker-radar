@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
         "www"
@@ -12,6 +12,40 @@
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "gruparmf\\.pl\\/cookies\\/cookies\\.php",
+            "cookies": 0.00000678,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "898a0fb179fd8cb17029c73d4dd1f65f3a3184bf6ea602c67cd4cb46e9a34f01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rmf_cookie_id": {
+                    "ttl": 66528003,
+                    "length": 24,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmf.fm",
+                "www.rmf24.pl"
+            ]
+        },
         {
             "rule": "gruparmf\\.pl\\/_files\\/Upload\\/Files\\/Presspack\\/RMF-FM-logo\\.png",
             "cookies": 0,
@@ -21,65 +55,31 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "1f79ab2f477e3b674c45ed24a814ac7df06812d95dabae3582770920ff9b232d"
+                "dfa8bb75e16d0e710b61e6f093bf1d7dbf40fca33c08d00652dece33603749b6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rmf.fm",
-                "www.rmf.fm",
-                "www.rmf24.pl"
-            ]
-        },
-        {
-            "rule": "gruparmf\\.pl\\/cookies\\/cookies\\.php",
-            "cookies": 0.0000138,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "77a916e54dd018b5111f4087c6fed873d01460f3c5c735f073328e812deb7b66"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "rmf_cookie_id": {
-                    "ttl": 66528003,
-                    "length": 24,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "rmf.fm",
-                "www.rmf24.pl"
+                "www.rmf24.pl",
+                "www.rmf.fm"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000136,
     "types": {
-        "Image": 3,
-        "Script": 2
+        "Script": 2,
+        "Image": 3
     },
     "nameservers": [
         "ns01.rmf.pl",
-        "ns02.rmf.pl",
-        "ns03.rmf.pl"
+        "ns03.rmf.pl",
+        "ns02.rmf.pl"
     ]
 }

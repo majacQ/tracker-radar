@@ -4,19 +4,33 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.00231,
+    "sites": 23,
     "subdomains": [
         "tms.oracle.com",
+        "tags.chip.de",
+        "tags.focus.de",
         "tags.asics.com",
+        "collect.asics.com",
         "tccd.douglas.ch",
-        "tccd.douglas.de",
-        "tms-global.intel.com"
+        "tccd.douglas.de"
     ],
     "cnames": [
         {
+            "original": "collect.asics.com",
+            "resolved": "collect.asics.com.greylabeldelivery.com"
+        },
+        {
             "original": "tags.asics.com",
             "resolved": "tags.asics.com.greylabeldelivery.com"
+        },
+        {
+            "original": "tags.chip.de",
+            "resolved": "tags.chip.de.greylabeldelivery.com"
+        },
+        {
+            "original": "tags.focus.de",
+            "resolved": "tags.focus.de.greylabeldelivery.com"
         },
         {
             "original": "tccd.douglas.ch",
@@ -27,10 +41,6 @@
             "resolved": "tccd.douglas.de.greylabeldelivery.com"
         },
         {
-            "original": "tms-global.intel.com",
-            "resolved": "tms-global.intel.com.greylabeldelivery.com"
-        },
-        {
             "original": "tms.oracle.com",
             "resolved": "tms.oracle.com.greylabeldelivery.com"
         }
@@ -38,49 +48,15 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "greylabeldelivery\\.com\\/main\\/prod\\/utag\\.sync\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "tms.oracle.com",
-                "tags.asics.com"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [
-                {
-                    "original": "tms.oracle.com",
-                    "resolved": "tms.oracle.com.greylabeldelivery.com"
-                },
-                {
-                    "original": "tags.asics.com",
-                    "resolved": "tags.asics.com.greylabeldelivery.com"
-                }
-            ],
-            "responseHashes": [
-                "05c53b5af745b381a43f100c1d56ef4135a7f8f95ad5411832683e400b7fd904",
-                "594cb124fbdb7214a6d9d8cede5f7db6d77440c1bdf949b9057189723b8cca5c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "oracle.com",
-                "www.asics.com",
-                "www.oracle.com"
-            ]
-        },
-        {
             "rule": "greylabeldelivery\\.com\\/main\\/prod\\/utag\\.js",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
                 "tms.oracle.com"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [
                 {
                     "original": "tms.oracle.com",
@@ -88,15 +64,186 @@
                 }
             ],
             "responseHashes": [
-                "372e085ac3f5ee2f084e439d7e753e9dc9dfcd52cac61ef0a08f117446c90704"
+                "a4d3339a86a71b6f6dccd8f8e2676b0f64c9629de2b249b6d668365a580df12a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "oracle.com",
-                "community.oracle.com",
                 "www.oracle.com"
+            ]
+        },
+        {
+            "rule": "greylabeldelivery\\.com\\/main\\/prod\\/utag\\.5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tms.oracle.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tms.oracle.com",
+                    "resolved": "tms.oracle.com.greylabeldelivery.com"
+                }
+            ],
+            "responseHashes": [
+                "cbe2786101a3c8641b23eff87274f0b5e9a95126bc030efabf6fb0211ab03b92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oracle.com",
+                "www.oracle.com"
+            ]
+        },
+        {
+            "rule": "greylabeldelivery\\.com\\/chip-web\\/prod\\/utag\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags.chip.de"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "tags.chip.de",
+                    "resolved": "tags.chip.de.greylabeldelivery.com"
+                }
+            ],
+            "responseHashes": [
+                "900932f28276bb56f360ba3914d5df66f2ea77780df46b64d1880c080affabda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chip.de",
+                "praxistipps.chip.de",
+                "www.chip.de"
+            ]
+        },
+        {
+            "rule": "greylabeldelivery\\.com\\/chip-web\\/prod\\/utag\\.12\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.chip.de"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "tags.chip.de",
+                    "resolved": "tags.chip.de.greylabeldelivery.com"
+                }
+            ],
+            "responseHashes": [
+                "4513b0ba0ffb86021d5c6645c63fa87ea3a941eda321dbeeca440bc745bac8c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chip.de",
+                "praxistipps.chip.de",
+                "www.chip.de"
+            ]
+        },
+        {
+            "rule": "greylabeldelivery\\.com\\/focus-web\\/prod\\/utag\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags.focus.de"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [
+                {
+                    "original": "tags.focus.de",
+                    "resolved": "tags.focus.de.greylabeldelivery.com"
+                }
+            ],
+            "responseHashes": [
+                "6e757d153ff047a837ca9519689649241008d87ad406ecad8709814acb19c4a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "focus.de",
+                "kleinanzeige.focus.de",
+                "m.focus.de",
+                "praxistipps.focus.de",
+                "www.focus.de"
+            ]
+        },
+        {
+            "rule": "greylabeldelivery\\.com\\/main\\/prod\\/utag\\.sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.asics.com",
+                "tms.oracle.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tags.asics.com",
+                    "resolved": "tags.asics.com.greylabeldelivery.com"
+                },
+                {
+                    "original": "tms.oracle.com",
+                    "resolved": "tms.oracle.com.greylabeldelivery.com"
+                }
+            ],
+            "responseHashes": [
+                "a7af9d310729260908995fbb171a687d9d2bd579341a576c26445337657f1a0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asics.com",
+                "www.oracle.com"
+            ]
+        },
+        {
+            "rule": "greylabeldelivery\\.com\\/asics\\/main\\/2\\/i\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collect.asics.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "collect.asics.com",
+                    "resolved": "collect.asics.com.greylabeldelivery.com"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asics.com",
+                "www.asics.com"
             ]
         },
         {
@@ -121,7 +268,7 @@
                 }
             ],
             "responseHashes": [
-                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -130,48 +277,14 @@
                 "douglas.ch",
                 "www.douglas.de"
             ]
-        },
-        {
-            "rule": "greylabeldelivery\\.com\\/profile-cq\\.emea\\/prod\\/utag\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
-            "subdomains": [
-                "tms-global.intel.com"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "tms-global.intel.com",
-                    "resolved": "tms-global.intel.com.greylabeldelivery.com"
-                }
-            ],
-            "responseHashes": [
-                "f5a9f1d613a8bcc4a860e6947df3431b536a9d6cf0751a80f6529bdf030bef6c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "utag_main": {
-                    "ttl": 31536007,
-                    "length": 167,
-                    "prevalence": 0.00010037137408411121,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "intel.com",
-                "www.intel.de"
-            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000703,
+    "cookies": 0.00231,
     "types": {
-        "Script": 8,
-        "XHR": 2
+        "Script": 17,
+        "XHR": 4
     },
     "nameservers": []
 }

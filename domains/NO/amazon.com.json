@@ -9,14 +9,22 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000401,
-    "sites": 4,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
         "payments",
-        "payments-eu",
-        "apay-us"
+        "payments-de",
+        "apay-us",
+        "unagi",
+        "unagi-eu",
+        "g-images"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "unagi.amazon.se",
+            "resolved": "unagi-eu.amazon.com"
+        }
+    ],
     "fingerprinting": 0,
     "resources": [
         {
@@ -25,23 +33,23 @@
             "fingerprinting": 0,
             "subdomains": [
                 "payments",
-                "payments-eu"
+                "payments-de"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e1e5dd5528c921f85c581c7a54ec07b6309a5a7b36eea01152aae530913cbc96",
-                "331ec3bd08c8b7b0916018de348d33201849ab8d821444fe13cf87d919a7233b"
+                "7313b76e27cddc08e8096319c3ccbcb7b6d6366cee0b0b4fdc47ba13d02c4136",
+                "a99c9393960d512ee145b5875f250918228b6e32503f3083f71b87da08e9b416"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nicksboots.com",
-                "www.mathway.com",
-                "www.motorradmeistermilz.de"
+                "reason.com",
+                "www.angeln-neptunmaster.de",
+                "www.mathway.com"
             ]
         },
         {
@@ -50,11 +58,12 @@
             "fingerprinting": 0,
             "subdomains": [
                 "payments",
+                "payments-de",
                 "apay-us"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -63,8 +72,58 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nicksboots.com",
+                "reason.com",
+                "www.angeln-neptunmaster.de",
                 "www.mathway.com"
+            ]
+        },
+        {
+            "rule": "amazon\\.com\\/1\\/events\\/com\\.amazon\\.csm\\.csa\\.prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unagi",
+                "unagi-eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "unagi.amazon.se",
+                    "resolved": "unagi-eu.amazon.com"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abebooks.com",
+                "www.abebooks.com",
+                "www.amazon.se"
+            ]
+        },
+        {
+            "rule": "amazon\\.com\\/images\\/G\\/01\\/associates\\/network\\/amzn\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eevblog.com",
+                "www.linuxquestions.org"
             ]
         }
     ],
@@ -79,14 +138,16 @@
     "performance": {},
     "cookies": 0.000301,
     "types": {
-        "XHR": 5
+        "XHR": 6,
+        "Ping": 3,
+        "Image": 2
     },
     "nameservers": [
-        "ns4.p31.dynect.net",
-        "pdns6.ultradns.co.uk",
-        "ns1.p31.dynect.net",
-        "ns3.p31.dynect.net",
         "ns2.p31.dynect.net",
-        "pdns1.ultradns.net"
+        "ns3.p31.dynect.net",
+        "ns4.p31.dynect.net",
+        "pdns1.ultradns.net",
+        "pdns6.ultradns.co.uk",
+        "ns1.p31.dynect.net"
     ]
 }

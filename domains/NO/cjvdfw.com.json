@@ -8,33 +8,46 @@
     "sites": 3,
     "subdomains": [],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "cjvdfw\\.com\\/code\\/native\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.0001,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e7fc20e40cdec18465febf8f43bba6b959a6ad9e0a5bb5379e485ec4f36f74fd"
+                "1eb74630804aec6469a3ff975827b6262a36b9a096ea749afc6323cbf51e5975",
+                "a56f9d4a5414e119f61291fa298bfef15df25cbf144ead9d0ebafaf7b2fe7407"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "uwaWQiOjEwMzA1MDUsInNpZCI6MTE0ODQ5Miwid2lkIjozNTQ3OTMsInNyYyI6Mn0eyJ": {
+                    "ttl": 64,
+                    "length": 1,
+                    "prevalence": 0.00010031096398836393,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "xcv.wiki",
-                "no.abcdef.wiki",
-                "no.xcv.wiki"
+                "abcdef.wiki",
+                "no.frwiki.wiki",
+                "rldrayu5i6lac6ocyfhdqxyttqkr7z5oypvfo226rr7v7vgizgyaomyd.onion.autos"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
         "Script": 3
     },

@@ -7,51 +7,50 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.001,
-    "sites": 10,
+    "prevalence": 0.000803,
+    "sites": 8,
     "subdomains": [
         "assets",
         "api"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "poool\\.fr\\/poool\\.min\\.js",
-            "cookies": 0.001,
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "window.localStorage": 7
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5
             },
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 7,
+            "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "396a48ad7529af6e3e1c1454e1063cd227db85fd1ec61e3cf4f9aff90851ddfe"
+                "c9186d55e6f81ef8ad9bb013413463304513bb4b5dc09cccf74f568875762c45"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "euronews.com",
-                "jardinage.ooreka.fr",
-                "lepetitjournal.com",
-                "moto-station.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.melty.fr",
-                "www.sciencesetavenir.fr"
+                "www.ledauphine.com",
+                "www.leprogres.fr",
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
             "rule": "poool\\.fr\\/poool-sdk\\.min\\.js",
-            "cookies": 0.000201,
+            "cookies": 0.000502,
             "fingerprinting": 1,
             "subdomains": [
                 "assets"
@@ -60,74 +59,83 @@
                 "window.localStorage": 7,
                 "Navigator.prototype.userAgent": 7,
                 "Document.cookie getter": 7,
-                "Document.cookie setter": 2
+                "Document.cookie setter": 5
             },
             "sites": 7,
             "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "1227f51013c6d44e2b562dbb46b4f9602ca38f265c6d638d1e833486b03d55be"
+                "47c7e56c5f62b0e598146e594996cc3114ee594d19e38ea34be2687a12044f63"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_poool": {
-                    "ttl": 31536019,
+                    "ttl": 31536020,
                     "length": 36,
-                    "prevalence": 0.00020074274816822243,
+                    "prevalence": 0.0005020584396023697,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.sciencesetavenir.fr"
+                "www.ledauphine.com",
+                "www.leprogres.fr",
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
             "rule": "poool\\.fr\\/api\\/v3\\/access\\/event",
-            "cookies": 0.000201,
+            "cookies": 0.000502,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "ce32e74d8d3ee508137a600bb114660665ead5c344f1a2aabf20b53ed1d8b0da",
+                "060b36facd79a7e370c49dd64407b32f5dbe4a5566ce0419ea6d95a86460355d",
+                "806abcfc77987a7e2f02020e9d28e3bc914b4ba44ec5ecace58f2b86f62cb654",
+                "e1a397e90fefc9d5beea612b9b1663a147bf70e968d8e5f94200b016869a7233"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronews.com",
+                "fr.euronews.com",
+                "www.ledauphine.com",
+                "www.leprogres.fr",
+                "www.usinenouvelle.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/access\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com"
-            ]
-        },
-        {
-            "rule": "poool\\.fr\\/api\\/v3\\/access\\/event",
-            "cookies": 0.000201,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "d5ff7d43dfba7732381f8630abe38de8fbc5f5c528215b2337c3f0b9e416b655"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com"
+                "euronews.com",
+                "fr.euronews.com",
+                "www.ledauphine.com",
+                "www.leprogres.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
@@ -138,25 +146,27 @@
                 "assets"
             ],
             "apis": {
-                "Document.cookie getter": 7
+                "Document.cookie getter": 9
             },
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 9,
+            "prevalence": 0.000904,
             "cnames": [],
             "responseHashes": [
-                "24834bd1fb3b3de2773e0025343682c0f2e1712f09e51f1d751b34d2edecd391"
+                "0539448579a573c50f7fbb6d3e2ae7f5712694ce4f0f7fd9aa4c6da422d50c45"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "de.euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.sciencesetavenir.fr"
+                "www.ledauphine.com",
+                "www.leprogres.fr",
+                "www.lesnumeriques.com",
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
@@ -171,19 +181,19 @@
             "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "60dd4140d22b68f92c35ecbeba1f9b9b7df911fe61aa9d02bef85a1bd24a4d52"
+                "afaf40922a1f91b233495ed57712f48c3f2f230a51400b5e28df0ca3b1ec6ce1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.sciencesetavenir.fr"
+                "www.ledauphine.com",
+                "www.leprogres.fr",
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
@@ -194,8 +204,8 @@
                 "assets"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
                 "a07ee1eeee8f30b77309ce4ebbb305e1ce2ebe0eddd9fc23a27b056b0dbb39e4"
@@ -204,13 +214,11 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.sciencesetavenir.fr"
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
@@ -221,125 +229,113 @@
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7
+                "Navigator.prototype.userAgent": 5
             },
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "02b02e0e5a5639b73660833c58d7725d05f7f76834982ccc4d66f77dfb39c49d"
+                "771796dfcbcb01b8fbb62216e0fc2b740cd0a39aafdb98cf0ef1d20cb34aa773"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.sciencesetavenir.fr"
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
-            "rule": "poool\\.fr\\/vendor-buddy\\.min\\.js",
+            "rule": "poool\\.fr\\/vendor-buddy-esm\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7
+                "Navigator.prototype.userAgent": 5
             },
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "d8dce99c9bebb4d1eaddf47ae225728fc9aaae19f6ac131371088377b19dbbd4"
+                "e94c36ff4cc89a5865f933a8c6b0f706098c7d7051d717e21262f338639a4c64"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "de.euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
-                "www.sciencesetavenir.fr"
+                "www.sciencesetavenir.fr",
+                "www.usinenouvelle.com"
             ]
         },
         {
             "rule": "poool\\.fr\\/api\\/v3\\/access\\/paywall",
-            "cookies": 0.000703,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
                 "www.sciencesetavenir.fr"
             ]
         },
         {
             "rule": "poool\\.fr\\/api\\/v3\\/access\\/paywall",
-            "cookies": 0.000703,
+            "cookies": 0.000402,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "c27ef7dfb32e7b0e4bb2dcbd78d3c0d906703a1660107296af77636508e9d536",
-                "3f3d11d569c2f8d5e42c511904a52d2f49288d1c751bfcd3f58991d48ec682f5",
-                "ab5e33cf20a34e609770fa804defc398ddbd643fcd35164fa36dc33842cd0187",
-                "18a094273abf9c30a11a70aeed990f2ad089fffef2761255343b1c65109fab34",
-                "6adb46e774e2a7dc793f64f3726ba0c359d57b6e3709deea1ec0b61517e2ff43",
-                "e32c51b3dc2b13e24c282c4d990d39fe36bfb7a0822a6c31fefa217e8a7249df"
+                "9dcd9480686304b2bc604e40080c4cdfa573f0f64cc37425cfe1431a9a9e6e17",
+                "33a0746b5e3da91576a081629c0542f6976c3ece478b165d5a2b249cebd98c98",
+                "7ad5a9680f391eb35c9d2adcfb3a6e32097cb3d0a2dae97953a72e961cc631f0"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lepetitjournal.com",
-                "moto-station.com",
+                "euronews.com",
+                "fr.euronews.com",
                 "www.elle.fr",
-                "www.gamekult.com",
-                "www.lexpress.fr",
-                "www.marianne.net",
                 "www.sciencesetavenir.fr"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.001,
+    "cookies": 0.000703,
     "types": {
-        "Script": 45,
-        "Preflight": 9,
+        "Script": 41,
         "Fetch": 9,
-        "Document": 7
+        "Preflight": 9,
+        "Document": 5
     },
     "nameservers": [
-        "ara.ns.cloudflare.com",
-        "oswald.ns.cloudflare.com"
+        "oswald.ns.cloudflare.com",
+        "ara.ns.cloudflare.com"
     ]
 }

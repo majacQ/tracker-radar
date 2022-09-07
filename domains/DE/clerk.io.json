@@ -4,15 +4,41 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000601,
+    "sites": 6,
     "subdomains": [
         "api",
         "cdn"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "clerk\\.io\\/static\\/clerk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "620b7e89e85bb274338bca71d21ffd00c9512621ca5140e86a70eae7fb947e9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aquasabi.de",
+                "www.vapstore.de"
+            ]
+        },
         {
             "rule": "clerk\\.io\\/v2\\/log\\/pageview",
             "cookies": 0,
@@ -21,19 +47,23 @@
                 "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "2183fd34ae84cf12efa0a6fcfd815eb99ccb84e9cc9df93dad09574ab1485694"
+                "2183fd34ae84cf12efa0a6fcfd815eb99ccb84e9cc9df93dad09574ab1485694",
+                "d00742989ad71d2b94bdbd674ec29610dabef3afd14aca801d0085c626c59e43"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aquasabi.de",
+                "www.autobatterienbilliger.de",
                 "www.bogensportwelt.de",
-                "www.ofenseite.com"
+                "www.lot-tissimo.com",
+                "www.ofenseite.com",
+                "www.vapstore.de"
             ]
         },
         {
@@ -44,23 +74,27 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "window.sessionStorage": 2,
-                "Navigator.prototype.language": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTime": 4
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "21e9f644d6990c9d3327ad4aa49dfa2681a00a6ec5e90d5c600208ebf81e7217"
+                "f9d5ec7ab7d4a49f253f007aaa2724d1f2f6ef41b14a4cb4fddb7403ac75f28c",
+                "eebb7eeea3ac772c4b50941c4eabc204d174447352baf059204ced06ae17c4cf"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bogensportwelt.de",
+                "autobatterienbilliger.de",
+                "www.bogensportwelt.de",
+                "www.lot-tissimo.com",
                 "www.ofenseite.com"
             ]
         }
@@ -69,7 +103,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5
+        "Script": 12
     },
     "nameservers": [
         "ns-158.awsdns-19.com",

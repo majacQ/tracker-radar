@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.001,
-    "sites": 10,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
         "ad",
         "v",
@@ -24,18 +24,20 @@
         {
             "rule": "lkqd\\.net\\/vpaid\\/formats\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "ad"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.doNotTrack": 4
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "7cfe458faed6fe5c3094bd51f1f10174604be983739ade9d828b0aad190043e5"
@@ -45,34 +47,39 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
+                "www.ephotozine.com"
             ]
         },
         {
             "rule": "lkqd\\.net\\/cookie-sync\\/usync\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.000201,
+            "fingerprinting": 1,
             "subdomains": [
                 "ad"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6a9927d34f4bab2af700510fd27194cfd1603e97a34cbb21678350f4cd93b2b3"
+                "a09fb04841151074c73e8daf6edb12da7ffd8b5e7812492a6d9f3ae977fe3d31"
             ],
             "type": "Document",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "csip": {
+                    "ttl": 300,
+                    "length": 4,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "wh40k.lexicanum.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
+                "www.ephotozine.com"
             ]
         },
         {
@@ -84,155 +91,24 @@
                 "ssp"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "45c25180b155a212412a3e3cbf29329542e38e37f24ca041b506b6db2aa7945a",
                 "0863882f1d6ce836e3dcf7123e95e2c188fd7d4eda775c696ded7e1d82c61080",
-                "de19696bdf5db7843a2b391058ddfac6d31ae3b7f403dda2ee865530ba2f4367",
-                "45fa735c6df15f15a1293a9cb3125033408874bf284280e8bcac23f95ad8feac",
-                "3939e81abcfcd98b04c591359b085bc9548ae121ab5fb6473fd935f2871fceba"
+                "45fa735c6df15f15a1293a9cb3125033408874bf284280e8bcac23f95ad8feac"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "wh40k.lexicanum.com",
-                "worldstarhiphop.com",
-                "www.animenewsnetwork.com",
-                "www.avclub.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "wh40k.lexicanum.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "wh40k.lexicanum.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/vpaid\\/vpaid\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 5,
-                "Navigator.prototype.userAgent": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Navigator.prototype.doNotTrack": 5
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00010028078620136381
             },
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "ef50960ff4008e29ce90d5fbf828aafc92f1df70f59fb672fa3884fdd2017a5f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "wh40k.lexicanum.com",
-                "www.businesstraveller.com",
+                "filehippo.com",
                 "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/cs",
-            "cookies": 0.000602,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cs"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "starsgab.com",
-                "wh40k.lexicanum.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk",
-                "www.vice.com"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/ad",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "v"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "wh40k.lexicanum.com",
-                "www.businesstraveller.com",
-                "www.ephotozine.com",
-                "www.historylearningsite.co.uk"
+                "www.powerpyx.com",
+                "www.whatfontis.com"
             ]
         },
         {
@@ -247,12 +123,104 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
-            "type": "Other",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businesstraveller.com",
-                "www.historylearningsite.co.uk"
+                "24timezones.com",
+                "www.ephotozine.com"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "www.ephotozine.com"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/vpaid\\/vpaid\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.outerWidth": 2,
+                "window.innerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "36ae762191d24727fbba21272ea14872bb7824188961282001d50e67f7b1881c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "www.ephotozine.com"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/cs",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "www.ephotozine.com"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/ad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "www.ephotozine.com"
             ]
         }
     ],
@@ -263,19 +231,18 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {},
-    "cookies": 0.000602,
+    "cookies": 0.000201,
     "types": {
-        "Script": 9,
-        "Document": 5,
-        "XHR": 13,
-        "Preflight": 10,
-        "Image": 7,
-        "Other": 2
+        "Script": 4,
+        "Document": 2,
+        "XHR": 7,
+        "Preflight": 4,
+        "Image": 2
     },
     "nameservers": [
-        "ns-60.awsdns-07.com",
-        "ns-730.awsdns-27.net",
+        "ns-1476.awsdns-56.org",
         "ns-1836.awsdns-37.co.uk",
-        "ns-1476.awsdns-56.org"
+        "ns-60.awsdns-07.com",
+        "ns-730.awsdns-27.net"
     ]
 }

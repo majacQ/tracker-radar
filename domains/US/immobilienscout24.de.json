@@ -4,11 +4,10 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000552,
+    "prevalence": 0.0000542,
     "sites": 8,
     "subdomains": [
         "osa.s24-media",
-        "pictures",
         "tracking"
     ],
     "cnames": [],
@@ -17,46 +16,30 @@
         {
             "rule": "immobilienscout24\\.de\\/osa-LATEST\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "osa.s24-media"
             ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "88c2993f953a55a83a84c78c73fad8bbcefedb5f5aec5b09a1d2c712e0f94f44"
+                "c8ca508aace29412b6687ba765047753b5899124bc0cf8a200bbea9ecfe8baeb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "immobilienscout24.at",
+                "immosuchmaschine.at",
                 "www.immosuchmaschine.at",
-                "www.immosuchmaschine.de"
-            ]
-        },
-        {
-            "rule": "immobilienscout24\\.de\\/prod\\.www\\.immobilienscout24\\.at\\/pictureserver\\/loadPicture",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pictures"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "1e6665f5e6c9dd6b53f8d8b1d72b7afaa089f5bc60ae26f57c43269e0be829a8"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "immobilienscout24.at",
-                "www.immobilienscout24.at"
+                "www.immosuchmaschine.de",
+                "www.wohnungsboerse.net"
             ]
         },
         {
@@ -70,10 +53,10 @@
                 "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "bab0da8bbdfe922b73afc92cbaf6afd4510e769d5dbbe3e2fa02aafb9e411d37"
+                "ce273bdcfc6a1943bfb6df94f8a1b79e5d9980e0d913f3acaaf91b671ca54260"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -88,8 +71,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5,
-        "Image": 2
+        "Script": 6
     },
     "nameservers": [
         "ns-24.awsdns-03.com",

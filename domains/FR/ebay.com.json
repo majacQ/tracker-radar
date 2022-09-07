@@ -9,13 +9,14 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000502,
+    "sites": 5,
     "subdomains": [
-        "epnt"
+        "epnt",
+        "monitor"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "ebay\\.com\\/static\\/epn-smart-tools\\.js",
@@ -25,22 +26,45 @@
                 "epnt"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.product": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "b4f1398e659ad352866548ac974d37d7dd75a862a2348b957354818fd91e2f43"
+                "33f0141d1c431c1eeecd2d8b832cfb52de7dbcdeac4992d8812a02bd62f319d3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "coupdepouce.com",
+                "istocks.club",
+                "www.coupdepouce.com",
                 "www.guideautoweb.com",
                 "www.journaldemontreal.com"
+            ]
+        },
+        {
+            "rule": "ebay\\.com\\/csp-report\\/sampleapp\\/placement",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monitor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "istocks.club",
+                "technochouette.istocks.club"
             ]
         }
     ],
@@ -51,9 +75,10 @@
         "Action Pixels"
     ],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 3
+        "Script": 4,
+        "Other": 2
     },
     "nameservers": [
         "dns1.p06.nsone.net",

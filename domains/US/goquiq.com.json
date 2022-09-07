@@ -4,30 +4,53 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000813,
+    "sites": 12,
     "subdomains": [
-        "moni",
+        "sentry",
         "evo",
         "jacksonhole",
         "volvo"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "goquiq\\.com\\/api\\/10\\/store\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "bc3651af49664e9fdab3ba156995906f79b16e786da18bf05c9337d044ac5612"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaches.com",
+                "www.beaches.com",
+                "www.maurices.com",
+                "www.sandals.com"
+            ]
+        },
         {
             "rule": "goquiq\\.com\\/api\\/v1\\/messaging\\/agents-available",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "moni",
                 "evo",
                 "jacksonhole",
                 "volvo"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
                 "631f4d836f9d199ee9721cc528112d8b61d2b90455bb214dd364596b487fe6b6",
@@ -37,34 +60,224 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brinkshome.com",
+                "evo.com",
                 "www.evo.com",
                 "www.jacksonhole.com",
                 "www.volvocars.com"
             ]
         },
         {
-            "rule": "goquiq\\.com\\/app\\/webchat\\/index\\.js",
+            "rule": "goquiq\\.com\\/app\\/webchat\\/webchat-1\\.8\\.63-e558197a\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "evo",
+                "jacksonhole",
+                "volvo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "d883d76ca97b243ae56e4c6da29e6c3216b846820f823a7480945bb5ac7c8855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.evo.com",
+                "www.jacksonhole.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/common-core-1\\.8\\.63-e558197a\\.js",
             "cookies": 0,
             "fingerprinting": 1,
+            "subdomains": [
+                "evo",
+                "volvo"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "bb54905a2cca256ddc97d03d0e6eed767880f24620bd503804309632fc84aaee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.evo.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/common-icons-1\\.8\\.63-e558197a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "evo",
+                "volvo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "cb8f551abcf86db734b4812e2e0298553417ecdbf7033fc65dcb10d23755e477"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.evo.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/common-dependencies-1\\.8\\.63-e558197a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "evo",
+                "volvo"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "d104b54d68271fdec767613cafa947b904475d8cb77e238d8effa2dcea38029d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.evo.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/common-webchat-1\\.8\\.63-e558197a\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "evo",
+                "volvo"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "ae4b276c8bf1dfb0f96d13e105676c9fb791d0144cfb2541a03955674d615326"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.evo.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/webchatMain-1\\.8\\.63-e558197a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "evo",
+                "volvo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "a171d235f80fba6b0069718eb57b3fd197194f80bfb567e64710232b1ffb2a7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.evo.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/webchat-1\\.8\\.63-e558197a\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "evo",
+                "volvo"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.name": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a631c96c50dad1190c8838edc0802b3d18fb3c07241201dd7fbdf9cfc459d599"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evo.com",
+                "www.volvocars.com"
+            ]
+        },
+        {
+            "rule": "goquiq\\.com\\/app\\/webchat\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
             "subdomains": [
                 "jacksonhole",
                 "volvo"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "b1506b309c304c47502c0e166ca76a47bfe81b7600964712b5091878c09057b1"
+                "ddd7e98e1356633a5ba7f7811a6dfafbd438438d5bf81380ab42b4c9be32603e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "jacksonhole.com",
+                "www.jacksonhole.com",
                 "www.volvocars.com"
             ]
         }
@@ -73,13 +286,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
+        "Fetch": 4,
         "XHR": 4,
-        "Script": 2
+        "Document": 4,
+        "Script": 20
     },
     "nameservers": [
-        "ns-1401.awsdns-47.org",
-        "ns-1578.awsdns-05.co.uk",
         "ns-280.awsdns-35.com",
-        "ns-992.awsdns-60.net"
+        "ns-992.awsdns-60.net",
+        "ns-1578.awsdns-05.co.uk",
+        "ns-1401.awsdns-47.org"
     ]
 }

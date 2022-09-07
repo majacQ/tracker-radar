@@ -4,18 +4,18 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000759,
-    "sites": 11,
+    "prevalence": 0.000061,
+    "sites": 9,
     "subdomains": [
+        "proxy--immobilien-sparkasse-de",
         "user--api--immobilien-sparkasse-de",
-        "media-hugendubel-de",
         "scw-hugendubel-de",
         "push-ls--tc-de"
     ],
     "cnames": [
         {
-            "original": "media.hugendubel.de",
-            "resolved": "media-hugendubel-de.ax4z.com"
+            "original": "proxy-immobilien.sparkasse.de",
+            "resolved": "proxy--immobilien-sparkasse-de.ax4z.com"
         },
         {
             "original": "push.ls-tc.de",
@@ -33,6 +33,58 @@
     "fingerprinting": 3,
     "resources": [
         {
+            "rule": "ax4z\\.com\\/ajax\\/ajaxToAPI\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy--immobilien-sparkasse-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "proxy-immobilien.sparkasse.de",
+                    "resolved": "proxy--immobilien-sparkasse-de.ax4z.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparkasse.de",
+                "immobilien.sparkasse.de"
+            ]
+        },
+        {
+            "rule": "ax4z\\.com\\/ajax\\/ajaxToAPI\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy--immobilien-sparkasse-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "proxy-immobilien.sparkasse.de",
+                    "resolved": "proxy--immobilien-sparkasse-de.ax4z.com"
+                }
+            ],
+            "responseHashes": [
+                "a842f6398db1bc2daebd116395fde50ec0d77a885c5f35c783fd7d4f0c53d3b1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparkasse.de",
+                "immobilien.sparkasse.de"
+            ]
+        },
+        {
             "rule": "ax4z\\.com\\/api\\/backend\\/user\\/details",
             "cookies": 0,
             "fingerprinting": 0,
@@ -41,7 +93,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "user-api-immobilien.sparkasse.de",
@@ -60,89 +112,6 @@
             ]
         },
         {
-            "rule": "ax4z\\.com\\/filialen\\/9869\\/filiale-small\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "media-hugendubel-de"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [
-                {
-                    "original": "media.hugendubel.de",
-                    "resolved": "media-hugendubel-de.ax4z.com"
-                }
-            ],
-            "responseHashes": [
-                "2e55f8a3e6e78a1517de77b43ca2d86982e29b9fdfda1f57a6d4a734a490a8a8"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hugendubel.de",
-                "m.hugendubel.de",
-                "www.hugendubel.de"
-            ]
-        },
-        {
-            "rule": "ax4z\\.com\\/filialen\\/9869\\/filialleitung-small\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "media-hugendubel-de"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [
-                {
-                    "original": "media.hugendubel.de",
-                    "resolved": "media-hugendubel-de.ax4z.com"
-                }
-            ],
-            "responseHashes": [
-                "edd4c0ae1e511b1ab56e359cd32528f083b704c53ce0d711cf74f55e6988a253"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hugendubel.de",
-                "m.hugendubel.de",
-                "www.hugendubel.de"
-            ]
-        },
-        {
-            "rule": "ax4z\\.com\\/shop\\/magazine-pictures\\/tsr220x300_hugendubel_NOW_0\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "media-hugendubel-de"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "media.hugendubel.de",
-                    "resolved": "media-hugendubel-de.ax4z.com"
-                }
-            ],
-            "responseHashes": [
-                "8dd99a26a42391b6a8ba985e0242ba184ac1691d50bff6b5985f5d97f5dfee82"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hugendubel.de",
-                "www.hugendubel.de"
-            ]
-        },
-        {
             "rule": "ax4z\\.com\\/x\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 3,
@@ -150,8 +119,8 @@
                 "scw-hugendubel-de"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "scw.hugendubel.de",
@@ -159,7 +128,7 @@
                 }
             ],
             "responseHashes": [
-                "c699c4d07d2565fad417287ef3c3b2ebee12d52c4f49cc146aad5083376df098"
+                "d3c8cef3a27de41c550bae2aecfadb53940f84f4a1746b7c2ba3717598998f4e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -167,7 +136,6 @@
             "exampleSites": [
                 "hugendubel.de",
                 "m.hugendubel.de",
-                "www.ebook.de",
                 "www.hugendubel.de"
             ]
         },
@@ -179,8 +147,8 @@
                 "scw-hugendubel-de"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "scw.hugendubel.de",
@@ -196,7 +164,6 @@
             "exampleSites": [
                 "hugendubel.de",
                 "m.hugendubel.de",
-                "www.ebook.de",
                 "www.hugendubel.de"
             ]
         },
@@ -208,8 +175,8 @@
                 "scw-hugendubel-de"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "scw.hugendubel.de",
@@ -223,7 +190,6 @@
             "exampleSites": [
                 "hugendubel.de",
                 "m.hugendubel.de",
-                "www.ebook.de",
                 "www.hugendubel.de"
             ]
         },
@@ -236,7 +202,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "push.ls-tc.de",
@@ -244,7 +210,7 @@
                 }
             ],
             "responseHashes": [
-                "2e3541fa3773ae97c4cd05a9184be7ade0ee9b9c5e9bebeb31ce58a0d916857b"
+                "e3e1636d7f0d1d27112f678c6714966f2a01e2454ecd821d74cc8475756f00ec"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -263,7 +229,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "push.ls-tc.de",
@@ -284,11 +250,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
+        "Preflight": 5,
+        "XHR": 7,
         "Fetch": 2,
-        "Image": 8,
-        "Script": 4,
-        "XHR": 6,
-        "Preflight": 4,
+        "Script": 3,
         "WebSocket": 2
     },
     "nameservers": []

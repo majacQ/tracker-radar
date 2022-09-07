@@ -4,77 +4,23 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000552,
-    "sites": 8,
+    "prevalence": 0.0000813,
+    "sites": 12,
     "subdomains": [
-        "rr",
-        "statics-cdn",
         "tracking-cdn",
-        "analytics",
-        "variations-cdn"
+        "tracking-settings",
+        "store-app",
+        "variations-cdn",
+        "statics-cdn",
+        "rr",
+        "tdw",
+        "analytics"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "figpii\\.com\\/visitor\\/register",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rr"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "f9e7d8da4edab0b097a47e63ebf25314d182b6c220b3c7598c7c6734a32e5049",
-                "316865f62550268d691574defd9061fa1a53edc004dd50442337c05dd33fa587"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "startuptalky.com",
-                "www.blublox.com",
-                "www.softsurroundings.com"
-            ]
-        },
-        {
-            "rule": "figpii\\.com\\/figtr\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "statics-cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.mimeTypes": 3,
-                "Navigator.prototype.javaEnabled": 3,
-                "Navigator.prototype.cookieEnabled": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.platform": 2,
-                "window.name": 2
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "757fac883aadb6360957ed083c3c54f4adabe0b581c48f77e1b03d577fd4363e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "startuptalky.com",
-                "www.blublox.com",
-                "www.softsurroundings.com"
-            ]
-        },
-        {
-            "rule": "figpii\\.com\\/89fb1888681e88fa6186cce8c07b323c\\.js",
+            "rule": "figpii\\.com\\/098f6798759a8f48f02133a2097dc4da\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -83,32 +29,504 @@
             "apis": {
                 "Navigator.prototype.mimeTypes": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "window.sessionStorage": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.permissions": 2,
-                "Navigator.prototype.languages": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.availHeight": 2,
-                "Screen.prototype.availWidth": 2,
-                "Date.prototype.getTimezoneOffset": 2,
                 "Navigator.prototype.language": 2,
-                "Event.prototype.timeStamp": 2
+                "Screen.prototype.orientation": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0849c7de80eb40c972a314b07daee39381d434202d134a2f26e6d9d94be387bd"
+                "a22311353bb4092bd7ef8db5e6d4c98e3a6c86d4759d92770b3d3fc9e6e2d7c5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "blublox.com",
-                "www.blublox.com"
+                "commentary.org",
+                "www.commentary.org"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/098f6798759a8f48f02133a2097dc4da\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking-settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d9fe9de12195b044373ec166b6b2474ae07df6b512ffd4d25dcb1d59e8402a0b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "commentary.org",
+                "www.commentary.org"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/script",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "store-app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "d364fcddf70df3d8777869c050254127859405811ffb1e04ad86abcc07bf1a03",
+                "af0d074c47a2060b27ff815907cde76ff659b53332b432831f3e8a9175676a3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heydudeshoesusa.com",
+                "www.heydudeshoesusa.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/3932b284c2ad435e6d8e15be8468c5b8\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracking-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.orientation": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b38ccd5b0b1dc07740ec30784bd13bd4a5a23e4b541964098a7ba2ba6ac274a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heydudeshoesusa.com",
+                "www.heydudeshoesusa.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/3932b284c2ad435e6d8e15be8468c5b8\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking-settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9c394e1d34caeef7a9231eee2c5742818e1c22e5e25f96c65155df28272b5ef5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heydudeshoesusa.com",
+                "www.heydudeshoesusa.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/68502baa29feab7a23aafbdd0c815632\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracking-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.orientation": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "23c2a87143e0d3499aad8c1a205701ba452ad5083b4fa0ac97a70ec015baf141"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_FPCI": {
+                    "ttl": 31536009,
+                    "length": 315,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "FIGPII_TE-325412": {
+                    "ttl": 31536010,
+                    "length": 5,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/68502baa29feab7a23aafbdd0c815632\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking-settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d77e375461aae29181510f97352d2a8cf445450e9f2ec687634d5b5372a40ed4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/extra\\/68502baa29feab7a23aafbdd0c815632_1659352359\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "variations-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bc8142992521598d09b7e909672fe947cf8d68c4bfcf94e9bb536c4e6ed1d874"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/v2\\/experiment\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statics-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "bd46626cb7517fdc756244412c08c1f33d12a703fdaa55ebb2563417a9e23097"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/v2\\/figtr\\.min\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 2,
+            "subdomains": [
+                "statics-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3,
+                "window.name": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "8a3b4145141428725a8fd9ca628139b98f94b8d49db45593430fdba34a588ec4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_FPAC": {
+                    "ttl": 33955209,
+                    "length": 17,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.6666666666666666
+                },
+                "_FPAC_S": {
+                    "ttl": 1809,
+                    "length": 18,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/v2\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statics-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "4fe381dd1adc862ab5e45b15ebedd941d39cf738114193cf59b931cb890ad48c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/v2\\/recorder\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "statics-cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "c0474cb8f4084188da09ae4295d77a8b4385259ef01b1befe45d3aa928499e8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/visitor\\/register",
+            "cookies": 0.0000271,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rr"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "249bbcad53a40655e3ce02cd99a224d22b019228ab5d80c7678dad94e81b114a",
+                "08393f84f02a74eacb46ae443eae3cf80a4c24a03b57243e623319d01b396204",
+                "698acb769f23c51ce2998b877f21deeaa4714d69677f8ffe59d8822c65c65f0c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/visitor\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tdw"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/visitor\\/traffic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rr"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/js\\/te_page_ext_js_325343_18168_1659426891\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "variations-cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8672bcaaef309dbb13a2ba59c881e3d3463adcdda431c9346bc538be787f336d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/css\\/te_page_ext_css_325343_18168_1659426891\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "variations-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "680558ffb3f80bd3c41f24df312c0039481a10355e8b4f475b8033038e8b56ed"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/ab\\/decide",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rr"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com"
             ]
         },
         {
@@ -119,8 +537,8 @@
                 "analytics"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -129,14 +547,117 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "blublox.com",
-                "www.blublox.com",
+                "ibuypower.com",
+                "www.ibuypower.com",
+                "www.improovy.com",
+                "www.loopearplugs.com",
                 "www.softsurroundings.com"
             ]
         },
         {
-            "rule": "figpii\\.com\\/9c3fdba750ef0feb602be0c4a82622b9\\.js",
+            "rule": "figpii\\.com\\/750cf27ac7b0a049d14db398caa16c80\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracking-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.orientation": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e138c4f92f7e91cf94a7942cfb77d050f8022ee69f2e380875cc235c95d7f29c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_FPCI": {
+                    "ttl": 31536001,
+                    "length": 315,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "FIGPII_TE-324996": {
+                    "ttl": 31536001,
+                    "length": 5,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "FIGPII_TE-325667": {
+                    "ttl": 31536001,
+                    "length": 5,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "improovy.com",
+                "www.improovy.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/750cf27ac7b0a049d14db398caa16c80\\.json",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking-settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88f30a7872b9e0651cf20f8d6e09ad6b6623b4a659127584b19170cdcc0bbbd1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "improovy.com",
+                "www.improovy.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/extra\\/750cf27ac7b0a049d14db398caa16c80_1660480461\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "variations-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b86f80846c12f37256f13eecd44cb5b0a2ebdfe507a42edf2f012ba32681f2e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "improovy.com",
+                "www.improovy.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/9c3fdba750ef0feb602be0c4a82622b9\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "tracking-cdn"
@@ -147,6 +668,7 @@
                 "Date.prototype.getTime": 2,
                 "window.sessionStorage": 2,
                 "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.languages": 2,
                 "Screen.prototype.height": 2,
                 "Screen.prototype.width": 2,
@@ -154,19 +676,28 @@
                 "Screen.prototype.availWidth": 2,
                 "Date.prototype.getTimezoneOffset": 2,
                 "window.localStorage": 2,
+                "Document.cookie setter": 2,
                 "Navigator.prototype.permissions": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
                 "Event.prototype.timeStamp": 2,
-                "Element.prototype.getClientRects": 1,
-                "Navigator.prototype.language": 1
+                "Element.prototype.getClientRects": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "bb08b683840f762e3ef3571c300f89a8f9da2498fb96cca11bd4414dc5495054"
+                "9a28b5264abd7c2b98c0e69f795ac2825be204e17dc32fab9fbb79e070b248cb"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_FPCI": {
+                    "ttl": 31536001,
+                    "length": 241,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "softsurroundings.com",
@@ -182,13 +713,82 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "softsurroundings.com",
+                "www.softsurroundings.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/visitor\\/register",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7c427e2aaff35f0ce0b307c47a0383e4d25312ef56419879e2320018aadb9617"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "softsurroundings.com",
+                "www.softsurroundings.com"
+            ]
+        },
+        {
+            "rule": "figpii\\.com\\/figtr\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "statics-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5d24102f70981140d825aad9074e651e4910651812f675c2b4fb78dce97aec70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_FPAC": {
+                    "ttl": 33955203,
+                    "length": 17,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "_FPAC_S": {
+                    "ttl": 1802,
+                    "length": 18,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "softsurroundings.com",
@@ -204,7 +804,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -218,18 +818,21 @@
             ]
         },
         {
-            "rule": "figpii\\.com\\/js\\/te_page_ext_js_316893_6215_1625170770\\.js",
+            "rule": "figpii\\.com\\/js\\/te_page_ext_js_324345_16669_1658829004\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "variations-cdn"
             ],
-            "apis": {},
+            "apis": {
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5ac405e06bb6e5cc9fffb01105579957eb6a3405f26363a2192594f466fba845"
+                "284eac790f80b15f067f8d35037f657d64a1cbc4a4eca0030a51b38d13accf4d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -240,7 +843,7 @@
             ]
         },
         {
-            "rule": "figpii\\.com\\/css\\/te_page_ext_css_316893_6215_1625170934\\.css",
+            "rule": "figpii\\.com\\/css\\/te_page_ext_css_324345_16669_1654745193\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -248,54 +851,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4912e089605358c86bf8dde43ea54b91ad65e6b136f5976d6eaccdf7401a1ee1"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "softsurroundings.com",
-                "www.softsurroundings.com"
-            ]
-        },
-        {
-            "rule": "figpii\\.com\\/js\\/te_page_ext_js_319127_8505_1606407702\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "variations-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d2cfc22f8f8cfcf100fa19f5bccec2fe5a879a4dc53f18eac7fb41ab8562ac1b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "softsurroundings.com",
-                "www.softsurroundings.com"
-            ]
-        },
-        {
-            "rule": "figpii\\.com\\/css\\/te_page_ext_css_319127_8505_1606407702\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "variations-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "4df6221e2d277f02e19c53fb96d16d34bccacc7a23894a649b23d0e433b541fb"
+                "36ed73074118a7e18446671bf93d2a5d2f75c84a68fbe0c306a63091c5608934"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -314,10 +873,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "fadaa3abb8c593a4fee39e07d9b2885f3a521c4eaec89ba5f0cfc63b86e1a23e"
+                "ecd1c9efe689b3f84d122e6c89eb6fa7df0d6e387eb4e03e1f6f4b09788aac5d"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -326,37 +885,17 @@
                 "softsurroundings.com",
                 "www.softsurroundings.com"
             ]
-        },
-        {
-            "rule": "figpii\\.com\\/d40ba4a986f94f31452a835eb461f84b\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tracking-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "89570f299a31d8e8cba7a5ee1574cec46548de859a387d45dd1304e53c401f71"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "surlatable.com",
-                "www.surlatable.com"
-            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000414,
+    "cookies": 0.0000678,
     "types": {
-        "XHR": 10,
-        "Script": 13,
+        "Script": 39,
+        "Fetch": 22,
+        "WebSocket": 4,
         "Stylesheet": 4,
+        "XHR": 11,
         "Font": 2
     },
     "nameservers": [

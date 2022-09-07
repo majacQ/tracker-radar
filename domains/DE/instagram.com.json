@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0012,
-    "sites": 12,
+    "prevalence": 0.0019,
+    "sites": 19,
     "subdomains": [
         "www",
-        "platform"
+        "platform",
+        "graph"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -21,51 +22,70 @@
         {
             "rule": "instagram\\.com\\/embed\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "apis": {
+                "window.devicePixelRatio": 1
+            },
+            "sites": 15,
+            "prevalence": 0.0015,
             "cnames": [],
-            "responseHashes": [
-                "55e4952be9599ffd0c411a904a954ac984ed919d612ac2c044545a373aebd1f8"
-            ],
+            "responseHashes": [],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "restaurantguru.com",
+                "macspots.com",
+                "de.restaurantguru.com",
                 "ew.com",
-                "people.com",
-                "ria.ru",
-                "www.playboy.de"
+                "restaurantguru.com",
+                "www.beach-volleyball.de",
+                "www.european-athletics.com",
+                "www.fifa.com",
+                "www.golf.de",
+                "www.kalkhoff-bikes.com",
+                "www.playboy.de",
+                "www.popsugar.com",
+                "www.tiierisch.de",
+                "www.villagevoice.com",
+                "www.westfalen-blatt.de",
+                "www.wn.de"
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSDK\\.js\\/58b07fec4121\\.js",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSDK\\.js\\/ab12745d93c5\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 14,
+            "prevalence": 0.0014,
             "cnames": [],
             "responseHashes": [
-                "55e4952be9599ffd0c411a904a954ac984ed919d612ac2c044545a373aebd1f8"
+                "2a04fa46b4ebc4bb2c93126695f45b0acf711870e1f169bb95247592c28c24a8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "restaurantguru.com",
+                "macspots.com",
+                "de.restaurantguru.com",
                 "ew.com",
-                "people.com",
-                "ria.ru",
-                "www.playboy.de"
+                "restaurantguru.com",
+                "www.european-athletics.com",
+                "www.fifa.com",
+                "www.golf.de",
+                "www.kalkhoff-bikes.com",
+                "www.playboy.de",
+                "www.popsugar.com",
+                "www.tiierisch.de",
+                "www.villagevoice.com",
+                "www.westfalen-blatt.de",
+                "www.wn.de"
             ]
         },
         {
@@ -76,24 +96,25 @@
                 "platform"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "775808249d49791f8d8a3af7442dd203ac3a7a21baf16beb13032e9e777c6380"
+                "3682954994a7a31292ca551101e0227a3e7e9532a36735a023b31893d2622343"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ew.com",
-                "people.com",
                 "prinz.de",
-                "ria.ru"
+                "www.beach-volleyball.de",
+                "www.kalkhoff-bikes.com",
+                "www.villagevoice.com"
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/en_US\\.js\\/6df5860be74e\\.js",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/en_US\\.js\\/d188ffabd650\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -101,10 +122,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "5763a0cb0ce0c8784112945155a55876bc25a37e4bbda813f3f8a951d802545e"
+                "db44ff09ec43f3580d3b64b4311bf797ad20060d12529c0703834d3483988a6b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -115,7 +136,7 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSimple\\.js\\/d0ddfa21c074\\.js",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSimple\\.js\\/8b31f0d98c67\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -124,14 +145,21 @@
             "apis": {
                 "PerformanceTiming.prototype.navigationStart": 2,
                 "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
                 "Navigator.prototype.connection": 2,
-                "Navigator.prototype.onLine": 2
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "a4fc17e3b370af563ec884f4a8411bd267a0807acd5ea76182ce0025702679e2"
+                "d290ffbf20217888c105094c2c58107ac7c402891440395d2aceb970e0bd32ed"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -142,7 +170,7 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSimpleBase\\.css\\/29412bae0a19\\.css",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSimpleBase\\.css\\/b4e213565be7\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -150,10 +178,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "a81d37f1e00f9e9be08c3cc0ee809c3af406abbc08ad006c8531d512b5294e91"
+                "a92612b9748a86d86668384da155e92c39074bde96917e864157360085f35fc6"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -164,7 +192,7 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSidecarBase\\.css\\/03d424dfb6b6\\.css",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSidecarBase\\.css\\/ff1327328a97\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -172,10 +200,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "a36462d0632072efb88ef66d3576981c9a982cb7654d31abd2b9180f0849e7e2"
+                "d86acbef5b6f4522a7562afa8a4a94ea01a17f9c952aec7431ad1db52a7a96de"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -186,7 +214,7 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSidecarEntrypoint\\.js\\/c4934ee44d99\\.js",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSidecarEntrypoint\\.js\\/8d9ee12f7dbd\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -194,10 +222,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "b92deaf977cbf81407606687640f7fab0bd9eb5d3ff8b05b27b4e502f241817f"
+                "42990f7a1ade44c86a1af70d7b2e7552914ef35bcfc2b36234b9f2cf632f9a8f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -208,7 +236,7 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/sprite_embed_954d3690ded7\\.png\\/954d3690ded7\\.png",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/sprite_embed_6c7742894eb6\\.png\\/6c7742894eb6\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -216,10 +244,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "12510295463867c0585a7a87f2e84956d1069ce3281d44fe6489cc71efd53a23"
+                "9ea17a14b0d9c6fd17ec9bfe085745d4cd4f066623d1b0edd87c2d378a1de25b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -230,7 +258,7 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSidecarEntrypoint\\.css\\/03d424dfb6b6\\.css",
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedSidecarEntrypoint\\.css\\/ff1327328a97\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -238,10 +266,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "a36462d0632072efb88ef66d3576981c9a982cb7654d31abd2b9180f0849e7e2"
+                "d86acbef5b6f4522a7562afa8a4a94ea01a17f9c952aec7431ad1db52a7a96de"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -252,18 +280,64 @@
             ]
         },
         {
-            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedAsyncLogger\\.js\\/e11655383bff\\.js",
+            "rule": "instagram\\.com\\/logging_client_events",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graph"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "9b7c9bb91016a0d17171d9a9307591530d2211c64f33104a1b87299a6b386f95"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiierisch.de",
+                "www.tiierisch.de"
+            ]
+        },
+        {
+            "rule": "instagram\\.com\\/logging\\/falco",
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "ce9cbda8edb8bac02210c1c3162335486df5fdfc252f3affa2c8d813db976151"
+                "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiierisch.de",
+                "www.tiierisch.de"
+            ]
+        },
+        {
+            "rule": "instagram\\.com\\/static\\/bundles\\/es6\\/EmbedAsyncLogger\\.js\\/d64ff2787141\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "12f6a5b07681f5db7a9c89166113284288bbd69c839d3fbaaca668185d9dfa59"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -282,16 +356,17 @@
         "Social Network"
     ],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 22,
+        "Script": 42,
         "Stylesheet": 6,
-        "Image": 2
+        "Image": 2,
+        "XHR": 4
     },
     "nameservers": [
-        "ns-1349.awsdns-40.org",
-        "ns-2016.awsdns-60.co.uk",
-        "ns-384.awsdns-48.com",
-        "ns-868.awsdns-44.net"
+        "b.ns.instagram.com",
+        "d.ns.instagram.com",
+        "a.ns.instagram.com",
+        "c.ns.instagram.com"
     ]
 }

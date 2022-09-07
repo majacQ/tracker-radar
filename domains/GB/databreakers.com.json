@@ -4,14 +4,14 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000201,
+    "sites": 2,
     "subdomains": [
         "publicapi",
-        "api"
+        "www"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "databreakers\\.com\\/v1\\/gatherer-data-provider",
@@ -21,48 +21,60 @@
                 "publicapi"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "294f99eaa41b32d13d5208056f806cec609e39b0a9a40cf716c4d36e5419e4d3"
+                "e420c74aad90356af35bb3aad4eedbce1637b75a67886f171719364257fb1808"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "notino.co.uk",
+                "groupon.co.uk",
+                "www.groupon.co.uk",
                 "www.notino.co.uk"
             ]
         },
         {
-            "rule": "databreakers\\.com\\/v1\\/notino_gb\\/dataPoint",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "databreakers\\.com\\/cookie-maker",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
             "subdomains": [
-                "api"
+                "www"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "32af80e0c8ebc33463cea5d9c795a048bdf9e590ad3ce492319545a3b8cba732"
+                "a66a4234a18b524b8faabaf4948005802ad4ce37e7ab65e9c210252be8c7657c"
             ],
-            "type": "XHR",
-            "firstPartyCookies": {},
+            "type": "Document",
+            "firstPartyCookies": {
+                "db_ui": {
+                    "ttl": 157680000,
+                    "length": 36,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "notino.co.uk",
+                "groupon.co.uk",
                 "www.notino.co.uk"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0.000201,
     "types": {
-        "XHR": 4
+        "XHR": 3,
+        "Document": 2
     },
     "nameservers": [
         "ns2.ignum.cz",

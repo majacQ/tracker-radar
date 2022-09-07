@@ -4,15 +4,14 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000759,
-    "sites": 11,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
         "player",
         "track",
-        "ghb.sync",
-        "sync.sync",
-        "cdn",
-        "go1"
+        "track1",
+        "go1",
+        "cdn"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -25,23 +24,25 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
             },
             "sites": 5,
-            "prevalence": 0.0000345,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "6d1ddf5ac8cc95b092103244def0dd9ba5886ca6c8310e84eb45fe4be7555461"
+                "6a26f472970788e1b9638b18961c8932d2c4c400b9d2c258e6c562ca770ba14c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "astucesdegrandmere.net",
-                "star.ettoday.net",
+                "advfn.com",
                 "www.americanlisted.com",
                 "www.athletic.net",
-                "www.telegraf.rs"
+                "www.cafepharma.com",
+                "www.storm.mg"
             ]
         },
         {
@@ -49,11 +50,12 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "track"
+                "track",
+                "track1"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -62,11 +64,12 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "astucesdegrandmere.net",
-                "star.ettoday.net",
+                "advfn.com",
+                "investorshub.advfn.com",
                 "www.americanlisted.com",
                 "www.athletic.net",
-                "www.telegraf.rs"
+                "www.cafepharma.com",
+                "www.storm.mg"
             ]
         },
         {
@@ -77,112 +80,167 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.vendor": 4,
-                "Navigator.prototype.language": 3,
-                "Navigator.prototype.doNotTrack": 3,
-                "window.localStorage": 4,
-                "Screen.prototype.width": 4,
-                "Screen.prototype.height": 4,
-                "Navigator.prototype.languages": 4
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "fb40b2dbc64bcbf5be6e3a00d3b1e0f877691fc9b09eb0eb09c7fbeade6fa305"
+                "8aee6d7e6d51e6d543f52ac97a4a1633a6c07a12eb955c8603fff01a357297f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "astucesdegrandmere.net",
-                "star.ettoday.net",
+                "advfn.com",
                 "www.americanlisted.com",
-                "www.telegraf.rs"
+                "www.cafepharma.com"
             ]
         },
         {
-            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/avpb3\\.js",
-            "cookies": 0.0000138,
+            "rule": "viewdeos\\.com\\/api\\/adserver\\/tag\\/",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e46fe9d0cc6e1ddd2d75578af8e5812362b9d57ce31a95d2f2116c7b6b572bf5",
+                "a2a1270951ac096ab21002f9dd6ff5047e9bf6f0d355b02112a21866ef55d9da"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advfn.com",
+                "www.americanlisted.com",
+                "www.cafepharma.com"
+            ]
+        },
+        {
+            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.cookieEnabled": 4,
-                "window.sessionStorage": 4,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.doNotTrack": 4,
-                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
                 "Document.cookie setter": 2,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.width": 1,
-                "Navigator.prototype.language": 1
+                "Navigator.prototype.doNotTrack": 1
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "259b4e231ffd99000322aa5b2c1f153648db23d7e6f517caf30c3cf591d4fd14"
+                "3c94d07090acdd3c44fa5f23a2c957c961c7413129f068acecf17f1402102c4d"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_pbjs_userid_consent_data": {
-                    "ttl": 2592029,
+                    "ttl": 2592013,
                     "length": 16,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                },
-                "ucf_uid": {
-                    "ttl": null,
-                    "length": 36,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "astucesdegrandmere.net",
-                "star.ettoday.net",
+                "advfn.com",
                 "www.americanlisted.com",
-                "www.telegraf.rs"
+                "www.cafepharma.com"
             ]
         },
         {
-            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/avpb3a0\\.js",
+            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a0\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 0,
             "subdomains": [
                 "player"
             ],
-            "apis": {
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.availWidth": 1,
-                "Screen.prototype.availHeight": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Date.prototype.getTime": 1,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.doNotTrack": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "90913d718044d1123c724ca6f7a2e57fede0167f58780c215dc20accb92dc399"
+                "57a18b6c18cc1cb382fc80abd6302ee9c092d472b15d257fd911d942e6def986"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "astucesdegrandmere.net",
-                "star.ettoday.net",
+                "advfn.com",
+                "www.americanlisted.com"
+            ]
+        },
+        {
+            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "9ff07ed2c891ed887a0e9eb61461ca9c00277a27fd98d73e40d60b91b2eb86f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advfn.com",
                 "www.americanlisted.com",
-                "www.telegraf.rs"
+                "www.cafepharma.com"
+            ]
+        },
+        {
+            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "3d339d8964a7cbfedf6d7bede292d224a5fe885ee37ffc9ee1a9220851a1ee4e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advfn.com",
+                "www.americanlisted.com",
+                "www.cafepharma.com"
             ]
         },
         {
@@ -193,66 +251,19 @@
                 "track"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "astucesdegrandmere.net",
-                "star.ettoday.net",
-                "www.americanlisted.com",
-                "www.athletic.net",
-                "www.telegraf.rs"
-            ]
-        },
-        {
-            "rule": "viewdeos\\.com\\/auction\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ghb.sync"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f1307da1088cf04b3215d0a660db5f8bc0bd5644f2aa4f95122545a978d21aa7"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "chefsimon.com",
-                "www.sweetyhigh.com"
-            ]
-        },
-        {
-            "rule": "viewdeos\\.com\\/csync",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.sync"
-            ],
-            "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Image",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lovetoknow.com",
-                "cleaning.lovetoknow.com",
-                "megapolitan.kompas.com"
+                "advfn.com",
+                "www.americanlisted.com",
+                "www.cafepharma.com"
             ]
         },
         {
@@ -264,75 +275,27 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d798a3eedf1cfcc769978be7ce110cc8b26c2ef838f52c0cfd1a246a54011810"
+                "22ddc281d141f7987f479ff4239e59f476bf282294ce95adfcf39d3b87c19037"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ettoday.net",
-                "www.americanlisted.com"
-            ]
-        },
-        {
-            "rule": "viewdeos\\.com\\/api\\/adserver\\/tag\\/",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "go1"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2ee0c405ccb1f8339b74750c058506d0bcf0d3b80768c61741e142b10a134755"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
                 "americanlisted.com",
-                "www.telegraf.rs"
-            ]
-        },
-        {
-            "rule": "viewdeos\\.com\\/script\\/6\\.1\\/avpb3a1\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.language": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d48a4d6036178067ee92c93d824438f8bbd9fab5bcc7db9d0c005cc717184fc8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "americanlisted.com",
-                "www.telegraf.rs"
+                "www.cafepharma.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000483,
+    "cookies": 0.0000203,
     "types": {
         "Script": 19,
-        "Image": 10,
-        "XHR": 9
+        "Image": 8,
+        "XHR": 6
     },
     "nameservers": [
         "pdns09.domaincontrol.com",

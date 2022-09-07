@@ -14,15 +14,15 @@
     "subdomains": [],
     "cnames": [
         {
+            "original": "api.9now.com.au",
+            "resolved": ".nine-publishing.map.fastly.net"
+        },
+        {
             "original": "api.afr.com",
             "resolved": ".nine-publishing.map.fastly.net"
         },
         {
             "original": "api.brisbanetimes.com.au",
-            "resolved": ".nine-publishing.map.fastly.net"
-        },
-        {
-            "original": "api.ffx.io",
             "resolved": ".nine-publishing.map.fastly.net"
         },
         {
@@ -51,7 +51,30 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "login.nine.com.au",
+                    "resolved": ".nine-publishing.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "www.9now.com.au"
+            ]
+        },
+        {
+            "rule": "nine-publishing\\.map\\.fastly\\.net\\/api\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [
                 {
                     "original": "login.nine.com.au",
@@ -59,7 +82,34 @@
                 }
             ],
             "responseHashes": [
-                "31215f5b52dd581ba2986ff0f0f33a268462a12dd5b0b39bb01cbb710b0d111a"
+                "e4ac115e8c202450f3d20a975dce5715074817524167c0dbf1c3ce5f6cf0733c",
+                "ef2d0a46a0ad5d960cddf58766ad2b117c5853a85582d6a5a0ca97956af20541"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "www.9now.com.au",
+                "www.nine.com.au"
+            ]
+        },
+        {
+            "rule": "nine-publishing\\.map\\.fastly\\.net\\/live-experience",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.9now.com.au",
+                    "resolved": ".nine-publishing.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3937e02aafb69b48573ae26f6c84facc75afec4cde1ff9433eb60e877a6f05b9"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -75,15 +125,11 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [
                 {
                     "original": "api.afr.com",
-                    "resolved": ".nine-publishing.map.fastly.net"
-                },
-                {
-                    "original": "api.ffx.io",
                     "resolved": ".nine-publishing.map.fastly.net"
                 }
             ],
@@ -95,8 +141,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "afr.com",
-                "www.afr.com",
-                "www.traveller.com.au"
+                "www.afr.com"
             ]
         },
         {
@@ -164,10 +209,10 @@
                 }
             ],
             "responseHashes": [
-                "8abccf2fc1100ff08ac18b729ade31587387c09eaa7b4066be3025b6e0f76d35",
-                "0ae15d81d414506cb1b5b30c9f64c0c36bfe4ad6101ffc63068b0ab3f94dc945",
-                "3152a456731b4b4bba61def54fc43d4a3bb6ce54448c67f4885eb60fc7e7bc9e",
-                "4a9bbe75e0f92d5408448012f7a05e26e045630284bffdc9970f98c95eb24a1a"
+                "bcee2d68bb2bed21baa58f5df62d872a0b9dec5f29d49d0854eeb0abc5fc33d7",
+                "8dedff30c5265368af4954e51092bd712107d769bc617d00af253f8432e62cb0",
+                "41d4faa9d1524ad111ec2a93ccb712c3a5725bc50684b4e27bd91ca045398430",
+                "ad74d659f80d8ec879d17f906ca08edcc24687745e5020e8ad121765cf78d5fa"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -194,9 +239,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 7,
-        "XHR": 3,
-        "Preflight": 5
+        "Preflight": 7,
+        "Fetch": 10,
+        "XHR": 2
     },
     "nameservers": []
 }

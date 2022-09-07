@@ -7,12 +7,17 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000483,
-    "sites": 7,
+    "prevalence": 0.0000542,
+    "sites": 8,
     "subdomains": [
         "s"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "s.gk.123greetings.com",
+            "resolved": "s.clcktrax.com"
+        }
+    ],
     "fingerprinting": 3,
     "resources": [
         {
@@ -24,17 +29,17 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "3c1fef66dba9a3c0dc268f757982c23b241b337bfb6cb270d4c59f55765b2714",
-                "74ed2073a3fa5b434a8856dfe74caff550e94484d556e794f92918eec581c54c"
+                "1a2ec38ad7646b569a603049e6ebe5145dca989bd601ec4c2e98d11fdbd3a0de",
+                "c03cfe4a3442845fe6639505b93f6eb5b844b29283a8657b9a7a6a4a0872d9ee"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "_li_dcdm_c": 0.000013804146765688412,
-                "IR_gbd": 0.000013804146765688412
+                "IR_gbd": 0.000020333744526833766,
+                "_li_dcdm_c": 0.000013555829684555844
             },
             "exampleSites": [
                 "siriusxm.com",
@@ -43,7 +48,7 @@
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/745131\\/ANBIzlgIBZlgOccb\\/postback",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/745131\\/AXWWgnMSBMyrHio3\\/postback",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -51,7 +56,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -59,7 +64,8 @@
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "_li_dcdm_c": 0.000013804146765688412
+                "IR_gbd": 0.000013555829684555844,
+                "_li_dcdm_c": 0.000013555829684555844
             },
             "exampleSites": [
                 "siriusxm.com",
@@ -67,55 +73,74 @@
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/main\\.js",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/main\\.js",
             "cookies": 0,
             "fingerprinting": 3,
             "subdomains": [
                 "s"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.vendor": 4,
-                "PerformanceTiming.prototype.navigationStart": 4,
-                "Performance.prototype.memory": 4,
-                "window.devicePixelRatio": 4,
-                "window.name": 4,
-                "console.memory": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.appCodeName": 4,
-                "Navigator.prototype.languages": 4,
-                "Navigator.prototype.onLine": 4,
-                "Navigator.prototype.mediaDevices": 4,
-                "Navigator.prototype.hardwareConcurrency": 4,
-                "Navigator.prototype.deviceMemory": 4,
-                "Navigator.prototype.plugins": 4,
-                "Screen.prototype.availWidth": 4,
-                "Screen.prototype.availHeight": 4,
-                "Screen.prototype.width": 4,
-                "Screen.prototype.height": 4,
-                "Screen.prototype.colorDepth": 4,
-                "Screen.prototype.pixelDepth": 4,
-                "Screen.prototype.availLeft": 4,
-                "Screen.prototype.availTop": 4,
-                "Screen.prototype.orientation": 4,
-                "Navigator.prototype.platform": 4,
-                "Navigator.prototype.maxTouchPoints": 4,
-                "Navigator.prototype.connection": 4,
-                "Date.prototype.getTime": 4,
-                "Date.prototype.getTimezoneOffset": 4,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
-                "Navigator.prototype.permissions": 4,
-                "speechSynthesis.__proto__.getVoices": 4,
-                "Notification.permission": 4,
-                "OfflineAudioContext.prototype.constructor": 4,
-                "AudioBuffer.prototype.getChannelData": 4,
-                "Navigator.prototype.getBattery": 4
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Performance.prototype.memory": 3,
+                "window.devicePixelRatio": 3,
+                "window.name": 3,
+                "console.memory": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.onLine": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.plugins": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.availLeft": 3,
+                "Screen.prototype.availTop": 3,
+                "Screen.prototype.orientation": 3,
+                "window.screenX": 3,
+                "window.screenY": 3,
+                "window.screenLeft": 3,
+                "window.screenTop": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "BarProp.prototype.visible": 3,
+                "window.outerHeight": 3,
+                "window.outerWidth": 3,
+                "Navigator.prototype.connection": 3,
+                "Date.prototype.getTime": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.permissions": 3,
+                "speechSynthesis.__proto__.getVoices": 3,
+                "Notification.permission": 3,
+                "OfflineAudioContext.prototype.constructor": 3,
+                "Navigator.prototype.getBattery": 3,
+                "AudioBuffer.prototype.getChannelData": 3,
+                "URL.createObjectURL": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.requestMediaKeySystemAccess": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [
+                {
+                    "original": "s.gk.123greetings.com",
+                    "resolved": "s.clcktrax.com"
+                }
+            ],
             "responseHashes": [
-                "273447505c0df4f22eae1a51ee18d73a17bbe178e1f7467a91f57c517a528dc2"
+                "41c7f77cb564e20029d53084a16a3f1ba3da49f2d2c08c610584a5020dc9aaf4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -123,12 +148,13 @@
             "exampleSites": [
                 "siriusxm.com",
                 "care.siriusxm.com",
-                "www.kia.ca",
+                "m.123greetings.com",
+                "www.123greetings.com",
                 "www.siriusxm.com"
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/745131\\/ANBIzmMGBZfZqXzw\\/postback",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/745131\\/AXWWgxAIBNDt5iav\\/postback",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -136,7 +162,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -144,8 +170,8 @@
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.000013804146765688412,
-                "_li_dcdm_c": 0.000013804146765688412
+                "IR_gbd": 0.000013555829684555844,
+                "_li_dcdm_c": 0.000013555829684555844
             },
             "exampleSites": [
                 "siriusxm.com",
@@ -153,31 +179,35 @@
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/883249\\/clear\\.js",
+            "rule": "clcktrax\\.com\\/2\\/945541\\/clear\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "s.gk.123greetings.com",
+                    "resolved": "s.clcktrax.com"
+                }
+            ],
             "responseHashes": [
-                "ab753b53760920a3979eaa700d02af541383b60fa01c144afc92cd5dd01f5148"
+                "ba6bf156af24d9c70568a8b91a91a8daad0e56a2fb9090e109f7cd88cf8516f4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_ga": 0.000013804146765688412
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kia.ca",
-                "www.kia.ca"
+                "123greetings.com",
+                "m.123greetings.com",
+                "www.123greetings.com"
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/883249\\/ANCXDMMBBNW2itLE\\/postback",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/945541\\/AXYfpysNBZ1bqsrD\\/postback",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -185,23 +215,26 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "s.gk.123greetings.com",
+                    "resolved": "s.clcktrax.com"
+                }
+            ],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_ga": 0.000013804146765688412
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kia.ca",
-                "www.kia.ca"
+                "123greetings.com",
+                "m.123greetings.com"
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/883249\\/ANCXDKkMBZQczppt\\/postback",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/945541\\/AXYfqOkTBZaxfQXa\\/postback",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -209,23 +242,26 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "s.gk.123greetings.com",
+                    "resolved": "s.clcktrax.com"
+                }
+            ],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_ga": 0.000013804146765688412
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kia.ca",
-                "www.kia.ca"
+                "123greetings.com",
+                "m.123greetings.com"
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/745131\\/ANCsIxYBBZ70frnQ\\/postback",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/945541\\/AXXgsKMIBaHqsDgt\\/postback",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -233,7 +269,61 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "s.gk.123greetings.com",
+                    "resolved": "s.clcktrax.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123greetings.com",
+                "www.123greetings.com"
+            ]
+        },
+        {
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/945541\\/AXXgsTkABBN3XkaK\\/postback",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "s.gk.123greetings.com",
+                    "resolved": "s.clcktrax.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123greetings.com",
+                "www.123greetings.com"
+            ]
+        },
+        {
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/745131\\/AXVFOqsEBZrG_fPp\\/postback",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -241,8 +331,8 @@
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "gpv_pn": 0.000013804146765688412,
-                "IR_gbd": 0.000013804146765688412
+                "gpv_pn": 0.000013555829684555844,
+                "IR_gbd": 0.000013555829684555844
             },
             "exampleSites": [
                 "siriusxm.com",
@@ -250,7 +340,7 @@
             ]
         },
         {
-            "rule": "clcktrax\\.com\\/2\\/2\\.30\\.0\\/745131\\/ANCsIiAGBAr5JZ12\\/postback",
+            "rule": "clcktrax\\.com\\/2\\/2\\.66\\.1\\/745131\\/AXVFOyATBaib7y1j\\/postback",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -258,7 +348,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -266,8 +356,8 @@
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "gpv_pn": 0.000013804146765688412,
-                "IR_gbd": 0.000013804146765688412
+                "gpv_pn": 0.000013555829684555844,
+                "IR_gbd": 0.000013555829684555844
             },
             "exampleSites": [
                 "siriusxm.com",
@@ -279,11 +369,11 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 9,
-        "XHR": 12
+        "Script": 11,
+        "XHR": 16
     },
     "nameservers": [
-        "ns1.clcktrax.com",
-        "ns2.clcktrax.com"
+        "ns2.clcktrax.com",
+        "ns1.clcktrax.com"
     ]
 }

@@ -4,10 +4,13 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000542,
+    "sites": 8,
     "subdomains": [
-        "static-cdn"
+        "static-cdn",
+        "rtc",
+        "lirp-cdn",
+        "dd-cdn"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -20,41 +23,83 @@
                 "static-cdn"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "432d3ceb04bc5bb9c94242a57a06211ab0cbe6168af26354223a9b57df4266f0"
+                "ad3bd5857c597c3c3eabb0a99ac041179b78a853cec0ab29b4a4e98b6bd326b8"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "onet.pl",
-                "oferta.poczta.onet.pl",
-                "www.greataustralianparty.com.au"
+                "www.carpalrx.com",
+                "www.dougwardlowag.com",
+                "www.safuu.com",
+                "www.voteseminole.org"
             ]
         },
         {
-            "rule": "multiscreensite\\.com\\/fonts\\/dm-social-icons\\.ttf",
+            "rule": "multiscreensite\\.com\\/performance\\/metrics",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static-cdn"
+                "rtc"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "e8e4e1f414f2a790771c5713eb9335d443a9c28ae1ef920d96fd174c56125fc8"
-            ],
-            "type": "Font",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "greataustralianparty.com.au",
-                "www.greataustralianparty.com.au"
+                "onet.pl",
+                "oferta.poczta.onet.pl"
+            ]
+        },
+        {
+            "rule": "multiscreensite\\.com\\/performance\\/metrics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onet.pl",
+                "oferta.poczta.onet.pl"
+            ]
+        },
+        {
+            "rule": "multiscreensite\\.com\\/51b6cbce\\/dms3rep\\/multi\\/opt\\/CarpalRx_175-1471a4d0-0afe2002-1280w\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lirp-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6d6bfdf8176193d15a9ca240421cd078ee7199c189f18d0e708c5f64a1842f07"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carpalrx.com",
+                "www.carpalrx.com"
             ]
         },
         {
@@ -65,18 +110,111 @@
                 "static-cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07"
+                "5a7bc16b6e77a7ade644d4611cfa959a950c431938e2c82f7117a477081ef098"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "greataustralianparty.com.au",
-                "www.greataustralianparty.com.au"
+                "carpalrx.com",
+                "www.carpalrx.com",
+                "www.dougwardlowag.com",
+                "www.safuu.com",
+                "www.voteseminole.org"
+            ]
+        },
+        {
+            "rule": "multiscreensite\\.com\\/fonts\\/dm-social-icons\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "4963cc628c50a69c25697778c7c414f1666feac10604475097abe13a407c7e47"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dougwardlowag.com",
+                "www.dougwardlowag.com",
+                "www.safuu.com",
+                "www.voteseminole.org"
+            ]
+        },
+        {
+            "rule": "multiscreensite\\.com\\/flags\\/flags_iso\\/32\\/us\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dd-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7c8becbfc70be7429a409a404869185ce7c1504b77999054dc453a29da5c2dc0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voteseminole.org",
+                "www.voteseminole.org"
+            ]
+        },
+        {
+            "rule": "multiscreensite\\.com\\/flags\\/flags_iso\\/32\\/es\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dd-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "177b844576b49231af0f936f612ce236089115b76751e02d736f0d47a6b0b8fd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voteseminole.org",
+                "www.voteseminole.org"
+            ]
+        },
+        {
+            "rule": "multiscreensite\\.com\\/fonts\\/dm-font\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b9f51992345858ca5ae68ae1c7c8a0c527d1dcf2c736c750a06bd67d09ca6a13"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voteseminole.org",
+                "www.voteseminole.org"
             ]
         }
     ],
@@ -84,7 +222,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Font": 7
+        "Font": 16,
+        "Preflight": 2,
+        "Fetch": 2,
+        "Image": 6
     },
     "nameservers": [
         "ns-1042.awsdns-02.org",

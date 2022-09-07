@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.000142,
+    "sites": 21,
     "subdomains": [
         "bm-rx",
         "br-rx"
@@ -13,6 +13,33 @@
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "atatus\\.com\\/track\\/browser\\/errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bm-rx"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeromexico.com",
+                "flights.aeromexico.com",
+                "flights.flyfrontier.com",
+                "www.flyairlink.com",
+                "www.greyhound.com",
+                "www.rokfin.com",
+                "www.vietnamairlines.com"
+            ]
+        },
         {
             "rule": "atatus\\.com\\/track\\/browser\\/perf\\/pageload",
             "cookies": 0,
@@ -22,20 +49,105 @@
                 "br-rx"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 15,
+            "prevalence": 0.000102,
             "cnames": [],
             "responseHashes": [
-                "2d05371b4f6c9ffd21857092b9b40a2ceea847c22e961b1c00a482ade4b991fd",
-                "a9a2ffeb47ade46a4040ded86919a1dfd6b0e486ea975c5b85c7ebf1f1db98ec"
+                "ddc145d08fdac80523c3f789e85814880e8457a544c822708d0015f192b34de5",
+                "96706adb618e87e6cfd8fefbc4d2e5f19efa6efc5686688524404e05c179fcc2",
+                "a9a2ffeb47ade46a4040ded86919a1dfd6b0e486ea975c5b85c7ebf1f1db98ec",
+                "2d05371b4f6c9ffd21857092b9b40a2ceea847c22e961b1c00a482ade4b991fd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "entry_temp": 0.000006777914842277922,
+                "IR_gbd": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "aeromexico.com",
+                "flights.aeromexico.com",
+                "flights.flyfrontier.com",
+                "flights.volaris.com",
+                "moneytransfers.com",
+                "www.aavacations.com",
+                "www.airfrance.fr",
+                "www.flyairlink.com",
+                "www.greyhound.com",
+                "www.klm.nl",
+                "www.locals.com",
+                "www.rokfin.com",
+                "www.vietnamairlines.com",
+                "www.virginaustralia.com",
+                "www.vivaaerobus.com"
+            ]
+        },
+        {
+            "rule": "atatus\\.com\\/track\\/browser\\/perf\\/ajax",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bm-rx"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "moneytransfers.com",
-                "www.locals.com",
-                "www.rokfin.com"
+                "aeromexico.com",
+                "flights.flyfrontier.com",
+                "www.aircanada.com",
+                "www.airfrance.fr"
+            ]
+        },
+        {
+            "rule": "atatus\\.com\\/track\\/browser\\/perf\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bm-rx"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aavacations.com",
+                "www.virginaustralia.com",
+                "www.vivaaerobus.com"
+            ]
+        },
+        {
+            "rule": "atatus\\.com\\/track\\/browser\\/perf\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bm-rx"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aavacations.com",
+                "www.virginaustralia.com",
+                "www.vivaaerobus.com"
             ]
         }
     ],
@@ -43,7 +155,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 3
+        "Image": 11,
+        "Script": 15,
+        "XHR": 3,
+        "Preflight": 3
     },
     "nameservers": [
         "ns1.digitalocean.com",

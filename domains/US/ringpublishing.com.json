@@ -4,12 +4,14 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000552,
-    "sites": 8,
+    "prevalence": 0.000346,
+    "sites": 51,
     "subdomains": [
+        "cmp",
         "embed.videos",
-        "d01wxcy3x8.cdn.videos",
-        "vhost-session-manager-blic-rs-96430.accelerator"
+        "vhost-session-manager-blic-rs-96430.accelerator",
+        "recommendations-ringier-romania.aureus",
+        "recommendations-onet.aureus"
     ],
     "cnames": [
         {
@@ -20,65 +22,117 @@
     "fingerprinting": 1,
     "resources": [
         {
+            "rule": "ringpublishing\\.com\\/1746213\\/get-config",
+            "cookies": 0.000115,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000156,
+            "cnames": [],
+            "responseHashes": [
+                "3bbe93908e26ac78978e712bb714042a67c5a596331f7c5a9962bdb4bfb53c2b",
+                "8a03905ef07dd1d1c4a8807382278b63c43778a6ac35e1277c747464c76f752e",
+                "f2b1451dbac993573632e446e4ab3fa719b39950bafdb75d84be78d1f89d920b",
+                "3eaa8b7cb4cb1b7d79b478a7b3bdaf9a006be821885fdf6cb4dd1305bd0c1c66",
+                "176e23da3190e70c2d175446a3fc146675568cf6e9ca764d326265204ae6afc8",
+                "caf88cdf0d2841ce01d82b94ef47c315dfd406210f59e04568cb53edd1fd8ff0",
+                "0790ac613e2e1d12e9dcdd8aae1bdb6f15ad0241df435b23438664abe17a3dfb",
+                "94fe9544262d49b5aa738aeca22650e90897d2e05adca1bc5faf8c00d0597df4",
+                "eba0b16a6a9ffceb5ffc54026c2087d14dff7776e492c6f6f3c7aa2124ff6603",
+                "d6797774e8305bb81ba6defb4cfd8833bbdd799fce1d1c6dd1853215da21db3a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.auto-swiat.pl",
+                "www.komputerswiat.pl",
+                "www.fakt.pl",
+                "sympatia.onet.pl",
+                "podroze.onet.pl",
+                "jakdojade.pl",
+                "www.skapiec.pl",
+                "kobieta.onet.pl",
+                "www.onet.pl",
+                "przegladsportowy.onet.pl",
+                "wiadomosci.onet.pl",
+                "download.komputerswiat.pl",
+                "plejada.pl",
+                "www.ofeminin.pl",
+                "programtv.onet.pl",
+                "www.newsweek.pl",
+                "zapytaj.onet.pl",
+                "kultura.onet.pl",
+                "pogoda.onet.pl",
+                "businessinsider.com.pl"
+            ]
+        },
+        {
             "rule": "ringpublishing\\.com\\/scripts\\/embedCreator\\.js",
-            "cookies": 0.0000414,
-            "fingerprinting": 1,
+            "cookies": 0.0000407,
+            "fingerprinting": 2,
             "subdomains": [
                 "embed.videos"
             ],
             "apis": {
                 "Navigator.prototype.product": 6,
                 "Navigator.prototype.userAgent": 6,
-                "Date.prototype.getTime": 6
+                "Date.prototype.getTime": 4
             },
             "sites": 6,
-            "prevalence": 0.0000414,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "0fddab2c65c0ec4ed6c6f9ad2bb88fe9d5194d837c1743cd129490b08f56f026"
+                "f24270bfef64ceb638f83b8d1ab539ade263526b8459de265342613eef2bd139",
+                "1c2feb9397ece265e051ae49a2b04a469c0f17f83db00540204decc6858af21c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "businessinsider.com.pl",
-                "kultura.onet.pl",
-                "podroze.onet.pl",
+                "kobieta.onet.pl",
+                "plejada.pl",
                 "wiadomosci.onet.pl",
                 "www.medonet.pl",
-                "www.newsweek.pl"
+                "www.onet.pl"
             ]
         },
         {
-            "rule": "ringpublishing\\.com\\/video-d01wxcy3x8\\/70c00754-52da-49e8-a2e3-4d34ecfbd5fb\\.1560194315\\.157592\\.mp4",
-            "cookies": 0,
+            "rule": "ringpublishing\\.com\\/8756215\\/get-config",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
-                "d01wxcy3x8.cdn.videos"
+                "cmp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Media",
+            "responseHashes": [
+                "175397ae42ec0440cbe19db95ff9a13cfa6e713e7aed4c7fb273c3b1df75d2b0"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "onet.pl",
-                "podroze.onet.pl"
+                "gratka.pl",
+                "www.morizon.pl"
             ]
         },
         {
             "rule": "ringpublishing\\.com\\/loginbar\\.json",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "vhost-session-manager-blic-rs-96430.accelerator"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "session-manager.blic.rs",
@@ -95,15 +149,59 @@
                 "blic.rs",
                 "www.blic.rs"
             ]
+        },
+        {
+            "rule": "ringpublishing\\.com\\/v1\\/recommend",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendations-ringier-romania.aureus",
+                "recommendations-onet.aureus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertatea.ro",
+                "www.onet.pl"
+            ]
+        },
+        {
+            "rule": "ringpublishing\\.com\\/v1\\/recommend",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendations-ringier-romania.aureus",
+                "recommendations-onet.aureus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "866cbf3a9e6fd9c74625b6a7af093b4e79ce9f31965caa5094f71fa7c9e368f8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertatea.ro",
+                "www.onet.pl"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000552,
+    "cookies": 0.000278,
     "types": {
+        "Fetch": 29,
         "Script": 6,
-        "Media": 2,
-        "Fetch": 2
+        "Preflight": 2
     },
     "nameservers": [
         "ns49.ringpublishing.net",

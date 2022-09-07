@@ -7,34 +7,89 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000602,
-    "sites": 6,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
-        "api"
+        "survey",
+        "surveys-static"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "survicate\\.com\\/assets\\/survicate\\.js",
+            "rule": "survicate\\.com\\/workspaces\\/213392c26cc5afde4ae7ad7d037a4526\\/web_surveys\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "api"
+                "survey"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "30419ce525c980aa1bfb221ed3a1cfe33c3ce016cc3849fe6bb8176d9a1ab043"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bokselskap.no",
-                "www.fluentu.com"
+                "aoc.com",
+                "us.aoc.com"
+            ]
+        },
+        {
+            "rule": "survicate\\.com\\/fonts\\/fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys-static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "bacc23ae416ef150be09288d366d689a7678849b04094552e67d8e2a032ad5a0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fahrrad.de",
+                "www.fluke.com",
+                "www.fluentu.com",
+                "www.pets4homes.co.uk",
+                "www.theknot.com"
+            ]
+        },
+        {
+            "rule": "survicate\\.com\\/widget_core-15\\.7\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "surveys-static"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.product": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b6d5fe5530902177ab6ba94de91976faa982a6489895a93cc55aad636a60d0b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fluke.com",
+                "www.pets4homes.co.uk",
+                "www.theknot.com"
             ]
         }
     ],
@@ -42,7 +97,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 5,
+        "Stylesheet": 5
     },
     "nameservers": [
         "ns-1339.awsdns-39.org",

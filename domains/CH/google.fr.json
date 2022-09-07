@@ -16,7 +16,7 @@
         "www"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "google\\.fr\\/coop\\/cse\\/brand",
@@ -30,8 +30,8 @@
                 "Navigator.prototype.appName": 1,
                 "Navigator.prototype.platform": 1
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Script",
@@ -39,30 +39,31 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aquaportail.com",
-                "www.pokebip.com"
+                "www.guide-piscine.fr",
+                "www.jds.fr"
             ]
         },
         {
-            "rule": "google\\.fr\\/cse\\/brand",
+            "rule": "google\\.fr\\/cse\\/api\\/branding\\.css",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "www"
+                "www",
+                "cse"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "Navigator.prototype.platform": 2
-            },
+            "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Script",
+            "responseHashes": [
+                "91159d29398f8658ba786a663518da08b05681c305df38158865916e23552bf3"
+            ],
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mon-horoscope-du-jour.com",
-                "www.techno-science.net"
+                "meteociel.fr",
+                "www.meteociel.fr"
             ]
         }
     ],
@@ -70,12 +71,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4
+        "Script": 3,
+        "Stylesheet": 2
     },
     "nameservers": [
-        "ns4.google.com",
-        "ns3.google.com",
+        "ns2.google.com",
         "ns1.google.com",
-        "ns2.google.com"
+        "ns4.google.com",
+        "ns3.google.com"
     ]
 }

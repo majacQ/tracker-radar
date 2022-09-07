@@ -4,15 +4,92 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000407,
+    "sites": 6,
     "subdomains": [
-        "analytics.data",
-        "cdn"
+        "cdn",
+        "search",
+        "analytics.data"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "visenze\\.com\\/widgets\\/dist\\/js\\/productsearch\\/sbi\\.1\\.3\\.8\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "console.memory": 3,
+                "window.innerWidth": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "d4062d47d7b6da4b8146f15bf2202e0027250143d795dd5751365d7bc8e0d495"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dfs.co.uk",
+                "m.dfs.co.uk",
+                "www.dfs.co.uk"
+            ]
+        },
+        {
+            "rule": "visenze\\.com\\/v1\\/widget-configs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dfs.co.uk",
+                "m.dfs.co.uk",
+                "www.dfs.co.uk"
+            ]
+        },
+        {
+            "rule": "visenze\\.com\\/v1\\/widget-configs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "127cd6b61850b3c37551a0cf0c27d2704a41df1922b4b852cf780238a243cd0a",
+                "778d388795e3847de5ed7063955a069e71c03447863eafa210c993f6fbf6639a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dfs.co.uk",
+                "m.dfs.co.uk",
+                "www.dfs.co.uk"
+            ]
+        },
         {
             "rule": "visenze\\.com\\/v3\\/__va\\.gif",
             "cookies": 0,
@@ -21,8 +98,8 @@
                 "analytics.data"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
@@ -30,36 +107,30 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dfs.co.uk",
-                "www.plaisio.gr"
+                "m.dfs.co.uk",
+                "www.dfs.co.uk"
             ]
         },
         {
-            "rule": "visenze\\.com\\/widgets\\/dist\\/js\\/imagesearch\\.1\\.1\\.0\\.js",
+            "rule": "visenze\\.com\\/visearch\\/dist\\/js\\/visearch-2\\.3\\.1\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.language": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7aa6aa785d33b33f6b7c5059801c2c8f601e370020849309f774e426e341be75"
+                "42ba7f99298d743faa393ff4bcbc7af1c561e0093abca71a0fdcc07579599a6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "plaisio.gr",
-                "www.plaisio.gr"
+                "armani.com",
+                "www.armani.com"
             ]
         }
     ],
@@ -67,8 +138,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 2,
-        "Script": 2
+        "Script": 5,
+        "Preflight": 3,
+        "Fetch": 6
     },
     "nameservers": [
         "ns-763.awsdns-31.net",

@@ -4,29 +4,56 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
-        "assets"
+        "pstt"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "mtb-news\\.de\\/cmp\\/trio-logo-cmp\\.png",
+            "rule": "mtb-news\\.de\\/js\\/img-resize\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pstt"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.webdriver": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "7eec3429c76cb48e5fd457c5afb71b7cf34bc4298d53023bae8aea715443b4a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emtb-news.de",
+                "www.emtb-news.de",
+                "www.rennrad-news.de"
+            ]
+        },
+        {
+            "rule": "mtb-news\\.de\\/api\\/event",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "assets"
+                "pstt"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "01f0fdea8dd4da15485fda756d9869b7e7843a1493f8fcbd663bc38ae7a920d7"
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
             ],
-            "type": "Image",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -40,7 +67,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Image": 3
+        "Script": 3,
+        "XHR": 3
     },
     "nameservers": [
         "david.ns.cloudflare.com",

@@ -4,105 +4,90 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
-        "client-builds.production",
         "config",
-        "assets.production"
+        "assets"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "gorgias\\.chat\\/new_bundle\\/gorgias-chat-bundle-loader\\.js",
+            "rule": "gorgias\\.chat\\/gorgias-chat-bundle-loader\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "client-builds.production"
+                "config"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "679c8a0d8300222c9dfffd9ad39f74ce760d90519bd4bab2cfad028e09e64db7"
+                "e68a513992dd44ab0f697a588450e0dadb92461b59cdc31ae400a59e7905349e",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "vanilia.com",
-                "www.decathlon.com"
+                "stoov.com",
+                "www.plantsome.nl",
+                "www.veloretti.com"
             ]
         },
         {
             "rule": "gorgias\\.chat\\/gorgias-chat-bundle\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "config"
             ],
             "apis": {
-                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Event.prototype.timeStamp": 2
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "cb0223fd973047879d86a1f48014350baa639f83a5bfc2388a3d7bef4880cda5"
+                "04730af2aa79e2e02499b9dff415a9fccae0b073cfcb0165f23d2010cefa443b",
+                "81d8ab3a8790b04e6039aff8340ae17b1ed2a1814f680bf6df2cd05fe944e356"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "vanilia.com",
-                "www.decathlon.com"
+                "stoov.com",
+                "www.decathlon.com",
+                "www.plantsome.nl"
             ]
         },
         {
-            "rule": "gorgias\\.chat\\/1e2ff98b8c0ec9cd84cb25500a127f3343eade70\\/static\\/js\\/gcmw\\.js",
+            "rule": "gorgias\\.chat\\/6392023cf7a94dd57682e65274973b94c5288eaf\\/static\\/media\\/notification-chat\\.83dc8908a850dbf79f95\\.mp3",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "assets.production"
+                "assets"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vanilia.com",
-                "www.decathlon.com"
-            ]
-        },
-        {
-            "rule": "gorgias\\.chat\\/1e2ff98b8c0ec9cd84cb25500a127f3343eade70\\/static\\/media\\/notification-chat\\.97cd95d2\\.mp3",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets.production"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "d191bedb4ccc9fd7f7eb24b325fb64488c1ad0d949c3b644f5600eafd8aecb73"
+                "df918aab93efb49d6f0c83c372bfbd7ef839a18f86631a6ab9b561f873f60669"
             ],
             "type": "Media",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "vanilia.com",
-                "www.decathlon.com"
+                "plantsome.nl",
+                "www.plantsome.nl"
             ]
         }
     ],
@@ -110,14 +95,11 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4,
-        "Other": 2,
+        "Script": 6,
         "Media": 2
     },
     "nameservers": [
-        "ns-cloud-a3.googledomains.com",
-        "ns-cloud-a4.googledomains.com",
-        "ns-cloud-a1.googledomains.com",
-        "ns-cloud-a2.googledomains.com"
+        "igor.ns.cloudflare.com",
+        "brenda.ns.cloudflare.com"
     ]
 }

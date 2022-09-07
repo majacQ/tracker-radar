@@ -4,120 +4,51 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000407,
+    "sites": 6,
     "subdomains": [
-        "recommendation",
-        "rd",
         "cdn",
-        "inline"
+        "recommendation",
+        "inline",
+        "rd"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "speakol\\.com\\/api\\/v2\\.1\\/recommendation\\/config",
-            "cookies": 0.0000276,
-            "fingerprinting": 0,
-            "subdomains": [
-                "recommendation"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "344d969aac783d67198751a6f760e2b2d44bf23fed95da388cde694dc9725441",
-                "bbf8b668ffa3a85c7bb17a66b0ab52f2065241eaf9dd6eb94acef405026c3725",
-                "20b4edd483e8a7dabcfb1f47701cbbae4cc6b0169dc8586bf3c9d17c7e9ec5c7"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "ins-c": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "almasryalyoum.com",
-                "www.khaleejtimes.com",
-                "www.yallakora.com",
-                "www.youm7.com"
-            ]
-        },
-        {
-            "rule": "speakol\\.com\\/api\\/v1\\/push\\/widget-page-view",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rd"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "almasryalyoum.com",
-                "www.khaleejtimes.com",
-                "www.yallakora.com",
-                "www.youm7.com"
-            ]
-        },
-        {
-            "rule": "speakol\\.com\\/api\\/v2\\.1\\/recommendation",
-            "cookies": 0.0000276,
-            "fingerprinting": 0,
-            "subdomains": [
-                "recommendation"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "e3d6f9172e395769a46fd7c161bc2f95db5052034564bcd173002e23821731b8",
-                "84e18bd0ea107278670e51310b8cc4731120260c3cfc1df88cc8f6469f5629a2",
-                "2287d0600c626e1775442afaf158615cbd63a8e598543d7967566d7055e57b74"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "__SPK_UID": 0.000027608293531376825,
-                "ins-c": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "almasryalyoum.com",
-                "www.khaleejtimes.com",
-                "www.yallakora.com",
-                "www.youm7.com"
-            ]
-        },
-        {
-            "rule": "speakol\\.com\\/widget\\/html\\/speakol-appends\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "speakol\\.com\\/widget\\/js-test\\/speakol-widget-v3\\.9\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8db1785c7abb21f5abcc34d06d9023ef62110b12088cc950c47821bcbde851ab"
+                "44e5fdfd9f38d24a418bc5a975f2d3195edce7da52157fc851c0fc134216eef1"
             ],
-            "type": "Document",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "__SPK_UID": {
+                    "ttl": 7776003,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "almasryalyoum.com",
-                "www.khaleejtimes.com",
-                "www.yallakora.com",
-                "www.youm7.com"
+                "www.almasryalyoum.com"
             ]
         },
         {
@@ -128,23 +59,23 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.language": 3,
-                "Screen.prototype.colorDepth": 3,
-                "Date.prototype.getTimezoneOffset": 3,
-                "window.sessionStorage": 3,
-                "window.localStorage": 3,
-                "window.indexedDB": 3,
-                "Navigator.prototype.platform": 3,
-                "Navigator.prototype.doNotTrack": 3,
-                "Navigator.prototype.appName": 3,
-                "Navigator.prototype.plugins": 3
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.innerWidth": 2
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "e87d1ac0131c6e129f850e2ebd51e876c8107cdee5c61d36eb38808b1b67f360",
                 "c89093a8a2f63d9f492db3c2ac7879fa6e8fcd37bf36b2b9966f56831f79ad89"
             ],
             "type": "Script",
@@ -152,8 +83,143 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "almasryalyoum.com",
+                "www.almasryalyoum.com",
+                "www.masrawy.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/api\\/v2\\.1\\/recommendation\\/config",
+            "cookies": 0.0000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendation"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "f40f0b7992a642f0ab7fd90c4a9b2045b30d32c56de07c2adb513bd74751d5b7",
+                "aa4105d786bdd3705c0a3ee9e3c2352429a580afdc01729e9e6a282baa192f89",
+                "3ca4b561243204f6963f3eea2ac0c416451caeb2fbf07cb4f14b2a3acc8111a0",
+                "4f883c1c1ce51648da97f1a9b58de0c7cfcbfd8cce77ada50b678b3766de920f",
+                "5e5c64ed659da891227787bb86505e8042cb6ea727bc391fabadc7b07ecf6001"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "almasryalyoum.com",
+                "www.almasryalyoum.com",
+                "www.elbalad.news",
                 "www.khaleejtimes.com",
-                "www.yallakora.com"
+                "www.masrawy.com",
+                "www.muhtwa.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/inline",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "inline"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "almasryalyoum.com",
+                "www.almasryalyoum.com",
+                "www.masrawy.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/api\\/v1\\/push\\/widget-page-view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "almasryalyoum.com",
+                "www.almasryalyoum.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/api\\/v2\\.1\\/recommendation",
+            "cookies": 0.0000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendation"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "acc0a789a5531c22ab25631ec7ceb4af72fa8c78724d5d04c0afc67e77406861",
+                "88b88e683f1a0c5e795d9f651a6b8214c952edbfc59694cde96139c4325dd652",
+                "67d4ef4222389cf1fd32b3b79bcc86950ad450020b862b66d06e6dc091e61355",
+                "210dd4bb780d6c461a1fe8239016dad89b4404a500dfe8249c45522704f56c3b",
+                "7fae1a9271ad6c0e8ea4d121cf851362306634c649eb0ad41a681ab11ee8fe74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__SPK_UID": 0.000033889574211389605,
+                "lotame_domain_check": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "almasryalyoum.com",
+                "www.almasryalyoum.com",
+                "www.elbalad.news",
+                "www.khaleejtimes.com",
+                "www.masrawy.com",
+                "www.muhtwa.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/widget\\/html\\/speakol-appends\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "8db1785c7abb21f5abcc34d06d9023ef62110b12088cc950c47821bcbde851ab"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "almasryalyoum.com",
+                "www.almasryalyoum.com",
+                "www.elbalad.news",
+                "www.masrawy.com",
+                "www.muhtwa.com"
             ]
         },
         {
@@ -164,19 +230,18 @@
                 "cdn"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "fffacdc62dcfc89db55fd30159d36d65bd7dec9d73871136df6ed8d77cc8148e"
+                "1a79e944303264055d9564418ae38225a7c20edba42e25deaab57c0b031c6a4b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "almasryalyoum.com",
-                "www.khaleejtimes.com",
-                "www.yallakora.com"
+                "www.almasryalyoum.com"
             ]
         },
         {
@@ -187,51 +252,26 @@
                 "cdn"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "e316e21e94db093c25e74a8e510e124fb7f805943fa2f2e5f3738636d70fb191"
+                "349e834c506f7e0183a85317579109c7a5d6215aedaf33c98db0d2971f83a961"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "almasryalyoum.com",
-                "www.yallakora.com",
-                "www.youm7.com"
-            ]
-        },
-        {
-            "rule": "speakol\\.com\\/inline",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "inline"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "ee5ccc95b350814fb034e8b81ee71fe436c5beb6209ab66f3578d9d70bde4e01",
-                "366fb9a1b957e5dbe7a0f7394a4ee84f0612278043aab3bb2d3956e9c2111063"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "ins-c": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "almasryalyoum.com",
-                "www.khaleejtimes.com",
-                "www.yallakora.com"
+                "www.almasryalyoum.com",
+                "www.masrawy.com",
+                "www.muhtwa.com"
             ]
         },
         {
             "rule": "speakol\\.com\\/widget\\/js\\/speakol-widget-v2\\.js",
-            "cookies": 0.0000207,
-            "fingerprinting": 1,
+            "cookies": 0.0000203,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
@@ -240,86 +280,42 @@
                 "Document.cookie setter": 3,
                 "Navigator.prototype.userAgent": 3,
                 "Navigator.prototype.platform": 3,
-                "Navigator.prototype.maxTouchPoints": 3
+                "Navigator.prototype.maxTouchPoints": 3,
+                "window.innerHeight": 2
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "6bf5ff204ff78db090f2f3545061028f4024d2c2d01f4d920719bb0e87c9758f"
+                "5d9627946fcad2ddacefe71e61e52e0fe6da36f2957869ce1d4abf8e410fbc6e"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "__SPK_UID": {
-                    "ttl": 7776003,
+                    "ttl": 7776013,
                     "length": 36,
-                    "prevalence": 0.000020706220148532618,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "khaleejtimes.com",
-                "www.yallakora.com",
-                "www.youm7.com"
-            ]
-        },
-        {
-            "rule": "speakol\\.com\\/api\\/v1\\/push\\/widget-view",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rd"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "khaleejtimes.com",
+                "elbalad.news",
                 "www.khaleejtimes.com",
-                "www.yallakora.com"
-            ]
-        },
-        {
-            "rule": "speakol\\.com\\/api\\/v1\\/push\\/article-impression",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rd"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "khaleejtimes.com",
-                "www.khaleejtimes.com"
+                "www.masrawy.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000276,
+    "cookies": 0.0000407,
     "types": {
-        "Fetch": 8,
-        "Other": 9,
-        "Document": 4,
-        "Script": 6,
-        "Image": 6,
-        "XHR": 3
+        "Script": 8,
+        "Fetch": 12,
+        "XHR": 3,
+        "Ping": 2,
+        "Document": 5,
+        "Image": 6
     },
     "nameservers": [
         "demi.ns.cloudflare.com",

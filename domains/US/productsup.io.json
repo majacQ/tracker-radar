@@ -1,47 +1,86 @@
 {
     "domain": "productsup.io",
-    "owner": {},
+    "owner": {
+        "name": "Prodductsup Corp",
+        "displayName": "Prodductsup"
+    },
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000203,
+    "sites": 3,
     "subdomains": [
-        "transport"
+        "lib",
+        "track"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "productsup\\.io\\/24d69b8ab98d3c00bd91\\/channel\\/320868\\/awin-feed-QL\\.xml",
-            "cookies": 0,
+            "rule": "productsup\\.io\\/engine\\/load\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "93cd93645053e497ed45e45970985585de22b4e476f7f6816296a3e86936b8c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cw_u": {
+                    "ttl": 46656032,
+                    "length": 25,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampen24.nl",
+                "www.mdm.de"
+            ]
+        },
+        {
+            "rule": "productsup\\.io\\/page\\.js",
+            "cookies": 0.00000678,
             "fingerprinting": 0,
             "subdomains": [
-                "transport"
+                "track"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
-            "type": "XHR",
+            "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "_cw_u": 0.000013555829684555844
+            },
             "exampleSites": [
-                "national.co.uk",
-                "www.national.co.uk"
+                "lampen24.nl",
+                "www.mdm.de"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000136,
     "types": {
-        "XHR": 2
+        "Script": 4
     },
     "nameservers": [
+        "ns.udag.org",
         "ns.udag.de",
-        "ns.udag.net",
-        "ns.udag.org"
+        "ns.udag.net"
     ]
 }

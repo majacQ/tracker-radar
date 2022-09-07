@@ -4,55 +4,130 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000483,
-    "sites": 7,
+    "prevalence": 0.000129,
+    "sites": 19,
     "subdomains": [
-        "polaris"
+        "polaris",
+        "location"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "truevaultcdn\\.com\\/static\\/dns-link\\.js",
-            "cookies": 0.0000207,
+            "cookies": 0.0000339,
             "fingerprinting": 1,
             "subdomains": [
                 "polaris"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Document.cookie setter": 3,
-                "Document.cookie getter": 4
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "c7430dc4e268b8d5ee3c830aa07e74919848aeb3dfce089450ae31d58c4c5eb1"
+                "47e2e8cdd3b7fba02412fe3acbe39d7ccf0733fdf20dae4cf609e6e0318fbf79"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "us_privacy": {
-                    "ttl": 2592002,
+                    "ttl": 2592001,
                     "length": 4,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
+                    "prevalence": 0.000033889574211389605,
+                    "uniqueness": 0.2
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "careerkarma.com",
-                "drinksupercoffee.com",
                 "huckberry.com",
-                "theblacktux.com"
+                "saltandstraw.com",
+                "withjoy.com",
+                "www.nomatic.com"
+            ]
+        },
+        {
+            "rule": "truevaultcdn\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "location"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000678,
+            "cnames": [],
+            "responseHashes": [
+                "c4f5de2583549a064e85576592324508ba933122fe0adcc4ab03601fd61271b2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "careerkarma.com",
+                "huckberry.com",
+                "saltandstraw.com",
+                "theblacktux.com",
+                "withjoy.com",
+                "www.dartagnan.com",
+                "www.nomatic.com",
+                "www.polywood.com",
+                "www.realtyhop.com",
+                "www.toynk.com"
+            ]
+        },
+        {
+            "rule": "truevaultcdn\\.com\\/static\\/polaris\\.js",
+            "cookies": 0.0000339,
+            "fingerprinting": 1,
+            "subdomains": [
+                "polaris"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "47e2e8cdd3b7fba02412fe3acbe39d7ccf0733fdf20dae4cf609e6e0318fbf79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "us_privacy": {
+                    "ttl": 2592001,
+                    "length": 4,
+                    "prevalence": 0.000033889574211389605,
+                    "uniqueness": 0.2
+                },
+                "polaris_consent_settings": {
+                    "ttl": 31104006,
+                    "length": 171,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theblacktux.com",
+                "www.dartagnan.com",
+                "www.polywood.com",
+                "www.realtyhop.com",
+                "www.toynk.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000345,
+    "cookies": 0.000129,
     "types": {
-        "Script": 4
+        "Script": 10,
+        "Fetch": 10
     },
     "nameservers": [
         "ns-485.awsdns-60.com",

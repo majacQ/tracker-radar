@@ -7,13 +7,13 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.00011,
-    "sites": 16,
+    "prevalence": 0.000115,
+    "sites": 17,
     "subdomains": [
         "widgets",
-        "www",
         "gateway",
-        "slipstream"
+        "slipstream",
+        "partners.api"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -26,30 +26,25 @@
                 "widgets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 1
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "2309d4b89c010b01345ee203bf3da6b1183bceb90bab2e5f2c7dad544b3b2b86",
-                "86f56f66be28037eacfa22dfb8181b863684114f24353e6caa1566f18a9b7aca",
-                "793bf606a1cfd96c3548393b209a986590b7ffb6195843268abbd4ff710d19fc"
+                "928af85a9f4ff996d7124b4e0b560c848f8ad2739733a401e03647f6e68e27ac"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "hikersbay.com",
-                "www.discovergreece.com",
-                "www.flightsfrom.com",
-                "www.skyscanner.ca",
-                "www.skyscanner.pl"
+                "www.airlineratings.com",
+                "www.worldtravelguide.net"
             ]
         },
         {
-            "rule": "skyscanner\\.net\\/widget-server\\/powered-by-skyscanner-logo\\.svg",
+            "rule": "skyscanner\\.net\\/widget-server\\/track\\/interaction",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -57,125 +52,38 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "7f630ece8ab64920ca79889a2e4f030da54d7c1a69796c7344df90c119d8def9"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hikersbay.com",
-                "www.discovergreece.com"
-            ]
-        },
-        {
-            "rule": "skyscanner\\.net\\/g\\/widget-server\\/v1\\.0\\/en-GB\\/Global\\/EUR\\/location",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "discovergreece.com",
-                "www.discovergreece.com"
+                "airlineratings.com",
+                "www.worldtravelguide.net"
             ]
         },
         {
-            "rule": "skyscanner\\.net\\/g\\/widget-server\\/v1\\.0\\/en-GB\\/Global\\/EUR\\/location",
+            "rule": "skyscanner\\.net\\/widget-server\\/track\\/interaction",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "www"
+                "widgets"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "15c48d76e58f2679376643539eee55dc672f9db8bf5af0ce47da00c6c7518d87"
+                "fb1bf528d8237aac3e9ead389ab246ba0068f61fe281610110937ef2b8adefce"
             ],
-            "type": "XHR",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "discovergreece.com",
-                "www.discovergreece.com"
-            ]
-        },
-        {
-            "rule": "skyscanner\\.net\\/sttc\\/inspiration-image-builder\\/inspiration-image-builder-bundle-bee9778cf9e98816a9e1\\.min\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "ef20330a29053b2270d3059fb5a83c7f375f6a7958fb1a403b9a2d4e2cffa339"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "skyscanner.ca",
-                "www.skyscanner.pl"
-            ]
-        },
-        {
-            "rule": "skyscanner\\.net\\/sttc\\/inspiration-image-builder\\/assets\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "745104b2fd8ce0f5b8802a77640c430ddbb3a31a5c3351892e41892a8432d09a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "skyscanner.ca",
-                "www.skyscanner.pl"
-            ]
-        },
-        {
-            "rule": "skyscanner\\.net\\/sttc\\/inspiration-image-builder\\/inspiration-image-builder-bundle-bee9778cf9e98816a9e1\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "47e347013f44b1df58757bee36dbdef500ddca2e1b32ca00233df05ae4d58593"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "skyscanner.ca",
-                "www.skyscanner.pl"
+                "airlineratings.com",
+                "www.airlineratings.com",
+                "www.worldtravelguide.net"
             ]
         },
         {
@@ -186,8 +94,8 @@
                 "gateway"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -196,7 +104,11 @@
             "exampleSites": [
                 "skyscanner.ca",
                 "www.skyscanner.ch",
-                "www.skyscanner.co.in"
+                "www.skyscanner.com.br",
+                "www.skyscanner.ie",
+                "www.skyscanner.jp",
+                "www.skyscanner.pl",
+                "www.skyscanner.se"
             ]
         },
         {
@@ -207,12 +119,16 @@
                 "gateway"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "d5fccd3ce29727b32bb6d216e2cb891581c7cb0640aa0d7cd0f2a434b4a4e369",
-                "a01e35775591a32e0ffb7225f0fcfbf2a47919f8ec1ba4c056cbba8c18fca83c"
+                "45768ffa30b8c27e6daba3dd1f649769da5cfcbacac7309c80d4424970bacef6",
+                "9ba0d4dd56567e9accb1cffece72efbbf4749291a4e2e2b4e4e896fe64bb7165",
+                "faf0890d1f26f5d6b35cde3e7a7a061fe3e80f94c8bf82b1c60aae282739d959",
+                "72c49e32758f601fec7f59f56ecf8c0428b449c680801f0629cfd781217488fa",
+                "0cc2d988d8b1b37346a5561f0dece9912f49a72ef783c2529b367d206694cba1",
+                "45b7eb736de45e0e8a046ff995cb30494f5c8d43689d009b23c133cc8427d8a3"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -220,29 +136,11 @@
             "exampleSites": [
                 "skyscanner.ca",
                 "www.skyscanner.ch",
-                "www.skyscanner.co.in"
-            ]
-        },
-        {
-            "rule": "skyscanner\\.net\\/strings\\/v1\\.0\\/login_web\\/de-DE",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "c80a30f1092442352525e35d285710a4a8d96a81aa43e93c90e7b7f6e7beb9d9"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "skyscanner.ch",
-                "www.skyscanner.ch"
+                "www.skyscanner.com.br",
+                "www.skyscanner.ie",
+                "www.skyscanner.jp",
+                "www.skyscanner.pl",
+                "www.skyscanner.se"
             ]
         },
         {
@@ -253,18 +151,16 @@
                 "slipstream"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "skyscanner.com.br",
-                "www.skyscanner.ie",
-                "www.skyscanner.jp",
-                "www.skyscanner.pl"
+                "skyscanner.co.in",
+                "www.skyscanner.co.in"
             ]
         },
         {
@@ -275,18 +171,38 @@
                 "slipstream"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "skyscanner.com.br",
-                "www.skyscanner.ie",
-                "www.skyscanner.jp",
-                "www.skyscanner.pl"
+                "skyscanner.co.in",
+                "www.skyscanner.co.in"
+            ]
+        },
+        {
+            "rule": "skyscanner\\.net\\/apiservices\\/xd\\/autosuggest\\/v1\\.0\\/IT\\/EUR\\/it-IT",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "partners.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8318a30c00bf58f2e5e43db96c7ed9c7e1d35e3376d8133a456538f91f444096"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "veneziaairport.it",
+                "www.veneziaairport.it"
             ]
         }
     ],
@@ -294,12 +210,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 9,
-        "Image": 2,
-        "Preflight": 9,
-        "XHR": 2,
-        "Stylesheet": 2,
-        "Fetch": 9
+        "Script": 5,
+        "Preflight": 11,
+        "Fetch": 12
     },
     "nameservers": [
         "ns1.skyscanner-dns.co.uk",

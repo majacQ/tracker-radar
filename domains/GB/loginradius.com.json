@@ -7,12 +7,18 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000201,
+    "sites": 2,
     "subdomains": [
-        "reachplc.hub"
+        "postmedia.hub",
+        "cbc-login.hub"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "login.cbc.ca",
+            "resolved": "cbc-login.hub.loginradius.com"
+        }
+    ],
     "fingerprinting": 0,
     "resources": [
         {
@@ -20,21 +26,25 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "reachplc.hub"
+                "postmedia.hub",
+                "cbc-login.hub"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f7a4a046540cd7b682afc0d129cbbdea16081d1a54dfd3385115725f960c54c9"
+            "cnames": [
+                {
+                    "original": "login.cbc.ca",
+                    "resolved": "cbc-login.hub.loginradius.com"
+                }
             ],
-            "type": "Fetch",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "express.co.uk",
-                "www.express.co.uk"
+                "nationalpost.com",
+                "www.cbc.ca"
             ]
         }
     ],
@@ -42,7 +52,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 2
+        "Preflight": 2
     },
     "nameservers": [
         "ns1.p14.dynect.net",

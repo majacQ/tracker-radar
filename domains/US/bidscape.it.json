@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "cdn"
+        "cdn",
+        "t"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -15,30 +16,72 @@
         {
             "rule": "bidscape\\.it\\/zB-1-h\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.sessionStorage": 2,
-                "Navigator.prototype.appName": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Date.prototype.getTimezoneOffset": 2,
-                "Navigator.prototype.language": 2,
-                "window.localStorage": 2
+                "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8fb2cd90959fdfab60be4dfce5dce7202aa39efdbe03681c18c935284e2c3c54"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auctionzip.com",
+                "www.auctionzip.com"
+            ]
+        },
+        {
+            "rule": "bidscape\\.it\\/zB-1-h\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c425178c087633bb6cbdf3997b9bb31a73a600e576b8a991e3f8abaeb5d53174"
             ],
             "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auctionzip.com",
+                "www.auctionzip.com"
+            ]
+        },
+        {
+            "rule": "bidscape\\.it\\/g\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -51,13 +94,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Other": 2,
+        "Script": 2,
+        "Image": 2
     },
     "nameservers": [
-        "ns2.linode.com",
         "ns4.linode.com",
-        "ns5.linode.com",
         "ns1.linode.com",
-        "ns3.linode.com"
+        "ns3.linode.com",
+        "ns2.linode.com",
+        "ns5.linode.com"
     ]
 }

@@ -9,14 +9,37 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
+        "linkmaker.itunes",
         "autolinkmaker.itunes"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "apple\\.com\\/images\\/badges\\/en-us\\/badge_appstore-lrg\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "linkmaker.itunes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25178aeef6eb6b83b96f5f2d004eda3bffbb37122de64afbaef7107b384a4132"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fortnitetracker.com",
+                "www.dododex.com"
+            ]
+        },
         {
             "rule": "apple\\.com\\/js\\/itunes_autolinkmaker\\.js",
             "cookies": 0,
@@ -26,8 +49,7 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Date.prototype.getTimezoneOffset": 1
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
@@ -39,15 +61,16 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "thoughtcatalog.com",
-                "www.additudemag.com"
+                "additudemag.com",
+                "www.openculture.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
+        "Image": 2,
         "Script": 2
     },
     "nameservers": [

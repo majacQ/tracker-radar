@@ -7,64 +7,72 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000501,
-    "sites": 5,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "mpsnare"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "iesnare\\.com\\/star",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "iesnare\\.com\\/snare\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
             "subdomains": [
                 "mpsnare"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000501,
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2,
+                "window.openDatabase": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
-            "type": "WebSocket",
+            "responseHashes": [
+                "3f224d6c5e88b483a15ce6878f6e3be95ede7d43c833fad2f8dec44ced3eac6b"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "eharmony.com.au",
-                "www.eharmony.com.au",
-                "www.only1visagiftcard.com.au",
-                "www.traeger.com",
-                "www.upwork.com"
+                "stripe.com",
+                "www.zoosk.com"
             ]
         },
         {
-            "rule": "iesnare\\.com\\/time\\.mp3",
+            "rule": "iesnare\\.com\\/script\\/logo\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "mpsnare"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [
-                "107e5f7b02a777c0b67745007c97aea2896fb4443487d3c90692627886adc019"
-            ],
-            "type": "Media",
+            "responseHashes": [],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "only1visagiftcard.com.au",
-                "www.traeger.com",
-                "www.upwork.com"
+                "stripe.com",
+                "www.zoosk.com"
             ]
         },
         {
             "rule": "iesnare\\.com\\/general5\\/wdp\\.js",
-            "cookies": 0.0002,
-            "fingerprinting": 2,
+            "cookies": 0.000201,
+            "fingerprinting": 3,
             "subdomains": [
                 "mpsnare"
             ],
@@ -81,24 +89,30 @@
                 "Navigator.prototype.language": 2,
                 "Navigator.prototype.cookieEnabled": 2,
                 "Navigator.prototype.hardwareConcurrency": 2,
-                "Navigator.prototype.getBattery": 2
+                "Navigator.prototype.getBattery": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
+                "DeviceOrientationEvent.prototype.gamma": 2,
+                "DeviceOrientationEvent.prototype.beta": 2,
+                "DeviceOrientationEvent.prototype.alpha": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "69ca009f710f41f714d9264a7797bd9453751a33ef1f643e561c8fb77626363d"
+                "aecf11518d9ce51ace8a1025bf8c5a3dc71e08a4d747276b2d5e114e0b466ed7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "traeger.com",
+                "beautyheaven.com.au",
                 "www.upwork.com"
             ]
         },
         {
-            "rule": "iesnare\\.com\\/5\\.4\\.0\\/logo\\.js",
+            "rule": "iesnare\\.com\\/5\\.5\\.0\\/logo\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -106,32 +120,74 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "44cffeee29ff461f2954c38a418704968e2494ef2f39a941b2c88cff9e69045a"
+                "c1388c17be60b2988622aefb90b02d31d1d6d31e44113536401495d711184a51"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "traeger.com",
+                "beautyheaven.com.au",
+                "www.upwork.com"
+            ]
+        },
+        {
+            "rule": "iesnare\\.com\\/star",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpsnare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beautyheaven.com.au",
+                "www.upwork.com"
+            ]
+        },
+        {
+            "rule": "iesnare\\.com\\/time\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpsnare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ed5f63e877a89cec732e70d5b216e27801d20e7387c06686e51fb329b5060547"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beautyheaven.com.au",
                 "www.upwork.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000501,
+    "cookies": 0.000401,
     "types": {
-        "WebSocket": 5,
-        "Media": 3,
-        "Script": 4
+        "Script": 8,
+        "WebSocket": 2,
+        "Media": 2
     },
     "nameservers": [
-        "dns1.p05.nsone.net",
         "dns2.p05.nsone.net",
         "dns3.p05.nsone.net",
-        "dns4.p05.nsone.net"
+        "dns4.p05.nsone.net",
+        "dns1.p05.nsone.net"
     ]
 }

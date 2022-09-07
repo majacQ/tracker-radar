@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000401,
-    "sites": 4,
+    "prevalence": 0.000601,
+    "sites": 6,
     "subdomains": [
         "tools",
-        "api.dmp",
+        "cdn",
         "static",
+        "api.dmp",
         "pa"
     ],
     "cnames": [],
@@ -20,56 +21,74 @@
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "tools"
+                "tools",
+                "cdn"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "Navigator.prototype.cookieEnabled": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 3,
-                "Date.prototype.getTimezoneOffset": 4,
-                "Navigator.prototype.doNotTrack": 4,
-                "Screen.prototype.width": 4,
-                "Screen.prototype.height": 4,
-                "Screen.prototype.colorDepth": 4,
-                "Screen.prototype.orientation": 4
+                "window.localStorage": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Navigator.prototype.doNotTrack": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Screen.prototype.orientation": 6,
+                "Date.prototype.getTime": 5,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "98bef264d24356c23974be6a6f9f54456647ee8983a555247fcac8dddb7166ad"
+                "eef2f1ebead91a12d4fbc5a4fab8a7687392fba2d1394ea8b5f201e1e8aea5e4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         },
         {
-            "rule": "pinpoll\\.com\\/public\\/remarketing",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "pinpoll\\.com\\/static\\/start\\.html",
+            "cookies": 0.000601,
+            "fingerprinting": 1,
             "subdomains": [
-                "api.dmp"
+                "static"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "apis": {
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
+            "responseHashes": [
+                "38dfcfd29e5bc35eabebb6db93870261846cb9fa1bcd1631c1a7aef3114de24b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "thirdparty": {
+                    "ttl": null,
+                    "length": 3,
+                    "prevalence": 0.0006013831813170291,
+                    "uniqueness": 0.16666666666666666
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         },
         {
@@ -80,8 +99,8 @@
                 "api.dmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
                 "20bc1392a17b383b46fffc33c8e796755452883bfcfc2d33c90342ea70227639"
@@ -90,46 +109,51 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         },
         {
-            "rule": "pinpoll\\.com\\/static\\/start\\.html",
+            "rule": "pinpoll\\.com\\/public\\/remarketing",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "api.dmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
-            "responseHashes": [
-                "38dfcfd29e5bc35eabebb6db93870261846cb9fa1bcd1631c1a7aef3114de24b"
-            ],
-            "type": "Document",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         },
         {
             "rule": "pinpoll\\.com\\/static\\/complete\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.000401,
+            "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
                 "6415cb12c174f6986037af95933f36db85e7efdee5f4fea96f9804cb89d3d190"
@@ -138,10 +162,12 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         },
         {
@@ -152,18 +178,20 @@
                 "pa"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         },
         {
@@ -174,29 +202,31 @@
                 "pa"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "orf.at",
+                "falstaff.de",
                 "www.fuldaerzeitung.de",
+                "www.nachrichten.at",
+                "www.schlager.de",
                 "www.sn.at",
-                "www.traunsteiner-tagblatt.de"
+                "www.vol.at"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000601,
     "types": {
-        "Script": 4,
-        "Preflight": 8,
-        "Fetch": 8,
-        "Document": 8
+        "Script": 6,
+        "Document": 12,
+        "Fetch": 12,
+        "Preflight": 12
     },
     "nameservers": [
         "ns1-04.azure-dns.com",

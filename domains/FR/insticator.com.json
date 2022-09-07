@@ -10,34 +10,12 @@
     "prevalence": 0.000201,
     "sites": 2,
     "subdomains": [
-        "event",
         "geoip",
-        "b2c",
-        "cms"
+        "event"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 0,
     "resources": [
-        {
-            "rule": "insticator\\.com\\/v1\\/event",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "event"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mydramalist.com",
-                "www.allkpop.com"
-            ]
-        },
         {
             "rule": "insticator\\.com\\/json\\/",
             "cookies": 0,
@@ -56,8 +34,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mydramalist.com",
-                "www.allkpop.com"
+                "itsfoss.com",
+                "mydramalist.com"
             ]
         },
         {
@@ -78,54 +56,28 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mydramalist.com",
-                "www.allkpop.com"
+                "itsfoss.com",
+                "mydramalist.com"
             ]
         },
         {
-            "rule": "insticator\\.com\\/v3\\/pages\\/usertracking",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "b2c"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "984bca55409990098cf74adc47ed650c3d22c68900739950bd14c04c9d45f8f7"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mydramalist.com",
-                "www.allkpop.com"
-            ]
-        },
-        {
-            "rule": "insticator\\.com\\/v3\\/contents",
+            "rule": "insticator\\.com\\/v1\\/event",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cms"
+                "event"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [
-                "818a660fc0e88211ceb4141cc6ea6403009fb2aa6562cd71733da2816169229c"
-            ],
-            "type": "XHR",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mydramalist.com",
-                "www.allkpop.com"
+                "itsfoss.com",
+                "mydramalist.com"
             ]
         }
     ],
@@ -133,12 +85,11 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 2,
-        "XHR": 6,
-        "Document": 2
+        "XHR": 4,
+        "Preflight": 2
     },
     "nameservers": [
-        "carl.ns.cloudflare.com",
-        "lola.ns.cloudflare.com"
+        "lola.ns.cloudflare.com",
+        "carl.ns.cloudflare.com"
     ]
 }

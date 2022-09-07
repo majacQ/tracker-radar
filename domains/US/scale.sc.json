@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
         "de-fsn1.lb"
     ],
@@ -13,10 +13,41 @@
         {
             "original": "cdn.trigema.de",
             "resolved": "de-fsn1.lb.scale.sc"
+        },
+        {
+            "original": "sst.rofu.de",
+            "resolved": "de-fsn1.lb.scale.sc"
         }
     ],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "scale\\.sc\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "de-fsn1.lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "sst.rofu.de",
+                    "resolved": "de-fsn1.lb.scale.sc"
+                }
+            ],
+            "responseHashes": [
+                "c8c3fd8e40ff55ce011e82279ad18837960be67ce0e066cb1b1368bb51b0b06c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rofu.de",
+                "www.rofu.de"
+            ]
+        },
         {
             "rule": "scale\\.sc\\/out\\/responsive\\/src\\/fonts\\/atcoverlook-regular-webfont\\.woff2",
             "cookies": 0,
@@ -26,7 +57,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "cdn.trigema.de",
@@ -34,7 +65,7 @@
                 }
             ],
             "responseHashes": [
-                "7f63a078028e395451e00f330e6c8d1c4a49d436ad6ad79f1c4e9bd7a97ed0f2"
+                "f074292d769c3f94a692a0498cc14e78104822636324ccab5db51c77009eb7cc"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -53,7 +84,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "cdn.trigema.de",
@@ -61,7 +92,7 @@
                 }
             ],
             "responseHashes": [
-                "9b2d679ef6f2ec6c5524f913afb646722488dc07c6f7a783ab15bc71effc50cf"
+                "1cde429ca971af3061937531e44dde8a3ef56d0535e859c4a6a7a382de0a6c5c"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -80,7 +111,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "cdn.trigema.de",
@@ -88,7 +119,7 @@
                 }
             ],
             "responseHashes": [
-                "92643078ef4243c957fa605ca52fb6da5374f13ad1be7d80abaede30d98e20d5"
+                "a7a68bd69bee990b11bace2a0d93ac2d4a30c8f82faa80b8d36fbafb6b465cbb"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -101,8 +132,9 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000276,
+    "cookies": 0.00000678,
     "types": {
+        "Script": 2,
         "Font": 6
     },
     "nameservers": []

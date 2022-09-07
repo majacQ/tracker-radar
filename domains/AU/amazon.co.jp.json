@@ -9,15 +9,36 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
+        "aan",
         "fls-fe",
         "unagi"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "amazon\\.co\\.jp\\/render",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linuxconfig.org",
+                "www.autoevolution.com"
+            ]
+        },
         {
             "rule": "amazon\\.co\\.jp\\/1\\/batch\\/1\\/OE\\/",
             "cookies": 0,
@@ -27,12 +48,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -49,12 +70,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -67,12 +88,19 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Other": 4
+        "XHR": 2,
+        "Ping": 4
     },
     "nameservers": [
-        "ns2.p31.dynect.net",
         "ns1.p31.dynect.net",
-        "pdns6.ultradns.co.uk",
-        "pdns1.ultradns.net"
+        "ns2.p31.dynect.net",
+        "ns3.p31.dynect.net",
+        "ns4.p31.dynect.net",
+        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
+        "pdns3.ultradns.org",
+        "pdns4.ultradns.org",
+        "pdns5.ultradns.info",
+        "pdns6.ultradns.co.uk"
     ]
 }

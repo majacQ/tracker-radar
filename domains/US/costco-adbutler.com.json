@@ -4,40 +4,124 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [],
     "cnames": [
         {
             "original": "adbutler.costco.com",
             "resolved": ".costco-adbutler.com"
+        },
+        {
+            "original": "media-cdn.costco.ca",
+            "resolved": ".costco-adbutler.com"
         }
     ],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "costco-adbutler\\.com\\/app-costco\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "adbutler.costco.com",
                     "resolved": ".costco-adbutler.com"
+                },
+                {
+                    "original": "media-cdn.costco.ca",
+                    "resolved": ".costco-adbutler.com"
                 }
             ],
             "responseHashes": [
-                "00368bd0118237e84c51e103d5676cb1620cf763ac5b373272ede6bd96ebb01c"
+                "b91b9bcd0c154196e9cd89173b3ed7314eee56026c3a2949d10e28da1432a4a4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "costco.com",
-                "www.costco.com"
+                "www.costco.com",
+                "www.costco.ca"
+            ]
+        },
+        {
+            "rule": "costco-adbutler\\.com\\/www3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "media-cdn.costco.ca",
+                    "resolved": ".costco-adbutler.com"
+                }
+            ],
+            "responseHashes": [
+                "0d68d4d468f149be39c68eda6ef0eccbcd76ed384a10ab13c27dd163038fbb2b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costco.ca",
+                "www.costco.ca"
+            ]
+        },
+        {
+            "rule": "costco-adbutler\\.com\\/www3-media\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "media-cdn.costco.ca",
+                    "resolved": ".costco-adbutler.com"
+                }
+            ],
+            "responseHashes": [
+                "f621bbcec7f60436318db9771420f866c97fad5ee2b36359079c04fde8b96508"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costco.ca",
+                "www.costco.ca"
+            ]
+        },
+        {
+            "rule": "costco-adbutler\\.com\\/www3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "media-cdn.costco.ca",
+                    "resolved": ".costco-adbutler.com"
+                }
+            ],
+            "responseHashes": [
+                "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costco.ca",
+                "www.costco.ca"
             ]
         }
     ],
@@ -45,7 +129,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 3,
+        "XHR": 2,
+        "Image": 4
     },
     "nameservers": []
 }

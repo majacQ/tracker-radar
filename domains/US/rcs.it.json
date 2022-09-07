@@ -7,14 +7,48 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "toprated"
+        "wfprmag",
+        "toprated",
+        "sslweb"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "abbonamenti.gazzetta.it",
+            "resolved": "wfprmag.rcs.it"
+        }
+    ],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "rcs\\.it\\/wp-content\\/uploads\\/json\\/topBarOfferteGazzetta\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wfprmag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "abbonamenti.gazzetta.it",
+                    "resolved": "wfprmag.rcs.it"
+                }
+            ],
+            "responseHashes": [
+                "fd5340275b7fcadc9e6a685117b2d16898a5c69492e6adc343cb0cc3813522fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazzetta.it",
+                "www.gazzetta.it"
+            ]
+        },
         {
             "rule": "rcs\\.it\\/toprated\\/rest\\/request\\.action",
             "cookies": 0,
@@ -23,35 +57,73 @@
                 "toprated"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8e0dbd295be611e471f3568c4e70f6ef1b9bdb7244c77676485ea55a367a69cb",
-                "ce70c6ace41be104d135b7287ba423720bb1e78f851ad0fad643f8cc20191ad7",
-                "505ca17ce11ebbeb7cd6dab47277e606f2b11b2c668d8373cb7b253e60c8a8e9",
-                "cada898479c15e41f4ec2653e9228f464c1f03162a03cdab0f0396541216c645"
+                "71a1393b690bfc3dd4b15ba8e2837aa669e16512cbbe905d15a52ed390eb420c"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fcinternews.it",
-                "www.fcinternews.it",
-                "www.fcinter1908.it",
-                "www.gazzetta.it",
-                "www.violanews.com"
+                "gazzetta.it",
+                "www.gazzetta.it"
+            ]
+        },
+        {
+            "rule": "rcs\\.it\\/rsle\\/idmgmt\\/KE7MyrxDxsNdQ6\\/hello\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sslweb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iodonna.it",
+                "www.iodonna.it"
+            ]
+        },
+        {
+            "rule": "rcs\\.it\\/rsle\\/idmgmt\\/KE7MyrxDxsNdQ6\\/hello\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sslweb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5310dbf48b9265c7cfeaf6820108fd31171cfc26f0bcdccfd3d4b77c4fe0a8fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iodonna.it",
+                "www.iodonna.it"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0.00000678,
     "types": {
-        "Fetch": 5
+        "Fetch": 4,
+        "Preflight": 2,
+        "XHR": 2
     },
     "nameservers": [
-        "dnsgeo5.tuonomeregistrar.com",
-        "dnsgeo6.tuonomeregistrar.net"
+        "dnsgeo6.tuonomeregistrar.net",
+        "dnsgeo5.tuonomeregistrar.com"
     ]
 }

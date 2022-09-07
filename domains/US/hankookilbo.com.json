@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
         "hmap-asis",
@@ -15,28 +15,35 @@
     "resources": [
         {
             "rule": "hankookilbo\\.com\\/service\\/kt\\/trk\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "hmap-asis"
             ],
             "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
+                "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b61ce2d236817262b1b4e9ee5d9227f93a4e10d136a09d9a76ddc6abd061e521"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "hk_ltuid": {
+                    "ttl": 31536003,
+                    "length": 30,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
                 "hkvstcd": {
                     "ttl": null,
-                    "length": 45,
-                    "prevalence": 0.000006902073382844206,
+                    "length": 44,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 }
             },
@@ -48,21 +55,24 @@
         },
         {
             "rule": "hankookilbo\\.com\\/analtag\\/ESLogGet",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "hktracker"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "_ga": 0.000006902073382844206,
-                "hkvstcd": 0.000006902073382844206
+                "_ga": 0.000027111659369111688,
+                "hk_ltuid": 0.000013555829684555844,
+                "hkvstcd": 0.000013555829684555844
             },
             "exampleSites": [
                 "koreatimes.co.kr",
@@ -72,7 +82,7 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000136,
     "types": {
         "Script": 2,
         "Image": 2

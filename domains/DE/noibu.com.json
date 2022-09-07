@@ -4,42 +4,80 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
         "cdn",
         "input"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "noibu\\.com\\/collect\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.0001,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.language": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.doNotTrack": 10,
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 10,
+                "Navigator.prototype.cookieEnabled": 10,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9,
+                "Date.prototype.getTime": 10,
+                "Navigator.prototype.language": 10,
+                "Document.cookie setter": 1
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "c4925cc6c0c0ce9291816af8f1b93a06e8d593d64068ccb61314dca04d0a6450"
+                "27fc79d2c89feefe504b522e275925d7be33d632a2717e7e67801165a3af6598",
+                "05e1760c1433b635a3a90ffbccf0d7a1cab015b430d73ca0bda219508cea2868",
+                "f73f2d649cce34f1b5a1404b7ea527075f8f7af70626d26377b45a248f2badee",
+                "67cb99f30beb6f99401935fcf89ae8475011d11fb2254825e63131ad16f8dc9c",
+                "82bd7a736384c555c6d51855840463cf3d7dcd41ecd2f9e6e701d654bce244d4",
+                "ae436f28496c9b94fbd1a1399117d116a082c16fbe221e337294086b9d696662",
+                "13f26b6616015bb336205553ba4cb7b6db59d045f698e9e5721359829929c52f",
+                "69104add17de9d65f0c37eba783e46729f0c6976f59f1325993b04c49fb319b6",
+                "c6450656387d84b68d8c06315750401720450df76accab636bbd93e0d30dd3fa"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "__cmpconsentx10622": {
+                    "ttl": 31536005,
+                    "length": 38,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
+                },
+                "__cmpcvcx10622": {
+                    "ttl": 31536005,
+                    "length": 208,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
+                },
+                "__cmpcpcx10622": {
+                    "ttl": 31536005,
+                    "length": 12,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "handyhuellen.de",
-                "www.lampenwelt.de"
+                "jbl.com",
+                "tamaris.com",
+                "www.brille24.de",
+                "www.delonghi.com",
+                "www.hunkemoller.de",
+                "www.justspices.de",
+                "www.lampenwelt.de",
+                "www.levi.com",
+                "www.netgear.com",
+                "www.salewa.com"
             ]
         },
         {
@@ -50,25 +88,33 @@
                 "input"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "handyhuellen.de",
-                "www.lampenwelt.de"
+                "jbl.com",
+                "tamaris.com",
+                "www.brille24.de",
+                "www.delonghi.com",
+                "www.hunkemoller.de",
+                "www.justspices.de",
+                "www.lampenwelt.de",
+                "www.levi.com",
+                "www.netgear.com",
+                "www.salewa.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 2,
-        "WebSocket": 2
+        "Script": 10,
+        "WebSocket": 10
     },
     "nameservers": [
         "ns-1336.awsdns-39.org",

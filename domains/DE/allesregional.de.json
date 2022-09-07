@@ -4,36 +4,79 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.0002,
+    "sites": 2,
     "subdomains": [
-        "geniessen",
-        "www"
+        "www",
+        "es"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "allesregional\\.de\\/typo3conf\\/ext\\/theme\\/Resources\\/Public\\/Assets\\/css\\/app\\.1633125453\\.css",
+            "rule": "allesregional\\.de\\/typo3conf\\/ext\\/allesregional\\/Resources\\/Public\\/allesregional-widget\\/Plugin\\/App\\/index\\.html",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "geniessen",
                 "www"
             ],
-            "apis": {},
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "0ccdf536c13454234fa8a664d020812d74f786140bb81e5147ca595c1ef0cd11"
+                "c67df1e8c8fd2aac94390d9c3497890d041bf7aea7352b4c40ee93d23c70d42b"
             ],
-            "type": "Stylesheet",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "donaukurier.de",
-                "www.donaukurier.de"
+                "www.wochenblatt.de"
+            ]
+        },
+        {
+            "rule": "allesregional\\.de\\/offers\\/content\\/_search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "es"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "0831f74f03b376db413f97bc7521890ab4095bfc02b0c04dfb8740203fd8ed33"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donaukurier.de",
+                "www.wochenblatt.de"
+            ]
+        },
+        {
+            "rule": "allesregional\\.de\\/offers\\/content\\/_search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "es"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donaukurier.de",
+                "www.wochenblatt.de"
             ]
         },
         {
@@ -41,22 +84,21 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "geniessen",
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "60e641aa27116c92f298608e23ddef69e3d0c0e850e85d462d10a5992f598bb0"
+                "282d69b6cad5c54f5d6f835c2b1e209c9d7a691d4b0059a0a9631724dcc320e7"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "donaukurier.de",
-                "www.donaukurier.de"
+                "www.wochenblatt.de"
             ]
         }
     ],
@@ -64,7 +106,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Stylesheet": 2,
+        "Document": 2,
+        "XHR": 2,
+        "Preflight": 2,
         "Font": 2
     },
     "nameservers": [

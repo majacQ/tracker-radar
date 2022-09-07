@@ -1,44 +1,51 @@
 {
     "domain": "nuance.com",
-    "owner": {},
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000903,
-    "sites": 9,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
-        "postoffice-uk.digital",
+        "vodafoneuk.digital",
         "media-uk1.digital",
         "media-eu2.digital",
-        "media-us1.digital",
-        "vodafoneuk.digital"
+        "media-us2.digital",
+        "media-us1.digital"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "nuance\\.com\\/chatskins\\/launch\\/inqChatLaunch10006572\\.js",
+            "rule": "nuance\\.com\\/chatskins\\/launch\\/inqChatLaunch10006330\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "postoffice-uk.digital"
+                "vodafoneuk.digital"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 5
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "e7cbdaba7c2a03937e155643ae1d07e2cdfd8a43ae195151790ae1c9f4f7292e"
+                "ae18c40c2c54bd72d36a7eed86a17683688fd2247ba223d721716c749fc5bb78"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "account.pobroadband.co.uk",
-                "www.postoffice.co.uk"
+                "vodafone.co.uk",
+                "deviceguides.vodafone.co.uk",
+                "forum.vodafone.co.uk",
+                "www.vodafone.co.uk",
+                "www.voxi.co.uk"
             ]
         },
         {
@@ -48,6 +55,7 @@
             "subdomains": [
                 "media-uk1.digital",
                 "media-eu2.digital",
+                "media-us2.digital",
                 "media-us1.digital"
             ],
             "apis": {
@@ -58,18 +66,20 @@
             "prevalence": 0.000903,
             "cnames": [],
             "responseHashes": [
-                "2e8f4f6158ee4e23d270f962be25b0a2a1e56b62c32eaeaf96c46c329b507dec"
+                "6a9c6d33bfe9c16f35b4ba3ea6a4a15c3604c404dc8b5385fdba0cb3f2822e35",
+                "0369f65979d7ee373dbde312788ff29333f93c957ca942a42f0af83d0ca94c7e",
+                "d1154fd7d189e668252048a6494fafca17b055a9a0bef457034af5ceff0f9fc5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "account.pobroadband.co.uk",
+                "vodafone.co.uk",
                 "deviceguides.vodafone.co.uk",
                 "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
                 "www.direct.aviva.co.uk",
+                "www.directv.com",
+                "www.idmobile.co.uk",
                 "www.ups.com",
                 "www.vodafone.co.uk",
                 "www.voxi.co.uk"
@@ -85,24 +95,42 @@
                 "media-us1.digital"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "7593c41a19410fd1697c9d242ba9bc485aee7d42079702608d559ad876ba9347"
+                "b7464b78f205849f6ed3959ae187743d402530b21748f847841752af466417f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
+                "vodafone.co.uk",
                 "www.direct.aviva.co.uk",
                 "www.ups.com",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "www.vodafone.co.uk"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/media\\/launch\\/site_10006330_default\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-uk1.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "11461274b9b49e749cee0380dc37cef93dc57700c77b66cc2db4de2b89199a00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -115,33 +143,30 @@
                 "media-us1.digital"
             ],
             "apis": {
-                "Navigator.prototype.appName": 8,
-                "Navigator.prototype.userAgent": 8,
-                "window.localStorage": 8,
-                "window.sessionStorage": 8,
-                "window.name": 8,
-                "Date.prototype.getTime": 8,
-                "Navigator.prototype.platform": 8,
-                "Document.cookie getter": 1
+                "window.localStorage": 4,
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.platform": 4,
+                "window.name": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 2
             },
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "afc09ff89bfc2022e732ab211c168c351ea1eaae99127c52d89578eb7a81a85c"
+                "a08e41e26f184b5112ce7eb44ffe7cf04f823b9c9be03c83c193bfcee9ebdb49",
+                "465fa31695ff9dd44b9211ecdbfc88b422ec59f3e9509542ee643e637218f0a9"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
+                "vodafone.co.uk",
                 "www.direct.aviva.co.uk",
                 "www.ups.com",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -149,12 +174,11 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "78a37757c165e672eda69f69d745ab86d78fd6d9b66b157cb9b032e479faab11"
@@ -163,12 +187,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -176,70 +196,64 @@
             "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {
-                "Date.prototype.getTime": 6,
-                "window.localStorage": 6,
-                "window.sessionStorage": 6,
+                "Date.prototype.getTime": 2,
                 "Document.cookie setter": 2,
-                "Document.cookie getter": 2
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6eb322408e94aa8f80f32c363a2a6d3aa06fbe00935fba5ad24c5673f05ec337"
+                "d3066cbc8f798a3175376176e82e9ba339184e8c4c5f2d1f0734d25e7871b616"
             ],
             "type": "Document",
             "firstPartyCookies": {
                 "inqVital_10006330": {
-                    "ttl": 31536020,
+                    "ttl": 31536023,
                     "length": 270,
-                    "prevalence": 0.00020066218521119696,
+                    "prevalence": 0.00020056157240272763,
                     "uniqueness": 1
                 },
                 "inqState_10006330": {
-                    "ttl": 31536020,
-                    "length": 324,
-                    "prevalence": 0.00020066218521119696,
+                    "ttl": 31536023,
+                    "length": 330,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 1
+                },
+                "inqSession_10006330": {
+                    "ttl": 31536023,
+                    "length": 1069,
+                    "prevalence": 0.00020056157240272763,
                     "uniqueness": 1
                 },
                 "cobrowse_10006330": {
-                    "ttl": 86420,
+                    "ttl": 86423,
                     "length": 10,
-                    "prevalence": 0.00020066218521119696,
+                    "prevalence": 0.00020056157240272763,
                     "uniqueness": 0.5
-                },
-                "inqSession_10006330": {
-                    "ttl": 31536020,
-                    "length": 918,
-                    "prevalence": 0.00020066218521119696,
-                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
             "rule": "nuance\\.com\\/tagserver\\/init\\/isTrustedDomain",
-            "cookies": 0.000602,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -248,43 +262,30 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
             "rule": "nuance\\.com\\/tagserver\\/init\\/initFramework",
-            "cookies": 0.000602,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "10fe13baec7b8afc7c120595cd4f326e4978162990e6e22066d6ef7dc9e64470",
-                "a4c76f7e37a075f21b9113b70c93aa0c19608c04853383e739f9b48fb731b31b",
-                "a20dc4978eb19925f237a8ae828cd797bdfcaec1f3bf0f10c7e402204b1f473f",
-                "74a3b3fd3053b83d8139d3a5871ed35766644c36993bc5cc70d094a07c003745",
-                "536f02465e792ee3120cf95e5464f18888c7ce41e76f1698f7cacaeaa241701a"
+                "f447ffb10aab04446709a55976792f1625de9682d88b9a5139458d523c1c58fc"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -296,8 +297,8 @@
                 "media-us1.digital"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -306,13 +307,9 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
+                "vodafone.co.uk",
                 "www.ups.com",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -320,12 +317,11 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -334,12 +330,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -352,8 +344,8 @@
                 "media-us1.digital"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -362,14 +354,33 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
+                "vodafone.co.uk",
                 "www.direct.aviva.co.uk",
+                "www.idmobile.co.uk",
                 "www.ups.com",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "www.vodafone.co.uk"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/media\\/sites\\/10006330\\/assets\\/automatons\\/acif-configs\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-uk1.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -381,10 +392,10 @@
                 "media-eu2.digital"
             ],
             "apis": {
-                "Event.prototype.timeStamp": 6
+                "Event.prototype.timeStamp": 4
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "c4dccdd9ae25b64078e0c73f273de94f8894d5c99e4741645ece29aeefc9c5a4"
@@ -393,25 +404,22 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "support.vodafone.co.uk",
+                "vodafone.co.uk",
                 "www.direct.aviva.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "www.idmobile.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
             "rule": "nuance\\.com\\/tagserver\\/incrementality\\/onEvent",
-            "cookies": 0.000702,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -420,13 +428,31 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "account.pobroadband.co.uk",
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/tagserver\\/launch\\/agentAvailability",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vodafoneuk.digital"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ab7504976e57374a4a20eb33006c4f30a5b08d3ca5ff93426d81394b2f1d5052"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vodafone.co.uk",
                 "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "www.vodafone.co.uk"
             ]
         },
         {
@@ -434,117 +460,60 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "postoffice-uk.digital",
                 "vodafoneuk.digital"
             ],
             "apis": {
-                "Date.prototype.getTime": 6
+                "Date.prototype.getTime": 2
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8629958ec3e925eb783d9f16e5d05bd8ebf53731ce8c60590d2258d19d200808"
+                "3a18b0f51f8c025220ce3e666438bc8bcc35102958076596831c6ca5930a5993"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pobroadband.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "vodafone.co.uk",
+                "www.vodafone.co.uk"
             ]
         },
         {
-            "rule": "nuance\\.com\\/chatskins\\/launch\\/inqChatLaunch10006330\\.js",
+            "rule": "nuance\\.com\\/media\\/launch\\/site_10004048_default_helper\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "vodafoneuk.digital"
+                "media-eu2.digital"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6
+                "Navigator.prototype.userAgent": 2
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "c97c53cb15fa0799ae9432a0f4259ac98b20996705a946cbb7dac00d3bb6de37"
+                "5a15014e949a0acfcc290205064e698534959526f1d6be65b88f6910687e1941"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "smc_not": 0.00020056157240272763
+            },
             "exampleSites": [
-                "vodafone.co.uk",
-                "deviceguides.vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
-            ]
-        },
-        {
-            "rule": "nuance\\.com\\/media\\/launch\\/site_10006330_default\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "media-uk1.digital"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "b3093988e02400bdf9b38e6e3f83ca64b228e12da2e78ff8e9cbf2393af13d37"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
-            ]
-        },
-        {
-            "rule": "nuance\\.com\\/media\\/sites\\/10006330\\/assets\\/automatons\\/acif-configs\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "media-uk1.digital"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vodafone.co.uk",
-                "forum.vodafone.co.uk",
-                "support.vodafone.co.uk",
-                "www.vodafone.co.uk",
-                "www.voxi.co.uk"
+                "idmobile.co.uk",
+                "www.idmobile.co.uk"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000602,
+    "cookies": 0.000201,
     "types": {
-        "Script": 57,
-        "Document": 6,
-        "XHR": 19,
-        "Other": 26
+        "Script": 34,
+        "Document": 2,
+        "XHR": 9,
+        "Other": 12
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

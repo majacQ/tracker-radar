@@ -7,14 +7,9 @@
     "prevalence": 0.0001,
     "sites": 1,
     "subdomains": [
-        "laweekly.engine",
-        "laweekly.cdn"
+        "laweekly.engine"
     ],
     "cnames": [
-        {
-            "original": "cdn.laweekly.com",
-            "resolved": "laweekly.cdn.adglare.net"
-        },
         {
             "original": "engine.laweekly.com",
             "resolved": "laweekly.engine.adglare.net"
@@ -25,7 +20,7 @@
         {
             "rule": "adglare\\.net\\/",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "laweekly.engine"
             ],
@@ -39,7 +34,7 @@
                 }
             ],
             "responseHashes": [
-                "9ea05642661791eaf5f8fc239fec88006c605cd37184de7624f55e7903db0351"
+                "729a096573cc825f6e890cd67bb39d402cf348ab499d67838a52805661492645"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -50,61 +45,7 @@
             ]
         },
         {
-            "rule": "adglare\\.net\\/tb6fe08cd\\/img\\/vue8z_vfb2wt_53fec7ff\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "laweekly.cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "cdn.laweekly.com",
-                    "resolved": "laweekly.cdn.adglare.net"
-                }
-            ],
-            "responseHashes": [
-                "9ca935763a4f53da2061b67aebc5cca92df67fa4a2834dd0b1caf652f1f6a650"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "laweekly.com",
-                "www.laweekly.com"
-            ]
-        },
-        {
-            "rule": "adglare\\.net\\/tb6fe08cd\\/img\\/vue8z_s7tg32_095de2e1\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "laweekly.cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "cdn.laweekly.com",
-                    "resolved": "laweekly.cdn.adglare.net"
-                }
-            ],
-            "responseHashes": [
-                "561cd161e01e8f5bb8871aca16d3a4245909e5b1f8c4bec4c2c5f42f60985d77"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "laweekly.com",
-                "www.laweekly.com"
-            ]
-        },
-        {
-            "rule": "adglare\\.net\\/data",
+            "rule": "adglare\\.net\\/imp",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -122,7 +63,34 @@
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.laweekly.com"
+            ]
+        },
+        {
+            "rule": "adglare\\.net\\/vb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "laweekly.engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "engine.laweekly.com",
+                    "resolved": "laweekly.engine.adglare.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -136,8 +104,7 @@
     "cookies": 0,
     "types": {
         "Script": 2,
-        "Image": 4,
-        "Other": 2
+        "Ping": 4
     },
     "nameservers": []
 }

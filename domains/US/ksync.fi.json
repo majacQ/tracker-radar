@@ -4,44 +4,54 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "g.sync"
+        "sync"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "ksync\\.fi\\/an\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "ksync\\.fi\\/xdomain_cookie\\.html",
+            "cookies": 0.00000678,
+            "fingerprinting": 1,
             "subdomains": [
-                "g.sync"
+                "sync"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "fd222137f245c06ddb4c4d44db41f12138dad6cf8ef5d4d4a5e500f38f0c8c62"
+                "63a31d736876f7628aa5a2a73f3aff608d6653be4e5b6c4787dc7741079255c1"
             ],
-            "type": "Script",
-            "firstPartyCookies": {},
+            "type": "Document",
+            "firstPartyCookies": {
+                "kconsentS": {
+                    "ttl": -8639999,
+                    "length": 4,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "budgetsport.fi",
                 "www.budgetsport.fi",
-                "www.byggmakker.no",
                 "www.intersport.fi"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.00000678,
     "types": {
-        "Script": 4
+        "Document": 3
     },
     "nameservers": [
         "ns-fi.elisa.net",

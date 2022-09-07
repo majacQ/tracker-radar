@@ -7,10 +7,14 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000501,
-    "sites": 5,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
-        "embed"
+        "embed",
+        "form",
+        "renderer-assets",
+        "rudderstack-control-plane.cdp.prod.data",
+        "rudderstack.cdp.prod.data"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -23,10 +27,10 @@
                 "embed"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 2
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e5a06d30f076b8f2528468513a6c4c5ab7dd4e6d7906917662908d58f4ace6aa"
@@ -35,23 +39,290 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "simplywall.st",
-                "support.native-instruments.com",
-                "www.directchemistoutlet.com.au",
+                "fontawesome.com",
                 "www.mymusclechef.com"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/next\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "2425316c2b45581f734915fa50bcc11d592ff6cabcc9d0d692b359d75163f499"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.savings.com.au",
+                "www.yourinvestmentpropertymag.com.au",
+                "www.yourmortgage.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/cdn-cgi\\/bm\\/cv\\/669835187\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "form"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.webdriver": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0d3118e306c6a26f1d2efcb698984e6922c5e7e155c94a84760e36e5592a3c11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/modern-renderer\\.4252106d6e74856466dc\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.connection": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.localStorage": 2,
+                "document.fonts.check": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "033ea82a442508b763ca9fd1aa3fdd5563180a0b1c8fe76b829367a60648cff0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/cdn-cgi\\/bm\\/cv\\/result",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "form"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/modern-vendors~attachment~form\\.1180a37db9b2a688bb01\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e345772026801976e0a94d7080a002268c4718faa36446825deb93a5a1698f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/modern-vendors~form\\.d26b63bb939bda981aa6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0308758204eed5b9145d5b128262a38809f7af582f6f951a5804180dcbb17109"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/modern-form\\.327fc5d4bcf3a6064f5b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "renderer-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eb58ebe56c0002aaae9265881aaba7fd0c6cbf66711b99a045815784c21bd091"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/sourceConfig\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack-control-plane.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/sourceConfig\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack-control-plane.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e1bfbb50209ae8693353623fab7eeeef5ae1c0ca5d128a40c3be54099e59028"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleanaway.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourinvestmentpropertymag.com.au",
+                "www.yourinvestmentpropertymag.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rudderstack.cdp.prod.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yourinvestmentpropertymag.com.au",
+                "www.yourinvestmentpropertymag.com.au"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0.000201,
     "types": {
-        "Script": 4
+        "Script": 16,
+        "XHR": 6,
+        "Preflight": 4
     },
     "nameservers": [
-        "ns-14.awsdns-01.com",
         "ns-1444.awsdns-52.org",
         "ns-1725.awsdns-23.co.uk",
-        "ns-788.awsdns-34.net"
+        "ns-788.awsdns-34.net",
+        "ns-14.awsdns-01.com"
     ]
 }

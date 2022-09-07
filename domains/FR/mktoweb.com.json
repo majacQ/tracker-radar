@@ -4,13 +4,16 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000703,
+    "prevalence": 0.000702,
     "sites": 7,
     "subdomains": [
+        "logrocket",
+        "neo4j",
+        "snyk",
         "docker1",
         "elasticsearch",
-        "nasdaq",
-        "sketchup"
+        "sketchup",
+        "nokia2"
     ],
     "cnames": [
         {
@@ -18,34 +21,60 @@
             "resolved": "sketchup.mktoweb.com"
         },
         {
+            "original": "go.neo4j.com",
+            "resolved": "neo4j.mktoweb.com"
+        },
+        {
+            "original": "go.snyk.io",
+            "resolved": "snyk.mktoweb.com"
+        },
+        {
             "original": "info.elastic.co",
             "resolved": "elasticsearch.mktoweb.com"
         },
         {
-            "original": "nd.nasdaq.com",
-            "resolved": "nasdaq.mktoweb.com"
+            "original": "pages.nokia.com",
+            "resolved": "nokia2.mktoweb.com"
         },
         {
             "original": "web.docker.com",
             "resolved": "docker1.mktoweb.com"
+        },
+        {
+            "original": "www2.logrocket.com",
+            "resolved": "logrocket.mktoweb.com"
         }
     ],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "mktoweb\\.com\\/js\\/forms2\\/js\\/forms2\\.min\\.js",
-            "cookies": 0.000301,
+            "cookies": 0.000502,
             "fingerprinting": 1,
             "subdomains": [
+                "logrocket",
+                "neo4j",
+                "snyk",
                 "docker1",
                 "elasticsearch",
-                "nasdaq",
                 "sketchup"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "go.neo4j.com",
+                    "resolved": "neo4j.mktoweb.com"
+                },
+                {
+                    "original": "go.snyk.io",
+                    "resolved": "snyk.mktoweb.com"
+                },
                 {
                     "original": "web.docker.com",
                     "resolved": "docker1.mktoweb.com"
@@ -55,25 +84,23 @@
                     "resolved": "elasticsearch.mktoweb.com"
                 },
                 {
-                    "original": "nd.nasdaq.com",
-                    "resolved": "nasdaq.mktoweb.com"
-                },
-                {
                     "original": "get.sketchup.com",
                     "resolved": "sketchup.mktoweb.com"
                 }
             ],
             "responseHashes": [
-                "2689a0237a95cfd8135f8da3ac79c430e903f3c542f8b862f68141c84c348c43"
+                "17dc16f203a20131a9dfccce83ed74af83cb9da328011181ca745b7f3a883d08"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "docker.com",
+                "logrocket.com",
+                "blog.logrocket.com",
+                "neo4j.com",
+                "snyk.io",
                 "www.docker.com",
                 "www.elastic.co",
-                "www.nasdaq.com",
                 "www.sketchup.com"
             ]
         },
@@ -82,14 +109,28 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "logrocket",
+                "neo4j",
+                "snyk",
                 "docker1",
-                "elasticsearch",
-                "nasdaq"
+                "elasticsearch"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "go.neo4j.com",
+                    "resolved": "neo4j.mktoweb.com"
+                },
+                {
+                    "original": "go.snyk.io",
+                    "resolved": "snyk.mktoweb.com"
+                },
                 {
                     "original": "web.docker.com",
                     "resolved": "docker1.mktoweb.com"
@@ -97,38 +138,52 @@
                 {
                     "original": "info.elastic.co",
                     "resolved": "elasticsearch.mktoweb.com"
-                },
-                {
-                    "original": "nd.nasdaq.com",
-                    "resolved": "nasdaq.mktoweb.com"
                 }
             ],
             "responseHashes": [
-                "8ec24520fe10f9b4d8bb08913cc564fefb1db5b7c1f445795bc836ac77f9b0d0",
-                "b2e7e158f88038aa71f3d8c386c2525ea7e451734e8950f99e88dce908010e5b"
+                "3e91af0acf2ebd468830cd98ec04d36bc4f25a868191edde4fd380f57b76aa83",
+                "84b0b4ea8dbb765328b93da4baff8347b3fdb1fabd85cd3253d14388cf939d8a",
+                "1a15a256a37e7b3f8bab5325b8d6ca01f348e687c5895a8ee22e9c9951a41822",
+                "4976c5a17456c2eaa21acfa1430ffa38d14f385aeae0f4f07eeb12f11c1a41ab"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "docker.com",
-                "www.elastic.co",
-                "www.nasdaq.com"
+                "logrocket.com",
+                "neo4j.com",
+                "snyk.io",
+                "www.docker.com",
+                "www.elastic.co"
             ]
         },
         {
             "rule": "mktoweb\\.com\\/js\\/forms2\\/css\\/forms2\\.css",
-            "cookies": 0.000201,
+            "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [
+                "logrocket",
+                "neo4j",
+                "snyk",
                 "docker1",
-                "elasticsearch",
-                "nasdaq"
+                "elasticsearch"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "go.neo4j.com",
+                    "resolved": "neo4j.mktoweb.com"
+                },
+                {
+                    "original": "go.snyk.io",
+                    "resolved": "snyk.mktoweb.com"
+                },
                 {
                     "original": "web.docker.com",
                     "resolved": "docker1.mktoweb.com"
@@ -136,10 +191,6 @@
                 {
                     "original": "info.elastic.co",
                     "resolved": "elasticsearch.mktoweb.com"
-                },
-                {
-                    "original": "nd.nasdaq.com",
-                    "resolved": "nasdaq.mktoweb.com"
                 }
             ],
             "responseHashes": [
@@ -149,24 +200,84 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "docker.com",
-                "www.elastic.co",
-                "www.nasdaq.com"
+                "logrocket.com",
+                "neo4j.com",
+                "snyk.io",
+                "www.docker.com",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "mktoweb\\.com\\/js\\/forms2\\/css\\/forms2-theme-simple\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logrocket",
+                "neo4j",
+                "snyk",
+                "docker1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "go.neo4j.com",
+                    "resolved": "neo4j.mktoweb.com"
+                },
+                {
+                    "original": "go.snyk.io",
+                    "resolved": "snyk.mktoweb.com"
+                },
+                {
+                    "original": "web.docker.com",
+                    "resolved": "docker1.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "14c8c62dc692fd8faa04434e3fed25e7c23d596b732f9db88f6e9f9ff5dfa61c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "neo4j.com",
+                "snyk.io",
+                "www.docker.com"
             ]
         },
         {
             "rule": "mktoweb\\.com\\/index\\.php\\/form\\/XDFrame",
-            "cookies": 0.000201,
+            "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [
+                "logrocket",
+                "neo4j",
+                "snyk",
                 "docker1",
-                "elasticsearch",
-                "nasdaq"
+                "elasticsearch"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "go.neo4j.com",
+                    "resolved": "neo4j.mktoweb.com"
+                },
+                {
+                    "original": "go.snyk.io",
+                    "resolved": "snyk.mktoweb.com"
+                },
                 {
                     "original": "web.docker.com",
                     "resolved": "docker1.mktoweb.com"
@@ -174,65 +285,65 @@
                 {
                     "original": "info.elastic.co",
                     "resolved": "elasticsearch.mktoweb.com"
-                },
-                {
-                    "original": "nd.nasdaq.com",
-                    "resolved": "nasdaq.mktoweb.com"
                 }
             ],
             "responseHashes": [
-                "e1f62b05267fccb3a0aa8e09ab8dcedf1cf0357cb186027bbbd1e9ffb1e15e04",
-                "f70bd7c424c7fea7c5a67e18f15001e5c7b99c430efb29f3c968e83ad1c7ce8f"
+                "02333c2f09a4d5e3ebabc4cc25a0a85cbf4a41d7ee51bf33bb279a6745ae2349",
+                "06f745c3571f84a3d26083d84544b914497c6debdc0ad523345a1c217a9b41fe",
+                "1033d0b045c449fc3fcd55314afeca9215d562f007cef2348c3752841fd715bc",
+                "e1f62b05267fccb3a0aa8e09ab8dcedf1cf0357cb186027bbbd1e9ffb1e15e04"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "docker.com",
-                "www.elastic.co",
-                "www.nasdaq.com"
+                "logrocket.com",
+                "neo4j.com",
+                "snyk.io",
+                "www.docker.com",
+                "www.elastic.co"
             ]
         },
         {
-            "rule": "mktoweb\\.com\\/js\\/forms2\\/css\\/forms2-theme-plain\\.css",
-            "cookies": 0.000201,
+            "rule": "mktoweb\\.com\\/js\\/stripmkttok\\.js",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "elasticsearch",
-                "nasdaq"
+                "neo4j",
+                "nokia2"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [
                 {
-                    "original": "info.elastic.co",
-                    "resolved": "elasticsearch.mktoweb.com"
+                    "original": "go.neo4j.com",
+                    "resolved": "neo4j.mktoweb.com"
                 },
                 {
-                    "original": "nd.nasdaq.com",
-                    "resolved": "nasdaq.mktoweb.com"
+                    "original": "pages.nokia.com",
+                    "resolved": "nokia2.mktoweb.com"
                 }
             ],
             "responseHashes": [
-                "57cd46adbabd6c40823602b4513aecbe89320a769572255272abe9f008de69fa"
+                "f7545b96ed2740220c349ae9deb614faf1f0f211d4cf710788e0790f74cc9715"
             ],
-            "type": "Stylesheet",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "elastic.co",
-                "www.nasdaq.com"
+                "neo4j.com",
+                "www.nokia.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000703,
+    "cookies": 0.000702,
     "types": {
-        "Script": 8,
-        "Stylesheet": 5,
-        "Document": 3
+        "Script": 14,
+        "Stylesheet": 9,
+        "Document": 5
     },
     "nameservers": []
 }

@@ -7,16 +7,18 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.0014,
-    "sites": 14,
+    "prevalence": 0.00271,
+    "sites": 27,
     "subdomains": [
         "player",
         "track1",
         "go1",
         "premiumsrv",
+        "s2s",
         "sync",
-        "play",
-        "tg1"
+        "tg1",
+        "pbs",
+        "play"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -29,23 +31,76 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 9,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "6d1ddf5ac8cc95b092103244def0dd9ba5886ca6c8310e84eb45fe4be7555461"
+                "6a26f472970788e1b9638b18961c8932d2c4c400b9d2c258e6c562ca770ba14c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "cookies.js": 0.00010028078620136381
+            },
             "exampleSites": [
-                "gamerescape.com",
-                "wh40k.lexicanum.com",
+                "astrologyanswers.com",
+                "gtaforums.com",
+                "radiopaedia.org",
                 "www.animenewsnetwork.com",
+                "www.isitdownrightnow.com",
+                "www.motorsport.com",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com",
                 "www.vintag.es",
                 "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track1"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00241,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00030084235860409147,
+                "cookies.js": 0.00010028078620136381,
+                "activation_referrer": 0.00010028078620136381
+            },
+            "exampleSites": [
+                "www.expressandstar.com",
+                "www.animenewsnetwork.com",
+                "forums.horseandhound.co.uk",
+                "www.onegreenplanet.org",
+                "gtaforums.com",
+                "www.sporcle.com",
+                "mydramalist.com",
+                "www.isitdownrightnow.com",
+                "astrologyanswers.com",
+                "www.loveproperty.com",
+                "www.notebookcheck.net",
+                "www.motorsport.com",
+                "www.pcgamingwiki.com",
+                "bindingofisaacrebirth.fandom.com",
+                "radiopaedia.org",
+                "odysee.com",
+                "www.motaclarity.co.uk",
+                "randomwordgenerator.com",
+                "www.mangaread.org",
+                "www.lovemoney.com"
             ]
         },
         {
@@ -56,36 +111,378 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 13,
-                "Navigator.prototype.vendor": 13,
-                "Navigator.prototype.language": 13,
-                "Navigator.prototype.doNotTrack": 13,
-                "window.localStorage": 13,
-                "Screen.prototype.width": 13,
-                "Screen.prototype.height": 13,
-                "Navigator.prototype.languages": 9
+                "Navigator.prototype.userAgent": 17,
+                "Navigator.prototype.appVersion": 17,
+                "Navigator.prototype.vendor": 17,
+                "Date.prototype.getTime": 17,
+                "Navigator.prototype.language": 17,
+                "window.innerHeight": 17,
+                "window.innerWidth": 17,
+                "Navigator.prototype.doNotTrack": 17,
+                "window.localStorage": 17,
+                "Screen.prototype.width": 17,
+                "Screen.prototype.height": 17,
+                "Navigator.prototype.languages": 8
             },
-            "sites": 13,
-            "prevalence": 0.0013,
+            "sites": 18,
+            "prevalence": 0.00181,
             "cnames": [],
             "responseHashes": [
-                "fb40b2dbc64bcbf5be6e3a00d3b1e0f877691fc9b09eb0eb09c7fbeade6fa305"
+                "8aee6d7e6d51e6d543f52ac97a4a1633a6c07a12eb955c8603fff01a357297f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "forum.tz-uk.com",
-                "gameranx.com",
-                "kerrydalestreet.co.uk",
-                "mangaeffect.com",
+                "astrologyanswers.com",
+                "bindingofisaacrebirth.fandom.com",
+                "forums.horseandhound.co.uk",
+                "forums.ybw.com",
+                "gtaforums.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
+                "odysee.com",
+                "workshop-manuals.com",
                 "www.animenewsnetwork.com",
-                "www.euroweeklynews.com",
-                "www.lovefood.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
                 "www.lovemoney.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org",
+                "www.sporcle.com",
+                "www.vintag.es",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/tag\\/3\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00fbfab1cc2a89a67f8c2b02558fba0012998a41ed1e9c7aa99b9da843ad1aa3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astrologyanswers.com",
+                "forums.ybw.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0\\.js",
+            "cookies": 0.0015,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.cookieEnabled": 15,
+                "window.sessionStorage": 15,
+                "window.localStorage": 15,
+                "Document.cookie getter": 15,
+                "Date.prototype.getTime": 14,
+                "Navigator.prototype.doNotTrack": 9,
+                "Document.cookie setter": 15
+            },
+            "sites": 17,
+            "prevalence": 0.0017,
+            "cnames": [],
+            "responseHashes": [
+                "3c94d07090acdd3c44fa5f23a2c957c961c7413129f068acecf17f1402102c4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592011,
+                    "length": 16,
+                    "prevalence": 0.0015042117930204573,
+                    "uniqueness": 0.26666666666666666
+                },
+                "_pubcid": {
+                    "ttl": 31536026,
+                    "length": 36,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "pbjs-id5id_nb": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "pbjs-id5id_258_nb": {
+                    "ttl": -86374,
+                    "length": 3,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "pbjs-id5id_last": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "id5id.1st": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "id5id.1st_nb": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "id5id.1st_258_nb": {
+                    "ttl": -86374,
+                    "length": 3,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "id5id.1st_last": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "id5id": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "id5id_nb": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "id5id_258_nb": {
+                    "ttl": -86374,
+                    "length": 3,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "id5id_last": {
+                    "ttl": -86387,
+                    "length": 3,
+                    "prevalence": 0.00040112314480545525,
+                    "uniqueness": 0.25
+                },
+                "pbjs-id5id_371_nb": {
+                    "ttl": -86388,
+                    "length": 3,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "id5id.1st_371_nb": {
+                    "ttl": -86388,
+                    "length": 3,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "id5id_371_nb": {
+                    "ttl": -86388,
+                    "length": 3,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astrologyanswers.com",
+                "bindingofisaacrebirth.fandom.com",
+                "forums.horseandhound.co.uk",
+                "forums.ybw.com",
+                "gtaforums.com",
+                "mydramalist.com",
+                "odysee.com",
+                "workshop-manuals.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
+                "www.lovemoney.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org",
+                "www.vintag.es",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a3\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "window.screenLeft": 2,
+                "window.screenTop": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "737ecccfd5058eeb7a46e5ea9616822be78a60668342b22f2fcfae3130f7d8c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astrologyanswers.com",
+                "mydramalist.com",
+                "workshop-manuals.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org",
+                "www.vintag.es"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a4\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.hardwareConcurrency": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "e0a6c0a5e14a8e83a6d486d3964d00f445d9843d0ea0ac41274f03f42bd77c9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astrologyanswers.com",
+                "gtaforums.com",
+                "www.animenewsnetwork.com",
+                "www.isitdownrightnow.com",
+                "www.onegreenplanet.org"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 12,
+                "Screen.prototype.height": 13,
+                "Screen.prototype.width": 13,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.userAgent": 12,
+                "Date.prototype.getTime": 12,
+                "Navigator.prototype.doNotTrack": 11,
+                "Screen.prototype.colorDepth": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6
+            },
+            "sites": 17,
+            "prevalence": 0.0017,
+            "cnames": [],
+            "responseHashes": [
+                "57a18b6c18cc1cb382fc80abd6302ee9c092d472b15d257fd911d942e6def986"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astrologyanswers.com",
+                "bindingofisaacrebirth.fandom.com",
+                "forums.horseandhound.co.uk",
+                "forums.ybw.com",
+                "gtaforums.com",
+                "mydramalist.com",
+                "odysee.com",
+                "workshop-manuals.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
+                "www.lovemoney.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org",
+                "www.vintag.es",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 17,
+            "prevalence": 0.0017,
+            "cnames": [],
+            "responseHashes": [
+                "9ff07ed2c891ed887a0e9eb61461ca9c00277a27fd98d73e40d60b91b2eb86f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astrologyanswers.com",
+                "bindingofisaacrebirth.fandom.com",
+                "forums.horseandhound.co.uk",
+                "forums.ybw.com",
+                "gtaforums.com",
+                "mydramalist.com",
+                "odysee.com",
+                "workshop-manuals.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
+                "www.lovemoney.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org",
                 "www.vintag.es",
                 "www.worldatlas.com"
             ]
@@ -98,8 +495,220 @@
                 "track1"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.0015,
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00030084235860409147,
+                "visitorIP": 0.00010028078620136381
+            },
+            "exampleSites": [
+                "astrologyanswers.com",
+                "bindingofisaacrebirth.fandom.com",
+                "forums.horseandhound.co.uk",
+                "forums.ybw.com",
+                "gtaforums.com",
+                "mydramalist.com",
+                "odysee.com",
+                "workshop-manuals.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
+                "www.lovemoney.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.onegreenplanet.org",
+                "www.pcgamingwiki.com",
+                "www.vintag.es",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/tag\\/",
+            "cookies": 0.0013,
+            "fingerprinting": 0,
+            "subdomains": [
+                "premiumsrv",
+                "go1"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "3e42a5486c8b6a94e9ad39f9beec8c4572ddb53579018117f70c43715e25aabc",
+                "724dfa4aa14a0ef5f7ac6650e56596bf43a54b0537f1df61d9779b1f71e32ebb",
+                "4397c0890d19193b07575d0f918b2089c4d822ac2feb9bf7e89ecd07a95b146c",
+                "4923eb88cf16eafb355ecd8d6625af64ed3e6b76ccf06db042227cea939d61d4",
+                "9beb7410649d97ab56cc9c7d767a7bbbd9b372d6061289dc4f4edde1da2c9d59",
+                "0a3925a1a62e190ce8442e99fc518f1f3de798493d98893aa5de839a6005a4fa",
+                "3a1375074e96491271a1a431bba19b472439268c65a5bf4f26e72eff90f29791",
+                "68cf4ae0b83bb8deb338fb2a4567bc75b23d3564f23b38231fbe28819256fb74",
+                "9b39e9535734fe6c4f05aee97c4240dd92c069ab3648476a97ce846d116bec3f",
+                "6a4e045febaef6ac455075874320a61b81bf679757fe4fe874b8b5feed6043de",
+                "4418556cbd12dec6adfba7b053609027a9e8bb904d38edd3d5487b7a737d4391",
+                "ecefcfc03f828c9c82c1ed2e21a219112f724a5521ffd0751c1a0e737617446a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00010028078620136381,
+                "_ym_d": 0.00010028078620136381,
+                "activation_referrer": 0.00010028078620136381,
+                "lotame_domain_check": 0.00010028078620136381
+            },
+            "exampleSites": [
+                "fandom.com",
+                "forums.horseandhound.co.uk",
+                "gtaforums.com",
+                "mydramalist.com",
+                "odysee.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.lovemoney.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org",
+                "www.vintag.es",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/s2s",
+            "cookies": 0.000501,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2s"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00020056157240272763,
+                "lotame_domain_check": 0.00010028078620136381
+            },
+            "exampleSites": [
+                "fandom.com",
+                "mydramalist.com",
+                "www.isitdownrightnow.com",
+                "www.loveproperty.com",
+                "www.motaclarity.co.uk"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/cookiesyncendpoint",
+            "cookies": 0.0017,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00010028078620136381
+            },
+            "exampleSites": [
+                "fandom.com",
+                "forums.horseandhound.co.uk",
+                "forums.ybw.com",
+                "gtaforums.com",
+                "mydramalist.com",
+                "odysee.com",
+                "workshop-manuals.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
+                "www.loveproperty.com",
+                "www.mangaread.org",
+                "www.motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com",
+                "www.societe.com",
+                "www.vintag.es",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/pTag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "029d0dc8b9190a632b9780eb9e22a92c58488be173ce24814dfce47730d7b78a",
+                "358158cf1d1d611bfc3acafcd2d8374c81d5bf315e372f7a74f67a23f3390dc3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "horseandhound.co.uk",
+                "forums.ybw.com",
+                "www.expressandstar.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/aniview\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "6a26f472970788e1b9638b18961c8932d2c4c400b9d2c258e6c562ca770ba14c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "horseandhound.co.uk",
+                "forums.ybw.com",
+                "workshop-manuals.com",
+                "www.expressandstar.com",
+                "www.sporcle.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/track%20%20%20%20",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -108,210 +717,13 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "ffxiv.gamerescape.com",
-                "forum.tz-uk.com",
-                "gameranx.com",
-                "kerrydalestreet.co.uk",
-                "mangaeffect.com",
-                "mydramalist.com",
-                "stealthoptional.com",
-                "wh40k.lexicanum.com",
-                "www.animenewsnetwork.com",
-                "www.euroweeklynews.com",
-                "www.lovefood.com",
-                "www.lovemoney.com",
-                "www.vintag.es",
-                "www.worldatlas.com"
+                "horseandhound.co.uk",
+                "forums.ybw.com",
+                "www.expressandstar.com"
             ]
         },
         {
-            "rule": "aniview\\.com\\/api\\/adserver\\/tag\\/",
-            "cookies": 0.0011,
-            "fingerprinting": 0,
-            "subdomains": [
-                "go1",
-                "premiumsrv"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.0011,
-            "cnames": [],
-            "responseHashes": [
-                "596404f828d159085eaf0553ff52c48b9926877598d83e097aeb5605c94e9c03",
-                "52a2e7610201a4b3e3247ca85a8e7ddc0f7c1fca51573fb62e3fd4fcba8bc52c",
-                "df2b5ecd1189527327ac9e736348ec757c9d5fed456c80e0a442c01c816a6547",
-                "a5321331364107b94bbe2b2057167d9fefc5adac5a00ce5f10ab6bff8223a95b",
-                "5adcc23292bcf8d6f9515c661625e9754691d955eebf8d6c715a01067a86b87b",
-                "7b921cdcdea7517c554e3ae50d5cd3680e8798e0af840a7dfc8116461798de23",
-                "28c7d8baa735ccefdb27d5127df8cc67ede327923b03989620ab65d1e5deeaac",
-                "eadc5901e26430a1d1f73c6831bb3ea0bdff608e17b2e0119ecc163f64164293",
-                "df5e0043541b8de00bd274b43a5a57876699da896b5ed4efbc77239760df9856",
-                "d6a7d369c6f1769307ec177bda7d8d01a31ae988199f9053a14e32ae3cfb5618"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gamerescape.com",
-                "forum.tz-uk.com",
-                "kerrydalestreet.co.uk",
-                "mangaeffect.com",
-                "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.animenewsnetwork.com",
-                "www.lovefood.com",
-                "www.lovemoney.com",
-                "www.vintag.es",
-                "www.worldatlas.com"
-            ]
-        },
-        {
-            "rule": "aniview\\.com\\/script\\/6\\.1\\/avpb3\\.js",
-            "cookies": 0.001,
-            "fingerprinting": 2,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 12,
-                "Navigator.prototype.cookieEnabled": 12,
-                "window.sessionStorage": 12,
-                "window.localStorage": 12,
-                "Document.cookie getter": 11,
-                "Document.cookie setter": 10,
-                "Date.prototype.getTime": 12,
-                "Navigator.prototype.language": 11,
-                "Screen.prototype.height": 11,
-                "Screen.prototype.width": 11,
-                "Navigator.prototype.doNotTrack": 11,
-                "Navigator.prototype.vendor": 7,
-                "Screen.prototype.colorDepth": 5,
-                "Date.prototype.getTimezoneOffset": 5
-            },
-            "sites": 12,
-            "prevalence": 0.0012,
-            "cnames": [],
-            "responseHashes": [
-                "259b4e231ffd99000322aa5b2c1f153648db23d7e6f517caf30c3cf591d4fd14"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "_pbjs_userid_consent_data": {
-                    "ttl": 2592017,
-                    "length": 16,
-                    "prevalence": 0.0009029798334503862,
-                    "uniqueness": 0.1111111111111111
-                },
-                "pbjs-id5id": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "pbjs-id5id_nb": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "pbjs-id5id_258_nb": {
-                    "ttl": -86379,
-                    "length": 3,
-                    "prevalence": 0.00020066218521119696,
-                    "uniqueness": 0.5
-                },
-                "pbjs-id5id_last": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "id5id.1st": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "id5id.1st_nb": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "id5id.1st_258_nb": {
-                    "ttl": -86379,
-                    "length": 3,
-                    "prevalence": 0.00020066218521119696,
-                    "uniqueness": 0.5
-                },
-                "id5id.1st_last": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "id5id": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "id5id_nb": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "id5id_258_nb": {
-                    "ttl": -86379,
-                    "length": 3,
-                    "prevalence": 0.00020066218521119696,
-                    "uniqueness": 0.5
-                },
-                "id5id_last": {
-                    "ttl": -86381,
-                    "length": 3,
-                    "prevalence": 0.0005016554630279924,
-                    "uniqueness": 0.2
-                },
-                "pbjs-id5id_371_nb": {
-                    "ttl": -86390,
-                    "length": 3,
-                    "prevalence": 0.00030099327781679544,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id.1st_371_nb": {
-                    "ttl": -86390,
-                    "length": 3,
-                    "prevalence": 0.00030099327781679544,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id_371_nb": {
-                    "ttl": -86390,
-                    "length": 3,
-                    "prevalence": 0.00030099327781679544,
-                    "uniqueness": 0.3333333333333333
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gamerescape.com",
-                "forum.tz-uk.com",
-                "gameranx.com",
-                "kerrydalestreet.co.uk",
-                "mangaeffect.com",
-                "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.animenewsnetwork.com",
-                "www.euroweeklynews.com",
-                "www.lovefood.com",
-                "www.lovemoney.com",
-                "www.worldatlas.com"
-            ]
-        },
-        {
-            "rule": "aniview\\.com\\/script\\/6\\.1\\/avpb3a0\\.js",
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a6\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -319,93 +731,163 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
                 "Navigator.prototype.doNotTrack": 4,
                 "Screen.prototype.height": 4,
-                "Screen.prototype.width": 4,
-                "Navigator.prototype.language": 4,
-                "Navigator.prototype.vendor": 1
+                "Screen.prototype.width": 4
             },
             "sites": 6,
             "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "90913d718044d1123c724ca6f7a2e57fede0167f58780c215dc20accb92dc399"
+                "47e35fa8ba94540d365bf540892cde5930c870b4e1afcdb0de84cd8dafb1340e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "gameranx.com",
-                "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.euroweeklynews.com",
+                "horseandhound.co.uk",
+                "gtaforums.com",
+                "www.animenewsnetwork.com",
+                "www.expressandstar.com",
+                "www.isitdownrightnow.com",
                 "www.worldatlas.com"
             ]
         },
         {
-            "rule": "aniview\\.com\\/cookiesyncendpoint",
-            "cookies": 0.0011,
-            "fingerprinting": 0,
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "sync"
+                "player"
             ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.0011,
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "3d339d8964a7cbfedf6d7bede292d224a5fe885ee37ffc9ee1a9220851a1ee4e"
             ],
-            "type": "Document",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "ffxiv.gamerescape.com",
-                "forum.tz-uk.com",
-                "gameranx.com",
-                "kerrydalestreet.co.uk",
+                "ybw.com",
+                "gtaforums.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
                 "www.animenewsnetwork.com",
-                "www.euroweeklynews.com",
-                "www.vintag.es",
+                "www.expressandstar.com",
                 "www.worldatlas.com"
             ]
         },
         {
-            "rule": "aniview\\.com\\/track",
+            "rule": "aniview\\.com\\/setuid",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "track1"
+                "pbs"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.0012,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "248c5c260b8061ece6b0d78fb45760c32e728018cd13b8e44557f9de44d3ebb0"
             ],
-            "type": "XHR",
+            "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "pg_ip": 0.00020066218521119696
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "forum.tz-uk.com",
-                "gameranx.com",
-                "kerrydalestreet.co.uk",
-                "mangaeffect.com",
-                "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.euroweeklynews.com",
-                "www.lovefood.com",
-                "www.lovemoney.com",
-                "www.vintag.es",
+                "gtaforums.com",
+                "www.animenewsnetwork.com",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/spt",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "7df148806da8b7bd52d1dfa4aa4482ce19ea2683b6847e68562ed2cd04ac5cbb",
+                "f7953ed76e14e27c4eb75a7b74b02446ed4c736ed226f3082acd3aadc329e296",
+                "56bc90547bb32f2a32c91ffda65ee2804bd03500c9340122f3a0274985636cfe",
+                "6b79612684a65564a6a01d8c73613100fcf5eaa0e72edb93da4026c72f2c0d17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odysee.com",
+                "randomwordgenerator.com",
+                "www.isitdownrightnow.com",
+                "www.mangaread.org",
                 "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "71c7a28033b54fac3e87f3a39b87107be7026ef9180043d997dd7a6cec45bdc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odysee.com",
+                "workshop-manuals.com",
+                "www.mangaread.org"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/\\/api\\/adserver\\/spt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "af5075132c20df9c930c871b8416aeabfae3594ac6a1e4a9c29ac98de0d4ccac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radiopaedia.org",
+                "www.notebookcheck.net"
             ]
         },
         {
@@ -416,8 +898,8 @@
                 "play"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "d8a957038679125d4840554fc43375697e662283121561afdefc2c3fbecaf729"
@@ -426,32 +908,31 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tz-uk.com",
-                "gameranx.com",
-                "kerrydalestreet.co.uk",
-                "www.euroweeklynews.com"
+                "hotdeals.com",
+                "workshop-manuals.com",
+                "www.sporcle.com"
             ]
         },
         {
-            "rule": "aniview\\.com\\/script\\/6\\.1\\/aniview\\.js",
-            "cookies": 0,
+            "rule": "aniview\\.com\\/api\\/adserver\\/tag\\/2\\/",
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
-                "player"
+                "go1"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6d1ddf5ac8cc95b092103244def0dd9ba5886ca6c8310e84eb45fe4be7555461"
+                "5b3a12dd19c844a42b03e45b451e72c1a0b07c6b3b8ea6791bedf5e8cc6c4d35"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tz-uk.com",
-                "kerrydalestreet.co.uk"
+                "workshop-manuals.com",
+                "www.vintag.es"
             ]
         },
         {
@@ -472,43 +953,314 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mangaeffect.com",
-                "www.lovefood.com",
-                "www.lovemoney.com",
+                "lovemoney.com",
+                "www.loveproperty.com",
+                "www.societe.com",
                 "www.vintag.es"
             ]
         },
         {
-            "rule": "aniview\\.com\\/api\\/adserver\\/spt",
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/ab5\\/AVmanager\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 2,
             "subdomains": [
-                "tg1"
+                "player"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.vendor": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "window.localStorage": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b3a7aba2b2dfaad0509289dc9471c047f0eae1126b64c92d8c1946a5a25fadac"
+                "8aee6d7e6d51e6d543f52ac97a4a1633a6c07a12eb955c8603fff01a357297f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "stealthoptional.com",
-                "www.worldatlas.com"
+                "motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/tag\\/5\\/",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "13a714f503ad17cb323c51bf5281d3f51b859273d55f0f7a4c4cc00a4b34d5a4",
+                "f591bd5ad5d466580767e140835a5c5087aab1fa73f67a1e61c9545ed8249df8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00010028078620136381,
+                "lotame_domain_check": 0.00010028078620136381
+            },
+            "exampleSites": [
+                "motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/ab5\\/libs\\/prebid\\/avpb6\\.27\\.0\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "3c94d07090acdd3c44fa5f23a2c957c961c7413129f068acecf17f1402102c4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592021,
+                    "length": 16,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "_pubcid": {
+                    "ttl": 31536027,
+                    "length": 36,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id_nb": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id_258_nb": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id_last": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id.1st": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id.1st_nb": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id.1st_258_nb": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id.1st_last": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id_nb": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id_258_nb": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "id5id_last": {
+                    "ttl": -86371,
+                    "length": 3,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/ab5\\/libs\\/prebid\\/avpb6\\.27\\.0a0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "57a18b6c18cc1cb382fc80abd6302ee9c092d472b15d257fd911d942e6def986"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/ab5\\/libs\\/prebid\\/avpb6\\.27\\.0a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9ff07ed2c891ed887a0e9eb61461ca9c00277a27fd98d73e40d60b91b2eb86f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motaclarity.co.uk",
+                "www.notebookcheck.net",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/ab5\\/libs\\/prebid\\/avpb6\\.27\\.0a6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "47e35fa8ba94540d365bf540892cde5930c870b4e1afcdb0de84cd8dafb1340e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notebookcheck.net",
+                "www.pcgamingwiki.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/ssync\\/5e0e296628a061270b21ccab\\/ssync\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "46e4dfa96644020484b012dc7d59fb17991401df9dc28cabe53f5c3b624b310a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00020056157240272763
+            },
+            "exampleSites": [
+                "procyclingstats.com",
+                "www.societe.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0013,
+    "cookies": 0.00211,
     "types": {
-        "Script": 44,
-        "Image": 19,
-        "XHR": 23,
-        "Document": 11
+        "Script": 134,
+        "Image": 34,
+        "XHR": 43,
+        "Fetch": 5,
+        "Document": 20
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

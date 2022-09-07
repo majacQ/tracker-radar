@@ -7,12 +7,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000145,
-    "sites": 21,
+    "prevalence": 0.000183,
+    "sites": 27,
     "subdomains": [
         "static",
-        "pixels",
-        "assets"
+        "assets",
+        "pixels"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -25,43 +25,21 @@
                 "static"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "dc13cdf6ba04f983f0994e61c7e82fa2a5624eb135fd07365ae70a8c44d68035"
+                "2c02dd56275b82f16ca9fd5d82ed694f50ccfa1112421700cd1f6ad8b4a6d152"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Vendor\\/fonts\\/Helvetica\\/Oblique\\/Helvetica-Oblique\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "2877a34832acd3f9ee15bb7b26f343353b5038538661eea6c7d9f375996a1830"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
             ]
         },
         {
@@ -72,8 +50,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "17c6d30508e1054a51adfd9907f82d9eb97d7814e171839dc34d3b7150c1a141"
@@ -83,6 +61,8 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
                 "www.gofeminin.de"
@@ -96,8 +76,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
                 "d109f499557f22dd53c36cd2b1e6638a81f2597864d9b12fb66cc086b6b7232c"
@@ -107,9 +87,10 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
+                "schwangerschaft.gofeminin.de"
             ]
         },
         {
@@ -120,8 +101,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
                 "63a78eb76a8d401a45df52738d9a8314a8586339a073e5612ecb5c90a39b9ab1"
@@ -131,6 +112,33 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
+                "liebe.gofeminin.de",
+                "schwangerschaft.gofeminin.de"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relde\\/lazyload\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "d9ec8bcc0d4c573365a70c682c6041b7559fde8381c89f2e722ff2aaa4c87f8c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
                 "www.gofeminin.de"
@@ -138,31 +146,45 @@
         },
         {
             "rule": "afcdn\\.com\\/relde\\/concat\\.js",
-            "cookies": 0,
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Navigator.prototype.userAgent": 5,
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 4,
                 "window.devicePixelRatio": 4,
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.connection": 4,
-                "PerformanceTiming.prototype.navigationStart": 4,
-                "window.localStorage": 4
+                "Navigator.prototype.connection": 4
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "470e873b65be6d163c281c2804be415a05dd05286db667d5ca9b4503722c48b7",
-                "b8837c7cc13bced0142db5a55e2643e36e9e8a68b0026323ab579de34d9da5c3"
+                "819590419ab6903deb08eac1747100483ed66a49875d82bdfde09f8ac2b102a4",
+                "c0e223b8fafecd32018efc81a7cf33e03cd71db87b7a750af0957dc7f99e74fa",
+                "6e23064db8e5052d58735966db133efbda8fde6ec762104f057da992da344fad",
+                "ae372496752a9c121c3304e280bd014cafac38dfaa556e76778bba9d7f0b2679"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "af_session": {
+                    "ttl": 31536006,
+                    "length": 196,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -177,19 +199,22 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "93e236572f338966bb13661992b4152598ddef0a2730ea24715689000ea5d89a",
-                "5172417975364d3f5134961e7ca777d4c4e2eec0637528da14c9e1ca1225f467",
-                "0d23c5394b3551777cbc9b88ec3903bd1597d0fd3f74071eae69df380598481c"
+                "10c6d971a6ef59c6e83e1254a7d88789281a1a8c48e31a4cf949639c03d3cf6a",
+                "1bda99152575a39be89dfac84a6921e00d965f6187aced88599c49e06aa046a2",
+                "5d6ef765d322b64ec994b2bd7805f74bc096478d86fff2e7de53a304d965d25a",
+                "e8299b194f4fc1a67a303682da5e7139603d91b327c5a34f651c8f2ab6d4f4f1",
+                "165e7e50044e81e168e225e382cc88645c40140834399091649c2ae8e2054653"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -197,18 +222,18 @@
             ]
         },
         {
-            "rule": "afcdn\\.com\\/relde\\/lazyload\\.png",
+            "rule": "afcdn\\.com\\/profil\\/userv2\\/2020\\/01\\/23\\/987747_643122_s54\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "assets"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "6de960116d536e4e600b3ea0d5b87b8a4fa348002b8f6d0a165fe0e2f450c100"
+                "b127af69fc273eaa1781e19ff093a3534605556539a49fd97c53f5ae2c4a90e0"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -217,8 +242,7 @@
                 "gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
+                "schwangerschaft.gofeminin.de"
             ]
         },
         {
@@ -229,8 +253,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "d92709a6d11328b8c82cc14732fa573171a26f79a2ebe9bf4077cd95cdd82d2f"
@@ -240,6 +264,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -254,17 +279,18 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "8728d80860d7759f885a42222416e140b48dd820a89c5e61ad88a0ad2e9c8432"
+                "3017f5ecd10dcec01c7e64feab80f3cd9dba3bdd1d5e2b616324822fba69fbce"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -279,8 +305,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "6c468a149ba2d3b708c70412ba4c9a476db34b1ab4ff45d7f12749e01ae875ed"
@@ -290,6 +316,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -304,8 +331,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "d92709a6d11328b8c82cc14732fa573171a26f79a2ebe9bf4077cd95cdd82d2f"
@@ -315,6 +342,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -329,8 +357,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "9f2e07fa64aa5ab1eae524fd65fc2fe8956acfead33557fa50769eee3fbfa031"
@@ -340,6 +368,8 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
                 "www.gofeminin.de"
@@ -353,8 +383,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "d92709a6d11328b8c82cc14732fa573171a26f79a2ebe9bf4077cd95cdd82d2f"
@@ -364,6 +394,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
+                "baby.gofeminin.de",
                 "beziehung.gofeminin.de",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
@@ -378,13 +409,92 @@
                 "static"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "3792bed0c0cc529058df30e6a8cec0ddc9cbda06d5c6efcca4ded4c5808dc3e9"
             ],
             "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
+                "liebe.gofeminin.de",
+                "schwangerschaft.gofeminin.de",
+                "www.gofeminin.de"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relde\\/Front\\/Component\\/header\\/assets\\/logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "55541afeec3992d45e28aa7d904dc09a7777e45137bfc3060478a70b34b1f69c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofeminin.de",
+                "baby.gofeminin.de",
+                "beziehung.gofeminin.de",
+                "liebe.gofeminin.de",
+                "schwangerschaft.gofeminin.de",
+                "www.gofeminin.de"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relde\\/Front\\/Vendor\\/fonts\\/Helvetica\\/Oblique\\/Helvetica-Oblique\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "2877a34832acd3f9ee15bb7b26f343353b5038538661eea6c7d9f375996a1830"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofeminin.de",
+                "beziehung.gofeminin.de",
+                "liebe.gofeminin.de",
+                "schwangerschaft.gofeminin.de"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relde\\/Front\\/Component\\/videoPlayer\\/dist\\/module\\/unify-videoplayer-dailymotion-embed-bundle\\.2\\.0\\.77\\.es\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Screen.prototype.orientation": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "dd2f7c795a7b358879dbe8a97c6b9bb6f25b39fffd39fba79c6000405de8a67a"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -404,37 +514,12 @@
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.0000345,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
                 "fb7798d6ae327a947a4c943fb323fa80114b217e560c43ed06b75b37b221685e"
             ],
             "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "beziehung.gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Component\\/header\\/assets\\/logo\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [
-                "896c1859e1f37e47064387a2eab38fcfacc19064b74031492181a74b77718cda"
-            ],
-            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -453,303 +538,81 @@
                 "pixels"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.0000552,
+            "sites": 12,
+            "prevalence": 0.0000813,
             "cnames": [],
             "responseHashes": [
                 "f82624464e9e95dfae29e0e54c360aff84dda3c419fc8c3bd10ef668bbe7df9e"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
                 "beziehung.gofeminin.de",
+                "forum.doctissimo.fr",
                 "liebe.gofeminin.de",
                 "schwangerschaft.gofeminin.de",
+                "www.1001cocktails.com",
                 "www.beaute-test.com",
-                "www.doctissimo.fr",
+                "www.cnetfrance.fr",
                 "www.gofeminin.de",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Component\\/htmlBlockHomeNewsletter\\/assets\\/oval\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "0242a8cadc48650b39dfc92d8d308ba231527f644d5ced15c775f7ce945b72bb"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Vendor\\/fonts\\/SourceSerifPro\\/SourceSerifPro-Regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "146508bb4f8851f49579f12f0da0e8a2a458720c0648fc45f326c5a271cdfa0b"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4030053\\/acc576168366_w381h598c1cx1061cy1061cxt0cyt0cxb2121cyb1413\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "d8e511663b1204e6dcdafb26b8685b6acca9e2f26bc8ec27293aefc56fd8406a"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4030050\\/acc2102573789_w381h598c1cx2592cy2592cxt0cyt0cxb5184cyb3456\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "8770f39dcacec6de0ab16060b2f6e043d3e018e14cad51fd74929e939b7c4dbc"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4029671\\/acc1317552053_w381h598c1cx532cy532cxt0cyt0cxb978cyb600\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "c5f2552cd41af41eda9a0c28e72732c37632987c8f3a1716315f7bf922ec8034"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4030077\\/accAccroche1257x1257a1769872986_w381h598c1cx3758cy3758\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "7d93be6d3ca6fea721031508c4821a57cc21b5259b6e9d5c866f36f2b244a6ad"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Component\\/htmlBlockHomeZmooz\\/assets\\/social-network\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "acfcc910539aaeddd7cc72369dc439a2a2c18ff726b54c7a77321000cdde4d74"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Vendor\\/fonts\\/WorkSans\\/WorkSans-Medium\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "d92709a6d11328b8c82cc14732fa573171a26f79a2ebe9bf4077cd95cdd82d2f"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_2100659\\/accAccroche1257x1257a2020438424_w381h598c1cx500cy500\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "732d1564387610e275340ed49d9ccd451c33bb35a85e06a9971d137e03f3e9d1"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relde\\/Front\\/Component\\/htmlBlockHomeTrendingSection\\/assets\\/highlights\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "afc88eed8ecde633fac683794e65f8add0a4e8e9a2d35e6ff3224c59ca489a42"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4029988\\/accAccroche1257x1257a2007826065_w619h903c1cx754cy754\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "62e6384eb12eb44a6f73136b2e6c1316693bcaea774091f28f1ef0ea2a87fdea"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
+                "www.marmiton.org",
+                "www.netmums.com",
+                "www.zdnet.fr"
             ]
         },
         {
             "rule": "afcdn\\.com\\/reldocfr\\/concat\\.js",
-            "cookies": 0,
+            "cookies": 0.00000678,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.connection": 3,
-                "Document.cookie getter": 2
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.connection": 1,
+                "Document.cookie setter": 1
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "ea2c361b21a7466e51d0c1a1a02fb18e2f23214bfd786cdfc5219b1ad37e6eef"
+                "6c69fe1f65938503649d4d0c10ed7817d7a45b3bb5e83c5e4fd7597b9bc29c3e",
+                "7cf414723502b6acef4be04ecec844af8bc9165cf81ee20bb8c76dc151b24ccb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "af_session": {
+                    "ttl": 31536009,
+                    "length": 196,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctissimo.fr",
+                "forum.doctissimo.fr",
+                "www.doctissimo.fr"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/reldocfr\\/Front\\/Component\\/videoPlayer\\/dist\\/module\\/trackers\\/comscore\\.es\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "94f04b6a99521a0e09ccdfa5cd1831f9fbf19d432021dc066eb7fa11e166612d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -761,8 +624,79 @@
             ]
         },
         {
-            "rule": "afcdn\\.com\\/relcnetf\\/concat\\.js",
+            "rule": "afcdn\\.com\\/video1\\/20181203\\/v_619148_w854h480c1\\.webp",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed876406fcec2a5475fc7a6279a138b404759693d7f145e2d28b96e651fadc19"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctissimo.fr",
+                "forum.doctissimo.fr"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/reldocfr\\/Front\\/Component\\/videoPlayer\\/dist\\/module\\/unify-videoplayer-dailymotion-embed-bundle\\.2\\.0\\.77\\.es\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Screen.prototype.orientation": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "dd2f7c795a7b358879dbe8a97c6b9bb6f25b39fffd39fba79c6000405de8a67a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctissimo.fr",
+                "forum.doctissimo.fr",
+                "www.doctissimo.fr"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/staticpage\\/upload\\/site1\\/illustrationsdocti_20220520_1746\\/Illustrationdocti\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "2efed996eaa3d2a6442e9c412d171eb7da100bfdbc49169a0f5fbf4f36d68fe6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctissimo.fr",
+                "forum.doctissimo.fr",
+                "www.doctissimo.fr"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relcnetf\\/concat\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "static"
@@ -775,16 +709,28 @@
                 "window.localStorage": 2,
                 "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
-                "Navigator.prototype.connection": 2
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "491bf153c5bddf63ad95343d48cd3f51f57d0569c29fa020fb9bb09d574c62a5"
+                "c72a6c5b0124141dc4a33beb79f716bac6dc4d773e27e731c18edc1c535d3ebf"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "af_session": {
+                    "ttl": 31536009,
+                    "length": 196,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cnetfrance.fr",
@@ -792,53 +738,7 @@
             ]
         },
         {
-            "rule": "afcdn\\.com\\/video4\\/20210928\\/cover646611_w854h480c1\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "8f45fb5429c26f9396fe9516c4d54cb1580ba5365cf3a5f7067ec15f5fe004dc"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4029096\\/acc1911621738_w381h598c1cx1061cy1061cxt0cyt0cxb2121cyb1414\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "a7c91f11566cb5442443cc05203086045342e9507cbd8f48eb52977965933b0d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/story\\/acc9_4029809\\/accAccroche1257x1257a29943808_w381h598c1cx861cy861\\.webp",
+            "rule": "afcdn\\.com\\/video4\\/20190515\\/cover625495_w854h480c1\\.webp",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -846,85 +746,421 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ddfc4958151ea9414c45e1ab4f35394a622392ac7a9588613f2983cb682f27d6"
+                "6e5a8360ddb73175dcb962c7473615c3943c40858ebdd88f6f764fce23dcc789"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gofeminin.de",
-                "schwangerschaft.gofeminin.de"
+                "www.gofeminin.de"
             ]
         },
         {
-            "rule": "afcdn\\.com\\/story\\/acc9_4030046\\/acc95473665_w588h786c1cx1337cy1337cxt0cyt0cxb2887cyb4331\\.webp",
+            "rule": "afcdn\\.com\\/relmeuc\\/lazyload\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d9ec8bcc0d4c573365a70c682c6041b7559fde8381c89f2e722ff2aaa4c87f8c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/concat\\.js",
+            "cookies": 0.00000678,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 1,
+                "window.devicePixelRatio": 1,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.connection": 1,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.appName": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c404cb69ee587bd1aa0eec1723ca55d01e1090e3e5c7cbd259f7054cd87b16d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "af_session": {
+                    "ttl": 31536003,
+                    "length": 196,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/concat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "173829617c8bb5364dd2550ab229a759cfe27105c6d27e914b317c2badadcabb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/recipe\\/20210827\\/121719_w96\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "97051f678f3fc3587610935326ea8b809e6fd2a7e65537b04eaf2468cdd1c3d6"
+                "42236c10006b28b28fbae31f299072ba199117a689da5936e1a0f8f0218a8225"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
+                "1001cocktails.com",
+                "www.1001cocktails.com"
             ]
         },
         {
-            "rule": "afcdn\\.com\\/story\\/acc9_4029886\\/accAccroche1257x1257a1274166092_w294h294c1cx1061cy1061\\.webp",
+            "rule": "afcdn\\.com\\/recipe\\/20220721\\/133662_w650\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9bf607f50dc5e4cc80e01f8c1ca2c5cf7f000378a960b44ea029fc032f68914d"
+                "cb9a99b8497e1dcd648f5a791b8ba56b202c2fdab44940b63cc17a01b077f0a4"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
+                "1001cocktails.com",
+                "www.1001cocktails.com"
             ]
         },
         {
-            "rule": "afcdn\\.com\\/relmrtn\\/concat\\.js",
+            "rule": "afcdn\\.com\\/recipe\\/20220721\\/133663_w150h190c1\\.jpg",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "800b0af0ccc73998547ab5f304c2a441ae3cdb7937a23f71df31d28b859c7038"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/Regular\\/SourceSansPro-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "db7aa10915e0f0464b24ce60ccb1afa0ed33cc0fd153d959ce506c44ad51d6eb"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/Front\\/Vendor\\/icomoon\\/fonts\\/marmifont\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cedb605322111c8b2ac157c6227437853b107bb82c26a86298a0c2eabc18ecb0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/SemiBold\\/SourceSansPro-SemiBold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7492bdae9a1229ac650ec4123240c2c212381320ed62db622b5f55a645e9eaa3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/Light\\/SourceSansPro-Light\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "05f04a86af72cec350a1f3443156fffd50842781a942449be5f5fb0abdab1806"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/Bold\\/SourceSansPro-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7575e85be8c4f3f27ccbe957b397f18e52dd6366b90d134fa33c1a9911d82ac4"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/concat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmeuc\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/LightItalic\\/SourceSansPro-LightItalic\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3642e550db046e52907557c45840c71dcd6f60c053966e5967c34e965160477e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001cocktails.com",
+                "www.1001cocktails.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relbeaut\\/concat\\.js",
+            "cookies": 0.00000678,
             "fingerprinting": 2,
             "subdomains": [
                 "static"
             ],
             "apis": {
                 "window.localStorage": 1,
-                "window.devicePixelRatio": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
                 "Date.prototype.getTime": 1,
                 "Navigator.prototype.connection": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Navigator.prototype.userAgent": 1
+                "Document.cookie setter": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5031ee68837c77796dc4669635f523083e89c190b224370a6e0ffc9a6afb4801"
+                "46012bad7f044aa4b5a011bafd12cf13215a981dfe2ffb3fbebb983032d769ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "af_session": {
+                    "ttl": 31536005,
+                    "length": 196,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaute-test.com",
+                "www.beaute-test.com"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relde\\/Front\\/Vendor\\/fonts\\/WorkSans\\/WorkSans-Medium\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d92709a6d11328b8c82cc14732fa573171a26f79a2ebe9bf4077cd95cdd82d2f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofeminin.de",
+                "www.gofeminin.de"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relde\\/Front\\/Vendor\\/fonts\\/SourceSerifPro\\/SourceSerifPro-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "146508bb4f8851f49579f12f0da0e8a2a458720c0648fc45f326c5a271cdfa0b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofeminin.de",
+                "www.gofeminin.de"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/flymenu\\/flymenu\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "df8b4515e4eca677efad7a348fec288cf4d858bc16dd7722123517ceee2b30c7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -935,64 +1171,69 @@
             ]
         },
         {
-            "rule": "afcdn\\.com\\/relmrtn\\/concat\\.css",
+            "rule": "afcdn\\.com\\/recipe\\/20220728\\/133854_s96cx50cy50\\.png",
             "cookies": 0,
             "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2e007f99fd884c07e5dc8b6eef8d0bd774da49422611046db540294feaf51752"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.marmiton.org"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/recipe\\/20220728\\/133858_s96cx50cy50\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "42236c10006b28b28fbae31f299072ba199117a689da5936e1a0f8f0218a8225"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.marmiton.org"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relmrtn\\/concat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b47752a1bdde67f241bdc8d3467063bcb0b1150d17a05eace84570f232e1b619"
+                "9ea32265a75fefdd9b27e590f126bc758e8787acc608b7721a35f642a18fcd26"
             ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/recipe\\/20210827\\/121718_s96cx24cy24\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "af013178e3ad68da16b0c308da8715a48479545ca3c23398d1be87b43ab09c1f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/recipe\\/20210827\\/121717_s96cx50cy50\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "a0c5f8bd71e7352d67af84c151ec84e929a1382ffe152a2e1bbc6dd2845297a3"
-            ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -1009,10 +1250,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6de960116d536e4e600b3ea0d5b87b8a4fa348002b8f6d0a165fe0e2f450c100"
+                "d9ec8bcc0d4c573365a70c682c6041b7559fde8381c89f2e722ff2aaa4c87f8c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1023,7 +1264,7 @@
             ]
         },
         {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Filson_Soft\\/Regular\\/FilsonSoft-Regular\\.woff2",
+            "rule": "afcdn\\.com\\/relmrtn\\/concat\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1031,210 +1272,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8cb6d5885880b4ec7119c404555320c122d7d52c7ef554807840f8035b42f27f"
+                "8ae9eb4a2585aeb9f3398168aeed3c45e86a698cb489a5b567195973b72bde75"
             ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/Regular\\/SourceSansPro-Regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "db7aa10915e0f0464b24ce60ccb1afa0ed33cc0fd153d959ce506c44ad51d6eb"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Open_Sans\\/Light\\/Open-Sans-Light\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "b83e8f7ea7040768f247e4adb094761e0aa970768fa97bf0703e7c55ab57b5a9"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Filson_Soft\\/Bold\\/FilsonSoft-Bold\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "17cb04f79b765d4a1d703aec9533413fbade8094bf9a392ad0c768977a7437e1"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Source_Sans_Pro\\/Bold\\/SourceSansPro-Bold\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "7575e85be8c4f3f27ccbe957b397f18e52dd6366b90d134fa33c1a9911d82ac4"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/icomoon\\/fonts\\/marmifont\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "cedb605322111c8b2ac157c6227437853b107bb82c26a86298a0c2eabc18ecb0"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Open_Sans\\/SemiBold\\/Open-Sans-Semibold\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "0b5d53ede9caed3d1f5bc8b455b13435dbda2ab595b7736e0317fa7c17be1a82"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Open_Sans\\/Regular\\/Open-Sans\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d069458c9138ac529256c0cefa56ab577f8732057a5a7582a8f0a076ce0c9dc8"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Roboto\\/roboto-regular\\/roboto-regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "fb7798d6ae327a947a4c943fb323fa80114b217e560c43ed06b75b37b221685e"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "marmiton.org",
-                "www.marmiton.org"
-            ]
-        },
-        {
-            "rule": "afcdn\\.com\\/relmrtn\\/Front\\/Vendor\\/fonts\\/Open_Sans\\/Bold\\/Open-Sans-Bold\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "4901df988b43a5d1127e47de1572f4103615e956f15241f23906d09261ccb379"
-            ],
-            "type": "Font",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -1251,10 +1294,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7d1fd69714dc29e5317c7c0bed31227eff8106c1d7e39766e557db5bbbe6c562"
+                "93616e1e16e18673d6514cf645bfbda0c792f9e6fa5d57026fc025f528ed1633"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1265,46 +1308,75 @@
             ]
         },
         {
-            "rule": "afcdn\\.com\\/relzdnet\\/concat\\.js",
+            "rule": "afcdn\\.com\\/staticpage\\/upload\\/site1\\/illustrationsmarmiton_20220520_1747\\/Illustrationmarmi\\.png",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "32d28bad75dbc59b06d734c4d60e870ae0fa113a45e6d1d1e2e0503ca67bcd1f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.marmiton.org"
+            ]
+        },
+        {
+            "rule": "afcdn\\.com\\/relnm\\/concat\\.js",
+            "cookies": 0.00000678,
             "fingerprinting": 2,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.sessionStorage": 2,
-                "Navigator.prototype.appName": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.connection": 2
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.connection": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "21012623cfe0e14b6c006c1c5027d347d82638ff3ecae1fe4ebaecc4d97b1745"
+                "830c7d3d0cc0ed58cb26183d6ca999299b1797b50c58bb2e087fb75a8c8a0c2d"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "af_session": {
+                    "ttl": 31536007,
+                    "length": 195,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zdnet.fr",
-                "www.zdnet.fr"
+                "netmums.com",
+                "www.netmums.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000129,
     "types": {
-        "Font": 86,
-        "Script": 14,
-        "Stylesheet": 7,
-        "Image": 62,
-        "Other": 8
+        "Font": 88,
+        "Image": 43,
+        "Script": 32,
+        "Stylesheet": 10,
+        "Ping": 12
     },
     "nameservers": [
         "ns-429.awsdns-53.com",

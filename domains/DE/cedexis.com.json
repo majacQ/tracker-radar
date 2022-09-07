@@ -2,16 +2,17 @@
     "domain": "cedexis.com",
     "owner": {
         "name": "Citrix Systems Inc",
-        "displayName": "Citrix Systems"
+        "displayName": "Citrix Systems",
+        "privacyPolicy": "https://www.citrix.com/content/dam/citrix/en_us/documents/buy/data-processing-addendum-en.pdf",
+        "url": "http://citrix.com"
     },
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.001,
-    "sites": 10,
+    "prevalence": 0.0011,
+    "sites": 11,
     "subdomains": [
-        "radar",
-        "rpt"
+        "radar"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -28,7 +29,7 @@
                 "PerformanceTiming.prototype.navigationStart": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [],
             "type": "Script",
@@ -36,7 +37,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "accor.com",
-                "all.accor.com"
+                "ibis.accor.com"
             ]
         },
         {
@@ -58,16 +59,16 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "accor.com",
-                "all.accor.com",
+                "ibis.accor.com",
                 "mubi.com",
-                "www.airbus.com",
                 "www.archiexpo.de",
                 "www.cbssports.com",
+                "www.cbsnews.com",
                 "www.coursehero.com",
                 "www.directindustry.de",
-                "www.hausfrage.de",
                 "www.marketscreener.com",
-                "www.medicalexpo.de"
+                "www.medicalexpo.de",
+                "www.nauticexpo.de"
             ]
         },
         {
@@ -78,7 +79,7 @@
                 "radar"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 2
+                "PerformanceTiming.prototype.navigationStart": 1
             },
             "sites": 7,
             "prevalence": 0.000702,
@@ -91,56 +92,12 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "accor.com",
-                "all.accor.com",
+                "ibis.accor.com",
                 "mubi.com",
-                "www.airbus.com",
                 "www.archiexpo.de",
                 "www.directindustry.de",
-                "www.medicalexpo.de"
-            ]
-        },
-        {
-            "rule": "cedexis\\.com\\/releases\\/1621860284\\/video\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "radar"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "6ae5ffa3f6b40a4bf7e46896dd55002f7c350da3c4fe667fa8235e1e6c4582b6"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mubi.com",
-                "www.airbus.com"
-            ]
-        },
-        {
-            "rule": "cedexis\\.com\\/r1\\/1\\/23068\\/_CgJqNRAUGHsiBggBEJy0ASiCzrxjMPuf3ooGOPyf3ooGQLPo5fwESg8IAxA1GIs_IAAo84OAoARQAFoKCAAQABgAIAAoAGABahNidXR0b24xLmFtcy5odi5wcm9kggEPCAMQNRiLPyAAKPODgKAEiAGz6I3sDQ",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rpt"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8aed5e340cf6a71108b30bd80e05ea7abfb02b5b9ccf9439cae12382df68d2a4"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "airbus.com",
-                "www.airbus.com"
+                "www.medicalexpo.de",
+                "www.nauticexpo.de"
             ]
         },
         {
@@ -151,11 +108,12 @@
                 "radar"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "PerformanceTiming.prototype.navigationStart": 3
+                "Navigator.prototype.userAgent": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Date.prototype.getTime": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [],
             "type": "Script",
@@ -164,7 +122,31 @@
             "exampleSites": [
                 "archiexpo.de",
                 "www.directindustry.de",
-                "www.medicalexpo.de"
+                "www.medicalexpo.de",
+                "www.nauticexpo.de"
+            ]
+        },
+        {
+            "rule": "cedexis\\.com\\/1\\/10787\\/radar\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "radar"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cbssports.com"
             ]
         }
     ],
@@ -172,8 +154,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 25,
-        "XHR": 2
+        "Script": 26
     },
     "nameservers": [
         "ns2.cedexis.net",

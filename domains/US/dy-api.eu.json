@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000542,
+    "sites": 8,
     "subdomains": [
-        "direct"
+        "direct",
+        "direct-collect"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -20,8 +21,48 @@
                 "direct"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nowtv.com",
+                "help.nowtv.com"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/serve\\/user\\/choose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nowtv.com",
+                "help.nowtv.com"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/serve\\/user\\/choose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -29,8 +70,9 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "nowtv.com",
-                "help.nowtv.com",
-                "www.nowtv.com"
+                "porta.de",
+                "www.computeruniverse.net",
+                "www.moebel.de"
             ]
         },
         {
@@ -42,19 +84,61 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "f2a84b30183577e988b0bff1abd0a1818efc176cb36934009dbbee321d1e5513",
-                "d45d4e0254d4e8af5a999d8151cea2eb617ba39e100c1eff9b72e8e2a41a27e0"
+                "c3de2a1f06bb5841f578170d2b4b21f9f8d76d8c831ac0509b4a924bbe370ca4",
+                "7b691432c6af7b9aeedca08fb57f766ad66e423fa944b3c51234e7a2167f2fe5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porta.de",
+                "www.computeruniverse.net",
+                "www.moebel.de"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/collect\\/user\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porta.de",
+                "www.home24.de"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/collect\\/user\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nowtv.com",
-                "help.nowtv.com",
-                "www.nowtv.com"
+                "home24.de",
+                "www.home24.de"
             ]
         }
     ],
@@ -62,8 +146,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 3,
-        "XHR": 3
+        "XHR": 4,
+        "Other": 2,
+        "Preflight": 6,
+        "Fetch": 3
     },
     "nameservers": [
         "ns-204.awsdns-25.com",

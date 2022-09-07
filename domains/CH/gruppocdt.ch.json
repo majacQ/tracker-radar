@@ -4,14 +4,16 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
         "static",
-        "insights"
+        "insights",
+        "livestream",
+        "livestream05"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "gruppocdt\\.ch\\/utils-web\\/privacy-policy\\.js",
@@ -34,49 +36,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cdt.ch",
-                "www.ticinonews.ch"
-            ]
-        },
-        {
-            "rule": "gruppocdt\\.ch\\/api\\/v1\\/track",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "insights"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cdt.ch",
-                "www.ticinonews.ch"
-            ]
-        },
-        {
-            "rule": "gruppocdt\\.ch\\/api\\/v1\\/track",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "insights"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "ba6ef6dc344c1430e1b915c7a7d7866d7d96e5598c704598abfe45fcda2b0653"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cdt.ch",
-                "www.ticinonews.ch"
+                "www.cdt.ch"
             ]
         },
         {
@@ -87,8 +47,8 @@
                 "insights"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288"
@@ -98,16 +58,58 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cdt.ch",
-                "www.cdt.ch",
+                "funebri.cdt.ch"
+            ]
+        },
+        {
+            "rule": "gruppocdt\\.ch\\/hls\\/teleticino\\.m3u8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livestream",
+                "livestream05"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "74d596663cbb8854449d9a5fc106bb3e2e13fb16bae7e2d6d9667d357daf9884"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticinonews.ch",
                 "www.ticinonews.ch"
             ]
         },
         {
-            "rule": "gruppocdt\\.ch\\/api\\/v1\\/pulser",
+            "rule": "gruppocdt\\.ch\\/hls\\/teleticino_360p\\/index\\.m3u8",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "insights"
+                "livestream05"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticinonews.ch",
+                "www.ticinonews.ch"
+            ]
+        },
+        {
+            "rule": "gruppocdt\\.ch\\/hls\\/teleticino_720p\\/1660828404768\\.ts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livestream05"
             ],
             "apis": {},
             "sites": 2,
@@ -118,21 +120,41 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "cdt.ch",
+                "ticinonews.ch",
+                "www.ticinonews.ch"
+            ]
+        },
+        {
+            "rule": "gruppocdt\\.ch\\/hls\\/teleticino_720p\\/1660828404768\\.ts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livestream05"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticinonews.ch",
                 "www.ticinonews.ch"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.0001,
     "types": {
         "Script": 2,
-        "Preflight": 4,
-        "XHR": 5
+        "XHR": 8,
+        "Preflight": 2
     },
     "nameservers": [
-        "ns1.ip-plus.net",
-        "ns2.ip-plus.net"
+        "b7.uberns.com",
+        "a7.uberns.com"
     ]
 }

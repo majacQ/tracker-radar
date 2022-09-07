@@ -4,85 +4,94 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000407,
+    "sites": 6,
     "subdomains": [
-        "honey"
+        "shopyourway",
+        "honey",
+        "payyourway"
     ],
     "cnames": [
         {
             "original": "r0.joinhoney.com",
             "resolved": "honey.r0-api.com"
+        },
+        {
+            "original": "r0.payyourway.raise.com",
+            "resolved": "payyourway.r0-api.com"
+        },
+        {
+            "original": "r0.shopyourway.com",
+            "resolved": "shopyourway.r0-api.com"
         }
     ],
-    "fingerprinting": 3,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "r0-api\\.com\\/w\\/profile",
-            "cookies": 0.0000138,
-            "fingerprinting": 3,
+            "cookies": 0.0000271,
+            "fingerprinting": 2,
             "subdomains": [
-                "honey"
+                "shopyourway",
+                "honey",
+                "payyourway"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
                 {
                     "original": "r0.joinhoney.com",
                     "resolved": "honey.r0-api.com"
+                },
+                {
+                    "original": "r0.payyourway.raise.com",
+                    "resolved": "payyourway.r0-api.com"
                 }
             ],
             "responseHashes": [
-                "933861f92dc74b72fbfd9f1f37c6a54caaf825cd172a0c30cea6d2a0b801101f"
+                "7441fe30a39291382a553ff6cea6c45df1619a697d4f7888c20f558a2e632224",
+                "d7cc35eb301a6281c6bba9567351141fb69e7c1a8c2ea636d59f6f48b4142695",
+                "bc9087d4b800d8bd621d75df5cfd73078e20390fb5e393ffea5fcd76c6597248"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.raise.com",
+                "www.shopyourway.com"
             ]
         },
         {
             "rule": "r0-api\\.com\\/w\\/a",
-            "cookies": 0,
+            "cookies": 0.0000271,
             "fingerprinting": 0,
             "subdomains": [
-                "honey"
+                "shopyourway",
+                "honey",
+                "payyourway"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
                 {
                     "original": "r0.joinhoney.com",
                     "resolved": "honey.r0-api.com"
-                }
-            ],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
-            ]
-        },
-        {
-            "rule": "r0-api\\.com\\/w\\/a",
-            "cookies": 0.0000069,
-            "fingerprinting": 0,
-            "subdomains": [
-                "honey"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
+                },
                 {
-                    "original": "r0.joinhoney.com",
-                    "resolved": "honey.r0-api.com"
+                    "original": "r0.payyourway.raise.com",
+                    "resolved": "payyourway.r0-api.com"
                 }
             ],
             "responseHashes": [
@@ -92,8 +101,47 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.raise.com",
+                "www.shopyourway.com"
+            ]
+        },
+        {
+            "rule": "r0-api\\.com\\/w\\/a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopyourway",
+                "honey",
+                "payyourway"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
+                {
+                    "original": "r0.joinhoney.com",
+                    "resolved": "honey.r0-api.com"
+                },
+                {
+                    "original": "r0.payyourway.raise.com",
+                    "resolved": "payyourway.r0-api.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.raise.com",
+                "www.shopyourway.com"
             ]
         },
         {
@@ -101,12 +149,17 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "shopyourway",
                 "honey"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
                 {
                     "original": "r0.joinhoney.com",
                     "resolved": "honey.r0-api.com"
@@ -119,35 +172,82 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.shopyourway.com"
             ]
         },
         {
             "rule": "r0-api\\.com\\/w\\/pg\\/sdid\\.png",
-            "cookies": 0,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
+                "shopyourway",
                 "honey"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
                 {
                     "original": "r0.joinhoney.com",
                     "resolved": "honey.r0-api.com"
                 }
             ],
             "responseHashes": [
-                "4d52208a8be154c827860171fead9255e6d9a67e28d5ef110b1a1c5330025d60"
+                "2eb472b0e5e8231e4cd204708d051451376e9c5ef32762e48c13fe94d8995788",
+                "1d9edff4d87bba20dcbb8d419ed3007c739be694e4059e58593b3186c40ba3d7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.shopyourway.com"
+            ]
+        },
+        {
+            "rule": "r0-api\\.com\\/w\\/p",
+            "cookies": 0.00000678,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopyourway",
+                "honey",
+                "payyourway"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
+                {
+                    "original": "r0.joinhoney.com",
+                    "resolved": "honey.r0-api.com"
+                },
+                {
+                    "original": "r0.payyourway.raise.com",
+                    "resolved": "payyourway.r0-api.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.raise.com",
+                "www.shopyourway.com"
             ]
         },
         {
@@ -155,15 +255,25 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "honey"
+                "shopyourway",
+                "honey",
+                "payyourway"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [
+                {
+                    "original": "r0.shopyourway.com",
+                    "resolved": "shopyourway.r0-api.com"
+                },
                 {
                     "original": "r0.joinhoney.com",
                     "resolved": "honey.r0-api.com"
+                },
+                {
+                    "original": "r0.payyourway.raise.com",
+                    "resolved": "payyourway.r0-api.com"
                 }
             ],
             "responseHashes": [],
@@ -171,24 +281,26 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
+                "shopyourway.com",
+                "www.joinhoney.com",
+                "www.raise.com",
+                "www.shopyourway.com"
             ]
         },
         {
-            "rule": "r0-api\\.com\\/w\\/p",
-            "cookies": 0.0000069,
+            "rule": "r0-api\\.com\\/w\\/et\\/sdid-payyourway",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "honey"
+                "payyourway"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "r0.joinhoney.com",
-                    "resolved": "honey.r0-api.com"
+                    "original": "r0.payyourway.raise.com",
+                    "resolved": "payyourway.r0-api.com"
                 }
             ],
             "responseHashes": [
@@ -198,19 +310,19 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "joinhoney.com",
-                "www.joinhoney.com"
+                "raise.com",
+                "www.raise.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000407,
     "types": {
-        "Script": 2,
-        "Preflight": 4,
-        "XHR": 6,
-        "Image": 2
+        "Script": 4,
+        "XHR": 13,
+        "Preflight": 8,
+        "Image": 3
     },
     "nameservers": []
 }

@@ -4,27 +4,29 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000069,
-    "sites": 1,
+    "prevalence": 0.0000136,
+    "sites": 2,
     "subdomains": [],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "theroswaf\\.com\\/stat",
+            "rule": "theroswaf\\.com\\/t\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "window.innerHeight": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6a6617fc6d65c06466080aa71adc235f0414d4ca6d71168d0922cf44cc3e001d"
+                "b318e5876213045715769fbd7687c0c0c8aa53bef9c839b43f2cc48a3221e418"
             ],
-            "type": "Document",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -33,20 +35,18 @@
             ]
         },
         {
-            "rule": "theroswaf\\.com\\/usync",
+            "rule": "theroswaf\\.com\\/c\\/f76jr3kxmdcaay8e2r\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6a6617fc6d65c06466080aa71adc235f0414d4ca6d71168d0922cf44cc3e001d"
+                "3b38c4a8d9158d9f2106c59fb48b7c6aff3edb3a8642c66d946af4c7149354bb"
             ],
-            "type": "Document",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -55,41 +55,15 @@
             ]
         },
         {
-            "rule": "theroswaf\\.com\\/async_usersync",
+            "rule": "theroswaf\\.com\\/r\\/p\\.html",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "6a6617fc6d65c06466080aa71adc235f0414d4ca6d71168d0922cf44cc3e001d"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "yourtango.com",
-                "www.yourtango.com"
-            ]
-        },
-        {
-            "rule": "theroswaf\\.com\\/usersync",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "425fab72d2fe1099fe10c17998acc954f64d8bc55b4b3ebf89720a4d891c4ecf"
-            ],
+            "responseHashes": [],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
@@ -101,9 +75,11 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0,
     "types": {
-        "Document": 8
+        "Script": 2,
+        "Fetch": 2,
+        "Document": 2
     },
     "nameservers": [
         "ns-49.awsdns-06.com",

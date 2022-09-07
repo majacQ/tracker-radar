@@ -7,15 +7,14 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000602,
-    "sites": 6,
+    "prevalence": 0.000702,
+    "sites": 7,
     "subdomains": [
         "halc",
-        "static",
         "api"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "iadvize\\.com\\/iadvize\\.js",
@@ -25,37 +24,41 @@
                 "halc"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4
+                "Document.cookie getter": 4,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "bc2c1c88a9562ed591fffba517806a1fdfdd9aac682cbf8168b18bd7ca942d65"
+            ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "samsung.com",
                 "www.brother.co.uk",
-                "www.europcar.co.uk",
+                "www.dior.com",
                 "www.interflora.co.uk",
-                "www.manomano.co.uk"
+                "www.manomano.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/live\\.a395ecf7\\.js",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/live\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "622c3dcfa603f752ca9d4a2f497c41918ad161d91a9da3fcd6b60086b3a78c94"
+                "bc2c1c88a9562ed591fffba517806a1fdfdd9aac682cbf8168b18bd7ca942d65"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -63,9 +66,10 @@
             "exampleSites": [
                 "samsung.com",
                 "www.brother.co.uk",
-                "www.europcar.co.uk",
+                "www.dior.com",
                 "www.interflora.co.uk",
-                "www.manomano.co.uk"
+                "www.manomano.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
@@ -77,22 +81,105 @@
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000502,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "8c4ab7a19c872ec5267bf2b5a84713e750b5c71c0d2670501b2fa77eecbb2b95",
-                "69fafd6c1669ceead6148606c0c7a38b4c9378194b9e213e8110fe28a9910ac7",
-                "00bcbd0cdcb5b32d5189bf724cbfae16a3df2c4341ea66ab25a3b1dca0a58b73"
+                "5e3257ea097ddacbad6a9304a378c07eeaa02e4aed44c78116943917ef3c1f17",
+                "c5251097d3fbf144a9e35ba8b8f7f2303f6ec98fb9d26dca90b91b6ff6e26521",
+                "5bb74a485cd5ce42aeccdbc3ce98ad23614e14e51bbc904d5471ce320100ebbb",
+                "e7fd811189b10c6d2a2cdf6cf985997ee02439a5a55e25a325605ac867431d86"
             ],
-            "type": "XHR",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "samsung.com",
                 "www.brother.co.uk",
-                "www.europcar.co.uk",
+                "www.dior.com",
                 "www.interflora.co.uk",
-                "www.manomano.co.uk"
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/publicProperties\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "54a2dbe3983cc698f9be028cd34a29f8ff6f2d53dff1bb5a11048da9910d1e3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsung.com",
+                "www.brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/node_modules_babel_runtime_helpers_defineProperty_js-node_modules_babel_runtime_helpers_inter-8d68f2\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "e06eec008be98c578a3c5c88e6125e6e3697427bd67f29943e9976a8ab17398b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsung.com",
+                "www.brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/full-mode\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.sessionStorage": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "cca6e5752933eb4a0b446debd5cf7ad60cd9205a783ab82ade16369ee6c0b692"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsung.com",
+                "www.brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
@@ -103,82 +190,121 @@
                 "halc"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie setter": 4,
                 "Document.cookie getter": 4,
-                "Document.cookie setter": 4
+                "window.sessionStorage": 4
             },
             "sites": 4,
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "b3c06bd1cb7ca4dc1d0413d34e759e8e33b1e3ea6db2a97caf97f4a411e49020",
-                "6359f43ea58ebb1a232d772171bdb6ae59c25bbcfe21c5771059bb6390bf2fd4",
-                "76358e6aa9426d6b09c38b8faa070976453d9915a81275a98c31bc41875cbbc0"
+                "ebf3d08d14e3b144e668d5e284f7505a05b8b5f7e68505d51a1146faa2f75e0c",
+                "17527c97ac45b7fdd09f9b99d8773b84b066a8cc6942edc49829a1e8a054ee57",
+                "22779c5c733ece435f477c28952742f0fa918d804b08b6d7189836a8a574f6a2"
             ],
             "type": "Document",
             "firstPartyCookies": {
-                "iadvize-6528-vuid": {
+                "iadvize-7567-vuid": {
                     "ttl": 31536000,
                     "length": 45,
-                    "prevalence": 0.00010033109260559848,
+                    "prevalence": 0.00010028078620136381,
                     "uniqueness": 1
                 },
-                "iadvize-3971-vuid": {
+                "iadvize-3221-vuid": {
                     "ttl": 31536000,
                     "length": 45,
-                    "prevalence": 0.00010033109260559848,
+                    "prevalence": 0.00010028078620136381,
                     "uniqueness": 1
                 },
-                "iadvize-1035-consent": {
+                "iadvize-3221-consent": {
                     "ttl": 31536000,
                     "length": 4,
-                    "prevalence": 0.00010033109260559848,
-                    "uniqueness": 1
-                },
-                "iadvize-1035-vuid": {
-                    "ttl": 31536000,
-                    "length": 45,
-                    "prevalence": 0.00010033109260559848,
-                    "uniqueness": 1
-                },
-                "iadvize-1775-vuid": {
-                    "ttl": 31536000,
-                    "length": 45,
-                    "prevalence": 0.00010033109260559848,
+                    "prevalence": 0.00010028078620136381,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
+                "brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/translations\\/livechat\\/0\\.1\\.414\\/en\\.json",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/targeting\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "28c2a977a212b981556e5aa8bc275da084deb9b1427f5aff49743529e3ebecd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/notificationOrchestrator\\.chunk\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
             "apis": {},
             "sites": 4,
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d9f4c26edc1c1e891b1c69a2c47f554833831e4284dfb9879b8ad4d80fbc5ed4"
+                "73195c35e798b83c1f0906dfd3678b4836a7f723bc20f2f4d08ead988fc92989"
             ],
-            "type": "XHR",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
+                "brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/translations\\/livechat\\/0\\.1\\.489\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "fec205011b6eb1de058632709589995aa10d455207e100f996269f27cb27536d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.dior.com",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
@@ -189,146 +315,229 @@
                 "halc"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "939593bba2c15e0db6668b02c5c2b242c672132011002f2c140e8423024a06cb",
-                "95d907e7ec03c14806843b0dad6cd75093e1418e6cb4cf703d93e31d60036394",
-                "bff5dbe90f7c7d26dab5f2ff9cdd135714b62348da48a2a070a134a27859cbd3"
+                "c7e4d8bdc6749d1787cd2706d421fbe8f88188d90ebab1802baa803810d2b647",
+                "e74f8e65059e15e51c5abb03ace3b2cde0b4193174ab64d407a213b417e40dab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/dataPipeline\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Navigator.prototype.mediaDevices": 3,
+                "MediaDevices.prototype.enumerateDevices": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cab4de77c407d10c3426effba171834529e25b0afc87c6da44cd9673b61e78af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/GDPRMiddleware\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3fab4a149a70d95083af7872089e308d7c21da906e845d5ab315e10a2b2d483"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/www_js_modules_livechat_src_events_ts-www_js_modules_livechat_src_mirroring_events_ts-www_js_-56fc91\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f854c63114956e49492a4481c3ba9094607b9cdc77b55e9f25a387a44bd00bf9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/orchestratorLoader\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ee7a590d3c711eb1a4caf8ee80403e78f1b186f64f2c319b6049bc89aec2bf3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/targeting\\.33522427\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 4,
-                "window.sessionStorage": 2
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "4a7d47b1a1daa1222283f8790ebfcfe48fce76276bdf1681bae462c8e404d481"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/GDPRMiddleware\\.174042f5\\.chunk\\.js",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/orchestrator\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "484cb646af9326261e5593394bc89d623b48a276dc7024723e8f869adc411dd5"
+                "b62298543d2def24d981a5fe7d143f53e339cff521aba2bf354e8c0bbd1d0d1a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/vendors~dataPipeline\\.68882e30\\.chunk\\.js",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/node_modules_iadvize_redux-types_dist_index_js-node_modules_redux-saga_dist_redux-saga-core-n-18fa1a\\.chunk\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1acb62b243463bd4bedc194959b906f20466eeaea6aeb5c8e0ca5e31d63c9a10"
+                "b99c4985a598b3e127ca0f250b6dd81208caabec37227f91739ecc5149c534cb",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/dataPipeline\\.85e7af1b\\.chunk\\.js",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/orchestratorStore\\.chunk\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "0fa83f0b25f44de303ea0530e7e9270f227b022408a98eb3d35672f0a21a353c"
+                "09ecef663d4508eec51164b3cad60ca6de03ea2613080db293b3cd12eb707e84"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/orchestrator\\.cc34bcab\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "eec765f8101f65c48a27b13569f9afc96ae4cb1eb52000f35718def24c1c1b43"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
+                "brother.co.uk",
+                "www.interflora.co.uk",
+                "www.michelin.co.uk"
             ]
         },
         {
@@ -339,8 +548,8 @@
                 "halc"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "18d6c2c596bc978cb7561ffe3fecbc732edbd342f6abe78e345e01629a7f890b"
@@ -348,90 +557,10 @@
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "iadvize-6528-vuid": 0.00010033109260559848,
-                "iadvize-3971-vuid": 0.00010033109260559848,
-                "iadvize-1035-vuid": 0.00010033109260559848,
-                "iadvize-1775-vuid": 0.00010033109260559848
+                "iadvize-7567-vuid": 0.00010028078620136381
             },
             "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
-                "www.interflora.co.uk"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/rpc\\/jsonstore\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "halc"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "a8c56870eb5156e0de212c6db839661283cdc9d2f6fcae8a0732776fabac7961"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "iadvize-6528-vuid": 0.00010033109260559848,
-                "iadvize-3971-vuid": 0.00010033109260559848,
-                "iadvize-1035-vuid": 0.00010033109260559848,
-                "iadvize-1775-vuid": 0.00010033109260559848
-            },
-            "exampleSites": [
-                "samsung.com",
-                "www.brother.co.uk",
-                "www.europcar.co.uk",
+                "brother.co.uk",
                 "www.interflora.co.uk"
             ]
         }
@@ -440,15 +569,16 @@
     "performance": {},
     "cookies": 0.000401,
     "types": {
-        "Script": 34,
-        "XHR": 21,
+        "Script": 58,
+        "Fetch": 12,
         "Document": 4,
-        "Preflight": 4
+        "Preflight": 3,
+        "XHR": 3
     },
     "nameservers": [
-        "ns-1418.awsdns-49.org",
-        "ns-1682.awsdns-18.co.uk",
         "ns-198.awsdns-24.com",
-        "ns-621.awsdns-13.net"
+        "ns-621.awsdns-13.net",
+        "ns-1682.awsdns-18.co.uk",
+        "ns-1418.awsdns-49.org"
     ]
 }

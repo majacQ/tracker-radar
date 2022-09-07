@@ -4,15 +4,46 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000602,
-    "sites": 6,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
+        "signals",
         "cdn",
-        "analytics"
+        "beacon"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "aimtell\\.com\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signals"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buyagift.co.uk",
+                "www.communitycare.co.uk",
+                "www.dogsnaturallymagazine.com",
+                "www.everything5pounds.com",
+                "www.onbuy.com",
+                "www.pixiegirl.com",
+                "www.reference.com",
+                "www.shein.co.uk",
+                "www.the-star.co.ke",
+                "www.yoursclothing.co.uk"
+            ]
+        },
         {
             "rule": "aimtell\\.com\\/sdk\\/aimtell-worker-sdk\\.js",
             "cookies": 0,
@@ -21,47 +52,67 @@
                 "cdn"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 9,
+            "prevalence": 0.000903,
             "cnames": [],
             "responseHashes": [
-                "bf5df17478ed2591af59b1a1fed8eed191e1948e5b55a65f60ccfef870042356"
+                "f4c57b7582771de16fb5713bc3699d4273309ea3ffa74ba7f14a7f09332eb184"
             ],
             "type": "Other",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dogsnaturallymagazine.com",
+                "buyagift.co.uk",
+                "www.communitycare.co.uk",
+                "www.dogsnaturallymagazine.com",
                 "www.everything5pounds.com",
-                "www.spacenk.com",
-                "www.techopedia.com",
+                "www.pixiegirl.com",
+                "www.reference.com",
+                "www.shein.co.uk",
+                "www.the-star.co.ke",
                 "www.yoursclothing.co.uk"
             ]
         },
         {
-            "rule": "aimtell\\.com\\/subscriber",
+            "rule": "aimtell\\.com\\/suppression",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "analytics"
+                "beacon"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "81801f595c556f585b787d3de1f59672fb6744fed9421d95ef4dcd7f34dcce62"
+                "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dogsnaturallymagazine.com",
-                "www.everything5pounds.com",
-                "www.isawitfirst.com",
-                "www.spacenk.com",
-                "www.techopedia.com",
-                "www.yoursclothing.co.uk"
+                "communitycare.co.uk",
+                "www.the-star.co.ke"
+            ]
+        },
+        {
+            "rule": "aimtell\\.com\\/suppression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communitycare.co.uk",
+                "www.the-star.co.ke"
             ]
         }
     ],
@@ -69,8 +120,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Other": 5,
-        "XHR": 6
+        "XHR": 12,
+        "Other": 9,
+        "Preflight": 2
     },
     "nameservers": [
         "ns-1356.awsdns-41.org",

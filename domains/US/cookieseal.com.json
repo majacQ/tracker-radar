@@ -4,34 +4,37 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "assets",
         "apinode"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "cookieseal\\.com\\/cookie-seal\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "assets"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "058e274e36be99aabfc8aa7a3dfe9d5dc45ab62707afd9f8fbe6f8e2dc24dff4"
+                "89312c2480731ce4ee6a47d166d862328d12830d7a6af7753915f5554a6d5ef7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "medicalpark.com.tr",
+                "a101.com.tr",
+                "www.a101.com.tr",
                 "www.medicalpark.com.tr"
             ]
         },
@@ -44,10 +47,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "37f2dc6bfa09a1d148086de864530aba9e93db85bbb766d2fc3cd909ca296f75"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -64,12 +69,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "c7694d92aa109146398b3cee7c5d14d3b2563e97a1d06eedb3e32331f23e306a"
-            ],
-            "type": "XHR",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -82,9 +85,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
-        "Preflight": 2,
-        "XHR": 2
+        "Script": 3,
+        "XHR": 2,
+        "Preflight": 2
     },
     "nameservers": [
         "ns1.dogustechnology.com.tr",

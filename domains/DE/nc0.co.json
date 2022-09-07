@@ -9,16 +9,21 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
         "twdc-dtci.edge",
         "symantec.edge",
-        "bhfoto.edge"
+        "bhfoto.edge",
+        "dell.edge"
     ],
     "cnames": [
         {
             "original": "dcf.espn.com",
+            "resolved": "twdc-dtci.edge.nc0.co"
+        },
+        {
+            "original": "dcfdata.espn.com",
             "resolved": "twdc-dtci.edge.nc0.co"
         },
         {
@@ -28,20 +33,24 @@
         {
             "original": "ensighten.norton.com",
             "resolved": "symantec.edge.nc0.co"
+        },
+        {
+            "original": "sst.dell.com",
+            "resolved": "dell.edge.nc0.co"
         }
     ],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/Bootstrap\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 1,
+            "cookies": 0.000501,
+            "fingerprinting": 2,
             "subdomains": [
                 "twdc-dtci.edge"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000502,
+            "prevalence": 0.000501,
             "cnames": [
                 {
                     "original": "dcf.espn.com",
@@ -49,27 +58,147 @@
                 }
             ],
             "responseHashes": [
-                "32f812d7da3fa4b7632e997dae9ca99489504f93bdd8148aa3e9145d07f3ffbf"
+                "0df81a8146c6895dfd8525700327cb6769f57f909c53a242409d834e5637b825"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "s_ensCDS": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00040092212087801946,
+                    "uniqueness": 0.5
+                },
                 "s_ensRegion": {
                     "ttl": null,
-                    "length": 7,
-                    "prevalence": 0.00020062192797672785,
+                    "length": 6,
+                    "prevalence": 0.00040092212087801946,
                     "uniqueness": 0.5
                 },
                 "_dcf": {
                     "ttl": null,
                     "length": 1,
-                    "prevalence": 0.00020062192797672785,
+                    "prevalence": 0.00040092212087801946,
                     "uniqueness": 0.5
+                },
+                "s_ensCDSPortal": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
+                },
+                "TWDC-DTCI_ENSIGHTEN_PRIVACY_TWDC_Vendor_Consent": {
+                    "ttl": 31536010,
+                    "length": 1,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "go.com",
-                "abcnews.go.com",
+                "www.disney.de",
+                "www.espn.com",
+                "www.marvel.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "53f11a1385a0f3f74730db9fd3fb5e4df76f1ab1db5dfdd0310198735d2090d0",
+                "b7c893ed0f9074e4897440d80e818ab62b3056df15db38d85c3ae68ffd1fb5bb",
+                "8eac0bbc23931b984894432503cfe573d85acc3174ea80e2f48fad6f54d963bf",
+                "359cf089bf8fda543c3c71e86603d17f427ebd5dd3fe296c6e746b45ce013c82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb_svref": 0.00010023053021950487
+            },
+            "exampleSites": [
+                "go.com",
+                "www.disney.de",
+                "www.espn.com",
+                "www.marvel.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/ed9cc89e72efe4115d590b2b9169c222\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "09aa197b780bfe7b955974d6d0445d27e123088102766ce969315233d7379aad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "www.disney.de",
+                "www.espn.com",
+                "www.marvel.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/1e448c79b1f065ac9bcccda21dc40df5\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "a21e814e0235f9bc8d8238993201694ab008a3a34c43bf2604c30889b1aa49cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_dcf": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "www.disney.de",
                 "www.espn.com",
                 "www.marvel.com",
                 "www.nationalgeographic.com"
@@ -84,8 +213,8 @@
                 "symantec.edge"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [
                 {
                     "original": "dcf.espn.com",
@@ -105,110 +234,20 @@
             "exampleSites": [
                 "go.com",
                 "abcnews.go.com",
-                "us.norton.com",
+                "de.norton.com",
+                "www.disney.de",
                 "www.espn.com",
                 "www.marvel.com",
                 "www.nationalgeographic.com"
             ]
         },
         {
-            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/serverComponent\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "twdc-dtci.edge"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [
-                {
-                    "original": "dcf.espn.com",
-                    "resolved": "twdc-dtci.edge.nc0.co"
-                }
-            ],
-            "responseHashes": [
-                "162c6ad3b21984f7ebed3095be622b48cd5d293d72f82b309305eab2994d3ba1",
-                "54fd905509910b80c5540d5d08470be43ee96a46ecde392836fa947ff78a9f60",
-                "b5f80cf1ca42bd1838c2248a01f8f240757eb2c3e7f49cf177ef2b4c9d5ef2f7"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_cb_svref": 0.00010031096398836393
-            },
-            "exampleSites": [
-                "go.com",
-                "www.espn.com",
-                "www.marvel.com",
-                "www.nationalgeographic.com"
-            ]
-        },
-        {
-            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/e2edf4018afa7806d7df75eeb16fbf4c\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "twdc-dtci.edge"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [
-                {
-                    "original": "dcf.espn.com",
-                    "resolved": "twdc-dtci.edge.nc0.co"
-                }
-            ],
-            "responseHashes": [
-                "34f25a760c71f65ea9cb04b738bcefdc0afe38304b8f8043d26a93972065f677"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "go.com",
-                "www.espn.com",
-                "www.marvel.com",
-                "www.nationalgeographic.com"
-            ]
-        },
-        {
-            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/38ecfe4106f4cf77c51d46d98744d380\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "twdc-dtci.edge"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [
-                {
-                    "original": "dcf.espn.com",
-                    "resolved": "twdc-dtci.edge.nc0.co"
-                }
-            ],
-            "responseHashes": [
-                "9985169e8a52cfa7521afe83e781537990643668c3439ccae24dc488bc92fb34"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "go.com",
-                "www.espn.com",
-                "www.marvel.com",
-                "www.nationalgeographic.com"
-            ]
-        },
-        {
-            "rule": "nc0\\.co\\/error\\/e\\.gif",
+            "rule": "nc0\\.co\\/privacy\\/v1\\/c\\/r\\.rnc",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "symantec.edge",
-                "bhfoto.edge"
+                "twdc-dtci.edge"
             ],
             "apis": {},
             "sites": 3,
@@ -218,6 +257,34 @@
                     "original": "ensighten.norton.com",
                     "resolved": "symantec.edge.nc0.co"
                 },
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "www.espn.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/error\\/e\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
                 {
                     "original": "ensighten.bhphoto.com",
                     "resolved": "bhfoto.edge.nc0.co"
@@ -230,18 +297,73 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "norton.com",
-                "us.norton.com",
+                "bhphotovideo.com",
                 "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/dell\\/",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dell.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "sst.dell.com",
+                    "resolved": "dell.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/TWDC-DTCI\\/pvcyblkg\\/",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "dcfdata.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00020046106043900973
+            },
+            "exampleSites": [
+                "nationalgeographic.com",
+                "www.nationalgeographic.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000903,
+    "cookies": 0.001,
     "types": {
-        "Script": 17,
-        "Image": 9
+        "Script": 20,
+        "Image": 16
     },
     "nameservers": []
 }

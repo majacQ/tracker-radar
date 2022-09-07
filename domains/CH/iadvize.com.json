@@ -7,15 +7,14 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.001,
-    "sites": 10,
+    "prevalence": 0.00151,
+    "sites": 15,
     "subdomains": [
         "halc",
-        "static",
         "api"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "iadvize\\.com\\/iadvize\\.js",
@@ -25,56 +24,72 @@
                 "halc"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "window.localStorage": 10
+                "Document.cookie getter": 12,
+                "window.innerHeight": 12,
+                "window.innerWidth": 12
             },
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 15,
+            "prevalence": 0.00151,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "bc2c1c88a9562ed591fffba517806a1fdfdd9aac682cbf8168b18bd7ca942d65"
+            ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.europcar.ch",
-                "www.getfpv.com",
-                "www.glisshop.com",
+                "www.dior.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
                 "www.manomano.fr",
                 "www.manomano.it",
-                "www.moemax.ch",
+                "www.manomano.de",
                 "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/live\\.a395ecf7\\.js",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/live\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "static"
+                "halc"
             ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 14,
+            "prevalence": 0.00141,
             "cnames": [],
             "responseHashes": [
-                "622c3dcfa603f752ca9d4a2f497c41918ad161d91a9da3fcd6b60086b3a78c94"
+                "bc2c1c88a9562ed591fffba517806a1fdfdd9aac682cbf8168b18bd7ca942d65"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.europcar.ch",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.manomano.fr",
+                "www.dior.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
                 "www.manomano.it",
-                "www.moemax.ch",
+                "www.manomano.de",
                 "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
@@ -86,132 +101,324 @@
                 "halc"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 13,
+            "prevalence": 0.00131,
             "cnames": [],
             "responseHashes": [
-                "dcdcb1f9da10e22574f203d43a72138f22571378f728f7baf7a40fb11e421677",
-                "a1c196e68f9704fa0e2d8a3a109b2c33434f4df26f86b0755ab4d2421f027190",
-                "b34e85b7b22d680d41f8f69a4d1cf14b336866b2de2f72316087606b0f56972c",
-                "ea091641a4d2fb5385f8add9d3e8be6e8b844b5936b1dae46cfe2e3039fe0be6",
-                "ec07aba2cc3555c9377d6f3f5935a9e0724dbf9221fb54371e3da0cb362efa13",
-                "3acca6098465fb6f6cbf3fca523f7b798323a9f3485e3f85e666db30e77e4337",
-                "7c726010776fcf22cc378ed70a0bdb584cdd5ad7de03a0f58a532e96457dfc3f",
-                "1ba29c413f10da810fd816b39912ab8f4a3e78d02cb1707f9cdce29f1b735933"
+                "be3c8c46e60205160e8f84e90af85500735bb0347bbafb5583a58c33737c4583",
+                "93e5fe56f119b43f0ef155f7268d145b2c9f3992cdf79aafa053d0856f67327c",
+                "2af1b4fad8c37e1763018113d9e5c89ce2481311c696e2455806b64157c35342",
+                "ae46cc5c0b1169348eb9ea4094ae91dc72872dd2e27bdd33a03199e7c5b96db0",
+                "4b6726ff4dda1deeeecb51649e4fba9c6b606dbe6b23dcd7d1e453381cba2a60",
+                "41134d173a339bbdd9ed552bf449794356ce19299b2ecdd25b187788314c6ab9",
+                "1dcf2e544ced18084e76d331d8b739c748f4c3465872040fac69aeab9510db92",
+                "c1564cb1d6728ca85ca255089f2e2627ee1194a605a19a13aae6fe76860730da",
+                "9d472d81e0795c9b3b42d1ffcb3917aa8563ca7c0a4b3c0370dbbe1966ff7c73",
+                "20eb5a3c735f2061b79217cdfff14ce4f10623f352591b76f861f5f34e1ce581",
+                "fb0ec5ec655d6f4f1945371ca9567b98ad667ee47ed2e1df7c9b9159940985ae"
             ],
-            "type": "XHR",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.europcar.ch",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.manomano.fr",
+                "www.dior.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
                 "www.manomano.it",
-                "www.moemax.ch",
                 "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/storage\\.php",
-            "cookies": 0.000703,
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/publicProperties\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "54a2dbe3983cc698f9be028cd34a29f8ff6f2d53dff1bb5a11048da9910d1e3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.dior.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/node_modules_babel_runtime_helpers_defineProperty_js-node_modules_babel_runtime_helpers_inter-8d68f2\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "e06eec008be98c578a3c5c88e6125e6e3697427bd67f29943e9976a8ab17398b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.dior.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/full-mode\\.chunk\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "halc"
             ],
             "apis": {
-                "window.sessionStorage": 8,
-                "Document.cookie getter": 8,
-                "Document.cookie setter": 7,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10,
+                "window.innerWidth": 10,
+                "window.innerHeight": 10,
+                "window.sessionStorage": 1
             },
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 12,
+            "prevalence": 0.0012,
             "cnames": [],
             "responseHashes": [
-                "3c08d50e5a5d7078a721ad47667c9d58a5ed8f09dd567a66200e2d68fbfb7842",
-                "4122c02c673ad252263838a3649de19c8ad2c3c2b925691981d24d5fc2764a8e",
-                "27109bb57f644ae708d1770abe8f1ef37a2e2c17a6bdc1efcf9dbe0c23a70567",
-                "52174d777779ff0a384fa371ad174c212381145044e1db668fd6a97d544a8cda",
-                "24cea858e1cd9251cd548b8c92f887f75e6ea93e476f130306c7e2edae5ffaa7",
-                "55a5e95b03bb91c6c9cee1c9e0aee31cbb68639342c3535fc42b7d5998adf7b0",
-                "c705699b22dbe0dc74ee5f383b9ed08537eabf65bc3c2a0bf160d38cf09f38b2"
+                "cca6e5752933eb4a0b446debd5cf7ad60cd9205a783ab82ade16369ee6c0b692"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.dior.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/storage\\.php",
+            "cookies": 0.001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Document.cookie setter": 10,
+                "Document.cookie getter": 10,
+                "window.sessionStorage": 10,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "35195863dee48ea007711dfb8d48289831ce94228cc123838947e70cb855266c",
+                "a24feca15ef796b54ec52cd2741c4dfd60bed8256e8358821a1d6cd40ebf364d",
+                "8ab8d46b7221229035dbaceb5f882f11a7d89b2965741dcb632390d9c86cede3",
+                "e69415438d737354c2939f7b4f28aca4d34fc98b90316fa6ef30c8099e316da6",
+                "b0a293f08e538e04d5529863584ccb70559170037890cc16322a7e8126c5d577",
+                "8ec0fec3151be05a1819d3ebb02e2625b27860b165d8add8513817dcb1eefe39",
+                "8b4b08ed23c679d4229c03b2b22cdda1d085f737b192e51c238ff039f10f5d17",
+                "d40baaf4b3f2504accfdf49583ed6c7ea6622163e543f5bfd51c1be1947eee83",
+                "47ea7c1ce0106334e55d84c41cc0735afcf4d8a1b51be2cf9220bf5914ca2c78",
+                "1a2348aaec99d58eb2dde3d250ad2ba2d13140971a5f85006cd8e9c1168322f8"
             ],
             "type": "Document",
             "firstPartyCookies": {
-                "iadvize-6151-vuid": {
+                "iadvize-7670-consent": {
                     "ttl": 31536000,
-                    "length": 45,
-                    "prevalence": 0.00010037137408411121,
+                    "length": 5,
+                    "prevalence": 0.00010041168792047395,
                     "uniqueness": 1
                 },
-                "iadvize-6784-vuid": {
+                "iadvize-7051-vuid": {
                     "ttl": 31536000,
                     "length": 45,
-                    "prevalence": 0.00010037137408411121,
-                    "uniqueness": 1
-                },
-                "iadvize-6452-vuid": {
-                    "ttl": 31536000,
-                    "length": 45,
-                    "prevalence": 0.00010037137408411121,
-                    "uniqueness": 1
-                },
-                "iadvize-7482-vuid": {
-                    "ttl": 31536000,
-                    "length": 45,
-                    "prevalence": 0.00010037137408411121,
+                    "prevalence": 0.00010041168792047395,
                     "uniqueness": 1
                 },
                 "iadvize-7396-vuid": {
                     "ttl": 31536000,
                     "length": 45,
-                    "prevalence": 0.00010037137408411121,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                },
+                "iadvize-7222-consent": {
+                    "ttl": 31536000,
+                    "length": 4,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                },
+                "iadvize-7222-vuid": {
+                    "ttl": 31536000,
+                    "length": 45,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                },
+                "iadvize-833-vuid": {
+                    "ttl": 31536000,
+                    "length": 45,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                },
+                "iadvize-833-consent": {
+                    "ttl": 31536000,
+                    "length": 4,
+                    "prevalence": 0.00010041168792047395,
                     "uniqueness": 1
                 },
                 "iadvize-7212-vuid": {
                     "ttl": 31536000,
                     "length": 45,
-                    "prevalence": 0.00010037137408411121,
+                    "prevalence": 0.00010041168792047395,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
+                "samsung.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.manomano.it",
-                "www.moemax.ch",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
                 "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/translations\\/livechat\\/0\\.1\\.414\\/de\\.json",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/targeting\\.chunk\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "static"
+                "halc"
             ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "698ebd85b5da9ca3f1bbabfe900a8d5e01fcd2509f114929aaad19987e5ccc15"
+                "28c2a977a212b981556e5aa8bc275da084deb9b1427f5aff49743529e3ebecd7"
             ],
-            "type": "XHR",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
-                "www.moemax.ch",
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/notificationOrchestrator\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "73195c35e798b83c1f0906dfd3678b4836a7f723bc20f2f4d08ead988fc92989"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/translations\\/livechat\\/0\\.1\\.489\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "fec205011b6eb1de058632709589995aa10d455207e100f996269f27cb27536d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.superprof.fr",
+                "www.tui.ch"
             ]
         },
         {
@@ -222,167 +429,366 @@
                 "halc"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "b75792fc9955809e2084406ef396c9c39e9213b0cbdf54d781f36661db1f2fc6",
-                "cfef6e9127199e6fa6ae4d4f15dca893cac6ce40e479c9a45ccea86a667e9009",
-                "7e409d00bbbc87c9e526fe991ab76eca3b5ca5949bf0595838f1883016891432",
-                "03f7cb40623c199cc998433f35ac5583c228aee52d09ebc6d7c2266c2558c84c",
-                "e74536b4344323e06393d1dd34d534cd6e1074abe73be68d31d21d4428eb2e22",
-                "07efea7bb0ffa9be93ead7ca9fe37f05178dba3c537c6286ae6811590dc8b829"
+                "5f1baad7e706925a79f99d61655511d80432f63286579d5440bd66f907b15002",
+                "73c9d3624f258f0fd791cd60ca195794e29de0d131d48c807875b428a3724fed",
+                "f249dcc82a059a1f5c830299218de7e0338feb5c3780c8137d360d473c7f723c",
+                "bf0a783199e36cc8c7751ac18677ed4bd3fecb2a44d507985f2ba503c8ee3e8e",
+                "18a1b3eb9ce53f8abf7e1be5c8b8c966e3e66cc254427a72545a9e3d84c59e20",
+                "abdd17ff0ec79f52b93811075653914c9d56ae40505ff18315d7e812d615b57f",
+                "14066114950579e03388ef935ed6b859b9e8cd22b2a08013d3e21a5aee6ae36a",
+                "89802007ad780adbe64d34ac6d43ec9f6f8b250fd26a15eec2e1eb33c9e1e33a",
+                "cce342bd743be40efad8ff3678e75c0e0c1ba3fdbd8963eea546845e9d3634f6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/dataPipeline\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Navigator.prototype.mediaDevices": 10,
+                "MediaDevices.prototype.enumerateDevices": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "cab4de77c407d10c3426effba171834529e25b0afc87c6da44cd9673b61e78af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/GDPRMiddleware\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "e3fab4a149a70d95083af7872089e308d7c21da906e845d5ab315e10a2b2d483"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
+                "boulanger.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.manomano.it",
-                "www.moemax.ch",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
                 "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/targeting\\.33522427\\.js",
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/www_js_modules_livechat_src_events_ts-www_js_modules_livechat_src_mirroring_events_ts-www_js_-56fc91\\.chunk\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "Date.prototype.getTime": 7,
-                "window.sessionStorage": 1
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "f854c63114956e49492a4481c3ba9094607b9cdc77b55e9f25a387a44bd00bf9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/orchestratorLoader\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "ee7a590d3c711eb1a4caf8ee80403e78f1b186f64f2c319b6049bc89aec2bf3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/orchestrator\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "b62298543d2def24d981a5fe7d143f53e339cff521aba2bf354e8c0bbd1d0d1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/node_modules_iadvize_redux-types_dist_index_js-node_modules_redux-saga_dist_redux-saga-core-n-18fa1a\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "b99c4985a598b3e127ca0f250b6dd81208caabec37227f91739ecc5149c534cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/31d4fce6cb4e5048a9f886ac4f8f17bc884e4d75\\/orchestratorStore\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "09ecef663d4508eec51164b3cad60ca6de03ea2613080db293b3cd12eb707e84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
+                "www.decathlon.fr",
+                "www.entrepot-du-bricolage.fr",
+                "www.homeexchange.fr",
+                "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
+                "www.xxxlutz.ch"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/rpc\\/jsonstore\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "a8c56870eb5156e0de212c6db839661283cdc9d2f6fcae8a0732776fabac7961"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "iadvize-7396-vuid": 0.00010041168792047395,
+                "iadvize-7222-vuid": 0.00010041168792047395,
+                "iadvize-833-vuid": 0.00010041168792047395,
+                "iadvize-7212-vuid": 0.00010041168792047395
             },
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "4a7d47b1a1daa1222283f8790ebfcfe48fce76276bdf1681bae462c8e404d481"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brother.ch",
+                "boulanger.com",
+                "www.brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
+                "www.entrepot-du-bricolage.fr",
                 "www.superprof.fr",
+                "www.tui.ch",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/GDPRMiddleware\\.174042f5\\.chunk\\.js",
+            "rule": "iadvize\\.com\\/static\\/translations\\/livechat\\/0\\.1\\.489\\/de\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "halc"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "484cb646af9326261e5593394bc89d623b48a276dc7024723e8f869adc411dd5"
+                "c337407f47f9228ffb9a2c3678fc6ec463f2cbfe4c57435aff1fdc89a94fb56d"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "brother.ch",
-                "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
-                "www.superprof.fr",
-                "www.xxxlutz.ch"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/vendors~dataPipeline\\.68882e30\\.chunk\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "1acb62b243463bd4bedc194959b906f20466eeaea6aeb5c8e0ca5e31d63c9a10"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "brother.ch",
-                "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
-                "www.superprof.fr",
-                "www.xxxlutz.ch"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/dataPipeline\\.85e7af1b\\.chunk\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "0fa83f0b25f44de303ea0530e7e9270f227b022408a98eb3d35672f0a21a353c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "brother.ch",
-                "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
-                "www.superprof.fr",
-                "www.xxxlutz.ch"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/livechat\\/3\\.256\\.0\\/orchestrator\\.cc34bcab\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "eec765f8101f65c48a27b13569f9afc96ae4cb1eb52000f35718def24c1c1b43"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "brother.ch",
-                "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
-                "www.superprof.fr",
+                "www.brother.de",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
@@ -403,138 +809,83 @@
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "iadvize-6151-vuid": 0.00010037137408411121,
-                "iadvize-6784-vuid": 0.00010037137408411121,
-                "iadvize-6452-vuid": 0.00010037137408411121,
-                "iadvize-7482-vuid": 0.00010037137408411121,
-                "iadvize-7396-vuid": 0.00010037137408411121,
-                "iadvize-7212-vuid": 0.00010037137408411121
+                "iadvize-7396-vuid": 0.00010041168792047395,
+                "iadvize-833-vuid": 0.00010041168792047395,
+                "iadvize-7212-vuid": 0.00010041168792047395
             },
             "exampleSites": [
                 "brother.ch",
+                "www.brother.de",
                 "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
+                "www.entrepot-du-bricolage.fr",
                 "www.superprof.fr",
+                "www.tui.com",
                 "www.xxxlutz.ch"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "brother.ch",
-                "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
-                "www.superprof.fr",
-                "www.xxxlutz.ch"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/collector\\/ha\\/live\\/events",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "brother.ch",
-                "www.decathlon.fr",
-                "www.getfpv.com",
-                "www.glisshop.com",
-                "www.moemax.ch",
-                "www.superprof.fr",
-                "www.xxxlutz.ch"
-            ]
-        },
-        {
-            "rule": "iadvize\\.com\\/rpc\\/jsonstore\\.php",
+            "rule": "iadvize\\.com\\/rpc\\/poll",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "halc"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a8c56870eb5156e0de212c6db839661283cdc9d2f6fcae8a0732776fabac7961"
+                "4b8458d7408ecd1a012ca6983734676d11e802416759cd9adeaf13ba49ddc083"
             ],
-            "type": "XHR",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "iadvize-6151-vuid": 0.00010037137408411121,
-                "iadvize-7212-vuid": 0.00010037137408411121
+                "iadvize-7051-vuid": 0.00010041168792047395,
+                "autoId": 0.00010041168792047395,
+                "iadvize-833-vuid": 0.00010041168792047395
             },
             "exampleSites": [
-                "brother.ch",
-                "www.decathlon.fr",
-                "www.xxxlutz.ch"
+                "homeexchange.fr",
+                "www.tui.com"
             ]
         },
         {
-            "rule": "iadvize\\.com\\/translations\\/livechat\\/0\\.1\\.414\\/en\\.json",
+            "rule": "iadvize\\.com\\/conversations\\/routing\\/targeting-rules\\/available",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "d9f4c26edc1c1e891b1c69a2c47f554833831e4284dfb9879b8ad4d80fbc5ed4"
+                "1a637a911546c449680d1cba90382292eccb4255e5bbf3a4588a98d7bb9de784"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "decathlon.fr",
-                "www.getfpv.com",
-                "www.superprof.fr"
+                "homeexchange.fr",
+                "www.tui.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000703,
+    "cookies": 0.001,
     "types": {
-        "Script": 62,
-        "XHR": 34,
-        "Document": 8,
-        "Preflight": 7
+        "Script": 167,
+        "Fetch": 32,
+        "Document": 11,
+        "Preflight": 10,
+        "XHR": 22
     },
     "nameservers": [
-        "ns-198.awsdns-24.com",
         "ns-621.awsdns-13.net",
         "ns-1682.awsdns-18.co.uk",
-        "ns-1418.awsdns-49.org"
+        "ns-1418.awsdns-49.org",
+        "ns-198.awsdns-24.com"
     ]
 }

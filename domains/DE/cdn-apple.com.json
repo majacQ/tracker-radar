@@ -9,24 +9,57 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0013,
-    "sites": 13,
+    "prevalence": 0.0021,
+    "sites": 21,
     "subdomains": [
-        "appleid"
+        "appleid",
+        "applepay"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/en_US\\/appleid\\.auth\\.js",
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/de_DE\\/appleid\\.auth\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 3,
             "subdomains": [
                 "appleid"
             ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.0012,
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.screenLeft": 2,
+                "window.screenTop": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "bb4659a656b1c9bedccde3abf8f3d38de83567495d9d4201535ac27c5c67eb08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "www.repetico.de"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/en_US\\/appleid\\.auth\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {
+                "window.innerWidth": 16,
+                "window.innerHeight": 16,
+                "window.screenLeft": 16,
+                "window.screenTop": 16
+            },
+            "sites": 16,
+            "prevalence": 0.0016,
             "cnames": [],
             "responseHashes": [
                 "60e60bf2583cf7444b00a4b0b8d46de5fd5816f768fc72fd71c643357132df69"
@@ -35,18 +68,48 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mihoyo.com",
-                "m.twitter.com",
-                "mobile.twitter.com",
+                "player.fm",
+                "gettr.com",
                 "quizlet.com",
                 "search.twitter.com",
+                "thechive.com",
                 "twitter.com",
+                "www.bandsintown.com",
                 "www.bible.com",
                 "www.flytap.com",
                 "www.goodreads.com",
                 "www.instant-gaming.com",
+                "www.pcloud.com",
                 "www.realtor.com",
-                "www.wish.com"
+                "www.secretescapes.de",
+                "www.strava.com",
+                "www.wikifit.de"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/v1\\/apple-pay-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 3,
+                "document.fonts.check": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8aeca11893e11ccf08d253c8ed0691a754b304be998a8ad91e3e87933d852064"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gucci.com",
+                "www.hsb-wr.de",
+                "www.schuhcenter.de"
             ]
         }
     ],
@@ -54,7 +117,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 12
+        "Script": 21
     },
     "nameservers": [
         "a.ns.apple.com",

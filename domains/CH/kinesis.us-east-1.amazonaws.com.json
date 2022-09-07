@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [],
     "cnames": [],
     "fingerprinting": 0,
@@ -24,13 +24,15 @@
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "0268499ebf7b4eb50a13653037e6ebc7fcf914bbf50a0b8e26caff5e1a612b04"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brickset.com",
-                "letterboxd.com"
+                "yamaha.com",
+                "de.yamaha.com"
             ]
         },
         {
@@ -39,18 +41,44 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yamaha.com",
+                "de.yamaha.com",
+                "skyrimcommands.com",
+                "www.allmusic.com",
+                "www.furaffinity.net",
+                "www.sparknotes.com"
+            ]
+        },
+        {
+            "rule": "kinesis\\.us-east-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "8ec018381dc27218db6030076046329b79c520a2aa1a7aa3c12e6baf5fe5de5f"
+                "de34bad3a67034c3bd261115ea0228a884f90c0bb47b0aa8f7eba22706108bf8",
+                "02c714029337764caf4560caee5c9bcecd8a6034ff5da5bedc09ebb8027fe7ba",
+                "dfa57cfb5729e1021d58d37549ca2a811a1e69b559104b396a9b69db39ed8263"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brickset.com",
-                "letterboxd.com"
+                "skyrimcommands.com",
+                "www.allmusic.com",
+                "www.furaffinity.net",
+                "www.sparknotes.com"
             ]
         }
     ],
@@ -60,8 +88,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 2,
-        "XHR": 2
+        "Fetch": 2,
+        "Preflight": 6,
+        "XHR": 4
     },
     "nameservers": [
         "ns-1253.awsdns-28.org",

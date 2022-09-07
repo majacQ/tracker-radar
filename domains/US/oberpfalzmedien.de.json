@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
         "matomo"
@@ -14,18 +14,20 @@
     "resources": [
         {
             "rule": "oberpfalzmedien\\.de\\/matomo\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "matomo"
             ],
             "apis": {
-                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
                 "Document.cookie setter": 2,
                 "window.name": 2,
                 "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.mimeTypes": 2,
                 "Navigator.prototype.javaEnabled": 2,
                 "Screen.prototype.width": 2,
@@ -33,23 +35,23 @@
                 "Navigator.prototype.platform": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d3383dd19ed9aad4099c7b406339e82c23385d4d015eba91ec048bbdb8051f25"
+                "59c529e52e6c4a820446934dfb4ddcfb7b08c23357a83426a0078fb46f56eb92"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_pk_id.2.28db": {
-                    "ttl": 33955206,
+                    "ttl": 33955203,
                     "length": 28,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "_pk_ses.2.28db": {
-                    "ttl": 1806,
+                    "ttl": 1802,
                     "length": 1,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 }
             },
@@ -68,16 +70,41 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "_gb_lh": 0.000013804146765688412,
-                "get_top_level_domain_cookie": 0.000013804146765688412
+                "_gb_lh": 0.000013555829684555844,
+                "get_top_level_domain_cookie": 0.000013555829684555844
+            },
+            "exampleSites": [
+                "onetz.de",
+                "www.onetz.de"
+            ]
+        },
+        {
+            "rule": "oberpfalzmedien\\.de\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "608d1bbee77c3864f7fe5d1ac67b3cc6280c31409717a3334986078fe4f504d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gb_lh": 0.000013555829684555844,
+                "get_top_level_domain_cookie": 0.000013555829684555844
             },
             "exampleSites": [
                 "onetz.de",
@@ -87,10 +114,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000136,
     "types": {
-        "Script": 2,
-        "Other": 2
+        "Script": 4,
+        "Ping": 2
     },
     "nameservers": [
         "ns2.knipp.de",

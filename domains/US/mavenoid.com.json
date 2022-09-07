@@ -4,15 +4,16 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.000061,
+    "sites": 9,
     "subdomains": [
+        "app",
         "husqvarna",
         "jabra",
-        "voi",
+        "api",
         "api-husqvarna",
         "api-jabra",
-        "api-voi"
+        "widget-hosts"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -20,37 +21,99 @@
         {
             "rule": "mavenoid\\.com\\/embedded\\/embedded\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
+                "app",
                 "husqvarna",
-                "jabra",
-                "voi"
+                "jabra"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.product": 5,
-                "PerformanceTiming.prototype.navigationStart": 5,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.product": 3,
+                "Date.prototype.getTime": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "window.localStorage": 3,
                 "Screen.prototype.width": 2,
-                "window.localStorage": 5,
-                "Navigator.prototype.maxTouchPoints": 2
+                "Navigator.prototype.maxTouchPoints": 1
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "757e6ba18011639316a477db6add7774b4cff8a1fe9c1195c81cc0a33d1a4d99",
-                "92ee6659de04794f764333d052eb09516fba72496ad79aecb7e20ccf43f6a891",
-                "c6ce83348365501786af934b5d9d20e10e02461b724804ec6cff09af02df35db"
+                "819b5bd586f6be0b2f0274bf77376705b3bf6429ce47193530a6accfd12fd0bc",
+                "96313885cdc42c012ce52f7a34b562990c1cade94c6f8d145c541e26756fe6bc",
+                "6a5964677a99033031260351b260bc213f63238493560b66eb478480265655b2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "husqvarna.com",
+                "embrlabs.com",
+                "locations.husqvarna.com",
                 "www.husqvarna.com",
                 "www.jabra.com.de",
-                "www.jabra.com",
-                "www.voiscooters.com"
+                "www.medion.com",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/7416\\.b2a46b42\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "0c9be06d92eba8f4dc6a5d9fdff2087323625d9ffa8097c4c3d7a8a32226d90e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "embrlabs.com",
+                "www.medion.com",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/initEmbedded\\.24b97423\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.language": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "64a38334f312306f7e83f273f788cf563ed49fb0421cc6c83da78e35b9094860"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "embrlabs.com",
+                "www.medion.com",
+                "www.worx.com"
             ]
         },
         {
@@ -58,51 +121,202 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "api",
                 "api-husqvarna",
-                "api-jabra",
-                "api-voi"
+                "api-jabra"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "d2e71d87ea16f9b1c0280d958cb8945f664c5c766b780ce2e8712fc97cea4cf4",
+                "9d43e9adc33c309258a0722c9f1e1c5dca56f190a6dcb45b3a06b351fc9e498b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "embrlabs.com",
+                "locations.husqvarna.com",
+                "www.husqvarna.com",
+                "www.jabra.com.de",
+                "www.medion.com",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-husqvarna",
+                "api-jabra"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "husqvarna.com",
+                "embrlabs.com",
+                "locations.husqvarna.com",
                 "www.husqvarna.com",
                 "www.jabra.com.de",
-                "www.jabra.com",
-                "www.voiscooters.com"
+                "www.medion.com",
+                "www.worx.com"
             ]
         },
         {
-            "rule": "mavenoid\\.com\\/api\\/graphql",
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/8295\\.2679378f\\.chunk\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "api-husqvarna",
-                "api-jabra",
-                "api-voi"
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9067820d1e8d17c69b7feb80a6d03cd2a54aa7648447fcf34f342031d15b22e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "embrlabs.com",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/6927\\.60ea6143\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "husqvarna"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "a5ba15a0241cfcd84eac57b46c0deb4bc8a8d5ca30c2254b2e63abd429696f0e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "embrlabs.com",
+                "locations.husqvarna.com",
+                "www.husqvarna.com",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/4832\\.61602a54\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "husqvarna",
+                "jabra"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.0000345,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "d2e71d87ea16f9b1c0280d958cb8945f664c5c766b780ce2e8712fc97cea4cf4"
+                "01c92c776b4e024db8aa5f05b13ce718b20863927a0a70411214faeb06798ac6"
             ],
-            "type": "XHR",
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "embrlabs.com",
+                "locations.husqvarna.com",
+                "www.husqvarna.com",
+                "www.jabra.com.de",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/pushHandler\\.beee8fee\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "husqvarna",
+                "jabra",
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "5e1fe541b35a86dd5eda2bc3e15e85f59a832c2c40b7fb1ab13e8d87e88f32e2"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "husqvarna.com",
+                "locations.husqvarna.com",
                 "www.husqvarna.com",
                 "www.jabra.com.de",
-                "www.jabra.com",
-                "www.voiscooters.com"
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/static\\/js\\/floatingButton\\.2d7d5e02\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "husqvarna",
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "c20bb203d7b457b4e82b1922e7ed4011271d0cbe4b994358819d617e5c50bbcd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "husqvarna.com",
+                "locations.husqvarna.com",
+                "www.husqvarna.com",
+                "www.worx.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/custom-embedding-scripts\\/positec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c54c871c467316d36727344558f907fb411fa524f0ab7bf37e35abfc6c467015"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worx.com",
+                "www.worx.com"
             ]
         }
     ],
@@ -110,9 +324,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5,
-        "Preflight": 5,
-        "XHR": 5
+        "Script": 34,
+        "XHR": 6,
+        "Preflight": 6
     },
     "nameservers": [
         "crystal.ns.cloudflare.com",

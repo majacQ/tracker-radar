@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
         "imp.control",
         "web-sdk.control",
@@ -26,7 +26,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -47,30 +47,8 @@
                 "web-sdk.control"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "13cabs.com.au",
-                "www.13cabs.com.au",
-                "www.audible.com.au",
-                "www.audible.com"
-            ]
-        },
-        {
-            "rule": "kochava\\.com\\/track\\/json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "web-sdk.control"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
                 "075a61c48ac3dd56cdf07086a2f7bae59363f88be99011dd8b73dcf7f2b9df75"
@@ -82,7 +60,32 @@
                 "13cabs.com.au",
                 "www.13cabs.com.au",
                 "www.audible.com.au",
-                "www.audible.com"
+                "www.audible.com",
+                "www.cbs.com"
+            ]
+        },
+        {
+            "rule": "kochava\\.com\\/track\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-sdk.control"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "13cabs.com.au",
+                "www.13cabs.com.au",
+                "www.audible.com.au",
+                "www.audible.com",
+                "www.cancer.org",
+                "www.cbs.com"
             ]
         },
         {
@@ -96,12 +99,14 @@
                 "window.localStorage": 2,
                 "Date.prototype.getTime": 2,
                 "Navigator.prototype.language": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Navigator.prototype.userAgent": 2,
                 "Screen.prototype.availWidth": 2,
                 "Screen.prototype.availHeight": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "87aa35b146fed60e895a0d09f7aca9c6a837dd14a13c1200902c7c5c4652f546"
@@ -115,7 +120,7 @@
             ]
         },
         {
-            "rule": "kochava\\.com\\/v1\\/cpi\\/identityLink\\.php",
+            "rule": "kochava\\.com\\/track\\/json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -123,53 +128,34 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "audible.com.au",
-                "www.audible.com"
-            ]
-        },
-        {
-            "rule": "kochava\\.com\\/v1\\/cpi\\/identityLink\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "web-sdk.control"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "075a61c48ac3dd56cdf07086a2f7bae59363f88be99011dd8b73dcf7f2b9df75"
             ],
-            "type": "XHR",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "audible.com.au",
-                "www.audible.com"
+                "cancer.org",
+                "www.cancer.org"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
         "Image": 2,
+        "XHR": 5,
         "Preflight": 6,
-        "XHR": 6,
-        "Script": 2
+        "Script": 2,
+        "Fetch": 2
     },
     "nameservers": [
-        "ns-cloud-a1.googledomains.com",
         "ns-cloud-a2.googledomains.com",
         "ns-cloud-a3.googledomains.com",
-        "ns-cloud-a4.googledomains.com"
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a1.googledomains.com"
     ]
 }

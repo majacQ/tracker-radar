@@ -13,7 +13,7 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/bsi-unbundled\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/bsi-unbundled\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -21,10 +21,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "412e5041e0bb34d7e58ab7b2420e60e80a1309d99019c1978dddd26e1fec18e2"
+                "a93fce02b34a67ed3a4041ac767e8b449f676ab2a663ce6b3b12626f68c80947"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/bsi\\.css",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/html-block\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -43,10 +43,32 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e4b455fecc62d03463d9d43fab9cdbe870ea5648323cb11b236e014303768b43"
+                "d81db86c4aa62457df50c9f38df9fc3814b79309c51212a1367ca895620f9d2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tafeqld.edu.au",
+                "connect.tafeqld.edu.au"
+            ]
+        },
+        {
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/bsi\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e63d5d7693aba59b25cb82eb0d3eec07cc674259ebb146a6db7467a09a0a44d1"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -65,7 +87,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "1241a0a5199d05319720e904a100d0ff3f7425fc9a431e20c18bdcd829b8b1f0"
@@ -89,7 +111,7 @@
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "05b85d96f41fff14d8f608dad03ab71e2c1017c2da0914d7c59291bad7a54f8e"
@@ -114,7 +136,7 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "28ce75d953678c4942df47a11707a15e3c756021cf89090e3e6aa7ad6b6971c3"
@@ -128,20 +150,21 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/bsi\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/bsi\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 2,
                 "window.sessionStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8df22be1fa1c51ba75f0a637cd015bf282637fadba23830de4e37deb50bb38bc"
+                "163eb388f78ab26c04dfa8cc80df4fafcd518b74c2dbfb3e00dccece2590bf24"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -154,13 +177,15 @@
         {
             "rule": "brightspace\\.com\\/lib\\/elastic-apm-rum\\/5\\.5\\.0\\/elastic-apm-rum\\.umd\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
-            "apis": {},
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "7a1a5cf7c9a974e4169838a1967f9b77e68712a0983c5bb9022640caa9e8e7e1"
@@ -184,37 +209,10 @@
                 "PerformanceTiming.prototype.navigationStart": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "c909d7217e17687e164842b2a986104d7e14d44181c2ac3df05e1ddfd6f8ae2f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "tafeqld.edu.au",
-                "connect.tafeqld.edu.au"
-            ]
-        },
-        {
-            "rule": "brightspace\\.com\\/lib\\/adrum\\/4\\.2\\.12-2\\/adrum\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2,
-                "Event.prototype.timeStamp": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "884d662073e74149d83e12dc00eeb5f13e8caca0ddac86fabf812484611f678a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -233,7 +231,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Font",
@@ -253,7 +251,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Font",
@@ -265,7 +263,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/number\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/colors\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -273,10 +271,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "bd9ec9d85736ff78722cd4a65c5668009e302490891b5b02c95afb7a2572b798"
+                "550c34b10382bb8eb5939873f42664932c6bbfda00035938860686e2ea963844"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -287,7 +285,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/dateTime\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/number\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -295,10 +293,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "4e7ac31fb8718e28f61bf89cccf19ae119b8f897c4f9c8884cb7c78206b531eb"
+                "a71c664a5c44d87069214efdd6e181ed60c93331a464e21070c85326f66908fe"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -309,7 +307,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/index\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/dateTime\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -317,10 +315,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "7f9b2ae0023377bca083a35ea674a7113b1f82d925ed4c6591fefac44c03d614"
+                "f75f2f570e520b745eb5df469204a721ea16bb1eae32c15cebb38263e6a28b59"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -331,7 +329,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/d2lfetch-auth-framed\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/index\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -339,10 +337,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "75a9c8b70e9b69e629a8a04a0edb7cd5f8276ef47f2bde17e7d965ca3673e040"
+                "d7df1a8e37636ab379b0233ca3a84694bdad2b81a7ee5f1bf0979bc66639340e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -353,7 +351,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/d2lfetch-auth\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/d2lfetch-auth\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -361,10 +359,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5dbdeb3e8e64ca2b99c4db65e1db29a85b4b92ca387896e67ed2682a9ad32441"
+                "273e8d40c4217faf5929e63cdc411a30981b7dc3c7db5b77de7bbaf9cccee9ce"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -375,7 +373,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/settings\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/settings\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -383,7 +381,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "b3c0d62a3f33fe3411d00e0107fa5c6a7dfbe9801e5a0e6e6a6e4cb2edc8819e"
@@ -397,7 +395,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/announce\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/announce\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -405,7 +403,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "d612379afb71639a329a27cb743a1c0dd453293cadb8de4776e091f14edce6de"
@@ -419,7 +417,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/dismissible\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/dismissible\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -427,10 +425,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ee59abfb25fc80b62c86952e3d177db260d8c8335b44dbfb6340b7c3c52333cc"
+                "89c7e1f148aa4d38ea9d6e5003138a413ca74f8cb76a41171ac92a965367d213"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -441,7 +439,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/provider-mixin\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/index2\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -449,7 +447,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2df40b75fe3354db72fe4246ab1cbcad1281ebf8e01fb779edf2f2cc6aa23c34"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tafeqld.edu.au",
+                "connect.tafeqld.edu.au"
+            ]
+        },
+        {
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/provider-mixin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "ad0ab4932221108023dd8638a1fe6774c9c11a0e85600a9b5d324b5abd733fb9"
@@ -463,7 +483,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/common\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/common\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -471,10 +491,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "84f2517ba749ccc79bbcd8e1e641ca5e1226d9cfd19f645dfe1666f65e2ed29e"
+                "ab46b711b740ff585b59ec8979210ff8a9cd473e0f5413be46e6e80dace78e2b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -485,7 +505,7 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.21\\.9-193\\/unbundled\\/boot\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/boot\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -493,7 +513,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "b7751cb3590404eb65cebf70ae69eb87cc21cfd1f3494876e730a7f54af01247"
@@ -507,21 +527,84 @@
             ]
         },
         {
-            "rule": "brightspace\\.com\\/lib\\/adrum-ext\\/4\\.2\\.10-0\\/adrum-ext\\.js",
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/lit-element\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "4f748d17ef1894f7bbdf684bd03fbf824c901d6812764a92455c2379ef0a0b96"
+                "4f7c57cef4cd9674205cf854dcc0d13fafdc89727d9becec8909130810ad35ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tafeqld.edu.au",
+                "connect.tafeqld.edu.au"
+            ]
+        },
+        {
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/mathjax2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fa907f717d7397f6821a163af06f9a60e283cb516f9bb8e7df7f3cfeba5209a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tafeqld.edu.au",
+                "connect.tafeqld.edu.au"
+            ]
+        },
+        {
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/rtl-mixin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1930993ed9dd390d361152daedd4319b6dad0d48412c4dec44d2e0c593bd700e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tafeqld.edu.au",
+                "connect.tafeqld.edu.au"
+            ]
+        },
+        {
+            "rule": "brightspace\\.com\\/lib\\/bsi\\/20\\.22\\.7-212\\/unbundled\\/dedupeMixin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "69bd8c9409166fb73c781dff91378916aae213db3664ad4ebcf472e28a3e75a1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -536,14 +619,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 38,
+        "Script": 46,
         "Stylesheet": 4,
         "Font": 4
     },
     "nameservers": [
         "ns-108.awsdns-13.com",
-        "ns-1133.awsdns-13.org",
+        "ns-905.awsdns-49.net",
         "ns-1559.awsdns-02.co.uk",
-        "ns-905.awsdns-49.net"
+        "ns-1133.awsdns-13.org"
     ]
 }

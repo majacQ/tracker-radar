@@ -7,38 +7,63 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000402,
+    "sites": 4,
     "subdomains": [
-        "engine.a8",
-        "config.a8",
-        "productapi"
+        "engine",
+        "config",
+        "redpanda",
+        "productapi",
+        "static-cdn"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "styla\\.com\\/xe\\/21d271-12983761\\/xe\\.js",
+            "rule": "styla\\.com\\/init\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "engine.a8"
+                "engine"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
+            "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "97be3095913c5a6b3b11ce14b5770e2e5746616479f319a7871fbf214b6c4fa3"
+                "bca44508114a1fe125a07002ab81a634426c7f9a25c2790617f1a928ad418d09"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "obi.de",
-                "www.obi.at"
+                "moevenpick-wein.com",
+                "www.ottos.ch"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/xe\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "80dfa89b554c6178d80904c743da39798a894953adcb1878dc8622af2e5cf95a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moevenpick-wein.com",
+                "www.obi.at",
+                "www.obi.de"
             ]
         },
         {
@@ -46,29 +71,131 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "config.a8"
+                "config"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7507b61be8e120a091d68ec72b38cb741bcc72a148abbf164cdd6b635079c02e",
+                "065fce63aa2d4f18431b270f2ec8f68decf05252e26a4876a4d26543edee0d87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moevenpick-wein.com",
+                "www.obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/467ca902\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.sessionStorage": 3,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c17922a09f4538e3649c1b69a4955545163237d7093ab456bec9bca293184bd5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moevenpick-wein.com",
+                "www.obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/11\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "dea2f900377209c9dd9e4ece0376df22ee231ee52e0767aade0821425fe51c0c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moevenpick-wein.com",
+                "www.obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/adbf8a76\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.languages": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "52aa104359d32daa0b667edca5bc40f4af038a9ebc3c180e966f4645071ae835"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moevenpick-wein.com",
+                "www.obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/v1\\/feed\\/tags\\/movenpick\\/weinnews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redpanda"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ac4596ed9cf74a853b057ab29be857e6eae3c3bf4c583c96cfac1b1ce24842fd"
+                "cf129483797ad2b2fae08f467c3408ed8413bac3bb0bb63a153b5ddae54fae91"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "obi.de",
-                "www.obi.at"
+                "moevenpick-wein.com",
+                "www.moevenpick-wein.com"
             ]
         },
         {
-            "rule": "styla\\.com\\/xe\\/21d271-12983761\\/c32ab23a\\.js",
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/467ca902\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "engine.a8"
+                "engine"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
@@ -79,66 +206,89 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "95ed25a8ffd3727c46d9423c15cd76090a1539207ca4bc0ae31f02909b933b68"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "obi.de",
-                "www.obi.at"
+                "obi.at",
+                "www.obi.de"
             ]
         },
         {
-            "rule": "styla\\.com\\/xe\\/21d271-12983761\\/12\\.css",
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/11\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "engine.a8"
+                "engine"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a3533b47947a2a8bf790e90997fe9e36cccb85ec78ecc9b7364db1c1fef786dc"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Stylesheet",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "obi.de",
-                "www.obi.at"
+                "obi.at",
+                "www.obi.de"
             ]
         },
         {
-            "rule": "styla\\.com\\/xe\\/21d271-12983761\\/81c848df\\.js",
+            "rule": "styla\\.com\\/xe\\/22d215-15c39985\\/adbf8a76\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "engine.a8"
+                "engine"
             ],
             "apis": {
                 "HTMLCanvasElement.prototype.toDataURL": 2,
                 "window.sessionStorage": 2,
-                "Navigator.prototype.languages": 2
+                "Navigator.prototype.languages": 2,
+                "window.innerWidth": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "4b6797714d605929b294169cbdc0155fff500acd9f7b4cbdc30cf1096c87841e"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "obi.de",
+                "obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8843252",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
                 "www.obi.at"
             ]
         },
         {
-            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6563654",
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8843252",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -149,117 +299,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "261c89c40523f6880d2316d53c2a996ceff4f2a7752ff6d5d8c483b3aa199524"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "obi.de",
-                "www.obi.de"
-            ]
-        },
-        {
-            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7521081",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "productapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "c6e004440cd56e96519abca803f93b0f3c9bd7de3a9f706768e17853c61ff2b8"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "obi.de",
-                "www.obi.de"
-            ]
-        },
-        {
-            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7637242",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "productapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "4e1374011ebee3d5b73f9b8757cc10684d34ca04704c8bdd8b033b81be33a354"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "obi.de",
-                "www.obi.de"
-            ]
-        },
-        {
-            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5762281",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "productapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fb79b8edad04f082311116c4dd40c37ad4db2b5f7621cfa10fbe2f2401f85d6b"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "obi.de",
-                "www.obi.de"
-            ]
-        },
-        {
-            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3514114",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "productapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "7dc1b496021533b16bb38ef18943abb6639ce455ddec74ddf4bd6e7050182c90"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "obi.de",
-                "www.obi.de"
-            ]
-        },
-        {
-            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2192805",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "productapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "49f7d83a57a1c5711fb40e0221dfc66f80eb3ec24bc583bc0f8469e27c18fa7d"
+                "df799a3fa8a6a5b69a53af45c03ebb307915146864fa3cf36a65bedce8bb22d3"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -270,7 +310,7 @@
             ]
         },
         {
-            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5135843",
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9756958",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -281,7 +321,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a815fd24c04480fbb1eee9eb3bc1aee1e30be7bd3b2e8ccb7be4dc824173bd6a"
+                "8872e05b557162323a6c32c9a25d197bdb87afeb0f0c80c5a443603e8684fd54"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -292,7 +332,7 @@
             ]
         },
         {
-            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5951801",
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8288573",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -303,7 +343,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "d15372cdd95d047d87a654de5560c476ba9c3190e5561e05e0250596289b3f54"
+                "84b379d686dcbd7a8f27c2aa13b2c4b612002e3c9adc7b50453892a44a08b4c5"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -314,7 +354,7 @@
             ]
         },
         {
-            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2192714",
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/7567274",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -325,7 +365,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "2519b69d3fa710d7296a071bb2e84241e69f2466c050418f4aff9f202bd3b81c"
+                "1a7422dae53cf357349d1c945dfd99a9982072b6833ba7e11e4e7956bbc843b8"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -336,7 +376,7 @@
             ]
         },
         {
-            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2192797",
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8426025",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -347,7 +387,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ae2a5758532e70ea5a1e694f60880cf727268c7947705b668e3720be355a19f8"
+                "1e4ee8009450290064c02d9ee7463be3a806fabae207bffd8ae854fa54c40a18"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -355,6 +395,3482 @@
             "exampleSites": [
                 "obi.at",
                 "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1047331",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f683748f8ca57708949b7c57e46290a05b059407fff53f0c313acaf6e719abbd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8386658",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "08c62b8b883612fd67291128e55b69b1d5c4400abfda6ff9e363f321edd170ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/4744470",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a3b076ec4ba3b4d9687ff6b13a4c0c0456af7b0e769db84909b75629a2186adb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8474298",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dd769dd8faabbb0f771b84ce06c807de8922823ee5c6a7433b926a897d7e3bc8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8655854",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2b4bfeb7ba6dd8643356bdbeab7860e99ee30a49251c86a8802de13b10903f51"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2690501",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6b2419c2b5fd69e9fdbd32bada008eec0391e42574f061034e29bf6cb49a406"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8473183",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5002e4b76140d3bb0b1934f2753c8fc63f78bdf8e5375d6b09f7b5bde46a5314"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1094531",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fdd654eef49a36ea014b84b683c7257ea9ee618a4382f1a5b16671906e794d9f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8186652",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b87c3ee84a9f441c33de2cc08d3b5485ad1c63b48bf276a7ccda0e42ebe03a10"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/3709516",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8c7b06657ba86ef7a4e982e8943759ecb31d6370669600abc65645f09cde62f3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8753477",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5b5bab7551280a728b79dee72a0a102a7d3e9f8e416ebae048df90038a7a92d8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1351824",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f01f55eedeab436479fa2a5d6e4f906c537467e0ab67f21acf25dc2fbda0e033"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1047349",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3bbcfe6d5c4a1eb205e452d2a6b5de218dad678e9b54ab1912155c0353388df3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9253790",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a974f37e973aa7a2068996ff62b70cbd624b0bc758f47d71ae2ec6bf49410a13"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1705540",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1fded4e7066fa50a8171fbd48784ea41ab338864dfe6b34bdd2cade11168ee4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/7469349",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e8226a6fdcf3aef7c9e6929baa5d9c637f7eecf6980e8867eca59edb2cc4b792"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/4886248",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "94bc9ff5cd656d52f72436767062f1018b1e8c0278366f50a80c025fabb3932e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2764330",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "88edb74bbfed2c78cb0cc00d2bc5a65a84f74d2057a71c0714d69ed36f8fe342"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/4854287",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1935eb50a9dd5c29fb621d8475af1081daa04b01d4015ce7c3f88a45ec1e621f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5814959",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3ef02062ba5231c89f78e4d13b2f7d6706357410691a9de507327b3c6a677c87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9930454",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1ac89343087f392ec942a5e4c48d14ab4d35f5071123148fa3a1586c5f8d3280"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1703099",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c14693da5eb1391cfb7d88c64b8c3ab5417b2b10e41c07e1de634928872ef78e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1531805",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3f5e5bd53ac5f4e35e31bb9082f0d0a6b5de809b37e910397085803014306453"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5789508",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0500dfc99a0104fc9c270bb44c3243dad38127326cdff0fdf05434ccb3294092"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5789177",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3b4a7918fbe44718246fac3415492f246b07df5723efec88d5bf73710121c340"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1077270",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9e01ae437c304de0c4498325aecb682b9037d28550c9b4d2cb8108189421d851"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1114594",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a690bf08177eac802811472d2d9823fe958c9fe0c40f29d9147b3abac6b86fde"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1638964",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "99a234ef4df862faebbbe247b7ef224cb6257c2f8a1c525ead976c699574cb95"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9756958",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8288573",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/7567274",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8426025",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1047331",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8386658",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/4744470",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8474298",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8655854",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2690501",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8473183",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1094531",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fdd654eef49a36ea014b84b683c7257ea9ee618a4382f1a5b16671906e794d9f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8186652",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/3709516",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8753477",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1351824",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1047349",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9253790",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1705540",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/7469349",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/4886248",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/2764330",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/4854287",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5814959",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9930454",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1703099",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1531805",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5789508",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5789177",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1077270",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1114594",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/1638964",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9668369",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8605370",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9156522",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5013321",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9750175",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9668369",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7e79e11ccbaa026fc675aec39e2734ebc5b95ec4056161c667729873f00c22a7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/8605370",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "47439ac55889f7a785b97bc7c5ffae1f43ff666252b8b1a9bd39a9dbd4f48c1b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9156522",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cfbd8e563e401d9a5938fa7d2b4bf36ad8361edfab624e28342708dd2bf49167"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/5013321",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7b86726eadb687d7f0c76ab0a9b7b0661ef7a930439f07e01e0bdc6a742c0433"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/9750175",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3c7420fa0115632a5e1b8e5d47523067c44d8be24a65ee4f57cfa53d80f66b9c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/6145742",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "790d10f460f614c92eff6f7f59d3761914b9637da8129d7e0cf4fe3089fe5258"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/3656261",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9e1675177d6d952f1ca7b157cd97feb9c88e8168ce7f3ef15fa3ae2eef3b1725"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/6145742",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_at\\/product\\/3656261",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.at"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/obi\\/images\\/down\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/obi\\/images\\/down\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0d7e6476d564c902feb87bfa96af9761144a1904f9d7342dbb4c3e255a731bc6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.at",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/1756022",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5f73514d49dedd2e8fe2239e5718ee99519910fda8913640d76c3a8efeae6bc5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8461063",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2269884",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b94ffee9339327e98ebf246757ff550f0c961c88a9b5bfb4eb0a8c3a3aedb64"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8713141",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/1756022",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5f73514d49dedd2e8fe2239e5718ee99519910fda8913640d76c3a8efeae6bc5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5619556",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8461063",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5f671d5b35716720868445e382ebbd4ed785834b9974582ef825db0a2f7f01fd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2269884",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b94ffee9339327e98ebf246757ff550f0c961c88a9b5bfb4eb0a8c3a3aedb64"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8713141",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "09bb4bcaf52b5e9ee7e05402c19597e7f07b00d56178410801f65292c9a4a704"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5619556",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc4b35109ef3e82c3c4b7eebd61dfea00e59e82bacd4bf51e3c33e88d2c5d0f9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2132090",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a4ad2e0bbad0d65237b2bd44830182af0253f93f3444bd593a6537e99918d248"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5194758",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b3934784c2d39f049320631172c874fac6df054d4ac08146583936700a86cc4c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2132090",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a4ad2e0bbad0d65237b2bd44830182af0253f93f3444bd593a6537e99918d248"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5194758",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/1252386",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6305635",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fa20922059183fa1ced0b2bb6f8e85722d825a5ae074f8bba0bb84785fc8ee01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6444418",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a56f73e34871dbcdf89f13b79d3e786d8c2706a5752701a6e447c2750f25642d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7205800",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8590531",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "367a66d65858c169ab9105b2a9b4a36184a81d6fecd97806a30cbaa52f8e5173"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3958360",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a604b2e10894348ed4cd4e66e6eeac2fab072e8eed3ed26a5bf48b84e6fc6b6a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2269835",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/1252386",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9ac2440716baae15dbfc9af7ab16102af8e0e6b9a9e7c6a80b7314362ddc7626"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6305635",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fa20922059183fa1ced0b2bb6f8e85722d825a5ae074f8bba0bb84785fc8ee01"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6444418",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a56f73e34871dbcdf89f13b79d3e786d8c2706a5752701a6e447c2750f25642d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7205800",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f297e8604f1f5681941f199d6b984e2dd572340f04c37e2a0343b294796e3120"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8590531",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "367a66d65858c169ab9105b2a9b4a36184a81d6fecd97806a30cbaa52f8e5173"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3958360",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a604b2e10894348ed4cd4e66e6eeac2fab072e8eed3ed26a5bf48b84e6fc6b6a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2269835",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "322cf44b66bc8163ee75811415955c80688975e7313bf002f25b8477b95c1e94"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6739676",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6739676",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b699532442ce5abc8d8aaf40f4278f545a157b5758314e6a75d920c5bed68b31"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9889387",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d04c43b80a6231565bd730ca5946541893aa4cd46895ee2e8ff2d636375f060"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3358991",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25de2d55ea844726fb57a31df9d9c700e926c19cca9e7f87927b0b7bd437a9c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9889387",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3358991",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2413045",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7589336",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6175137",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4ebcddaf64782ffaa20caeccd6c38a7d9d3b1fe486ef80bdb8c7cf0a730ae779"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/4049748",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5ca1b1251d3daa76e0fe6e9522e4e0984ad95384ec160319b2fbf00b77693a4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6615496",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9809674",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b9a6a42b33d973b5b06171e907aa11d63f44864ebb0735742dde7e33787663ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2413045",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "26770f43e53730cfd1a00a056021880a590cb8d3b26b7f91dd103f9d68e5b6e6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7589336",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e37bcd3e0bdcbb20ee5f9b1ea21726d0b77b5899318b0c8aaf07242200fe7155"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6175137",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4ebcddaf64782ffaa20caeccd6c38a7d9d3b1fe486ef80bdb8c7cf0a730ae779"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/4049748",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5ca1b1251d3daa76e0fe6e9522e4e0984ad95384ec160319b2fbf00b77693a4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6615496",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b7175b57eccf73c92bebcd52163097283712ac5f7319e3bdb03fb621b85de82f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7589328",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9809674",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b9a6a42b33d973b5b06171e907aa11d63f44864ebb0735742dde7e33787663ac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7589328",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc4c72f1ff46c19663caf4d26b472a592f64fd4aa661ba055a70dbb918211b2d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6535702",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "150808cd5feb69858b8f781a555baa3cf45b60fec06a34dfedd444341564027a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6535702",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6376354",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1e6e6e9ca4a178a440a4f68666014ffd6a20a38c0c75be81d589fc26f8e65e0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2814408",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2823797",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3711926",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8de5797648bb4d22a5ad5b123b6439927c718f6704f5ff4104d0da8f41387b72"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5469705",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3863019dd2af7505a5626ea20730f463da87d47bc82294ed47839a31191e45ba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6801054",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f088c9cc2b43d3e53496def693c5f48c1730a91d34662dfa680411a44daccb5f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6376354",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1e6e6e9ca4a178a440a4f68666014ffd6a20a38c0c75be81d589fc26f8e65e0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2814408",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4e188c25b4b76a9dc90cf73f07f7c135f29e05a1a2c05789401bce695153de61"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2823797",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ab78435cbf6953179b996beeb3ddc9da30498eabf2a9b1aa303406ae8c9d29da"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3711926",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8de5797648bb4d22a5ad5b123b6439927c718f6704f5ff4104d0da8f41387b72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5469705",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3863019dd2af7505a5626ea20730f463da87d47bc82294ed47839a31191e45ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6801054",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f088c9cc2b43d3e53496def693c5f48c1730a91d34662dfa680411a44daccb5f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3393196",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "019c379ea56ba9f3bd30cd10db895903860d6db4ed5404ac040450448f6e3f03"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5774682",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c75180fe893524f5938b17bb0c36f11a588ce18044f1ee73b3d74b123757b166"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3393196",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "019c379ea56ba9f3bd30cd10db895903860d6db4ed5404ac040450448f6e3f03"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/5774682",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c75180fe893524f5938b17bb0c36f11a588ce18044f1ee73b3d74b123757b166"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9588534",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9477175",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8590499",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2138402",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6047906",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3761236",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/4939716",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8ca50a3193c7fbdde4fca17d2efa4180cd3485c538768dca7cab856e5b07384"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9588534",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "23665e58b9bf3c05a33088dc2bb3e86624b3fd98475f5f65d33587159be896bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/9477175",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fd5ad14eb525f12577a27c8340dba9993038d14d42dd285ae76d35e1c954cc6f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7205651",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/8590499",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ff1d2c1c7d06008f026d132a9d7fc57bf5946e341acaafbc51e65b06f63c4206"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/2138402",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7c102b6685639cc2d804cf94da83cd3db0490aed1ad5ddc2ccd6fba28bfa1e73"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/6047906",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d484fa1273e4d18a74d71bdcdf7c1218035cd8c5c666cfd0ac4db718f052a129"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/3761236",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "081b5d6a5a11e112e06609fabbca2a9745c69f1e23f46bf280b24343d4aa1038"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/4939716",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8ca50a3193c7fbdde4fca17d2efa4180cd3485c538768dca7cab856e5b07384"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
+            ]
+        },
+        {
+            "rule": "styla\\.com\\/api\\/obi_de\\/product\\/7205651",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4807092c5a7067b0a2ae241173dd1bac838319c5df6789b5291427aab7b5b28d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obi.de",
+                "www.obi.de"
             ]
         }
     ],
@@ -362,9 +3878,11 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 6,
-        "XHR": 22,
-        "Stylesheet": 2
+        "Script": 11,
+        "XHR": 167,
+        "Stylesheet": 3,
+        "Fetch": 170,
+        "Image": 2
     },
     "nameservers": [
         "ns-353.awsdns-44.com",

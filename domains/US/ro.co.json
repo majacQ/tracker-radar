@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "iframe"
     ],
@@ -15,22 +15,24 @@
         {
             "rule": "ro\\.co\\/iframe\\.html",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "iframe"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 1
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "49492129a99d05986c617544a74eb69b62fc6a05632743a6f93e19ca74ea28b1"
+                "82c01243d231005eb64fcd124dd5f83f2f70ed864d9169dbf298927667d81fab"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "getroman.com",
+                "modernfertility.com",
                 "www.getroman.com"
             ]
         },
@@ -48,10 +50,11 @@
                 "Screen.prototype.availHeight": 2,
                 "Screen.prototype.availWidth": 2,
                 "window.devicePixelRatio": 2,
-                "Screen.prototype.colorDepth": 2
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.webdriver": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "5ad73612f12f05dfb07d437a5d3d9a19c5ed14ced0b78362eadd9ac8effde3ec"
@@ -60,26 +63,57 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "getroman.com",
+                "modernfertility.com",
                 "www.getroman.com"
             ]
         },
         {
             "rule": "ro\\.co\\/cdn-cgi\\/bm\\/cv\\/result",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "iframe"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modernfertility.com",
+                "www.getroman.com"
+            ]
+        },
+        {
+            "rule": "ro\\.co\\/pharmacy\\/svc\\/ro-experiments\\/public\\/roexp\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "faf92a137aa1eb36f3f1248db17894f99270183e698ca7d0b72558d8fd792013"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "roExp": {
+                    "ttl": 31536001,
+                    "length": 422,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "getroman.com",
@@ -89,14 +123,14 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000271,
     "types": {
         "Document": 2,
-        "Script": 2,
+        "Script": 4,
         "XHR": 2
     },
     "nameservers": [
-        "joel.ns.cloudflare.com",
-        "amber.ns.cloudflare.com"
+        "amber.ns.cloudflare.com",
+        "joel.ns.cloudflare.com"
     ]
 }

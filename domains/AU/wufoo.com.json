@@ -1,8 +1,8 @@
 {
     "domain": "wufoo.com",
     "owner": {
-        "name": "SurveyMonkey Inc.",
-        "displayName": "SurveyMonkey"
+        "name": "Momentive Inc.",
+        "displayName": "Momentive"
     },
     "source": [
         "DuckDuckGo-AU"
@@ -11,85 +11,89 @@
     "sites": 3,
     "subdomains": [
         "www",
-        "givetruly",
-        "gallery",
-        "static"
+        "static",
+        "hearingsavers",
+        "gallery"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "wufoo\\.com\\/scripts\\/embed\\/form\\.js",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [
-                "www"
+                "www",
+                "static"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "1ecc8cf255bf668cc74ac2ebad5c9f705ad1e980175ed79d16cad579a1b56149"
+            ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "trulyexperiences.com",
+                "education.sa.gov.au",
                 "www.education.sa.gov.au"
             ]
         },
         {
             "rule": "wufoo\\.com\\/forms\\/",
-            "cookies": 0.0002,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
-                "givetruly",
+                "hearingsavers",
                 "gallery"
             ],
             "apis": {
                 "Date.prototype.getTime": 2,
                 "PerformanceTiming.prototype.navigationStart": 1,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6dc56a70f3c4214a28a60c656a8e69cb34b05c71e9ef89d0376fc3715c5c31f7"
+                "2b7c0b5f5c92a2e9142492299f32834a7c0382bad125efaf1f544ae4e9dce831"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "trulyexperiences.com",
+                "hearingsavers.com.au",
                 "www.yarracity.vic.gov.au"
             ]
         },
         {
-            "rule": "wufoo\\.com\\/stylesheets\\/public\\/forms\\/css\\/index\\.0629\\.css",
-            "cookies": 0.0002,
+            "rule": "wufoo\\.com\\/stylesheets\\/public\\/forms\\/css\\/index\\.0657\\.css",
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "c3a35a6a3af95d5d72d10a7e24b934098102f7f1cf8cc071479f74338f66c584"
+                "02ba007a52f99c4781627d0140a02052ad8578e7c47124493511c06c7c1e53b0"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "trulyexperiences.com",
+                "hearingsavers.com.au",
                 "www.yarracity.vic.gov.au"
             ]
         },
         {
-            "rule": "wufoo\\.com\\/scripts\\/public\\/dynamic\\.0629\\.js",
-            "cookies": 0.0002,
+            "rule": "wufoo\\.com\\/scripts\\/public\\/dynamic\\.0657\\.js",
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
@@ -100,16 +104,16 @@
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "49ced6a0fd614932723eeb66c0a29df80fb658f42e4001602fef70ed0fa93625"
+                "f8feea41477cf6c615d64e34192ca16596d8d1d4a19016c292aec5c894af2bb8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "trulyexperiences.com",
+                "hearingsavers.com.au",
                 "www.yarracity.vic.gov.au"
             ]
         }

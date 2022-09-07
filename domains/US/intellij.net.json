@@ -4,11 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "hub-production.pub.aws",
-        "data-srv.prod.w3jbcom.aws"
+        "data-srv.prod.w3jbcom.aws",
+        "hub-production.pub.aws"
     ],
     "cnames": [
         {
@@ -23,31 +23,6 @@
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "intellij\\.net\\/api\\/rest\\/oauth2\\/auth",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "hub-production.pub.aws"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "hub.jetbrains.com",
-                    "resolved": "hub-production.pub.aws.intellij.net"
-                }
-            ],
-            "responseHashes": [],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jetbrains.com",
-                "plugins.jetbrains.com"
-            ]
-        },
-        {
             "rule": "intellij\\.net\\/geo",
             "cookies": 0,
             "fingerprinting": 0,
@@ -56,7 +31,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "data.services.jetbrains.com",
@@ -76,6 +51,31 @@
             ]
         },
         {
+            "rule": "intellij\\.net\\/api\\/rest\\/oauth2\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hub-production.pub.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "hub.jetbrains.com",
+                    "resolved": "hub-production.pub.aws.intellij.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jetbrains.com",
+                "plugins.jetbrains.com"
+            ]
+        },
+        {
             "rule": "intellij\\.net\\/api\\/rest\\/users\\/me",
             "cookies": 0,
             "fingerprinting": 0,
@@ -84,7 +84,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "hub.jetbrains.com",
@@ -109,7 +109,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "hub.jetbrains.com",
@@ -128,55 +128,30 @@
             ]
         },
         {
-            "rule": "intellij\\.net\\/api\\/rest\\/permissions\\/cache",
+            "rule": "intellij\\.net\\/products",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "hub-production.pub.aws"
+                "data-srv.prod.w3jbcom.aws"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "hub.jetbrains.com",
-                    "resolved": "hub-production.pub.aws.intellij.net"
-                }
-            ],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jetbrains.com",
-                "plugins.jetbrains.com"
-            ]
-        },
-        {
-            "rule": "intellij\\.net\\/api\\/rest\\/permissions\\/cache",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "hub-production.pub.aws"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "hub.jetbrains.com",
-                    "resolved": "hub-production.pub.aws.intellij.net"
+                    "original": "data.services.jetbrains.com",
+                    "resolved": "data-srv.prod.w3jbcom.aws.intellij.net"
                 }
             ],
             "responseHashes": [
-                "5e39f135d4729cfb19b0b1b63bb66d8ce2e3257e33ca36cc79ffa04d76a92b0b"
+                "1d04b0e31b488b125b2cd04d9a6585915d330ebad0733dd64ea1aa22b00f1d34"
             ],
-            "type": "Fetch",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "jetbrains.com",
-                "plugins.jetbrains.com"
+                "www.jetbrains.com"
             ]
         }
     ],
@@ -184,10 +159,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
+        "XHR": 5,
         "Document": 2,
-        "XHR": 3,
-        "Preflight": 4,
-        "Fetch": 4
+        "Preflight": 2,
+        "Fetch": 2
     },
     "nameservers": []
 }

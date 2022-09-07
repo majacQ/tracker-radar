@@ -9,40 +9,14 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Listen\\/channel",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "2ddea254f35aa40358b64a1240ed068ecfea6289217d3ffdc3504a83d0828bb4",
-                "2f9e1837a37c4d7fe432a338e81fcef022748e89497e1daeb87af8c6ad3c2899",
-                "cab19709ed503b9696477230974124659db3467812ff9aa3db85d68e66c7a680",
-                "da80b3a43ab5b082baccb430f334ca36544d9f7d4b639a332d39461a027f60d7"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "moonedge.finance",
-                "www.bulderbank.no",
-                "www.ndtv.com",
-                "www.pristyncare.com",
-                "www.tvguide.com"
-            ]
-        },
-        {
-            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Write\\/channel",
+            "rule": "firestore\\.googleapis\\.com\\/$discovery\\/rest",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
@@ -50,13 +24,60 @@
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "e1b41374ee1188ce9d696db37f2e44550c7b3a0ed5f2d0bdf8e203c66dc16236"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "curl.dev",
+                "midjourney.gitbook.io"
+            ]
+        },
+        {
+            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Listen\\/channel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "487ee4632f9f5f9619708a282b9168b7dfc73f22d0d1b7158a31c2f3cb3148df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "curl.dev",
+                "everything.curl.dev",
+                "midjourney.gitbook.io"
+            ]
+        },
+        {
+            "rule": "firestore\\.googleapis\\.com\\/google\\.firestore\\.v1\\.Firestore\\/Listen\\/channel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "e0bb63968e7b762e0cdd8562ab5c5b0cd2fb781f86a41fe2491ca6fb7717f6e9",
+                "075b5d46d21cdef23cc9618b62b31fb050d65464e16f5e9c95827c8c53858b79",
+                "fce9e7b868e48b8c1da94a3285516415077b2559c8a88caad7d75ae0451ad36c"
+            ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pristyncare.com",
-                "www.pristyncare.com"
+                "hackernoon.com",
+                "www.bulderbank.no",
+                "www.ndtv.com",
+                "www.tvguide.com"
             ]
         }
     ],
@@ -67,7 +88,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "XHR": 7
+        "Fetch": 5,
+        "XHR": 4
     },
     "nameservers": []
 }

@@ -4,64 +4,89 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000813,
+    "sites": 12,
     "subdomains": [
         "cmp"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "prisa\\.com\\/dist\\/cmp\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.0000339,
+            "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "29d4e14a8ec30f48930bb75467dabc5a7115ec87f64800bed602fd74dbd7a40c"
+                "3cd4f2037a278fb06ebf4a34c08b3334b2b42c0a8989e7b5fd53d2e85f596b40"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "cmpyoutubeConsent": {
+                    "ttl": 31536009,
+                    "length": 4,
+                    "prevalence": 0.000033889574211389605,
+                    "uniqueness": 0.4
+                },
+                "cmp573Consent": {
+                    "ttl": 31536009,
+                    "length": 4,
+                    "prevalence": 0.000033889574211389605,
+                    "uniqueness": 0.4
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "cadenaser.com",
                 "caracol.com.co",
-                "los40.com"
+                "los40.com",
+                "play.cadenaser.com",
+                "www.wradio.com.co"
             ]
         },
         {
             "rule": "prisa\\.com\\/dist\\/dmp\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "1b676d3c6d67593e578031fbb58246163cadb7e6af532285dba00024f75404fb"
+                "183cb4c26b2b819973aa2a03ae3fe5e1f1cb7f2848d5a6d92a94bc5546819816"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "cadenaser.com",
                 "los40.com",
-                "mejorconsalud.as.com"
+                "mejorconsalud.as.com",
+                "play.cadenaser.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000678,
     "types": {
-        "Script": 4
+        "Script": 9
     },
     "nameservers": [
         "dns1.p03.nsone.net",

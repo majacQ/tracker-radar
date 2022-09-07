@@ -4,99 +4,102 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.00151,
-    "sites": 15,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
-        "sync",
-        "sync-jp",
-        "atm"
+        "dmp",
+        "audiencedata"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "im-apps\\.net\\/imid\\/set",
-            "cookies": 0.000201,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync",
-                "sync-jp"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.0013,
-            "cnames": [],
-            "responseHashes": [
-                "afe0dcfca292a0fae8bce08a48c14d3e59c9d82c6052ab6d48a22ecc6c48f277",
-                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hatelabo.jp",
-                "anond.hatelabo.jp",
-                "bodyartguru.com",
-                "checkyourfact.com",
-                "filehippo.com",
-                "interestingengineering.com",
-                "kryssordkjempen.no",
-                "m.jpost.com",
-                "nationalinterest.org",
-                "people.com",
-                "www.derivative-calculator.net",
-                "www.foxnews.com",
-                "www.jpost.com"
-            ]
-        },
-        {
-            "rule": "im-apps\\.net\\/imid\\/redirect",
-            "cookies": 0.0001,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hatelabo.jp",
-                "www.amazon.co.jp"
-            ]
-        },
-        {
-            "rule": "im-apps\\.net\\/a\\/beacon\\.gif",
+            "rule": "im-apps\\.net\\/scripts\\/im-uid-hook\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "atm"
+                "dmp"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
+                "21bd977042a76480805895c3bc4371d79fe7da93c8cf7af08687e0b58f4e39ad"
             ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "soccerway.com",
-                "www.soccerway.com"
+                "whotwi.com",
+                "ja.whotwi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/im-uid\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "39e4c2e8d0f9620f6573cbe61a66fd2f2e00a1063f457628a83f7dca7f31d4a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_im_vid": {
+                    "ttl": 2592004,
+                    "length": 26,
+                    "prevalence": 0.00020062192797672785,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whotwi.com",
+                "ja.whotwi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imuid\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audiencedata"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bb54369234516c2f2469a9989fce0f73145879defec57a2b276b5b1e0bf92336"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00020062192797672785
+            },
+            "exampleSites": [
+                "whotwi.com",
+                "ja.whotwi.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0.000301,
     "types": {
-        "Image": 17
+        "Script": 4,
+        "XHR": 2
     },
     "nameservers": [
         "ns-1291.awsdns-33.org",

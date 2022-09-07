@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000621,
-    "sites": 9,
+    "prevalence": 0.0000813,
+    "sites": 12,
     "subdomains": [
-        "api"
+        "api",
+        "content"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -21,7 +22,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -32,6 +33,31 @@
             "exampleSites": [
                 "saltproject.io",
                 "docs.saltproject.io"
+            ]
+        },
+        {
+            "rule": "huckabuy\\.com\\/sc\\/d3d3LmlzcG90LnR2\\/install\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1b13a39da26a35a29e4f5004f4508bd79c22c459eeda51a7d56332f465f51b3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ispot.tv",
+                "www.ispot.tv"
             ]
         },
         {
@@ -46,10 +72,10 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "fbcd2743c4fa2f3de4b61202894ee512edafe59212a2b31349672b5d75a41c90"
+                "2ac6366d07620d28047fc73d8d8124c1c75779ef6bd090c52c102dab5986b6c7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -60,7 +86,7 @@
             ]
         },
         {
-            "rule": "huckabuy\\.com\\/www\\.pluralsight\\.com\\.js",
+            "rule": "huckabuy\\.com\\/c\\/d3d3Lm91dHN5c3RlbXMuY29t\\/install\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -71,19 +97,64 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f9f4db6329405a17eff8b1a5e5555ade14d9f4ca3e00fb6be953a4af1ea99e79"
+                "0a64d77807f53aaa46ee8a0a87e90436144dd709eef17ff339a58341e53f12b8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "IR_gbd": 0.000013804146765688412
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pluralsight.com",
-                "www.pluralsight.com"
+                "outsystems.com",
+                "www.outsystems.com"
+            ]
+        },
+        {
+            "rule": "huckabuy\\.com\\/hb-content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "edec8f06913a2e981f86e8c6d8640f6289f0c4774258a670d5d5ebf2e9fd8237"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outsystems.com",
+                "www.outsystems.com"
+            ]
+        },
+        {
+            "rule": "huckabuy\\.com\\/s\\/d3d3LnZpdmludC5jb20=\\/install\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "267a2eea0049d1afe728e5dddede8f1f0f191da6c466355d728375e070c31a94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vivint.com",
+                "www.vivint.com"
             ]
         }
     ],
@@ -91,7 +162,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 6
+        "Script": 10,
+        "XHR": 2
     },
     "nameservers": [
         "carol.ns.cloudflare.com",

@@ -14,55 +14,57 @@
     "resources": [
         {
             "rule": "bindinc\\.nl\\/js\\/osb\\.min\\.mjs",
-            "cookies": 0.000301,
+            "cookies": 0.0002,
             "fingerprinting": 2,
             "subdomains": [
                 "voorkeuren"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTimezoneOffset": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "Navigator.prototype.javaEnabled": 3,
-                "Navigator.prototype.mimeTypes": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.platform": 3,
-                "Document.cookie setter": 2,
-                "Document.cookie getter": 1
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "8db0cc2486c295958e4a86f3647b104642bdc5ce858008ee5b299d9fb7f3138f"
+                "8ce084d4d815b7a98a635bb0e2b4e6a1b62bbed37a7e3e554f78bb0ce537740a"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "_osb_cduid": {
-                    "ttl": 31536000,
-                    "length": 36,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 1
-                },
                 "_osb_duid": {
                     "ttl": 31536000,
                     "length": 35,
-                    "prevalence": 0.00010034115994380895,
+                    "prevalence": 0.0002004008016032064,
                     "uniqueness": 1
                 },
                 "_osb_testcookie": {
                     "ttl": 31536000,
                     "length": 1,
-                    "prevalence": 0.00010034115994380895,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                },
+                "_osb_cduid": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.0002004008016032064,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "guidinc.nl",
-                "www.televizier.nl",
-                "www.tvgids.nl"
+                "blijtijds.nl",
+                "www.televizier.nl"
             ]
         },
         {
@@ -81,33 +83,53 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "guidinc.nl",
-                "www.televizier.nl",
-                "www.tvgids.nl"
+                "blijtijds.nl",
+                "www.ncrvgids.nl",
+                "www.televizier.nl"
             ]
         },
         {
             "rule": "bindinc\\.nl\\/",
-            "cookies": 0.000301,
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
                 "voorkeuren"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "b5ac313cbd770f47331fc65c47d5561923bad492af79826b6b599e4eab38abb3",
-                "e650ff3911642e40359cb6be08aca3241b1d87d960c2ff51556c658a4b5c801f"
+                "a99262f4c1f409e7c7d7db2654a1f6bbeefa6b40dee7ab0d6643e19020be0507"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "guidinc.nl",
-                "www.televizier.nl",
-                "www.tvgids.nl"
+                "blijtijds.nl",
+                "www.televizier.nl"
+            ]
+        },
+        {
+            "rule": "bindinc\\.nl\\/",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "voorkeuren"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "3c55feccc2d6e010ceff7a2c4b0556c0a296e76da94c418e1b43fe23d2d599c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncrvgids.nl",
+                "www.ncrvgids.nl"
             ]
         }
     ],
@@ -115,9 +137,10 @@
     "performance": {},
     "cookies": 0.000301,
     "types": {
-        "Script": 3,
+        "Script": 2,
         "Preflight": 3,
-        "Fetch": 3
+        "Fetch": 2,
+        "XHR": 2
     },
     "nameservers": [
         "ns1.isource.nl",

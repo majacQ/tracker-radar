@@ -9,23 +9,23 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.00241,
+    "prevalence": 0.0024,
     "sites": 24,
     "subdomains": [
         "apps",
         "analytics-static.ugc",
-        "api",
-        "network-a",
         "network-eu-a",
+        "network-a",
         "network-eu",
-        "network"
+        "network",
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "bazaarvoice\\.com\\/deployments\\/barnesandnoble\\/local_implementation\\/production\\/en_US\\/bv\\.js",
-            "cookies": 0,
+            "rule": "bazaarvoice\\.com\\/deployments\\/webuy\\/main_site\\/production\\/nl_NL\\/bv\\.js",
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "apps"
@@ -33,226 +33,91 @@
             "apis": {
                 "PerformanceTiming.prototype.navigationStart": 2,
                 "Document.cookie getter": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "fd53e232f4c702c09a4826937267339d70b3465948c2eb0df869e1c573467f5f"
+                "961510abdd5f2c9f9d62492ad75edc241449b99f31d4581ad6c2ece37031f666"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "barnesandnoble.com",
-                "www.barnesandnoble.com"
-            ]
-        },
-        {
-            "rule": "bazaarvoice\\.com\\/apps\\/api\\/api-0\\.7\\.3\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "apps"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [
-                "392a2a1574a825c8765b9300666e847dd9054551c629e5d49f54206937e2a5f3"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "barnesandnoble.com",
-                "www.asics.com",
-                "www.barnesandnoble.com",
-                "www.chainreactioncycles.com",
-                "www.linksys.com",
-                "www.mediamarkt.be",
-                "www.mediamarkt.nl",
-                "www.netgear.com",
-                "www.wiggle.nl"
-            ]
-        },
-        {
-            "rule": "bazaarvoice\\.com\\/deployments\\/barnesandnoble\\/local_implementation\\/production\\/en_US\\/api-config\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "apps"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "624488940e3527730db09be81d902a992ca2c2502c4e9111e2ad29956ad75247"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "barnesandnoble.com",
-                "www.barnesandnoble.com"
-            ]
-        },
-        {
-            "rule": "bazaarvoice\\.com\\/apps\\/inline_ratings\\/inline_ratings-2\\.2\\.2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "apps"
-            ],
-            "apis": {
-                "PerformanceTiming.prototype.navigationStart": 8,
-                "Document.cookie getter": 8,
-                "Navigator.prototype.userAgent": 8
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": -86392,
+                    "length": 4,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDID": {
+                    "ttl": 31536008,
+                    "length": 36,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDSID": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                }
             },
-            "sites": 8,
-            "prevalence": 0.000803,
-            "cnames": [],
-            "responseHashes": [
-                "0bdfea90bef2e475de1da3212e64de920753755ffa71e83e1b4839d1c1a5bdb2"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "barnesandnoble.com",
-                "www.asics.com",
-                "www.asus.com",
-                "www.barnesandnoble.com",
-                "www.bk.nl",
-                "www.chainreactioncycles.com",
-                "www.leenbakker.nl",
-                "www.wiggle.nl"
+                "webuy.com",
+                "nl.webuy.com"
             ]
         },
         {
-            "rule": "bazaarvoice\\.com\\/deployments\\/barnesandnoble\\/local_implementation\\/production\\/en_US\\/inline_ratings-config\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "apps"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "45f203305ed62d2f4044e6044d9ef55c296168c98708d83b2436f9b35e14707b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "barnesandnoble.com",
-                "www.barnesandnoble.com"
-            ]
-        },
-        {
-            "rule": "bazaarvoice\\.com\\/prod\\/static\\/3\\/bv-analytics\\.js",
-            "cookies": 0.00231,
+            "rule": "bazaarvoice\\.com\\/prod\\/static\\/latest\\/bv-analytics\\.js",
+            "cookies": 0.002,
             "fingerprinting": 2,
             "subdomains": [
                 "analytics-static.ugc"
             ],
             "apis": {
-                "Screen.prototype.width": 24,
-                "Screen.prototype.height": 24,
-                "Navigator.prototype.language": 24,
-                "Navigator.prototype.cookieEnabled": 24,
-                "Document.cookie getter": 24,
-                "Date.prototype.getTimezoneOffset": 24,
-                "Date.prototype.getTime": 24,
-                "Document.cookie setter": 23,
-                "PerformanceTiming.prototype.navigationStart": 8
+                "Screen.prototype.width": 21,
+                "Screen.prototype.height": 21,
+                "Navigator.prototype.language": 21,
+                "Navigator.prototype.cookieEnabled": 21,
+                "Document.cookie getter": 20,
+                "Date.prototype.getTimezoneOffset": 21,
+                "Date.prototype.getTime": 21,
+                "Document.cookie setter": 20,
+                "PerformanceTiming.prototype.navigationStart": 5
             },
-            "sites": 24,
-            "prevalence": 0.00241,
+            "sites": 21,
+            "prevalence": 0.0021,
             "cnames": [],
             "responseHashes": [
-                "9cd6b3d20d6e963f30ba287515f4ad3ef82591eb02d42c0b7bb69910e0c2dc1c"
+                "a105d7671a688f86c010879ab28395f3e7464d6d9da2a976fb1097dfd20f3ea0"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "NoCookie": {
-                    "ttl": -86397,
-                    "length": 4,
-                    "prevalence": 0.002107164358819988,
-                    "uniqueness": 0.09523809523809523
-                },
-                "BVBRANDID": {
-                    "ttl": 31536003,
-                    "length": 30,
-                    "prevalence": 0.002207505518763797,
-                    "uniqueness": 0.8636363636363636
-                },
-                "BVBRANDSID": {
-                    "ttl": 1803,
-                    "length": 30,
-                    "prevalence": 0.002207505518763797,
-                    "uniqueness": 0.8636363636363636
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.kwantum.nl",
-                "www.asus.com",
-                "www.vogels.com",
-                "rog.asus.com",
-                "www.linksys.com",
-                "www.mediamarkt.be",
-                "www.belkin.com",
-                "www.mediamarkt.nl",
-                "www.wiggle.nl",
-                "www.leenbakker.nl",
-                "www.merrell.com",
-                "www.jbl.nl",
-                "www.chainreactioncycles.com",
-                "www.jbl.com",
-                "nl.webuy.com",
-                "www.asics.com",
-                "nl.pandora.net",
-                "barnesandnoble.com",
-                "www.lg.com",
-                "www.netgear.com"
-            ]
-        },
-        {
-            "rule": "bazaarvoice\\.com\\/data\\/statistics\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "0374526ba310b7bf1976bf6e0f71946d7e652ba59c09534c359fb0884a4a52d9",
-                "8930563a65017e3c35d973b408c81a8cd656e4a15a0815531920e02411bf6ffa",
-                "ff4462a4f5abdf37188d00dde466faa081ea7236d7d45d53cfda55b26364766b",
-                "4a2da995460b287ff1822c8c4048afdaa9a93f899e5e1923a847432a44f89841",
-                "c69efcaf596db783defde663c2af94f89872c26d765f3b3711e20498b3fea84c",
-                "77ca7b01575a6f05b92e7ac175eae43be75133cf55088fb398b98b855b116bbb"
-            ],
-            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "barnesandnoble.com",
-                "www.asics.com",
+                "www.samsung.com",
                 "www.asus.com",
+                "www.belkin.com",
+                "www.vogels.com",
+                "rog.asus.com",
                 "www.barnesandnoble.com",
-                "www.bk.nl",
-                "www.chainreactioncycles.com",
-                "www.wiggle.nl"
+                "www.netgear.com",
+                "store.canon.nl",
+                "www.jbl.nl",
+                "webuy.com",
+                "www.denon.com",
+                "www.unisportstore.nl",
+                "www.brother.nl",
+                "www.dyson.com",
+                "nl.webuy.com",
+                "www.jbl.com",
+                "www.elgato.com",
+                "www.electroworld.nl",
+                "www.dyson.nl",
+                "www.marantz.com"
             ]
         },
         {
@@ -260,98 +125,121 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "network-a",
-                "network-eu-a"
+                "network-eu-a",
+                "network-a"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 18,
+            "prevalence": 0.0018,
             "cnames": [],
             "responseHashes": [
-                "dcecab1355b5c2b9ecef281322bf265ac5840b4688748586e9632b473a5fe56b"
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
             ],
             "type": "Image",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BVBRANDID": 0.0014028056112224449,
+                "BVBRANDSID": 0.0014028056112224449,
+                "IR_gbd": 0.0001002004008016032,
+                "crl8.fpcuid": 0.0001002004008016032
+            },
+            "exampleSites": [
+                "webuy.com",
+                "rog.asus.com",
+                "www.asus.com",
+                "www.barnesandnoble.com",
+                "www.belkin.com",
+                "www.brother.nl",
+                "www.denon.com",
+                "www.dyson.com",
+                "www.dyson.nl",
+                "www.electroworld.nl",
+                "www.euromaster.nl",
+                "www.jbl.nl",
+                "www.jbl.com",
+                "www.marantz.com",
+                "www.netgear.com",
+                "www.samsung.com",
+                "www.unisportstore.nl",
+                "www.vogels.com"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/prod\\/static\\/3\\/bv-analytics\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics-static.ugc"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "a105d7671a688f86c010879ab28395f3e7464d6d9da2a976fb1097dfd20f3ea0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": -86395,
+                    "length": 4,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDID": {
+                    "ttl": 31536008,
+                    "length": 36,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 1
+                },
+                "BVBRANDSID": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "barnesandnoble.com",
-                "m.barnesandnoble.com",
-                "www.barnesandnoble.com",
-                "www.leifheit.nl",
+                "asics.com",
                 "www.wiggle.nl"
             ]
         },
         {
             "rule": "bazaarvoice\\.com\\/sid\\.gif",
-            "cookies": 0.00201,
+            "cookies": 0.000601,
             "fingerprinting": 0,
             "subdomains": [
                 "network-eu",
                 "network"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.00201,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "dcecab1355b5c2b9ecef281322bf265ac5840b4688748586e9632b473a5fe56b"
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pandora.net",
-                "nl.webuy.com",
-                "rog.asus.com",
-                "www.asics.com",
-                "www.asus.com",
-                "www.belkin.com",
-                "www.bk.nl",
-                "www.chainreactioncycles.com",
+                "asics.com",
+                "store.canon.nl",
+                "www.elgato.com",
                 "www.euromaster.nl",
-                "www.jbl.com",
-                "www.jbl.nl",
-                "www.kwantum.nl",
-                "www.leenbakker.nl",
-                "www.lg.com",
-                "www.linksys.com",
-                "www.mediamarkt.be",
-                "www.mediamarkt.nl",
-                "www.merrell.com",
-                "www.netgear.com",
-                "www.vogels.com"
-            ]
-        },
-        {
-            "rule": "bazaarvoice\\.com\\/apps\\/api\\/api-0\\.8\\.0\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "apps"
-            ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.0012,
-            "cnames": [],
-            "responseHashes": [
-                "3c3669397a0d6ab57176fa267184cf71c62cac31cd57d6d26aa0f5cdd1797d19"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pandora.net",
-                "rog.asus.com",
-                "www.asus.com",
-                "www.belkin.com",
-                "www.bk.nl",
-                "www.jbl.com",
-                "www.jbl.nl",
-                "www.kwantum.nl",
-                "www.leenbakker.nl",
-                "www.leifheit.nl",
-                "www.lg.com",
-                "www.merrell.com"
+                "www.marantz.com",
+                "www.wiggle.nl"
             ]
         },
         {
@@ -363,148 +251,303 @@
                 "network"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.00201,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "a9a8e54001ddc31f5a84cf032d09073ba8660390f9267b53fa6a775eaa535aee",
-                "76386301a34d73e2f5ab18a7619c08fe883f4ca76befd095592cc77820c9571d",
-                "627d7167d2624a693dd48903b488a94608cade566d085b96afae025ffb9194fc",
-                "5f5bc6fd561640554aca8a84bd60325d5ef6aaea10ad760bb3531603f0a4e203",
-                "278a8a3940ba603e53006734ed5220e7c3c87d4014590c1b21ffc61cc7b57914",
-                "4494154b58e4aa0fe9f87f541a5bc6762bdf38891eea5644ed0173357ac7d7d1",
-                "45cae9d1882a4a62c5f58d6c42080b622181cb20f1f7a96ad98b30d054c26abd",
-                "05132e1f253934709cc69c74b888591298ae5024c435d5012896e54b7db66247",
-                "3658c6d3090569dbeb9b35957613649dbef4f7f3fe267e609c99448e0162a449",
-                "3a54b7fbd9ab95969ea5f08f6968c77b00620239d2438b4b2695f0db42b8f519",
-                "d8180c77af8a4bf842c9fa9d2a940cc539467dcecca77d5eb804488c18e4ec1e",
-                "e2b9579a3dd8f188dc7a40a9f37254ec344fd2984b305d065d31a350722edfa4",
-                "93c06a520e20c9d9a2b89005d1f5fc359828e2b16bc65cecb024116949e2de2b",
-                "51e44663f2d16d0c1e4b5bff1af2145f118bcb7149dcdf87b622af9a4a94d4ee",
-                "c9846061a8a073d53f0fe73a5bd5450164feba2ff214433cd3472013377729ea",
-                "28965049cbae1eda5d024b2c68b4b9ff61423e0867b9e86a4a79077da9f8f56e",
-                "4a9ca1fcf26caaad09d7bd2d379641c67821bdd2c37847bdde9c05f384d922c6",
-                "028b0078aec06c1be25fd0e6925854392cc0adfdd65aaf5a6d40630a0fe4c9ae",
-                "3035aae45d4ddc4898487e7bd9fdb8efcfd71a77ace2caa41da47fbb640dd98f"
+                "c3412bd2ed5730cc10799097f7bbfb2cdecab14d8f831fe6597185628e6fb645"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pandora.net",
-                "nl.webuy.com",
-                "rog.asus.com",
-                "www.asics.com",
-                "www.asus.com",
-                "www.belkin.com",
-                "www.bk.nl",
-                "www.chainreactioncycles.com",
+                "asics.com",
+                "store.canon.nl",
+                "www.elgato.com",
                 "www.euromaster.nl",
-                "www.jbl.com",
-                "www.jbl.nl",
-                "www.kwantum.nl",
-                "www.leenbakker.nl",
-                "www.lg.com",
-                "www.linksys.com",
-                "www.mediamarkt.be",
-                "www.mediamarkt.nl",
-                "www.merrell.com",
-                "www.netgear.com",
-                "www.vogels.com"
+                "www.marantz.com",
+                "www.wiggle.nl"
             ]
         },
         {
             "rule": "bazaarvoice\\.com\\/st\\.gif",
-            "cookies": 0.00191,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "network-eu",
                 "network"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.00201,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "dcecab1355b5c2b9ecef281322bf265ac5840b4688748586e9632b473a5fe56b"
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "BVBRANDID": 0.00190648203893237,
-                "BVBRANDSID": 0.00190648203893237
+                "BVBRANDID": 0.000501002004008016,
+                "BVBRANDSID": 0.000501002004008016,
+                "crl8.fpcuid": 0.0001002004008016032
             },
             "exampleSites": [
-                "pandora.net",
-                "nl.webuy.com",
-                "rog.asus.com",
-                "www.asics.com",
-                "www.asus.com",
-                "www.belkin.com",
-                "www.bk.nl",
-                "www.chainreactioncycles.com",
+                "asics.com",
+                "store.canon.nl",
+                "www.elgato.com",
                 "www.euromaster.nl",
-                "www.jbl.com",
-                "www.jbl.nl",
-                "www.kwantum.nl",
-                "www.leenbakker.nl",
-                "www.lg.com",
-                "www.linksys.com",
-                "www.mediamarkt.be",
-                "www.mediamarkt.nl",
-                "www.merrell.com",
-                "www.netgear.com",
-                "www.vogels.com"
+                "www.marantz.com",
+                "www.wiggle.nl"
             ]
         },
         {
-            "rule": "bazaarvoice\\.com\\/splitTests\\.json",
+            "rule": "bazaarvoice\\.com\\/apps\\/api\\/api-0\\.8\\.2\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "apps"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 9,
+            "prevalence": 0.000902,
             "cnames": [],
             "responseHashes": [
-                "264ee67f94b0b310d6d261546fa79bcf17467a3e0ea8861d9a9e62e249e5a59e"
+                "dccfc3418e69f6ca37f92a3459c360d871b36744be9a4e2b96bbe3ae4e45e4fd"
             ],
-            "type": "XHR",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "asics.com",
+                "asus.com",
+                "www.asus.com",
+                "www.barnesandnoble.com",
+                "www.brother.nl",
+                "www.jbl.nl",
                 "www.jbl.com",
-                "www.jbl.nl"
+                "www.netgear.com",
+                "www.samsung.com",
+                "www.unisportstore.nl"
             ]
         },
         {
-            "rule": "bazaarvoice\\.com\\/deployments\\/JBL\\/main_site\\/production\\/nl_NL\\/bv\\.js",
+            "rule": "bazaarvoice\\.com\\/apps\\/api\\/api-0\\.8\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [],
+            "responseHashes": [
+                "0be51ecda1851e22ee9644e9fc3c301b3ac0dc8b89fad8cf9789d16914682277"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.nl",
+                "www.belkin.com",
+                "www.dyson.com",
+                "www.dyson.nl",
+                "www.elgato.com",
+                "www.euromaster.nl"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/apps\\/inline_ratings\\/inline_ratings-2\\.3\\.3\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "apps"
             ],
             "apis": {
-                "Document.cookie getter": 2,
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "0e9bb834f02e8f4eb6c7f1ba718fb65c73855edd714a5386721d94c72dbab139"
+                "3b58eed50f50fb815c1924ed5d571f41316ea94e22cb7974a736c7a179781415"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "jbl.com",
+                "canon.nl",
+                "www.asus.com",
+                "www.barnesandnoble.com",
+                "www.electroworld.nl",
                 "www.jbl.nl"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/data\\/statistics\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e953919077ce5ec42a3df83d7741819d9b921b4e0005ca7fc5ac050fafd38253"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.nl",
+                "store.canon.nl"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/data\\/statistics\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "12b541d73ea20c79bb90f5155447dddabe3f5b58104f0f42d76a879587da6c73",
+                "178a328c61a01f2ee22669aa9f8953a364e6ee966ce14929afd60be515baf15e",
+                "3b6d5c8d4be8859a2b635a6274a520ed913c1ed1ea06b669fecc20afdb8de963"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barnesandnoble.com",
+                "www.electroworld.nl",
+                "www.jbl.nl",
+                "www.wiggle.nl"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/dysonglobal\\/main_site\\/production\\/nl_NL\\/bv\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "a431eb4fa0c4b11fd7aefb90c3a4df50f30f74dc454189aab62d9a8e5329142c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": -86391,
+                    "length": 4,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "BVBRANDID": {
+                    "ttl": 31536009,
+                    "length": 36,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "BVBRANDSID": {
+                    "ttl": 1809,
+                    "length": 36,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dyson.com",
+                "www.dyson.nl"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/dysonglobal\\/main_site\\/production\\/nl_NL\\/api-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "ee6cb134d086078b5b0521fe71b99d7ca5bd00f3fb096b6b8e6c15555134edd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dyson.com",
+                "www.dyson.nl"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/JBL\\/main_site\\/production\\/nl_NL\\/bv\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "ab6a60bf2ce7269e62717405c150893affc16c891fc05338459073fa6ac31d71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": -86391,
+                    "length": 4,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "BVBRANDID": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "BVBRANDSID": {
+                    "ttl": 1805,
+                    "length": 36,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbl.nl",
+                "www.jbl.com"
             ]
         },
         {
@@ -516,17 +559,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "d862a7a60050d5af3df00870e0b0f94738e851b81f15796a46560ecb3f5263e9"
+                "ba98b725a1d7b21f0c2d1e4d34671fe16e073eb33a9f541b3989e09fe4723087"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "jbl.com",
-                "www.jbl.nl"
+                "jbl.nl",
+                "www.jbl.com"
             ]
         }
     ],
@@ -540,12 +583,12 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.00241,
+    "cookies": 0.0021,
     "types": {
-        "Script": 83,
-        "Fetch": 7,
-        "Image": 45,
-        "XHR": 3
+        "Script": 59,
+        "Image": 30,
+        "XHR": 2,
+        "Fetch": 4
     },
     "nameservers": [
         "a13-66.akam.net",

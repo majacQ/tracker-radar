@@ -7,13 +7,12 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0014,
-    "sites": 14,
+    "prevalence": 0.0019,
+    "sites": 19,
     "subdomains": [
         "platform.cloud",
-        "usageanalytics",
-        "static.cloud",
-        "platform-au.cloud"
+        "analytics.cloud",
+        "static.cloud"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -26,15 +25,80 @@
                 "platform.cloud"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "force.com",
+                "xero.com",
+                "central.xero.com",
+                "kb.vmware.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/search\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8dadf305643814848c513dd12f66125917796c08734cba7a354529b0afd653c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xero.com",
+                "central.xero.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/search",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7857d5c92e41464bfc4b8c049b814e3f600fc5f8ca0f51764e715e1ded347e64"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xero.com",
+                "central.xero.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xero.com",
                 "central.xero.com"
             ]
         },
@@ -47,59 +111,59 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "3145ca2e8312d8ecb7efa4dc64d26a9deb0abc49b875ea8d78f78fab508da5a5"
+                "1537cc385a8ec1e47dfb32aa462be3f793bb18fc5d40d40aa6d80ad89b70aa49"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "force.com",
-                "central.xero.com"
+                "xero.com",
+                "kb.vmware.com"
             ]
         },
         {
-            "rule": "coveo\\.com\\/rest\\/v15\\/analytics\\/searches",
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/searches",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "usageanalytics"
+                "analytics.cloud"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "force.com",
-                "central.xero.com"
+                "xero.com",
+                "kb.vmware.com"
             ]
         },
         {
-            "rule": "coveo\\.com\\/rest\\/v15\\/analytics\\/searches",
-            "cookies": 0.0002,
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/searches",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "usageanalytics"
+                "analytics.cloud"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "0eebacafdd9cdc7447f5a2ae6f76925051ac55693a371a859aa9c0300d3eb052"
+                "7ca2ed11e8dd391bc0bb20d072588cf8b9430c66b8b99f055540277107bd143f"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "force.com",
-                "central.xero.com"
+                "xero.com",
+                "kb.vmware.com"
             ]
         },
         {
@@ -111,7 +175,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "87dbe6aceda21df339b98d24afeb9975282b52f292b2ef863577329946ba2645"
@@ -125,85 +189,48 @@
             ]
         },
         {
-            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/search",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "platform-au.cloud"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "coveo_visitorId": 0.00020044097013429546
-            },
-            "exampleSites": [
-                "bunnings.co.nz",
-                "www.bunnings.co.nz"
-            ]
-        },
-        {
-            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/search",
-            "cookies": 0.0002,
-            "fingerprinting": 0,
-            "subdomains": [
-                "platform-au.cloud"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "3acf6249868ceffb48a6d02a73e42107314690b9827abdd8b67bdcf8abdefa87"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "coveo_visitorId": 0.00020044097013429546
-            },
-            "exampleSites": [
-                "bunnings.co.nz",
-                "www.bunnings.co.nz"
-            ]
-        },
-        {
-            "rule": "coveo\\.com\\/searchui\\/v2\\.9159\\/js\\/CoveoJsSearch\\.Lazy\\.min\\.js",
+            "rule": "coveo\\.com\\/coveo\\.analytics\\.js\\/2\\/coveoua\\.js",
             "cookies": 0.0001,
             "fingerprinting": 2,
             "subdomains": [
                 "static.cloud"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.doNotTrack": 2,
                 "window.localStorage": 2,
                 "Navigator.prototype.cookieEnabled": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.language": 2,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 1,
                 "Document.cookie setter": 1,
-                "Document.cookie getter": 1
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "0451aa5fab1b63f58a03c1435e3ae0a73c57c6b3ef584af002c82f8d89050af0"
+                "e707c82eb47f121e04f238af08c9805ee80161ff0f0c67c5e56d80b5eda4b1b5"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "coveo_visitorId": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "heart.org",
-                "www.ird.govt.nz"
+                "blackwoods.com.au",
+                "www.bunnings.co.nz",
+                "www.rolex.com"
             ]
         },
         {
-            "rule": "coveo\\.com\\/searchui\\/v2\\.7219\\/css\\/CoveoFullSearch\\.css",
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10090\\/css\\/CoveoFullSearch\\.min\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -211,21 +238,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "25670ac442a83940b107f8076813b411657cf59e27bb9bc4a1ae4afd7b1a0ae8"
+                "ddbeadcd840e8e058da587074b6b2e6dc323c8b159fe60d92108488aab9d6ff1"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pennmedicine.org",
-                "www.uphs.upenn.edu"
+                "ird.govt.nz",
+                "www.mskcc.org"
             ]
         },
         {
-            "rule": "coveo\\.com\\/searchui\\/v2\\.10082\\/js\\/CoveoJsSearch\\.js",
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10090\\/js\\/CoveoJsSearch\\.Lazy\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -237,31 +264,31 @@
                 "window.localStorage": 2,
                 "Navigator.prototype.language": 2,
                 "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
-                "Navigator.prototype.maxTouchPoints": 2
+                "Navigator.prototype.maxTouchPoints": 1
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5406d9414b367b9dce8d4e96380a5294ce9dbb57e0080920f2b13fd5c96835dd"
+                "b558b6f9009af1fb5ed34c70a683687d588943c198953c76f18fffde37d97877"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pennmedicine.org",
-                "www.uphs.upenn.edu"
+                "ird.govt.nz",
+                "www.mskcc.org"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000501,
+    "cookies": 0.000802,
     "types": {
-        "Preflight": 6,
+        "Preflight": 7,
+        "Fetch": 4,
         "XHR": 4,
-        "Script": 6,
-        "Fetch": 2,
+        "Script": 7,
         "Stylesheet": 2
     },
     "nameservers": [

@@ -12,13 +12,15 @@
     "subdomains": [
         "www.it",
         "www.emea",
-        "sitesettingsapi"
+        "sitesettingsapi",
+        "productcatalogueapi",
+        "sfcc-prod-api"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "jabra\\.com\\/api\\/domaincookie\\/1435453673",
+            "rule": "jabra\\.com\\/api\\/domaincookie\\/189196777",
             "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
@@ -30,7 +32,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "9c6d485ae01a594ef22b3c44e1eca5314259061faacdcdfc51569aba58a4fc2b"
+                "912ec7f5b3f5c46eda8e14522f68ad424a51999b6e17650fed01980d0c56b601"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -74,7 +76,113 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "afe2eb2a3e8c04666c287d73734e0acd05c71b710bdfa64b9b7c9a6d2f6ac0f3"
+                "5d9c94c82790f5b319aea0df948531d93c42a490416dfe58248135287598ea62"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.fr",
+                "www.jabra.fr"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/\\/v1\\/family\\/filter",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productcatalogueapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.fr",
+                "www.jabra.fr"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/\\/v1\\/family\\/filter",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "productcatalogueapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c3bc6f4dbbb4c1abd1048b384fb445f2e4962fb683fddd313046243362f64884"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.fr",
+                "www.jabra.fr"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/api\\/v1\\/settings",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sitesettingsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "64d79b728bf577df6b84384a105d2dc96b9ba1da03901e7a60df6070daca6eaa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.fr",
+                "www.jabra.fr"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/s\\/jabra-emea\\/dw\\/shop\\/v21_3\\/product_search\\/prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfcc-prod-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jabra.fr",
+                "www.jabra.fr"
+            ]
+        },
+        {
+            "rule": "jabra\\.com\\/s\\/jabra-emea\\/dw\\/shop\\/v21_3\\/product_search\\/prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfcc-prod-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c9da1eb0cba48653c41e63a55cdad1b4df3cb7de17ff1fdc39740aede66a8d7d"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -90,10 +198,11 @@
     "cookies": 0.0001,
     "types": {
         "Image": 2,
-        "Fetch": 4
+        "Fetch": 10,
+        "Preflight": 4
     },
     "nameservers": [
-        "dns1.cscdns.net",
-        "dns2.cscdns.net"
+        "dns2.cscdns.net",
+        "dns1.cscdns.net"
     ]
 }

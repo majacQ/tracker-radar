@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
-        "sdk"
+        "sdk",
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -20,17 +21,19 @@
                 "sdk"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "b139351d8787201d93b7ab2a7a921af5ed35a2adfee67ce9653e4bfe7a705382"
+                "990b56f8d03877f2781e29d563d009ec43d517e5d94851e9e3cabc0e7c6ffcdd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "h2r-equipements.com",
+                "alltricks.fr",
+                "www.bricomarche.com",
+                "www.decathlon.fr",
                 "www.woodbrass.com"
             ]
         },
@@ -42,31 +45,82 @@
                 "sdk"
             ],
             "apis": {
-                "window.localStorage": 1,
+                "window.localStorage": 3,
                 "Navigator.prototype.platform": 1,
                 "Navigator.prototype.userAgent": 1,
                 "Navigator.prototype.vendor": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "2682a9657837ae8dad71ba6ed0632dbc4c906b122982d73246b9e789564793a7"
+                "fababac58238fa6608099bb13a238cea061bb9d680d8969904a87ea3781451fc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "h2r-equipements.com",
+                "alltricks.fr",
+                "www.bricomarche.com",
+                "www.decathlon.fr",
                 "www.woodbrass.com"
+            ]
+        },
+        {
+            "rule": "teester\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltricks.fr",
+                "www.alltricks.fr",
+                "www.bricomarche.com",
+                "www.decathlon.fr"
+            ]
+        },
+        {
+            "rule": "teester\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "8ec22bd849d12a697295623f2eac57b30f9b1bdb7073fa60acc447d79e01e0b2",
+                "c7b6893bdf852e4a4734c939da4e71fb1b0803ee67fb807688275eef733cb1e1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltricks.fr",
+                "www.alltricks.fr",
+                "www.bricomarche.com",
+                "www.decathlon.fr"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.00000678,
     "types": {
-        "Script": 4
+        "Script": 8,
+        "Preflight": 4,
+        "Fetch": 4
     },
     "nameservers": [
         "chan.ns.cloudflare.com",

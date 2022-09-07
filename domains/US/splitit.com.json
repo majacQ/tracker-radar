@@ -4,22 +4,22 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000483,
-    "sites": 7,
+    "prevalence": 0.0000203,
+    "sites": 3,
     "subdomains": [
         "upstream.production",
-        "api.production",
-        "flex-fields.production",
-        "flexfields.production",
-        "externals"
+        "splitit-dd.production",
+        "translations-v2.production",
+        "externals",
+        "shop-server"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "splitit\\.com\\/v1\\/dist\\/upstream-messaging\\.js",
-            "cookies": 0.0000138,
-            "fingerprinting": 2,
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
             "subdomains": [
                 "upstream.production"
             ],
@@ -27,6 +27,7 @@
                 "Date.prototype.getTime": 2,
                 "Navigator.prototype.product": 2,
                 "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
                 "Navigator.prototype.appName": 2,
                 "Navigator.prototype.appVersion": 2,
                 "Navigator.prototype.platform": 2,
@@ -34,96 +35,90 @@
                 "Navigator.prototype.language": 2,
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
-                "Navigator.prototype.connection": 2
+                "Navigator.prototype.connection": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d76c79c9c5fe278604954b519da3231b4e69809055ce50fd6b6c885c48d43dbb"
+                "ad88bdce0d749023c28f5ba479317039ffe60a877347b6fa80f4a08382db41db"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1660987778,
+                    "length": 1,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pittsburghsprayequip.com",
-                "secretlab.eu"
+                "secretlab.eu",
+                "www.ima-usa.com"
             ]
         },
         {
-            "rule": "splitit\\.com\\/api\\/Infrastructure\\/GetResources",
-            "cookies": 0.0000138,
+            "rule": "splitit\\.com\\/um-prod-ingestion-stream\\/record",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "api.production"
+                "splitit-dd.production"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a193dac3c3c267db8a5cbe798cbeb400d9e83956bfba34b9cbe2d098a4c9585b"
+                "cc250a5577fa9988e0b0b4c78559c8eb04b3b4a6c9fa513573cef68c2de65820"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "secretlab.eu",
+                "www.ima-usa.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/api\\/v1\\.0\\/translations\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "translations-v2.production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "89594d5e9a91cec5743689f871dca9c1f1bf1c89f6c130efae40d2c3812d5eb8"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pittsburghsprayequip.com",
-                "secretlab.eu"
-            ]
-        },
-        {
-            "rule": "splitit\\.com\\/css\\/splitit\\.flex-fields\\.min\\.css",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "flex-fields.production"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "52c8e9d7993486805ca70421cb3203b8ce4c623a521616984cd264dea4d1ec38"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ainidoll.com",
-                "www.ainidoll.com"
-            ]
-        },
-        {
-            "rule": "splitit\\.com\\/v2\\.0\\/splitit\\.flex-fields\\.sdk\\.js",
-            "cookies": 0.0000138,
-            "fingerprinting": 2,
-            "subdomains": [
-                "flexfields.production"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Navigator.prototype.language": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.width": 2,
-                "Date.prototype.getTimezoneOffset": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "447c061038a442fd36fcf2e76b3724ead76ac61bf1e3d628beb62fd8fb9a5f00"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ainidoll.com",
-                "www.ainidoll.com"
+                "secretlab.eu",
+                "www.ima-usa.com"
             ]
         },
         {
@@ -135,10 +130,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "38ed7eefdfd85e983acef74cdd73180bd5810bba600c32906327a1e1e654342a"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -149,20 +144,42 @@
             ]
         },
         {
-            "rule": "splitit\\.com\\/integration\\/tracker\\.html",
-            "cookies": 0,
+            "rule": "splitit\\.com\\/get-base-upstream-messaging-script",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
-                "externals"
+                "shop-server"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c11decd01aaf3d51c066581a9d0aa77ebe917957b4dd072c436830e2c25a8de8"
+                "52d118d28f46aff8c1336dff9a969916dba4f6fa036577deb33fa2d8f42cfec2"
             ],
-            "type": "Document",
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ima-usa.com",
+                "www.ima-usa.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/get-product-upstream-messaging-script",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shop-server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "25dc9371e77a91db2aa3c4313af1f9c024d0339cdcb2bae4788939bca0833ab7"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -173,17 +190,16 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000345,
+    "cookies": 0.0000203,
     "types": {
-        "Script": 6,
-        "Fetch": 2,
-        "Stylesheet": 2,
-        "Document": 2
+        "Script": 8,
+        "XHR": 2,
+        "Fetch": 2
     },
     "nameservers": [
-        "ns-177.awsdns-22.com",
-        "ns-762.awsdns-31.net",
+        "ns-1179.awsdns-19.org",
         "ns-1563.awsdns-03.co.uk",
-        "ns-1179.awsdns-19.org"
+        "ns-177.awsdns-22.com",
+        "ns-762.awsdns-31.net"
     ]
 }

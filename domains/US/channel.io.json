@@ -4,12 +4,14 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
         "cdn",
-        "ws",
-        "cf"
+        "cf",
+        "gw",
+        "1.front-ws",
+        "2.front-ws"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -22,92 +24,107 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "e821e05ae4bf5fd75b3b7b0ceb7800b320d2ebe8717b8fb54155c2f167d0ba87"
+                "b24e0a171d2fd6ebce8e3a3d2924cd435d5785408e64f4215dc5ed549950a65e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kawashima-ya.jp",
-                "rentry.jp"
+                "fushimi-uranai.jp",
+                "rentry.jp",
+                "snkrdunk.com"
             ]
         },
         {
-            "rule": "channel\\.io\\/plugin\\/ch-plugin-core-20211001140321\\.js",
-            "cookies": 0.0000138,
+            "rule": "channel\\.io\\/plugin\\/ch-plugin-core\\.24410231\\.vendor\\.js",
+            "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "window.localStorage": 2,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.platform": 1,
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.product": 2,
-                "Event.prototype.timeStamp": 2
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.product": 3,
+                "URL.createObjectURL": 2
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "3edb627e94fe96d6606df8bc7029bbbc0977fac91b64452d5539323541d9f844"
+                "8e177ee25edae3b117aba86dd08cd4d49b5470051bdf1162157f1464ef15939d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fushimi-uranai.jp",
+                "rentry.jp",
+                "snkrdunk.com"
+            ]
+        },
+        {
+            "rule": "channel\\.io\\/plugin\\/ch-plugin-core-20220809200348\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.language": 3,
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "a37d372d0a0f3cbcfbaa63506d7de7ca71371449c695238b4c1ac9a67dbcf69a"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "ch-veil-id": {
                     "ttl": 31536000,
                     "length": 36,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 },
-                "ch-session-63274": {
+                "ch-session-82775": {
                     "ttl": 1800,
                     "length": 175,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
                 "ch-session-20216": {
                     "ttl": 1800,
                     "length": 175,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "ch-session-62616": {
+                    "ttl": 1800,
+                    "length": 175,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kawashima-ya.jp",
-                "rentry.jp"
-            ]
-        },
-        {
-            "rule": "channel\\.io\\/socket\\.io\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ws"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "WebSocket",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kawashima-ya.jp",
-                "rentry.jp"
+                "fushimi-uranai.jp",
+                "rentry.jp",
+                "snkrdunk.com"
             ]
         },
         {
@@ -119,16 +136,16 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "cdce5d864d3b0a05ba2793480b56db8ae7ae26aae101bc29b34d1fae93b15343"
+                "1c35042a0b818d4b960b40143e6f2059e2eebc1a92cd6ce2c611b8692a05fe1d"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kawashima-ya.jp",
+                "fushimi-uranai.jp",
                 "rentry.jp"
             ]
         },
@@ -141,54 +158,101 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3765c61f4e883389683ed2a203d9700a02641a847bae837c41189521a20eb1fe"
+                "67abfbfbabf403a3be9e27374bf0b4fba59ad27216c4b420edc7322254bbe2b3"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kawashima-ya.jp",
+                "fushimi-uranai.jp",
                 "rentry.jp"
             ]
         },
         {
-            "rule": "channel\\.io\\/asset\\/plugin\\/images\\/chat-error-filled\\.svg",
+            "rule": "channel\\.io\\/front\\/routes\\/info",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cf"
+                "gw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "6ee0bc5e04cbc0da47e25f2ec49d9233e2c15000d3b4caa2d14408a4083d86b9"
+                "dbcc0939bb18917a345f6566a0f8613bfe9afad99491df109294050f66185972",
+                "db18f4e5a96fd8d6cd7b62e1abb8715df9fd4e786156d06b2c436c84ede7f42d"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kawashima-ya.jp",
-                "rentry.jp"
+                "fushimi-uranai.jp",
+                "rentry.jp",
+                "snkrdunk.com"
+            ]
+        },
+        {
+            "rule": "channel\\.io\\/front\\/routes\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fushimi-uranai.jp",
+                "rentry.jp",
+                "snkrdunk.com"
+            ]
+        },
+        {
+            "rule": "channel\\.io\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "1.front-ws",
+                "2.front-ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fushimi-uranai.jp",
+                "rentry.jp",
+                "snkrdunk.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000339,
     "types": {
-        "Script": 4,
-        "WebSocket": 2,
-        "Image": 6
+        "Script": 9,
+        "Image": 4,
+        "Fetch": 3,
+        "Preflight": 3,
+        "WebSocket": 3
     },
     "nameservers": [
-        "ns-1146.awsdns-15.org",
         "ns-174.awsdns-21.com",
-        "ns-1795.awsdns-32.co.uk",
-        "ns-552.awsdns-05.net"
+        "ns-552.awsdns-05.net",
+        "ns-1146.awsdns-15.org",
+        "ns-1795.awsdns-32.co.uk"
     ]
 }

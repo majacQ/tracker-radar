@@ -9,17 +9,87 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.00361,
-    "sites": 36,
+    "prevalence": 0.00431,
+    "sites": 43,
     "subdomains": [
-        "responder"
+        "responder",
+        "responder.envivas-wtc",
+        "responder.generali-wtc"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "ti.envivas.de",
+            "resolved": "responder.envivas-wtc.wt-safetag.com"
+        },
+        {
+            "original": "ti.generali.de",
+            "resolved": "responder.generali-wtc.wt-safetag.com"
+        }
+    ],
     "fingerprinting": 2,
     "resources": [
         {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/438500649507193",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.vendor": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.plugins": 3,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6fcda7b473113334416bae4c97bf241b1e523a6f2719d29e0662d87bf43528b5",
+                "ddbf70d4b9ce04ad659df5456b7ef9f5e14b8114c2ccc4c5f2d604aa3fe49595"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wt3_eid": {
+                    "ttl": 15552003,
+                    "length": 62,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 1
+                },
+                "wt3_sid": {
+                    "ttl": null,
+                    "length": 18,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 0.6666666666666666
+                },
+                "wt_rla": {
+                    "ttl": null,
+                    "length": 35,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dkb.de",
+                "www.dkb.de",
+                "www.miles-and-more-kreditkarte.com"
+            ]
+        },
+        {
             "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/915616854953982",
-            "cookies": 0.000201,
+            "cookies": 0.0002,
             "fingerprinting": 2,
             "subdomains": [
                 "responder"
@@ -34,28 +104,30 @@
                 "Screen.prototype.height": 2,
                 "Screen.prototype.colorDepth": 2,
                 "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
                 "Navigator.prototype.javaEnabled": 2,
                 "Navigator.prototype.plugins": 2,
                 "Document.cookie setter": 2,
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "b1f6d1c61cb3075ae710261ccd0aaa2f444e3b639d0fd1a8c6fc281d9ee1a5c6"
+                "92cc4b64c006abc108d1a20d2aad229c75aef4851cfad4c5db2d0db58f51e446"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "wt_rla": {
                     "ttl": null,
                     "length": 35,
-                    "prevalence": 0.00020062192797672785,
+                    "prevalence": 0.00020046106043900973,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00020062192797672785
+                "get_top_level_domain_cookie": 0.00020046106043900973
             },
             "exampleSites": [
                 "augsburger-allgemeine.de",
@@ -64,16 +136,17 @@
         },
         {
             "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/208005830805862",
-            "cookies": 0.0001,
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "responder"
             ],
             "apis": {
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "49959c406e92fbd13ef150641ea52984b9731fa9a9b034876460858b6d584b7b"
@@ -88,20 +161,20 @@
         },
         {
             "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/981949533494636",
-            "cookies": 0.000401,
+            "cookies": 0.000301,
             "fingerprinting": 1,
             "subdomains": [
                 "responder"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "Document.cookie getter": 3
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "0a8a35503f74352fdf333255981eaa5f2438ea4a4b370bf623e8236f6123fcc6"
+                "d7db9414e487a404703957c7441ae0b34d1bfcf26ff7e5487960471807722f1c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -109,177 +182,12 @@
             "exampleSites": [
                 "zeit.de",
                 "sudoku.zeit.de",
-                "www.zeit.de",
-                "ze.tt"
-            ]
-        },
-        {
-            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/431121349990569",
-            "cookies": 0.000201,
-            "fingerprinting": 1,
-            "subdomains": [
-                "responder"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "c42e31d44dccf2112caa6c64a25624818616324c5bfb91b1ee42fdd7e1ce7d35"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kfw.de",
-                "www.kfw.de"
+                "www.zeit.de"
             ]
         },
         {
             "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/102571513503709",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
-            "subdomains": [
-                "responder"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.appName": 2,
-                "Navigator.prototype.vendor": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Navigator.prototype.plugins": 2,
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8fd87f52f90333c7bc7ea73e4e5a2e9d5594c07ff8872db3c9d61fd3eb10f1d0"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "berlin.de",
-                "www.stadtentwicklung.berlin.de"
-            ]
-        },
-        {
-            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/517717528680725",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
-            "subdomains": [
-                "responder"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.appName": 2,
-                "Navigator.prototype.vendor": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Navigator.prototype.plugins": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "eca03825e0d0c73742c578984d7a164145e014c638cf233067f0dbb08b850110"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "wt_rla": {
-                    "ttl": 5184007,
-                    "length": 35,
-                    "prevalence": 0.00020062192797672785,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "allgaeuer-zeitung.de",
-                "www.all-in.de"
-            ]
-        },
-        {
-            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/438500649507193",
-            "cookies": 0.0001,
-            "fingerprinting": 2,
-            "subdomains": [
-                "responder"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.appName": 2,
-                "Navigator.prototype.vendor": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Navigator.prototype.plugins": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "0bca0e4b2ae01aeead5636b1cbc2930cc729e14ad5051955ade1326bf78f6259"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dkb.de",
-                "www.miles-and-more-kreditkarte.com"
-            ]
-        },
-        {
-            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/304755729711990",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
-            "subdomains": [
-                "responder"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.appName": 2,
-                "Navigator.prototype.vendor": 2,
-                "Screen.prototype.availWidth": 2,
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "892c255fe24001f34c47f0c34d5c5a6335555e527d6358eed48dfe4684cbebe8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hornbach.de",
-                "www.hornbach.at"
-            ]
-        },
-        {
-            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/504684408060410",
-            "cookies": 0.000201,
+            "cookies": 0.0002,
             "fingerprinting": 2,
             "subdomains": [
                 "responder"
@@ -295,49 +203,321 @@
                 "Screen.prototype.height": 2,
                 "Screen.prototype.colorDepth": 2,
                 "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
                 "Navigator.prototype.javaEnabled": 2,
                 "Navigator.prototype.plugins": 2,
-                "Date.prototype.getTimezoneOffset": 1,
-                "window.localStorage": 1
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "a06b48200000290ac48f7cc907ea58c60ccae7cb773008d81ac7dc689fe135fc"
+                "70fe8cbcda44d412d47dc49c3e06ca13c0a009047aa973a42d2b4cc9fe4fbf9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wt_rla": {
+                    "ttl": null,
+                    "length": 35,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlin.de",
+                "www.stadtentwicklung.berlin.de"
+            ]
+        },
+        {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/517717528680725",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "a0b5a61dd6a152efdfee02898e7adcca4d4bada11a725933074bff7d2f233d13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wt_cookiecontrol": {
+                    "ttl": 15552007,
+                    "length": 1,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
+                },
+                "wt_rla": {
+                    "ttl": null,
+                    "length": 35,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00010023053021950487
+            },
+            "exampleSites": [
+                "allgaeuer-zeitung.de",
+                "www.all-in.de"
+            ]
+        },
+        {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/504684408060410",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.vendor": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cce627a78721ddb85908e93052f06fd488ea5c5fe81a8f46cc0eadf940d17196",
+                "029acfb376f53cba0ed99e8f37e8075b8776015ca0ab88fc944cad9daeb5828d"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "wt_cdbeid": {
-                    "ttl": 904,
+                    "ttl": 903,
                     "length": 1,
-                    "prevalence": 0.00010031096398836393,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
+                },
+                "wt3_eid": {
+                    "ttl": 15552003,
+                    "length": 62,
+                    "prevalence": 0.00010023053021950487,
+                    "uniqueness": 1
+                },
+                "wt3_sid": {
+                    "ttl": null,
+                    "length": 18,
+                    "prevalence": 0.00010023053021950487,
                     "uniqueness": 1
                 },
                 "wt_rla": {
-                    "ttl": 5184005,
+                    "ttl": null,
                     "length": 35,
-                    "prevalence": 0.00020062192797672785,
+                    "prevalence": 0.00020046106043900973,
                     "uniqueness": 1
                 },
                 "wt_geid": {
                     "ttl": null,
                     "length": 24,
-                    "prevalence": 0.00010031096398836393,
+                    "prevalence": 0.00010023053021950487,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00010031096398836393
+                "get_top_level_domain_cookie": 0.00010023053021950487
             },
             "exampleSites": [
-                "ka-news.de",
+                "bodenseeferien.de",
+                "www.ka-news.de",
                 "www.suedkurier.de"
             ]
         },
         {
-            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/253822047730481",
-            "cookies": 0.000201,
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/964836524012570",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.vendor": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.plugins": 3,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f0c30aa346fbfba005204a51c76ccc8928d81d6d834bf6cbfad60d5592eaa931",
+                "d21e0bc7dd9c24f7549a3ee6b4289c3b86bb33881b5175e5a098c2d25a9e1b39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wt_cdbeid": {
+                    "ttl": 903,
+                    "length": 1,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 0.3333333333333333
+                },
+                "wt3_eid": {
+                    "ttl": 15552003,
+                    "length": 62,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 1
+                },
+                "wt3_sid": {
+                    "ttl": null,
+                    "length": 18,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 1
+                },
+                "wt_rla": {
+                    "ttl": 5184003,
+                    "length": 35,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 1
+                },
+                "wt_geid": {
+                    "ttl": null,
+                    "length": 24,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bruegelmann.de",
+                "www.campz.de",
+                "www.fahrrad.de"
+            ]
+        },
+        {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/639871942536313",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder.envivas-wtc",
+                "responder.generali-wtc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "ti.envivas.de",
+                    "resolved": "responder.envivas-wtc.wt-safetag.com"
+                },
+                {
+                    "original": "ti.generali.de",
+                    "resolved": "responder.generali-wtc.wt-safetag.com"
+                }
+            ],
+            "responseHashes": [
+                "815adbe6749db6cf517976ec456bceb8d625336c2aa88993ec28e5e5ed0255a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "envivas.de",
+                "www.generali.de"
+            ]
+        },
+        {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/195357560818821",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "fc6c4bfca4082dfd7f8cb95ae9120fed8260243c1bb7c89faa695c8cad71fc25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wt_cdbeid": {
+                    "ttl": 908,
+                    "length": 1,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
+                },
+                "wt_rla": {
+                    "ttl": 5184008,
+                    "length": 35,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 1
+                },
+                "wt_geid": {
+                    "ttl": null,
+                    "length": 24,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firmenwissen.de",
+                "www.firmenwissen.com"
+            ]
+        },
+        {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/382202390743064",
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "responder"
@@ -345,35 +525,82 @@
             "apis": {
                 "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie setter": 1
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "6c27962a526989da4fabf82f35c6ba67d4723b379f8c596203cd6c18ca72baad"
+                "ea6cf85ef788b9a3f61fc62ecc9014dde6643a26038406f6885c4c568c83f94e"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "wt_nv": {
-                    "ttl": 15552002,
+                "wt_cdbeid": {
+                    "ttl": 907,
                     "length": 1,
-                    "prevalence": 0.00010031096398836393,
-                    "uniqueness": 1
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goethe.de",
+                "www.goethe.de"
+            ]
+        },
+        {
+            "rule": "wt-safetag\\.com\\/resp\\/api\\/get\\/304755729711990",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
+            "subdomains": [
+                "responder"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availWidth": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "66a28253a97ac60f173d070478dde91778d557d03659e02c5d0cd91e92fa00d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "miCookieOptOut": {
+                    "ttl": 155520004,
+                    "length": 1,
+                    "prevalence": 0.00020046106043900973,
+                    "uniqueness": 0.5
                 },
-                "wt_nv_s": {
+                "wt_rla": {
                     "ttl": null,
-                    "length": 1,
-                    "prevalence": 0.00010031096398836393,
+                    "length": 35,
+                    "prevalence": 0.00020046106043900973,
                     "uniqueness": 1
                 }
             },
-            "firstPartyCookiesSent": {
-                "_cb_svref": 0.00010031096398836393
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "repubblica.it",
-                "www.repubblica.it"
+                "hornbach.de",
+                "www.hornbach.at"
             ]
         }
     ],
@@ -382,9 +609,9 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {},
-    "cookies": 0.00321,
+    "cookies": 0.00431,
     "types": {
-        "Script": 22
+        "Script": 28
     },
     "nameservers": [
         "ns3.gdns.de",

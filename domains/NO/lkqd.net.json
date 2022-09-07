@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.00151,
-    "sites": 15,
+    "prevalence": 0.000903,
+    "sites": 9,
     "subdomains": [
         "ad",
         "v",
@@ -24,18 +24,20 @@
         {
             "rule": "lkqd\\.net\\/vpaid\\/formats\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "ad"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.doNotTrack": 3
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "7cfe458faed6fe5c3094bd51f1f10174604be983739ade9d828b0aad190043e5"
@@ -45,37 +47,39 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "no.esdifferent.com",
-                "www.telegraf.rs"
+                "no.medic-life.com"
             ]
         },
         {
             "rule": "lkqd\\.net\\/cookie-sync\\/usync\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.000201,
+            "fingerprinting": 1,
             "subdomains": [
                 "ad"
             ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6a9927d34f4bab2af700510fd27194cfd1603e97a34cbb21678350f4cd93b2b3"
+                "a09fb04841151074c73e8daf6edb12da7ffd8b5e7812492a6d9f3ae977fe3d31"
             ],
             "type": "Document",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "csip": {
+                    "ttl": 300,
+                    "length": 4,
+                    "prevalence": 0.00020062192797672785,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "betterdiscord.app",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "wowtbc.gg",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs"
+                "no.medic-life.com"
             ]
         },
         {
@@ -87,128 +91,21 @@
                 "ssp"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.0012,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "1b5fe38e773d5faa2b1c90a50428f562b207e362fa28a127172a281c5dbc9706",
-                "b8160c3d8f17b9f5aea81d8a3a095d014da21ba47e229dd12fd04b7cbe83b58b",
-                "e9beb7ea6981b88a05ac15ddceee0340497c7e3ac9a2aafe3301ec8bc3cf39ea",
-                "eaf96d9725faf51dfaac8402daefb43b50444501b9952d0178d25eecf6369c83",
-                "0863882f1d6ce836e3dcf7123e95e2c188fd7d4eda775c696ded7e1d82c61080",
-                "3656896947b6b880cc9808a6e5cd3b35b54db85f43f17f3600a25aca063f4185",
-                "e30374bd2baf76a35b11c9df3497b4a3d076be51c723ab31de11ebb8aef29789",
-                "1e68837b7847565bb1b824548541edcb0cf6f9181f047b8daf0724359dac556d",
-                "186cd264fb9f8aae67b2191af0603461caecade96a3d82aa9c708cccbd2a68e4",
-                "7b6f67b8ef00c0775698bf6389c3b61112903afaaba29c39114340d795422268"
+                "e719d1ba6d059392061329e2e2b5331b7acc993caefb04408f7a9084e2db1794",
+                "0863882f1d6ce836e3dcf7123e95e2c188fd7d4eda775c696ded7e1d82c61080"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "betterdiscord.app",
-                "ffxiv.gamerescape.com",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "worldstarhiphop.com",
-                "wowtbc.gg",
-                "www.counterstats.net",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "betterdiscord.app",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "wowtbc.gg",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0.000803,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "betterdiscord.app",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "wowtbc.gg",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/vpaid\\/vpaid\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 9,
-                "Navigator.prototype.userAgent": 9,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9,
-                "Navigator.prototype.doNotTrack": 9
-            },
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [
-                "ef50960ff4008e29ce90d5fbf828aafc92f1df70f59fb672fa3884fdd2017a5f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "betterdiscord.app",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "wowtbc.gg",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs"
+                "no.medic-life.com",
+                "www.discovermagazine.com",
+                "www.whatfontis.com"
             ]
         },
         {
@@ -223,12 +120,66 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
-            "type": "Other",
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "www.telegraf.rs"
+                "no.medic-life.com"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/t",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "no.medic-life.com"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/vpaid\\/vpaid\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.outerWidth": 2,
+                "window.innerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "36ae762191d24727fbba21272ea14872bb7824188961282001d50e67f7b1881c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "no.medic-life.com"
             ]
         },
         {
@@ -239,28 +190,23 @@
                 "cs"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.0012,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "betterdiscord.app",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "starsgab.com",
-                "thetruedefender.com",
-                "wowtbc.gg",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs",
-                "www.vice.com"
+                "food.ndtv.com",
+                "grammarhow.com",
+                "no.medic-life.com",
+                "www.ndtv.com",
+                "www.smbc-comics.com",
+                "www.technorms.com"
             ]
         },
         {
@@ -271,8 +217,8 @@
                 "v"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -280,14 +226,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "betterdiscord.app",
-                "gtaforums.com",
-                "no.esdifferent.com",
-                "prosettings.net",
-                "wowtbc.gg",
-                "www.gamewatcher.com",
-                "www.planetminecraft.com",
-                "www.telegraf.rs"
+                "no.medic-life.com"
             ]
         }
     ],
@@ -298,14 +237,13 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {},
-    "cookies": 0.000803,
+    "cookies": 0.000201,
     "types": {
-        "Script": 12,
-        "Document": 9,
-        "XHR": 21,
-        "Preflight": 18,
-        "Other": 2,
-        "Image": 12
+        "Script": 4,
+        "Document": 2,
+        "XHR": 6,
+        "Preflight": 4,
+        "Image": 7
     },
     "nameservers": [
         "ns-1476.awsdns-56.org",

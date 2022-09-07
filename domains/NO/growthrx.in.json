@@ -7,7 +7,8 @@
     "prevalence": 0.000201,
     "sites": 2,
     "subdomains": [
-        "static"
+        "static",
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -30,27 +31,69 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ebca7005b4ecc80d3963948d8d3e36411a201840e4639dfd232801d537d09e1d"
+                "c1decb9a62362c396d81e5234ed8a1d3463eebc06eb93b9bbafd65e08acba096"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_grx": {
-                    "ttl": 63072002,
+                    "ttl": 63072014,
                     "length": 36,
-                    "prevalence": 0.00020070245860511792,
+                    "prevalence": 0.00010031096398836393,
                     "uniqueness": 1
                 },
                 "_grxs": {
-                    "ttl": 1802,
+                    "ttl": 1814,
                     "length": 36,
-                    "prevalence": 0.00010035122930255896,
+                    "prevalence": 0.00010031096398836393,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "indiatimes.com",
-                "www.gadgetsnow.com"
+                "timesofindia.com",
+                "timesofindia.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "growthrx\\.in\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8719d96c77f887ea9b3b139dce98f0b2aa072ab557fc0ac24f9466dc7b3f3d2a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timesofindia.com",
+                "timesofindia.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "growthrx\\.in\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timesofindia.com",
+                "timesofindia.indiatimes.com"
             ]
         }
     ],
@@ -58,18 +101,20 @@
     "performance": {},
     "cookies": 0.000201,
     "types": {
-        "Script": 2
+        "Script": 2,
+        "Fetch": 2,
+        "Preflight": 2
     },
     "nameservers": [
         "ns4.p07.dynect.net",
-        "ns1.p07.dynect.net",
-        "pdns3.ultradns.org",
-        "ns3.p07.dynect.net",
-        "ns2.p07.dynect.net",
-        "pdns2.ultradns.net",
         "pdns6.ultradns.co.uk",
-        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
+        "pdns4.ultradns.org",
+        "ns2.p07.dynect.net",
         "pdns5.ultradns.info",
-        "pdns4.ultradns.org"
+        "pdns1.ultradns.net",
+        "pdns3.ultradns.org",
+        "ns1.p07.dynect.net",
+        "ns3.p07.dynect.net"
     ]
 }

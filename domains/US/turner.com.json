@@ -2,16 +2,16 @@
     "domain": "turner.com",
     "owner": {
         "name": "WarnerMedia, LLC",
-        "displayName": "WarnerMedia"
+        "displayName": "WarnerMedia",
+        "privacyPolicy": "https://www.warnermediaprivacy.com/policycenter/b2c/WMNS/en-us",
+        "url": "http://warnermediaprivacy.com"
     },
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000145,
-    "sites": 21,
+    "prevalence": 0.000102,
+    "sites": 15,
     "subdomains": [
-        "i.cdn",
-        "tvem.cdn",
         "s.cdn",
         "z.cdn",
         "turnip.cdn"
@@ -20,74 +20,6 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "turner\\.com\\/ads\\/adfuel\\/ais\\/2\\.1\\/br-ais\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "i.cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "db7f559647239fb5b66ddbd181e763643b788893243e2c7fabaca074de8f7335"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bleacherreport.com",
-                "www.bleacherreport.com"
-            ]
-        },
-        {
-            "rule": "turner\\.com\\/v2\\/getConfig",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tvem.cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bleacherreport.com",
-                "www.bleacherreport.com"
-            ]
-        },
-        {
-            "rule": "turner\\.com\\/v2\\/getConfig",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tvem.cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "445700478861a0ee54cb0347d2d0e71b9089b7b24fe938d4ee9ce395c20d7da6"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bleacherreport.com",
-                "www.bleacherreport.com"
-            ]
-        },
-        {
             "rule": "turner\\.com\\/analytics\\/comscore\\/streamsense\\.5\\.2\\.0\\.160629\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
@@ -95,111 +27,211 @@
                 "s.cdn"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "6d4c9f94381f2ec7e6e3384952a393b331e7793beda9dda950d2802a79279701"
+                "cfe9c981c4b6a98bcf7bad851a321d94cd5d6b52166581a1ee054607aa1727a3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "uol.com.br",
+                "abc30.com",
                 "ktvz.com",
-                "noticias.uol.com.br",
-                "www.band.uol.com.br",
+                "kvia.com",
+                "localnews8.com",
                 "www.bol.uol.com.br",
-                "www.cnn.co.jp",
                 "www.uol.com.br"
             ]
         },
         {
             "rule": "turner\\.com\\/cnn\\/van\\/resources\\/scripts\\/van-widgets\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.00000678,
+            "fingerprinting": 1,
+            "subdomains": [
+                "z.cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "54810abc3d5706ee7f51b6e30773fb8cfb9f505472f02a65c73feb895cdbe98a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "logglytrackingsession": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qctimes.com",
+                "www.wlsam.com"
+            ]
+        },
+        {
+            "rule": "turner\\.com\\/cnn\\/van\\/resources\\/2\\.1\\/scripts\\/van-portal-category\\.js",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "z.cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "54810abc3d5706ee7f51b6e30773fb8cfb9f505472f02a65c73feb895cdbe98a"
+                "d48e2a33e8f0ce0143d48b1d07fe3f87e2cead67939d98f0d1da6de1a465dc72"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "abccolumbia.com",
+                "qctimes.com",
                 "www.wlsam.com"
             ]
         },
         {
-            "rule": "turner\\.com\\/top\\/player-ui\\/2\\.4\\.0-1\\.rc\\.2\\/player-ui\\.min\\.js",
-            "cookies": 0.0000138,
+            "rule": "turner\\.com\\/cnn\\/van\\/resources\\/2\\.1\\/scripts\\/van-portal-affiliate\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "z.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "489eda11574f72e438c72731695c03895a7c78a09ba73fda5e88fbff45bd02fe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qctimes.com",
+                "www.wlsam.com"
+            ]
+        },
+        {
+            "rule": "turner\\.com\\/cnn\\/van\\/resources\\/2\\.1\\/scripts\\/vendor\\/loggly\\.tracker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "z.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a048ba8c6d01d19340d1541cfb6f811095fa11ba3fe3c3d0c67e41361efe077f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qctimes.com",
+                "www.wlsam.com"
+            ]
+        },
+        {
+            "rule": "turner\\.com\\/cnn\\/van\\/resources\\/2\\.1\\/scripts\\/van-widget-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "z.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "64474c70a9fdc60a6bf710126f87cb72209113479bb2e4bbf3ce0a94c103c773"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qctimes.com",
+                "www.wlsam.com"
+            ]
+        },
+        {
+            "rule": "turner\\.com\\/top\\/player-ui\\/2\\.11\\.2-0\\/player-ui\\.min\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "turnip.cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0aa47e8dcc1c705e9ccde95bc4103bd47b412421df02c8ca4f1c3645e88cd624"
+                "f9ff599a54f4610ee983aa844064d488193e0137c7cc3b1ee54a8b8540b6c57f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hbomax.com",
-                "www.hbomax.com"
+                "dc.com",
+                "www.hbo.com"
             ]
         },
         {
-            "rule": "turner\\.com\\/top\\/player-ui\\/2\\.4\\.0-1\\.rc\\.2\\/player-ui\\.min\\.css",
-            "cookies": 0.0000138,
+            "rule": "turner\\.com\\/top\\/player-ui\\/2\\.11\\.2-0\\/player-ui\\.min\\.css",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "turnip.cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "edfe606d4227aef24f3d2086b727563fa3dd4f740f168d8277cd6342ad84cbae"
+                "736c9bc715c1e3b8ba9fe583971ae8f11e467c3a23e4b663afc75ecc375cdc3d"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hbomax.com",
-                "www.hbomax.com"
+                "dc.com",
+                "www.hbo.com"
             ]
         },
         {
             "rule": "turner\\.com\\/top\\/assets\\/fonts\\/roboto\\/0\\/roboto-regular\\.woff2",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "turnip.cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e38707d8ac413a1823977e33211ca825492fca961c6f5fe5f44121df1b8d3066"
+                "e69efa031327df50f3d2c09074f6785d64dd1597f822a38897265a28f706fa0c"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hbomax.com",
-                "www.hbomax.com"
+                "dc.com",
+                "www.hbo.com"
             ]
         },
         {
@@ -211,9 +243,11 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "9b1274a51cbd9ade73bbe24f34a94fb232ac3527560db141943c5b57ca2143ed"
+            ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
@@ -224,14 +258,22 @@
         },
         {
             "rule": "turner\\.com\\/nba\\/tmpl_asset\\/static\\/nba-cms3-base\\/466\\/js\\/pkgAnalytics-min\\.js",
-            "cookies": 0.0000138,
-            "fingerprinting": 2,
+            "cookies": 0.0000136,
+            "fingerprinting": 3,
             "subdomains": [
                 "s.cdn"
             ],
             "apis": {
                 "window.name": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.screenX": 2,
+                "window.screenY": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
                 "window.devicePixelRatio": 2,
+                "window.screenLeft": 2,
+                "window.screenTop": 2,
                 "window.indexedDB": 2,
                 "window.sessionStorage": 2,
                 "window.localStorage": 2,
@@ -249,7 +291,7 @@
                 "Navigator.prototype.plugins": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "fa87296dc1501dcf59b64183bbcf30bb77b7cbdcd249e096535b48c0d9d06fb6"
@@ -259,20 +301,20 @@
                 "s_cc": {
                     "ttl": null,
                     "length": 4,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 },
                 "s_fid": {
-                    "ttl": 63072005,
+                    "ttl": 63158425,
                     "length": 33,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "s_sq": {
                     "ttl": null,
-                    "length": 13,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
+                    "length": 465,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
@@ -284,11 +326,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000483,
+    "cookies": 0.0000474,
     "types": {
-        "Script": 17,
-        "Preflight": 2,
-        "Fetch": 2,
+        "Script": 14,
+        "XHR": 8,
         "Stylesheet": 2,
         "Font": 2
     },

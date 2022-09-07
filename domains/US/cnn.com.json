@@ -2,80 +2,292 @@
     "domain": "cnn.com",
     "owner": {
         "name": "WarnerMedia, LLC",
-        "displayName": "WarnerMedia"
+        "displayName": "WarnerMedia",
+        "privacyPolicy": "https://www.warnermediaprivacy.com/policycenter/b2c/WMNS/en-us",
+        "url": "http://warnermediaprivacy.com"
     },
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000283,
-    "sites": 41,
+    "prevalence": 0.0000746,
+    "sites": 11,
     "subdomains": [
-        "cdn",
+        "newsource-embed-prd.ns",
+        "lightning",
+        "smetrics",
         "z.cdp-dev",
-        "collector.cdp"
+        "newsource-embed-api.ns",
+        "collector.cdp",
+        "cdn"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "cnn\\.com\\/analytics\\/cnn\\/uidcheck\\.html",
+            "rule": "cnn\\.com\\/videos\\/embed-video-player\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "cdn"
+                "newsource-embed-prd.ns"
             ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "9ac7adf5416c43f6f615657236275a63f9318c73b0e0abe4ca2530c886be98a0"
+                "08df40402b5888be8771223fe6b8891f086be8335e5af973909f78736f3a3f53"
             ],
-            "type": "Document",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "att.com",
-                "bleacherreport.com",
-                "currently.att.yahoo.com",
-                "start.att.net",
-                "www.att.com",
-                "www.bleacherreport.com",
-                "www.wireless.att.com"
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/211001204341-biden-cap-hill-1001-super-tease\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/launch-38d3a91cf620\\.min\\.js",
+            "cookies": 0.0000271,
+            "fingerprinting": 1,
             "subdomains": [
-                "cdn"
+                "lightning"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.appVersion": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "91b9e754e2c74b8499f167a77e198bb5844a87ab5db63d9fff616d93718276ed"
+                "30afbf815142f46b227b8d54ffe7730866a0bc78afb3f2205926aed54f4ef201"
             ],
-            "type": "Image",
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_7FF852E2556756057F000101%40AdobeOrg": {
+                    "ttl": 63158407,
+                    "length": 241,
+                    "prevalence": 0.000027111659369111688,
+                    "uniqueness": 1
+                },
+                "AMCVS_7FF852E2556756057F000101%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000027111659369111688,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/videos\\/main_ns_video_player\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "newsource-embed-prd.ns"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 4,
+                "Date.prototype.getTime": 3,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "3cf16ab00927d333e16f1f4778e4ef2b547152c1cf0fcf832ed6e08d652a3f35"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailypostla.com",
-                "rightwirereport.com"
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/videos\\/main_ns_video_player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-embed-prd.ns"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "9d36d1c0de1e98b1d24220a40dd82d0617644def98f42f14c29b690d1c3e6909"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/videos\\/googlesdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "newsource-embed-prd.ns"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.deviceMemory": 4,
+                "Navigator.prototype.mimeTypes": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "d3209fbacfc9ee6539c288f0a8cf68ca211dd5f1b26b4537c4b40e764b9f7fd1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/f46fe08a339c\\/EX4b5cf9fbfe4346bcb28b0ee8d0883eb1-libraryCode_source\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appName": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "e13e70b5262f2f3dc87029dfc486910be0c6548d9a5575a8710768517d9106a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/id",
+            "cookies": 0.0000271,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "51ec8e1af09627df011c2c26414f15a853e9b597c7fbe871b8d2581e9b0ee5ad",
+                "ec1c8c9cfb0820b9a6b48571f69bd53fe1923de2a3e4c9a5fd3071c788af9d7f",
+                "dcaee7a02224b0e9df250faeff86cc45951cf73cea2703ddfc0a3dc1059e8952"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/f46fe08a339c\\/RCfa1c883734534f889a631211e44d623d-source\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "701c81f0a568f0401384a88039cf767675c5b122cd716f85ca2ff0c75cb55187"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/launch\\/7be62238e4c3\\/c94136f310b4\\/f46fe08a339c\\/RC705a56330cd24520be3ffd6c91cd2845-source\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "1314b0c0e45e1044c7c97285e922ba644c36cda1e3b575692d24a2cf9e415fce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com",
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
             "rule": "cnn\\.com\\/zfm\\/zfh\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "z.cdp-dev"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "7c66b5fd80c2287d6639e3d2186873e393c160b22b77ac7f779a793bdc420202"
@@ -84,13 +296,35 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ktvz.com",
-                "www.cnn.co.jp"
+                "abc30.com",
+                "ktvz.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/api\\/v1\\/faveVideo\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-embed-api.ns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "045633cd5ad169656ecd6c4a38ebddfe719e48d51c102fa2130606540ff5bcf1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com"
             ]
         },
         {
             "rule": "cnn\\.com\\/sp\\/current\\/zion-sp\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "z.cdp-dev"
@@ -110,65 +344,59 @@
                 "Date.prototype.getTime": 2,
                 "Document.cookie setter": 2,
                 "Document.cookie getter": 2,
-                "Date.prototype.getTimezoneOffset": 2
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "7169b20ff9116852953e326ad3776ac06c0f14a5a21a3e07f3fb8b5c46418a61"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "_sp_ses.5171": {
-                    "ttl": 1816,
+                "_sp_ses.5193": {
+                    "ttl": 1811,
                     "length": 1,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_sp_id.5193": {
+                    "ttl": 31536011,
+                    "length": 108,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_sp_ses.5171": {
+                    "ttl": 1820,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
                 "_sp_id.5171": {
-                    "ttl": 31536016,
+                    "ttl": 31536020,
                     "length": 108,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ktvz.com",
-                "www.cnn.co.jp"
+                "abc30.com",
+                "ktvz.com"
             ]
         },
         {
             "rule": "cnn\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
-            "cookies": 0,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "collector.cdp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ktvz.com",
-                "www.cnn.co.jp"
-            ]
-        },
-        {
-            "rule": "cnn\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "collector.cdp"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
@@ -177,12 +405,74 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ktvz.com",
-                "www.cnn.co.jp"
+                "abc30.com",
+                "ktvz.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/211001042951-barnaby-joyce-file-2018-super-tease\\.jpg",
+            "rule": "cnn\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.cdp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc30.com",
+                "ktvz.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/api\\/v1\\/playlist\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-embed-api.ns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "479ea4af376bcc845186740982ab12516e4a790b5fd4c17e6a1e8019f4dec3b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/api\\/v1\\/playlist\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsource-embed-api.ns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220819092827-hollywood-minute-entertainment-house-of-the-dragon-graham-mctavish-hbo-game-of-thrones-love-song-00002626-live-video\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -190,21 +480,19 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "8a8457562a43ef640eb91f21e3c9b55429924b147527294058fab97b1344fd97"
-            ],
+            "responseHashes": [],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "newz.ai",
-                "pressnewsagency.org"
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/210928055759-01-electricity-pylon-uk-super-tease\\.jpg",
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220308132111-apple-iphone-se-screengrab-live-video\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -212,21 +500,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "83dcfc93d92ea0fe98c80329ee15def90cb73241c096c18095de59a33e765c95"
+                "57633582d5f1167dd8a63f545454880933f85554a0f94e86ac58b145a143b854"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "newz.ai",
-                "pressnewsagency.org"
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/211001091025-01-justice-kavanaugh-file-live-video\\.jpg",
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220819125142-dana-bash-live-video\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -234,21 +522,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ba70daa02830bc6c177a2c5b97b4336297dd88ea365dce752592a26eee85ec5e"
+                "1bbbded1a93e23b8b42603c60f50a6238bc8d1ae51074e76b6747bf5491bb8db"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "actionnewsnow.com",
-                "www.wktv.com"
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/190205142524-01-alex-jones-file-live-video\\.jpg",
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220819070113-delorean-alpha5-prototype-live-video\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -256,21 +544,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ed9564de1ec6a35f8831fffc386b98a2c3f499c240ba1d2e0cef6c88a42a68d3"
+                "2d1c78b97e02203630e0aaebb70035ae15d42cd94691c1e16928a1af660f7923"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kdrv.com",
-                "www.kezi.com"
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/210927211111-miya-marcano-missing-live-video\\.jpg",
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220810081521-hollywood-minute-paris-hilton-metaverse-alicia-keys-summering-00000000-live-video\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -278,44 +566,19 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "5806e8102b0186cf72afff86e82ff548ea651c54ee3a84e93e01924ab37e893a"
-            ],
+            "responseHashes": [],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kdrv.com",
-                "www.kimt.com"
+                "kvia.com",
+                "localnews8.com"
             ]
         },
         {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/211001084028-the-zach-family-btc-vpx-live-video\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "a4aa3adc0f08c6b4262f5c156e0aa74b8022807b621abc74deeff4ff4d06c189"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kezi.com",
-                "www.kimt.com",
-                "www.wthitv.com"
-            ]
-        },
-        {
-            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/210930210345-gupta-and-nurse-live-video\\.jpg",
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220819110208-jacqueline-howard-live-video\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -323,17 +586,171 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7e299224d65b24bf488c48991a1d070ba6c68d4412fe16e0c100d8dd8b7881d9"
+                "65b4e4f07b1047025c0f980da06e5021acbb8ce93cafd436bc9df583e6d39521"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "wktv.com",
-                "www.wktv.com"
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220819100846-granholm-live-video\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "40cd1e6da63eef157ba27b68f4eb379371762f36aed7e3c5123d7fbfd8a75ea5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220819093507-mickey-hart-planet-drum-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "14846b4f67c49491bab5b370f094235c3d5697bea92fad3e20e13d4613fac970"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220817092111-liz-cheney-nbc-today-show-08-17-2022-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "48c3f4d6b2251e5e78d256b6e56367dc47da62a5c73c575f9a060366fbcc05e8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220726163524-delta-parallel-reality-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7208c23ecc99e2974e616c125d4a27e0d828e9aeea88d93010d1c02995801ee6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220727174217-nope-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bcd863ac2977bf1222a8b5da0e13a98359b84640dbc3abe36093edcc0231ffdc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/220729142856-01-oceanonek-diving-robot-video-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "93066f55ef1c3dadd3855bf4659a26a0b7d0256a4b06a4cf1e0cbc19f6bf3203"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
+            ]
+        },
+        {
+            "rule": "cnn\\.com\\/cnnnext\\/dam\\/assets\\/160922123256-serena-wimbledon-live-video\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cbc5b675a7c499611cc9d9186dae2d5a9c87ff6b7cc2b7515d11cf4785dfcce5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "localnews8.com"
             ]
         }
     ],
@@ -341,13 +758,13 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000271,
     "types": {
-        "Document": 7,
-        "Image": 17,
-        "Script": 4,
-        "Preflight": 2,
-        "XHR": 2
+        "Script": 32,
+        "Stylesheet": 4,
+        "XHR": 10,
+        "Preflight": 4,
+        "Image": 26
     },
     "nameservers": [
         "ns-1086.awsdns-07.org",

@@ -1,21 +1,45 @@
 {
     "domain": "prisjakt.nu",
     "owner": {
-        "name": "Prisjakt Sverige AB",
-        "displayName": "Prisjakt Sverige"
+        "name": "Schibsted Media Group",
+        "displayName": "Schibsted Media Group"
     },
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000345,
-    "sites": 5,
+    "prevalence": 0.0000474,
+    "sites": 7,
     "subdomains": [
         "instore",
         "widgets"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "prisjakt\\.nu\\/in\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "instore"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee60cebc9938cbe473c96385f599ed150cbef4fe434cc1b39b5990431e1d4fb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apoteket.se",
+                "www.apoteket.se"
+            ]
+        },
         {
             "rule": "prisjakt\\.nu\\/store_rating\\.php",
             "cookies": 0,
@@ -25,17 +49,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "35bcbd1cc492cc29d97755f5ff892d44cb27815d5de3ad11738f25bbe0827339"
+                "ac0cd9475b3fd44d5db50f5caa8c4ebc2a74fec84c6f8bc69af0281e939a6c14"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mediamarkt.se",
-                "www.mediamarkt.se"
+                "hjertmans.se",
+                "www.hjertmans.se"
             ]
         },
         {
@@ -47,10 +71,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "41fbdf40aafa9df8e785ef421085b2fdd9b4a0dc06b1d46125dfa516f27117ae"
+                "022e02f2eb6f9d5d64cdfff574a03b4107c453eaffbf751468d8fad8c0ee9bc0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -65,7 +89,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4
+        "Script": 6
     },
     "nameservers": [
         "hans.ns.cloudflare.com",

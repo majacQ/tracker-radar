@@ -4,54 +4,84 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000828,
-    "sites": 12,
+    "prevalence": 0.000061,
+    "sites": 9,
     "subdomains": [
         "sdk",
         "cis",
         "collector"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "mpianalytics\\.com\\/pulse\\.min\\.js",
-            "cookies": 0.0000345,
-            "fingerprinting": 1,
+            "rule": "mpianalytics\\.com\\/v2\\/pulse\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [
                 "sdk"
             ],
             "apis": {
-                "Document.cookie getter": 5,
-                "Document.cookie setter": 5,
-                "Navigator.prototype.language": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Navigator.prototype.userAgent": 5,
-                "window.localStorage": 5
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "5ed3a33f8205b62c1d8f09af330700c68ad0c836701f88981bf8bb1518c059e2"
+                "765b7420a26ff35b124fd725e90c261fac19b906b69377f5c732dd67313613bb"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_pulse2data": {
-                    "ttl": 63072004,
-                    "length": 539,
-                    "prevalence": 0.00003451036691422103,
+                    "ttl": 63072010,
+                    "length": 528,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "willhaben.at",
-                "mobile.willhaben.at",
+                "jofogas.hu",
                 "www.jofogas.hu",
+                "www.willhaben.at"
+            ]
+        },
+        {
+            "rule": "mpianalytics\\.com\\/api\\/v1\\/identify",
+            "cookies": 0.0000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cis"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "e73710e4ee3c9d31ac2b9f834ba59eb9f0fdd5a51d5e1f925aab2ad24eadf36c",
+                "3fe7476cbfdfc92065831c093f984efe41de2c765f0904148c94b6456ea329d0",
+                "5390c349efedce83e14a0dd742b7231d2692d2ce644b725872bd9abe71937515",
+                "bc0873f53f7051a3fc42a300a2d1b77c6b6996f4114bf363802c1edcd52419f0",
+                "d6539931565527c7edd437521c9d0dc862517c8e0f6d4297019c23044b3c72ee"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jofogas.hu",
+                "www.jofogas.hu",
+                "www.kufar.by",
                 "www.segundamano.mx",
-                "www.yapo.cl"
+                "www.subito.it",
+                "www.willhaben.at"
             ]
         },
         {
@@ -62,90 +92,32 @@
                 "cis"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.0000552,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "willhaben.at",
-                "mobile.willhaben.at",
-                "www.avito.ma",
+                "jofogas.hu",
                 "www.jofogas.hu",
                 "www.kufar.by",
                 "www.segundamano.mx",
                 "www.subito.it",
-                "www.yapo.cl"
-            ]
-        },
-        {
-            "rule": "mpianalytics\\.com\\/api\\/v1\\/identify",
-            "cookies": 0.0000552,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cis"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.0000552,
-            "cnames": [],
-            "responseHashes": [
-                "8015c4be8c68acc40467d2ce50a466ba883b419dfd5d6cf29dde16d8c3d8ff20",
-                "d701b96a360f23999260293184ae8f72238865d99dc524fb81c67535007a42bd",
-                "8dc2b5b8ef0b43b26c080a4f8c3174a117b6646a56edc009539ddb97831555af",
-                "f625c0c797cceedb0f9aba44c4ef3bb31a76f7ec9007e4cd134e0cdf56171c2d",
-                "9baea8a410f4f94a033df35ce714b46793d27742869e446383363735d101a959",
-                "e71bc33e8fa0b75bb81792607bc75585760c1ca63798312a91f0e7ccaf6bdefb",
-                "67b01f51a60995ad588590fc5b6ec24178d0c318bc2e611381d4c0b93e630fd3"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "willhaben.at",
-                "mobile.willhaben.at",
-                "www.avito.ma",
-                "www.jofogas.hu",
-                "www.kufar.by",
-                "www.segundamano.mx",
-                "www.subito.it",
-                "www.yapo.cl"
-            ]
-        },
-        {
-            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:willhabenat",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "collector"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "willhaben.at",
-                "mobile.willhaben.at"
+                "www.willhaben.at"
             ]
         },
         {
             "rule": "mpianalytics\\.com\\/api\\/v1\\/sync",
-            "cookies": 0.0000345,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "cis"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -154,73 +126,44 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "avito.ma",
-                "www.kufar.by",
-                "www.segundamano.mx",
-                "www.subito.it",
-                "www.yapo.cl"
-            ]
-        },
-        {
-            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:jofogashu",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "collector"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jofogas.hu",
-                "www.jofogas.hu"
-            ]
-        },
-        {
-            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:kufarby",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "collector"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
                 "kufar.by",
-                "www.kufar.by"
+                "www.segundamano.mx",
+                "www.subito.it"
             ]
         },
         {
-            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:segundamanomx",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "mpianalytics\\.com\\/pulse\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [
-                "collector"
+                "sdk"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "window.localStorage": 1
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
+                "663446d641542a3a484f56067c4765b2f6b968b8aed26da8ffd84b23566fa557"
             ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pulse2data": {
+                    "ttl": 63072021,
+                    "length": 581,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "segundamano.mx",
@@ -236,7 +179,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
@@ -250,7 +193,7 @@
             ]
         },
         {
-            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:yapocl",
+            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:willhabenat",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -258,7 +201,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
@@ -267,19 +210,19 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "yapo.cl",
-                "www.yapo.cl"
+                "willhaben.at",
+                "www.willhaben.at"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000828,
+    "cookies": 0.000061,
     "types": {
         "Script": 5,
-        "Preflight": 8,
-        "Fetch": 20,
-        "Image": 5
+        "Fetch": 10,
+        "Preflight": 6,
+        "Image": 3
     },
     "nameservers": [
         "ns-221.awsdns-27.com",

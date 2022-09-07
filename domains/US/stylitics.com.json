@@ -4,11 +4,13 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.00011,
-    "sites": 16,
+    "prevalence": 0.000197,
+    "sites": 29,
     "subdomains": [
         "widget",
+        "web-assets",
         "widget-api",
+        "content",
         "datastream"
     ],
     "cnames": [],
@@ -16,43 +18,108 @@
     "resources": [
         {
             "rule": "stylitics\\.com\\/v2\\/widget\\.js",
-            "cookies": 0.0000138,
-            "fingerprinting": 1,
+            "cookies": 0,
+            "fingerprinting": 0,
             "subdomains": [
                 "widget"
             ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Event.prototype.timeStamp": 1
-            },
-            "sites": 9,
-            "prevalence": 0.0000621,
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "8df97f0d446ec87fd8ef7b0442e41b7fbaf7472f864373c52c4f9a89834fb505"
+                "fd677490739081982c495f7cc42c7ff5eef21b728513ebbe3a2dfe1d064e7892"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "styliticsWidgetSession": {
-                    "ttl": 345609,
-                    "length": 36,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                }
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loft.com",
+                "www.anntaylor.com",
+                "www.christopherandbanks.com",
+                "www.loft.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/v3-classic\\/latest\\/classic\\.release\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-assets"
+            ],
+            "apis": {
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "window.localStorage": 5
             },
+            "sites": 10,
+            "prevalence": 0.0000678,
+            "cnames": [],
+            "responseHashes": [
+                "32472c266373ed8b8f0c94004d6afc58998423bd77930437484caac50ee76d5b",
+                "9a927213eac6590f1ec6c0c4af5de0d4c369161c54fc5147348defd11d4d6569"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lordandtaylor.com",
+                "m.kohls.com",
+                "www.academy.com",
+                "www.americangirl.com",
+                "www.bodyglove.com",
+                "www.carlsgolfland.com",
+                "www.eddiebaueroutlet.com",
+                "www.finishline.com",
+                "www.jcrew.com",
+                "www.jdsports.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/v3-classic\\/09cb84adcc\\/classic\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "bc96f344182bb2806c493590c4248e8d92553d25181093d5873fcfced689622f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "kohls.com",
-                "us.puma.com",
-                "www.americangirl.com",
-                "www.anntaylor.com",
-                "www.christopherandbanks.com",
-                "www.eddiebauer.com",
-                "www.loft.com",
-                "www.madewell.com",
-                "www.menswearhouse.com"
+                "www.bodyglove.com",
+                "www.jdsports.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/api\\/experiences\\/85ef81cf-42d0-469b-a7da-ed571a47e573",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a902818a4d5c7647a635d789d6d544e0d0518bc13ab7cef580d82cd28acb5978"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohls.com",
+                "m.kohls.com"
             ]
         },
         {
@@ -63,22 +130,132 @@
                 "widget-api"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 11,
+            "prevalence": 0.0000746,
             "cnames": [],
             "responseHashes": [
-                "8069ab32c3fa600430ff3e9d21ad16be50bcdcf94715477b1cc6419b4740e070",
-                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-                "3f941420127c615476ce2f051e399e30b1e2a4f7838a78f1d9bc171b42d8a4a5"
+                "9717037fd52a225bd3d4ec3c72f1ea0717f2a6da3a5ee0313f37db2d2b145df2",
+                "c3e68751f1995620426ac2d0067786c5742fa831d82879c59d7b87a9447eb4eb",
+                "94b7e8f2a3a9c28b9fbf1884b24e13e485e94277ad60e92e7d99784524e45602",
+                "bcb5e12a2ca13fe67022e46325c4a4eac8c338777f58475c0f132dcca5bb1f84",
+                "1a7bf24d9080b5edd359dabfbc40e5a19382d5ad211d0218449e48cd8d6e1b33",
+                "7bf14a70b6034f6073e2e974028fcde52a9352ff1e7a3e9af02ce8c92ae2de37",
+                "1091e599e4b2353381074b41fa352915ca890b2f9ef4adcedae15970aa3f589e",
+                "75f716737bfb84d71126405ffc531206d2ee0d12a1b5d1b4328895a92a807316",
+                "d812ddfece9e6515f1a07e7a5ca9ed97dab4b2996e5c0f649f12257260d9a5f6"
             ],
-            "type": "XHR",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "kohls.com",
+                "m.kohls.com",
+                "williams-sonoma.com",
+                "www.abercrombie.com",
+                "www.academy.com",
                 "www.americangirl.com",
-                "www.chicos.com",
-                "www.menswearhouse.com"
+                "www.bodyglove.com",
+                "www.carlsgolfland.com",
+                "www.finishline.com",
+                "www.jdsports.com",
+                "www.westelm.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/api\\/items\\/replacements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "3e74dd0186f22289f7596604ee0b80874679a5aba7e4d3cb9728f320529b281f",
+                "c34f0e452d7aa687a1e7dc9be13ce27f3e9bd051a4ae0083f25f5c713327d385"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohls.com",
+                "www.finishline.com",
+                "www.jdsports.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/assets\\/widgets\\/ui\\/icons\\/Loading\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "ac7f220d6704974d597f757d52f726a57e8835e2f5c8c4debf0d12161df56d8a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohls.com",
+                "www.finishline.com",
+                "www.jdsports.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/v3-moodboard\\/latest\\/moodboard\\.release\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-assets"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bfe60f4ac7b93fcca5a8f7223ab3f4371518bf0b85576b454188b07390018157"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "williams-sonoma.com",
+                "www.westelm.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/v3-moodboard\\/latest\\/moodboard\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8e7ce54189e779651dab5a55d57cf9ab559164d58df61c9c3fd8090aa6acb6e0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "williams-sonoma.com",
+                "www.westelm.com"
             ]
         },
         {
@@ -89,41 +266,143 @@
                 "datastream"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 9,
+            "prevalence": 0.000061,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "williams-sonoma.com",
+                "www.abercrombie.com",
+                "www.academy.com",
+                "www.americangirl.com",
+                "www.bodyglove.com",
+                "www.carlsgolfland.com",
+                "www.finishline.com",
+                "www.jdsports.com",
+                "www.westelm.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/api\\/engagements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datastream"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kohls.com",
+                "williams-sonoma.com",
+                "www.abercrombie.com",
+                "www.academy.com",
                 "www.americangirl.com",
-                "www.menswearhouse.com",
-                "www.untuckit.com"
+                "www.bodyglove.com",
+                "www.carlsgolfland.com",
+                "www.finishline.com",
+                "www.jdsports.com",
+                "www.westelm.com"
             ]
         },
         {
-            "rule": "stylitics\\.com\\/api\\/engagements",
+            "rule": "stylitics\\.com\\/v3-classic\\/764d1b46d2\\/classic\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "datastream"
+                "web-assets"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "406e3c4b03f778d28c9145aafbd865f44bd1b67973bd133ff607a6a36e267175"
             ],
-            "type": "XHR",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kohls.com",
+                "academy.com",
                 "www.americangirl.com",
-                "www.menswearhouse.com"
+                "www.carlsgolfland.com",
+                "www.finishline.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/api\\/outfits",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b384f6c43a994ca3636fd682b6a177a627acbba751247ade0a68211ba264d9a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cb2.com",
+                "www.cb2.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/featured-shops\\/v1\\/css\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ab40db6c05f6d1399625e1392f6e243765189188c59be67d5878545b9956baf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eddiebaueroutlet.com",
+                "www.eddiebaueroutlet.com"
+            ]
+        },
+        {
+            "rule": "stylitics\\.com\\/featured-shops\\/v1\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "132b149f4af9a3834ce5bb216cdb9de3aa34e2673fe7e17d6c26f1fb567f3b0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eddiebaueroutlet.com",
+                "www.eddiebaueroutlet.com"
             ]
         },
         {
@@ -139,7 +418,7 @@
                 "Navigator.prototype.platform": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b733cd02542e4287673cb5adf1a9843092e7c05578a103a9e6d7083da56b0191"
@@ -161,7 +440,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "XHR",
@@ -175,11 +454,14 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0,
     "types": {
-        "Script": 11,
-        "XHR": 9,
-        "Preflight": 4
+        "Script": 22,
+        "Stylesheet": 11,
+        "Fetch": 25,
+        "Image": 3,
+        "Preflight": 9,
+        "XHR": 2
     },
     "nameservers": [
         "ns1.dnsimple.com",

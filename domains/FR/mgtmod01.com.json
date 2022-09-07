@@ -4,40 +4,14 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000201,
+    "sites": 2,
     "subdomains": [
         "call"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "mgtmod01\\.com\\/pushv7\\/pageLoad",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "call"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "94c7dad60bfad961afffb62aebf5bda845c4717db6888ccb5be212573fe80f32",
-                "d458cb5a79a35058452d002eeba5929a0fc6da3cc184919960d69465a7d286c2"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_ga": 0.0001004217714400482
-            },
-            "exampleSites": [
-                "erafrance.com",
-                "www.expert-comptable-tpe.fr",
-                "www.kiloutou.fr"
-            ]
-        },
         {
             "rule": "mgtmod01\\.com\\/mgtct\\.v7\\.min\\.js",
             "cookies": 0.000201,
@@ -47,6 +21,9 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
                 "Document.cookie getter": 2,
                 "Document.cookie setter": 2,
                 "Date.prototype.getTime": 2
@@ -55,30 +32,52 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "2e149dc5960c23284945bc51f8a5efa3e0203394b077bdd0ceb69621939ad6be"
+                "da0716dfdd3a6427636b7e49b88fbf7579a8d69a21c8fdf3926b044324dc138c"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_mgt_visid": {
-                    "ttl": 7776014,
-                    "length": 8,
-                    "prevalence": 0.0002008435428800964,
+                    "ttl": 7776006,
+                    "length": 9,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "expert-comptable-tpe.fr",
-                "www.kiloutou.fr"
+                "botanic.com",
+                "www.expert-comptable-tpe.fr"
+            ]
+        },
+        {
+            "rule": "mgtmod01\\.com\\/pushv7\\/pageLoad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "call"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "510e50e406060c126d0212a185d0e64410015c1c98f1b36cb1852b6b3c1566a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "botanic.com",
+                "www.expert-comptable-tpe.fr"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000201,
     "types": {
-        "XHR": 3,
-        "Script": 2
+        "Script": 2,
+        "XHR": 2
     },
     "nameservers": [
         "ns-185.awsdns-23.com",

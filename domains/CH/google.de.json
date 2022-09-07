@@ -9,37 +9,15 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
-        "adservice",
-        "www"
+        "www",
+        "cse"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "google\\.de\\/adsid\\/integrator\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "adservice"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "a4a1824defec1084ca81d496ee77891684c26196924bdc4fc21dd3482ce15e14"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forvo.com",
-                "www.testsieger.de"
-            ]
-        },
         {
             "rule": "google\\.de\\/cse\\/brand",
             "cookies": 0,
@@ -48,20 +26,19 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.appName": 3,
-                "Navigator.prototype.platform": 3
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.platform": 2
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "office-loesung.de",
-                "www.ihresymptome.de",
-                "www.office-loesung.de"
+                "natune.net",
+                "www.ihresymptome.de"
             ]
         },
         {
@@ -75,8 +52,8 @@
                 "Navigator.prototype.appName": 3,
                 "Navigator.prototype.platform": 3
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [],
             "type": "Script",
@@ -85,10 +62,77 @@
             "exampleSites": [
                 "bezahlen.net",
                 "www.biologie-schule.de",
-                "www.kalender-uhrzeit.de",
-                "www.talkteria.de",
-                "www.wassertemperatur.org",
-                "www.zeitblueten.com"
+                "www.kinder-malvorlagen.com",
+                "www.trennungsschmerzen.de",
+                "www.wassertemperatur.org"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/ads\\/ga-audiences",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.nl",
+                "www.hunkemoller.ch",
+                "www.linuxcapable.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/ads\\/ga-audiences",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.nl",
+                "www.hunkemoller.ch"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/cse\\/intl\\/de\\/images\\/google_custom_search_watermark\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "cse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1256543c18764cb543dc4e3c53dcba88963211d2fbe408954ca7e0e5476fcad9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trennungsschmerzen.de",
+                "www.trennungsschmerzen.de"
             ]
         }
     ],
@@ -96,12 +140,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 11
+        "Script": 7,
+        "Image": 5,
+        "Fetch": 2
     },
     "nameservers": [
         "ns1.google.com",
-        "ns3.google.com",
         "ns2.google.com",
+        "ns3.google.com",
         "ns4.google.com"
     ]
 }

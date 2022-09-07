@@ -7,15 +7,21 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000393,
-    "sites": 57,
+    "prevalence": 0.000359,
+    "sites": 53,
     "subdomains": [
-        "coffeecircle"
+        "audiogon",
+        "motorsportreg",
+        "huge"
     ],
     "cnames": [
         {
-            "original": "cdn.coffeecircle.com",
-            "resolved": "coffeecircle.ucarecdn.com"
+            "original": "dl.motorsportreg.com",
+            "resolved": "motorsportreg.ucarecdn.com"
+        },
+        {
+            "original": "ucarecdn.audiogon.com",
+            "resolved": "audiogon.ucarecdn.com"
         }
     ],
     "fingerprinting": 1,
@@ -23,11 +29,14 @@
         {
             "rule": "ucarecdn\\.com\\/libs\\/blinkloader\\/3\\.x\\/blinkloader\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "window.innerWidth": 7,
+                "window.innerHeight": 2
+            },
             "sites": 7,
-            "prevalence": 0.0000483,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
                 "46ef20c3bf16f3011c2c15cfd31558eedc534b0969264691d6ab0ca887f5303f"
@@ -38,11 +47,11 @@
             "exampleSites": [
                 "kettleandfire.com",
                 "canadianpreparedness.com",
-                "donaldtrumpstoreusa.com",
                 "drruscio.com",
+                "perfectketo.com",
                 "www.engelvoelkers.com",
-                "www.sitebuilderreport.com",
-                "www.tantaly.com"
+                "www.fonecta.fi",
+                "www.stiiizy.com"
             ]
         },
         {
@@ -51,58 +60,86 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.maxTouchPoints": 5,
-                "Event.prototype.timeStamp": 4
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Event.prototype.timeStamp": 1
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0f847fdad480ff5013348d294dcb3760962ba35d1f8a8526bbb473ad444dfb9d"
+                "8e728ce9e9311c961e9a08310df4c87b35d7504b5dfd6291c8680bd3336dc5bc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sainsburys.co.uk",
-                "www.boden.co.uk",
-                "www.bodendirect.de",
-                "www.bodenusa.com",
+                "bruzu.com",
                 "www.hollywoodbowl.com"
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/f8260745-45a9-48ab-ac1b-969d0d29645b\\/21025_CardanoSummit2021_DreamwaveTeaser_Mobile_Short_V3\\.mp4",
+            "rule": "ucarecdn\\.com\\/6957a389-96d5-451d-a804-7b4c49113994\\/-\\/preview\\/360x360\\/-\\/setfill\\/ffffff\\/-\\/crop\\/360x360\\/center\\/-\\/quality\\/smart\\/-\\/format\\/auto\\/",
             "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "audiogon"
+            ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "82ed86003968f7cb9a363aab9f934fdcb9d834db19ad29713d9db72258fd2081"
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "ucarecdn.audiogon.com",
+                    "resolved": "audiogon.ucarecdn.com"
+                }
             ],
-            "type": "Media",
+            "responseHashes": [
+                "38b8908adb179d2eb65a88baef8b13790e25041a926842140c630fe6de5d2ef5"
+            ],
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "cardano.org",
-                "summit.cardano.org"
+                "audiogon.com",
+                "www.audiogon.com"
+            ]
+        },
+        {
+            "rule": "ucarecdn\\.com\\/libs\\/widget\\/3\\.17\\.2\\/uploadcare\\.full\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "448c3540692c1fc37da69e487b85c9c6998ad88f8756e33d6bc8bc96fa35bb26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boden.co.uk",
+                "www.bodendirect.de",
+                "www.bodenusa.com",
+                "www.homebase.co.uk",
+                "www.hyundai.co.uk"
             ]
         },
         {
             "rule": "ucarecdn\\.com\\/libs\\/widget\\/2\\.10\\.3\\/uploadcare\\.full\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Event.prototype.timeStamp": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c7fa3bfe13c7f76c17d987f3198802c6506e30f2cc00c252dbc5feb7db5378b5"
@@ -116,67 +153,13 @@
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/c632668f-eace-4d98-a3cc-2beec2496aa0\\/autocompletemin\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "coffeecircle"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "cdn.coffeecircle.com",
-                    "resolved": "coffeecircle.ucarecdn.com"
-                }
-            ],
-            "responseHashes": [
-                "fb65c577eff2e680f3b373e57e539bdbf2796ba6dabc4d40a2af1bbea7d77df0"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "coffeecircle.com",
-                "www.coffeecircle.com"
-            ]
-        },
-        {
-            "rule": "ucarecdn\\.com\\/27724e78-231b-4b90-8ee0-b81cfec852a2\\/algoliasearchLitemin\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "coffeecircle"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "cdn.coffeecircle.com",
-                    "resolved": "coffeecircle.ucarecdn.com"
-                }
-            ],
-            "responseHashes": [
-                "69fd915ded1f90fb94aa1c5bb11a153e512e99136e09a2700d5067023dae65c2"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "coffeecircle.com",
-                "www.coffeecircle.com"
-            ]
-        },
-        {
             "rule": "ucarecdn\\.com\\/libs\\/widget-tab-effects\\/1\\.x\\/uploadcare\\.tab-effects\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "fe8c53d95a8e1fbec878e72d7c310a4edc31a35cb98448cb959bfb566ef6e10a"
@@ -190,16 +173,16 @@
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/7f69502e-1c02-45fb-bb31-0b2e87f9dcf2\\/",
+            "rule": "ucarecdn\\.com\\/61736695-b34d-492e-829b-7613fc819d36\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "94876a4c1a92d66031911861505ad5d0cb56ce0e7bcbec521ff36b59c1a8ef19"
+                "43b12d8d740ad13ce56449adc09b683e1d11ff2fa1e24baf85d3b662e1322d5f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -210,16 +193,16 @@
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/007c4952-0acd-4e7c-abb8-a1a1de97ea8f\\/",
+            "rule": "ucarecdn\\.com\\/31d66474-7fec-4604-8383-d32db6513ce2\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "2509447cc643f95217c61da9ae0978784b982d2cf06b95949f50396492257f45"
+                "946a22292183c5f0fd4dfdfcd260ad9686996fdc1630ac3bba933637da9f1b91"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -230,123 +213,232 @@
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/073cac4d-3ceb-4441-8a4d-5d4e16c7a272\\/-\\/progressive\\/yes\\/",
+            "rule": "ucarecdn\\.com\\/515bf2f4-2847-444c-86ad-e47823ab69d5\\/",
             "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "motorsportreg"
+            ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "dl.motorsportreg.com",
+                    "resolved": "motorsportreg.ucarecdn.com"
+                }
+            ],
             "responseHashes": [
-                "dd50f86d9c45cf5f5d373be87a73a204f3184581b92e1463e0d1dd92f8ab2c23"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "inhersight.com",
-                "www.inhersight.com"
+                "motorsportreg.com",
+                "www.motorsportreg.com"
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/34477ed1-a278-47b2-b72b-d446ee14e540\\/-\\/resize\\/440x\\/logo\\.jpg",
+            "rule": "ucarecdn\\.com\\/8848d84f-90de-400d-9fee-8785d0811631\\/",
             "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "huge"
+            ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a70dae0acaa4045687a0346d048e0ed91cfd65cdc55aaafadcdb367f3062ec91"
+                "52c0df1c660ee49f414b719245c4eebfa8d1ae24c1930b9651ae6baa6f84054a"
             ],
-            "type": "Image",
+            "type": "Media",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sitebuilderreport.com",
-                "www.sitebuilderreport.com"
+                "superyachts.com",
+                "www.superyachts.com"
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/9db278e5-c481-40a0-831e-62e838b4ed87\\/-\\/format\\/auto\\/-\\/preview\\/3000x3000\\/-\\/quality\\/lighter\\/",
+            "rule": "ucarecdn\\.com\\/e24043e0-b98e-41c7-98f0-8de6642ac880\\/-\\/crop\\/720x389\\/0,260\\/-\\/resize\\/800x432\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8b0262c9ddb044b717e8b62d425bb5d4860fa441285c122abc30e2e847dc03ae"
+                "5a38bd9ce2c236f3ed6e76ccad6a732c4d9e6c0f103332a64245b3b9071d523f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "xmpow.com",
-                "www.xmpow.com"
+                "wabe.org",
+                "www.wabe.org"
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/b69d542d-9c1f-4022-b038-384f1a02d7d7\\/-\\/format\\/auto\\/-\\/preview\\/3000x3000\\/-\\/quality\\/lighter\\/",
+            "rule": "ucarecdn\\.com\\/ac70f6f9-2a2d-403b-a2f7-d70ed1b5e500\\/-\\/crop\\/1254x678\\/78,0\\/-\\/resize\\/800x432\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "cdb507991352d8ceb0af7d4de41d44e25b96b9d242e9e784a6d44f9e68131595"
+                "837b36866cf6a33bdf460a8ff44286a595772c6f6b6694d8a3aa7fb995ecd8fd"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "xmpow.com",
-                "www.xmpow.com"
+                "wabe.org",
+                "www.wabe.org"
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/2d59ea7b-6f7d-43fb-addc-619253373a9f\\/-\\/format\\/auto\\/-\\/preview\\/3000x3000\\/-\\/quality\\/lighter\\/",
+            "rule": "ucarecdn\\.com\\/c76c579d-36bd-4cea-9b5b-7eb288924156\\/-\\/crop\\/800x432\\/0,298\\/-\\/preview\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0fa719b45ce6e7546c61ccc7ace58cc0c4df80e4de3938822e1fa0e6e5c1fb56"
+                "007a37143f9edd8bb5910d29877ed6388e6e8ea31105f5cb070a0e5bb95ef649"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "xmpow.com",
-                "www.xmpow.com"
+                "wabe.org",
+                "www.wabe.org"
             ]
         },
         {
-            "rule": "ucarecdn\\.com\\/7aadb880-acac-491d-b32e-51201cccd500\\/-\\/format\\/auto\\/-\\/preview\\/3000x3000\\/-\\/quality\\/lighter\\/",
+            "rule": "ucarecdn\\.com\\/55f9f90d-a5b1-4696-b9a0-8d5b533c3b99\\/-\\/crop\\/720x388\\/0,112\\/-\\/resize\\/800x432\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "91e32e6ee5616a1d0721b5b682404dcc471dc9ee35a71827cbc68fd81b1b772d"
+                "1c6ec4215db7c0e9a77ede9cfd92b17c29d93bb5986878da6de40a1f5803dee4"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "xmpow.com",
-                "www.xmpow.com"
+                "wabe.org",
+                "www.wabe.org"
+            ]
+        },
+        {
+            "rule": "ucarecdn\\.com\\/2352bf60-a3a5-452a-a375-26a296c802d7\\/-\\/crop\\/490x265\\/0,155\\/-\\/resize\\/800x432\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "501405338fb3cac5a0018ada8e578efcdb0e31331aa2cb35ef42ef1dc1ce65fa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wabe.org",
+                "www.wabe.org"
+            ]
+        },
+        {
+            "rule": "ucarecdn\\.com\\/75360fab-2e9b-4c84-9aa4-96a62375ce46\\/-\\/crop\\/320x172\\/0,111\\/-\\/resize\\/800x432\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f158c317fa7ca9ac1339211af37437cc7c1cc04b2b03279dd92ee9e07c8cfa7a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wabe.org",
+                "www.wabe.org"
+            ]
+        },
+        {
+            "rule": "ucarecdn\\.com\\/c7080bb4-60b1-473e-982b-0d695313bf02\\/-\\/crop\\/771x416\\/0,63\\/-\\/resize\\/800x432\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2430ef2eb4784a8ec83d412564d00b61a1189953b92e4dad536610d09cf5114f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wabe.org",
+                "www.wabe.org"
+            ]
+        },
+        {
+            "rule": "ucarecdn\\.com\\/96c3ad36-ce41-4762-aa4c-c44922e9e0a9\\/-\\/crop\\/750x405\\/0,150\\/-\\/resize\\/800x432\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5c840b9d47f6d2986d6599d015cd28be75721d9c7896b49ba82705cf6bad8566"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wabe.org",
+                "www.wabe.org"
+            ]
+        },
+        {
+            "rule": "ucarecdn\\.com\\/e136a430-3222-4bb8-8f2c-d323466a4e1a\\/-\\/crop\\/772x416\\/0,47\\/-\\/resize\\/800x432\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "16875a661cc55bc481459031cc6dcd26711d4dff6e870752943a9f58cfeaf054"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wabe.org",
+                "www.wabe.org"
             ]
         }
     ],
@@ -354,9 +446,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 20,
-        "Media": 2,
-        "Image": 16
+        "Script": 18,
+        "Image": 26,
+        "Media": 2
     },
     "nameservers": [
         "a13-66.akam.net",

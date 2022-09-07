@@ -4,44 +4,71 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000166,
-    "sites": 24,
+    "prevalence": 0.000156,
+    "sites": 23,
     "subdomains": [
-        "v3",
         "tags",
+        "v3",
         "cpm"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "denakop\\.com\\/denakop\\.js",
-            "cookies": 0.0000552,
-            "fingerprinting": 1,
+            "rule": "denakop\\.com\\/prebid\\.js",
+            "cookies": 0.0000271,
+            "fingerprinting": 3,
             "subdomains": [
+                "tags",
                 "v3"
             ],
             "apis": {
+                "window.sessionStorage": 10,
+                "Date.prototype.getTime": 10,
                 "Navigator.prototype.userAgent": 10,
-                "Screen.prototype.width": 10,
-                "Screen.prototype.height": 10,
-                "Document.cookie getter": 8,
-                "Date.prototype.getTime": 8,
-                "Document.cookie setter": 8
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "window.outerWidth": 8,
+                "window.outerHeight": 8,
+                "Screen.prototype.availWidth": 8,
+                "Screen.prototype.availHeight": 8,
+                "window.screenLeft": 8,
+                "window.screenTop": 8,
+                "PerformanceTiming.prototype.navigationStart": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
             },
-            "sites": 14,
-            "prevalence": 0.0000966,
+            "sites": 11,
+            "prevalence": 0.0000746,
             "cnames": [],
             "responseHashes": [
-                "fab44026febb28e16b5003abb8ea29cd05505f61c48b6bf9381a040ad05ef4a1"
+                "b82fb9c60cd1fabcd0fbfe346b073ddf6aab749cf78e98a42e50100474e75dae"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "denakop_freq": {
-                    "ttl": 604801,
-                    "length": 15,
-                    "prevalence": 0.00005521658706275365,
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592007,
+                    "length": 16,
+                    "prevalence": 0.000027111659369111688,
                     "uniqueness": 0.25
+                },
+                "cto_bundle": {
+                    "ttl": 33696007,
+                    "length": 258,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696007,
+                    "length": 190,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
@@ -51,133 +78,44 @@
                 "olhardigital.com.br",
                 "onepieceex.net",
                 "www.astrocentro.com.br",
-                "www.clickjogos.com.br",
-                "www.ecycle.com.br",
-                "www.estadao.com.br",
-                "www.gazetaesportiva.com",
+                "www.bibliaon.com",
+                "www.correiobraziliense.com.br",
                 "www.metropoles.com",
-                "www.meuip.com.br",
-                "www.pensador.com",
-                "www.solutudo.com.br",
-                "www.todamateria.com.br"
-            ]
-        },
-        {
-            "rule": "denakop\\.com\\/prebid\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "v3",
-                "tags"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 11,
-                "Navigator.prototype.cookieEnabled": 11,
-                "window.sessionStorage": 11,
-                "Date.prototype.getTime": 9,
-                "Document.cookie getter": 9,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.doNotTrack": 1
-            },
-            "sites": 11,
-            "prevalence": 0.0000759,
-            "cnames": [],
-            "responseHashes": [
-                "46bf91ca36c2d1ec9d95dcc4220998a120c5050d1a61616c59966f62bf98e1c2",
-                "cc7fea7be1eb036060ab50f41f85c656fe58de48cb67f01be9582736b7e5da55"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "casadosdados.com.br",
-                "istoe.com.br",
-                "onepieceex.net",
-                "www.astrocentro.com.br",
-                "www.clickjogos.com.br",
-                "www.ecycle.com.br",
-                "www.gazetaesportiva.com",
-                "www.metropoles.com",
-                "www.meuip.com.br",
+                "www.minhaconexao.com.br",
                 "www.solutudo.com.br",
                 "www.uai.com.br"
             ]
         },
         {
             "rule": "denakop\\.com\\/api\\.gif",
-            "cookies": 0.0000069,
+            "cookies": 0.0000474,
             "fingerprinting": 0,
             "subdomains": [
-                "v3",
-                "tags"
+                "tags",
+                "v3"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
+            "sites": 11,
+            "prevalence": 0.0000746,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "lotame_domain_check": 0.000006902073382844206
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
                 "casadosdados.com.br",
                 "istoe.com.br",
+                "olhardigital.com.br",
                 "onepieceex.net",
                 "www.astrocentro.com.br",
-                "www.ecycle.com.br",
-                "www.gazetaesportiva.com",
+                "www.bibliaon.com",
+                "www.correiobraziliense.com.br",
                 "www.metropoles.com",
-                "www.meuip.com.br",
+                "www.minhaconexao.com.br",
                 "www.solutudo.com.br",
                 "www.uai.com.br"
-            ]
-        },
-        {
-            "rule": "denakop\\.com\\/ad-request\\/10571\\/desktop\\/clickjogos\\.com\\.br",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "v3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2772bf51eec0a80d8795d9597a348abf255010f01f608d12f80552e64267f1df"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "clickjogos.com.br",
-                "www.clickjogos.com.br"
-            ]
-        },
-        {
-            "rule": "denakop\\.com\\/ad-request\\/10057\\/desktop\\/metropoles\\.com",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "v3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "b23d68cccee5c18fc71a39a7f2f6f3c5f783a8c67440f0ad4109559fd4ab6536"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "metropoles.com",
-                "www.metropoles.com"
             ]
         },
         {
@@ -188,99 +126,283 @@
                 "cpm"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "07da151bb455dd7399041b2eedfb2e53497fa9f0eb6698de2ef202137941b78e"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "metropoles.com",
-                "www.metropoles.com"
+                "casadosdados.com.br",
+                "www.astrocentro.com.br",
+                "www.bibliaon.com",
+                "www.correiobraziliense.com.br",
+                "www.metropoles.com",
+                "www.minhaconexao.com.br",
+                "www.uai.com.br"
             ]
         },
         {
-            "rule": "denakop\\.com\\/user-synced",
-            "cookies": 0.0000138,
+            "rule": "denakop\\.com\\/denakop\\.js",
+            "cookies": 0.0000271,
+            "fingerprinting": 2,
+            "subdomains": [
+                "v3"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "bf36f5ee3b211c138d24511daef077a9e6188f9d7536b88e0fa6caf64dc173d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "denakop_freq": {
+                    "ttl": 604802,
+                    "length": 28,
+                    "prevalence": 0.000027111659369111688,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "istoe.com.br",
+                "odia.ig.com.br",
+                "onepieceex.net",
+                "www.astrocentro.com.br",
+                "www.diariolibre.com",
+                "www.gazetaesportiva.com",
+                "www.solutudo.com.br"
+            ]
+        },
+        {
+            "rule": "denakop\\.com\\/10385\\/denakop\\.js",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cpm"
+                "tags"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "aea3957c6b9d511694a9670df587ededb7c8f42b9f6621696bba65bd76fe3f9a"
             ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "metropoles.com",
-                "www.metropoles.com"
+                "bibliaon.com",
+                "www.bibliaon.com"
             ]
         },
         {
-            "rule": "denakop\\.com\\/ad-request\\/10503\\/desktop\\/meuip\\.com\\.br",
-            "cookies": 0.0000138,
+            "rule": "denakop\\.com\\/10385\\/bibliaon\\.com\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5a2ae1ba811e7d7ef43c6e7d0b1609378100f12f25a3a23931836b58827a5b87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "denakop_freq": {
+                    "ttl": 604801,
+                    "length": 2,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibliaon.com",
+                "www.bibliaon.com"
+            ]
+        },
+        {
+            "rule": "denakop\\.com\\/10066\\/denakop\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e452d42c0807b0b57fb51168d416356b846030ac3da324ac53cc5fc0e1c9b6c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "correiobraziliense.com.br",
+                "www.correiobraziliense.com.br"
+            ]
+        },
+        {
+            "rule": "denakop\\.com\\/10066\\/correiobraziliense\\.com\\.br\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "96524cb685906e8d48d5ddb077be6b52396271fe828f37a5b3e9e627147bd688"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "denakop_freq": {
+                    "ttl": 604816,
+                    "length": 2,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "correiobraziliense.com.br",
+                "www.correiobraziliense.com.br"
+            ]
+        },
+        {
+            "rule": "denakop\\.com\\/ad-request\\/10124\\/desktop\\/gazetaesportiva\\.com",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "v3"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c510a572fe146d888a0778cc6e9e97d18886cfab5e1c9190fc43634a09867851"
+                "ca86b8c788a60910dd2babb2398756ab387f217260933ccc7b6fa7280ea028f6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "meuip.com.br",
-                "www.meuip.com.br"
+                "gazetaesportiva.com",
+                "www.gazetaesportiva.com"
             ]
         },
         {
-            "rule": "denakop\\.com\\/ad-request\\/10385\\/desktop\\/pensador\\.com",
-            "cookies": 0.0000138,
+            "rule": "denakop\\.com\\/10057\\/denakop\\.js",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "v3"
+                "tags"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1ba742424ce218a397fcb5504a4ecd7a601a02b548c564e913928cd32cdd20fc"
+                "5fbaac610ae09c280c864aef861d62ab449224f2c9df808420bd44b94c065a19"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pensador.com",
-                "www.pensador.com"
+                "metropoles.com",
+                "www.metropoles.com"
+            ]
+        },
+        {
+            "rule": "denakop\\.com\\/10057\\/metropoles\\.com\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0f514ad51bcfa05c5716e8a85f7dd12b6db558d2dfb45420fc106c34757817b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "denakop_freq": {
+                    "ttl": 604804,
+                    "length": 2,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metropoles.com",
+                "www.metropoles.com"
             ]
         },
         {
             "rule": "denakop\\.com\\/ad-request\\/10472\\/desktop\\/solutudo\\.com\\.br",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "v3"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "81c3e172240a81ec4966c356b4c2812e0d4719aa857cd7fab4e20d9425ece1b6"
+                "4a2ebd002acc1d179b75c6c973deb790cbb773b6919cec1b95295dbae41e4a6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -289,37 +411,15 @@
                 "solutudo.com.br",
                 "www.solutudo.com.br"
             ]
-        },
-        {
-            "rule": "denakop\\.com\\/ad-request\\/10385\\/desktop\\/todamateria\\.com\\.br",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "v3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "78a3c498c0e4315df1f247452f2884867d85dcd374ed0af1904123f4f8ad1952"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "todamateria.com.br",
-                "www.todamateria.com.br"
-            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000166,
+    "cookies": 0.000156,
     "types": {
-        "Script": 37,
-        "Image": 12,
-        "XHR": 2
+        "Script": 34,
+        "Image": 11,
+        "XHR": 7
     },
     "nameservers": [
         "janet.ns.cloudflare.com",

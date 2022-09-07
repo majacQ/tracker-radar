@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [],
     "cnames": [],
     "fingerprinting": 1,
@@ -16,21 +16,26 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Notification.permission": 2,
-                "window.indexedDB": 2
+                "window.indexedDB": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Notification.permission": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.language": 1
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "60543179abdbff95892a99cac360e5dc5172cb240c5dffbbdecd4567b9bf9c14"
+                "82b12c9bee8c63377bd93f7a58ccc5be263d2b355f0d875d60d4eb67d3481f26"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bulliscoming.com",
-                "filehippo.com"
+                "darkstack.pro",
+                "stealthoptional.com",
+                "www.ghacks.net",
+                "www.historicmysteries.com"
             ]
         },
         {
@@ -39,18 +44,22 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "ea29bc584740fa98e3479e7e5f9bff7278ab261f44d5254484a00ea8cc8b003c"
+                "d2f0fa30448ee874dd0083cc3dd4c6ee6d77129ac60f3a6ad3709daa6d17fbc7",
+                "4d1ae5967ad9bd206eeab26fb53f80ebb0359a0cfe7c358ab43a711c45a99390",
+                "a184d88796612148bc44440e8ac2a264e745e8f3774a82e2e3219c079134ac45"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bulliscoming.com",
-                "filehippo.com"
+                "darkstack.pro",
+                "stealthoptional.com",
+                "www.ghacks.net",
+                "www.historicmysteries.com"
             ]
         },
         {
@@ -59,36 +68,38 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "edc48cd3b0bc4fa7ba23aad40b8508a17d370ca38be174bae2a2f64634e65a2b"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stealthoptional.com",
+                "www.ghacks.net",
+                "www.historicmysteries.com"
+            ]
+        },
+        {
+            "rule": "notix\\.io\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bulliscoming.com",
-                "filehippo.com"
-            ]
-        },
-        {
-            "rule": "notix\\.io\\/event",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "edc48cd3b0bc4fa7ba23aad40b8508a17d370ca38be174bae2a2f64634e65a2b"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bulliscoming.com",
-                "filehippo.com"
+                "stealthoptional.com",
+                "www.ghacks.net",
+                "www.historicmysteries.com"
             ]
         }
     ],
@@ -96,15 +107,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
-        "Fetch": 2,
-        "Preflight": 2,
-        "Other": 2
+        "Script": 4,
+        "Fetch": 4,
+        "Ping": 3,
+        "Preflight": 3
     },
     "nameservers": [
-        "ns-393.awsdns-49.com",
         "ns-566.awsdns-06.net",
-        "ns-1473.awsdns-56.org",
-        "ns-1879.awsdns-42.co.uk"
+        "ns-393.awsdns-49.com",
+        "ns-1879.awsdns-42.co.uk",
+        "ns-1473.awsdns-56.org"
     ]
 }

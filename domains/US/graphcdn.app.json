@@ -4,13 +4,20 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000474,
+    "sites": 7,
     "subdomains": [
+        "cointelegraph",
         "drive-boot",
+        "grover-production",
         "rugby-au-cms"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "graphcdn.cointelegraph.com",
+            "resolved": "cointelegraph.graphcdn.app"
+        }
+    ],
     "fingerprinting": 0,
     "resources": [
         {
@@ -18,20 +25,28 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "cointelegraph",
                 "drive-boot",
+                "grover-production",
                 "rugby-au-cms"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [
+                {
+                    "original": "graphcdn.cointelegraph.com",
+                    "resolved": "cointelegraph.graphcdn.app"
+                }
+            ],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "drive.com.au",
+                "cointelegraph.com",
                 "www.drive.com.au",
+                "www.grover.com",
                 "www.rugby.com.au"
             ]
         },
@@ -40,23 +55,49 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "drive-boot",
+                "cointelegraph",
+                "drive-boot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "graphcdn.cointelegraph.com",
+                    "resolved": "cointelegraph.graphcdn.app"
+                }
+            ],
+            "responseHashes": [
+                "0f03f92c7a144689f43f79d968f8b4911f532b615f651dce712015ae1da13ae3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cointelegraph.com",
+                "www.drive.com.au"
+            ]
+        },
+        {
+            "rule": "graphcdn\\.app\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "grover-production",
                 "rugby-au-cms"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f9dd4f662dd6a25a114aa24a12b2e78898cfba3c24e4053a7727ea82bee6a543",
-                "33a55177010dbcdcab7bf87386119dee332cadcf202da1a378aa8b45437a65cd"
+                "dc830fa96cd85ee5b2c92917831b8738dd62a89196d02402e51dc9a9a1474b0e"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "drive.com.au",
-                "www.drive.com.au",
+                "grover.com",
                 "www.rugby.com.au"
             ]
         }
@@ -65,11 +106,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 3,
-        "Fetch": 3
+        "Preflight": 4,
+        "XHR": 2,
+        "Fetch": 2
     },
     "nameservers": [
-        "sloan.ns.cloudflare.com",
-        "yadiel.ns.cloudflare.com"
+        "yadiel.ns.cloudflare.com",
+        "sloan.ns.cloudflare.com"
     ]
 }

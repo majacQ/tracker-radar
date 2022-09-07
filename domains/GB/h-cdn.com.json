@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000401,
-    "sites": 4,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
         "player",
         "link",
@@ -20,30 +20,21 @@
         {
             "rule": "h-cdn\\.com\\/loader\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
                 "window.localStorage": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.product": 1,
-                "Navigator.prototype.platform": 1,
-                "Navigator.prototype.maxTouchPoints": 1,
-                "window.sessionStorage": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Element.prototype.getClientRects": 1,
-                "window.devicePixelRatio": 1,
-                "Navigator.prototype.connection": 1
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "92389a2c97f4a0ce320db0a5b9a0e05351801743e0f9d0d7f7e24254f5a8ff4d",
-                "6634dd420c196d32bc41c7add078085a4c4941b8beb88fb7d8f2e5fb39a52c58",
+                "5ae4d54206412a8271939bf553639352415132b8ed9cd69e86c33e9d58070a9e",
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                "f8457f64b045a21dac76a0728a7742c4e387405afe6a7fb6e9fb1bc97f0da128"
+                "8b44fd18505536768a0e6f46549c0f885a42598da8f7a4f1c39355ecb27b61ed"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -51,6 +42,7 @@
             "exampleSites": [
                 "dw.com",
                 "m.dw.com",
+                "www.cambabe.video",
                 "www.dw.com",
                 "www.news18.com",
                 "www.tagesschau.de"
@@ -70,8 +62,8 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3c9fbcbdde5ec53ff3aeb31d436052e1866eaa7d3abd4ccae05e330ee58aa52a",
-                "1b25dec139b02cf9d23cc7ea7c090d9a41b150eb467017ebc1c56018ee10e737"
+                "af3ef9ac9e5e27a3c83ae5993f8a3a3040ee320c6a4e07edfe60eac9b4f7a500",
+                "9b412dad3e2238b969544c2aa1c6481af250f8c9e502f4bc4fd08b78796aad4c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -80,48 +72,6 @@
                 "dw.com",
                 "www.dw.com",
                 "www.tagesschau.de"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/get",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "link"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dw.com",
-                "www.dw.com"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/get",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "link"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "139ccc203843fdd234a9cc1a5419903b5c6eac7c0324f4de0e4a48a70def4f51"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dw.com",
-                "www.dw.com"
             ]
         },
         {
@@ -169,6 +119,48 @@
             ]
         },
         {
+            "rule": "h-cdn\\.com\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1931618d7a0364b8f3392c2ea4123a475d8dc6b778245f8e5f4e704464790c77"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "www.dw.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "www.dw.com"
+            ]
+        },
+        {
             "rule": "h-cdn\\.com\\/be_client_cgi\\/perr",
             "cookies": 0,
             "fingerprinting": 0,
@@ -195,15 +187,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 8,
-        "Preflight": 2,
+        "Script": 9,
+        "Stylesheet": 4,
         "XHR": 4,
-        "Stylesheet": 4
+        "Preflight": 2
     },
     "nameservers": [
+        "ns-1554.awsdns-02.co.uk",
         "ns-43.awsdns-05.com",
         "ns-661.awsdns-18.net",
-        "ns-1554.awsdns-02.co.uk",
         "ns-1405.awsdns-47.org"
     ]
 }

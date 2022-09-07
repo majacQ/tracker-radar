@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000402,
-    "sites": 4,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
         "cdn",
         "bot",
@@ -16,58 +16,100 @@
     "resources": [
         {
             "rule": "webpushr\\.com\\/app\\.min\\.js",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.platform": 4,
-                "Notification.permission": 4,
-                "window.sessionStorage": 4
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6,
+                "window.localStorage": 6,
+                "Notification.permission": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
             },
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "043136bfa4e20d65a72219479759be169b64d7384bb089cf0479442156adcddc"
+                "60f745fcfd76bf5dfef0d1faddb39ec531f46ab763a179a59c65fe6bdd02822b"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_webpushrPageViews": {
+                    "ttl": 7776005,
+                    "length": 1,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lesmoutonsrebelles.com",
-                "onvatrad.com",
-                "resistance-mondiale.com",
-                "www.android-mt.com"
+                "196flavors.com",
+                "www.android-mt.com",
+                "www.astucesdefilles.com",
+                "www.etresouverain.com",
+                "www.kiwiiz.fr",
+                "www.sortir-en-bretagne.fr"
             ]
         },
         {
-            "rule": "webpushr\\.com\\/prompt\\/bell",
+            "rule": "webpushr\\.com\\/sw-server\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "438b418e128965f54e6a712546b9d6629fa44d8cad6c4a2fcc751ed39d5fc5f5"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "196flavors.com",
+                "www.android-mt.com",
+                "www.astucesdefilles.com",
+                "www.etresouverain.com",
+                "www.kiwiiz.fr",
+                "www.sortir-en-bretagne.fr"
+            ]
+        },
+        {
+            "rule": "webpushr\\.com\\/prompt\\/get_info",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "bot"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "e187214ecacfe63e84c005f4ede982bc2d69eca2e57ca00e0148e6635907fb89",
-                "8f4130506c988d895cfe1061cb4edba0db4198e64149ca77faedcd0fa276eed6",
-                "8fc2a5f1bffa4fad9c2b2e61d9b36d1ea46c058eda87fd23df400c993c1e47d1"
+                "75acf50dafc8a363d89b6a2ef7073099b8fa57deb33be4d779e45fb83756fc0b",
+                "10fe2dcca6829ff0ac39b7b83b589a0315bf10123ee4bdd9e7aba7c8efeb7031",
+                "373f5d37acafe14639b0176b4d77455d8bfa9ac6fcf1d003b674e63f4a12def9",
+                "440816182a55b14700a5f85299dac67f6b59b44446d8172d246dac4a99868a03",
+                "0b1f11ccb24867207497f72281d74743cba12a177af9e2b3dc61dc992fec4693"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lesmoutonsrebelles.com",
-                "onvatrad.com",
-                "resistance-mondiale.com",
-                "www.android-mt.com"
+                "196flavors.com",
+                "www.android-mt.com",
+                "www.astucesdefilles.com",
+                "www.etresouverain.com",
+                "www.kiwiiz.fr",
+                "www.sortir-en-bretagne.fr"
             ]
         },
         {
@@ -78,8 +120,8 @@
                 "analytics"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -88,10 +130,58 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lesmoutonsrebelles.com",
-                "onvatrad.com",
-                "resistance-mondiale.com",
-                "www.android-mt.com"
+                "196flavors.com",
+                "www.android-mt.com",
+                "www.astucesdefilles.com",
+                "www.etresouverain.com",
+                "www.kiwiiz.fr",
+                "www.sortir-en-bretagne.fr"
+            ]
+        },
+        {
+            "rule": "webpushr\\.com\\/impression\\/prompt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "android-mt.com",
+                "www.astucesdefilles.com",
+                "www.etresouverain.com",
+                "www.kiwiiz.fr"
+            ]
+        },
+        {
+            "rule": "webpushr\\.com\\/siteassets\\/webpushr_bell_icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d41e2ea56dad6a93c6ea4eebb4bfbe0c93dcbb92cbef37f3f60b8caff1643dc5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etresouverain.com",
+                "www.kiwiiz.fr"
             ]
         },
         {
@@ -102,8 +192,8 @@
                 "analytics"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -112,23 +202,24 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lesmoutonsrebelles.com",
-                "onvatrad.com",
-                "resistance-mondiale.com"
+                "etresouverain.com",
+                "www.sortir-en-bretagne.fr"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 4,
-        "Fetch": 11
+        "Script": 6,
+        "Other": 6,
+        "Fetch": 18,
+        "Image": 2
     },
     "nameservers": [
-        "ns-1225.awsdns-25.org",
-        "ns-1581.awsdns-05.co.uk",
+        "ns-514.awsdns-00.net",
         "ns-397.awsdns-49.com",
-        "ns-514.awsdns-00.net"
+        "ns-1581.awsdns-05.co.uk",
+        "ns-1225.awsdns-25.org"
     ]
 }

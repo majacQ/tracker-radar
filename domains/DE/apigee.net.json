@@ -9,12 +9,20 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
-        "conrad-prod-gcp-prod"
+        "accor-group-prod-prod",
+        "cisco-dsc-prod",
+        "adsk-prod",
+        "conrad-prod-gcp-prod",
+        "cmg-prod"
     ],
     "cnames": [
+        {
+            "original": "api.accor.com",
+            "resolved": "accor-group-prod-prod.apigee.net"
+        },
         {
             "original": "api.conrad.com",
             "resolved": "conrad-prod-gcp-prod.apigee.net"
@@ -22,10 +30,96 @@
         {
             "original": "api.conrad.de",
             "resolved": "conrad-prod-gcp-prod.apigee.net"
+        },
+        {
+            "original": "developer.api.autodesk.com",
+            "resolved": "adsk-prod.apigee.net"
+        },
+        {
+            "original": "dsc.cisco.com",
+            "resolved": "cisco-dsc-prod.apigee.net"
         }
     ],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "apigee\\.net\\/authentication\\/v2\\.0\\/authorization",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accor-group-prod-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "api.accor.com",
+                    "resolved": "accor-group-prod-prod.apigee.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accor.com",
+                "ibis.accor.com"
+            ]
+        },
+        {
+            "rule": "apigee\\.net\\/v1\\/netid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cisco-dsc-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "dsc.cisco.com",
+                    "resolved": "cisco-dsc-prod.apigee.net"
+                }
+            ],
+            "responseHashes": [
+                "a4e692c3edd6ebf91507ff4b91c4948f8ce13bed5cb54531e553aa6254236038"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.cisco.com"
+            ]
+        },
+        {
+            "rule": "apigee\\.net\\/authentication\\/v2\\/authorize",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adsk-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "developer.api.autodesk.com",
+                    "resolved": "adsk-prod.apigee.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "knowledge.autodesk.com",
+                "www.autodesk.com"
+            ]
+        },
         {
             "rule": "apigee\\.net\\/reco\\/3",
             "cookies": 0,
@@ -35,7 +129,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "api.conrad.com",
@@ -60,7 +154,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "api.conrad.com",
@@ -68,7 +162,7 @@
                 }
             ],
             "responseHashes": [
-                "5adfe8496740293d969684632d06305d30f70759e119ee0706178f65e004581b"
+                "7dee4eff23f2efb93cf0f8d92be2aae022ce5e7613d5b82620316f2de0f1536d"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -87,7 +181,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "api.conrad.de",
@@ -112,7 +206,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "api.conrad.de",
@@ -120,7 +214,7 @@
                 }
             ],
             "responseHashes": [
-                "eaa5beeadd81c811187de7e985d3416d956585275318f3c9c08c6a122cb31f64"
+                "5550b22a9ff8a7d4f5105c0cb8879c565f4a60009e6618f81a07f06fa4867702"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -139,7 +233,34 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "api.conrad.de",
+                    "resolved": "conrad-prod-gcp-prod.apigee.net"
+                }
+            ],
+            "responseHashes": [
+                "5b95fb1c4857e5e097b4bd402a8d25de4e9279b6e5ecc329119d285278b5422c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.de",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "apigee\\.net\\/reco\\/3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conrad-prod-gcp-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "api.conrad.de",
@@ -156,7 +277,7 @@
             ]
         },
         {
-            "rule": "apigee\\.net\\/reco\\/3\\/",
+            "rule": "apigee\\.net\\/price-availability\\/4\\/CQ_DE_B2C\\/facade",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -164,7 +285,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "api.conrad.de",
@@ -172,7 +293,7 @@
                 }
             ],
             "responseHashes": [
-                "66a1388599e19bd6d863822b0743ebac78f4fba42e7bf23ac8b8101962b05584"
+                "f493676adced700420b50995e1d5e48cf99273e82cce2503b5a0ebdbf4161e37"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -183,30 +304,47 @@
             ]
         },
         {
-            "rule": "apigee\\.net\\/price-availability\\/4\\/CQ_DE_B2C\\/facade",
+            "rule": "apigee\\.net\\/v1\\/xapi\\/users\\/tvguide\\/session\\/load",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "conrad-prod-gcp-prod"
+                "cmg-prod"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "api.conrad.de",
-                    "resolved": "conrad-prod-gcp-prod.apigee.net"
-                }
-            ],
+            "prevalence": 0.0002,
+            "cnames": [],
             "responseHashes": [
-                "75a32086c24d437a5e484910a2f75b9063b2c0d743df0b15728fd9669995e6cf"
+                "7337ede409c4fa75a9664e7a0ed5c3fe1d34abe42290da01ba40f96b77720e75"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "conrad.de",
-                "www.conrad.de"
+                "tvguide.com",
+                "www.tvguide.com"
+            ]
+        },
+        {
+            "rule": "apigee\\.net\\/v1\\/xapi\\/tvschedules\\/tvguide\\/tonight\\/9100001138\\/new\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmg-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "fa489ea870807308e312012f5cf78d864310d4e919ed8fc1648174525635e565"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvguide.com",
+                "www.tvguide.com"
             ]
         }
     ],
@@ -214,11 +352,18 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.000601,
     "types": {
+        "Document": 5,
+        "Script": 2,
         "Preflight": 6,
         "Fetch": 2,
-        "XHR": 6
+        "XHR": 10
     },
-    "nameservers": []
+    "nameservers": [
+        "ns-116.awsdns-14.com",
+        "ns-1441.awsdns-52.org",
+        "ns-1907.awsdns-46.co.uk",
+        "ns-670.awsdns-19.net"
+    ]
 }

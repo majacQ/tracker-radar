@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000145,
-    "sites": 21,
+    "prevalence": 0.000271,
+    "sites": 40,
     "subdomains": [
         "static",
-        "api"
+        "api",
+        "rte"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -16,23 +17,30 @@
         {
             "rule": "edgeme\\.sh\\/shopify\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.indexedDB": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "5587a49fc727d1ebc90bae69fc1109af59d725ce68b79164970c0e463f5f7f52"
+                "c19d88c945c42a4d15c185bf7e766db3175af7328044b91ce97abb2fa2d56c5b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "4patriots.com",
+                "dieselpowergear.com",
                 "drsquatch.com",
+                "theenhancedmale.com",
+                "www.100percentpure.com",
                 "www.maperformance.com",
                 "www.trueleafmarket.com"
             ]
@@ -45,30 +53,40 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "window.localStorage": 10,
-                "window.indexedDB": 10
+                "Navigator.prototype.userAgent": 20,
+                "window.localStorage": 20,
+                "window.indexedDB": 20
             },
-            "sites": 10,
-            "prevalence": 0.000069,
+            "sites": 21,
+            "prevalence": 0.000142,
             "cnames": [],
             "responseHashes": [
-                "faee0ca494408ae7c14547e5235606c1d75e510c5bb2a92fbd05375718898b70"
+                "532565e923153b22574c059cd633f2f2c5abcae4adcae207584216a6f70c868a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
+                "www.us-mattress.com",
+                "www.bankovia.com",
                 "umzu.com",
+                "www.100percentpure.com",
+                "vusevapor.com",
+                "drsquatch.com",
+                "theenhancedmale.com",
                 "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
+                "wellnessmama.com",
+                "www.vuse.com",
                 "www.maperformance.com",
-                "www.peacockalley.com",
+                "www.luxyhair.com",
+                "mypatriotsupply.com",
                 "www.trueleafmarket.com",
-                "www.us-mattress.com"
+                "www.gentlemansgazette.com",
+                "www.homeessentialsdirect.com",
+                "beprepared.com",
+                "4patriots.com",
+                "www.lowbrowcustoms.com",
+                "dieselpowergear.com"
             ]
         },
         {
@@ -79,8 +97,54 @@
                 "api"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.0000759,
+            "sites": 20,
+            "prevalence": 0.000136,
+            "cnames": [],
+            "responseHashes": [
+                "ff608425e85686e1e95a6df0d760b6972a405e736e297751a64d69ce81d2b9a2",
+                "795e6dce865b56cf44c72389495ae9efe6330164fbecb14b21ee923c6e160a7d",
+                "0964750ac98e5878bd6dc2b70332fa5967649bb299f6702545734454307050d6",
+                "0778575f0070b20c32cf0b297fd39b739ebb085b05b47bc6bf76fd8ba5af8f18",
+                "4b577cb7ea99fbffda066e52bb9a9992e37fecce5e7680b60687e0bd1d54c236",
+                "6651f9aac8bcc175e8457abe5f13a91f4f3d454f3bece1a4d8655e4a187950a2",
+                "311ac268f546d0e3b6a88e9adf89708feca4cdd2992d5ec9cf1ea619db7bfbc8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "4patriots.com",
+                "beprepared.com",
+                "dieselpowergear.com",
+                "drsquatch.com",
+                "mypatriotsupply.com",
+                "theenhancedmale.com",
+                "umzu.com",
+                "vusevapor.com",
+                "wellnessmama.com",
+                "www.ammunitiondepot.com",
+                "www.amymyersmd.com",
+                "www.bankovia.com",
+                "www.gentlemansgazette.com",
+                "www.homeessentialsdirect.com",
+                "www.lowbrowcustoms.com",
+                "www.luxyhair.com",
+                "www.maperformance.com",
+                "www.trueleafmarket.com",
+                "www.us-mattress.com",
+                "www.vuse.com"
+            ]
+        },
+        {
+            "rule": "edgeme\\.sh\\/node\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -88,50 +152,25 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "4patriots.com",
+                "beprepared.com",
+                "dieselpowergear.com",
                 "drsquatch.com",
+                "mypatriotsupply.com",
+                "theenhancedmale.com",
                 "umzu.com",
+                "vusevapor.com",
                 "wellnessmama.com",
                 "www.ammunitiondepot.com",
-                "www.filtersfast.com",
+                "www.amymyersmd.com",
+                "www.bankovia.com",
                 "www.gentlemansgazette.com",
+                "www.homeessentialsdirect.com",
+                "www.lowbrowcustoms.com",
+                "www.luxyhair.com",
                 "www.maperformance.com",
-                "www.peacockalley.com",
                 "www.trueleafmarket.com",
-                "www.us-mattress.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/node\\/check",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.0000759,
-            "cnames": [],
-            "responseHashes": [
-                "8ed55e7363d808c51ede755b3c0b798c5a3e801bc2a15999cd196be54d88bf88",
-                "460d274c0d21c92d59fa0e00b4d7db571bb235361f704b1e5dd8bb7a4e410728",
-                "f38bb9efea6fb13f03d86cd6c259bb154fa00d3eb25f269dcc39ae29cf24767b",
-                "6fb1d05d52c124847da53ecbe01225000cdc9fb6af615f9b06e206dc22cf906f"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com",
-                "www.us-mattress.com"
+                "www.us-mattress.com",
+                "www.vuse.com"
             ]
         },
         {
@@ -142,372 +181,53 @@
                 "static"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
+            "sites": 16,
+            "prevalence": 0.000108,
             "cnames": [],
             "responseHashes": [
-                "f5ccfe1a4cd29028b278177a5aac8a9b8ed7565ff3135f07728eae62d9313561"
+                "a18874fd2330c54b6bf4e3e0019f8c696ce124514c5b0d19e05eeb308aeccac7",
+                "aa6fb622869b3b488d074b496c518114784143f02293d200bdb7992cb26eaae9"
             ],
             "type": "Other",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "4patriots.com",
-                "drsquatch.com",
+                "beprepared.com",
+                "mypatriotsupply.com",
+                "theenhancedmale.com",
                 "umzu.com",
-                "wellnessmama.com",
+                "vusevapor.com",
                 "www.ammunitiondepot.com",
-                "www.filtersfast.com",
+                "www.bankovia.com",
                 "www.gentlemansgazette.com",
+                "www.homeessentialsdirect.com",
+                "www.lowbrowcustoms.com",
+                "www.luxyhair.com",
                 "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
+                "www.trueleafmarket.com",
+                "www.us-mattress.com",
+                "www.vuse.com"
             ]
         },
         {
-            "rule": "edgeme\\.sh\\/edgemesh-controller\\.js",
+            "rule": "edgeme\\.sh\\/node\\/check",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "c90497147bd6f3b6d8f758c71a1c21ed8e87fc7c621baf53d4efadaa0ef6de3d"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-core\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "31af3325f1ecb88ce502f79626d05324f4c1038bfe8a292242c563538d8c7e59"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-protocol\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "195d8a43f1ea762def6bf4098e5df8ec2b7823f802831890d5a3943eab18116e"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-hash\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "023cb0fefe4adbadc36a2cfd2c597b18e400830b8d147a1f49c46f2f9415e217"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-routing\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "4782945a6dc41c85b4f6d60801d4a741ed967f58751085dfab357ae55b93671b"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-strategies\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "6fc75772f5fd648e10e92f20c560209aef11b97393219a41b89ee1b43646446e"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-plugin-conform-response\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "d6f212081ca1c96067dc805c790e4499dfecb28f50f493728e1fe46386b1b8eb"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-plugin-cache-event\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "2f225ae9431a2902f36d1c8d11f63dab066b5b56ce4ef2fe7a1caf5a2c0621c7"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-plugin-error-event\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "51b3d09f3a62e8937793a51893633eeca94fc9b8e3edbd6df82d2a87d98495d2"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/edgemesh-plugin-range-requests\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [
-                "f1d72f3d1e66b172a01b16ebb4435647bb3b4997de4dd406ece7fcbb293f9530"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "4patriots.com",
-                "drsquatch.com",
-                "umzu.com",
-                "wellnessmama.com",
-                "www.ammunitiondepot.com",
-                "www.filtersfast.com",
-                "www.gentlemansgazette.com",
-                "www.maperformance.com",
-                "www.peacockalley.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/node\\/cache",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "6fcb89e3eeb608db64fbf8dfb198aaf3691bb075e8a2061422da10668c83a3ad"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "drsquatch.com",
-                "umzu.com",
-                "www.ammunitiondepot.com",
-                "www.trueleafmarket.com"
-            ]
-        },
-        {
-            "rule": "edgeme\\.sh\\/node\\/error",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
+                "rte"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "6fcb89e3eeb608db64fbf8dfb198aaf3691bb075e8a2061422da10668c83a3ad"
-            ],
-            "type": "Fetch",
+            "responseHashes": [],
+            "type": "Other",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "umzu.com",
-                "www.ammunitiondepot.com"
+                "homeessentialsdirect.com",
+                "www.homeessentialsdirect.com"
             ]
         }
     ],
@@ -515,10 +235,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 14,
-        "Preflight": 11,
-        "Fetch": 17,
-        "Other": 110
+        "Script": 28,
+        "Fetch": 20,
+        "Preflight": 20,
+        "Other": 18
     },
     "nameservers": [
         "liz.ns.cloudflare.com",

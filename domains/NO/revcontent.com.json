@@ -9,23 +9,19 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.00432,
-    "sites": 43,
+    "prevalence": 0.0016,
+    "sites": 16,
     "subdomains": [
         "trends",
         "cdn",
-        "assets",
-        "images",
         "img",
+        "images",
+        "yeet",
+        "assets",
         "labs-cdn"
     ],
-    "cnames": [
-        {
-            "original": "trends.newsmaxwidget.com",
-            "resolved": "trends.revcontent.com"
-        }
-    ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "revcontent\\.com\\/serve\\.js\\.php",
@@ -35,54 +31,58 @@
                 "trends"
             ],
             "apis": {
-                "window.localStorage": 5
+                "window.localStorage": 6
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "ceb12c248c836bef10c763f965969ebb108289ea97c4f8e8c080b1e9fc92940d",
-                "9e6066fc15727a442105a2c254781b73109cf0b0df786cfd9d82f7adb025c83e",
-                "68f292e975bdbcd4ff0b1d635a2386f8341c31ebbb204c5bb71e6dc6c6636fa0",
-                "f357c5d295c854793b007d335cc08e38357f0d637134b1b7a9ce00ec8a7cc427"
+                "7aed48ca70edc0eb692d8fc4abd260e8198e6ec01ebdd821efe03e43100e1641",
+                "5be34ecd0db366e6ee24e1046cf4f8a96f719113c1de4513a53c2e3a2908154c",
+                "8a4bf34c4518c47a5b41ebdb90f6b2f35ff445aaab4b06fd1e13f0003d41823b",
+                "feaa4dc622f8a83ab6c9a5b742a78be763090a610d5a7e908f859ce8c7f441f0",
+                "4ed4248a1e43ce0290bd61b388e062bf34913a87e4b92c96ff5dd03cce654d38"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acidcow.com",
                 "halturnerradioshow.com",
+                "networthpost.org",
+                "newspunch.com",
+                "reason.com",
                 "saucemonsters.com",
-                "www.breitbart.com",
-                "www.cbssports.com"
+                "www.breitbart.com"
             ]
         },
         {
             "rule": "revcontent\\.com\\/serve\\.js\\.php",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [
                 "trends"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "eea4d15ebe189c96c45bc60ec321c1cea444f01fd071b273bdf9177fe0cdd3c7",
-                "a385881aafd47f71698819c0b482819b2eb8fdd25ee38f69fb1a4baa4884d5d8",
-                "5aebc4e23d6012816ce59c0ca98d724fb1314ec9288a6add8548fc44ce21f72d",
-                "5b2476226cb9cc2e28823cc7c579943087cd2f3883e6623a018ecc9edce64241"
+                "4971c19943b16fe6d8f9a860a80806f1bb7b95820b9ee87d8bd1cc5906ec5c2b",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "34fb7308e94f3aa4eebf37dbe4b6cde47231958cdacc80d054336f7c40e465af",
+                "5b0fcd37dba8c7e52ea0d098d95de8ca60eef19d801fd56724256783c19e6b26",
+                "c57866dc989eada8a05710c2744917f993cf40b0dced7a25dbde8da95f3f2880"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acidcow.com",
                 "halturnerradioshow.com",
+                "networthpost.org",
+                "newspunch.com",
+                "reason.com",
                 "saucemonsters.com",
-                "www.breitbart.com",
-                "www.cbssports.com"
+                "www.breitbart.com"
             ]
         },
         {
@@ -103,24 +103,26 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acidcow.com",
                 "halturnerradioshow.com",
+                "networthpost.org",
+                "reason.com",
                 "saucemonsters.com",
-                "www.breitbart.com",
-                "www.cbssports.com"
+                "www.breitbart.com"
             ]
         },
         {
             "rule": "revcontent\\.com\\/build\\/js\\/rev2\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
                 "Date.prototype.getTime": 5,
+                "window.outerWidth": 5,
                 "Navigator.prototype.userAgent": 5,
-                "Event.prototype.timeStamp": 4
+                "window.innerHeight": 5,
+                "Event.prototype.timeStamp": 5
             },
             "sites": 5,
             "prevalence": 0.000502,
@@ -132,11 +134,114 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acidcow.com",
                 "halturnerradioshow.com",
+                "networthpost.org",
+                "reason.com",
                 "saucemonsters.com",
+                "www.breitbart.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "5de766638511894eb56a8b04a1f4c51aeb7447ed291c7accfec88c8d28ed8bfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "networthpost.org",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
                 "www.breitbart.com",
-                "www.cbssports.com"
+                "www.nationalreview.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_auto,h_315,w_420,c_fill,g_face\\/pg_1\\/https:\\/\\/revcontent-p0\\.s3\\.amazonaws\\.com\\/content\\/images\\/62ba15b67f9491-44056242\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "11c0eb96c81811a09924ec1555a9dd737d1950aff7b1973f04cf2f7dd4552a77"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "reason.com",
+                "saucemonsters.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/yeet\\/events\\/api-errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yeet"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.jihadwatch.org",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/yeet\\/events\\/api-errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yeet"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.jihadwatch.org",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
             ]
         },
         {
@@ -157,11 +262,211 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acidcow.com",
                 "halturnerradioshow.com",
+                "networthpost.org",
+                "reason.com",
                 "saucemonsters.com",
-                "www.breitbart.com",
-                "www.cbssports.com"
+                "www.breitbart.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/master\\/defaultWidget~feedWidget\\.delivery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "9a8729f34d9dc040fbd8fb431b63af6e034568da732147d0a08a3ba71d032e18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/master\\/defaultWidget\\.delivery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "c0e2a14466479540b1d3dd3944098ab4148bf192ca207a06fe1a98836a02ad47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/yeet\\/events\\/page-view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yeet"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/yeet\\/events\\/widget-loaded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yeet"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/yeet\\/events\\/page-view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yeet"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/yeet\\/events\\/widget-loaded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yeet"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halturnerradioshow.com",
+                "vidmax.com",
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.newsmax.com",
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_auto,h_315,w_420,c_fill,g_face\\/pg_1\\/https:\\/\\/revcontent-p0\\.s3\\.amazonaws\\.com\\/content\\/images\\/62f6e5df224231-49401214\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c199518f362f6318594c93321c70f6d5d4c80347e1a22157dfbe7d3d8f645fa3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "networthpost.org",
+                "www.breitbart.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/build\\/revtoaster\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "labs-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1d8897a0c390e71028ef789a3cf511174c619121fd4465852158fc7aae68e9cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saucemonsters.com",
+                "www.delightedcooking.com"
             ]
         },
         {
@@ -172,37 +477,28 @@
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "Navigator.prototype.maxTouchPoints": 16,
-                "window.localStorage": 16,
-                "Document.cookie getter": 8
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "window.innerWidth": 4,
+                "Navigator.prototype.language": 2
             },
-            "sites": 16,
-            "prevalence": 0.00161,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "c225fd985ca2ebd5f97e2f81d24ba0b4219def9c054f9cf44739c7d108d193bf"
+                "5c159599b5d25947be4bf92634d498765e17d6a049490f320a392e376be72436"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
                 "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
+                "www.barstoolsports.com",
+                "www.bolde.com",
                 "www.nationalreview.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
+                "www.thegatewaypundit.com"
             ]
         },
         {
@@ -213,189 +509,70 @@
                 "trends"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
-            "cnames": [
-                {
-                    "original": "trends.newsmaxwidget.com",
-                    "resolved": "trends.revcontent.com"
-                }
-            ],
-            "responseHashes": [
-                "8b4b43fd2629a9ae29c5220a852bbc8ff169c571cdf77798633efec65c934df7"
-            ],
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
-                "videos.whatfinger.com",
                 "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
+                "www.barstoolsports.com",
                 "www.nationalreview.com",
-                "www.newsmax.com",
-                "www.newsmaxtv.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
+                "www.thegatewaypundit.com"
             ]
         },
         {
             "rule": "revcontent\\.com\\/sync",
-            "cookies": 0.000502,
-            "fingerprinting": 0,
-            "subdomains": [
-                "trends"
-            ],
-            "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
-            "cnames": [
-                {
-                    "original": "trends.newsmaxwidget.com",
-                    "resolved": "trends.revcontent.com"
-                }
-            ],
-            "responseHashes": [
-                "748d0186b744ede63d4682cd4aff25a726227393a45d4fa8cc331b5cf0242b5c"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
-                "videos.whatfinger.com",
-                "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
-                "www.nationalreview.com",
-                "www.newsmax.com",
-                "www.newsmaxtv.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/event\\/generic",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "trends"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
-            "cnames": [
-                {
-                    "original": "trends.newsmaxwidget.com",
-                    "resolved": "trends.revcontent.com"
-                }
-            ],
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
-                "videos.whatfinger.com",
                 "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
+                "www.barstoolsports.com",
                 "www.nationalreview.com",
-                "www.newsmax.com",
-                "www.newsmaxtv.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
+                "www.thegatewaypundit.com"
             ]
         },
         {
             "rule": "revcontent\\.com\\/api\\/delivery\\/",
-            "cookies": 0.0001,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "trends"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
-            "cnames": [
-                {
-                    "original": "trends.newsmaxwidget.com",
-                    "resolved": "trends.revcontent.com"
-                }
-            ],
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
             "responseHashes": [
-                "2bc18ed37f257451bae9a554d7fdc295b926e1afa90b064e1b3e0c87dbb2442f",
-                "5ec4267a44deadc08b3890183e537fe35d3de7afcf11b37f0e833630ab5ec6b0",
-                "370442f922a9ec4a6bd494b62e2e69a8b580a3945af7e72f28d59ff97dd6e0c7",
-                "031c0103fc8b5c38047f3e916b34872166be6b3ddf619e48cf081489a6b9eae7",
-                "8808902d3f74492fa5c7ac4a0b652979277f7f9b472819132423349620550fd7",
-                "c451c794bd50854b8b010f3a4b2237e21914657ce46ed36c8da86c17a112b3d7",
-                "b756e61382389bcdb615552248cba90dd63bf8562aabfc35dc5ffbce184dd381",
-                "287400d94cc1514c0a0d31929105c7d356415f7ab4447a2b62acd8bfc19e40f6",
-                "f100320bf8975ef674afc399e13dcd41da30fca2d29280ca0590d8fa554646f0",
-                "9ce28813fd4d8edb94bf0b8aa1f4ed866bd94ef7840abb22ac24d21f8b013a53",
-                "5f169d538b8445fbbb02a51336d2970de37310c6181e98bb3350784e694864ad",
-                "b450643b070a91a7ff116182af129af10d7b48238efb6b2ac39cf6e8aac7d815",
-                "9018a41aaf22988f465abf1569567196bb9febeafa5c0ba2488a75946b0aa467",
-                "c2f913c14e4f9c10a1e8d55182c2cf9f4710d309e6515270daeff3ffae2032c7",
-                "84d9c1ee280447a1d2f0521eeee32e130138b0a543c353f761470a0ad1d9b987",
-                "7edede374555ee64b6a1dc7915fd72a21882af8ba9396f38e41fcdad07472adc",
-                "a8fba82385783dcb5ec41ba9a53e1d61dd36a12077c3a5154a7bc29dd142cfc8",
-                "85b9a50fdac5956c27d67350274c39a6e607694d1a36aa000414ff1e62ad9a47"
+                "f9e955f7fae382be6243765375855b15d98a317a1b23afd697571f9cdce92f7c",
+                "fd1edf3379028c04f8edb9cbba7c64e811c20dd7abb5ee8fcd0d7c2e1ce00484",
+                "327b51bbb23cf13efbc04c55a8116c187a29b8b5cf9b99bbfb0706968f0b21b1"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "_li_dcdm_c": 0.00010035122930255896
+                "_li_dcdm_c": 0.00010031096398836393,
+                "cookies.js_dtest": 0.00010031096398836393,
+                "parsely_uuid": 0.00010031096398836393
             },
             "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
-                "videos.whatfinger.com",
                 "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
+                "www.barstoolsports.com",
                 "www.nationalreview.com",
-                "www.newsmax.com",
-                "www.newsmaxtv.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
+                "www.thegatewaypundit.com"
             ]
         },
         {
@@ -406,38 +583,42 @@
                 "trends"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
-            "cnames": [
-                {
-                    "original": "trends.newsmaxwidget.com",
-                    "resolved": "trends.revcontent.com"
-                }
-            ],
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
-                "videos.whatfinger.com",
                 "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
+                "www.barstoolsports.com",
                 "www.nationalreview.com",
-                "www.newsmax.com",
-                "www.newsmaxtv.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
+                "www.thegatewaypundit.com"
+            ]
+        },
+        {
+            "rule": "revcontent\\.com\\/master\\/commonModal\\.delivery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "8275a701f1f1ec412e736bab6ea84bfdff7a75daec2c1dc9b1df63a8a9eeba68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "welovetrump.com",
+                "www.barstoolsports.com",
+                "www.nationalreview.com",
+                "www.thegatewaypundit.com"
             ]
         },
         {
@@ -448,37 +629,24 @@
                 "cdn"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.00171,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "66e0312cb1c8f068831abec6de6c5c6e8e7b6134881cc245c3fd99744619aec1"
+                "68678d14bbbc6db4157854264e0c321bdcd17da422b0369e9ba3af57bca62e13"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
-                "fullinsta.photo",
-                "gellerreport.com",
-                "netflixlife.com",
-                "videos.whatfinger.com",
                 "welovetrump.com",
-                "whatculture.com",
-                "winteriscoming.net",
-                "www.earnthenecklace.com",
+                "www.barstoolsports.com",
                 "www.nationalreview.com",
-                "www.oann.com",
-                "www.politifact.com",
-                "www.revolver.news",
-                "www.sgtreport.com",
-                "www.theblaze.com",
-                "www.thegatewaypundit.com",
-                "www.thewrap.com"
+                "www.thegatewaypundit.com"
             ]
         },
         {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_315,w_420,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/96f7bbcdef6dd06464304492d0d45492\\.png",
+            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_315,w_420,c_fill,g_face:auto\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/62f6e6db7f41f1-68621135\\.jpeg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -489,18 +657,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "f46e26b39d0473fbfa783270cfd58c255329c8bbde35ec7a44f596344e58cfc6"
+                "b5ed67b39f6c5af68a903ad089b99be62291c193afc1519a35c304aff4962306"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
-                "www.thegatewaypundit.com"
+                "welovetrump.com",
+                "www.barstoolsports.com"
             ]
         },
         {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_315,w_420,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/602e2ca2badd89-69137814\\.jpg",
+            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face:auto\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/62ba15b67f9491-44056242\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -511,218 +679,19 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b4e8ae976ce3c56888c68ebeb877a9d9c81cb18c32387a0ef6c5123d3725b373"
+                "1c20088a60e6a85e3e07cc950399d6b923462cbc12acf95c737ad877d2777911"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "angelnumber.org",
                 "welovetrump.com",
-                "www.thewrap.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/cm\\/pixel_sync",
-            "cookies": 0.00151,
-            "fingerprinting": 0,
-            "subdomains": [
-                "trends"
-            ],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.00161,
-            "cnames": [],
-            "responseHashes": [
-                "6adc3d4c1056996e4e8b765a62604c78b1f867cceb3b15d0b9bedb7c4857f992"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "equestrianstockholm.com",
-                "nelly.com",
-                "sdbullion.com",
-                "wornandwound.com",
-                "www.danmusikk.no",
-                "www.e-wheels.no",
-                "www.finewoodworking.com",
-                "www.gamestop.com",
-                "www.holley.com",
-                "www.jaktia.no",
-                "www.kitchentime.no",
-                "www.petworld.no",
-                "www.spicylingerie.com",
-                "www.tripadvisor.co.uk",
-                "www.tripadvisor.com",
-                "xeroshoes.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "img"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "c842ab9a59af3f3d62511fdb5488ad527d2193c3371b5561ade4a2a19a8e7062"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fullinsta.photo",
-                "halturnerradioshow.com",
-                "winteriscoming.net",
-                "www.nationalreview.com",
-                "www.oann.com",
-                "www.revolver.news",
-                "www.thegatewaypundit.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_315,w_420,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/15668968640732775688\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "c755893ed15ebb1a7149db4113dc3846296485c68b666942ea50944f8e9c1c37"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fullinsta.photo",
-                "www.oann.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/build\\/revexit\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "labs-cdn"
-            ],
-            "apis": {
-                "Document.cookie getter": 1,
-                "Navigator.prototype.userAgent": 2,
-                "Event.prototype.timeStamp": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "319b780d394ade822257a4da8d60ee2cb1684ba2f504a4a60afb253e28227626"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gellerreport.com",
-                "godlike.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/96f7bbcdef6dd06464304492d0d45492\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "d6d0bbd462ce30058c9b97dfb6a5af009ebdbf6747293c407f17ba480fa4295c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "whatfinger.com",
-                "welovetrump.com",
-                "www.earnthenecklace.com",
-                "www.politifact.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/602e2ca2badd89-69137814\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "0410a7a89d6d8aed85d88c20be44d12f7d5ba0c99c0a31b8d53dca9bcf1e379c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "whatfinger.com",
-                "welovetrump.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/d64409a88bf2515b34e23bcb3b8d1297\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "dd2545a2b4e64894e59525c194617792f48532649643c3706f504fdef4a991b5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "whatfinger.com",
+                "www.barstoolsports.com",
                 "www.nationalreview.com"
             ]
         },
         {
-            "rule": "revcontent\\.com\\/event\\/view",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "trends"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "whatfinger.com",
-                "welovetrump.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/15271120062018314638\\.jpg",
+            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face:auto\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/e9dc10a9bc38993d68f29ebccdccb304\\.jpeg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -733,154 +702,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "051161a779d45eb1c95e8d45714cdf4e7f41d72f986e455b81e1904843f4488a"
+                "25fa4afabff62f04a7a7711a3def51f011bd5765c01eae9f1f4b23a07b647771"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "welovetrump.com",
-                "www.politifact.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/f13a8f00b364d1c3b1063b537795b396\\.jpeg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "bf9c0c9980910db31f2ca89993edba7dbc179334f848acc330a63ad2fe37a334"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "welovetrump.com",
-                "www.nationalreview.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/master\\/rev\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.sessionStorage": 1
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "894694eee28fc463a83875d519e70afaf5f40ac7c042d6114c4ee86d156b4067"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dailywire.com",
-                "www.latimes.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/15783481871754702877\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "7759a85ac5d5c87d05954ba1bbab30832dff7dd06a16a1991050cd5555f1e688"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "earnthenecklace.com",
-                "www.politifact.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/15263283421593005855\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "1af1c038d36afd0883ffefdb8a5e1de2112b854d130bda87b6865603983e8fe8"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nationalreview.com",
-                "www.thegatewaypundit.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/event\\/generic",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "trends"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "trends.newsmaxwidget.com",
-                    "resolved": "trends.revcontent.com"
-                }
-            ],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_li_dcdm_c": 0.00010035122930255896
-            },
-            "exampleSites": [
-                "newsmax.com",
-                "www.newsmaxtv.com"
-            ]
-        },
-        {
-            "rule": "revcontent\\.com\\/revcontent\\/image\\/fetch\\/f_jpg,q_50,h_315,w_420,c_fill,g_face\\/pg_1\\/https:\\/\\/media\\.revcontent\\.com\\/content\\/images\\/15263283421593005855\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "theblaze.com",
-                "www.thewrap.com"
+                "www.barstoolsports.com"
             ]
         }
     ],
@@ -892,18 +721,19 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {},
-    "cookies": 0.00221,
+    "cookies": 0.0001,
     "types": {
-        "Script": 30,
-        "XHR": 10,
+        "Script": 36,
+        "XHR": 11,
         "Stylesheet": 5,
-        "Fetch": 97,
-        "Image": 67
+        "Image": 24,
+        "Fetch": 38,
+        "Preflight": 22
     },
     "nameservers": [
-        "ns-1380.awsdns-44.org",
-        "ns-1631.awsdns-11.co.uk",
-        "ns-47.awsdns-05.com",
-        "ns-791.awsdns-34.net"
+        "ns-1628.awsdns-11.co.uk",
+        "ns-448.awsdns-56.com",
+        "ns-990.awsdns-59.net",
+        "ns-1253.awsdns-28.org"
     ]
 }

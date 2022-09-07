@@ -4,43 +4,67 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0002,
-    "sites": 2,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
-        "product-downloads",
-        "questions",
+        "filter",
         "quote",
-        "offer"
+        "offer",
+        "questions",
+        "checkout"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "freshclick\\.co\\.uk\\/front\\/getTemplateDetails",
-            "cookies": 0.0002,
+            "rule": "freshclick\\.co\\.uk\\/assets\\/client\\/freshclick-filter\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "filter"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc164338ee36edb36c75f25864399a60dc1cc210d218e774eae519c80b2ada43"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "victorinox.com.au",
+                "www.fishingtackleshop.com.au"
+            ]
+        },
+        {
+            "rule": "freshclick\\.co\\.uk\\/Category_filter\\/get_search_settings",
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
-                "product-downloads",
-                "questions"
+                "filter"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "1f5bb9791a310e136d1564ee23d2a3cc32ea7ce6fa26cb8734ec18b4607ad79e"
+                "8ff64eb73355950522aabec52a954c96ad9ad1c0dc58c69caead11fcd75344b0"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sinkwarehouse.com.au",
-                "www.wolf4x4.com.au"
+                "victorinox.com.au",
+                "www.fishingtackleshop.com.au"
             ]
         },
         {
             "rule": "freshclick\\.co\\.uk\\/installation\\/getTemplateDetails",
-            "cookies": 0.0002,
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
                 "quote",
@@ -48,7 +72,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -60,16 +84,40 @@
                 "sinkwarehouse.com.au",
                 "www.wolf4x4.com.au"
             ]
+        },
+        {
+            "rule": "freshclick\\.co\\.uk\\/front\\/getTemplateDetails",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "questions",
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wolf4x4.com.au",
+                "www.wolf4x4.com.au"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0002,
+    "cookies": 0.000401,
     "types": {
-        "XHR": 4
+        "Script": 2,
+        "XHR": 6
     },
     "nameservers": [
-        "deb.ns.cloudflare.com",
-        "burt.ns.cloudflare.com"
+        "burt.ns.cloudflare.com",
+        "deb.ns.cloudflare.com"
     ]
 }

@@ -7,7 +7,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
+    "prevalence": 0.0000203,
     "sites": 3,
     "subdomains": [
         "partnerzyapi"
@@ -16,7 +16,32 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "ceneo\\.pl\\/External\\/dc\\.js",
+            "rule": "ceneo\\.pl\\/External\\/ap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "partnerzyapi"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0b15ae295867731342047536762d337c05798d0eaf4cf3358bd0ad495c6a0c86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgsm.pl",
+                "www.skyradar.pl"
+            ]
+        },
+        {
+            "rule": "ceneo\\.pl\\/Content\\/apv2_pl-PL\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -24,17 +49,39 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "e52ca0dbf2f25bf89c3e08949959d427249381430fb661242ab74ef4576abde2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgsm.pl",
+                "www.skyradar.pl"
+            ]
+        },
+        {
+            "rule": "ceneo\\.pl\\/External\\/RotatorProducts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "partnerzyapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e0fadb987989a50ebefea2651738f63783b09cc0f36d06cd6f6a65bde7db3885"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "mgsm.pl",
-                "www.mgsm.pl"
+                "www.skyradar.pl"
             ]
         }
     ],
@@ -42,7 +89,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 4,
+        "Stylesheet": 2
     },
     "nameservers": [
         "dns1.allegro.pl",

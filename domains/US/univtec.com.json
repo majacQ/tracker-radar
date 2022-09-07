@@ -4,61 +4,92 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.00011,
-    "sites": 16,
+    "prevalence": 0.000129,
+    "sites": 19,
     "subdomains": [
+        "tracking",
         "engine",
-        "engine-stg",
-        "tracking"
+        "engine-stg"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "univtec\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aristeguinoticias.com",
+                "sports.mynorthwest.com"
+            ]
+        },
         {
             "rule": "univtec\\.com\\/embed-akamai\\.php",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "engine",
                 "engine-stg"
             ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.0000966,
+            "apis": {
+                "window.localStorage": 16,
+                "Date.prototype.getTime": 16,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 16,
+            "prevalence": 0.000108,
             "cnames": [],
             "responseHashes": [
-                "375403f3317c4cce77003772650fc1eb3ad9b37a75b95f7a2780364467fccde6",
-                "7c0de97e0afd0c264158777d3baa2c0cec7217e9b999ab1364e6bbddcf4f0dd1",
-                "eaef3d1ca8aa2914205a421d8b3919108f18d164265eac3c99b548e9402a03f3",
-                "dfed0109fdbf19381c17dbc12e0ba9fc344543c9418a37ee2223a5c4c0c1e442",
-                "3a85c0ef4d59e12c63172bc3f14901632804fb72aea678d626a3b7c8b99be873",
-                "1ab4d71950ebe7461a275d54ec3165ae5822562ffbebe38d0bfedb3bac8420d8",
-                "1f4b706cb22feae077e4af7c28ea8940b89fe8c01902adf60d3986420f8edd9c",
-                "341cd89be45491b3746dca618c388e8d1ddc593806eafa49018bbd632143ca28",
-                "beef9da24791543ee65e24595e98019c731aa3b240f1715838a2a708e8bf19f2",
-                "98546c7455d4ff84f7ddfa906dea1c299cd1bd8ee4014cc6be6f0601c71d1f12",
-                "5c53a294ae1d6a032083d6dd8b5b0d228583d3487ad3f04750faa083b10c615d",
-                "3c70e7a2414cae0ce2572ab3674ceab49d24f5864d7c0071bf41d7f76b41e61e",
-                "206457e8de00de78967079cee7738c116fcbb2484b438c00cdc9b9fc97c93153"
+                "5bbb94523323c04b3b36454b5762ed1b1bd06a05edb6b0d706cfd84172931159",
+                "1f37ae2aa788d8866da8be3eca802b9ecf71161bb9505e26b7125e739e9fdebd",
+                "1c31396d78a97201a2275dc978c6a850939addcba3c8a738b883b1bbaa674f46",
+                "f28cc7182a7774a6bec42943aeb48fca87ab4faaa2501849e33cbbee7148b8fe",
+                "f1d33e8bad885d4893b40bdcd175bb771bf0ea24604804b8f33b8b927c32e72b",
+                "39af5626d3ae6411e8180fdf555e52d410b8048b4a4d4f27561823713a20c107",
+                "fef61396e225f3253427c0993610063aad38f76e37d93a51fcaf1ca2c24896fc",
+                "579dc9f1a12cad8b8448f7c7558c121496860023a883caddb62539443847da7b",
+                "520e0fb21552d32c8f7f73672b6539078d4e2f5280f84044ca578f476e90cfb3",
+                "994b80ccaddcfb90ddd461c17766059cdc27e6f454990ac6979426e9955b3e24",
+                "e7a8e8e7d6c92e7e6f303f24d7a96c7d71d761c98262f05f48caadedd5f786f8",
+                "3f3b52c2e0a4157148e9eee4657d39ad125a5f7ad495948f5d220883ff56eeec",
+                "75436a064c3881d3698bb25d0eed45d84b5b16a58ade5ef3936fb82705235f58",
+                "20f9bdd6730f9ea1f90d356acb649ca7000fe68692332293a41bd366f1826210",
+                "2a429d05228a38eecde7ed54abc65acc07222f9c6fc8fa23b85723ac6dc8f22b"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kslnewsradio.com",
-                "kvia.com",
-                "kvoa.com",
-                "kwwl.com",
-                "sports.mynorthwest.com",
-                "waow.com",
-                "wkow.com",
-                "wqow.com",
-                "wrex.com",
-                "wsiltv.com",
+                "mynorthwest.com",
+                "www.680thefan.com",
+                "www.koamnewsnow.com",
+                "www.kvoa.com",
+                "www.kwwl.com",
                 "www.kxly.com",
                 "www.news8000.com",
-                "www.yaktrinews.com",
-                "wxow.com"
+                "www.waow.com",
+                "www.wccbcharlotte.com",
+                "www.winknews.com",
+                "www.wkow.com",
+                "www.wqow.com",
+                "www.wrex.com",
+                "www.wsiltv.com",
+                "www.wxow.com",
+                "www.yaktrinews.com"
             ]
         },
         {
@@ -70,8 +101,8 @@
                 "engine-stg"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.0000966,
+            "sites": 16,
+            "prevalence": 0.000108,
             "cnames": [],
             "responseHashes": [
                 "b93423f18ba63f3282ce4969c0703d17e870a3ece31aab2fe5df224a44912d72"
@@ -80,51 +111,22 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kslnewsradio.com",
-                "kvia.com",
-                "kvoa.com",
-                "kwwl.com",
-                "sports.mynorthwest.com",
-                "waow.com",
-                "wkow.com",
-                "wqow.com",
-                "wrex.com",
-                "wsiltv.com",
+                "mynorthwest.com",
+                "www.680thefan.com",
+                "www.koamnewsnow.com",
+                "www.kvoa.com",
+                "www.kwwl.com",
                 "www.kxly.com",
                 "www.news8000.com",
-                "www.yaktrinews.com",
-                "wxow.com"
-            ]
-        },
-        {
-            "rule": "univtec\\.com\\/event",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tracking"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.0000759,
-            "cnames": [],
-            "responseHashes": [
-                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kslnewsradio.com",
-                "kvia.com",
-                "kvoa.com",
-                "kwwl.com",
-                "sports.mynorthwest.com",
-                "waow.com",
-                "wkow.com",
-                "wqow.com",
-                "wrex.com",
-                "wsiltv.com",
-                "wxow.com"
+                "www.waow.com",
+                "www.wccbcharlotte.com",
+                "www.winknews.com",
+                "www.wkow.com",
+                "www.wqow.com",
+                "www.wrex.com",
+                "www.wsiltv.com",
+                "www.wxow.com",
+                "www.yaktrinews.com"
             ]
         }
     ],
@@ -132,9 +134,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Document": 14,
-        "Script": 14,
-        "XHR": 11
+        "XHR": 2,
+        "Document": 16,
+        "Script": 16
     },
     "nameservers": [
         "ns-189.awsdns-23.com",

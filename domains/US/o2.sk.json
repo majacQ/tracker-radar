@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
         "api-exponea"
@@ -14,8 +14,8 @@
     "resources": [
         {
             "rule": "o2\\.sk\\/js\\/exponea\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [
                 "api-exponea"
             ],
@@ -24,42 +24,32 @@
                 "window.indexedDB": 2,
                 "window.localStorage": 2,
                 "window.sessionStorage": 2,
-                "Navigator.prototype.vendor": 2,
-                "Date.prototype.getTime": 2
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.vendor": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6dd3af0f9c6ae970bee8ad3ddbf684de4ea6d3aa12f6a02d9cabbcfe1f1e8a07"
+                "2111ad7bfbe0663ede6d77ec7ce5e09aaf3284036db8a700efb104d3ccb6eef5"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "o2.cz",
-                "www.o2.cz"
-            ]
-        },
-        {
-            "rule": "o2\\.sk\\/webxp\\/script\\/5851ab46-b9d8-11e9-beef-92ec88286fd6\\/new\\/modifications\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "api-exponea"
-            ],
-            "apis": {
-                "window.localStorage": 1,
-                "Navigator.prototype.userAgent": 2
+            "firstPartyCookies": {
+                "__exponea_etc__": {
+                    "ttl": 94608015,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "__exponea_time2__": {
+                    "ttl": 3615,
+                    "length": 20,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "deb1b97a152a6d78e20b461185589734e2f9a1467404fcc0c9bdb187b888aeff"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "o2.cz",
@@ -69,12 +59,12 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000136,
     "types": {
-        "Script": 4
+        "Script": 2
     },
     "nameservers": [
-        "ns2.tel.cz",
-        "dns.iol.cz"
+        "dns.iol.cz",
+        "ns2.tel.cz"
     ]
 }

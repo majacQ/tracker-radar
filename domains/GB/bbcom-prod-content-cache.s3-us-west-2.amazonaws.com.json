@@ -13,8 +13,52 @@
     "sites": 2,
     "subdomains": [],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/pages\\/rebrand-2021\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c60a2634e463f086bc166443acd4938600b5f11452e38fcaf31ef8183758215d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020056157240272763
+            },
+            "exampleSites": [
+                "bodybuilding.com",
+                "www.bodybuilding.com"
+            ]
+        },
+        {
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/data\\/creeper-bar\\/creeper-bar",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "15e929ad45310f676df16bddcf9a2c7501d737a3b57c071c7661472b995a58c5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020056157240272763
+            },
+            "exampleSites": [
+                "bodybuilding.com",
+                "www.bodybuilding.com"
+            ]
+        },
         {
             "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/data\\/creeper-bar\\/creeper-bar",
             "cookies": 0,
@@ -28,7 +72,7 @@
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.00020066218521119696
+                "IR_gbd": 0.00020056157240272763
             },
             "exampleSites": [
                 "bodybuilding.com",
@@ -36,7 +80,7 @@
             ]
         },
         {
-            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/data\\/creeper-bar\\/creeper-bar",
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/pages\\/rebrand-2021\\/bbcomWrapper\\.c301e2a1\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
@@ -45,12 +89,12 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "cba8b87a8f0fba01ba6b0229e8197061adbcb3a4c697e80c5c69dbd32e8459b2"
+                "6dd37944d0b925087b867b9909f779bc403d24d31cfcb04aca0bb9bae75aaf09"
             ],
-            "type": "XHR",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.00020066218521119696
+                "IR_gbd": 0.00020056157240272763
             },
             "exampleSites": [
                 "bodybuilding.com",
@@ -58,21 +102,45 @@
             ]
         },
         {
-            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/shopify-temp-navigation\\/navigation-shopify\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/pages\\/rebrand-2021\\/bbcomWrapper\\.e1e7d26b\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Performance.prototype.memory": 2,
+                "window.sessionStorage": 2
+            },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5a4ef917f3a838b842d0ae452fdc9a7a83f935d115b0c9456be6230379cf5784"
+                "f42a33e173697a83cfc9577966903e6a18870aa6c7a5dbfc2f23523765119430"
             ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "cart_count": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                },
+                "country": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.00020066218521119696
+                "IR_gbd": 0.00020056157240272763
             },
             "exampleSites": [
                 "bodybuilding.com",
@@ -84,16 +152,18 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
-        "Preflight": 2,
+        "Fetch": 2,
         "XHR": 2,
-        "Fetch": 2
+        "Preflight": 2,
+        "Stylesheet": 2,
+        "Script": 2
     },
     "nameservers": [
-        "ns-1052.awsdns-03.org",
-        "ns-673.awsdns-20.net",
-        "ns-427.awsdns-53.com",
-        "ns-1831.awsdns-36.co.uk"
+        "ns-1997.awsdns-57.co.uk",
+        "ns-1144.awsdns-15.org",
+        "ns-546.awsdns-04.net",
+        "ns-352.awsdns-44.com"
     ]
 }

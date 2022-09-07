@@ -1,41 +1,89 @@
 {
     "domain": "tokenex.com",
-    "owner": {},
+    "owner": {
+        "name": "TokenEx, LLC",
+        "displayName": "TokenEx"
+    },
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000746,
+    "sites": 11,
     "subdomains": [
-        "eu1-htp",
-        "htp"
+        "htp",
+        "test-api"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "tokenex\\.com\\/Iframe\\/Iframe-v3\\.min\\.js",
+            "rule": "tokenex\\.com\\/iframe\\/iframe-v3\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "eu1-htp",
                 "htp"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4f5f0f34c8b3ea97e003a50ecc7277f8c3cab71b0106986a453b8ccd6ca5342d",
-                "48e76017a2ab32ab6c81dd6a2042fae71c48dc4d7103f8691078eb880936b742"
+                "9e6ee5d369e4fea8821fd34d180c466fbf6bb9ca6a91f1488edc024bd6a2c4bd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "atgtickets.com",
-                "www.atgtickets.com",
-                "www.awcwire.com"
+                "petsmartcharities.org",
+                "www.allinclusiveoutlet.com"
+            ]
+        },
+        {
+            "rule": "tokenex\\.com\\/Iframe\\/Iframe-v3\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "htp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "9e6ee5d369e4fea8821fd34d180c466fbf6bb9ca6a91f1488edc024bd6a2c4bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "awcwire.com",
+                "www.awcwire.com",
+                "www.dcne.com"
+            ]
+        },
+        {
+            "rule": "tokenex\\.com\\/inpage\\/js\\/TokenEx-Lite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "test-api"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "ddd985c202e199084974c10cc351e3966f20018bbdd3b94b7734c26f6e92a8cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crystal-springs.com",
+                "www.crystal-springs.com",
+                "www.sparkletts.com"
             ]
         }
     ],
@@ -43,14 +91,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 3
+        "Script": 8
     },
     "nameservers": [
         "ns10.dnsmadeeasy.com",
-        "ns11.dnsmadeeasy.com",
-        "ns12.dnsmadeeasy.com",
-        "ns13.dnsmadeeasy.com",
         "ns14.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
         "ns15.dnsmadeeasy.com"
     ]
 }

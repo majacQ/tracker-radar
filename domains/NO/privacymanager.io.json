@@ -1,23 +1,28 @@
 {
     "domain": "privacymanager.io",
-    "owner": {},
+    "owner": {
+        "name": "LiveRamp Holdings, Inc.",
+        "displayName": "LiveRamp"
+    },
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.0158,
-    "sites": 157,
+    "prevalence": 0.0475,
+    "sites": 474,
     "subdomains": [
         "gdpr-wrapper",
         "gdpr",
-        "geo",
         "cmp-consent-tool",
+        "geo",
         "gdpr-web-dau-prod",
-        "d916fd0e-5b69-4cc6-bf4d-14dc5e31af5a.gdpr",
-        "27ccbe20-775f-11eb-a2f1-77ab999ee6be.gdpr",
+        "ats-wrapper",
+        "launchpad",
+        "launchpad-wrapper",
+        "vendors",
         "ccpa"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "privacymanager\\.io\\/gdpr\\/7f035220-1751-4684-bb7f-a1c0d45657df\\/gdpr-liveramp\\.js",
@@ -27,13 +32,14 @@
                 "gdpr-wrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 39
+                "Navigator.prototype.userAgent": 68
             },
-            "sites": 50,
-            "prevalence": 0.00502,
+            "sites": 68,
+            "prevalence": 0.00682,
             "cnames": [],
             "responseHashes": [
-                "36f429356af4c59a3dea036c75cd7bba8ecf6beee1812617c3912d3f8870c607"
+                "f373702102ace509e79cf812c0a6563746d392493497ed59cd3120c6274c5aba",
+                "47f47a72c7c7fd1df9464c973303d0c4e166eb5d4633a2b8a706b608b8334f47"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -41,125 +47,117 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
-                "capitalizemytitle.com",
-                "www.futuregamereleases.com",
-                "pocketnow.com",
-                "www.nerdsandscoundrels.com",
-                "filmdaily.co",
-                "www.notateslaapp.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.esportstales.com",
+                "azurelessons.com",
+                "thenetline.com",
+                "progametalk.com",
+                "www.gardeningknowhow.com",
                 "www.rdr2.org",
-                "poemanalysis.com",
-                "thunderboltlaptop.com",
-                "www.macrumors.com",
-                "www.theperfectloaf.com",
-                "gamingsmart.com",
-                "pimylifeup.com",
-                "www.almarsguides.com",
-                "www.blueberries.gg",
-                "www.marineinsight.com",
-                "www.believeintherun.com",
-                "www.scienceofpeople.com"
+                "florgeous.com",
+                "www.wintips.org",
+                "appletoolbox.com",
+                "maps.seaofthieves.rarethief.com",
+                "www.technipages.com",
+                "housegrail.com",
+                "www.musicindustryhowto.com",
+                "guidefall.com",
+                "www.mmo-champion.com",
+                "thewordcounter.com"
             ]
         },
         {
             "rule": "privacymanager\\.io\\/latest\\/gdpr\\.bundle\\.js",
-            "cookies": 0.00351,
-            "fingerprinting": 1,
+            "cookies": 0.00752,
+            "fingerprinting": 2,
             "subdomains": [
                 "gdpr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 39,
-                "window.localStorage": 39,
-                "Document.cookie getter": 38,
-                "Navigator.prototype.language": 39,
-                "Document.cookie setter": 35,
-                "Date.prototype.getTime": 39,
-                "Navigator.prototype.cookieEnabled": 38
+                "Navigator.prototype.userAgent": 83,
+                "window.localStorage": 83,
+                "Document.cookie getter": 83,
+                "Navigator.prototype.language": 83,
+                "Document.cookie setter": 75,
+                "Navigator.prototype.cookieEnabled": 82,
+                "window.innerHeight": 71,
+                "window.innerWidth": 71
             },
-            "sites": 44,
-            "prevalence": 0.00442,
+            "sites": 83,
+            "prevalence": 0.00833,
             "cnames": [],
             "responseHashes": [
-                "f8d9561d9ce4e63494bfd9d06ecc8de8b5e84e63f2e2fcaaa694c7bcacdeb1d9"
+                "8dd50d5366dbce419bb2c92b138d8e5be463d274430e3ce9251bed8af3e130db",
+                "d14266f774032813f6dda2318a1b4262fe38c46aacb5da8d0e01fec3b57edaf8"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "gdpr-auditId": {
                     "ttl": 33696000,
                     "length": 32,
-                    "prevalence": 0.0035122930255895636,
+                    "prevalence": 0.007523322299127295,
+                    "uniqueness": 1
+                },
+                "gdpr-dau-log-sent": {
+                    "ttl": 86400,
+                    "length": 4,
+                    "prevalence": 0.001504664459825459,
+                    "uniqueness": 0.06666666666666667
+                },
+                "geo-location": {
+                    "ttl": 86400,
+                    "length": 30,
+                    "prevalence": 0.0003009328919650918,
+                    "uniqueness": 0.3333333333333333
+                },
+                "gdpr-dau": {
+                    "ttl": 86400,
+                    "length": 4,
+                    "prevalence": 0.0003009328919650918,
+                    "uniqueness": 0.3333333333333333
+                },
+                "7a9273aa-bc97-4542-bed2-4ee53960a5aelocale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.00010031096398836393,
+                    "uniqueness": 1
+                },
+                "a7e8fb93-5f1f-4375-b321-8e998143ae61locale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.00010031096398836393,
                     "uniqueness": 1
                 },
                 "94a59b49-b7ea-4e1c-93c9-95a65811342blocale": {
                     "ttl": 33696000,
                     "length": 2,
-                    "prevalence": 0.00010035122930255896,
+                    "prevalence": 0.00010031096398836393,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
+                "heavy.com",
                 "thoughtcatalog.com",
-                "minimalistbaker.com",
-                "musiccoder.com",
-                "www.futuregamereleases.com",
-                "www.sleepadvisor.org",
-                "www.roadbikerider.com",
-                "symbolsage.com",
-                "www.mantelligence.com",
-                "www.wintips.org",
-                "fictionhorizon.com",
-                "rarethief.com",
-                "www.dcrainmaker.com",
-                "pimylifeup.com",
-                "www.macrumors.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.technipages.com",
+                "progametalk.com",
+                "yoodley.com",
+                "diamondlobby.com",
                 "www.almarsguides.com",
-                "www.ginx.tv",
-                "capitalizemytitle.com",
-                "outsidergaming.com",
-                "www.autoscout24.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "geo"
-            ],
-            "apis": {},
-            "sites": 105,
-            "prevalence": 0.0105,
-            "cnames": [],
-            "responseHashes": [
-                "21b196f5566f8ec52ccd845bab462d53d96c014ed7a45e45f8a0d5551b8afdf7"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "healthfully.com",
-                "healthyeating.sfgate.com",
-                "hollywoodlife.com",
-                "homeguides.sfgate.com",
-                "itstillruns.com",
-                "knowyourmeme.com",
-                "oureverydaylife.com",
-                "pjmedia.com",
-                "psychcentral.com",
-                "sciencing.com",
-                "wikimon.net",
-                "www.op.gg",
-                "www.gradesaver.com",
-                "www.smulweb.nl",
-                "redstate.com",
-                "symptomchecker.webmd.com",
-                "www.photrio.com",
-                "www.webmd.com",
-                "www.ebaumsworld.com",
-                "www.theclassroom.com"
+                "www.nerdsandscoundrels.com",
+                "www.boatsafe.com",
+                "lazyadmin.nl",
+                "www.minecraftforum.net",
+                "housegrail.com",
+                "www.behindthevoiceactors.com",
+                "hackspirit.com",
+                "thewordcounter.com",
+                "statisticsglobe.com",
+                "www.ggrecon.com"
             ]
         },
         {
@@ -170,8 +168,8 @@
                 "gdpr-wrapper"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
+            "sites": 68,
+            "prevalence": 0.00682,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -180,24 +178,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
-                "poemanalysis.com",
-                "minimalistbaker.com",
-                "www.almarsguides.com",
-                "www.mantelligence.com",
-                "statisticsglobe.com",
-                "hackspirit.com",
-                "www.theperfectloaf.com",
-                "kirbiecravings.com",
-                "filmdaily.co",
-                "www.macrumors.com",
-                "www.chunkbase.com",
-                "www.idownloadblog.com",
-                "outsidergaming.com",
-                "capitalizemytitle.com",
-                "pimylifeup.com",
-                "www.futuregamereleases.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.technipages.com",
+                "www.nerdsandscoundrels.com",
+                "appletoolbox.com",
+                "www.boatsafe.com",
+                "www.whateatly.com",
+                "www.musicindustryhowto.com",
+                "pythonguides.com",
+                "florgeous.com",
+                "worldbirds.com",
+                "www.behindthevoiceactors.com",
+                "www.celebritynetworth.com",
+                "www.sleepadvisor.org",
                 "fictionhorizon.com",
-                "linuxhint.com"
+                "draftsim.com",
+                "www.videogamer.com",
+                "www.pythoncentral.io"
             ]
         },
         {
@@ -208,11 +206,11 @@
                 "gdpr-wrapper"
             ],
             "apis": {},
-            "sites": 36,
-            "prevalence": 0.00361,
+            "sites": 68,
+            "prevalence": 0.00682,
             "cnames": [],
             "responseHashes": [
-                "30918438bba02381dadd63e4b79d3a5c3f3e78298b2dc4269c082608be4d555c"
+                "1b60963b4460704801199e9536d2f3b00c249132d88d75ebdd2a25436e6d8854"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -220,24 +218,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
-                "www.macrumors.com",
-                "musiccoder.com",
-                "fictionhorizon.com",
-                "kirbiecravings.com",
-                "pythonguides.com",
-                "rarethief.com",
-                "statisticsglobe.com",
-                "www.theperfectloaf.com",
-                "www.notateslaapp.com",
-                "www.nerdsandscoundrels.com",
-                "www.futuregamereleases.com",
-                "gamingsmart.com",
-                "pimylifeup.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.almarsguides.com",
                 "www.mantelligence.com",
-                "www.roadbikerider.com",
-                "symbolsage.com",
-                "www.idownloadblog.com",
-                "www.christianforums.com"
+                "progametalk.com",
+                "www.exceldemy.com",
+                "www.celebritynetworth.com",
+                "draftsim.com",
+                "maps.seaofthieves.rarethief.com",
+                "balconygardenweb.com",
+                "de.tideking.com",
+                "www.mmo-champion.com",
+                "hackspirit.com",
+                "www.sleepadvisor.org",
+                "thenetline.com",
+                "morningchores.com",
+                "www.ggrecon.com",
+                "housegrail.com"
             ]
         },
         {
@@ -248,11 +246,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "fecf08d48dbc946b3487abedf98eda2cc270626b457f350347e67729bb4c007c"
+                "29b7f78db08d77ff1943d06b6a5f1ebf24843b1fb8cd40da79d576101f5f0b5e"
             ],
             "type": "Document",
             "firstPartyCookies": {},
@@ -260,24 +258,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.notateslaapp.com",
-                "pimylifeup.com",
-                "kirbiecravings.com",
-                "gamingsmart.com",
-                "www.macrumors.com",
+                "www.boatsafe.com",
+                "www.rdr2.org",
+                "guidefall.com",
+                "www.developgoodhabits.com",
+                "morningchores.com",
+                "de.tideking.com",
+                "www.celebritynetworth.com",
+                "www.autoscout24.de",
+                "www.technipages.com",
+                "progametalk.com",
+                "www.listal.com",
+                "www.behindthevoiceactors.com",
+                "draftsim.com",
                 "www.mantelligence.com",
-                "filmdaily.co",
-                "minimalistbaker.com",
-                "www.roadbikerider.com",
-                "capitalizemytitle.com",
-                "www.almarsguides.com",
-                "linuxhint.com",
-                "www.idownloadblog.com",
-                "www.christianforums.com",
-                "www.fifaindex.com",
-                "outsidergaming.com",
-                "fictionhorizon.com"
+                "statisticsglobe.com"
             ]
         },
         {
@@ -288,11 +286,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "d96359b975ea60541c0a2af5c5de0197241e5e769841ac87cdb8dbb636dac16f"
+                "5fd811628575c59ea4501cbacd7fee7ffcb6eac53994664438bf006142eb0e0e"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -300,24 +298,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "hackspirit.com",
-                "pimylifeup.com",
-                "www.chunkbase.com",
-                "www.futuregamereleases.com",
-                "www.christianforums.com",
-                "fictionhorizon.com",
-                "linuxhint.com",
-                "kirbiecravings.com",
-                "statisticsglobe.com",
-                "minimalistbaker.com",
-                "filmdaily.co",
-                "www.theperfectloaf.com",
-                "pocketnow.com",
-                "rarethief.com",
-                "www.scienceofpeople.com",
-                "capitalizemytitle.com",
-                "www.mantelligence.com"
+                "diamondlobby.com",
+                "www.hepper.com",
+                "www.mantelligence.com",
+                "www.blueberries.gg",
+                "bdo.altarofgaming.com",
+                "azurelessons.com",
+                "www.supercars.net",
+                "www.idownloadblog.com",
+                "yoodley.com",
+                "www.whateatly.com",
+                "www.rdr2.org",
+                "www.wisselkoers.nl",
+                "www.videogamer.com",
+                "www.autoscout24.com",
+                "statisticsglobe.com"
             ]
         },
         {
@@ -328,11 +326,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "c631d3bebb168e8549f41a8137a8681fc6d87da3b1b4c2cd6377b7d79b236caf"
+                "107c3c8d58a4b471627bcbdb06e10ec2cbd670a02c29458fea8383c1f9d7ddb9"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -340,24 +338,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.travelmath.com",
+                "www.knowyourmobile.com",
+                "thewordcounter.com",
                 "www.mantelligence.com",
-                "www.idownloadblog.com",
-                "filmdaily.co",
-                "www.chunkbase.com",
-                "hackspirit.com",
-                "www.almarsguides.com",
-                "statisticsglobe.com",
-                "www.theperfectloaf.com",
-                "www.autoscout24.com",
-                "rarethief.com",
-                "www.scienceofpeople.com",
+                "leafyplace.com",
+                "worldbirds.com",
+                "www.technipages.com",
+                "www.behindthevoiceactors.com",
+                "www.blueberries.gg",
                 "linuxhint.com",
-                "www.futuregamereleases.com",
-                "fictionhorizon.com",
-                "gamingsmart.com",
-                "poemanalysis.com"
+                "www.musicindustryhowto.com",
+                "mykindofmeeple.com",
+                "www.rdr2.org",
+                "www.minecraftforum.net",
+                "www.esportstales.com",
+                "diamondlobby.com"
             ]
         },
         {
@@ -368,11 +366,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "250a0280938365d9f83769f776b3834a605a6560ca3df785029ba97b6ddd5c4e"
+                "1357132a872bc3c79a758f8ee6bd845da8dd085917d3948fd9ea7eb5cbc8228d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -380,24 +378,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "fictionhorizon.com",
-                "www.roadbikerider.com",
-                "poemanalysis.com",
-                "www.theperfectloaf.com",
-                "www.macrumors.com",
-                "hackspirit.com",
-                "minimalistbaker.com",
-                "capitalizemytitle.com",
-                "linuxhint.com",
-                "pocketnow.com",
-                "filmdaily.co",
-                "www.scienceofpeople.com",
-                "www.almarsguides.com",
-                "www.christianforums.com",
-                "www.travelmath.com",
+                "www.listal.com",
+                "maps.seaofthieves.rarethief.com",
+                "www.gardeningknowhow.com",
+                "www.autoscout24.de",
+                "www.musicindustryhowto.com",
+                "www.rdr2.org",
+                "leaguefeed.net",
+                "mashtips.com",
+                "www.videogamer.com",
+                "www.autoscout24.nl",
+                "www.sleepadvisor.org",
+                "florgeous.com",
                 "www.mantelligence.com",
-                "sallysbakingaddiction.com"
+                "www.autoscout24.com",
+                "www.idownloadblog.com"
             ]
         },
         {
@@ -408,13 +406,13 @@
                 "cmp-consent-tool"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 35
+                "Navigator.prototype.userAgent": 74
             },
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "3c04106baf1333a6d9411aff493577c67786b171cfa91501c8eb3e31405b3059"
+                "50166cea7ed05f882dff7f3496d076e8bc9defb23b487d64d6d4a7c21c325d1a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -422,24 +420,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "fictionhorizon.com",
-                "www.fifaindex.com",
+                "nerdburglars.net",
+                "www.technipages.com",
+                "www.talkbass.com",
+                "diamondlobby.com",
                 "hackspirit.com",
-                "musiccoder.com",
-                "linuxhint.com",
-                "www.idownloadblog.com",
-                "www.mantelligence.com",
-                "minimalistbaker.com",
-                "pimylifeup.com",
-                "sallysbakingaddiction.com",
-                "rarethief.com",
-                "filmdaily.co",
-                "www.travelmath.com",
-                "pocketnow.com",
-                "www.macrumors.com",
-                "gamingsmart.com",
-                "poemanalysis.com"
+                "mashtips.com",
+                "guitaradvise.com",
+                "www.supercars.net",
+                "www.exceldemy.com",
+                "thewordcounter.com",
+                "www.sleepadvisor.org",
+                "maps.seaofthieves.rarethief.com",
+                "www.autoscout24.com",
+                "www.autoscout24.nl",
+                "gameriv.com"
             ]
         },
         {
@@ -450,14 +448,14 @@
                 "cmp-consent-tool"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 35,
-                "Navigator.prototype.platform": 35
+                "Navigator.prototype.userAgent": 74,
+                "Navigator.prototype.platform": 73
             },
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "8d49b3070550d94e487ca7bb67ff0b7b7413fb13805385cf9ddb9b5fb32a97d0"
+                "10d30e26ef1c7a25e4714259f231c7db8993fe4583537a2be5a3b1749443b726"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -465,24 +463,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "sallysbakingaddiction.com",
-                "musiccoder.com",
-                "linuxhint.com",
+                "www.esportstales.com",
+                "progametalk.com",
+                "www.exceldemy.com",
+                "fictionhorizon.com",
+                "www.listal.com",
+                "morningchores.com",
+                "www.technipages.com",
                 "www.nerdsandscoundrels.com",
-                "gamingsmart.com",
-                "minimalistbaker.com",
+                "guitaradvise.com",
+                "lazyadmin.nl",
+                "florgeous.com",
+                "www.developgoodhabits.com",
                 "hackspirit.com",
-                "www.fifaindex.com",
-                "outsidergaming.com",
-                "pimylifeup.com",
-                "capitalizemytitle.com",
-                "statisticsglobe.com",
-                "www.scienceofpeople.com",
-                "www.chunkbase.com",
-                "www.christianforums.com",
-                "www.roadbikerider.com",
-                "www.notateslaapp.com"
+                "thegimptutorials.com",
+                "guidefall.com"
             ]
         },
         {
@@ -493,11 +491,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "0bb91510affa30b30f4c3ce7bc5609b6f98ca55ff26d51a89b9cc0abd8bbaa7a"
+                "1e447a73ff7b3e07d997afc994dd1cf824b270c59a1fa88a8258aabbfc5a445e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -505,24 +503,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "pimylifeup.com",
-                "www.macrumors.com",
-                "www.notateslaapp.com",
+                "www.gardeningknowhow.com",
+                "mashtips.com",
+                "appletoolbox.com",
                 "www.mantelligence.com",
-                "fictionhorizon.com",
-                "capitalizemytitle.com",
-                "hackspirit.com",
-                "www.travelmath.com",
-                "pocketnow.com",
                 "linuxhint.com",
-                "www.thefpsreview.com",
-                "www.autoscout24.com",
-                "www.chunkbase.com",
-                "poemanalysis.com",
-                "musiccoder.com",
-                "www.scienceofpeople.com",
-                "www.christianforums.com"
+                "guidefall.com",
+                "balconygardenweb.com",
+                "www.boatsafe.com",
+                "www.mmo-champion.com",
+                "draftsim.com",
+                "www.developgoodhabits.com",
+                "www.wintips.org",
+                "statisticsglobe.com",
+                "de.tideking.com",
+                "florgeous.com"
             ]
         },
         {
@@ -533,8 +531,8 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -545,39 +543,44 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "musiccoder.com",
-                "www.scienceofpeople.com",
-                "www.christianforums.com",
-                "www.fifaindex.com",
-                "statisticsglobe.com",
-                "kirbiecravings.com",
-                "sallysbakingaddiction.com",
-                "fictionhorizon.com",
-                "www.roadbikerider.com",
-                "minimalistbaker.com",
-                "www.almarsguides.com",
-                "linuxhint.com",
-                "outsidergaming.com",
-                "www.travelmath.com",
-                "www.chunkbase.com",
-                "capitalizemytitle.com",
-                "www.futuregamereleases.com"
+                "www.musicindustryhowto.com",
+                "culturedvultures.com",
+                "lazyadmin.nl",
+                "bdo.altarofgaming.com",
+                "www.nerdsandscoundrels.com",
+                "www.autoscout24.nl",
+                "www.geenstijl.nl",
+                "adamtheautomator.com",
+                "guidefall.com",
+                "www.behindthevoiceactors.com",
+                "florgeous.com",
+                "mashtips.com",
+                "housegrail.com",
+                "leafyplace.com",
+                "guitaradvise.com"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/latest\\/1\\.js",
+            "rule": "privacymanager\\.io\\/latest\\/847\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "cmp-consent-tool"
             ],
-            "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "apis": {
+                "Screen.prototype.width": 73,
+                "Screen.prototype.height": 73,
+                "window.innerHeight": 73,
+                "window.innerWidth": 73
+            },
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "b17a8edc7506493d958440f90b259891f10788ff6d72d53c61555fde7528f720"
+                "3220a07ad1f631e62d4b733f2ac3f6d8f640e67dccc04a5c7dfa1faeadd4c576"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -585,39 +588,41 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "statisticsglobe.com",
+                "www.blueberries.gg",
+                "culturedvultures.com",
+                "www.videogamer.com",
+                "www.minecraftforum.net",
+                "www.mmo-champion.com",
+                "leafyplace.com",
+                "bdo.altarofgaming.com",
+                "www.nerdsandscoundrels.com",
+                "mykindofmeeple.com",
+                "mashtips.com",
+                "lazyadmin.nl",
                 "www.mantelligence.com",
-                "www.almarsguides.com",
-                "capitalizemytitle.com",
-                "pimylifeup.com",
-                "hackspirit.com",
-                "minimalistbaker.com",
-                "www.christianforums.com",
-                "www.scienceofpeople.com",
-                "fictionhorizon.com",
-                "rarethief.com",
-                "poemanalysis.com",
-                "www.notateslaapp.com",
-                "www.theperfectloaf.com",
-                "sallysbakingaddiction.com",
-                "www.travelmath.com",
-                "filmdaily.co"
+                "adamtheautomator.com",
+                "leaguefeed.net",
+                "www.wintips.org"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/latest\\/18\\.js",
+            "rule": "privacymanager\\.io\\/latest\\/650\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "cmp-consent-tool"
             ],
-            "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "apis": {
+                "window.innerWidth": 73
+            },
+            "sites": 74,
+            "prevalence": 0.00742,
             "cnames": [],
             "responseHashes": [
-                "1b4545e593ba3c26b1d9d4964a52360e4abd77b37b42752f6f9e7f00aa9d8ba7"
+                "c0c6ebceae3d1722e6da4ce408acb406787f11df1e1fb8696f33c5481e9b4b6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -625,24 +630,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.travelmath.com",
+                "www.exceldemy.com",
+                "yoodley.com",
+                "www.sleepadvisor.org",
+                "morningchores.com",
+                "linuxhint.com",
+                "fictionhorizon.com",
+                "www.ggrecon.com",
+                "www.autoscout24.com",
+                "www.almarsguides.com",
+                "gameriv.com",
+                "guidefall.com",
+                "balconygardenweb.com",
+                "musiccritic.com",
                 "www.macrumors.com",
-                "hackspirit.com",
-                "www.thefpsreview.com",
-                "www.almarsguides.com",
-                "www.christianforums.com",
-                "minimalistbaker.com",
-                "linuxhint.com",
-                "www.mantelligence.com",
-                "statisticsglobe.com",
-                "www.futuregamereleases.com",
-                "outsidergaming.com",
-                "www.theperfectloaf.com",
-                "sallysbakingaddiction.com",
-                "www.notateslaapp.com",
-                "www.scienceofpeople.com",
-                "musiccoder.com"
+                "www.knowyourmobile.com"
             ]
         },
         {
@@ -653,11 +658,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
+            "sites": 67,
+            "prevalence": 0.00672,
             "cnames": [],
             "responseHashes": [
-                "67a9149e10e7c5efbcadfa0f7118dad6a12005f07c969737264465f9346748cc"
+                "31dc78812232ea4a6493c142cb106b6e9b1ce8a6132f812acd86c873e80502a7"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -665,39 +670,39 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
-                "www.theperfectloaf.com",
-                "www.macrumors.com",
-                "rarethief.com",
-                "pimylifeup.com",
-                "filmdaily.co",
-                "www.scienceofpeople.com",
-                "www.christianforums.com",
-                "www.roadbikerider.com",
-                "www.thefpsreview.com",
-                "www.mantelligence.com",
-                "statisticsglobe.com",
-                "outsidergaming.com",
-                "www.fifaindex.com",
-                "poemanalysis.com",
-                "pocketnow.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.minecraftforum.net",
                 "linuxhint.com",
-                "www.almarsguides.com",
-                "www.futuregamereleases.com"
+                "hackspirit.com",
+                "culturedvultures.com",
+                "www.idownloadblog.com",
+                "balconygardenweb.com",
+                "housegrail.com",
+                "www.whateatly.com",
+                "www.hepper.com",
+                "musiccritic.com",
+                "yoodley.com",
+                "mashtips.com",
+                "www.technipages.com",
+                "www.talkbass.com",
+                "www.knowyourmobile.com",
+                "www.listal.com"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/latest\\/17\\.js",
+            "rule": "privacymanager\\.io\\/latest\\/605\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 73,
+            "prevalence": 0.00732,
             "cnames": [],
             "responseHashes": [
-                "aef9ed644efb2888474c4e759b3903f5d07645e71cb9da7ebe68c48f3204b6b8"
+                "1e8eb3143ae508bca0b46d3cc70e57d78c9c19b8b535a40498bad308428c65fb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -705,24 +710,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "statisticsglobe.com",
-                "pocketnow.com",
+                "housegrail.com",
+                "draftsim.com",
+                "progametalk.com",
+                "musiccritic.com",
+                "www.esportstales.com",
+                "mashtips.com",
+                "guidefall.com",
+                "de.tideking.com",
+                "www.gardeningknowhow.com",
+                "www.autoscout24.de",
                 "fictionhorizon.com",
-                "minimalistbaker.com",
-                "www.futuregamereleases.com",
-                "www.christianforums.com",
-                "linuxhint.com",
-                "gamingsmart.com",
-                "www.fifaindex.com",
-                "www.autoscout24.com",
-                "www.theperfectloaf.com",
-                "sallysbakingaddiction.com",
-                "hackspirit.com",
-                "capitalizemytitle.com",
-                "www.macrumors.com",
-                "pimylifeup.com",
-                "www.mantelligence.com"
+                "lazyadmin.nl",
+                "appletoolbox.com",
+                "statisticsglobe.com",
+                "diamondlobby.com"
             ]
         },
         {
@@ -733,36 +738,36 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
+            "sites": 70,
+            "prevalence": 0.00702,
             "cnames": [],
             "responseHashes": [
-                "a42f2ec73409f2753ef17d737714c86303fa45fc3a3d484a9b0c8ed28ef0fd6b"
+                "778b8cd899b9ebf3913aaa46e397ce897bb192b100b276982869f5f00525b39f"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "poemanalysis.com",
-                "www.mantelligence.com",
-                "www.almarsguides.com",
-                "www.idownloadblog.com",
-                "statisticsglobe.com",
+                "diamondlobby.com",
+                "pythonguides.com",
+                "appletoolbox.com",
+                "leafyplace.com",
+                "florgeous.com",
+                "www.gardeningknowhow.com",
+                "progametalk.com",
                 "linuxhint.com",
-                "pocketnow.com",
-                "filmdaily.co",
-                "www.notateslaapp.com",
-                "gamingsmart.com",
-                "minimalistbaker.com",
-                "www.theperfectloaf.com",
-                "pimylifeup.com",
-                "www.fifaindex.com",
-                "www.christianforums.com",
-                "www.scienceofpeople.com",
-                "www.thefpsreview.com",
-                "www.nerdsandscoundrels.com"
+                "maps.seaofthieves.rarethief.com",
+                "www.rdr2.org",
+                "worldbirds.com",
+                "yoodley.com",
+                "guitaradvise.com",
+                "thewordcounter.com",
+                "www.listal.com"
             ]
         },
         {
@@ -773,11 +778,11 @@
                 "gdpr"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
+            "sites": 67,
+            "prevalence": 0.00672,
             "cnames": [],
             "responseHashes": [
-                "48307114877d5b07454707dd9e225619dc2b438b76558e29748f1f9aee0bbf5a"
+                "ae199f1705b0e0077ee264eb406ef61fd0871b606927b1a4e7da86b951c662e9"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -785,24 +790,24 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
-                "www.scienceofpeople.com",
-                "sallysbakingaddiction.com",
-                "www.futuregamereleases.com",
-                "www.macrumors.com",
-                "hackspirit.com",
-                "capitalizemytitle.com",
-                "www.fifaindex.com",
-                "pimylifeup.com",
-                "linuxhint.com",
-                "minimalistbaker.com",
-                "gamingsmart.com",
-                "www.travelmath.com",
-                "www.thefpsreview.com",
-                "filmdaily.co",
-                "www.nerdsandscoundrels.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.celebritynetworth.com",
+                "www.minecraftforum.net",
+                "www.listal.com",
+                "housegrail.com",
                 "www.idownloadblog.com",
-                "pocketnow.com",
-                "kirbiecravings.com"
+                "www.supercars.net",
+                "rarethief.com",
+                "gameriv.com",
+                "balconygardenweb.com",
+                "linuxhint.com",
+                "www.whateatly.com",
+                "guitaradvise.com",
+                "mykindofmeeple.com",
+                "maps.seaofthieves.rarethief.com",
+                "hackspirit.com",
+                "worldbirds.com"
             ]
         },
         {
@@ -813,8 +818,8 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 34,
-            "prevalence": 0.00341,
+            "sites": 73,
+            "prevalence": 0.00732,
             "cnames": [],
             "responseHashes": [
                 "9d0c64b5cb663056b6295f677fb794d23ae3999112515beecb7c6703723f493a"
@@ -824,25 +829,25 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "statisticsglobe.com",
-                "hackspirit.com",
-                "linuxhint.com",
-                "www.notateslaapp.com",
-                "www.futuregamereleases.com",
-                "rarethief.com",
-                "www.nerdsandscoundrels.com",
-                "www.almarsguides.com",
-                "www.autoscout24.com",
-                "poemanalysis.com",
-                "musiccoder.com",
+                "progametalk.com",
+                "de.tideking.com",
+                "balconygardenweb.com",
+                "yoodley.com",
+                "www.listal.com",
+                "www.wisselkoers.nl",
+                "www.behindthevoiceactors.com",
+                "worldbirds.com",
+                "www.rdr2.org",
+                "mykindofmeeple.com",
                 "www.macrumors.com",
-                "sallysbakingaddiction.com",
-                "fictionhorizon.com",
-                "www.idownloadblog.com",
-                "minimalistbaker.com",
-                "pimylifeup.com",
-                "www.thefpsreview.com"
+                "thenetline.com",
+                "thegimptutorials.com",
+                "www.almarsguides.com",
+                "pythonguides.com"
             ]
         },
         {
@@ -853,36 +858,36 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
+            "sites": 70,
+            "prevalence": 0.00702,
             "cnames": [],
             "responseHashes": [
-                "c73575543a5c99018f842960f9882edaa0918965ea856e91de9717a0d58d3f1c"
+                "2b79fc5a0762f8c5f01ca689ce5df47e673eedfe29a7668332d16ec9afd7c8d4"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "kirbiecravings.com",
-                "www.almarsguides.com",
-                "www.fifaindex.com",
-                "www.christianforums.com",
-                "rarethief.com",
-                "www.futuregamereleases.com",
-                "www.mantelligence.com",
-                "www.idownloadblog.com",
-                "fictionhorizon.com",
-                "www.chunkbase.com",
-                "musiccoder.com",
-                "minimalistbaker.com",
+                "balconygardenweb.com",
+                "culturedvultures.com",
+                "www.celebritynetworth.com",
+                "www.minecraftforum.net",
+                "www.boatsafe.com",
+                "leafyplace.com",
+                "morningchores.com",
                 "linuxhint.com",
-                "statisticsglobe.com",
-                "filmdaily.co",
-                "sallysbakingaddiction.com",
-                "gamingsmart.com",
-                "www.travelmath.com"
+                "azurelessons.com",
+                "worldbirds.com",
+                "www.wintips.org",
+                "guitaradvise.com",
+                "www.blueberries.gg",
+                "www.almarsguides.com",
+                "thewordcounter.com"
             ]
         },
         {
@@ -893,161 +898,36 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
+            "sites": 70,
+            "prevalence": 0.00702,
             "cnames": [],
             "responseHashes": [
-                "c298433cc9eb86f4c0be0a447b0faf398dee9186d2bcf26683297de2758cddc7"
+                "85e053deacf69ac039c3e507513fce4791810aa498b202947f48bde905dba7e3"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.notateslaapp.com",
-                "minimalistbaker.com",
-                "www.travelmath.com",
-                "www.almarsguides.com",
-                "www.futuregamereleases.com",
-                "gamingsmart.com",
-                "linuxhint.com",
-                "statisticsglobe.com",
-                "rarethief.com",
-                "musiccoder.com",
-                "filmdaily.co",
-                "kirbiecravings.com",
-                "www.roadbikerider.com",
-                "www.christianforums.com",
-                "www.nerdsandscoundrels.com",
-                "poemanalysis.com",
+                "appletoolbox.com",
+                "www.celebritynetworth.com",
+                "leaguefeed.net",
+                "www.sleepadvisor.org",
+                "progametalk.com",
+                "balconygardenweb.com",
+                "musiccritic.com",
+                "azurelessons.com",
                 "www.mantelligence.com",
-                "fictionhorizon.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/gdpr-liveramp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 7
-            },
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "97b61ce6e9805953d478b6ab3e922d3e00c6a382d3dc292e54761b47db69a04d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frontpagemetrics.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "wikimon.net",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.onthisday.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/1\\/gdpr\\.bundle\\.js",
-            "cookies": 0.0013,
-            "fingerprinting": 1,
-            "subdomains": [
-                "gdpr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "window.localStorage": 16,
-                "Document.cookie getter": 16,
-                "Navigator.prototype.language": 16,
-                "Document.cookie setter": 13,
-                "Date.prototype.getTime": 16,
-                "Navigator.prototype.cookieEnabled": 16
-            },
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "f8d9561d9ce4e63494bfd9d06ecc8de8b5e84e63f2e2fcaaa694c7bcacdeb1d9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "gdpr-auditId": {
-                    "ttl": 33696000,
-                    "length": 32,
-                    "prevalence": 0.0013045659809332664,
-                    "uniqueness": 1
-                },
-                "geo-location": {
-                    "ttl": 86400,
-                    "length": 30,
-                    "prevalence": 0.0013045659809332664,
-                    "uniqueness": 0.07692307692307693
-                },
-                "gdpr-dau": {
-                    "ttl": 86400,
-                    "length": 4,
-                    "prevalence": 0.0012042147516307074,
-                    "uniqueness": 0.08333333333333333
-                },
-                "gdpr-dau-log-sent": {
-                    "ttl": 86400,
-                    "length": 4,
-                    "prevalence": 0.0012042147516307074,
-                    "uniqueness": 0.08333333333333333
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frontpagemetrics.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "wikimon.net",
-                "www.carwow.co.uk",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.ibtimes.com",
-                "www.netdoktor.de",
-                "www.newsweek.com",
-                "www.onthisday.com",
-                "www.player.one",
-                "www.smulweb.nl",
-                "www.tapatalk.com",
-                "www.thegatewaypundit.com",
-                "www.vrt.be",
-                "www.westernjournal.com",
-                "www.zoopla.co.uk"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frontpagemetrics.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "wikimon.net",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.onthisday.com"
+                "www.boatsafe.com",
+                "www.whateatly.com",
+                "thegimptutorials.com",
+                "www.developgoodhabits.com",
+                "www.exceldemy.com",
+                "bdo.altarofgaming.com"
             ]
         },
         {
@@ -1058,61 +938,36 @@
                 "geo"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.00211,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "frontpagemetrics.com",
-                "www.netdoktor.de",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.ibtimes.com",
-                "www.ginx.tv",
-                "www.carwow.co.uk",
-                "www.onthisday.com",
-                "www.player.one",
-                "www.dcrainmaker.com",
-                "www.smulweb.nl",
-                "www.gameskinny.com",
-                "www.westernjournal.com",
-                "www.vrt.be",
-                "wikimon.net",
-                "www.tapatalk.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 396,
+            "prevalence": 0.0397,
             "cnames": [],
             "responseHashes": [
-                "3f63ffd6610cf1c3dc3e5a6403b83d0aa8f02d1297ebe53c437a553a9d1ce64d"
+                "21b196f5566f8ec52ccd845bab462d53d96c014ed7a45e45f8a0d5551b8afdf7"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "frontpagemetrics.com",
+                "dailycaller.com",
+                "forum.xda-developers.com",
+                "gizmodo.com",
+                "health.usnews.com",
+                "healthfully.com",
                 "hollywoodlife.com",
+                "itsfoss.com",
                 "knowyourmeme.com",
-                "wikimon.net",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.onthisday.com"
+                "lifehacker.com",
+                "oureverydaylife.com",
+                "gamersdecide.com",
+                "www.allocine.fr",
+                "www.ibtimes.co.uk",
+                "cyberpunk.fandom.com",
+                "www.t3.com",
+                "www.girlsaskguys.com",
+                "www.windowscentral.com",
+                "battlefield.fandom.com",
+                "nymag.com",
+                "www.handleidi.ng"
             ]
         },
         {
@@ -1123,33 +978,64 @@
                 "gdpr-web-dau-prod"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "ab0ff52bb019c5802273fd70f0f0801558eb12d266d582a57c26d3320cec8e09",
+                "936d170d2c608a031ae12953cf76af38f99592c69cae3880cd09baee94c4e80a",
+                "47ec082d1481124381e283c6d5c0c3528eafca6dc9cf347b469b79f1d349217e",
+                "6e7d993e88f299bd43bdfbcf79247f44f64d23a384774ceb97c6eb3ca06fccab",
+                "a274851d7be167d8f0b506444b77c33bccd3883f49706020a2b7f393a6dcba31",
+                "cb92db923da89806ce21168ecbaf9d9eaf790d268f35a008c36530fa7ae68f62",
+                "ee4b1f8a971888279c30654060491b9857098946b4af3e13fde6b878be6ac14c",
+                "f7a8b2805e7e8b8429af9c94ba081deed579b54653d9882e34c2a8d5b1c1bd00",
+                "892b99e1aae5a8412fcec17341637e3683dc19362aa7a2f857c0a8e09958a813",
+                "c04b08a7936fcde25b47c2a11400e42097118e62e7dcc6c4b9182d99f86dbc7f",
+                "c1216779c257f2b6051cb6a52f5845ac8daa6a8a5b62495f01efb8cd386a6663",
+                "b9734781604782bc6d1f6af83c3a5eb5ed3782bddb081225b7e8e56e34f43cb2",
+                "8ec5c0156e3d538578ec88ccef90085e7dcd413be6509bea921ea32379d29e79",
+                "48b21d56a123efc9a1812de6a46c6cb7f26ff4ec0a6cccac8f05d6519e65cfae",
+                "e242e70d2f52861547d1fc1d26d57fbe79987ae6bce9e2b8d1c9e9b5ab50c5ee",
+                "b57a2f0df36651aa2e1391f5fa119df0b151e9c8fb69d1936768caa661d53e80",
+                "b988d34fa1f7f90f6ee84c1d05219e69322a82b0d015604ae8774f79f52c3214",
+                "0a08d2ea89a7f1adc4a57576fd0c551295c13838d9dfe57fe7dacd32df54475d",
+                "477a763e1326f469cffa6f47a05a57ec75a33ad763cab30914f280e80d37aa4d",
+                "cca7d5355c31eb08e941c965d97d707d59e2afbd356848479c9c17ad381088c1",
+                "d35fbcb2f5bad565c8b1344e9a346918e597fc1fd1860c6b8c856a86f792ec44",
+                "8ab39747834905c1d54295f8511845938a21f383e420fe9e9327a6dedba60e34",
+                "ec72028846c94756b9299336751b209f4be1961734b378916e205a684e348cb4",
+                "7babf20f41ccecb7d3f8195146d08cc9b9c33efaef13489d9f9ed53409ea85a6",
+                "267bc49feeb18dec30509fe7e4d2acef33caf1fb32bb0ab3186a25de33a46b46",
+                "6a8c473dea9f9b486747ada8a5e407990bcbb1681eb158c81955179f861f0c3a",
+                "f2ee18a26981fd1f80e15c21f88cc85bed282059bd24f736111c9ae2b3a424de",
+                "c73eabe9f7c8c9b109d0f9d3e0a7e6544d16892fffc6175ba8f2d4f1915e95bb",
+                "62784790eefdab7ca717e30a13bbfa7282e0278145687ac9d658355cf56562ba"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "frontpagemetrics.com",
+                "forums.macrumors.com",
                 "hollywoodlife.com",
                 "knowyourmeme.com",
-                "wikimon.net",
-                "www.carwow.co.uk",
-                "www.cracked.com",
-                "www.dcrainmaker.com",
-                "www.ebaumsworld.com",
-                "www.ginx.tv",
-                "www.ibtimes.com",
-                "www.netdoktor.de",
-                "www.onthisday.com",
-                "www.player.one",
-                "www.smulweb.nl",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.technipages.com",
                 "www.tapatalk.com",
-                "www.thegatewaypundit.com",
-                "www.vrt.be",
-                "www.westernjournal.com",
-                "www.zoopla.co.uk"
+                "appletoolbox.com",
+                "thenextweb.com",
+                "www.gezondheidsnet.nl",
+                "www.mmo-champion.com",
+                "www.listal.com",
+                "www.esportstales.com",
+                "thewordcounter.com",
+                "www.freeconvert.com",
+                "www.netdoktor.de",
+                "www.mantelligence.com",
+                "www.ebaumsworld.com",
+                "www.smulweb.nl",
+                "www.ibtimes.com"
             ]
         },
         {
@@ -1158,62 +1044,6 @@
             "fingerprinting": 0,
             "subdomains": [
                 "gdpr-web-dau-prod"
-            ],
-            "apis": {},
-            "sites": 19,
-            "prevalence": 0.00191,
-            "cnames": [],
-            "responseHashes": [
-                "9a27a10d52564e0cc01a36b2f72039ae25f5047cd17c7b6aa4d1c17ad54ea027",
-                "15d39d2fbb1e95dacd6b1cb36b9b0bcbaf429050f39496630fbef1737f68c9a2",
-                "b3e1cf6ed7de044c296b859c72bfb9d48e9b379987c3815e5c4c24916702819e",
-                "3b923430cf7aecb093f2325caf3e9336fac7edb6e5eb9818a4699072076eef51",
-                "aa08cca13e5c009e384b40ed5654c445b4c14dc516e3697c4b5a2e68522dcd2b",
-                "462a5a6ab2c9addaa3717fbc2de3576442ab4ba419501d4e8482e8a76f56d5a5",
-                "a82260f2c8e1c2912e2d7d734a45c394b2b48b00b45ed70e5b4ed3766b10cf0e",
-                "7c919bca93fdf78b372e179cbae8f85d228be9f578d5f900fd276c88b4cf5122",
-                "09255bdb95c3b9d922fd40778a9079aa3cf3759d766e4bbff11ecb53bd21a17c",
-                "9a7fc6ca3bc7974ff8fb36b9a6037d85c2496bcb2e675f15aa0314fdecfff6e2",
-                "7555ad870011b4499e3b0ce10e834f1120703b0a7ea701f96e5c817b4d4768b0",
-                "c7ad26357023333aaaa34ea8d1f82de5937441638462dc322733c3350ff05421",
-                "36a063351e0ff95696113855c5943e7297308df954eebdb17370097b98573ee5",
-                "791334fdcf8ee5d9d67de9fe3a9fb381a9a5f1c607c734b678e5b40ee5464005",
-                "6ede09e2b0d7766bc57e3462e7412a24adaef1cf707ee32ba318a2590fdc0f71",
-                "a70bc5fba7836989f099bb3bad51db1b8d839da32529db3e20def7434152f4f4",
-                "5c5d4a68d4986f9d24aba951dfa5df3b739ca223bdc46d585ef036f69426de1b",
-                "2438066223e04a19cfe11620b7551a74b39aa37950891d7fec0712f51edbed45"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frontpagemetrics.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "wikimon.net",
-                "www.carwow.co.uk",
-                "www.cracked.com",
-                "www.dcrainmaker.com",
-                "www.ebaumsworld.com",
-                "www.ginx.tv",
-                "www.ibtimes.com",
-                "www.netdoktor.de",
-                "www.onthisday.com",
-                "www.player.one",
-                "www.smulweb.nl",
-                "www.tapatalk.com",
-                "www.thegatewaypundit.com",
-                "www.vrt.be",
-                "www.westernjournal.com",
-                "www.zoopla.co.uk"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/7f035220-1751-4684-bb7f-a1c0d45657df\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
             ],
             "apis": {},
             "sites": 3,
@@ -1224,75 +1054,499 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pythonguides.com",
-                "symbolsage.com",
-                "www.sleepadvisor.org"
+                "appletoolbox.com",
+                "www.technipages.com",
+                "www.wintips.org"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/1\\/portal\\.html",
+            "rule": "privacymanager\\.io\\/kinesis\\/streams\\/tcf-web-daily-active-users-prod\\/records",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "d916fd0e-5b69-4cc6-bf4d-14dc5e31af5a.gdpr",
-                "27ccbe20-775f-11eb-a2f1-77ab999ee6be.gdpr"
+                "gdpr-web-dau-prod"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 31,
+            "prevalence": 0.00311,
             "cnames": [],
-            "responseHashes": [
-                "33b8a86d292ce4a53436d5165402c3d00ff49f66f0b73be3822bafbdaef816c7"
-            ],
-            "type": "Document",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "carwow.co.uk",
-                "www.vrt.be"
+                "forums.macrumors.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.zoopla.co.uk",
+                "www.mantelligence.com",
+                "www.pythoncentral.io",
+                "www.pinknews.co.uk",
+                "www.gezondheidsnet.nl",
+                "www.girlsaskguys.com",
+                "maps.seaofthieves.rarethief.com",
+                "www.ebaumsworld.com",
+                "www.tapatalk.com",
+                "www.supercars.net",
+                "www.netdoktor.de",
+                "www.ibtimes.com",
+                "www.weeronline.nl",
+                "www.wisselkoers.nl",
+                "www.mmo-champion.com"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/1\\/portal\\.bundle\\.js",
-            "cookies": 0,
+            "rule": "privacymanager\\.io\\/ats-modules\\/f49514fe-dcca-4424-be6a-9f85d01f1ce1\\/ats\\.js",
+            "cookies": 0.00341,
             "fingerprinting": 1,
             "subdomains": [
-                "d916fd0e-5b69-4cc6-bf4d-14dc5e31af5a.gdpr",
-                "27ccbe20-775f-11eb-a2f1-77ab999ee6be.gdpr"
+                "ats-wrapper"
             ],
             "apis": {
-                "window.localStorage": 2
+                "Navigator.prototype.userAgent": 34,
+                "Document.cookie getter": 34,
+                "Date.prototype.getTime": 34,
+                "Document.cookie setter": 34,
+                "Navigator.prototype.vendor": 34
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
             "responseHashes": [
-                "94a7728368907e88dd27fc9da195c17bb47071de99a2c3ceba3f50d3ce43195d"
+                "5756f0c3ffdb3158a395092934f42c6b5aadc1045553ca68fe6ad29eac76d53f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_geo_location": {
+                    "ttl": 86400,
+                    "length": 2,
+                    "prevalence": 0.0034105727756043734,
+                    "uniqueness": 0.029411764705882353
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.howtogeek.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.cyclingnews.com",
+                "forums.tomsguide.com",
+                "www.guitarworld.com",
+                "www.sciencealert.com",
+                "www.cinemablend.com",
+                "www.mbr.co.uk",
+                "www.t3.com",
+                "www.gamesradar.com",
+                "www.pcgamer.com",
+                "www.bikeperfect.com",
+                "www.imore.com",
+                "www.laptopmag.com",
+                "www.golfmonthly.com",
+                "www.windowscentral.com",
+                "www.reviewgeek.com",
+                "global.techradar.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/launchpad\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "launchpad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b9d318b3157ccbfc3bb00e82a446613294f9a592c01537662386bd848882b7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "carwow.co.uk",
-                "www.vrt.be"
+                "usnews.com",
+                "money.usnews.com",
+                "travel.usnews.com",
+                "www.pets4homes.co.uk",
+                "www.usnews.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/15784b67-a391-4ca1-a30c-3969a951df68\\/launchpad-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "launchpad-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "606534b6c907416b9465ed1d24ef5f2c9bcb0f200378ad4c34f2179f5861c79d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usnews.com",
+                "money.usnews.com",
+                "travel.usnews.com",
+                "www.usnews.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/1\\/launchpad\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "launchpad"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Navigator.prototype.cookieEnabled": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "e3b9d318b3157ccbfc3bb00e82a446613294f9a592c01537662386bd848882b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usnews.com",
+                "money.usnews.com",
+                "travel.usnews.com",
+                "www.cars.com",
+                "www.nydailynews.com",
+                "www.pets4homes.co.uk",
+                "www.sportskeeda.com",
+                "www.usnews.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usnews.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.newsweek.com",
+                "money.usnews.com",
+                "www.netdoktor.de",
+                "www.sportskeeda.com",
+                "www.ebaumsworld.com",
+                "www.pinknews.co.uk",
+                "www.nydailynews.com",
+                "www.usnews.com",
+                "www.ibtimes.co.uk",
+                "www.tapatalk.com",
+                "www.ibtimes.com",
+                "www.gameskinny.com",
+                "www.zoopla.co.uk",
+                "www.mumsnet.com",
+                "www.girlsaskguys.com",
+                "www.freeconvert.com",
+                "www.gezondheidsnet.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/gdpr-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "97b61ce6e9805953d478b6ab3e922d3e00c6a382d3dc292e54761b47db69a04d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.ebaumsworld.com",
+                "www.girlsaskguys.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/1\\/gdpr\\.bundle\\.js",
+            "cookies": 0.000802,
+            "fingerprinting": 2,
+            "subdomains": [
+                "gdpr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Navigator.prototype.language": 8,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "8dd50d5366dbce419bb2c92b138d8e5be463d274430e3ce9251bed8af3e130db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gdpr-auditId": {
+                    "ttl": 33696000,
+                    "length": 32,
+                    "prevalence": 0.0008024877119069114,
+                    "uniqueness": 1
+                },
+                "geo-location": {
+                    "ttl": 86400,
+                    "length": 30,
+                    "prevalence": 0.0008024877119069114,
+                    "uniqueness": 0.125
+                },
+                "gdpr-dau": {
+                    "ttl": 86400,
+                    "length": 4,
+                    "prevalence": 0.0007021767479185475,
+                    "uniqueness": 0.14285714285714285
+                },
+                "gdpr-dau-log-sent": {
+                    "ttl": 86400,
+                    "length": 4,
+                    "prevalence": 0.0007021767479185475,
+                    "uniqueness": 0.14285714285714285
+                },
+                "af8f9e56-f698-46be-a9c5-f33a2932cb5dlocale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.00010031096398836393,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "thenextweb.com",
+                "www.ebaumsworld.com",
+                "www.geenstijl.nl",
+                "www.girlsaskguys.com",
+                "www.newsweek.com",
+                "www.smulweb.nl",
+                "www.tapatalk.com",
+                "www.zoopla.co.uk"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.ebaumsworld.com",
+                "www.girlsaskguys.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "0e8c8c660253440482778a90d5e99cbec0867317d324943bc3cae4db79a08795"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.ebaumsworld.com",
+                "www.girlsaskguys.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/ats-modules\\/11ca9745-7a5b-4968-b6b2-b55943959a48\\/ats\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ats-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e170ed1256c477fbeb3080b034822a82621173f4587f50ea417f14e7f7539b81",
+                "834ab5adc1cca332fa7a48e83da716a0cb0324f8ebe54b27afa0eec625f29a06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stocktwits.com",
+                "www.insidermonkey.com",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/purposes-nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vendors"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4d2e81eb083cc82020c6fd8e19c4b26eceec3f327bd91f80825fcb287ff52208"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoscout24.nl",
+                "www.geenstijl.nl",
+                "www.wisselkoers.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/defaultTheme\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1eae565e7f4ae4b87e5ffb96bf72fb3a58e4aeb73e73a00a5368c8cfe308aa2c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoscout24.nl",
+                "www.autoscout24.de",
+                "www.autoscout24.com",
+                "www.geenstijl.nl",
+                "www.wisselkoers.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/ats-modules\\/4fb7b1a8-b529-4310-9387-3398aed19fa4\\/ats\\.js",
+            "cookies": 0.000802,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ats-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.vendor": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "ed2afa2565753583faf967bdcd69182e999f75200e8af54dbd1630dcb173fe9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_geo_location": {
+                    "ttl": 86400,
+                    "length": 2,
+                    "prevalence": 0.0008024877119069114,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chroniclelive.co.uk",
+                "www.dailystar.co.uk",
+                "www.dailyrecord.co.uk",
+                "www.express.co.uk",
+                "www.football.london",
+                "www.liverpoolecho.co.uk",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk"
             ]
         },
         {
             "rule": "privacymanager\\.io\\/1\\/ccpa\\.bundle\\.js",
-            "cookies": 0.000602,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "ccpa"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Document.cookie getter": 6,
-                "Document.cookie setter": 6,
-                "Navigator.prototype.cookieEnabled": 6,
-                "Date.prototype.getTime": 6
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "a6175d081940061cb96a2e8c9c90887b6f603361fe584bb053761581a36cb908"
@@ -1302,30 +1556,26 @@
                 "geo-location": {
                     "ttl": 86400,
                     "length": 30,
-                    "prevalence": 0.0006021073758153537,
-                    "uniqueness": 0.16666666666666666
+                    "prevalence": 0.00020062192797672785,
+                    "uniqueness": 0.5
                 },
                 "usprivacy": {
                     "ttl": 33696000,
                     "length": 4,
-                    "prevalence": 0.0005017561465127947,
-                    "uniqueness": 0.2
+                    "prevalence": 0.00010031096398836393,
+                    "uniqueness": 1
                 },
                 "ccpa-dau": {
                     "ttl": 86400,
                     "length": 4,
-                    "prevalence": 0.0006021073758153537,
-                    "uniqueness": 0.16666666666666666
+                    "prevalence": 0.00020062192797672785,
+                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gameskinny.com",
-                "www.ibtimes.com",
-                "www.player.one",
-                "www.tapatalk.com",
-                "www.thegatewaypundit.com",
-                "www.westernjournal.com"
+                "www.tapatalk.com"
             ]
         },
         {
@@ -1360,7 +1610,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "781c50766aedf11f0a26ab9af023d628d6c45c667c7294dd019cfb07ce932c05"
+                "cbbbfaa32c0f06471044242a8f25ab3889b0f9d97876c8b898ce29414add722a"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1373,16 +1623,16 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.00512,
+    "cookies": 0.0127,
     "types": {
-        "Script": 372,
-        "Fetch": 169,
-        "Preflight": 82,
-        "Document": 37,
-        "Stylesheet": 103,
-        "Other": 38,
-        "Font": 99,
-        "Image": 67
+        "Script": 746,
+        "Preflight": 132,
+        "Fetch": 507,
+        "Document": 74,
+        "Stylesheet": 220,
+        "Other": 77,
+        "Font": 210,
+        "Image": 140
     },
     "nameservers": [
         "ns-1330.awsdns-38.org",

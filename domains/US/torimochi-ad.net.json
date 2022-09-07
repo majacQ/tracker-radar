@@ -4,65 +4,185 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000678,
+    "sites": 10,
     "subdomains": [
-        "asset"
+        "script",
+        "api",
+        "resources",
+        "logger"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "torimochi-ad\\.net\\/js\\/prebid\\.js",
+            "rule": "torimochi-ad\\.net\\/js\\/rr\\/torimochi\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "asset"
+                "script"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.cookieEnabled": 3,
-                "window.sessionStorage": 3,
-                "Date.prototype.getTime": 3
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 8,
+            "prevalence": 0.0000542,
             "cnames": [],
             "responseHashes": [
-                "c13aad5669d5465690112ebed2c1595525c7da7e51ab81a222f099a57274359b"
+                "4806098a31d51d9b65ffcb02322de7ccf6561981192d8b5ce234d22107fd8ff7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
                 "macrobiotic-daisuki.jp",
+                "saiyasu-syuuri.com",
+                "shuchi.php.co.jp",
                 "www.kashi-mo.com",
+                "www.rere.jp",
                 "www.soumunomori.com"
             ]
         },
         {
-            "rule": "torimochi-ad\\.net\\/js\\/torimochi_ad\\.min\\.js",
+            "rule": "torimochi-ad\\.net\\/js\\/rr\\/main\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "asset"
+                "script"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 7
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 8,
+            "prevalence": 0.0000542,
             "cnames": [],
             "responseHashes": [
-                "f06b2d139be655493342e0a1463fe927fc540246facaf7355783339572660a48"
+                "16ee0c8fa76100f64e636a4d8b653f38ad305cfad6104e55befcb29d706830af"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
                 "macrobiotic-daisuki.jp",
+                "saiyasu-syuuri.com",
+                "shuchi.php.co.jp",
                 "www.kashi-mo.com",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/recommend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.kashi-mo.com",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "c2eebaf23dc1fb1df07731adc93fcf967aee09415f6d5cd7a61c12fe4bc30117"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.kashi-mo.com",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/recommend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "7420d0f0c4f9627d1e4271299f09266b0e42cbd9413ba8ad93b756cd2606614f",
+                "be9ba006726524108fe696fa406645d86378e496ef5c29b51f7577beca63f2d3",
+                "d6bb3f95b758142fdd992c89b1e11d6b106a5470ab5df88cf3a8fcc4a3b22ee3",
+                "c3511b75b40aa23036f9ba19f09d5c260ddc27385bb4e0ce4c8f3dd6b426e0a2",
+                "a0e0bf0cdc05398c1909148e1a76c2907f2d2c09f940548d8d18ae2733cb13cf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.kashi-mo.com",
+                "www.rere.jp",
+                "www.soumunomori.com"
+            ]
+        },
+        {
+            "rule": "torimochi-ad\\.net\\/_\\/logger\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
+                "macrobiotic-daisuki.jp",
+                "shuchi.php.co.jp",
+                "www.kashi-mo.com",
+                "www.rere.jp",
                 "www.soumunomori.com"
             ]
         },
@@ -72,84 +192,43 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "iphone-mania.jp",
+                "king.mineo.jp",
                 "macrobiotic-daisuki.jp",
                 "shuchi.php.co.jp",
-                "www.kashi-mo.com"
+                "www.kashi-mo.com",
+                "www.rere.jp",
+                "www.soumunomori.com"
             ]
         },
         {
-            "rule": "torimochi-ad\\.net\\/delivery\\/getcontents",
+            "rule": "torimochi-ad\\.net\\/data\\/property\\/widget\\/6Yme\\.json",
             "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "resources"
+            ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "54dcee64ed310e0a8a957d5105716791ee858943f92987fa2ae8e48da0425571"
+            ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "macrobiotic-daisuki.jp",
-                "shuchi.php.co.jp",
-                "www.kashi-mo.com"
-            ]
-        },
-        {
-            "rule": "torimochi-ad\\.net\\/js\\/inview\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "asset"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "88c8e8f9b5c6d22d5f3ec2196a29c6fd05e9cacee64cc8907568b31a5627d2f3"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "macrobiotic-daisuki.jp",
-                "shuchi.php.co.jp",
-                "www.kashi-mo.com"
-            ]
-        },
-        {
-            "rule": "torimochi-ad\\.net\\/js\\/scroll\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "asset"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "aafd0f61d9f1ec893348a1cedc49a1172e69166b05a49d13d2bf66653c180df1"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "macrobiotic-daisuki.jp",
-                "shuchi.php.co.jp",
-                "www.kashi-mo.com"
+                "soumunomori.com",
+                "www.soumunomori.com"
             ]
         }
     ],
@@ -157,8 +236,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 12,
-        "XHR": 6
+        "Script": 16,
+        "Preflight": 7,
+        "Stylesheet": 7,
+        "XHR": 23
     },
     "nameservers": [
         "ns-36.awsdns-04.com",

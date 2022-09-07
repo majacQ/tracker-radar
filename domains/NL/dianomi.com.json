@@ -7,35 +7,40 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000601,
+    "sites": 6,
     "subdomains": [
         "www"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "dianomi\\.com\\/js\\/contextfeed\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "apis": {
+                "window.innerWidth": 3
+            },
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "993515a94bb2affe192f9243083507354b9df0eb5d39c2164b043bb64584d5b0"
+                "86b3d75a5e75754dfca38d6598f3d97f89a20e4d35af9efc9d34b2417a14d710"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businessinsider.com",
+                "cnn.com",
+                "edition.cnn.com",
                 "markets.businessinsider.com",
-                "www.marketwatch.com"
+                "www.cnn.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
             ]
         },
         {
@@ -46,12 +51,13 @@
                 "www"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "91839b83f0b2b1a6a897a7518191129e88ad6e1ae2dff99293e0b5b95b0d252e",
-                "919b2aa04834ef61f28b01cf4e261896746b2b98f9568a62d941d402b7b8db78"
+                "ced55330e0e6a3c7b8ea4682b5feba5550f0232312e42478091c6fda9739b0c0",
+                "65c19554fb3285e90e62380cadeaecb56ca4419f00407443ef5c3edcb46be0be",
+                "528a034f1b4d99939ca764bb306e8f1575b4e7677ecbe4e6f58f28fd45ded0f6"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -59,7 +65,31 @@
             "exampleSites": [
                 "businessinsider.com",
                 "markets.businessinsider.com",
-                "www.marketwatch.com"
+                "www.marketwatch.com",
+                "www.wsj.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/partner\\/dianomi\\/css\\/dianomi-context\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "99781410070a5dd4d753fdb8a46f4272082b5be64541dcfcb1b2d3c4aea09c6c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
             ]
         },
         {
@@ -70,18 +100,21 @@
                 "www"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "05b8d7f69cbbaddc8d99774c41d50e62d57679ff33e3dee72570349b470cb09f"
+                "b2c8aee79bf748d7ddb6c481747f30affab6c1b7ea83fdf104e9b6ac873089cb",
+                "0c7f90228808b40edf58d12c3efdf31f12dab052057671284154e58bd8c4f69e"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "businessinsider.com",
-                "markets.businessinsider.com"
+                "markets.businessinsider.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
             ]
         },
         {
@@ -92,18 +125,67 @@
                 "www"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "70503c92bcbb8105d95ec4de2012f23098c3383586e95323e4b3384b56af4beb"
+                "20550e4714f2d7f97a2cc66263db388822f82869b42d45e89f688508623b2ea7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "businessinsider.com",
-                "markets.businessinsider.com"
+                "markets.businessinsider.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cgi-bin\\/pixeltrack\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "5b9f9740cd970dd23abcdee589e7813c133274660056c7c6a5e57e36b7323edb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com",
+                "markets.businessinsider.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/js\\/viewability11\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b69810b05811735260bb9d32ae84fe5d0dfd66c74ee896f2cd7f3a13a31430d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com",
+                "markets.businessinsider.com",
+                "www.marketwatch.com"
             ]
         },
         {
@@ -115,34 +197,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "d4fa79afcf5a5cc5a0f12dedaf825f11530e6397d723fe7044cd37ba3c248e57"
+                "2fb46fbb3363d97fbeb90b5f84bd30e2b7e8b5cfb53403386f3f398252ccafde"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com",
-                "markets.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/js\\/viewability8\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "6a3187faa5db2e775c2e66b02056783833e2b5378efd3f396f7595dba1065010"
-            ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -159,7 +219,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "bb64a05f00722c48de7d8234e73289a6957a6c5d4c7f3cc026529ebff20037ed"
@@ -181,7 +241,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "3883cebc297d84326737e52db8a0cb55be322418988291c8944993e4528250ff"
@@ -193,20 +253,43 @@
                 "businessinsider.com",
                 "markets.businessinsider.com"
             ]
+        },
+        {
+            "rule": "dianomi\\.com\\/partner\\/abp\\/px\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "ad08fe912067b894aaf2e64e0c025a3ee1792279f24ad12ad3337bd0baa1f758"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketwatch.com",
+                "www.marketwatch.com"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5,
-        "XHR": 3,
-        "Document": 2,
-        "Image": 4,
+        "Script": 9,
+        "XHR": 6,
+        "Stylesheet": 3,
+        "Document": 4,
+        "Image": 10,
         "Font": 4
     },
     "nameservers": [
-        "ben.ns.cloudflare.com",
-        "cloe.ns.cloudflare.com"
+        "cloe.ns.cloudflare.com",
+        "ben.ns.cloudflare.com"
     ]
 }

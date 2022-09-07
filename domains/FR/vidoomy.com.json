@@ -7,67 +7,327 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.00201,
+    "sites": 20,
     "subdomains": [
-        "a"
+        "a",
+        "player",
+        "vid",
+        "d",
+        "a-prebid",
+        "vpaid"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "vidoomy\\.com\\/api\\/rtbserver\\/cookie",
-            "cookies": 0.000301,
+            "cookies": 0.000602,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "fr.calcuworld.com",
-                "www.masculin.com"
-            ]
-        },
-        {
-            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/cookie",
-            "cookies": 0.000301,
-            "fingerprinting": 0,
-            "subdomains": [
-                "a"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "fr.calcuworld.com",
+                "citation-celebre.leparisien.fr",
+                "elishean777.com",
+                "scantrad.net",
+                "serieophile.fr",
                 "www.masculin.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/player-nv\\/v0\\.0\\.34\\/vidoomy-sdk-mol\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2ca4194d3d68a831822929f8e9e1772fb0117e5ec54b41ba6a05e57164798fd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1660734910,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "scantrad.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/ad\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1287fdb1a3e2a665a26b0ef24fcc58c12ddeba083505a962429c0126aec8af0c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "scantrad.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/rtb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "scantrad.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9fae4226a39c5c4a5967827bd6d79897cf445e508714ea2cd03049277984618f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "scantrad.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "scantrad.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vid"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.0009028892455858748
+            },
+            "exampleSites": [
+                "aufeminin.com",
+                "amour-couple.aufeminin.com",
+                "forum.doctissimo.fr",
+                "grossesse.aufeminin.com",
+                "jaime-jardiner.ouest-france.fr",
+                "lemagduchat.ouest-france.fr",
+                "parisbytrain.com",
+                "sexualite.aufeminin.com",
+                "trucmania.ouest-france.fr",
+                "www.conversationexchange.com",
+                "www.medisite.fr"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/prebid\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00030096308186195825
+            },
+            "exampleSites": [
+                "leparisien.fr",
+                "elishean777.com",
+                "serieophile.fr",
+                "www.emugen.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/setuid",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a-prebid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00020064205457463884
+            },
+            "exampleSites": [
+                "leparisien.fr",
+                "citation-celebre.leparisien.fr",
+                "elishean777.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/vpaid\\/23354",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ed3df40f6457bc0da85b6b1372cff9aae15212d385626f8a6736969e39ac463"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calcuworld.com",
+                "fr.calcuworld.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/sync\\/urls\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5c83a57d872b80bf92033b4a93fceee6526fb8c4477c1d70a27ef9810e5208c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calcuworld.com",
+                "fr.calcuworld.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000702,
     "types": {
-        "Document": 3,
-        "Image": 3
+        "Image": 20,
+        "Script": 2,
+        "XHR": 14,
+        "Preflight": 2
     },
     "nameservers": [
         "ns2.dondominio.com",

@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000483,
-    "sites": 7,
+    "prevalence": 0.0000542,
+    "sites": 8,
     "subdomains": [
-        "telize-v1.p"
+        "telize-v1.p",
+        "transloc-api-1-2.p"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "rapidapi\\.com\\/location",
+            "rule": "rapidapi\\.com\\/geoip",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -21,37 +22,79 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ebbdafdd07df85683104828384202968cc274a4c4ae63b38b60023ee778afba2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beach-weather.com",
+                "www.autonomous.ai"
+            ]
+        },
+        {
+            "rule": "rapidapi\\.com\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telize-v1.p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "wizcase.com",
-                "www.wizcase.com"
+                "beach-weather.com",
+                "www.autonomous.ai"
             ]
         },
         {
-            "rule": "rapidapi\\.com\\/location",
+            "rule": "rapidapi\\.com\\/vehicles\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "telize-v1.p"
+                "transloc-api-1-2.p"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utk.edu",
+                "www.utk.edu"
+            ]
+        },
+        {
+            "rule": "rapidapi\\.com\\/vehicles\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "transloc-api-1-2.p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "bff0947f920bb821547b41ec39de7122213501cde0903fbac1a2c2b5fa635d69"
+                "df315a85248cd8a698f8cf8355156d8345294d450298db81340e0e0c40b5eeac"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "wizcase.com",
-                "www.wizcase.com"
+                "utk.edu",
+                "www.utk.edu"
             ]
         },
         {
@@ -63,10 +106,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9a017bb84388d25254b7b8f810f8b7d8e085a6f9e9021ad7ad63dcec52abd9ac"
+                "9cd26ff025fce3dc43b9b4aa33767f69e6a6fec8b76482da9955a4491fd0b534"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -79,10 +122,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0,
     "types": {
-        "Preflight": 2,
-        "XHR": 2,
+        "XHR": 4,
+        "Preflight": 4,
         "Script": 2
     },
     "nameservers": [

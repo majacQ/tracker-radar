@@ -4,12 +4,101 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.00108,
-    "sites": 156,
+    "prevalence": 0.00113,
+    "sites": 166,
     "subdomains": [],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "cdntrf\\.com\\/lib\\/templates\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 88,
+                "Document.cookie getter": 88
+            },
+            "sites": 89,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "85b790fc8e4fb4ead4160e46abe0cf2f8d156ca1d5f5b3e458dff3c241142467",
+                "20010f2ee9995f837e342aed28fc3067ce4731d4253410596e83ba088868087b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.berliner-kurier.de",
+                "www.navigator-medizin.de",
+                "www.baby-vornamen.de",
+                "francais.lingolia.com",
+                "www.shooter-bubble.de",
+                "www.onetz.de",
+                "www.gea.de",
+                "www.echo24.de",
+                "www.fotomagazin.de",
+                "www.englisch-hilfen.de",
+                "www.24rhein.de",
+                "www.promipool.de",
+                "fcbinside.de",
+                "www.markt.de",
+                "rechneronline.de",
+                "www.cooknsoul.de",
+                "www.wetterprognose-wettervorhersage.de",
+                "www.abendzeitung-muenchen.de",
+                "www.dieblaue24.com",
+                "m.fr.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/api\\/country\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9b202ecbc6d45c6d8901d989a918878397a3eb9d00e8f48022fc051b19d21a1d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decine21.com",
+                "taucher.net"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/lingolia\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.maxTouchPoints": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "c0b49aad55ba12f18c0d0dc398e6df881d7a7e99bf506cc14d9bd13e67461b75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lingolia.com",
+                "deutsch.lingolia.com",
+                "espanol.lingolia.com",
+                "francais.lingolia.com"
+            ]
+        },
         {
             "rule": "cdntrf\\.com\\/preloader\\/6130\\.js",
             "cookies": 0,
@@ -17,7 +106,7 @@
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "2396eeba97b9c2ae5ab4e56611f121a2db2a5294af601ad0711803f0d01037b2"
@@ -37,14 +126,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.maxTouchPoints": 3
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "12ea266ac2c6760a300731631bc6b57f965aafddc4a5ad98d85ee5a257f6240e"
+                "c4243b294ef19a11307a6e3b081a6981f606771a1b4bc877e6ddba9715599fac"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -56,45 +147,58 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/lib\\/templates\\/index\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "cdntrf\\.com\\/prebid6\\.js",
+            "cookies": 0.0000813,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 90,
-                "Document.cookie getter": 67
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.cookieEnabled": 12,
+                "window.sessionStorage": 12,
+                "Navigator.prototype.appName": 12,
+                "window.localStorage": 12,
+                "Document.cookie getter": 12,
+                "Date.prototype.getTime": 12,
+                "Document.cookie setter": 12,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Screen.prototype.colorDepth": 11,
+                "Date.prototype.getTimezoneOffset": 11,
+                "window.innerWidth": 11,
+                "window.innerHeight": 11,
+                "Navigator.prototype.doNotTrack": 10,
+                "Navigator.prototype.language": 10,
+                "Navigator.prototype.connection": 4
             },
-            "sites": 90,
-            "prevalence": 0.000621,
+            "sites": 12,
+            "prevalence": 0.0000813,
             "cnames": [],
             "responseHashes": [
-                "c7251767e8e11511ee1213f282fdd7815044a4c28a26789473f6895ed9c4a96e",
-                "39468516e822e051c7ac9e79a9a49f4bdecad8f6762699e8094606b214134cac"
+                "73b3d0acfc1e0c94e354be2a948e40069754acf67c9ae70599c86b5aeb21acb9"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592007,
+                    "length": 16,
+                    "prevalence": 0.00008133497810733507,
+                    "uniqueness": 0.25
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.idowa.de",
-                "iphone-tricks.de",
+                "kalender-365.de",
                 "rechneronline.de",
-                "www.hna.de",
-                "www.rnz.de",
-                "www.heidelberg24.de",
-                "www.cooknsoul.de",
-                "www.chiemgau24.de",
-                "fudder.de",
-                "www.gea.de",
-                "www.autoplenum.de",
-                "www.op-online.de",
-                "meine-flohmarkt-termine.de",
-                "www.elterngeld.de",
                 "taucher.net",
-                "www.rosenheim24.de",
-                "www.come-on.de",
-                "www.fr.de",
-                "www.ingame.de",
-                "www.siegener-zeitung.de"
+                "www.badische-zeitung.de",
+                "www.berliner-kurier.de",
+                "www.berliner-zeitung.de",
+                "www.blick.de",
+                "www.freiepresse.de",
+                "www.katzen-forum.net",
+                "www.mittelhessen.de",
+                "www.mittelbayerische.de",
+                "www.rheinpfalz.de"
             ]
         },
         {
@@ -103,36 +207,37 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 30,
-            "prevalence": 0.000207,
+            "sites": 26,
+            "prevalence": 0.000176,
             "cnames": [],
             "responseHashes": [
-                "8feba07f77f442be50f664c2deee2373fcdda39edb16a5eb63a9a1401b9f60ae"
+                "c6a867ef236ea23666a89dc0409feadcbc396f8a1731a264e88685d164d7c8c5",
+                "a5a010f444d4a9ddfc48d4c6f54b3309344ab4b279c01a4c474fe47f065cbd0c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.wa.de",
-                "www.sauerlandkurier.de",
-                "www.fuldaerzeitung.de",
-                "www.kreiszeitung.de",
-                "www.wetterauer-zeitung.de",
-                "fr.de",
+                "www.fnp.de",
                 "www.come-on.de",
-                "www.ruhr24.de",
+                "www.tz.de",
+                "www.fr.de",
+                "m.fr.de",
+                "www.ingame.de",
+                "www.24hamburg.de",
+                "www.echo24.de",
+                "www.24garten.de",
                 "www.giessener-allgemeine.de",
-                "www.az-online.de",
+                "fr.de",
+                "www.hna.de",
+                "www.soester-anzeiger.de",
+                "www.24rhein.de",
+                "www.chiemgau24.de",
+                "www.merkur.de",
                 "www.mannheim24.de",
                 "www.schwaebische-post.de",
-                "www.bw24.de",
-                "www.merkur.de",
-                "www.chiemgau24.de",
-                "m.fr.de",
-                "www.24hamburg.de",
-                "www.heidelberg24.de",
-                "www.hna.de",
-                "www.fnp.de"
+                "www.sauerlandkurier.de",
+                "www.kreiszeitung.de"
             ]
         },
         {
@@ -141,15 +246,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
                 "Navigator.prototype.userAgent": 4,
-                "Document.cookie getter": 2
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.maxTouchPoints": 4
             },
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "96dacd94dde72bd8ef51a32a3c70e3897ea69c21ff9b7aa94f12fa6a77120449"
+                "916885e30973d9cff211a195f3edfd51c97cea55651cbeb3ae602aad823ae3f4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -167,14 +273,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8eee3b229ccf9fc6a9eec74b4a48b82355f1dbb800b33fbc70b89f1651148725"
+                "ac53836021298df57f405f9e3e6b783f237cee797bd071991005ad90c59559b3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -185,77 +293,41 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/12gebrauchtwagen\\.js",
+            "rule": "cdntrf\\.com\\/trf-id-ippen-west\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 1
+                "Document.cookie getter": 15,
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.platform": 15,
+                "Navigator.prototype.maxTouchPoints": 15
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 15,
+            "prevalence": 0.000102,
             "cnames": [],
             "responseHashes": [
-                "9903ce217c194dc9023e58f4f195580f565ca04ab0708b9ae4d0f0b91b6cef7c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "12gebrauchtwagen.de",
-                "www.12gebrauchtwagen.de"
-            ]
-        },
-        {
-            "rule": "cdntrf\\.com\\/trf-id-24hamburg\\.de\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "eda4f32f438d5a1972bb2390cae4dc497839970c792cd4008a54ad38b86ef4aa"
+                "285e8c35946376ea74db6ea6da754fc018dd85097d4f89b5afef20f467a1bbd2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24hamburg.de",
-                "www.24hamburg.de"
-            ]
-        },
-        {
-            "rule": "cdntrf\\.com\\/trf-id-ippen-west\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "e161ed3b9b0b5d0edb432bca7326ac32ebf5768c4fa2a4f6c2c9f1397ae15506"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24rhein.de",
-                "www.buzzfeed.de",
-                "www.heidelberg24.de",
-                "www.mannheim24.de"
+                "www.24rhein.de",
+                "www.24garten.de",
+                "www.come-on.de",
+                "www.echo24.de",
+                "www.fnp.de",
+                "www.fr.de",
+                "www.fuldaerzeitung.de",
+                "www.giessener-allgemeine.de",
+                "www.hna.de",
+                "www.ingame.de",
+                "www.kreiszeitung.de",
+                "www.mannheim24.de",
+                "www.soester-anzeiger.de",
+                "www.wa.de"
             ]
         },
         {
@@ -264,15 +336,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Document.cookie getter": 1,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "05c0e7617321f3fa25244afa1c036538363f1d968012faaa4801070e51ccef52"
+                "2ca320c048c326a5efd15c05ed001b1bb04d2c80521edf7ab0533490babdd349"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -289,14 +362,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3a291cac6bc00ccd5988720bda1a1a0cd5b37e32cb3dfa65a6fed1577ec1985b"
+                "266543ac342eaa8fcab1c552f96af8f9dd2768c46e012631804e9b30baaeba1f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -307,96 +381,77 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/appgefahren\\.de\\.js",
+            "rule": "cdntrf\\.com\\/baby-vornamen\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "210a9dd2928825dd5a7d77d35aa373079ceba61f7d2bf8cab4fd37eb2b20e896"
+                "59b825546c3be32a1ab7ef74c9351e3044bc1d85a1aaeb5c5e65f942becc236f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "appgefahren.de",
-                "www.appgefahren.de"
+                "baby-vornamen.de",
+                "www.baby-vornamen.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/autoplenumDE\\.js",
+            "rule": "cdntrf\\.com\\/bafoeg-rechner\\.de\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 1,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e47cda066d0b17be92e93b2384cb282df9fb36ddc94c7c93ba13357ea847e9e6"
+                "d2b8b8f8c9ef0f1bb57c4d37f9fd052231ce8d30fe9d1e6bb1a766992457888d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "autoplenum.de",
-                "www.autoplenum.de"
-            ]
-        },
-        {
-            "rule": "cdntrf\\.com\\/main_NATIVE\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 6,
-                "Navigator.prototype.userAgent": 6,
-                "Document.cookie getter": 3
-            },
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [
-                "4ee1c45b63c097dead93cbf208bd4b5f39deacf1e30f5332cefda74c6a2b37db"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "az-online.de",
-                "www.az-online.de",
-                "www.op-online.de",
-                "www.sauerlandkurier.de",
-                "www.soester-anzeiger.de",
-                "www.wlz-online.de"
+                "bafoeg-rechner.de",
+                "www.bafoeg-rechner.de"
             ]
         },
         {
             "rule": "cdntrf\\.com\\/badische-zeitung\\.de\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.colorDepth": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "df475d16c83d16a8a340940b0251d09e6b654f83c793167acf052f11e60e6805"
+                "c08a9ff4e3a9c66e84c05cb3c79c89d144a0880716ca7d913aba44483ce90073"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -407,53 +462,148 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/btc-echo\\.de\\.NEW\\.js",
+            "rule": "cdntrf\\.com\\/prebid\\/badische-zeitung\\.de\\/prebid_config\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "88aac764f705b8a40f34b73d92359e98135a427ffec4bbac8c833efbb31c1e19"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "badische-zeitung.de",
+                "www.badische-zeitung.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/berliner-kurier\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "03da641adf46a42aeb16183ca21d2606b46dbfa00bb4f244be4450a890f1d57c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berliner-kurier.de",
+                "www.berliner-kurier.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/prebid\\/berliner-kurier\\.de\\/prebid_config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2cda15510de6f8e3cfd6e648e895118cac44fe3d51a65bf02bca5cc262fe755a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berliner-kurier.de",
+                "www.berliner-kurier.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/berliner-zeitung\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 1,
                 "Screen.prototype.width": 1,
                 "Screen.prototype.height": 1,
                 "Screen.prototype.colorDepth": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a88a1cab68efcc8c4410955c48341ec2c3a8b672c4408d44ba72ac61d7ebade0"
+                "253c90fb608136c56d7588545be70555d9200203521fe1a46c4fdd5cc7dfcd3b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "btc-echo.de",
-                "www.btc-echo.de"
+                "berliner-zeitung.de",
+                "www.berliner-zeitung.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf-id-bw24\\.de\\.js",
+            "rule": "cdntrf\\.com\\/prebid\\/berliner-zeitung\\.de\\/prebid_config\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "74338fd7c3529bea6c88eb25ff44a88cef44cb479879b8ffd2dec20b1f1b23ad"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berliner-zeitung.de",
+                "www.berliner-zeitung.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/blinker\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 1,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "eb09d3d794fd76eea86a5381eb629f4352ee62a003fa6e981e6872a85e756caf"
+                "71f3f4878723cd413b858b14fbf9a50309e5041804ecbc80fe3bff7c4ad7916b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bw24.de",
-                "www.bw24.de"
+                "blinker.de",
+                "www.blinker.de"
             ]
         },
         {
@@ -463,14 +613,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1e1d6081ad651a297cad47b061dc808fdfe21f44bc2a3952b84888f8525286f6"
+                "70c62aed6516b0fc52f06025d153cf474ad2ec9fb266d2df2df90b00dd60c7e6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -481,27 +632,29 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/no-consent-come-on\\.js",
+            "rule": "cdntrf\\.com\\/main_NATIVE\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 1
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.maxTouchPoints": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "575343c2afd812bf1e838a71fabbe5baa9aebe4403bc887ee0624aaf9eab8ed5"
+                "24acb663a9bf5e76b2897147e0f550207275d7882a0217e3ecd197917aca8de4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "come-on.de",
-                "www.come-on.de"
+                "www.sauerlandkurier.de",
+                "www.soester-anzeiger.de"
             ]
         },
         {
@@ -510,14 +663,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9909a7622d5881951a010d4dbc1e1aa2da15c0d033d2dd3678b29a69fc6ee8c5"
+                "d1b5cebcbb591b8d9e39e1c4bad5e5ab483a19d37ebefc8b1f7ee215965713c4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -528,20 +683,46 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/donaukurier\\.de\\.js",
+            "rule": "cdntrf\\.com\\/dieblaue24\\.com\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f67b62197c4ae42f68d45d93e40c3e6b3497e2ae25cdddd08a7ebf541103c363"
+                "3966b84ac1d3204f5a1fca74fe454453cfc10efbf6445de4997d7413b51b8388"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dieblaue24.com",
+                "www.dieblaue24.com"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/neu_donaukurier\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d85c19f785620dce1e89140641aecd9c53d0bf4ae68716a26abce626f696e4c7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -552,43 +733,21 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/elterngeld\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "4108af294b03ab9aa1a5f5a28d25424425cfa8670fee548d06a650e216ecabac"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "elterngeld.de",
-                "www.elterngeld.de"
-            ]
-        },
-        {
             "rule": "cdntrf\\.com\\/englisch-hilfen\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e017369d23549943601c804e733de52c46ad5af21a5c7dfff37b9728eb7b2a48"
+                "bd9869ba2343e1f4ee9a21dad73dd7f41b5b7ffce508ed9227b6131f7285e40f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -599,99 +758,108 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf-mamo-default\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "5b5ca8c30cd79ebb3d1bcd23a65fd7cf983c5dcacd86ea7b31eca8e571656e37"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fnweb.de",
-                "www.mannheimer-morgen.de"
-            ]
-        },
-        {
-            "rule": "cdntrf\\.com\\/trf-frag-caesar\\.js",
+            "rule": "cdntrf\\.com\\/fotomagazin\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ac37aa51a303c651b5e385b70aeb68e51e08fa77904a6b91142b89e1041575e8"
+                "7ec877f25092891fdfff2430b54b1dcf294ef70eb612dd52d9f38163fd15e8a4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "frag-caesar.de",
-                "www.frag-caesar.de"
+                "fotomagazin.de",
+                "www.fotomagazin.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/Suhler-Verlag-NEU\\.de\\.js",
+            "rule": "cdntrf\\.com\\/css\\/fotomagazin\\.de\\.css",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "64aade722173fc655374c8692786f4125245227de6b5fe731451e1eac2977022"
+                "1bc9c5e5c1196e641decfca35aa2d953968909042fa481954305ec38d278ca49"
             ],
-            "type": "Script",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "frankenpost.de",
-                "www.frankenpost.de",
-                "www.insuedthueringen.de"
+                "fotomagazin.de",
+                "www.fotomagazin.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/id-trf-fuldaerzeitung\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "cdntrf\\.com\\/freiepresse\\.de\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
                 "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie setter": 2,
+                "window.innerHeight": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1,
+                "Screen.prototype.colorDepth": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "631555bde7655634d49afb2cd0195230b2fe79e345b8735297f3bb645d53dc1b"
+                "48f1125112c5768bdabea7c3d32e055be17bff8c643b864aff73c26090d3b260"
             ],
             "type": "Script",
+            "firstPartyCookies": {
+                "trfrefext": {
+                    "ttl": 1199,
+                    "length": 22,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freiepresse.de",
+                "www.freiepresse.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/prebid\\/freiepresse\\.de\\/prebid_config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f3f91a1b71d39ac2afaa6489b75f7ead0803c0fd5c20b469dca218102d5892b"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fuldaerzeitung.de",
-                "www.fuldaerzeitung.de"
+                "freiepresse.de",
+                "www.freiepresse.de"
             ]
         },
         {
@@ -701,14 +869,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e401aee30606d66ee57d2ac82d2cff5a98398d25c5a9392ff23b84bad8b18812"
+                "9df0b87466e66ef098de3671930b8166d72a1333dbcfc23b93192bc17eb81bea"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -719,28 +888,28 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf-id-mdv\\.js",
+            "rule": "cdntrf\\.com\\/haustierratgeber\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Document.cookie getter": 1,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "124f3cb5d96ce89aa5e3cf48aea4c061ab7ded0f5fafdd82c3833da1b09aec39"
+                "c97d5b31af66d211a25673bf79a54d0325820508a5b6b1023c653d1613e1d70d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "giessener-allgemeine.de",
-                "www.giessener-allgemeine.de",
-                "www.wetterauer-zeitung.de"
+                "haustierratgeber.de",
+                "www.haustierratgeber.de"
             ]
         },
         {
@@ -749,14 +918,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "412296c4ded6c6e01d688e57ad71019a5268489f94491d35563f52d97ed7b673"
+                "39a967895ddf07b084bb5d6b6b5d77bb6e5434ea4da80c20baeea0357318949b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -767,89 +938,136 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf-hna-only_NATIVE\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "45084c9b31e4197ba370a7348fd6046699b7e30553bf436fe1934e919e793873"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hna.de",
-                "www.hna.de"
-            ]
-        },
-        {
-            "rule": "cdntrf\\.com\\/id-ingame\\.js",
+            "rule": "cdntrf\\.com\\/idowa\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "333bc48d1bef84bf7de5d201f9002d8e15383202a5e5e8fcff1e02f613e54dee"
+                "0104146547f6ef16ed46b61bb922d8ab1c5a738335ef5097cf3a1d6bc9cf9008"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ingame.de",
-                "www.ingame.de"
+                "idowa.de",
+                "www.idowa.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf-id-kreiszeitung_fehmarn24\\.js",
+            "rule": "cdntrf\\.com\\/ihr-wellness-magazin\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "656a33cef8504ba52cd5ca7a1eff92ca009150c92716353ea18be836cc23cd84"
+                "b26ab5b442531233156c8478c308a725b9307e15d5d35d90bc449d90f57d5d2f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kreiszeitung.de",
-                "www.kreiszeitung.de"
+                "ihr-wellness-magazin.de",
+                "www.ihr-wellness-magazin.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/css\\/jornadaperfecta\\.com\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1318987e69268e6e13ecdc18eaa50c951ed3f8963b6b0c3ee59422ef6b4dee50"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jornadaperfecta.com",
+                "www.jornadaperfecta.com"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/jornadaperfecta\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b7a26c988a7ddf96ca1cc50f83ff661c738cb23551942950c3b51b03ae1b7845"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jornadaperfecta.com",
+                "www.jornadaperfecta.com"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/kreiszeitung-wochenblatt\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0a4b00ee8e0cbab00e764ee334e12df8c6e72562a6773d42b62034e39e8688ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kreiszeitung-wochenblatt.de",
+                "www.kreiszeitung-wochenblatt.de"
             ]
         },
         {
             "rule": "cdntrf\\.com\\/mactechnews\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a8cd7aae802d04469475b0b880438c8f76c26ad26b8e1348d99e6f8d60d18159"
+                "20e87497c1fecb1254fb91104fc9ebb28d628b39182e8277f1047a174bfbe667"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -860,43 +1078,86 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/macuser\\.js",
+            "rule": "cdntrf\\.com\\/preloader\\/6569\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "41ea96866a8acd643192b9ce468dfa8cb42e09eea4ea3d5577379326506f384d"
+                "27e6783b5b2c575e0a374babc143016be0baa14765b27c779c6de354badfd3c0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "macuser.de",
-                "www.macuser.de"
+                "magen-darm-ratgeber.de",
+                "www.magen-darm-ratgeber.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/trf-Kanyo-Layout-Neu\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ab5f8aa26eb1ced7dae5b2c92612e99062ffffcd4cbeec518e118e9090648ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magen-darm-ratgeber.de",
+                "www.magen-darm-ratgeber.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/trf-mamo-default\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4b662ed0664842ba3774fbb63d9db57934823d3ae870a519b7141c048516f7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mannheimer-morgen.de",
+                "www.mannheimer-morgen.de"
             ]
         },
         {
             "rule": "cdntrf\\.com\\/markt\\.de_RESPONSIVE\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4d82dd898f64d9d54399b5bcbb98b3d66169941fbc6c80d91d988eecfdbd3f19"
+                "ad4972579b198b541f4c8993e809899324b4c99e2a6ff48c502e4a76996c9b6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -907,44 +1168,233 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/NEU_trf_nordbayern\\.js",
+            "rule": "cdntrf\\.com\\/markt\\.de_RESPONSIVE_LIVE\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8f9291ae87536feac7f44c582c1f7c5a6523eae56a2c3d905f942cee67324a66"
+                "ab111a977eed2ce6a8bc5c8baa2919f5eb70f383548123b70ae1849e97fe1808"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nordbayern.de",
-                "www.nordbayern.de"
+                "markt.de",
+                "www.markt.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/onetz\\.js",
+            "rule": "cdntrf\\.com\\/preloader\\/370\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1e84c8b6c614fd5cefc1e8edb59c71957cb57e2e0a6c0f3086af3f407cdd48ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelhessen.de",
+                "www.mittelhessen.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/trf_vrm-mittelhessen\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d0f90fdabf5dc3edb020acb7b8776a744cb119ba2fa1bf019276add7d2bc9ab6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelhessen.de",
+                "www.mittelhessen.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/prebid\\/mittelhessen\\.de\\/prebid_config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0d1c1a511879a799ac84154abbf09e747b1bee1e734cd24956041f5e0f015e45"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelhessen.de",
+                "www.mittelhessen.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/css\\/mittelbayerische\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4b7e0243f281fc823738b8d7eefdab99d5fb28802fc32b47ce0eae00aa478df"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelbayerische.de",
+                "www.mittelbayerische.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/mittelbayerische\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9a8dd51b3bc5ffcd13b7d7d69052a1d86e80df6a3567887bd5e28068e3e0a3ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelbayerische.de",
+                "www.mittelbayerische.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/prebid\\/mittelbayerische\\.de\\/prebid_config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "668d758cb6ca75a05e91e99ba575cb1731e065e0a997864feae4c85299f139b3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelbayerische.de",
+                "www.mittelbayerische.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/css\\/nd-aktuell\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4d0fda202171d15dd64527b074a295b67bf290b41e9ffd50236c68acedc0beaf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nd-aktuell.de",
+                "www.nd-aktuell.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/nd-aktuell\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f546a8a042a3b036f4b2e99827b6bcf658b346656d4408660dda8be912a251fe"
+                "23f5cf173e64af4a9d276a83c354a0ad06b43d9d89bed736bb7c005dca718a1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nd-aktuell.de",
+                "www.nd-aktuell.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/trf-onetz\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c224d7ac59fa40856887c4eef3c0c22da67596fd3a8a3a40a03fe1f82369ea59"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -955,20 +1405,66 @@
             ]
         },
         {
+            "rule": "cdntrf\\.com\\/css\\/neu_pnp\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b78a5d51a1be9ac488cb5c69b7204afde95c53f5178dca6a783374668c2cedde"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnp.de",
+                "www.pnp.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/neu_pnp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "318bc92ef3a25408556b157b1d1e79b0728f36932dccd8d438062fcd1c0ef97e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnp.de",
+                "www.pnp.de"
+            ]
+        },
+        {
             "rule": "cdntrf\\.com\\/trf_promietrecht\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d1723de93a72f90e42a1c1311188d8ef0f33f53131369684dd5078ab85aeafec"
+                "406a22b201202552be4b2f8a762e4baa30327c32c2ac0c6fb7b96bb4871ceccc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -985,14 +1481,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ea65687c70720a610450a51a7acd7514b87ae604380d0fcff69ce5cd28921f18"
+                "e74ae799ffc29b333096cea275403993bb43e1bfc7c05621adbf77f3a1611f06"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1009,14 +1506,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c59fdd8e1f2fcd2c3af0c336511b4181903943d174d6a43ded0814861f1e8283"
+                "952cc2fe0b4092dbaef2f2e60e14bfdb25f1071ee5a4f9e43650cdaaa4b0d2af"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1027,20 +1525,52 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/rheinpfalz\\.de\\.js",
+            "rule": "cdntrf\\.com\\/trf-ratgeber-hautgesundheit\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3f6bdd49dc957f0d5fa35e6e9844dddd07f8245ae3b79e1bae029147cd247f53"
+                "e2cfea4747d88dd8bf80a4e1f6dc9e47e91a64bc54747f378f3098edbcadefc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ratgeber-hautgesundheit.de",
+                "www.ratgeber-hautgesundheit.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/rheinpfalz\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ef21192ced1959da94e85cce99b361328ea3bdf00e465f8e2bf0618b48ee135"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1051,75 +1581,143 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/ruhr24_wopo24\\.js",
+            "rule": "cdntrf\\.com\\/prebid\\/rheinpfalz\\.de\\/prebid_config\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5f1e202bd0af840db08fd10fe2625cda393b04a8daa8bbcb3534f060c60c00a8"
+                "42b0639e1ecafcc6730a35d24793854155d519c2926e79cb3d1cefaa8eb5adcf"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ruhr24.de",
-                "www.ruhr24.de"
+                "rheinpfalz.de",
+                "www.rheinpfalz.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/ruhrnachrichten\\.de\\.js",
+            "rule": "cdntrf\\.com\\/trf-rnz\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6a30b123d6989df78f007322d77ce5ce1d1c2479b24e98c815532f4de2488258"
+                "27dce1df4e969a8c2dcd9f160b451d6e40efbc0a57d9e94caf63f9187ba134cb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ruhrnachrichten.de",
-                "www.ruhrnachrichten.de"
+                "rnz.de",
+                "www.rnz.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/schwabo_RESPONSIVE\\.js",
+            "rule": "cdntrf\\.com\\/trf-ovb24\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1e994bfe055e49441782471a79af70451182a60ac0d2e3c18f46dd56c97f2762"
+                "af201159febe5ed097bb9f993818d23564abbec24f35aa38ad898af64c5484db"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "schwarzwaelder-bote.de",
-                "www.schwarzwaelder-bote.de"
+                "rosenheim24.de",
+                "www.rosenheim24.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/trf-id-sdz\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7504592cfb41396e61338163eab59912336e72155fb64dda380947e7eb76f809"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schwaebische-post.de",
+                "www.schwaebische-post.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/preloader\\/6892\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "242503f4e4cb053b86ad8cd35c88d168e77f3df53a45a3454d728beaf40b7668"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopping24.de",
+                "www.shopping24.de"
+            ]
+        },
+        {
+            "rule": "cdntrf\\.com\\/shopping24\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fb07b3c5472bc0be823423a0e3da7bd4b3ab0114254c65a86c3f3153ab928ef7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopping24.de",
+                "www.shopping24.de"
             ]
         },
         {
@@ -1129,14 +1727,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "40e842790226478e0264d66018f76c48270aa473e6d64e997294df18e39f3d27"
+                "6ec66d20d032c0c0923165f002e7424de990e1873dd819f853f123318783ccc4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1152,14 +1751,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "770956f5f56321d0e12bac624eaa2bbf624b13f255936bde7a4336ef1c5b3884"
+                "1edc42d37fa0b91e54850a20925baec44cd2313169d777f12f390f329f44a4d6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1170,47 +1771,48 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/preloader\\/309\\.js",
+            "rule": "cdntrf\\.com\\/css\\/trf-twitterperlen\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4aa3481d2a4f574d236370b8582b478d2e631994c8ab0a0aec7b868e73702db7"
+                "e616618a711d8b1c5f7d7074241ebe78a0b63c67e40f9ef0417aa3940714fe89"
             ],
-            "type": "Script",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "stuttgarter-nachrichten.de",
-                "www.stuttgarter-nachrichten.de"
+                "twitterperlen.de",
+                "www.twitterperlen.de"
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf_Stuttgarter-Nachrichten_RESPONSIVE\\.js",
+            "rule": "cdntrf\\.com\\/trf-twitterperlen\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8f796d5fd4c65d2ff82a574b14e0a166b400010981573cc1aa8db251adbb86cd"
+                "d9735710e9d457d2373c6abee0cf7bb4eac53c7111f9f0a11529c65ed75e8d5c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "stuttgarter-nachrichten.de",
-                "www.stuttgarter-nachrichten.de"
+                "twitterperlen.de",
+                "www.twitterperlen.de"
             ]
         },
         {
@@ -1219,14 +1821,16 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "630ab06d7905b8db2a8d911315a653ff8fc45a9e97ffb41cbf2e1d707b633437"
+                "92b60ffa9f72ecfdfdd4926ed281d1301e0cf9b11ab9a5930696023df29ee15e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1237,27 +1841,28 @@
             ]
         },
         {
-            "rule": "cdntrf\\.com\\/trf-id-_wa\\.js",
+            "rule": "cdntrf\\.com\\/wetterprognose-wettervorhersage\\.de\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4363cfe3d68c678618ff3b5dc37e2146348e69dba7772c4c202822db0e3464dc"
+                "5a8c1db35c41670593c83b7df0dd41459de1a718b89b2322bb9611ae4c504d4c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "wa.de",
-                "www.wa.de"
+                "wetterprognose-wettervorhersage.de",
+                "www.wetterprognose-wettervorhersage.de"
             ]
         },
         {
@@ -1267,14 +1872,15 @@
             "subdomains": [],
             "apis": {
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6f90b59743ad597d65e3830c9ac3ffdc6de6e11d441ddd9dc04e613579ba246b"
+                "f4f4716a29fa8505ebfee15201c6762d28eb8fee3ca0be9d41e9dde52dd091e3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1287,9 +1893,11 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000163,
     "types": {
-        "Script": 232
+        "Script": 261,
+        "XHR": 16,
+        "Stylesheet": 12
     },
     "nameservers": [
         "frank.ns.cloudflare.com",

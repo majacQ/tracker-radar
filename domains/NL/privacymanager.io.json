@@ -1,22 +1,26 @@
 {
     "domain": "privacymanager.io",
-    "owner": {},
+    "owner": {
+        "name": "LiveRamp Holdings, Inc.",
+        "displayName": "LiveRamp"
+    },
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.0246,
-    "sites": 245,
+    "prevalence": 0.0446,
+    "sites": 445,
     "subdomains": [
         "gdpr-wrapper",
         "gdpr",
-        "cmp-consent-tool",
         "vendors",
+        "cmp-consent-tool",
         "geo",
         "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-headliner.gdpr",
         "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-tweedehands.gdpr",
-        "27ccbe20-775f-11eb-a2f1-77ab999ee6be.gdpr",
         "45be0e15-fa7e-443b-b5bb-1b2167a1db8e.gdpr",
-        "7fd5a2e1-5ae8-4690-874e-44dde0c1dbdc-kidsweek.gdpr",
+        "ats-wrapper",
+        "launchpad",
+        "launchpad-wrapper",
         "gdpr-web-dau-prod",
         "ccpa"
     ],
@@ -34,10 +38,10 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "3d363cba352daa8e152f79b0929650f953e1f235fc0db82ac91b80092c5fb7ba"
+                "3dfb800f733fa7d868fae6e58c3d34d7beeb4f4c86a2a33c0e7b9a0ae7353ee3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -48,95 +52,121 @@
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/1\\/gdpr\\.bundle\\.js",
-            "cookies": 0.00853,
-            "fingerprinting": 1,
+            "rule": "privacymanager\\.io\\/latest\\/gdpr\\.bundle\\.js",
+            "cookies": 0.0117,
+            "fingerprinting": 2,
             "subdomains": [
                 "gdpr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 126,
-                "window.localStorage": 126,
-                "Document.cookie getter": 124,
-                "Navigator.prototype.language": 126,
-                "Document.cookie setter": 85,
-                "Date.prototype.getTime": 125,
-                "Navigator.prototype.cookieEnabled": 125
+                "Navigator.prototype.userAgent": 153,
+                "window.localStorage": 153,
+                "Document.cookie getter": 153,
+                "Navigator.prototype.language": 153,
+                "Document.cookie setter": 117,
+                "Navigator.prototype.cookieEnabled": 153,
+                "window.innerHeight": 150,
+                "window.innerWidth": 150,
+                "Date.prototype.getTime": 1
             },
-            "sites": 132,
-            "prevalence": 0.0132,
+            "sites": 153,
+            "prevalence": 0.0153,
             "cnames": [],
             "responseHashes": [
-                "f8d9561d9ce4e63494bfd9d06ecc8de8b5e84e63f2e2fcaaa694c7bcacdeb1d9",
-                "0872e79fcf08f7e11785c7c21012b926e750ba68af742f27b878dd47dc31bc87"
+                "8dd50d5366dbce419bb2c92b138d8e5be463d274430e3ce9251bed8af3e130db",
+                "d14266f774032813f6dda2318a1b4262fe38c46aacb5da8d0e01fec3b57edaf8"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "gdpr-auditId": {
                     "ttl": 33696000,
                     "length": 32,
-                    "prevalence": 0.008127633955448525,
+                    "prevalence": 0.011623246492985972,
                     "uniqueness": 1
                 },
                 "d7b67ac3-9091-4a80-a077-d16a04793ba3locale": {
                     "ttl": 33696000,
                     "length": 2,
-                    "prevalence": 0.0002006823198876179,
+                    "prevalence": 0.0002004008016032064,
                     "uniqueness": 0.5
                 },
                 "geo-location": {
                     "ttl": 86400,
                     "length": 30,
-                    "prevalence": 0.006923540036122818,
-                    "uniqueness": 0.014492753623188406
+                    "prevalence": 0.004408817635270541,
+                    "uniqueness": 0.022727272727272728
+                },
+                "consentFacebook": {
+                    "ttl": 2592004,
+                    "length": 5,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "consentGoogleAnalytics": {
+                    "ttl": 2592004,
+                    "length": 5,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
                 },
                 "gdpr-dau-log-sent": {
                     "ttl": 86400,
                     "length": 4,
-                    "prevalence": 0.0007023881196066627,
-                    "uniqueness": 0.14285714285714285
+                    "prevalence": 0.002104208416833667,
+                    "uniqueness": 0.047619047619047616
                 },
-                "consentFacebook": {
-                    "ttl": 2592002,
-                    "length": 5,
-                    "prevalence": 0.00010034115994380895,
+                "lr_get_top_level_domain": {
+                    "ttl": null,
+                    "length": 6,
+                    "prevalence": 0.0001002004008016032,
                     "uniqueness": 1
                 },
-                "consentGoogleAnalytics": {
-                    "ttl": 2592002,
-                    "length": 5,
-                    "prevalence": 0.00010034115994380895,
+                "7a9273aa-bc97-4542-bed2-4ee53960a5aelocale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "a7e8fb93-5f1f-4375-b321-8e998143ae61locale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "94a59b49-b7ea-4e1c-93c9-95a65811342blocale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.0001002004008016032,
                     "uniqueness": 1
                 },
                 "gdpr-display-counter": {
                     "ttl": 86400,
                     "length": 1,
-                    "prevalence": 0.00010034115994380895,
+                    "prevalence": 0.0001002004008016032,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.nederland.fm",
-                "www.zeelandnet.nl",
-                "radio1.be",
-                "hobby.blogo.nl",
+                "forums.macrumors.com",
+                "heavy.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.businessinsider.com",
+                "www.merriam-webster.com",
+                "www.watersportalmanak.nl",
+                "www.kijk.nl",
+                "fictionhorizon.com",
+                "www.meteovista.be",
+                "erotiek.tweedehands.net",
+                "www.linda.nl",
                 "www.fr12.nl",
-                "zzpdaily.nl",
-                "www.welingelichtekringen.nl",
-                "www.weerplaza.nl",
-                "alarmeringen.nl",
-                "www.ebaumsworld.com",
-                "www.omroepzeeland.nl",
-                "chickslovefood.com",
-                "www.voedingswaardetabel.nl",
-                "www.een.be",
-                "www.agf.nl",
-                "www.tweedehands.net"
+                "www.belegger.nl",
+                "www.pinknews.co.uk",
+                "www.3dsourced.com",
+                "mashtips.com",
+                "gameriv.com",
+                "regio15.nl",
+                "www.puppyplaats.nl"
             ]
         },
         {
@@ -148,7 +178,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "2cd1ce15f7f2b73f151be973c2c8bf8b0634febfe91d24d37fc275c5a7aa15a7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/d7b67ac3-9091-4a80-a077-d16a04793ba3\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -160,25 +212,43 @@
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/gdpr\\/d7b67ac3-9091-4a80-a077-d16a04793ba3\\/vendor-list\\.json",
+            "rule": "privacymanager\\.io\\/purposes-nl\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "gdpr-wrapper"
+                "vendors"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 172,
+            "prevalence": 0.0172,
             "cnames": [],
             "responseHashes": [
-                "a9506f37e0f3a9432c61abf32322a3b5925e5110999335df080db6fb3213a137"
+                "4d2e81eb083cc82020c6fd8e19c4b26eceec3f327bd91f80825fcb287ff52208"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "9292.nl",
-                "www.9292.nl"
+                "forums.macrumors.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.businessinsider.com",
+                "www.merriam-webster.com",
+                "forum.mannenzaken.nl",
+                "www.crimesite.nl",
+                "www.trucks.nl",
+                "appletoolbox.com",
+                "www.saarmagazine.nl",
+                "pythonguides.com",
+                "www.wielerflits.nl",
+                "www.rtvnoord.nl",
+                "www.weerplaza.nl",
+                "www.omropfryslan.nl",
+                "www.weeronline.nl",
+                "www.behindthevoiceactors.com",
+                "girlswhomagazine.nl"
             ]
         },
         {
@@ -189,76 +259,36 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 185,
+            "prevalence": 0.0185,
             "cnames": [],
             "responseHashes": [
-                "fecf08d48dbc946b3487abedf98eda2cc270626b457f350347e67729bb4c007c"
+                "29b7f78db08d77ff1943d06b6a5f1ebf24843b1fb8cd40da79d576101f5f0b5e"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
+                "heavy.com",
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "beurs.fd.nl",
-                "www.landleven.nl",
-                "www.top40.nl",
-                "www.omropfryslan.nl",
-                "www.nhnieuws.nl",
-                "filmdaily.co",
-                "www.weerplaza.nl",
-                "www.viafora.nl",
-                "www.ebaumsworld.com",
-                "www.gptoday.net",
-                "www.listal.com",
-                "www.crimesite.nl",
-                "www.zoover.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/purposes-nl\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "vendors"
-            ],
-            "apis": {},
-            "sites": 168,
-            "prevalence": 0.0169,
-            "cnames": [],
-            "responseHashes": [
-                "dbb64826fba5531fffa826c78bdb9d573d9ed93b0d874c15218a4690ff72f3b4"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forums.macrumors.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "thoughtcatalog.com",
-                "www.businessinsider.com",
-                "www.thegatewaypundit.com",
-                "www.westernjournal.com",
-                "www.gezondheidsnet.nl",
-                "www.f1maximaal.nl",
-                "www.nederlandmobiel.nl",
                 "www.9292.nl",
-                "www.geenstijl.nl",
-                "www.ajaxshowtime.com",
-                "statisticsglobe.com",
-                "www.musicmeter.nl",
-                "www.songmeaningsandfacts.com",
-                "www.hartvannederland.nl",
-                "problemcar.nl",
-                "www.weeronline.nl",
-                "www.agconnect.nl"
+                "www.omroepflevoland.nl",
+                "www.flinndal.nl",
+                "www.talkbass.com",
+                "www.mumsnet.com",
+                "www.hvzeeland.nl",
+                "wij.nl",
+                "www.saarmagazine.nl",
+                "www.omroepwest.nl",
+                "www.plusonline.nl",
+                "www.zeelandnet.nl"
             ]
         },
         {
@@ -269,11 +299,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
-                "d96359b975ea60541c0a2af5c5de0197241e5e769841ac87cdb8dbb636dac16f"
+                "5fd811628575c59ea4501cbacd7fee7ffcb6eac53994664438bf006142eb0e0e"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -283,22 +313,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.skyradio.nl",
-                "www.beurs.nl",
-                "www.dela.nl",
-                "www.televizier.nl",
-                "www.mamaliefde.nl",
-                "www.crimesite.nl",
+                "www.flinndal.nl",
+                "www.autoscout24.nl",
+                "www.smulweb.nl",
+                "sittard-geleen.nieuws.nl",
+                "feyenoord.headliner.nl",
+                "www.macrumors.com",
+                "lazyadmin.nl",
+                "www.beleggen.nl",
+                "www.gemeente.nu",
+                "www.talkbass.com",
                 "www.notateslaapp.com",
-                "www.tvgids.nl",
-                "jufmaike.nl",
-                "speld.nl",
-                "www.foody.nl",
-                "www.vkmag.com",
-                "www.onthisday.com"
+                "www.landleven.nl"
             ]
         },
         {
@@ -309,11 +339,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
-                "c631d3bebb168e8549f41a8137a8681fc6d87da3b1b4c2cd6377b7d79b236caf"
+                "107c3c8d58a4b471627bcbdb06e10ec2cbd670a02c29458fea8383c1f9d7ddb9"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -323,22 +353,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.538.nl",
-                "www.omroepwest.nl",
-                "www.songmeaningsandfacts.com",
-                "www.advocatie.nl",
-                "www.zoopla.co.uk",
-                "www.fietsen123.nl",
-                "www.hvzeeland.nl",
-                "calculator.academy",
-                "www.me-to-we.nl",
-                "regio15.nl",
-                "www.foody.nl",
-                "www.smulweb.nl",
-                "www.shownieuws.nl"
+                "loonwijzer.nl",
+                "chickslovefood.com",
+                "www.autoscout24.com",
+                "www.beleggen.nl",
+                "www.hartvannederland.nl",
+                "www.roddelpraat.nl",
+                "statisticsglobe.com",
+                "www.flinndal.nl",
+                "lazyadmin.nl",
+                "speld.nl",
+                "www.mumsnet.com",
+                "www.omroepwest.nl"
             ]
         },
         {
@@ -349,11 +379,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
-                "250a0280938365d9f83769f776b3834a605a6560ca3df785029ba97b6ddd5c4e"
+                "1357132a872bc3c79a758f8ee6bd845da8dd085917d3948fd9ea7eb5cbc8228d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -363,22 +393,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.rijdendetreinen.nl",
-                "www.een.be",
-                "www.radio10.nl",
-                "www.beursgorilla.nl",
-                "www.duic.nl",
-                "radio2.be",
-                "www.gentlemansgazette.com",
-                "www.geenstijl.nl",
-                "www.gids.tv",
-                "www.me-to-we.nl",
-                "www.tvgids.nl",
                 "www.businessinsider.nl",
-                "www.hartvannederland.nl"
+                "www.vandaaginside.nl",
+                "www.fcupdate.nl",
+                "www.rtvoost.nl",
+                "nl.tideschart.com",
+                "www.538.nl",
+                "www.tweedehands.net",
+                "alarmeringen.nl",
+                "www.dutchnews.nl",
+                "www.omroepflevoland.nl",
+                "loonwijzer.nl",
+                "www.vogue.nl"
             ]
         },
         {
@@ -389,13 +419,13 @@
                 "cmp-consent-tool"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 174
+                "Navigator.prototype.userAgent": 170
             },
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
-                "3c04106baf1333a6d9411aff493577c67786b171cfa91501c8eb3e31405b3059"
+                "50166cea7ed05f882dff7f3496d076e8bc9defb23b487d64d6d4a7c21c325d1a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -405,22 +435,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.omroepflevoland.nl",
-                "www.netdoktor.de",
-                "www.ebaumsworld.com",
+                "www.538.nl",
                 "www.autoscout24.com",
-                "www.tvgids.tv",
-                "parra.nu",
-                "www.topspeed.com",
-                "alarmeringen.nl",
-                "www.welingelichtekringen.nl",
-                "www.rtvdrenthe.nl",
-                "www.vkmag.com",
-                "www.vrt.be",
-                "www.luchtvaartnieuws.nl"
+                "www.onthisday.com",
+                "www.radio.nl",
+                "www.ajaxshowtime.com",
+                "www.nederland.fm",
+                "www.celebritynetworth.com",
+                "www.gratisaftehalen.nl",
+                "www.vogue.nl",
+                "www.radio10.nl",
+                "mannenzaken.nl",
+                "www.duic.nl"
             ]
         },
         {
@@ -431,14 +461,14 @@
                 "cmp-consent-tool"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 177,
-                "Navigator.prototype.platform": 177
+                "Navigator.prototype.userAgent": 182,
+                "Navigator.prototype.platform": 182
             },
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
-                "8d49b3070550d94e487ca7bb67ff0b7b7413fb13805385cf9ddb9b5fb32a97d0"
+                "10d30e26ef1c7a25e4714259f231c7db8993fe4583537a2be5a3b1749443b726"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -448,22 +478,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "dagelijksekost.een.be",
-                "www.ajaxshowtime.com",
-                "www.weeronline.nl",
-                "calculator.academy",
-                "www.smulweb.nl",
-                "fhm.nl",
-                "www.kidsweek.nl",
-                "www.cracked.com",
-                "www.verkeerplaza.nl",
-                "www.tapatalk.com",
-                "www.immobilienscout24.de",
-                "www.moviemeter.nl",
-                "www.autoreview.nl"
+                "www.onthisday.com",
+                "www.beleggen.nl",
+                "www.mamaliefde.nl",
+                "www.wordfeudwoorden.nl",
+                "www.vogue.com",
+                "www.gratisaftehalen.nl",
+                "www.nieuwnieuws.nl",
+                "www.valuta.nl",
+                "www.ouders.nl",
+                "www.hvzeeland.nl",
+                "www.omropfryslan.nl",
+                "mannenzaken.nl"
             ]
         },
         {
@@ -474,11 +504,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
-                "0bb91510affa30b30f4c3ce7bc5609b6f98ca55ff26d51a89b9cc0abd8bbaa7a"
+                "1e447a73ff7b3e07d997afc994dd1cf824b270c59a1fa88a8258aabbfc5a445e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -488,22 +518,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.macrumors.com",
-                "www.omropfryslan.nl",
-                "radio1.be",
-                "www.wielerflits.nl",
-                "racingnews365.nl",
-                "www.dcrainmaker.com",
-                "stubru.be",
-                "www.autoreview.nl",
-                "www.trucks.nl",
-                "www.zoopla.co.uk",
-                "www.guidinc.nl",
-                "www.gld.nl",
-                "www.rtvnoord.nl"
+                "www.mumsnet.com",
+                "www.weer.nl",
+                "www.hvzeeland.nl",
+                "www.gids.tv",
+                "www.televizier.nl",
+                "www.minecraftforum.net",
+                "mashtips.com",
+                "mannenzaken.nl",
+                "www.omroepzeeland.nl",
+                "www.businessinsider.nl",
+                "www.autoscout24.com",
+                "girlswhomagazine.nl"
             ]
         },
         {
@@ -514,8 +544,8 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 184,
+            "prevalence": 0.0184,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -528,102 +558,109 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.538.nl",
-                "www.nieuwnieuws.nl",
-                "www.vrt.be",
-                "formule1nieuws.nl",
-                "www.landleven.nl",
-                "www.fr12.nl",
-                "www.gezondheidsnet.nl",
-                "klara.be",
-                "www.nederlandmobiel.nl",
-                "www.dutchnews.nl",
-                "fhm.nl",
-                "www.ebaumsworld.com",
-                "podcastawards.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/1\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
-            "cnames": [],
-            "responseHashes": [
-                "b17a8edc7506493d958440f90b259891f10788ff6d72d53c61555fde7528f720"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forums.macrumors.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "thoughtcatalog.com",
-                "www.businessinsider.com",
-                "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.nederlandmobiel.nl",
-                "www.f1maximaal.nl",
-                "radio1.be",
-                "www.guruwatch.nl",
-                "www.crimesite.nl",
-                "www.bnr.nl",
-                "www.autoscout24.nl",
-                "www.538.nl",
-                "www.voedingswaardetabel.nl",
-                "www.rtvdrenthe.nl",
-                "datumprikker.nl",
-                "www.englishforums.com",
-                "www.gameskinny.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/18\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
-            "cnames": [],
-            "responseHashes": [
-                "1b4545e593ba3c26b1d9d4964a52360e4abd77b37b42752f6f9e7f00aa9d8ba7"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forums.macrumors.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "thoughtcatalog.com",
-                "www.businessinsider.com",
-                "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.538.nl",
-                "www.apparata.nl",
-                "www.topspeed.com",
-                "fhm.nl",
-                "www.agconnect.nl",
-                "podcastawards.nl",
-                "www.gentlemansgazette.com",
-                "www.omropfryslan.nl",
-                "www.advocatie.nl",
-                "www.een.be",
+                "www.autoscout24.com",
+                "www.gratisaftehalen.nl",
+                "wij.nl",
+                "www.rijnmond.nl",
+                "www.valuta.nl",
+                "gameriv.com",
+                "www.saarmagazine.nl",
                 "www.online-radio.nl",
-                "www.smulweb.nl",
-                "www.f1maximaal.nl"
+                "www.omroepzeeland.nl",
+                "www.technipages.com",
+                "www.ouders.nl",
+                "www.gld.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/847\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {
+                "Screen.prototype.width": 182,
+                "Screen.prototype.height": 182,
+                "window.innerHeight": 182,
+                "window.innerWidth": 182
+            },
+            "sites": 183,
+            "prevalence": 0.0183,
+            "cnames": [],
+            "responseHashes": [
+                "3220a07ad1f631e62d4b733f2ac3f6d8f640e67dccc04a5c7dfa1faeadd4c576"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forums.macrumors.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.businessinsider.com",
+                "www.merriam-webster.com",
+                "www.newsweek.com",
+                "www.duic.nl",
+                "www.foody.nl",
+                "www.rtvnoord.nl",
+                "www.beleggen.nl",
+                "www.buienalarm.nl",
+                "www.luchtvaartnieuws.nl",
+                "www.televizier.nl",
+                "linuxhint.com",
+                "www.gameskinny.com",
+                "www.gardeningknowhow.com",
+                "forum.mannenzaken.nl",
+                "culturedvultures.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/650\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {
+                "window.innerWidth": 182
+            },
+            "sites": 183,
+            "prevalence": 0.0183,
+            "cnames": [],
+            "responseHashes": [
+                "c0c6ebceae3d1722e6da4ce408acb406787f11df1e1fb8696f33c5481e9b4b6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forums.macrumors.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.businessinsider.com",
+                "www.merriam-webster.com",
+                "www.newsweek.com",
+                "nltimes.nl",
+                "www.autoscout24.com",
+                "feyenoord.headliner.nl",
+                "appletoolbox.com",
+                "www.autoscout24.de",
+                "www.fietsen123.nl",
+                "www.me-to-we.nl",
+                "www.hierhebikpijn.nl",
+                "www.knowyourmobile.com",
+                "www.mamaliefde.nl",
+                "www.buienalarm.nl",
+                "www.behindthevoiceactors.com"
             ]
         },
         {
@@ -634,11 +671,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 125,
-            "prevalence": 0.0125,
+            "sites": 122,
+            "prevalence": 0.0122,
             "cnames": [],
             "responseHashes": [
-                "36dc8627546125c2446359d123c1d11a8afbe6a5100862e2319217e335d985d2"
+                "1eae565e7f4ae4b87e5ffb96bf72fb3a58e4aeb73e73a00a5368c8cfe308aa2c"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -647,38 +684,38 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "www.businessinsider.com",
-                "www.thegatewaypundit.com",
-                "datumprikker.nl",
-                "www.fcupdate.nl",
-                "www.weer.nl",
-                "www.netdoktor.de",
-                "www.verkeerplaza.nl",
-                "www.songteksten.nl",
-                "www.flinndal.nl",
+                "www.puna.nl",
+                "www.girlsaskguys.com",
                 "www.omroepbrabant.nl",
-                "www.beurs.nl",
-                "www.slam.nl",
-                "www.mamaliefde.nl",
-                "www.apparata.nl",
-                "www.guruwatch.nl",
-                "www.9292.nl",
-                "www.tvgids.tv",
-                "www.belegger.nl"
+                "www.autoscout24.com",
+                "www.weersvoorspelling.nl",
+                "www.online-radio.nl",
+                "www.smulweb.nl",
+                "www.musicmeter.nl",
+                "www.me-to-we.nl",
+                "www.rijnmond.nl",
+                "erotiek.tweedehands.net",
+                "www.crimesite.nl",
+                "www.omropfryslan.nl",
+                "www.autoscout24.nl",
+                "www.rtvoost.nl",
+                "www.meteovista.be",
+                "www.buienalarm.nl"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/latest\\/17\\.js",
+            "rule": "privacymanager\\.io\\/latest\\/605\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 177,
-            "prevalence": 0.0178,
+            "sites": 183,
+            "prevalence": 0.0183,
             "cnames": [],
             "responseHashes": [
-                "aef9ed644efb2888474c4e759b3903f5d07645e71cb9da7ebe68c48f3204b6b8"
+                "1e8eb3143ae508bca0b46d3cc70e57d78c9c19b8b535a40498bad308428c65fb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -688,22 +725,22 @@
                 "hollywoodlife.com",
                 "knowyourmeme.com",
                 "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.sdu.nl",
-                "www.viafora.nl",
-                "problemcar.nl",
-                "filmdaily.co",
-                "www.gameskinny.com",
-                "www.hierhebikpijn.nl",
-                "www.gptoday.net",
-                "www.fr12.nl",
-                "www.beursgorilla.nl",
-                "www.ajaxshowtime.com",
-                "www.netdoktor.de",
-                "www.usmarkets.nl",
-                "astrostyle.com"
+                "www.rtvutrecht.nl",
+                "tubbergen.nieuws.nl",
+                "www.behindthevoiceactors.com",
+                "www.omroepflevoland.nl",
+                "www.9292.nl",
+                "www.blijtijds.nl",
+                "statisticsglobe.com",
+                "gameriv.com",
+                "nieuws.nl",
+                "www.ditjesendatjes.nl",
+                "www.knowyourmobile.com",
+                "www.businessinsider.nl"
             ]
         },
         {
@@ -714,11 +751,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 172,
-            "prevalence": 0.0173,
+            "sites": 175,
+            "prevalence": 0.0175,
             "cnames": [],
             "responseHashes": [
-                "a42f2ec73409f2753ef17d737714c86303fa45fc3a3d484a9b0c8ed28ef0fd6b"
+                "778b8cd899b9ebf3913aaa46e397ce897bb192b100b276982869f5f00525b39f"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -727,23 +764,23 @@
                 "forums.macrumors.com",
                 "hollywoodlife.com",
                 "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.verkeerplaza.nl",
-                "www.nederland.fm",
-                "regio15.nl",
-                "www.autoblog.nl",
-                "www.wordfeudwoorden.nl",
-                "klara.be",
-                "www.f1maximaal.nl",
-                "www.fr12.nl",
-                "www.topspeed.com",
-                "www.idownloadblog.com",
-                "www.plusonline.nl",
-                "www.ebaumsworld.com",
-                "www.nederlandmobiel.nl",
-                "www.skyradio.nl"
+                "www.geenstijl.nl",
+                "www.dela.nl",
+                "www.duic.nl",
+                "www.rtvutrecht.nl",
+                "www.linda.nl",
+                "www.luchtvaartnieuws.nl",
+                "www.hierhebikpijn.nl",
+                "l1.nl",
+                "www.crimesite.nl",
+                "racingnews365.nl",
+                "www.iex.nl",
+                "linuxhint.com"
             ]
         },
         {
@@ -755,10 +792,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "f4a01ac9983a0dcfc934ebffc8d322c2179cb069bed05d5adb49f58d212af993"
+                "7a5c1e58a4f4025bb402b431b53fbfd178c472a7ab0b903534198157ecbd4cc6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -776,8 +813,8 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
+            "sites": 13,
+            "prevalence": 0.0013,
             "cnames": [],
             "responseHashes": [
                 "24b9ef0c3bc6297a9b4dc1ec8e4abf2ba0f147e147c295bafa11807d01d3a158"
@@ -787,23 +824,46 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "9292.nl",
-                "beurs.fd.nl",
-                "fd.nl",
-                "hobby.blogo.nl",
-                "jufmaike.nl",
-                "podcastawards.nl",
                 "www.9292.nl",
-                "www.bnr.nl",
+                "www.businessinsider.nl",
+                "www.businessinsider.com",
                 "www.geenstijl.nl",
                 "www.me-to-we.nl",
-                "www.mediacourant.nl",
                 "www.moviemeter.nl",
                 "www.musicmeter.nl",
-                "www.nederlandmobiel.nl",
                 "www.nieuwnieuws.nl",
                 "www.omroepbrabant.nl",
                 "www.routenet.nl",
+                "www.saarmagazine.nl",
                 "www.trucks.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/icon-close\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "c5f32729408ff004dae036ffde7da8651e355fce80530957471a7fdcf312ea55"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "hockey.nl",
+                "www.9292.nl",
+                "www.at5.nl",
+                "www.autoblog.nl",
+                "www.ibtimes.co.uk",
+                "www.nhnieuws.nl",
+                "www.omroepflevoland.nl"
             ]
         },
         {
@@ -814,8 +874,8 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 160,
-            "prevalence": 0.0161,
+            "sites": 166,
+            "prevalence": 0.0166,
             "cnames": [],
             "responseHashes": [
                 "9d0c64b5cb663056b6295f677fb794d23ae3999112515beecb7c6703723f493a"
@@ -827,23 +887,23 @@
                 "forums.macrumors.com",
                 "hollywoodlife.com",
                 "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.songteksten.nl",
-                "www.beurs.nl",
-                "radio1.be",
-                "www.netdoktor.de",
-                "www.apparata.nl",
-                "stubru.be",
-                "www.celebritynetworth.com",
-                "www.englishforums.com",
-                "www.vkmag.com",
-                "www.rtvdrenthe.nl",
-                "www.tvgids.nl",
-                "www.onthisday.com",
-                "www.foody.nl",
-                "www.nieuwnieuws.nl"
+                "www.1limburg.nl",
+                "www.rtvutrecht.nl",
+                "www.geenstijl.nl",
+                "www.ibtimes.co.uk",
+                "www.omroepzeeland.nl",
+                "www.agconnect.nl",
+                "www.omroepwest.nl",
+                "www.talkbass.com",
+                "l1.nl",
+                "www.fcupdate.nl",
+                "www.pinknews.co.uk",
+                "www.businessinsider.nl"
             ]
         },
         {
@@ -854,11 +914,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 172,
-            "prevalence": 0.0173,
+            "sites": 175,
+            "prevalence": 0.0175,
             "cnames": [],
             "responseHashes": [
-                "c73575543a5c99018f842960f9882edaa0918965ea856e91de9717a0d58d3f1c"
+                "2b79fc5a0762f8c5f01ca689ce5df47e673eedfe29a7668332d16ec9afd7c8d4"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -867,23 +927,23 @@
                 "forums.macrumors.com",
                 "hollywoodlife.com",
                 "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "l1.nl",
-                "www.valuta.nl",
-                "chickslovefood.com",
-                "fd.nl",
-                "www.shownieuws.nl",
-                "www.ibtimes.com",
-                "zzpdaily.nl",
-                "www.skoften.net",
-                "loonwijzer.nl",
-                "podcastawards.nl",
-                "www.vrt.be",
                 "www.wisselkoers.nl",
-                "www.radio10.nl",
-                "astrostyle.com"
+                "wij.nl",
+                "www.routenet.nl",
+                "www.autoreview.nl",
+                "www.smulweb.nl",
+                "www.blijtijds.nl",
+                "www.omroepflevoland.nl",
+                "www.top40.nl",
+                "www.zoopla.co.uk",
+                "l1.nl",
+                "loonwijzer.nl",
+                "www.omroepzeeland.nl"
             ]
         },
         {
@@ -894,11 +954,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 172,
-            "prevalence": 0.0173,
+            "sites": 175,
+            "prevalence": 0.0175,
             "cnames": [],
             "responseHashes": [
-                "c298433cc9eb86f4c0be0a447b0faf398dee9186d2bcf26683297de2758cddc7"
+                "85e053deacf69ac039c3e507513fce4791810aa498b202947f48bde905dba7e3"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -907,23 +967,23 @@
                 "forums.macrumors.com",
                 "hollywoodlife.com",
                 "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
                 "www.businessinsider.com",
+                "www.merriam-webster.com",
                 "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.mediaite.com",
-                "www.belegger.nl",
                 "regio15.nl",
                 "www.zeelandnet.nl",
-                "www.verkeerplaza.nl",
-                "formule1nieuws.nl",
-                "www.bnr.nl",
-                "www.duic.nl",
-                "www.topspeed.com",
-                "www.veronicainside.nl",
-                "calculator.academy",
-                "www.songteksten.nl",
-                "www.landleven.nl",
-                "www.rijnmond.nl"
+                "www.plusonline.nl",
+                "www.me-to-we.nl",
+                "www.onthisday.com",
+                "www.freeconvert.com",
+                "www.vogue.com",
+                "www.mantelligence.com",
+                "www.behindthevoiceactors.com",
+                "adamtheautomator.com",
+                "www.gld.nl",
+                "www.routenet.nl"
             ]
         },
         {
@@ -934,736 +994,77 @@
                 "gdpr-wrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 19
+                "Navigator.prototype.userAgent": 34
             },
-            "sites": 23,
-            "prevalence": 0.00231,
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
             "responseHashes": [
-                "36f429356af4c59a3dea036c75cd7bba8ecf6beee1812617c3912d3f8870c607"
+                "f373702102ace509e79cf812c0a6563746d392493497ed59cd3120c6274c5aba",
+                "47f47a72c7c7fd1df9464c973303d0c4e166eb5d4633a2b8a706b608b8334f47"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "forums.macrumors.com",
-                "heavy.com",
                 "thoughtcatalog.com",
-                "www.topspeed.com",
-                "www.englishforums.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "pythonguides.com",
+                "www.talkbass.com",
+                "www.macobserver.com",
+                "www.biddytarot.com",
+                "www.mantelligence.com",
+                "www.3dsourced.com",
+                "fictionhorizon.com",
+                "nl.tideschart.com",
+                "www.exceldemy.com",
                 "www.listal.com",
+                "hackspirit.com",
+                "www.gardeningknowhow.com",
+                "lazyadmin.nl",
                 "www.knowyourmobile.com",
-                "adamtheautomator.com",
-                "www.gentlemansgazette.com",
-                "www.celebritynetworth.com",
-                "www.wepc.com",
-                "www.mediaite.com",
-                "www.unixmen.com",
+                "www.guitarlobby.com",
+                "adamtheautomator.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/7f035220-1751-4684-bb7f-a1c0d45657df\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.00341,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forums.macrumors.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "cararac.com",
                 "www.macrumors.com",
+                "www.macobserver.com",
+                "lazyadmin.nl",
+                "www.talkbass.com",
+                "www.technipages.com",
+                "statisticsglobe.com",
+                "www.biddytarot.com",
+                "hackspirit.com",
+                "www.notateslaapp.com",
+                "www.behindthevoiceactors.com",
                 "appletoolbox.com",
-                "www.notateslaapp.com",
-                "linuxhint.com",
-                "www.songmeaningsandfacts.com",
-                "calculator.academy",
-                "filmdaily.co"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "geo"
-            ],
-            "apis": {},
-            "sites": 109,
-            "prevalence": 0.0109,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "www.businessinsider.com",
-                "www.newsweek.com",
-                "www.thegatewaypundit.com",
-                "www.businessinsider.nl",
-                "radio2.be",
-                "www.onthisday.com",
-                "www.fr-fans.nl",
-                "www.nhnieuws.nl",
-                "www.zoover.nl",
-                "www.beleggen.nl",
-                "www.cracked.com",
-                "www.songteksten.nl",
-                "www.gameskinny.com",
-                "www.dela.nl",
-                "www.me-to-we.nl",
-                "zzpdaily.nl",
-                "jufmaike.nl",
-                "www.tvshowsace.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "geo"
-            ],
-            "apis": {},
-            "sites": 168,
-            "prevalence": 0.0169,
-            "cnames": [],
-            "responseHashes": [
-                "3656ad0b9309abc5993e3cd41a5b83b18ae7e261fd007d16cb44d5e102520632"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "healthfully.com",
-                "hollywoodlife.com",
-                "homeguides.sfgate.com",
-                "knowyourmeme.com",
-                "oureverydaylife.com",
-                "sciencing.com",
-                "tabs.ultimate-guitar.com",
-                "townhall.com",
-                "www.businessinsider.com",
-                "www.dictionary.com",
-                "www.dcrainmaker.com",
-                "www.apparata.nl",
-                "www.leaf.tv",
-                "nymag.com",
-                "klara.be",
-                "sporza.be",
-                "www.powerpyx.com",
-                "wij.nl",
-                "www.hitc.com",
-                "regio15.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/bloodyMary\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.0011,
-            "cnames": [],
-            "responseHashes": [
-                "1d656a62d00379daf3bbc8d0f465cd1a4dd061289996f2e3b39d6f55abd21f8b"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "alarmeringen.nl",
-                "racingnews365.nl",
-                "thenextweb.com",
-                "www.ajaxshowtime.com",
-                "www.at5.nl",
-                "www.autoblog.nl",
-                "www.fr-fans.nl",
-                "www.fr12.nl",
-                "www.newsweek.com",
-                "www.routenet.nl",
-                "www.top40.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/1\\/portal\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-headliner.gdpr",
-                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-tweedehands.gdpr",
-                "27ccbe20-775f-11eb-a2f1-77ab999ee6be.gdpr",
-                "gdpr",
-                "45be0e15-fa7e-443b-b5bb-1b2167a1db8e.gdpr",
-                "7fd5a2e1-5ae8-4690-874e-44dde0c1dbdc-kidsweek.gdpr"
-            ],
-            "apis": {},
-            "sites": 21,
-            "prevalence": 0.00211,
-            "cnames": [],
-            "responseHashes": [
-                "33b8a86d292ce4a53436d5165402c3d00ff49f66f0b73be3822bafbdaef816c7"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dagelijksekost.een.be",
-                "radio2.be",
-                "sporza.be",
-                "www.een.be",
-                "www.beurs.nl",
-                "www.advocatie.nl",
-                "www.belegger.nl",
-                "www.iex.nl",
-                "www.tweedehands.net",
-                "headliner.nl",
-                "www.kidsweek.nl",
-                "www.beursgorilla.nl",
-                "www.vrt.be",
-                "www.beleggen.nl",
-                "stubru.be",
-                "www.guruwatch.nl",
-                "contacten.tweedehands.net",
-                "klara.be",
-                "www.sdu.nl",
-                "radio1.be"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/1\\/portal\\.bundle\\.js",
-            "cookies": 0.000401,
-            "fingerprinting": 1,
-            "subdomains": [
-                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-headliner.gdpr",
-                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-tweedehands.gdpr",
-                "27ccbe20-775f-11eb-a2f1-77ab999ee6be.gdpr",
-                "gdpr",
-                "45be0e15-fa7e-443b-b5bb-1b2167a1db8e.gdpr",
-                "7fd5a2e1-5ae8-4690-874e-44dde0c1dbdc-kidsweek.gdpr"
-            ],
-            "apis": {
-                "window.localStorage": 21,
-                "Document.cookie setter": 4,
-                "Document.cookie getter": 5
-            },
-            "sites": 21,
-            "prevalence": 0.00211,
-            "cnames": [],
-            "responseHashes": [
-                "94a7728368907e88dd27fc9da195c17bb47071de99a2c3ceba3f50d3ce43195d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.tweedehands.net",
-                "headliner.nl",
-                "www.advocatie.nl",
-                "www.guruwatch.nl",
-                "stubru.be",
-                "klara.be",
-                "www.vrt.be",
-                "erotiek.tweedehands.net",
-                "www.beleggen.nl",
-                "www.beurs.nl",
-                "sporza.be",
-                "www.iex.nl",
-                "www.een.be",
-                "www.belegger.nl",
-                "dagelijksekost.een.be",
-                "radio1.be",
-                "www.beursgorilla.nl",
-                "www.sdu.nl",
-                "radio2.be",
-                "www.kidsweek.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/gdpr-liveramp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 7
-            },
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "97b61ce6e9805953d478b6ab3e922d3e00c6a382d3dc292e54761b47db69a04d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "astrostyle.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.onthisday.com",
-                "www.tvshowsace.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "astrostyle.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.onthisday.com",
-                "www.tvshowsace.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "3f63ffd6610cf1c3dc3e5a6403b83d0aa8f02d1297ebe53c437a553a9d1ce64d"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "astrostyle.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "www.cracked.com",
-                "www.ebaumsworld.com",
-                "www.onthisday.com",
-                "www.tvshowsace.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/1\\/fingerprint-logo\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr"
-            ],
-            "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
-            "cnames": [],
-            "responseHashes": [
-                "48307114877d5b07454707dd9e225619dc2b438b76558e29748f1f9aee0bbf5a"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forums.macrumors.com",
-                "hollywoodlife.com",
-                "knowyourmeme.com",
-                "thoughtcatalog.com",
-                "www.thegatewaypundit.com",
-                "www.cracked.com",
-                "www.televizier.nl",
-                "www.ebaumsworld.com",
-                "statisticsglobe.com",
-                "www.guidinc.nl",
-                "www.agconnect.nl",
-                "www.mediaite.com",
-                "www.macrumors.com",
-                "www.celebritynetworth.com",
-                "www.songmeaningsandfacts.com",
-                "www.notateslaapp.com",
+                "www.mantelligence.com",
                 "www.listal.com",
-                "astrostyle.com",
-                "www.tvshowsace.com",
-                "www.idownloadblog.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/ab3257e2-40a2-4fa5-8e9c-1a45c23819e6\\/gdpr-liveramp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "466ff60309aef79cee8e8dad1b6261d021c10ebb2405a227f1be531a505e87a2"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "podcastawards.nl",
-                "www.bnr.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/gdpr\\.bundle\\.js",
-            "cookies": 0.00482,
-            "fingerprinting": 1,
-            "subdomains": [
-                "gdpr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 54,
-                "window.localStorage": 54,
-                "Document.cookie getter": 54,
-                "Navigator.prototype.language": 54,
-                "Document.cookie setter": 48,
-                "Date.prototype.getTime": 54,
-                "Navigator.prototype.cookieEnabled": 53
-            },
-            "sites": 56,
-            "prevalence": 0.00562,
-            "cnames": [],
-            "responseHashes": [
-                "f8d9561d9ce4e63494bfd9d06ecc8de8b5e84e63f2e2fcaaa694c7bcacdeb1d9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "gdpr-auditId": {
-                    "ttl": 33696000,
-                    "length": 32,
-                    "prevalence": 0.00481637567730283,
-                    "uniqueness": 1
-                },
-                "gdpr-dau-log-sent": {
-                    "ttl": 86400,
-                    "length": 4,
-                    "prevalence": 0.0006020469596628537,
-                    "uniqueness": 0.16666666666666666
-                },
-                "geo-location": {
-                    "ttl": 86400,
-                    "length": 30,
-                    "prevalence": 0.0010034115994380895,
-                    "uniqueness": 0.1
-                },
-                "a7e8fb93-5f1f-4375-b321-8e998143ae61locale": {
-                    "ttl": 33696000,
-                    "length": 2,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "94a59b49-b7ea-4e1c-93c9-95a65811342blocale": {
-                    "ttl": 33696000,
-                    "length": 2,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "7a9273aa-bc97-4542-bed2-4ee53960a5aelocale": {
-                    "ttl": 33696000,
-                    "length": 2,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forums.macrumors.com",
-                "heavy.com",
-                "thoughtcatalog.com",
-                "www.businessinsider.com",
-                "www.hartvannederland.nl",
-                "www.veronicainside.nl",
-                "www.rtvutrecht.nl",
-                "calculator.academy",
-                "www.immobilienscout24.de",
-                "www.trucks.nl",
-                "www.sdu.nl",
-                "www.gentlemansgazette.com",
-                "www.gld.nl",
-                "www.celebritynetworth.com",
-                "datumprikker.nl",
-                "www.radio10.nl",
-                "www.linda.nl",
-                "www.meteovista.be",
-                "www.vkmag.com",
-                "podcastawards.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/ab3257e2-40a2-4fa5-8e9c-1a45c23819e6\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "podcastawards.nl",
-                "www.bnr.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/ab3257e2-40a2-4fa5-8e9c-1a45c23819e6\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "3efcb31375309aef584a981c9cc7226d35f8391f4ab17029a0865b9eddafbf2f"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "podcastawards.nl",
-                "www.bnr.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "vendors"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "www.bnr.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "vendors"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "2c3bfde53f4a699d39dc50caec6b6e2f8fef8c7959dc8fb9e467106737e79cf9"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "www.bnr.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/ab3257e2-40a2-4fa5-8e9c-1a45c23819e6\\/manager-logo\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "c3a8462bf8e6d69e1582dbe3f806216a102bb1ef12cf2b86b363ffe2c5052bab"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "podcastawards.nl",
-                "www.bnr.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/assets\\/icons\\/consent\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 25,
-            "prevalence": 0.00251,
-            "cnames": [],
-            "responseHashes": [
-                "f0dd52d357e0e371aaac08b44066b10c4f35b71686a4607f26d099f343f006f5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.mediacourant.nl",
-                "www.omroepbrabant.nl",
-                "www.skyradio.nl",
-                "www.trucks.nl",
-                "www.linda.nl",
-                "podcastawards.nl",
-                "www.routenet.nl",
-                "jufmaike.nl",
-                "www.veronicainside.nl",
-                "www.hartvannederland.nl",
-                "hobby.blogo.nl",
-                "www.nieuwnieuws.nl",
-                "www.moviemeter.nl",
-                "www.nederlandmobiel.nl",
-                "www.radio10.nl",
-                "www.bnr.nl",
-                "www.538.nl",
-                "www.weer.nl",
-                "www.musicmeter.nl",
-                "www.geenstijl.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/assets\\/icons\\/cookie\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 25,
-            "prevalence": 0.00251,
-            "cnames": [],
-            "responseHashes": [
-                "cba0376af0a158f75bb20c89a2d80fa69f29da5a8540ed7de00702cd95014358"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.geenstijl.nl",
-                "hobby.blogo.nl",
-                "jufmaike.nl",
-                "www.moviemeter.nl",
-                "www.trucks.nl",
-                "www.nieuwnieuws.nl",
-                "www.linda.nl",
-                "fd.nl",
-                "www.veronicainside.nl",
-                "www.radioveronica.nl",
-                "www.shownieuws.nl",
-                "www.skyradio.nl",
-                "www.immobilienscout24.de",
-                "www.kijk.nl",
-                "www.musicmeter.nl",
-                "podcastawards.nl",
-                "www.nederlandmobiel.nl",
-                "www.bnr.nl",
-                "www.routenet.nl",
-                "www.radio10.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/kinesis\\/streams\\/tcf-web-daily-active-users-prod\\/records",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-web-dau-prod"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.0013,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "knowyourmeme.com",
-                "www.538.nl",
-                "www.belegger.nl",
-                "www.beleggen.nl",
-                "www.beurs.nl",
-                "www.beursgorilla.nl",
-                "www.englishforums.com",
-                "www.iex.nl",
-                "www.radio10.nl",
-                "www.radioveronica.nl",
-                "www.skyradio.nl",
-                "www.tvgids.tv"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/kinesis\\/streams\\/tcf-web-daily-active-users-prod\\/records",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-web-dau-prod"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.0013,
-            "cnames": [],
-            "responseHashes": [
-                "8682bb8b65bb691d6bfaa258cd340c8376becc903e09394c3777a9e46b5af5cf",
-                "2d9c669356297f0181453f9585bd73e36b6333c4e4b50aaf9f7ebc2222af6675",
-                "993bac23a748d756e2ea093f805e34bc6af777c9a5552513d297499874ee4bc2",
-                "337a169cba9a44626c3f019ebdef94ba5153cef458117b3d688f30b5509b2d57",
-                "ed0ecb241d0850b9bc489f96edf777e8329041308afa947eb8324cc3224b6016",
-                "b6ca6532c48fd2b62e5518204a518387ee6ef48d414eef98d9a656125d1f682a",
-                "fb96906b3c3343a4b09ddbb5c87a9c51741f782aa283574e34752c8fb0f079d8",
-                "b297d10609ef2f28591a17c3ebda7dbf7aa86346bc415dca0cbd5a64227dea8f",
-                "5462c08842c17e4f1b89f4ef6e51b65318f6249ad473218912870bf7530e68ad",
-                "79d5ffabc38f76b31c86e0f298ad1c65c2c3b2fd7b1a18ab00cdc6482260d9c1",
-                "caab3487b5a41ee4321a1c669f3d6a86042cb46e57724eaacff410587cc86bd3",
-                "b76f5c559a127aba1d497877d16a136b793407b5e44843ff2d03b39c23857fcb"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fd.nl",
-                "knowyourmeme.com",
-                "www.538.nl",
-                "www.belegger.nl",
-                "www.beleggen.nl",
-                "www.beurs.nl",
-                "www.beursgorilla.nl",
-                "www.englishforums.com",
-                "www.iex.nl",
-                "www.radio10.nl",
-                "www.radioveronica.nl",
-                "www.skyradio.nl",
-                "www.tvgids.tv"
+                "www.gardeningknowhow.com",
+                "linuxhint.com"
             ]
         },
         {
@@ -1674,69 +1075,36 @@
                 "gdpr-wrapper"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.00171,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "calculator.academy",
-                "filmdaily.co",
-                "forums.macrumors.com",
-                "linuxhint.com",
-                "statisticsglobe.com",
-                "thoughtcatalog.com",
-                "www.celebritynetworth.com",
-                "www.englishforums.com",
-                "www.gentlemansgazette.com",
-                "www.idownloadblog.com",
-                "www.listal.com",
-                "www.macrumors.com",
-                "www.mediaite.com",
-                "www.notateslaapp.com",
-                "www.songmeaningsandfacts.com",
-                "www.topspeed.com",
-                "www.unixmen.com"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/7f035220-1751-4684-bb7f-a1c0d45657df\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
             "responseHashes": [
-                "30918438bba02381dadd63e4b79d3a5c3f3e78298b2dc4269c082608be4d555c"
+                "56b0e62e764ec07d64330e886705876608795945955079e68e088fc5e1fbe03e"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "calculator.academy",
-                "filmdaily.co",
                 "forums.macrumors.com",
-                "linuxhint.com",
-                "statisticsglobe.com",
                 "thoughtcatalog.com",
-                "www.celebritynetworth.com",
-                "www.englishforums.com",
-                "www.gentlemansgazette.com",
-                "www.idownloadblog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.minecraftforum.net",
                 "www.knowyourmobile.com",
+                "www.talkbass.com",
+                "hackspirit.com",
                 "www.listal.com",
-                "www.macrumors.com",
-                "www.mediaite.com",
+                "www.macobserver.com",
+                "www.exceldemy.com",
                 "www.notateslaapp.com",
-                "www.songmeaningsandfacts.com",
-                "www.topspeed.com",
-                "www.unixmen.com"
+                "mashtips.com",
+                "www.gardeningknowhow.com",
+                "www.macrumors.com",
+                "culturedvultures.com",
+                "www.mantelligence.com",
+                "adamtheautomator.com",
+                "www.3dsourced.com",
+                "nl.tideschart.com"
             ]
         },
         {
@@ -1747,11 +1115,11 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 24,
-            "prevalence": 0.00241,
+            "sites": 40,
+            "prevalence": 0.00401,
             "cnames": [],
             "responseHashes": [
-                "67a9149e10e7c5efbcadfa0f7118dad6a12005f07c969737264465f9346748cc"
+                "31dc78812232ea4a6493c142cb106b6e9b1ce8a6132f812acd86c873e80502a7"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1759,24 +1127,314 @@
             "exampleSites": [
                 "forums.macrumors.com",
                 "thoughtcatalog.com",
-                "www.idownloadblog.com",
-                "www.mediaite.com",
-                "www.nederlandmobiel.nl",
-                "www.hvzeeland.nl",
-                "www.englishforums.com",
-                "www.unixmen.com",
-                "l1.nl",
-                "www.topspeed.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.gardeningknowhow.com",
+                "mashtips.com",
+                "cararac.com",
+                "www.technipages.com",
+                "gameriv.com",
                 "www.nieuwnieuws.nl",
-                "www.songmeaningsandfacts.com",
-                "calculator.academy",
-                "filmdaily.co",
-                "statisticsglobe.com",
+                "hackspirit.com",
+                "www.quordle.com",
+                "www.guitarlobby.com",
+                "www.knowyourmobile.com",
+                "www.celebritynetworth.com",
                 "www.macrumors.com",
-                "www.gentlemansgazette.com",
+                "www.behindthevoiceactors.com",
                 "linuxhint.com",
                 "www.zeelandnet.nl",
-                "problemcar.nl"
+                "www.minecraftforum.net"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/1\\/fingerprint-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr"
+            ],
+            "apis": {},
+            "sites": 47,
+            "prevalence": 0.00471,
+            "cnames": [],
+            "responseHashes": [
+                "ae199f1705b0e0077ee264eb406ef61fd0871b606927b1a4e7da86b951c662e9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forums.macrumors.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "thoughtcatalog.com",
+                "www.britannica.com",
+                "www.merriam-webster.com",
+                "www.knowyourmobile.com",
+                "www.biddytarot.com",
+                "www.exceldemy.com",
+                "www.minecraftforum.net",
+                "www.notateslaapp.com",
+                "adamtheautomator.com",
+                "www.guitarlobby.com",
+                "appletoolbox.com",
+                "pythonguides.com",
+                "www.listal.com",
+                "www.agconnect.nl",
+                "www.3dsourced.com",
+                "www.cracked.com",
+                "fictionhorizon.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 107,
+            "prevalence": 0.0107,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "health.usnews.com",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.businessinsider.com",
+                "www.newsweek.com",
+                "www.gratisaftehalen.nl",
+                "www.girlsaskguys.com",
+                "www.autoreview.nl",
+                "www.apparata.nl",
+                "regio15.nl",
+                "www.autogids.be",
+                "www.moviemeter.nl",
+                "www.wielerflits.nl",
+                "www.businessinsider.nl",
+                "www.mumsnet.com",
+                "wij.nl",
+                "www.fcupdate.nl",
+                "www.me-to-we.nl",
+                "erotiek.tweedehands.net",
+                "www.blijtijds.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 349,
+            "prevalence": 0.035,
+            "cnames": [],
+            "responseHashes": [
+                "3656ad0b9309abc5993e3cd41a5b83b18ae7e261fd007d16cb44d5e102520632"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forum.xda-developers.com",
+                "gizmodo.com",
+                "healthfully.com",
+                "health.usnews.com",
+                "hollywoodlife.com",
+                "itsfoss.com",
+                "knowyourmeme.com",
+                "lifehacker.com",
+                "oureverydaylife.com",
+                "psychcentral.com",
+                "kotaku.com",
+                "fireemblem.fandom.com",
+                "www.complex.com",
+                "villains.fandom.com",
+                "nomanssky.fandom.com",
+                "gameofthrones.fandom.com",
+                "subnautica.fandom.com",
+                "finalfantasy.fandom.com",
+                "www.meteovista.be",
+                "www.pinknews.co.uk"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/bloodyMary\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "ab4f4846f69a32f706866f1d6bfdb8ee3b53c15d406bd09fac573ef9378ed4f2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarmeringen.nl",
+                "psv.supporters.nl",
+                "racingnews365.nl",
+                "www.at5.nl",
+                "www.autoblog.nl",
+                "www.fr-fans.nl",
+                "www.fr12.nl",
+                "www.newsweek.com",
+                "www.routenet.nl",
+                "www.top40.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/e59ea782-1008-42c5-8536-932465d117c7\\/gdpr-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "4a5eb1214870d7bc589e59470b11f9be7a6aa8384caed89bd9eb6a57fe6ece18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headliner.nl",
+                "feyenoord.headliner.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/1\\/portal\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-headliner.gdpr",
+                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-tweedehands.gdpr",
+                "gdpr",
+                "45be0e15-fa7e-443b-b5bb-1b2167a1db8e.gdpr"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "33b8a86d292ce4a53436d5165402c3d00ff49f66f0b73be3822bafbdaef816c7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headliner.nl",
+                "contacten.tweedehands.net",
+                "erotiek.tweedehands.net",
+                "feyenoord.headliner.nl",
+                "www.advocatie.nl",
+                "www.beleggen.nl",
+                "www.belegger.nl",
+                "www.beurs.nl",
+                "www.beursgorilla.nl",
+                "www.gemeente.nu",
+                "www.guruwatch.nl",
+                "www.iex.nl",
+                "www.tweedehands.net"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/1\\/portal\\.bundle\\.js",
+            "cookies": 0.0013,
+            "fingerprinting": 1,
+            "subdomains": [
+                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-headliner.gdpr",
+                "00b18feb-c33b-4dfb-9d9e-e4dc3ec2afa7-tweedehands.gdpr",
+                "gdpr",
+                "45be0e15-fa7e-443b-b5bb-1b2167a1db8e.gdpr"
+            ],
+            "apis": {
+                "Document.cookie getter": 13,
+                "window.localStorage": 11,
+                "Document.cookie setter": 13
+            },
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "ab2f066da8555fc9ff1690d8a123d77356d424215f48aab8fdfacf582f459d1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headliner.nl",
+                "contacten.tweedehands.net",
+                "erotiek.tweedehands.net",
+                "feyenoord.headliner.nl",
+                "www.advocatie.nl",
+                "www.beleggen.nl",
+                "www.belegger.nl",
+                "www.beurs.nl",
+                "www.beursgorilla.nl",
+                "www.gemeente.nu",
+                "www.guruwatch.nl",
+                "www.iex.nl",
+                "www.tweedehands.net"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/e59ea782-1008-42c5-8536-932465d117c7\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headliner.nl",
+                "feyenoord.headliner.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/e59ea782-1008-42c5-8536-932465d117c7\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "fe66e1809f3497f34681b87776bc3f71a6a6c12d5fd446c5b407e1951f07876d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headliner.nl",
+                "feyenoord.headliner.nl"
             ]
         },
         {
@@ -1793,7 +1451,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "4e4e0625358d9d31bc694a8c866926c8d531fd5b727b8a4cf910a0cf5d5f357f"
+                "16a518b39a10cfd47f4686738955f07b526f1cb864d0b94ef5ead193c73f2e84"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1837,7 +1495,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "7537b000447a42fb476a3c548120a36169359be2abc12bd6c5401bac19a90200"
+                "f5f6da43050ff148cf37aef798622cc0ab2ee8750fea38d5e3ca25ce2c76f20b"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -1849,118 +1507,77 @@
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/gdpr\\/61c709b2-e9d6-42bc-a5dc-250eceac7ba5\\/gdpr-liveramp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "privacymanager\\.io\\/1\\/gdpr\\.bundle\\.js",
+            "cookies": 0.00291,
+            "fingerprinting": 2,
             "subdomains": [
-                "gdpr-wrapper"
+                "gdpr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8
+                "Navigator.prototype.userAgent": 43,
+                "window.localStorage": 43,
+                "Document.cookie getter": 43,
+                "Navigator.prototype.language": 43,
+                "Document.cookie setter": 29,
+                "Navigator.prototype.cookieEnabled": 33,
+                "window.innerHeight": 33,
+                "window.innerWidth": 33
             },
-            "sites": 8,
-            "prevalence": 0.000803,
+            "sites": 44,
+            "prevalence": 0.00441,
             "cnames": [],
             "responseHashes": [
-                "7f90f5d63c5ea72d65832b0613e60a61c7a3ca66221eed830443b885ccae7c1b"
+                "8dd50d5366dbce419bb2c92b138d8e5be463d274430e3ce9251bed8af3e130db"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "gdpr-auditId": {
+                    "ttl": 33696000,
+                    "length": 32,
+                    "prevalence": 0.002905811623246493,
+                    "uniqueness": 1
+                },
+                "geo-location": {
+                    "ttl": 86400,
+                    "length": 30,
+                    "prevalence": 0.0028056112224448897,
+                    "uniqueness": 0.03571428571428571
+                },
+                "gdpr-dau-log-sent": {
+                    "ttl": 86400,
+                    "length": 4,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 0.3333333333333333
+                },
+                "af8f9e56-f698-46be-a9c5-f33a2932cb5dlocale": {
+                    "ttl": 33696000,
+                    "length": 2,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "een.be",
-                "klara.be",
-                "radio2.be",
-                "radio1.be",
-                "sporza.be",
-                "stubru.be",
-                "www.een.be",
-                "www.vrt.be"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/61c709b2-e9d6-42bc-a5dc-250eceac7ba5\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "een.be",
-                "klara.be",
-                "radio2.be",
-                "radio1.be",
-                "sporza.be",
-                "stubru.be",
-                "www.een.be",
-                "www.vrt.be"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/61c709b2-e9d6-42bc-a5dc-250eceac7ba5\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
-            "cnames": [],
-            "responseHashes": [
-                "c515ed63b1ecab7e015c7e63c4e156310bd52f4a5986f1de812ea1a82e93aee8"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "een.be",
-                "klara.be",
-                "radio2.be",
-                "radio1.be",
-                "sporza.be",
-                "stubru.be",
-                "www.een.be",
-                "www.vrt.be"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/dryMartini\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.0011,
-            "cnames": [],
-            "responseHashes": [
-                "2ce8bfbc01f8cdd5b8189dae7fd49f2cecf3081967baf6e8598008918b872d4a"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "een.be",
-                "klara.be",
-                "radio2.be",
-                "radio1.be",
-                "sporza.be",
-                "stubru.be",
-                "www.een.be",
-                "www.guidinc.nl",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.newsweek.com",
+                "www.gameskinny.com",
+                "www.cracked.com",
+                "www.1limburg.nl",
+                "www.smulweb.nl",
+                "www.fcupdate.nl",
+                "www.ebaumsworld.com",
                 "www.televizier.nl",
-                "www.tvgids.nl",
-                "www.vrt.be"
+                "www.musicmeter.nl",
+                "www.moviemeter.nl",
+                "www.nieuwnieuws.nl",
+                "www.saarmagazine.nl",
+                "www.omroepzeeland.nl",
+                "www.tapatalk.com",
+                "www.onthisday.com",
+                "www.ncrvgids.nl",
+                "www.omropfryslan.nl",
+                "www.rtvnoord.nl"
             ]
         },
         {
@@ -1971,19 +1588,75 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "dc424321de67dfef7aef1c8b7a97f8e8f82b5f97913e63174fa5d0d33deaf6b4"
+                "ee3744bfeb824d870332f13fe20171095dd68f57a504b3d7b278888b93120e5b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "formule1nieuws.nl",
+                "mannenzaken.nl",
+                "nieuws.nl",
                 "regio15.nl",
-                "www.ibtimes.com"
+                "sittard-geleen.nieuws.nl",
+                "tubbergen.nieuws.nl",
+                "www.ditjesendatjes.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/ats-modules\\/f49514fe-dcca-4424-be6a-9f85d01f1ce1\\/ats\\.js",
+            "cookies": 0.00261,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ats-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 26,
+                "Document.cookie getter": 26,
+                "Date.prototype.getTime": 26,
+                "Document.cookie setter": 26,
+                "Navigator.prototype.vendor": 26
+            },
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [
+                "5756f0c3ffdb3158a395092934f42c6b5aadc1045553ca68fe6ad29eac76d53f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_geo_location": {
+                    "ttl": 86400,
+                    "length": 2,
+                    "prevalence": 0.0026052104208416833,
+                    "uniqueness": 0.038461538461538464
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.howtogeek.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.cinemablend.com",
+                "forums.tomsguide.com",
+                "www.cyclingweekly.com",
+                "www.loudersound.com",
+                "www.imore.com",
+                "www.guitarworld.com",
+                "www.livescience.com",
+                "www.windowscentral.com",
+                "www.digitalcameraworld.com",
+                "www.marieclaire.com",
+                "www.gamesradar.com",
+                "www.space.com",
+                "www.musicradar.com",
+                "www.t3.com",
+                "www.whattowatch.com",
+                "www.creativebloq.com"
             ]
         },
         {
@@ -1994,18 +1667,391 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "5cb4b4ed74cfcaa855e05a70d6da75f9e8f1b9a053001e1fa06bd32ed9e5de88"
+                "362470a31212b766578796a3f595b09977962d60d7ac4df50eec82238d387eef"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "girlswhomagazine.nl",
                 "speld.nl",
-                "www.nederland.fm"
+                "www.nederland.fm",
+                "www.radio.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/launchpad\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "launchpad"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [],
+            "responseHashes": [
+                "e3b9d318b3157ccbfc3bb00e82a446613294f9a592c01537662386bd848882b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usnews.com",
+                "money.usnews.com",
+                "www.autogids.be",
+                "www.chatib.us",
+                "www.puppyplaats.nl",
+                "www.usnews.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/15784b67-a391-4ca1-a30c-3969a951df68\\/launchpad-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "launchpad-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "606534b6c907416b9465ed1d24ef5f2c9bcb0f200378ad4c34f2179f5861c79d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usnews.com",
+                "money.usnews.com",
+                "www.usnews.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/1\\/launchpad\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "launchpad"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9,
+                "Document.cookie getter": 9,
+                "Navigator.prototype.cookieEnabled": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000902,
+            "cnames": [],
+            "responseHashes": [
+                "e3b9d318b3157ccbfc3bb00e82a446613294f9a592c01537662386bd848882b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usnews.com",
+                "money.usnews.com",
+                "tattle.life",
+                "www.autogids.be",
+                "www.cars.com",
+                "www.puppyplaats.nl",
+                "www.sportskeeda.com",
+                "www.top40.nl",
+                "www.usnews.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/gdpr-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [],
+            "responseHashes": [
+                "97b61ce6e9805953d478b6ab3e922d3e00c6a382d3dc292e54761b47db69a04d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.cracked.com",
+                "www.ebaumsworld.com",
+                "www.girlsaskguys.com",
+                "www.onthisday.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.cracked.com",
+                "www.ebaumsworld.com",
+                "www.girlsaskguys.com",
+                "www.onthisday.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/34ba8817-f1d1-4157-b918-decb83e86d67\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [],
+            "responseHashes": [
+                "79adcb469a679cd0becb0e26e8f6aba070b78f4f7ee22ff9f5ba6bddd25102b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "www.cracked.com",
+                "www.ebaumsworld.com",
+                "www.girlsaskguys.com",
+                "www.onthisday.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/kinesis\\/streams\\/tcf-web-daily-active-users-prod\\/records",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-web-dau-prod"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.00321,
+            "cnames": [],
+            "responseHashes": [
+                "49676d829b7e84fe8f9ed5833b4391c0d60a7087da243a767375870b2d7e3627",
+                "abe250967c1c555836afe7399fa8632123ae2029321520e31f1c79092a9fc011",
+                "6d15d606524332e241b4d6b7a0a3f7914271798344382bdbb03863727de61877",
+                "5c9c57fb7c0d031e00b3eab2f7fee06abc536ef9aaed7850a989049f0ef02ae2",
+                "8d0bc3543a3534a022c2c38b379dc8b08cf49b15e4a3499403ada1d6d87c2982",
+                "8256af07a726ce100ae92f1a494bbe948d0251c7379f416cf1234fe579ec4611",
+                "d45ccfbc338ee08e6b8afaa2992484e4e334daddc010748c607cb3fbff549bd5",
+                "1c5cbd200ef77201056c5644d09a29938be6dbe9aef8aeaffb9f0ccb63d903d7",
+                "5f014c1153f0d752c2fa324866c695e3225cde56567fc675aba274aa4399689b",
+                "1d6b0a9bdebaa00bdaae371ec5caa8dbbc3e80b69553fbfb7d63767f71b930aa",
+                "0e3349eb4fe598e7808fdc7ec3d408d64885881b09ad2df424cb3ead65a1da2f",
+                "e2e564821f15da000f3d9942e7a02f44214416f1f5ebfea0ce3eb988b046e633",
+                "0538a2d299b1ece3d34e2c8cf32b6d78cd7d0a73ab997998dbe6b8a611ad2676",
+                "4f85291c21681cbe5498eb39747134dfae1995bbcc3d7e617350d14367ebb873",
+                "76b0a3225e003259ea77991f43e3ed8d5db295b2be4f4945a8ac5d9cd4936c62",
+                "04b60d33e2acc2ede4bb3a629a04d3e30f878e386b965a5ef4a34fc80bc9ab78",
+                "11f9038e1726ab20297e8303d13285f183dcc5b2c008d54b62f5fc98f3b06755",
+                "a48e7fee046e1dc7ebd95ffbcaee283b38996e52fb04cebbd8059a3e17d8a8bf",
+                "1882e94270e0f75b22f0aef5a166880e2e41f3d3ae1ae3be80e73e6d2d8eace9",
+                "f325585cd961b1597343603485989b5b529e1fb70be39fb70ebd55b9505b62e9",
+                "da96e8477ab38d449a2cdaa544672307c7a98f32f0f57446979d816ce10d80b2",
+                "087c8de4c419b1f84f03dd56cfd288b94723ab98da980bf2b4f0baef67786726",
+                "cfab1390cc74747dd580986282e5e4cfbc69b20308e68f1c9e78fb42b076307a",
+                "611adaeab33c9da60a140cd5ebed8b1d04a11ba6c22f846d8d16257ea284cc85",
+                "80f512b133d50ece581a8a830b230f7c2eb5ba70c832b69e188e0ddf2b8b7004",
+                "f5d3beea330c1dd296a7e05997f940cef6b1b17fac6c385d299e4a2561d0c4be",
+                "fd2546ade5acbf2675ebe960ed97fbaee0251feb5b7480a20cc814bd63b70cbe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knowyourmeme.com",
+                "www.merriam-webster.com",
+                "www.radioveronica.nl",
+                "www.beleggen.nl",
+                "www.beurs.nl",
+                "www.538.nl",
+                "www.hartvannederland.nl",
+                "www.businessinsider.nl",
+                "www.watersportalmanak.nl",
+                "www.weeronline.nl",
+                "www.top40.nl",
+                "www.linda.nl",
+                "www.fr-fans.nl",
+                "tubbergen.nieuws.nl",
+                "www.radio10.nl",
+                "www.moviemeter.nl",
+                "www.luchtvaartnieuws.nl",
+                "www.pinknews.co.uk",
+                "www.iex.nl",
+                "www.roddelpraat.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/kinesis\\/streams\\/tcf-web-daily-active-users-prod\\/records",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-web-dau-prod"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.00311,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knowyourmeme.com",
+                "www.merriam-webster.com",
+                "www.adformatie.nl",
+                "www.fr-fans.nl",
+                "www.iex.nl",
+                "tubbergen.nieuws.nl",
+                "www.businessinsider.nl",
+                "www.biddytarot.com",
+                "www.vandaaginside.nl",
+                "www.saarmagazine.nl",
+                "www.weeronline.nl",
+                "www.top40.nl",
+                "www.skyradio.nl",
+                "www.beursgorilla.nl",
+                "www.linda.nl",
+                "www.radioveronica.nl",
+                "www.roddelpraat.nl",
+                "www.pinknews.co.uk",
+                "l1.nl",
+                "www.shownieuws.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/76dcc0d6-8f92-4806-8b38-96726ad4139a\\/gdpr-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f2aaef6bd618dc77cdc05a888176a68d7e0caa6df0c548b406238252460d5132"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nieuws.nl",
+                "sittard-geleen.nieuws.nl",
+                "tubbergen.nieuws.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/76dcc0d6-8f92-4806-8b38-96726ad4139a\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nieuws.nl",
+                "sittard-geleen.nieuws.nl",
+                "tubbergen.nieuws.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/76dcc0d6-8f92-4806-8b38-96726ad4139a\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f5f6da43050ff148cf37aef798622cc0ab2ee8750fea38d5e3ca25ce2c76f20b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nieuws.nl",
+                "sittard-geleen.nieuws.nl",
+                "tubbergen.nieuws.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/ats-modules\\/bec8eba1-89fa-423c-8293-6fa2ae96b1d9\\/ats\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ats-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e1f9d7ab1a80ef6ef56a1f55831cf9d3326642b3ddf34b2697ee30b6430886d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_geo_location": {
+                    "ttl": 86400,
+                    "length": 2,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freepik.com",
+                "www.freepik.com"
             ]
         },
         {
@@ -2016,19 +2062,21 @@
                 "gdpr-wrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10
+                "Navigator.prototype.userAgent": 11
             },
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 14,
+            "prevalence": 0.0014,
             "cnames": [],
             "responseHashes": [
-                "7f699aa11a6782e3a3247a70c780885fa8786aba502f73e0045ed4e2d79611e9"
+                "ca65107b0ab3f896ce6d162232e61f615b1dedebd4ede7692f24715a7e1d3a46"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "538.nl",
+                "linda.nl",
+                "www.538.nl",
+                "www.gids.tv",
                 "www.hartvannederland.nl",
                 "www.kijk.nl",
                 "www.linda.nl",
@@ -2036,7 +2084,9 @@
                 "www.radioveronica.nl",
                 "www.shownieuws.nl",
                 "www.skyradio.nl",
-                "www.veronicainside.nl",
+                "www.vandaaginside.nl",
+                "www.vogue.com",
+                "www.vogue.nl",
                 "www.weer.nl"
             ]
         },
@@ -2048,15 +2098,17 @@
                 "gdpr-wrapper"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 14,
+            "prevalence": 0.0014,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "538.nl",
+                "linda.nl",
+                "www.538.nl",
+                "www.gids.tv",
                 "www.hartvannederland.nl",
                 "www.kijk.nl",
                 "www.linda.nl",
@@ -2064,7 +2116,9 @@
                 "www.radioveronica.nl",
                 "www.shownieuws.nl",
                 "www.skyradio.nl",
-                "www.veronicainside.nl",
+                "www.vandaaginside.nl",
+                "www.vogue.com",
+                "www.vogue.nl",
                 "www.weer.nl"
             ]
         },
@@ -2076,17 +2130,19 @@
                 "gdpr-wrapper"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 14,
+            "prevalence": 0.0014,
             "cnames": [],
             "responseHashes": [
-                "f0146d7ad1767460abe9b85a45eb43835a03665ebfa64ca958f7903ef39bad7a"
+                "da2744400cbd12ff733d3348a882d1cfe13a4846aaa75d98807b762ac7ea8f76"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "538.nl",
+                "linda.nl",
+                "www.538.nl",
+                "www.gids.tv",
                 "www.hartvannederland.nl",
                 "www.kijk.nl",
                 "www.linda.nl",
@@ -2094,7 +2150,9 @@
                 "www.radioveronica.nl",
                 "www.shownieuws.nl",
                 "www.skyradio.nl",
-                "www.veronicainside.nl",
+                "www.vandaaginside.nl",
+                "www.vogue.com",
+                "www.vogue.nl",
                 "www.weer.nl"
             ]
         },
@@ -2106,8 +2164,8 @@
                 "cmp-consent-tool"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 13,
+            "prevalence": 0.0013,
             "cnames": [],
             "responseHashes": [
                 "55e3311fdb4066a43238fe78a6a0c4736186ce9bb31de20f7dd5a3ea5926b94a"
@@ -2116,16 +2174,99 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "538.nl",
+                "linda.nl",
+                "www.538.nl",
+                "www.gids.tv",
                 "www.hartvannederland.nl",
-                "www.kijk.nl",
                 "www.linda.nl",
                 "www.radio10.nl",
                 "www.radioveronica.nl",
                 "www.shownieuws.nl",
                 "www.skyradio.nl",
-                "www.veronicainside.nl",
+                "www.vandaaginside.nl",
+                "www.vogue.com",
+                "www.vogue.nl",
                 "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/assets\\/icons\\/consent\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.0024,
+            "cnames": [],
+            "responseHashes": [
+                "f0dd52d357e0e371aaac08b44066b10c4f35b71686a4607f26d099f343f006f5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.businessinsider.com",
+                "www.saarmagazine.nl",
+                "www.me-to-we.nl",
+                "www.shownieuws.nl",
+                "www.omroepbrabant.nl",
+                "www.vandaaginside.nl",
+                "www.vogue.com",
+                "www.geenstijl.nl",
+                "www.routenet.nl",
+                "www.linda.nl",
+                "www.hartvannederland.nl",
+                "www.trucks.nl",
+                "www.radioveronica.nl",
+                "www.musicmeter.nl",
+                "www.538.nl",
+                "www.moviemeter.nl",
+                "www.nieuwnieuws.nl",
+                "www.gids.tv",
+                "www.businessinsider.nl",
+                "www.weer.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/assets\\/icons\\/cookie\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.0023,
+            "cnames": [],
+            "responseHashes": [
+                "cba0376af0a158f75bb20c89a2d80fa69f29da5a8540ed7de00702cd95014358"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.businessinsider.com",
+                "www.trucks.nl",
+                "www.vandaaginside.nl",
+                "www.me-to-we.nl",
+                "www.skyradio.nl",
+                "www.weer.nl",
+                "www.538.nl",
+                "www.geenstijl.nl",
+                "linda.nl",
+                "www.nieuwnieuws.nl",
+                "www.radio10.nl",
+                "www.linda.nl",
+                "www.routenet.nl",
+                "www.radioveronica.nl",
+                "www.businessinsider.nl",
+                "www.shownieuws.nl",
+                "www.musicmeter.nl",
+                "www.gids.tv",
+                "www.saarmagazine.nl",
+                "www.vogue.nl"
             ]
         },
         {
@@ -2139,17 +2280,17 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "ba3565385479797c0d6e7a50bb9e2b1b1642e265d0b4f76d6ea39644dc4b4e49"
+                "05af82914558a787a2e8a27f8cf041469dd56c2d2c7a016aa071efd2cddeec69"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "advocatie.nl",
-                "www.sdu.nl"
+                "www.gemeente.nu"
             ]
         },
         {
@@ -2161,7 +2302,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "bb2e8bc5123e6b347f42a0b22effedbe1b3b909313b392b8157c4fe6d38ed86b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advocatie.nl",
+                "www.gemeente.nu"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/02b75bc9-957a-4d42-a3bd-763201010672\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -2169,126 +2332,36 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "advocatie.nl",
-                "www.sdu.nl"
+                "www.gemeente.nu"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/gdpr\\/02b75bc9-957a-4d42-a3bd-763201010672\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8831faa3d0295293da14fdbdcb6d519d360d266a04739f4f1337123a737b3af6"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "advocatie.nl",
-                "www.sdu.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/46d99cdf-63a3-4762-99e4-f79dd78d4579\\/gdpr-liveramp\\.js",
+            "rule": "privacymanager\\.io\\/ats-modules\\/3902afc2-ef92-4861-8903-516504d24051\\/ats\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "gdpr-wrapper"
+                "ats-wrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 2
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "946164bdec67c6a99fb69d73c0d5eca2292be73902402b4c127a7fd38ca39dfa"
+                "6ec4b22d3d2605c8b6ca8dd091f80392b577fa881a16ab84a2e402c0cb015be9"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "agf.nl",
-                "www.meteovista.be",
-                "www.watersportalmanak.nl",
-                "www.weeronline.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/46d99cdf-63a3-4762-99e4-f79dd78d4579\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "agf.nl",
-                "www.meteovista.be",
-                "www.watersportalmanak.nl",
-                "www.weeronline.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/46d99cdf-63a3-4762-99e4-f79dd78d4579\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "93b96c1d88e478eef11c38fec790e619d3419921782529754f754f524aa23619"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "agf.nl",
-                "www.meteovista.be",
-                "www.watersportalmanak.nl",
-                "www.weeronline.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/latest\\/icon-close\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp-consent-tool"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "c5f32729408ff004dae036ffde7da8651e355fce80530957471a7fdcf312ea55"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "at5.nl",
-                "www.autoblog.nl",
-                "www.kidsweek.nl",
-                "www.nhnieuws.nl",
-                "www.omroepflevoland.nl"
+                "knack.be",
+                "www.feeling.be",
+                "www.flair.be",
+                "www.knack.be",
+                "www.libelle-lekker.be",
+                "www.libelle.be"
             ]
         },
         {
@@ -2299,18 +2372,17 @@
                 "vendors"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "96fa10398478127336e8789e2839f34a4fc2ec94814fe9ba5b18af43c619d490"
+                "44fd2a60927712ae0f605d6c300001d309e845047c53ce0c5e699423469fec57"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "autoscout24.de",
-                "www.immobilienscout24.de",
                 "www.netdoktor.de"
             ]
         },
@@ -2325,17 +2397,17 @@
                 "Navigator.prototype.userAgent": 6
             },
             "sites": 6,
-            "prevalence": 0.000602,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "cae4511b611c530703deffe9063fae9a822d3dd52160a58c92605ecd7b61b237"
+                "bea584f1252bba2a13e3941eaa865d4cd6ff81e81282a73f34a73af8cdcda4d1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "belegger.nl",
-                "www.beleggen.nl",
+                "beleggen.nl",
+                "www.belegger.nl",
                 "www.beurs.nl",
                 "www.beursgorilla.nl",
                 "www.guruwatch.nl",
@@ -2351,15 +2423,15 @@
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000602,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "belegger.nl",
-                "www.beleggen.nl",
+                "beleggen.nl",
+                "www.belegger.nl",
                 "www.beurs.nl",
                 "www.beursgorilla.nl",
                 "www.guruwatch.nl",
@@ -2375,17 +2447,17 @@
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000602,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "4ed60c13fb3c6830c45c3e6a6e917caf7a426136b741cf41022aa339a97a8a16"
+                "13df247cae4496e9b407e29939b1b5a92f575b6930a930aa1c99e34db8afb891"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "belegger.nl",
-                "www.beleggen.nl",
+                "beleggen.nl",
+                "www.belegger.nl",
                 "www.beurs.nl",
                 "www.beursgorilla.nl",
                 "www.guruwatch.nl",
@@ -2401,21 +2473,67 @@
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000602,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "d5bcfc431f2de214ba5a43dfb050c0599a0097ec44b418c53a59b3a21cb5f190"
+                "ad6515e23609e8e9bbf3cfb57ce4aeca37d4a475ebd35d7d5c440fab8c63d734"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "belegger.nl",
-                "www.beleggen.nl",
+                "beleggen.nl",
+                "www.belegger.nl",
                 "www.beurs.nl",
                 "www.beursgorilla.nl",
                 "www.guruwatch.nl",
                 "www.iex.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/dryMartini\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a30ee866b7a907caba70742915ca06671c95f4fe8e2f1568769c21df2ebbd38e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blijtijds.nl",
+                "www.ncrvgids.nl",
+                "www.televizier.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/latest\\/assets\\/icons\\/used\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp-consent-tool"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "54f7a105257e62682987712c979588c8213f4e4d712e19bf311a496fa7d9c891"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blijtijds.nl",
+                "www.ncrvgids.nl",
+                "www.televizier.nl"
             ]
         },
         {
@@ -2429,17 +2547,17 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "f08aa956aee35c8a29a152d358af1accc625c552e31b4640b18c2bdaaa69ee2a"
+                "ead058f4eef922cdaed716ee77f6c27009cc117adb42ea77a63036bbf0523a0e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businessinsider.com",
-                "www.businessinsider.nl"
+                "businessinsider.nl",
+                "www.businessinsider.com"
             ]
         },
         {
@@ -2451,15 +2569,15 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businessinsider.com",
-                "www.businessinsider.nl"
+                "businessinsider.nl",
+                "www.businessinsider.com"
             ]
         },
         {
@@ -2471,17 +2589,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "f79882e8740a6286ee153d298c48409954df1f1fc0d1c325ed59427bc8bc1742"
+                "6576216c390ef440814546349a5f2fc8e1c7977bb4c66177af39eaebad879a5b"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businessinsider.com",
-                "www.businessinsider.nl"
+                "businessinsider.nl",
+                "www.businessinsider.com"
             ]
         },
         {
@@ -2493,17 +2611,56 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "18455e18bcd3aca4c94297ab47aa1744707d6f863767ff639b273128d704c7bd"
+                "20d9a7cf69d62828e73c59c616e129f3ab21fba381173326417307eba62155df"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businessinsider.com",
-                "www.businessinsider.nl"
+                "businessinsider.nl",
+                "www.businessinsider.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/ats-modules\\/4fb7b1a8-b529-4310-9387-3398aed19fa4\\/ats\\.js",
+            "cookies": 0.000501,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ats-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "ed2afa2565753583faf967bdcd69182e999f75200e8af54dbd1630dcb173fe9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_geo_location": {
+                    "ttl": 86400,
+                    "length": 2,
+                    "prevalence": 0.000501002004008016,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailystar.co.uk",
+                "www.express.co.uk",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.walesonline.co.uk"
             ]
         },
         {
@@ -2518,7 +2675,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3a834b918e6a251ebfe224d9cc006e39bf977fc9751ac7026bb5370b2b2fe8aa"
+                "746128252e880a0917ae213e84be0305cd73eff0dbc2c59c029f714c65eae15c"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -2531,20 +2688,20 @@
         },
         {
             "rule": "privacymanager\\.io\\/1\\/ccpa\\.bundle\\.js",
-            "cookies": 0.000502,
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "ccpa"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Document.cookie getter": 5,
-                "Document.cookie setter": 5,
-                "Navigator.prototype.cookieEnabled": 5,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "a6175d081940061cb96a2e8c9c90887b6f603361fe584bb053761581a36cb908"
@@ -2554,77 +2711,96 @@
                 "geo-location": {
                     "ttl": 86400,
                     "length": 30,
-                    "prevalence": 0.0005017057997190448,
-                    "uniqueness": 0.2
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
                 },
                 "ccpa-dau": {
                     "ttl": 86400,
                     "length": 4,
-                    "prevalence": 0.0005017057997190448,
-                    "uniqueness": 0.2
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
                 },
                 "usprivacy": {
                     "ttl": 33696000,
                     "length": 4,
-                    "prevalence": 0.00030102347983142685,
-                    "uniqueness": 0.3333333333333333
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gameskinny.com",
-                "www.ibtimes.com",
-                "www.tapatalk.com",
-                "www.thegatewaypundit.com",
-                "www.westernjournal.com"
+                "www.tapatalk.com"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/gdpr\\/4bdad2dd-af07-40dc-a4e2-a62425bf2aa4\\/gdpr-liveramp\\.js",
+            "rule": "privacymanager\\.io\\/gdpr\\/46d99cdf-63a3-4762-99e4-f79dd78d4579\\/gdpr-liveramp\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "gdpr-wrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "00bceebb2e2ece7a1dba98d3542068151f66df012502c9920a5cfe88ed3e5d5d"
+                "946164bdec67c6a99fb69d73c0d5eca2292be73902402b4c127a7fd38ca39dfa"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gids.tv",
-                "www.gids.tv"
+                "meteovista.be",
+                "www.watersportalmanak.nl",
+                "www.weeronline.nl"
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/latest\\/assets\\/icons\\/used\\.svg",
+            "rule": "privacymanager\\.io\\/gdpr\\/46d99cdf-63a3-4762-99e4-f79dd78d4579\\/vendor-list\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cmp-consent-tool"
+                "gdpr-wrapper"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
-            "responseHashes": [
-                "54f7a105257e62682987712c979588c8213f4e4d712e19bf311a496fa7d9c891"
-            ],
-            "type": "Image",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "guidinc.nl",
-                "www.immobilienscout24.de",
-                "www.televizier.nl",
-                "www.tvgids.nl"
+                "meteovista.be",
+                "www.watersportalmanak.nl",
+                "www.weeronline.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/46d99cdf-63a3-4762-99e4-f79dd78d4579\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "545ffab2be88b438ceab945a618ec875bc2ec0e75800e6102d239917b78840be",
+                "4c043c7350b9155cb4bd418686934fbace6bc9111ba173eb3005091530edd89d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meteovista.be",
+                "www.watersportalmanak.nl",
+                "www.weeronline.nl"
             ]
         },
         {
@@ -2636,10 +2812,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "2e74117440c69d22c75aa5c869c5f1599df02266b21732393a5f164f1191bcfa"
+                "467fd5af6fe1d68f29716171100e737aab7009cf162391f38583e3a628558861"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2650,48 +2826,6 @@
             ]
         },
         {
-            "rule": "privacymanager\\.io\\/gdpr\\/1c34e85e-2d9c-4bdf-8103-23a2e3d52b34\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "slam.nl",
-                "www.slam.nl"
-            ]
-        },
-        {
-            "rule": "privacymanager\\.io\\/gdpr\\/1c34e85e-2d9c-4bdf-8103-23a2e3d52b34\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr-wrapper"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "07d0a238ca3e561900c902f9bef149edaa863ed4bb43ca4f2085940e00bf09dd"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "slam.nl",
-                "www.slam.nl"
-            ]
-        },
-        {
             "rule": "privacymanager\\.io\\/gdpr\\/a176d89e-a0a2-43b5-aa65-616297870c1f\\/vendor-list\\.json",
             "cookies": 0,
             "fingerprinting": 0,
@@ -2700,7 +2834,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -2720,10 +2854,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "781c50766aedf11f0a26ab9af023d628d6c45c667c7294dd019cfb07ce932c05"
+                "9ac84f4fdbe35bf0c57e1d913450402ad02da39e70c30255f45db4facd148d17"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -2731,26 +2865,114 @@
             "exampleSites": [
                 "tapatalk.com",
                 "www.tapatalk.com"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/35e8f475-7e15-4086-a267-9882bacb7661\\/gdpr-liveramp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "c2646c369ab69eb2aeb3a0bcdec2f28c41baeccad81c06ed84070e82b1cd9f13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wielerflits.be",
+                "www.wielerflits.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/35e8f475-7e15-4086-a267-9882bacb7661\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "7954b2a5f8758fb4966b5545778ac1a2320e0b332b873c80c5d6f5e91796e46e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wielerflits.be",
+                "www.wielerflits.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/35e8f475-7e15-4086-a267-9882bacb7661\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wielerflits.be",
+                "www.wielerflits.nl"
+            ]
+        },
+        {
+            "rule": "privacymanager\\.io\\/gdpr\\/35e8f475-7e15-4086-a267-9882bacb7661\\/manager-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-wrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "71208a97b588a050f6817ab5e312ba84b5a09e994712883c41b8353180c96843"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wielerflits.be",
+                "www.wielerflits.nl"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0136,
+    "cookies": 0.0185,
     "types": {
-        "Script": 1525,
-        "Preflight": 192,
-        "Fetch": 423,
+        "Script": 1634,
+        "Fetch": 636,
+        "Preflight": 219,
         "Document": 198,
-        "Stylesheet": 530,
-        "Other": 177,
-        "Font": 516,
-        "Image": 298
+        "Stylesheet": 550,
+        "Other": 184,
+        "Font": 525,
+        "Image": 317
     },
     "nameservers": [
+        "ns-649.awsdns-17.net",
         "ns-1330.awsdns-38.org",
         "ns-1875.awsdns-42.co.uk",
-        "ns-449.awsdns-56.com",
-        "ns-649.awsdns-17.net"
+        "ns-449.awsdns-56.com"
     ]
 }

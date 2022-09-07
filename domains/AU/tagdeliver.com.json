@@ -4,13 +4,14 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
-        "api"
+        "api",
+        "cdn"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "tagdeliver\\.com\\/v1\\/sy\\/tag\\/log",
@@ -20,16 +21,140 @@
                 "api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicfm.com",
+                "www.classicfm.com",
+                "www.myweather2.com",
+                "www.popbuzz.com",
+                "www.smoothradio.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "tagdeliver\\.com\\/v1\\/sy\\/user_consent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "e26b2b1f3007b8ff6db922f051f71b95d29f6249eadb71d5f1e5d6401686a835"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00010026067776218167
+            },
+            "exampleSites": [
+                "classicfm.com",
+                "www.myweather2.com",
+                "www.popbuzz.com",
+                "www.smoothradio.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "tagdeliver\\.com\\/v1\\/sy\\/tag\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "myweather2.com",
-                "www.myweather2.com"
+                "classicfm.com",
+                "www.myweather2.com",
+                "www.popbuzz.com",
+                "www.smoothradio.com"
+            ]
+        },
+        {
+            "rule": "tagdeliver\\.com\\/cipt\\/a\\/brand-dark\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "068efebad11b567c60ca12615ed3932e66d82ed583170a9df524887cb2fd14bc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicfm.com",
+                "www.myweather2.com",
+                "www.smoothradio.com"
+            ]
+        },
+        {
+            "rule": "tagdeliver\\.com\\/cipt\\/a\\/brand-light\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "0e1a4f45accd1ca389ac23b657e5c81f73a7eec3e54235012f08de2ac00bede5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicfm.com",
+                "www.myweather2.com",
+                "www.popbuzz.com",
+                "www.smoothradio.com"
+            ]
+        },
+        {
+            "rule": "tagdeliver\\.com\\/cipt\\/a\\/close-light\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "ab0c7a2b284c05d90d0d7f75fb31b7e0b0034f4c0609a86e29f79b35e20e91b3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicfm.com",
+                "www.myweather2.com",
+                "www.popbuzz.com",
+                "www.smoothradio.com"
             ]
         },
         {
@@ -41,15 +166,15 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
-            "type": "Fetch",
+            "type": "Other",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "myweather2.com",
-                "www.myweather2.com"
+                "classicfm.com",
+                "www.standard.co.uk"
             ]
         }
     ],
@@ -57,8 +182,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 2,
-        "Fetch": 2
+        "Fetch": 11,
+        "Preflight": 4,
+        "Image": 11,
+        "Other": 2
     },
     "nameservers": [
         "ns1.digitalocean.com",

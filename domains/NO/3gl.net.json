@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.00231,
-    "sites": 23,
+    "prevalence": 0.00321,
+    "sites": 32,
     "subdomains": [
         "g",
         "r"
@@ -17,14 +17,78 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "3gl\\.net\\/jp\\/396\\/v3\\.1\\.0\\/M",
+            "rule": "3gl\\.net\\/jp\\/1084\\/v3\\.2\\.1\\/M",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "g"
             ],
             "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc8975d797effd77eae955dc67b6733d2fbd961714757d8d7bda92373582f14c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiley.com",
+                "onlinelibrary.wiley.com"
+            ]
+        },
+        {
+            "rule": "3gl\\.net\\/hawklogserver\\/r\\.p",
+            "cookies": 0.0015,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ew.com",
+                "www.allrecipes.com",
+                "www.bhphotovideo.com",
+                "www.health.com",
+                "www.homedepot.com",
+                "www.iherb.com",
+                "www.liquor.com",
+                "www.thespruce.com",
+                "www.thespruceeats.com",
+                "www.thesprucepets.com",
+                "www.thoughtco.com",
+                "www.treehugger.com",
+                "www.tripsavvy.com",
+                "www.verywellfit.com",
+                "www.verywellhealth.com",
+                "www.verywellmind.com",
+                "www.washingtonpost.com"
+            ]
+        },
+        {
+            "rule": "3gl\\.net\\/jp\\/396\\/v3\\.1\\.0\\/M",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
                 "Screen.prototype.height": 2,
                 "Screen.prototype.width": 2,
                 "PerformanceTiming.prototype.navigationStart": 2
@@ -36,52 +100,27 @@
                 "2a6e926454daf9dc57998c968054510e3c69ad746cd3e1982d297a02c004f8b9"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "__CG": {
+                    "ttl": 31536012,
+                    "length": 117,
+                    "prevalence": 0.00020062192797672785,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "iherb.com",
                 "www.iherb.com"
             ]
-        },
-        {
-            "rule": "3gl\\.net\\/hawklogserver\\/r\\.p",
-            "cookies": 0.0011,
-            "fingerprinting": 0,
-            "subdomains": [
-                "r"
-            ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.0012,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "iherb.com",
-                "www.bhphotovideo.com",
-                "www.byrdie.com",
-                "www.homedepot.com",
-                "www.iherb.com",
-                "www.learnreligions.com",
-                "www.liveabout.com",
-                "www.thebalancecareers.com",
-                "www.thespruce.com",
-                "www.tripsavvy.com",
-                "www.verywellmind.com",
-                "www.victoriassecret.com"
-            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0013,
+    "cookies": 0.0016,
     "types": {
-        "Script": 2,
-        "Other": 12
+        "Script": 4,
+        "Ping": 17
     },
     "nameservers": [
         "dns1.p04.nsone.net",

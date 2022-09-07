@@ -4,50 +4,44 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0002,
-    "sites": 2,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
+        "js",
         "apps"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "media-lab\\.ai\\/doh\\/sync",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "media-lab\\.ai\\/wana\\.2\\.1\\.3\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
             "subdomains": [
-                "apps"
+                "js"
             ],
-            "apis": {},
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
             "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "aminoapps.com",
-                "worldstarhiphop.com"
-            ]
-        },
-        {
-            "rule": "media-lab\\.ai\\/doh\\/sync",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "apps"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "62e20a8927a9e948bf1fa621108986cb9404bee243c704906b34dcdea638d690"
+                "e78662a34471213b66231ca72cf4368f926603f6f3d644d8646cf6c85393cd79"
             ],
-            "type": "XHR",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "cs_is_valid": {
+                    "ttl": 86413,
+                    "length": 1,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aminoapps.com",
@@ -56,17 +50,17 @@
         },
         {
             "rule": "media-lab\\.ai\\/doh\\/ingest",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
                 "apps"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ca5768f3518f412542d4ca2748cefce9a1646f1dd8bcd05c6e3757172c09e0d9"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Document",
             "firstPartyCookies": {},
@@ -75,14 +69,35 @@
                 "aminoapps.com",
                 "worldstarhiphop.com"
             ]
+        },
+        {
+            "rule": "media-lab\\.ai\\/ana-sentry\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "88a1b7363c2796f2c9908d35cc3302d2cc8a70745de47a52ff21dbbf2f57bdc9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imgur.com",
+                "worldstarhiphop.com"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
-        "Preflight": 2,
-        "XHR": 2,
+        "Script": 4,
         "Document": 2
     },
     "nameservers": [

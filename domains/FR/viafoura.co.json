@@ -7,13 +7,14 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000702,
+    "sites": 7,
     "subdomains": [
         "realtimeeventfeeds",
-        "sub",
         "api",
-        "i"
+        "i",
+        "livecomments",
+        "content"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -27,7 +28,7 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.000402,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
@@ -35,30 +36,9 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cbc.ca",
-                "www.cbc.ca",
-                "www.dailystar.co.uk",
-                "www.mirror.co.uk"
-            ]
-        },
-        {
-            "rule": "viafoura\\.co\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sub"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "WebSocket",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cbc.ca",
-                "www.dailystar.co.uk",
-                "www.mirror.co.uk"
+                "www.laprovence.com",
+                "www.narcity.com",
+                "www.rds.ca"
             ]
         },
         {
@@ -73,12 +53,12 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5fe03d437ed42c6ce408ee49bb75431bed673975da4e7357fe2623466e4268ac"
+                "41913a54e883f181e57cc2e31840880a92af2dd10856002a4c538ee86633c01d"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "lotame_domain_check": 0.0002008435428800964
+                "lotame_domain_check": 0.00020064205457463884
             },
             "exampleSites": [
                 "cbc.ca",
@@ -97,26 +77,178 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ebf4f635a17d10d6eb46ba680b70142419aa3220f228001a036d311a22ee9d2a"
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
             ],
-            "type": "Image",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "lotame_domain_check": 0.0002008435428800964
+                "lotame_domain_check": 0.00020064205457463884
             },
             "exampleSites": [
                 "cbc.ca",
                 "www.cbc.ca"
             ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v2\\/www\\.laprovence\\.com\\/pages",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ffa7245bbfc66a7d34a30237409d77bec9eca883ea470c0efe52a70c3726796f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laprovence.com",
+                "www.laprovence.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-01500ef1a4e4\\/contentcontainer\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fb6b59a8659a7ee603a1fb707902159afe2cd5d78549c4f0bf760e888717ef82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laprovence.com",
+                "www.laprovence.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-01500ef1a4e4\\/contentcontainer\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laprovence.com",
+                "www.laprovence.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.laprovence\\.com\\/ingest",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laprovence.com",
+                "www.laprovence.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6d83e2e6de04ed2fa1405bab7ab402def757a5638575fbb335cfe3e1cf27033"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laprovence.com",
+                "www.laprovence.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-9ada5bb969a7\\/contentcontainer\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rds.ca",
+                "www.rds.ca"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-9ada5bb969a7\\/contentcontainer\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e28bf7d9fcc22cdfde0c7c8f31e3648a4847e7bda9cb69f309f24257eee3dd41"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rds.ca",
+                "www.rds.ca"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000702,
     "types": {
-        "WebSocket": 7,
-        "XHR": 2,
-        "Image": 2
+        "WebSocket": 4,
+        "XHR": 8,
+        "Ping": 4,
+        "Preflight": 4,
+        "Script": 2
     },
     "nameservers": [
         "ns-1124.awsdns-12.org",

@@ -7,29 +7,103 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000345,
-    "sites": 50,
+    "prevalence": 0.000434,
+    "sites": 64,
     "subdomains": [
+        "artemis-cdn",
         "events",
-        "mis",
-        "radp"
+        "radp",
+        "heise"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
         {
+            "rule": "ocdn\\.eu\\/adp\\/static\\/trk\\/latest\\/bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "571f7858790a835912d2131361507868c7cb5e03abcaba830b3c982e289dc713"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniaradzi.pl",
+                "fajnyogrod.pl",
+                "kb.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/artemis\\/0\\.2\\.2\\/artemis\\.min\\.js",
+            "cookies": 0.000169,
+            "fingerprinting": 1,
+            "subdomains": [
+                "artemis-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 25,
+                "Document.cookie setter": 25,
+                "window.localStorage": 19
+            },
+            "sites": 30,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "f4a6728c954a7d9b3eea556cb7c3c7b1bafcdd3056528f3d48ba5c62adb8d06d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ats_ri": {
+                    "ttl": 604806,
+                    "length": 5,
+                    "prevalence": 0.00016944787105694804,
+                    "uniqueness": 0.04
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gratka.pl",
+                "www.imobiliare.ro",
+                "www.pulse.ng",
+                "www.letemps.ch",
+                "plejada.pl",
+                "dobruchut.aktuality.sk",
+                "www.cash.ch",
+                "jakdojade.pl",
+                "www.motoscout24.ch",
+                "www.handelszeitung.ch",
+                "www.militaria.pl",
+                "www.immoscout24.ch",
+                "www.aktuality.sk",
+                "www.bluewin.ch",
+                "www.anibis.ch",
+                "ccc.eu",
+                "sport.aktuality.sk",
+                "www.autoscout24.ch",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
             "rule": "ocdn\\.eu\\/v2\\/EA-1746213\\/me",
-            "cookies": 0.0000414,
+            "cookies": 0.0000339,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "64423892ca7c714cac9aeb9d099b1e34aaa1b1af9b0076d88f1bdadaa7427b8d"
+                "2ee6cab1ecdac0057c338b12b1ed6c4d57705c7251eeb404d08d712923a9b92d",
+                "8cb9578350370bfb1f4e85f2714665c397ed7c3ef92e35f2ecf8ebae3683c858"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -39,186 +113,141 @@
                 "jakdojade.pl",
                 "plejada.pl",
                 "www.fakt.pl",
-                "www.jakdojade.pl",
                 "www.ofeminin.pl"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ramp\\/lps\\/DMP-1plusX\\/tpl\\.min\\.js",
-            "cookies": 0.0000276,
-            "fingerprinting": 1,
-            "subdomains": [],
+            "rule": "ocdn\\.eu\\/fp\\/2\\.5\\.2\\/fp\\.min\\.js",
+            "cookies": 0.000156,
+            "fingerprinting": 3,
+            "subdomains": [
+                "artemis-cdn"
+            ],
             "apis": {
-                "Document.cookie setter": 4
+                "Navigator.prototype.vendor": 23,
+                "OfflineAudioContext.prototype.constructor": 23,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 23,
+                "HTMLCanvasElement.prototype.toDataURL": 23,
+                "Navigator.prototype.connection": 23,
+                "Document.cookie setter": 23,
+                "Document.cookie getter": 23,
+                "Navigator.prototype.hardwareConcurrency": 23,
+                "Navigator.prototype.language": 23,
+                "Navigator.prototype.languages": 23,
+                "Performance.prototype.memory": 23,
+                "Navigator.prototype.plugins": 23,
+                "window.indexedDB": 23,
+                "window.localStorage": 23,
+                "window.sessionStorage": 23,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 23,
+                "NavigatorUAData.prototype.getHighEntropyValues": 23,
+                "Screen.prototype.colorDepth": 23,
+                "Screen.prototype.width": 23,
+                "Screen.prototype.height": 23,
+                "window.devicePixelRatio": 23,
+                "WebGLRenderingContext.prototype.getExtension": 23,
+                "WebGLRenderingContext.prototype.getParameter": 23,
+                "AudioBuffer.prototype.getChannelData": 23,
+                "Navigator.prototype.appVersion": 23,
+                "Navigator.prototype.deviceMemory": 23,
+                "Navigator.prototype.maxTouchPoints": 23,
+                "Navigator.prototype.platform": 23,
+                "Navigator.prototype.userAgent": 23,
+                "Navigator.prototype.webdriver": 23
             },
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 26,
+            "prevalence": 0.000176,
             "cnames": [],
             "responseHashes": [
-                "33e7926a428a4ebea553ec0f3a6160c5497e3cfe8add7f8a0168b9462a1beb97"
+                "dbd917696642b9d1e32f596aecd92accf3e910c1cc82d25ed23ac23a2ad371a8"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "adp_dmp_dls": {
-                    "ttl": 1814401,
-                    "length": 150,
-                    "prevalence": 0.000027608293531376825,
-                    "uniqueness": 1
+                "cookietest": {
+                    "ttl": -1660924827,
+                    "length": 1,
+                    "prevalence": 0.0001558920413723922,
+                    "uniqueness": 0.043478260869565216
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "dobruchut.aktuality.sk",
+                "www.pulse.com.gh",
+                "www.letemps.ch",
+                "www.autoscout24.ch",
+                "www.libertatea.ro",
+                "www.immoscout24.ch",
                 "businessinsider.com.pl",
-                "jakdojade.pl",
-                "plejada.pl",
+                "www.imobiliare.ro",
+                "www.motoscout24.ch",
+                "sport.aktuality.sk",
+                "www.pulse.ng",
                 "www.fakt.pl",
-                "www.jakdojade.pl",
-                "www.ofeminin.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ramp\\/lps\\/Analytics-Prebid\\/tpl\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [
-                "418ab71e9e701fb601b29cdfba4a42b295e2b33cdf2d1ebfc7ab6e511e1224c6"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.pl",
                 "jakdojade.pl",
-                "plejada.pl",
-                "www.fakt.pl",
-                "www.jakdojade.pl",
-                "www.ofeminin.pl"
+                "www.bluewin.ch",
+                "www.blick.ch",
+                "www.handelszeitung.ch",
+                "www.blic.rs",
+                "www.aktuality.sk",
+                "www.morizon.pl",
+                "forsal.pl"
             ]
         },
         {
             "rule": "ocdn\\.eu\\/v2\\/",
-            "cookies": 0.000159,
+            "cookies": 0.000176,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000159,
+            "sites": 26,
+            "prevalence": 0.000176,
             "cnames": [],
             "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
                 "7de69cbfeaa5d87188931bb942786f32c1029b6fdb9c6b05859949f4a475948d"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.00013804146765688413,
-                "get_top_level_domain_cookie": 0.000027608293531376825
+                "ea_uuid": 0.0001558920413723922,
+                "get_top_level_domain_cookie": 0.000033889574211389605
             },
             "exampleSites": [
+                "businessinsider.com.pl",
                 "www.ofeminin.pl",
+                "sport.aktuality.sk",
+                "www.libertatea.ro",
+                "www.aktuality.sk",
                 "www.pulse.ng",
-                "plejada.pl",
-                "forsal.pl",
-                "www.letemps.ch",
-                "gratka.pl",
-                "www.jakdojade.pl",
-                "wiadomosci.dziennik.pl",
-                "www.motoscout24.ch",
-                "www.autoscout24.ch",
-                "jakdojade.pl",
-                "businessinsider.com.pl",
-                "www.cash.ch",
-                "www.pulse.com.gh",
-                "www.fakt.pl",
                 "www.blic.rs",
-                "www.immoscout24.ch",
-                "www.blick.ch",
-                "www.handelszeitung.ch",
-                "www.morizon.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/cmp\\/translations\\/1746213\\/pl\\/128\\/translation\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [
-                "610f885f1d2259fe73830da468b45f19a45ace7b87d1a846217a0b502cce6efc",
-                "7135219dbb5bfd73a471096086b38c4566dbbdca8755aea0b2af7a0b07451a09"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.pl",
-                "jakdojade.pl",
-                "plejada.pl",
-                "www.fakt.pl",
-                "www.jakdojade.pl",
-                "www.ofeminin.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/paas-static\\/template-engine\\/162d5140a65ebc0fa2e96da195a4eb9b\\/build\\/main\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "4d31012bdc278e31edf4351869f6cb547c5794d5e0802867a45f7af252932f88"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/paas-static\\/template-engine\\/f066ddd0af5c65555c5ff1273876e4f9\\/build\\/uststd\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "4fce60423a3f097217faeb1e55134aa056d42f52eb04f56aa57a1fa3c95c2c74"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.pl",
+                "dobruchut.aktuality.sk",
+                "www.beobachter.ch",
+                "www.anibis.ch",
+                "www.cash.ch",
+                "gratka.pl",
                 "forsal.pl",
-                "wiadomosci.dziennik.pl"
+                "www.imobiliare.ro",
+                "www.morizon.pl",
+                "www.bluewin.ch",
+                "www.immoscout24.ch",
+                "www.pulse.com.gh",
+                "www.autoscout24.ch",
+                "www.blick.ch"
             ]
         },
         {
             "rule": "ocdn\\.eu\\/videotools\\/libs\\/floating\\/v3\\.9\\.0\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "window.innerWidth": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c8ef042771d445e71d103073f29c2bf37bf4d7a6b3d763a0c3d8a38f5b923e9d"
@@ -232,15 +261,336 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/v2\\/",
-            "cookies": 0.0000552,
+            "rule": "ocdn\\.eu\\/ramp\\/lps\\/Analytics-Prebid\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.colorDepth": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "b1e0d770997ec3e37d7e9dd317494d98328fadd397837ffbd292e4a109917616"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "plejada.pl",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ramp\\/lps\\/DMP-1plusX-SDK\\/tpl\\.min\\.js",
+            "cookies": 0.0000271,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "94aa342b3f2e1f0c8be08fb00137812d32d06056bd2c492a9b88b1ab6720041b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "adp_dmp_dls": {
+                    "ttl": 1814405,
+                    "length": 150,
+                    "prevalence": 0.000027111659369111688,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "plejada.pl",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/cmp\\/styles\\/1746213\\/18\\/cmp\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "d865ebeff041a8c567b8dc5ff368a5ee472da178a3c94568ec8a7ac28b9aca07"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "plejada.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/cmp\\/translations\\/1746213\\/pl\\/401\\/translation\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "b7b07e86bc43fd8c4026149e5d3e9eb35f4681ad75ac8c1491324911516eee04"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "plejada.pl",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-1746213\\/set_consent",
+            "cookies": 0.0000339,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.0000621,
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lpubconsent": 0.000027111659369111688,
+                "leuconsent": 0.000027111659369111688,
+                "adpconsent": 0.000027111659369111688,
+                "pubconsent": 0.000027111659369111688,
+                "gpubconsent": 0.000033889574211389605,
+                "euconsent": 0.000033889574211389605,
+                "ea_uuid": 0.000020333744526833766
+            },
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "plejada.pl",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/adp\\/prebid\\/prod\\/6\\.15\\/prebid\\.js",
+            "cookies": 0.0000271,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.appName": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 4,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Date.prototype.getTimezoneOffset": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "8c61ec92dcb20fc7959d68f6b27851359a05570809cd83290d3f01ecf9bd3fc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjs_userid_consent_data": {
+                    "ttl": 2592010,
+                    "length": 16,
+                    "prevalence": 0.000027111659369111688,
+                    "uniqueness": 1
+                },
+                "_pubcid": {
+                    "ttl": 31536012,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "panoramaId_expiry": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "_cc_id": {
+                    "ttl": 23328013,
+                    "length": 32,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "pbjs-id5id": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "pbjs-id5id_nb": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "pbjs-id5id_540_nb": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "pbjs-id5id_last": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id.1st": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id.1st_nb": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id.1st_540_nb": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id.1st_last": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id_nb": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id_540_nb": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "id5id_last": {
+                    "ttl": -86389,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "plejada.pl",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ramp\\/lps\\/Mobile-Back-to-Onet\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "2aa5ea61c6c98dac114e7a10fbfdb4af9472ffd2c4d4c1062afc4cbdc2c9db91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ramp\\/1746213\\/Sponsoring-Universal\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerHeight": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "635a0ddba213934fdce2f1b856c692fb30d9135c16e7c0afc82510ad026b9a53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/",
+            "cookies": 0.000169,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.000169,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -248,218 +598,396 @@
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.00005521658706275365,
-                "get_top_level_domain_cookie": 0.000013804146765688412,
-                "cookies.js_dtest": 0.000006902073382844206,
-                "parsely_uuid": 0.000006902073382844206
+                "lpubconsent": 0.00008133497810733507,
+                "leuconsent": 0.00008133497810733507,
+                "adpconsent": 0.00008133497810733507,
+                "pubconsent": 0.00008133497810733507,
+                "gpubconsent": 0.00008133497810733507,
+                "euconsent": 0.00008133497810733507,
+                "ea_uuid": 0.0001558920413723922,
+                "get_top_level_domain_cookie": 0.000033889574211389605,
+                "cookies.js_dtest": 0.000020333744526833766,
+                "parsely_uuid": 0.000020333744526833766
             },
             "exampleSites": [
-                "businessinsider.com.pl",
-                "kb.pl",
-                "www.autoscout24.ch",
-                "www.blic.rs",
-                "www.blick.ch",
-                "www.immoscout24.ch",
+                "www.anibis.ch",
+                "www.imobiliare.ro",
+                "www.handelszeitung.ch",
+                "www.beobachter.ch",
                 "www.letemps.ch",
+                "www.autoscout24.ch",
+                "www.libertatea.ro",
+                "www.immoscout24.ch",
+                "forsal.pl",
+                "www.blic.rs",
+                "plejada.pl",
+                "dobruchut.aktuality.sk",
+                "www.pulse.ng",
+                "www.bluewin.ch",
+                "www.ofeminin.pl",
+                "www.blick.ch",
+                "gratka.pl",
+                "sport.aktuality.sk",
                 "www.motoscout24.ch",
-                "www.ofeminin.pl"
+                "www.fakt.pl"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/adp\\/static\\/trk\\/latest\\/bundle\\.min\\.js",
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/style\\/flowplayer\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "571f7858790a835912d2131361507868c7cb5e03abcaba830b3c982e289dc713"
+                "c4f010527c3e77b8821f7bea1e02d25a93273425dc9eaf6f5b146f8c3299fc35"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/flowplayer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "window.innerHeight": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cd4d74f38751c841d0596a726600f252c17dff4297abf110410f90451fe3d7a4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fajnyogrod.pl",
-                "kb.pl"
+                "businessinsider.com.pl",
+                "plejada.pl"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/v2\\/EA-2119576\\/me",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "events"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoBold\\.woff2",
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/translations\\/flowplayer\\.lang\\.all\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b4d07892cde715d50bb69c1982df496385d1dfd8f9d1867c31f19a3c8634cfae"
+                "6845a8e8f4bdf3b6026b065f8517b45c2db91ba05060ae87afad50cad62976ff"
             ],
-            "type": "Font",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
+                "businessinsider.com.pl",
+                "plejada.pl"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoRegular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "48c3fa6f86c54f1d9bb519220713d4b0a1f8cd1a589a3c03b9fa82e98ecb13e3"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoBold-ext\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d072872a98e4b9813b4596891cc5387a3213b3cd90f573a3f06ec49ade27a2af"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoRegular-ext\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "4c84629456a70df1137ab4bdcddba32050a2524568912630c2538746cbbcdc51"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/paas-static\\/template-engine\\/f066ddd0af5c65555c5ff1273876e4f9\\/build\\/uststd\\.js",
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/plugins\\/hls\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "MediaSource.isTypeSupported": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4fce60423a3f097217faeb1e55134aa056d42f52eb04f56aa57a1fa3c95c2c74"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/paas-static\\/template-engine\\/162d5140a65ebc0fa2e96da195a4eb9b\\/build\\/widget\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "b903c79f43e1b963f137624c2ffd1ccdfde34833bd98d521a311dff06f73e579"
+                "4d4a4cd64f8056ee1023eec82a641f5393a3681aea3828a605ab4493481eed85"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
+                "businessinsider.com.pl",
+                "plejada.pl"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/paas-static\\/template-engine\\/162d5140a65ebc0fa2e96da195a4eb9b\\/build\\/widget\\.js",
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/plugins\\/ads\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c6ae5bf41305ac1185db0a29583872dc361a4b47717749d9125f2fb987066259"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/plugins\\/message\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b903c79f43e1b963f137624c2ffd1ccdfde34833bd98d521a311dff06f73e579"
+                "798246752814aecf853fed1e6ab4f75bf6060238db725ee54a5f8621a1aed4af"
             ],
-            "type": "Fetch",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "forsal.pl",
-                "wiadomosci.dziennik.pl"
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/plugins\\/analytics\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a0aeae01ee8c9c988e34add34d2c602c64bbc0e498654838b873b49132a30936"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-scripts\\/flow-player-plugin-stats\\/v1_6_2_202207181600\\/bundle-1\\.6\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "60970f46cd339b46ec655c0cbbdab7b1e8c01abaa89597b41213746087e11b80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-scripts\\/flowplayer-visibility-plugin\\/v1_2_2_202204271604\\/bundle-1\\.2\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eb5b82a91376604fd30aacb131ca8ec83e322ceb2c15c301f155cbe617100d87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-scripts\\/flowplayer-age-verification-plugin\\/v1_1_4_202204121500\\/bundle-1\\.1\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "82d113c082b0b3ad2e089b0037214f760d7d0c2135249e5638131c7bfc138773"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-scripts\\/flowplayer-age-markings-plugin\\/v1_0_4_202003051445\\/bundle-1\\.0\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "85f68dc785c9ed470970a23f2d2d9fe78880a0e894e21b15de142595f359e2c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-apps\\/flowplayer\\/v2\\.9\\.9\\/dist\\/plugins\\/gemius\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bcb7f22f6edaab978af1c5d119a0338c3399bc4fc9102bb669be65c419d5aa7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/video-scripts\\/flowplayer-gemius-plugin\\/v1_1_4_202109241454\\/bundle-1\\.1\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e43f0c248c360e3a7aedfa8f2178bd094ef8bc1d3b96026af7ab801fde96b52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "plejada.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ramp\\/lps\\/Google-Ecommerce\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "68365d9340993ddbb6f715f6b94d65c5f103902b80112bfc31d5e406cc862835"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccc.eu",
+                "www.euro.com.pl",
+                "www.militaria.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-4236543\\/me",
+            "cookies": 0.0000271,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "0042e64abe604a4ae8137d7d335b26db5b6c3d18a1242dda885772fc1a8c0d10"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "aktuality.sk",
+                "dobruchut.aktuality.sk",
+                "sport.aktuality.sk",
+                "www.aktuality.sk"
             ]
         },
         {
             "rule": "ocdn\\.eu\\/v2\\/EA-8756215\\/me",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "5bbebdbbb7c6f28eeaab0b7ed88d5305a6c834ca78aec64e3c180e1dbd628c89"
+            ],
             "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gratka.pl",
+                "www.morizon.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/cmp\\/styles\\/8756215\\/14\\/cmp\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fbb181f601897fc0ad2299643df87ac8fb188d30ab354a2d0d7a2c4ecb016e16"
+            ],
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -474,10 +1002,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "26b70437ee586efaca47987f1b11a0a88368dc379d16398102ac9e85974c5e00"
+                "23646ee646ffe6787d4cfefb6eaaa2cf01c7e8f483b82d20b7809d1ea44277bb"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -488,410 +1016,191 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/aops\\/plansza\\/css_new\\/jakdojade\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "ae18aa4eded85d5a2ba95443d6919ace92026ce53cdc1aec30e20880ac4fd646"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jakdojade.pl",
-                "www.jakdojade.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/aops\\/plansza\\/css\\/jakdojade\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "16733179ab1fc83c1821760fddf1bab0ff7dbee2aded1ddf992dd259bfb2c438"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jakdojade.pl",
-                "www.jakdojade.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/dzienniktheme\\/cf9983dfb29454346ebd10fafa178ac2\\/build\\/css\\/infor_desktop\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e1d8a952dc124d4b82c16eb2f1dc9af810f8c5977e1beb0e387e331ac76fdcb0"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoLight\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "29f6da0a8c21c5681511bb9b08663d3fd2c5d09c9bd8054ec354c563b8c8b7c1"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoBlack\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "edcdf3f60252a5987bedc9c86b5422d972ba509bbbe60d58925310c744a33e28"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoBlack-ext\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "568fcde26595b1ff3f4e7838ea4e979d6fbff3e562af8ae2a1722f263f666bc3"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/pwa\\/workbox-sw\\.prod\\.v2\\.0\\.1\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "7611eb302d277d3beb03c9ef3a9313fa5c3186344a0e60ea7ce1243a22b193d9"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/pwa\\/workbox-google-analytics\\.prod\\.v1\\.0\\.0\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "3d2ebafe1e60fa068a0a62d02f98b3b7963a1e27efe281b96ed70a9c8d810cf4"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/workshopinforocdn\\/infor\\/fonts\\/RobotoLight-ext\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "996da6758e09cf9382a091845b1fc4c5d786fac4f2825c2a2996270620c4883e"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/dzienniktheme\\/cf9983dfb29454346ebd10fafa178ac2\\/build\\/js\\/main\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "3bd6de8cb8026ba2830de47bb212830fb650f64c30ba153c9766d51beea2f974"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/dzienniktheme\\/cf9983dfb29454346ebd10fafa178ac2\\/build\\/js\\/main\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "3bd6de8cb8026ba2830de47bb212830fb650f64c30ba153c9766d51beea2f974"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/dzienniktheme\\/cf9983dfb29454346ebd10fafa178ac2\\/build\\/js\\/layzyimage\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "window.devicePixelRatio": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "cbf6ed07a9e180e8ec12eca4bf295a934c571322a7d1e09d1b62e1ae41d93a60"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/dzienniktheme\\/cf9983dfb29454346ebd10fafa178ac2\\/build\\/js\\/layzyimage\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "window.devicePixelRatio": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "cbf6ed07a9e180e8ec12eca4bf295a934c571322a7d1e09d1b62e1ae41d93a60"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/w2Lk9kuTURBXy84MDhiYTk3MC04ZTNjLTQ4MTQtYWE4Zi1hMTYxOTY3YjUxZDEuanBlZ5KVAwAvzQu4zQaXkwXMoFqBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "178d2daa5b50b013cec250d8a12a43d39b70b905ab43887d10a1be23e2fd998b"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/Vj4k9kuTURBXy8wMTJiZmU2Ny1mODhmLTQ0MDEtYjY3YS0xZjRkZDM0MTU2MTQuanBlZ5KVAwBIzQUAzQLQkwXMoFqBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2e2d7f1649452e23d59a77de590b74f50a08881d5567f6c0ab214d8724a7b768"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/rGnk9kuTURBXy8wMDI0NzE4MC01NDBjLTQwZTYtODdmMC02ZDhmNDUzMWU2NWUuanBlZ5KVAwApzQUAzQLQkwXMoFqBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "bde2b3dc16eb4001d1be448a128e44519d63121f6a2e123142e5ffcfb81a29d5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/AUzk9kuTURBXy9iM2Q3NjRkMC1lNjgxLTQxODMtOTIxOC0xODU0MTZmZTllMWIuanBlZ5KVAwAszQh4zQTDkwXMoFqBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "57ab417d878c67858617f9cf3147fce8ef732199df29ace629d1501159dd442d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/RYYk9kuTURBXy9iMjAyMTc5Ni1hNTJiLTRlYjgtYWQ3OC1mZWUyYWZmN2Y4MGQuanBlZ5KVAwAkzQmRzQVhkwXMoFqBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "0f1ac952fc32d34b37c55a232abfe95d7211e74afddd1e2539a075ccab21c2ee"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/u4ik9kuTURBXy8yNDg3NTIxMi1kYTkyLTQ3YzEtYTMzMS1lNjJkYmJkY2ZlMTMuanBlZ5KVAwAfzQPozQIykwXMoFqBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "9e8f0ac5ae2d06cbb32f6264d7b80cddfbb4095e9d0809769af0ecf547be091f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dziennik.pl",
-                "wiadomosci.dziennik.pl"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/v2\\/EA-4236543\\/me",
-            "cookies": 0.0000138,
+            "rule": "ocdn\\.eu\\/v2\\/EA-8756215\\/set_consent",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "81eb51a2be1ab186f1deba7f4f6bfd47c6de55790452f6d85eec8baf396e2bff"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.000006902073382844206
+                "ea_uuid": 0.000013555829684555844,
+                "lpubconsent": 0.000013555829684555844,
+                "leuconsent": 0.000013555829684555844,
+                "adpconsent": 0.000013555829684555844,
+                "pubconsent": 0.000013555829684555844,
+                "gpubconsent": 0.000013555829684555844,
+                "euconsent": 0.000013555829684555844
             },
+            "exampleSites": [
+                "gratka.pl",
+                "www.morizon.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ramp\\/1746213\\/Banner-Standard\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "062a6f655f038bc60ec78152c19f97a6d8cde02d92637d07f2f52839fca44c3b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gratka.pl",
+                "www.fakt.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/LCCktkpTURBXy8wM2Y0OWFmZmViNTY5MTI5YWZiNGU3YjVkYTBmZTU0Ny5qcGeSlQMAb80N180HyJUCzQPoAMLD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2261e21ca55c1500a0aee77acb4fb96d24575bbb348ea729fd9b34759fe19ace"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "slovnik.aktuality.sk"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/HSsktkqTURBXy82MDkzOGUyYjg3MDZmY2EyZDQyZjJmZTY2MjY1NDdmOC5qcGVnkpUDAADNBxLNA_yVAs0D6ADCww",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b5e970f0ccbde292afb7041dd7828091d3f7e93e4bdfc2be0a7b66fd62e223f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "slovnik.aktuality.sk"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/G3NktkpTURBXy80YzJmOTc4Njg5M2NiZmFjZTdhM2MwM2FlMzAzNjFkYS5qcGeSlQMAAM0DIM0BwpUCzQPoAMLD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7a49bc5df0d8ffb7b2547281184031f20b312d4034b842af0a8f29e61fe85043"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "slovnik.aktuality.sk"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/KlrktkpTURBXy9kZWFmNWNjMTQzZDZmZDgzOGQ4MTU3Nzg0YzNmNDkyMC5qcGeSlQMAAM0HgM0EOJUCzQPoAMLD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "991edcf1573ebef9b0a1e9d46cc2ff4eab0f028443a5aaa11f946ed24ef00115"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "slovnik.aktuality.sk"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/CmAktkpTURBXy9jMmIzM2FjZjJkODdkNmUxZDE0ODlhN2RiNDdiNTYxNC5qcGeSlQPNAabMp80EIM0CUpUCzQPoAMLD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9e2064d1d9e4f2d91b73a409b0b90704a04fb8c19210823b7bf63575e9982ec4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "slovnik.aktuality.sk"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/s2WktkpTURBXy9iMjBmMDhiOWVjMjg5ZTFlODQ3YjFlZWVhNjdiZWNkMi5qcGeSlQMAzPnNBDjNAl-VAs0D6ADCww",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "45a1d422e34acc6bb32355ddc255567ed83759b632da50d2118c1c14ba95a6c7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "slovnik.aktuality.sk"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms\\/MDA_\\/7915931637bd3a5d028d830f63359054\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "216116b8f987d0d43fd046307c17712657bcbd63d9db6c16a91eba3ca8416410"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aktuality.sk",
                 "www.aktuality.sk"
@@ -899,26 +1208,60 @@
         },
         {
             "rule": "ocdn\\.eu\\/v2\\/EA-2152882\\/me",
-            "cookies": 0.0000276,
+            "cookies": 0.0000339,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "274855b92ea58448f8306be6541ca3c19a405e484fe6bfa4bac08f5e3d59fcf6",
+                "6854f184a5e0c38851aa88d3ebfa16437580ba73e9391f98c50b7ab5be3e3cec",
+                "59ac834c6ee83f2b7e670857fefa28a071d829255967fc147738d6bfb4662c64"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "anibis.ch",
+                "www.anibis.ch",
+                "www.autoscout24.ch",
+                "www.immoscout24.ch",
+                "www.motoscout24.ch"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-2152882\\/set_consent",
+            "cookies": 0.0000271,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "594b13ac7674e503f101e024670c0fd99fbff5550c5e9c0ec9a4209cf6d9c74c",
-                "0eacd12c46e22d349bf77695b6c259482ea2efe34c286a0b96440455820ff2bb"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.000006902073382844206
+                "ea_uuid": 0.000027111659369111688,
+                "lpubconsent": 0.000027111659369111688,
+                "leuconsent": 0.000027111659369111688,
+                "adpconsent": 0.000027111659369111688,
+                "pubconsent": 0.000027111659369111688,
+                "gpubconsent": 0.000027111659369111688,
+                "euconsent": 0.000027111659369111688
             },
             "exampleSites": [
-                "autoscout24.ch",
+                "anibis.ch",
                 "www.autoscout24.ch",
                 "www.immoscout24.ch",
                 "www.motoscout24.ch"
@@ -931,10 +1274,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "b926313ecf30b5daf8144c35855d60feddc217b3ef3d52d3b80cb8584b4139f7"
+                "ab603ad30389aa539d422e2e0583fa8a559a34bbd3f9e5b418c5df2032267498"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -948,29 +1291,30 @@
         },
         {
             "rule": "ocdn\\.eu\\/v2\\/EA-5469564\\/me",
-            "cookies": 0.0000414,
+            "cookies": 0.0000474,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "76d37aaec25e48d4fcff9f15963ad3045050001af558e59466e8dd87ea520030",
-                "7cbc20f4acfe1127e4d45faf0a8429275f4bc646e1a47e2ea3aedfeef02ff363",
-                "589bfd66dc6f3ac1adb87dd7e181fb727a785295a3c38850afbbc8cbc7e3f7d9"
+                "378388c18470182338ad0c19d0975e97599763f0974a505c2bdeb770aa681ca5",
+                "9ff424e2f9287538845ddc1da3442a7f6421f8626e9350b423c3aadbc86645a6",
+                "29bfd73d74e2f5955a05a2db8b6e911fcb3993c891c450f37e65ea71375479d1"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.000006902073382844206
+                "ea_uuid": 0.000006777914842277922
             },
             "exampleSites": [
                 "beobachter.ch",
                 "www.beobachter.ch",
                 "www.blick.ch",
+                "www.bluewin.ch",
                 "www.cash.ch",
                 "www.handelszeitung.ch",
                 "www.letemps.ch"
@@ -982,15 +1326,48 @@
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "81ae5b41889dc6a8c94d2efdeca699601da8f8cab8c91319f239666e08f9609a"
+                "e019148e0d3b1d6d8d05a9da8e8cbf118a1f78970586fa088fc0f777ca55d2fd"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beobachter.ch",
+                "www.beobachter.ch",
+                "www.cash.ch",
+                "www.handelszeitung.ch"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-5469564\\/set_consent",
+            "cookies": 0.0000339,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000033889574211389605,
+                "get_top_level_domain_cookie": 0.000027111659369111688,
+                "lpubconsent": 0.000033889574211389605,
+                "leuconsent": 0.000033889574211389605,
+                "adpconsent": 0.000033889574211389605,
+                "pubconsent": 0.000033889574211389605,
+                "gpubconsent": 0.000033889574211389605,
+                "euconsent": 0.000033889574211389605
+            },
             "exampleSites": [
                 "beobachter.ch",
                 "www.beobachter.ch",
@@ -1000,605 +1377,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/build\\/css\\/desktop\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "92a9326f1f5b4545b01db7a064b76bb184b7b20b09c9a66b703433e44bf28679"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/HB\\/HB\\/Blic\\/blic_prebid_library\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "mis"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.sessionStorage": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.appName": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.connection": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Date.prototype.getTimezoneOffset": 2,
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "edbc4ef329cc0c3ab69d1156412a219c9f9fc7c86222e153593114997d6a500f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/HB\\/HB\\/Blic\\/blic_prebid_script_desktop_Kategorija\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mis"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d8ceb4675ea91bdabfee5d12d6aa4a2e7201187eb02f2d0a620f8c8d4a111681"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/webp_images\\/logo_x2\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "411101490e43fcb6e582288b73253dc85d207590877e2e0151900548284322ff"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/menu\\/webp_images\\/menu-icon-nin\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "80ec0eead226d32b40156797942f13d5d566e778ff0d9bbe4c603bd4752945eb"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/menu\\/bg-na-blic\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f1ebc9dbdb69afd6f94cca7601abdd6acb2b7b0d3b115eb0aa4d1fedf352e3f5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/menu\\/webp_images\\/grand-kafa-prica-o-kafi-desktop\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "90f3e9832a1a67af542770757f977d4394eb6c5e416cefeba0d1dcf8c6c25692"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/menu\\/webp_images\\/menu-premium\\.webp",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "8b9147f3c2bedcec84e79759040b2e712cd0adaf6315dab8d55072fd26411ede"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/placeholders\\/ph140x93\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "43ea5f499471dcd63a899d15ac0102181fde080197f08a59240e4c940a2c5846"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/placeholders\\/ph270x180t\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "ebf5b4d8ba080abb53537e68a6876fadc41fc4ef29fb1944ad45ca36e46b979a"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/placeholders\\/ph298x198\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f44305c05cf1f1ef8c7b798b20778c48a5eea0cd99a32dfb93577c985b65eb94"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/placeholders\\/ph105x70\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e32ec1a95acc90a6c07006a4177e6aafbe4f68797ff6961b2be5611868ffbe5a"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/placeholders\\/ph80x80d\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "8894d70053651307cc4ae03e99fe19ff535fb30add1da36c3a48fdeccbe9836a"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/placeholders\\/ph312x208d\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "254b842204e7a35f9d63b7c60b0d1e88d11cb1b44e77522674adfa17d33250e5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/js\\/jquery-3\\.2\\.1\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Event.prototype.timeStamp": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/build\\/js\\/newDesktop\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e02ed809f790086f59bdd2cc6d49547894c1a1e14ce94fb2fb63de74224dfc46"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/fonts\\/fontawesome-webfont\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/v2\\/EA-5437314\\/me",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "events"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "8d9075d972c0b073089493eeee191599dde10c0fefe87fdd8049f80d5fa27f59"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "ea_uuid": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/img\\/puls-bg\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f35398e3f79d0645b8d902e5b7a197eebffb0b07e50e3904d1749644e15d233e"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/amdLoader\\/desktop\\/body\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "ac567fd1b6530419269a740baba2933ef59359d7a7cdaf3a46751a9d13fdef2f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/amdLoader\\/common\\/pushPlatform\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Notification.permission": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2ab2561a00eb4022d66e2335813f19f814dc7e536c3fbf18a5f1a735b91533e6"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/js\\/ls\\.unveilhooks\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "25bd24015157f53477c3ee3ba11707645da8d00368050301daca52406963d907"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/js\\/ls\\.native-loading\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "a3f4e354cd270406929c2595af2ac9fda2f3112db449410afcdb74577c1629f8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/js\\/lazysizes\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "3d9120fa621da6d613c1698b7014ec6bdf4620366e8f2b7b547059f4b6f6272b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/js\\/jquery\\.cookie\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "a074eb836d0e2f7d1952a93dc3d7f20a8e001e900d1a26d2223fde7ae0996723"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/amdLoader\\/common\\/common\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "4f11364472b93e7fd196c34f154d5f025fdeefdc533d8e525e96916415f4bc08"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/amdLoader\\/common\\/sso\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "934df31e1e5ee28dfe4cf5f98d77c86fea42f8e16de1fe0d00a561e8e3d061af"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/3fe0270567005e9905be06c6d3d68626\\/amdLoader\\/desktop\\/removeDuplicateArticles\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "bf77ee8a9cbf0f561e97f8bdc78c283f254b96abacc5599d41424ec4be333fe8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "blic.rs",
-                "www.blic.rs"
-            ]
-        },
-        {
             "rule": "ocdn\\.eu\\/cmp\\/translations\\/5469564\\/de\\/265\\/translation\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "605b7f9831a0e782925767549069ca0cb856497130a3958641c7af0b37261c0d"
@@ -1612,36 +1397,515 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/moneteasy-photos\\/partner_tracking_min\\.js",
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/logo_x2\\.webp",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5b9075e0414dd8fc53da28359fec7ce63fe1ccc2a1d0392ce17c084dfb532dea"
+                "c16fc13206bb7d4c6af59ea349814c931de0e629b056d4cb1c4d12ac108d015a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/sportal_300x100\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b9ed8815269521f10756ec0af07f75fa34e0d3d71e566fe67f48d6134ebec3ac"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/bg-na-blic\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e050d15edb1d0a9498e4dc4a9333c0d622c04d051cf03822fc08b723fb6bdb70"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/blicnovisad\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3eccf62a43c8784824512a8c44a1071b21b46ce749e6c4cbd0e7bfd5bb72b026"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/img\\/logo_x2\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c16fc13206bb7d4c6af59ea349814c931de0e629b056d4cb1c4d12ac108d015a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/desktop\\/carousel\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "59ed7e01117b906aa10fa328c327f04a9cf8ef324b58598223b139b88ce8c399"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "decathlon.pl",
-                "www.decathlon.pl"
+                "blic.rs",
+                "www.blic.rs"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/faktnext\\/3a98410113975d9826a6180b297de67c\\/build\\/css\\/main-desktop\\.css",
+            "rule": "ocdn\\.eu\\/v2\\/EA-5437314\\/me",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eba10326b892ec913641ad94c144f3bd7b8fc15c4fe12c7b86cfd568bd6e523c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/bodyDesktop\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "08ceba87ce06ab9b1f66673081ee0d373ef2a5875e9894a93a7e75ea1ab3c076"
+                "cb79aeb35072bfd6642f9abd156520235e59293a334d49288f5e4885e4c9969c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/common\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cb595c4c2c65e9ee3934fd7158243b42f10a023883f6cc7241a055457926a80b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/common\\/oneSignal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6ecd13d5fce0a2dcf7230d160ceb03dce925b019359ed4cf9cff5faa1916f29a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/libs\\/lazysizes\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f81428b96c0161868831c49e7a14cb3634028e40cb73361a515ea42fa3aaee0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/libs\\/ls\\.unveilhooks\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d5a6a57e2d5c680218d8b3ac6115f8846d61813bf5d3347f1d1b0ae575b6cefe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/libs\\/smooth\\.scroll\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "cadff41e79ff14d0d95a8af4e499dde1a9416ed1a49cc1adc417830e146ab415"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/sportal_300x100\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1e2cb8a099484ec37adc03b95741679fa88f00996b1f2239ba750be45a881798"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/bg-na-blic\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d8be5a9f2a0cf6dbdee9cfb56aa01bd1fed3e190a23165cbda249581e7b7553e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/blic\\/blic_navigation_menu_icons\\/blicnovisad\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0c15400765a88cc0693b78f52f55c96134262b06060f3e03a1211ee3519dcddd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/desktop\\/stickyNav\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c2d6415a5a951e73aa151bb14f043d3c629db6d6e5904ffeb29ac2e686603d4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/common\\/stickyBannerBottom\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10e0f245b62ae8ef7a8f96ac8f6819f1e52c7ee6c498a2b7592f93704dab3d81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/common\\/toTop\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f74d4eb9092e614a3e8f935406886bfe32962152f8a47a5430ad0ecf8a8ddee5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/desktop\\/search\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10dd21de5a8303cdbfa55a98dd79fc6c051cc8e51d1f1673cca52379fe68b505"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/common\\/weatherByCoordinates\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0f458b03a67e08b5024121a4c3962e8011c150ec233698fc5ec7b7790f14af5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/common\\/sso\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0b8258fa2e96cddfb9a95542770f845ce217e71ff46796c8ff8117022d219320"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/desktop\\/menuMore\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "770a17c2e85ad77da3c46f4702d0389e17a964aa5472648a084203beb272ad70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/blicperun\\/b4130eb4f001c496deea9fb7b1e56c20\\/js\\/desktop\\/tabs\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5a03a53c4cbe19246e0e1f8c8610fe837f353f667526901c134e04a227ecdaaf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blic.rs",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/faktnext\\/9d6f817fb45c06e2ca179235a57359aa\\/build\\/css\\/main-desktop\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9724094b53081c4d7baab2ba6c0a07a349dd90dbbe7f1a3115754a5a74820550"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1658,7 +1922,7 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "4022f70a96e6edc1e03c6fc474ffff73dbe349e632590d36c2836bd503b81cdd"
@@ -1672,16 +1936,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/aops\\/plansza\\/css_new\\/fakt\\.css",
+            "rule": "ocdn\\.eu\\/faktucs\\/loginbar\\/3_0_2_loginbar\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0fa9407b4afaf10504e33e6089da23056251a54139e92734192625e8f4135278"
+                "46d596ef1af0e93aec780c07c0062f1946702a03acb449d1e64936302c043c20"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1692,16 +1956,18 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/faktnext\\/3a98410113975d9826a6180b297de67c\\/build\\/js\\/main\\.js",
+            "rule": "ocdn\\.eu\\/faktucs\\/loginbar\\/3_0_2_loginbar\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 1
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "78b0579606556d0f0a23087618e3b6e059ed23078fbbe8e6c4173b609a2683af"
+                "a80c29afe974bbf74dc9964156130dc9f2522af4ea1c805987b296f2c6cd7453"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1712,16 +1978,36 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/faktnext\\/3a98410113975d9826a6180b297de67c\\/build\\/js\\/shareButtons\\.js",
+            "rule": "ocdn\\.eu\\/ramp\\/sva\\/20220819\\/rasp_fakt\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8d9f42c7b7e25cb0e0b35e6a408d9dd8945d8020bd45ff55e725f61e6bb45c56"
+                "17bda01ce41ac25190b11dedffa2760b998bf9492ce7230ef4f454a9c45ed02c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fakt.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/faktnext\\/9d6f817fb45c06e2ca179235a57359aa\\/build\\/js\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b527ce67bc2fa6a1b858123d15e7bb34932349acb8bd562a614ccef4eb1462a3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1732,18 +2018,149 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/noizz\\/6a38d75068a2527d0ac95dc0e17d3457\\/build\\/css\\/main\\.css",
+            "rule": "ocdn\\.eu\\/v2\\/EA-4789202\\/me",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7df60a34cdd580dd1bb41a3f8a7158af4d62626cfbc182484514b847154e573e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "imobiliare.ro",
+                "www.imobiliare.ro"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/aureus-js-client\\/2\\.2\\.0\\/aureusjsclient\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a7b8d906beb84a4c52fa4108b1119fe8b7f3f22bef3fc5a95b1c6e90fed3f970"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertatea.ro",
+                "www.libertatea.ro"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-6598692\\/me",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0fb48958af438fccaddc93c66404267f985683eecc57bfc88e43d11d008b97c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "libertatea.ro",
+                "www.libertatea.ro"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/cmp\\/styles\\/8756215\\/17\\/cmp\\.min\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b92ef9f9a88e1c01473f84dbc22ab87df525056b06c45984b5650cb5b99e83d1"
+                "a0f663c2d3f57a6934351da5fe97e197196d0e416f21805fb2a14fc282056302"
             ],
             "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morizon.pl",
+                "www.morizon.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/noizz\\/286aacba9d0dc0b5cb8e6ff83c1aec36\\/build\\/css\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3280eea0f5620a947705a4af95cd04c3d3ae43f38d3aa6b3bb56ad7595c6ff3e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ofeminin.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ofeminin\\/images\\/ofeminin_ukraina3\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7d64511c0dcff0c3ab9e07acfa5eaa13b8370ddfc990f928bab5138be8e1144e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ofeminin.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms\\/MDA_\\/26de4797ca365da020c0814ea4209f30\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "69ef4a8a80cb74703ccd8318b6167385b2fa5cd0f9fb90ae12736d3487b9d1b7"
+            ],
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -1758,10 +2175,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a91ae8b04f2c93d98b97677b688311b3b5dffda412276e97b87b61505f41913c"
+                "4d03302fa36601dfa3d3410da1582a2ceaf9c16b0da0401636c02ad073a19ad5"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1778,10 +2195,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9608f9c8ecf07200f3e6b507c5270b3746c5781cbaf1e237d677a231ef9c90a3"
+                "da3e4b5943007169d640d921747656284f760c939d23824dad5b60efceea8e1c"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1798,10 +2215,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0221dfba0605fe8e53c1ea1fb3008dba4a5f996f2983baa0388958d063092b22"
+                "77af65b8c6319679d95f0902922cca45a56e7b3f39f82a2d687c5b69216c0ca1"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1818,7 +2235,7 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "51f6405efa3de02f1196e509d11b882729c444de3887f5e5e50ee7ae97e42c88"
@@ -1832,18 +2249,18 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/aops\\/plansza\\/css_new\\/ofeminin\\.css",
+            "rule": "ocdn\\.eu\\/ramp\\/sva\\/20220819\\/rasp_ofeminin\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6026333711e2ce137f41545c9d0b8891f19d3e541921d6fe57b4d5b7ac254208"
+                "fbbf5d5fdd62203b02a315cb952f36053d3decd69d6006807d97effd7af4cbd4"
             ],
-            "type": "Stylesheet",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -1852,7 +2269,7 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/noizz\\/6a38d75068a2527d0ac95dc0e17d3457\\/build\\/js\\/main\\.js",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/noizz\\/286aacba9d0dc0b5cb8e6ff83c1aec36\\/build\\/js\\/main\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
@@ -1860,10 +2277,10 @@
                 "Screen.prototype.width": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "37e2c1992de092d094ab90d00304c1c4da7b865a84269661d1c37710897d4f9e"
+                "8032768e7c6e7692a4f44a1c8d4767fab0089386ac607f25b9d89f9487069923"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1874,16 +2291,56 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/styles\\/project-Common\\/light\\.css",
+            "rule": "ocdn\\.eu\\/lps\\/1746213\\/creative\\/000\\/000406\\/000406542\\/1920x150sponsoringbaza\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fccd42c5db14460d4cac9ebbbb0a926fafc66b528170d1b8729c313195843f8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ofeminin.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/lps\\/1746213\\/creative\\/000\\/000406\\/000406542\\/1920x75sponsoringbaza\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "74679111c384e7dc65a801887e4f2ae2c29d37fe0c9402bdd49e1b8646b3eedd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ofeminin.pl",
+                "www.ofeminin.pl"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-variables-light\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "3627c388c01696c95fb650afe6755b6d64e733cb02499e52a21109d2211b9f37"
+                "a6d94091e222ddde0a07e4783cab12b0839aa6c635c03470c35eb88d7879ad5c"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1895,36 +2352,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/styles\\/project-Homepage\\/light\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "39a8e14140046c495db73f5d81d63513d86382d0a84d17f2b2f1852633430c97"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/styles\\/project-init\\/light\\.css",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-init\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "448a5bba31b93a8b1a9cfabf77e0dad4a3ef3da7993d1efafa553e7e0746e1b1"
+                "c5deebccbb6ec587c3ed0fd6c8c316bf6aec58a666eec8ceaace2cf4b9c1795a"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1936,53 +2373,157 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/ePbk9kpTURBXy80N2ZkN2M0YzQxZDMxY2ZiZWU0ZWI1Y2ZkY2YyYjZhZi5qcGeSlQPMkgDNDC7NBtuTBc0BLMysgaEwBQ",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "0b57322f080b6744c6c04bd8c27e548e18fbc8d46923a79d7771ed4771aa7afb"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/LuSk9kpTURBXy83YjI4OTk2NjZhNjVjM2RjNzYzMWUwMDE3ZmYzNjQzOC5qcGeSlQMaAc0MiM0HDZMFzQEszKyBoTAF",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "7e56d872e422f2d41e1b1676db9436d91fa6a0a01aeb63c9ad41e13db3f6649f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/js\\/menu\\.min\\.js",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-Common\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "6ad92c8aba4df8cf406683da9eed5d04fdcb18e2b19e7969e93e2991602bc34d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-Detail\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0422ef613cfcf3eeab8526720bb2bce9ad170cf7dd64a114fc9980f27be8fb10"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/standard-detailSocialShare\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1dafc72e97172dc4d8f4ffaab4cd3fe1ca64c2586c6bd3fa0e6f3d340a429fbc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/latest-basicWidget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "95d990ae87a926f1239d7dbe6019567d22a3bbc83c74ab6100bc0342690b06a6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/IkVk9kpTURBXy82OTVkYTk3YjAzOWFhMjAyZDE0Y2NjMDZjYWRhNmJjOC5qcGeSlQMAOM0HCM0D9JMFzQEszKyBoTAF",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8400357ed177c7ed820f9a49f184efd559fcac5749cbdf282022d3ad681928f6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.com.gh"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-detailTrending\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "0763b7cd6a501ad16110bf743c2d2aaa9623b512c7aa49c9c26db96577c203e6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-footer_wdg\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "08a9143de929523368e94ee943d813e85955d70faedf41d17b5f80e5dcd3d558"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/js\\/menu\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "53ee7f2686482f99d7ca9f0c7596358f39871245d3142dcf7ccfe0eace4eec6f"
@@ -1997,56 +2538,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/images\\/60x30-GH-WHITE\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "radp"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "37093d2eadfdd9872f80e0d155d47ef86e2853ff263bd6ff963785492c3c845c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/img\\/header\\/search\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/img\\/header\\/facebook\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "eab24ee7fa3df8384658474060f15c8197dc39cfe8cda20677f1e867b55c0c45"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/img\\/header\\/facebook\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "28cbe757197912af82eb18b35a8e57b0a0b1b92bcf540b658de6e0d3eac9e130"
@@ -2061,13 +2559,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/img\\/header\\/twitter\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/img\\/header\\/twitter\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "e657fe441dc35b35c29d0b078b0116ea056b439e239c626a0276cd13829e6db4"
@@ -2082,16 +2580,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/img\\/header\\/instagram\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/img\\/header\\/instagram\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "f622efa343dd9ff96c7fdbbc54a9058efd9b1d59be6b26c998639f98ceda7b83"
+                "99cbc77d1f1a6c4e8bf05b964df6a08ba6cd3ca0045fbd1acda009fec7d983a3"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2103,34 +2601,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/img\\/header\\/youtube\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/img\\/header\\/tiktok\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "09d4f014b6e0ff4b00088868981fb77f14a20985ad5ea78ad37f61e8d197ac5c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/img\\/header\\/tiktok\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "b6b64fbb9509089f145666f156e56496614784da5ce69543ebe3baca3b060e12"
@@ -2145,13 +2622,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/radp\\/icons\\/header\\/search\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/img\\/header\\/search\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "eab24ee7fa3df8384658474060f15c8197dc39cfe8cda20677f1e867b55c0c45"
@@ -2166,58 +2643,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/fonts\\/opensans-regular\\.woff2",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/fonts\\/NHaasGroteskDSPro-75Bd\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "3cfe1fe3b12cafca5032c14554bff7de98ee304f8b54f73746657d08a755c2fd"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/fonts\\/opensans-bold\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "f7410cbddc7f0091e12dc281a7669373c017a8ab82e9fd855cb4ae78c8d52bce"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/fonts\\/NHaasGroteskDSPro-75Bd\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "8e431518ee2e511c1f72d9ca829451d24ea2681c5f3c53449ca1e1295f8fd8e2"
+                "b1cb08139c99cb62657b13a3ec90688f31462728db47cec4c994d96bd637a5db"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -2230,21 +2665,23 @@
         },
         {
             "rule": "ocdn\\.eu\\/v2\\/EA-4719209\\/me",
-            "cookies": 0.0000207,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "75d428218a978923153aba20f1f2d9d099d2f43798c621e1c0313d6ad5c6eb07"
+                "01f32968f06ba302930ce107f3f21e3a2e4cb66f811c7fb372a0ea45e78e03b2"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.000006777914842277922
+            },
             "exampleSites": [
                 "pulse.com.gh",
                 "www.pulse.com.gh",
@@ -2252,16 +2689,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/js\\/search\\.js",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/js\\/lazyLoad\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "5d85735165f1c9594f3129db6b50b057895a0b7f9b0b3426b1537b0f1e813c80"
+                "e52ac592030f9b52c72b5c6072b00266d55bc0deef268ccf92551ca55e1136c0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -2273,71 +2710,143 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/js\\/project\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Notification.permission": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "b5b3098f948e29ae0e876fea18c425a42bb8d67b951d3f020f8950dabbfa61fe"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/53a015d1711ef6458d5402d383de2519\\/build\\/js\\/common\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "5fc789de8bfd46aeb0f892909fafdfafefcca540622ca3e82a7ad7bca9ba81a4"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pulse.com.gh",
-                "www.pulse.com.gh",
-                "www.pulse.ng"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/onesignal\\/chrome-unblock\\.jpg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/js\\/project\\.js",
             "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [
-                "radp"
-            ],
+            "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "d7293cf26f832daf885654520e5fee8d63b00b424bc7a6335ecdbec72499eefb"
+                "4f5f252e44156a10afc09a67c0def256e0af3c95dd79090a22f2c5cabd414f70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/js\\/socialShare\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "639e354047e3600344359d6ee21e2d2232998a6e138ed8f8a787e3d267f32c6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-Homepage\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1b2b5f68c8ea9f4d24c4afc6e55938322d7b10855ddf4875775a3ee2baa12a51"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-basicWidget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0544aaf54a56042a2e26c8d6ae1f2160732ced327e1993f6dd76eed75f6bddfa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-homepageNewsletter\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ab67660c66535d533c0d6e19769fcb8e8a669ce47e43b4b1735f9046cb85c25"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/styles\\/project-editorsPick\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d4ccc55c7094bea896d949482bfc6d9e346b59f6d57ae8ef9550b09c628d8e35"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pulse.com.gh",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/UTheme\\/7635e886837de7e596640f6edc40e885\\/build\\/img\\/header\\/youtube\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "09d4f014b6e0ff4b00088868981fb77f14a20985ad5ea78ad37f61e8d197ac5c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "pulse.com.gh",
-                "www.pulse.com.gh",
                 "www.pulse.ng"
             ]
         },
@@ -2350,7 +2859,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b19dacdd7d2e91fd9ac3853b9c4fcc920b3c24be1bfb6f2594869fa5d69c8845"
@@ -2364,16 +2873,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/styles\\/project-common\\/light\\.css",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/styles\\/project-common\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d072f08fd992fd41605a39cc3485e5fe637b28f25cb630375af34e3f3a19d60f"
+                "d82eeec15497284b73ff27a92a03e4f566a23c5090dcb8f4bf8d43c92f698e6d"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -2384,16 +2893,56 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/styles\\/project-init\\/light\\.css",
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/sXkk9kpTURBXy83MjQ4YjhjZmEzMThjOTJlOGIyYzlhMDQ3ZDE4YzUzMS5qcGeQgaEwBQ",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a4fcbd8fa35d0a2aa2336f08c8ad1a244d8b3c22c79d423190727d7adffaa181"
+                "8822a1d4ca8a773729ca470b5a352dc22aa0596d927cd966cf577738c832de3d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techstage.de",
+                "www.techstage.de"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/styles\\/project-variables-light\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "69cb225b59ee69113e954fafd5312745d2c205c1adba6de2a12b0c4021a4332d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techstage.de",
+                "www.techstage.de"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/styles\\/project-init\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bd967382bb9ef2f87d72f8500582b85e078b1cb2bf8359b537670d706ee00f31"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -2413,7 +2962,7 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "131d9ef8fa80e0124395079de4a50be6321b956750dc297a396e131d25ecdef2"
@@ -2433,7 +2982,7 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "55fa12bec964a57884912372099bdc5f45d84e2d1efffa5ed199ba9fdab6042c"
@@ -2447,13 +2996,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/js\\/menu\\.min\\.js",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/js\\/menu\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "53ee7f2686482f99d7ca9f0c7596358f39871245d3142dcf7ccfe0eace4eec6f"
@@ -2467,56 +3016,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/pulscms\\/MDA_\\/7248b8cfa318c92e8b2c9a047d18c531\\.jpg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/fonts\\/SourceSansPro-Regular\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9260051cb4bfae6ff7004590a02cc0f3891dddf3b78846e74a3db54420f1abb3"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "techstage.de",
-                "www.techstage.de"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/img\\/logo_header\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "c75b51de3de3692230f6794eb8e50e429731ccee1ef3476ae5ba96a774e375ad"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "techstage.de",
-                "www.techstage.de"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/fonts\\/SourceSansPro-Regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f2696e8eb9d876987998374c51e4d14a24f6f24a23fe697493ebf761c3bcc4b9"
+                "f501e141200f6282b5462899fc81749faf796d914f423dde0ed40b9d346215a0"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -2527,13 +3036,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/img\\/arrow_white\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/img\\/arrow_white\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "afc509d9c8113b9ac3c010e9c670e9b18508ed0e65730446239ab2ddf0d306f4"
@@ -2547,16 +3056,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/fonts\\/SourceSansPro-SemiBold\\.woff2",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/fonts\\/SourceSansPro-SemiBold\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0b3376aa27741ca90899fed12bcccbf1ea22edb596846ba6b26e263463686590"
+                "3c18b26b7063fa33566f1674e5f1555d5c695deddf7416a0c4cf5e469149ca8c"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -2567,16 +3076,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/fonts\\/SourceSansPro-Bold\\.woff2",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/fonts\\/SourceSansPro-Bold\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6d422eaf41ab920c8ce99379cec61f704b1710b183c0a0523986906851e0a0ab"
+                "63567a04b0f2f485979db248514ba997206a0e99a7a2e302124793053c57f460"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -2587,13 +3096,13 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/img\\/arrow\\.svg",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/img\\/arrow\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "078d62f5bd72b1c1e16b1b174b9042c88fcbd7ea579863592cb16757d97570cd"
@@ -2607,82 +3116,16 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/v2\\/EA-4153243\\/me",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "events"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2692ec207bd55aa1c859ca4541e67d6038447b7b6186f141d50acb33c22920ae"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "ea_uuid": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "techstage.de",
-                "www.techstage.de"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/1875e2624d332f2961475951b17ac743\\/build\\/fonts\\/SourceSansPro-SemiBold\\.woff2",
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/js\\/lazyLoad\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0b3376aa27741ca90899fed12bcccbf1ea22edb596846ba6b26e263463686590"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "techstage.de",
-                "www.techstage.de"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/1875e2624d332f2961475951b17ac743\\/build\\/fonts\\/SourceSansPro-Regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f2696e8eb9d876987998374c51e4d14a24f6f24a23fe697493ebf761c3bcc4b9"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "techstage.de",
-                "www.techstage.de"
-            ]
-        },
-        {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/js\\/common\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "dee06a5c85340c730ac7268ae0b588da453354a4a7b1cb47dcd3c9939ee23454"
+                "e52ac592030f9b52c72b5c6072b00266d55bc0deef268ccf92551ca55e1136c0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -2693,16 +3136,78 @@
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/361184094cc04ba4ee4500eb7519a220\\/build\\/js\\/project\\.js",
+            "rule": "ocdn\\.eu\\/assets\\/heiseOnlineLogo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heise"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c75b51de3de3692230f6794eb8e50e429731ccee1ef3476ae5ba96a774e375ad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techstage.de",
+                "www.techstage.de"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/pulscms-transforms\\/1\\/YA1k9kpTURBXy8zNjQ3ZGIyOGY5MjZlM2Y5YTU1YTA0Y2VkZGQ1NDFjOS5qcGeSlQMAzOLND8DNCNyTBVxcgaEwBQ",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "272caa5171c586e0384aae6b8db3472f4d6bfabc4f40179948606e0c186d4036"
+                "2989de8acdbe5a42c40ec76d64d5c0b939051b95bfc17edba83c3b6fd8c18615"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techstage.de",
+                "www.techstage.de"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/js\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c98a2ed3b44eece83b71fcb885dcf7fcd2e0f3cda344e560f1959779e11c7d62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techstage.de",
+                "www.techstage.de"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/ucs\\/static\\/heise\\/e3d9406a43304f80b95c467180ba4ce7\\/build\\/js\\/project\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4e6a6c4c6a94451be2d1aa3df10258a74d1ada181e11db3ef3a25cfeae4335a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -2715,15 +3220,13 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000317,
+    "cookies": 0.000339,
     "types": {
-        "XHR": 71,
-        "Script": 83,
-        "Image": 91,
-        "Font": 43,
-        "Fetch": 8,
-        "Stylesheet": 26,
-        "Other": 4
+        "Script": 174,
+        "XHR": 95,
+        "Stylesheet": 52,
+        "Image": 98,
+        "Font": 15
     },
     "nameservers": [
         "ns33.ringpublishing.net",

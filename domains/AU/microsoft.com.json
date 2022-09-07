@@ -9,15 +9,16 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.0015,
+    "sites": 15,
     "subdomains": [
         "browser.pipe.aria",
         "browser.events.data",
+        "atlas",
         "c1"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "microsoft\\.com\\/Collector\\/3\\.0\\/",
@@ -27,8 +28,8 @@
                 "browser.pipe.aria"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -37,23 +38,28 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "freemandelusion.com",
+                "clevelandclinic.org",
                 "my.clevelandclinic.org",
-                "www.youi.com.au"
+                "www.bettermusic.com.au",
+                "www.hearing.com.au",
+                "www.manningham.vic.gov.au",
+                "www.northmetrotafe.wa.edu.au",
+                "www.southmetrotafe.wa.edu.au"
             ]
         },
         {
             "rule": "microsoft\\.com\\/OneCollector\\/1\\.0\\/",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [
                 "browser.events.data"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
+                "aee1c4934edc4ce010efd8cfda03b8275247955e77ad62fbbfb490af68c0b405",
                 "afd588d7d1c94d797ef932006d524de973f6fc54556e62f0f340412c87f99d58"
             ],
             "type": "XHR",
@@ -61,22 +67,66 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "13cabs.com.au",
+                "www.minecraft.net",
+                "www.supercars.com",
                 "www.trekbikes.com"
             ]
         },
         {
+            "rule": "microsoft\\.com\\/map\\/tile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atlas"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c80a17dba32e24d1062150f64373d607141f63edd00cd685415765fa7ebe40f3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelwatch.wa.gov.au",
+                "www.fuelwatch.wa.gov.au"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/map\\/tile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atlas"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelwatch.wa.gov.au",
+                "www.fuelwatch.wa.gov.au"
+            ]
+        },
+        {
             "rule": "microsoft\\.com\\/c\\.gif",
-            "cookies": 0.0002,
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
                 "c1"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+                "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -94,15 +144,17 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0.0002,
+    "cookies": 0.0001,
     "types": {
-        "XHR": 5,
+        "XHR": 11,
+        "Fetch": 2,
+        "Preflight": 2,
         "Image": 2
     },
     "nameservers": [
-        "ns4-205.azure-dns.info",
-        "ns3-205.azure-dns.org",
-        "ns1-205.azure-dns.com",
-        "ns2-205.azure-dns.net"
+        "ns2-39.azure-dns.net",
+        "ns3-39.azure-dns.org",
+        "ns4-39.azure-dns.info",
+        "ns1-39.azure-dns.com"
     ]
 }

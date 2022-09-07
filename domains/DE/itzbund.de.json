@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000702,
-    "sites": 7,
+    "prevalence": 0.000601,
+    "sites": 6,
     "subdomains": [
         "piwik"
     ],
@@ -17,25 +17,28 @@
     "resources": [
         {
             "rule": "itzbund\\.de\\/js\\/",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 2,
             "subdomains": [
                 "piwik"
             ],
             "apis": {
+                "Document.cookie getter": 6,
+                "window.name": 6,
+                "Date.prototype.getTime": 6,
                 "Navigator.prototype.userAgent": 6,
                 "Navigator.prototype.mimeTypes": 6,
                 "Navigator.prototype.javaEnabled": 6,
+                "Navigator.prototype.cookieEnabled": 6,
                 "Screen.prototype.width": 6,
                 "Screen.prototype.height": 6,
-                "Date.prototype.getTime": 6,
-                "window.name": 6
+                "Document.cookie setter": 1
             },
             "sites": 6,
-            "prevalence": 0.000602,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "e666e0eb1a23d440dbcf2b87d264342407cf5dcda9532cc7709ed65fdf92b489"
+                "800da1c0c64f9a69852ccb84fcda876c498fa6fc2c61f3d7da9828d6200084e1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -43,8 +46,8 @@
             "exampleSites": [
                 "bfarm.de",
                 "www.bfs.de",
-                "www.bundesjustizamt.de",
-                "www.bundesrat.de",
+                "www.bmj.de",
+                "www.bundespolizei.de",
                 "www.bzst.de",
                 "www.pei.de"
             ]
@@ -58,19 +61,19 @@
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000602,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Image",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bfarm.de",
                 "www.bfs.de",
-                "www.bundesjustizamt.de",
-                "www.bundesrat.de",
+                "www.bmj.de",
+                "www.bundespolizei.de",
                 "www.bzst.de",
                 "www.pei.de"
             ]
@@ -78,15 +81,15 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
         "Script": 6,
-        "Image": 6
+        "Ping": 6
     },
     "nameservers": [
-        "ns2.itzbund.de",
-        "pns.dtag.de",
         "secondary006.dtag.net",
+        "pns.dtag.de",
+        "ns2.itzbund.de",
         "ns1.itzbund.de"
     ]
 }

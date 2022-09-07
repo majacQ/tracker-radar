@@ -4,36 +4,63 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "operator"
+        "operator",
+        "chat.usa"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "tcn\\.com\\/chat-client\\/main\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "operator"
             ],
             "apis": {
-                "window.sessionStorage": 2
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "20f8e3c9fa4ac4232b5aacedcb9bd0ededd55e9f09f0e7d77c8b1f21db9a3fdb"
+                "0c728041f7625c0d219132aeba0f30219739e93a4a73887e162209bd9a5325f6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bendbulletin.com",
-                "www.bendbulletin.com"
+                "www.eastoregonian.com"
+            ]
+        },
+        {
+            "rule": "tcn\\.com\\/api\\/v1\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.usa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "28524b1436fa8e869954796bfd7cb61288a5115f64263b864d199a58dad6302f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bendbulletin.com",
+                "www.eastoregonian.com"
             ]
         }
     ],
@@ -41,7 +68,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 2,
+        "Fetch": 2
     },
     "nameservers": [
         "ns-cloud-c1.googledomains.com",

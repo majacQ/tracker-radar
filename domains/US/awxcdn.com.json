@@ -4,30 +4,109 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000136,
+    "sites": 2,
     "subdomains": [
         "www"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "awxcdn\\.com\\/adc\\/3rdpartycheck\\.html",
-            "cookies": 0.0000138,
+            "rule": "awxcdn\\.com\\/adc-assets\\/fonts\\/solis-regular\\.woff",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "da70ddfede669bdc2aa85dff49b5482cd352f33784b8fbbf2c2748498e663f7c"
+                "106b844ded331a4e14b2bdb40171338181e22a84f836211f6a11dac75cbe3129"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accuweather.com",
+                "www.accuweather.com"
+            ]
+        },
+        {
+            "rule": "awxcdn\\.com\\/adc-assets\\/bundles\\/5\\.4f0517cc6442bea27c04\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "946cf593930f114bbb9f2e3aa521693dc8c7f5126f9443df2a1590cb22ee3741"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accuweather.com",
+                "www.accuweather.com"
+            ]
+        },
+        {
+            "rule": "awxcdn\\.com\\/adc-assets\\/bundles\\/5\\.55c72d505cd829fef508\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aeba84905037859f2307444ba0b5e574cfbd25ed1233446155c45d7189aa417f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accuweather.com",
+                "www.accuweather.com"
+            ]
+        },
+        {
+            "rule": "awxcdn\\.com\\/adc\\/3rdpartycheck\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "81cf28486f4797839a9e8410a62649bf57348ab1a61dfb5fef7983cce8d76ab3"
             ],
             "type": "Document",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "thirdparty": {
+                    "ttl": 3600,
+                    "length": 3,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "accuweather.com",
@@ -36,41 +115,17 @@
         },
         {
             "rule": "awxcdn\\.com\\/adc\\/3rdpartycheck-complete\\.html",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d3387e55776787bb25e7d12c2eb4b5cd69c81a02036300b8f54cd00c598134ff"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "accuweather.com",
-                "www.accuweather.com"
-            ]
-        },
-        {
-            "rule": "awxcdn\\.com\\/safeframe\\/1-0-0\\/html\\/container\\.html",
-            "cookies": 0.0000069,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "window.name": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d5a79b79ff19ef016606fe82751c76bac33544cd6e2885535ab4318a75b2e1a7"
             ],
             "type": "Document",
             "firstPartyCookies": {},
@@ -83,9 +138,12 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000136,
     "types": {
-        "Document": 6
+        "Font": 2,
+        "Stylesheet": 2,
+        "Script": 2,
+        "Document": 4
     },
     "nameservers": [
         "a1-82.akam.net",

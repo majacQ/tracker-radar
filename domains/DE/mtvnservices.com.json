@@ -1,47 +1,107 @@
 {
     "domain": "mtvnservices.com",
     "owner": {
-        "name": "ViacomCBS Inc.",
-        "displayName": "ViacomCBS"
+        "name": "Paramount Global",
+        "displayName": "Paramount Global",
+        "privacyPolicy": "https://www.viacomcbsprivacy.com/policy",
+        "url": "http://viacomcbsprivacy.com"
     },
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000201,
+    "prevalence": 0.0002,
     "sites": 2,
     "subdomains": [
         "btg",
-        "mb",
-        "rumtest-aka.ts"
+        "mb"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "mtvnservices\\.com\\/aria\\/bentojs\\.js",
-            "cookies": 0.0001,
-            "fingerprinting": 1,
+            "cookies": 0.000301,
+            "fingerprinting": 2,
             "subdomains": [
                 "btg"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.appName": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "12e7bca1b924261ac581b78e2d0437feb2cefe80e880c5dc37f09e6a816ec604"
+                "5e221c268b0580ff9a741d3d7cc4bb2f333cc24e1ac169fa731edccd2b2faaa9",
+                "2e8f6b240eb818fc13e6abd90db8888191a30428c644274a2d10d8aa92bbe301"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_ED7001AC512D2ABD0A490D4C%40AdobeOrg": {
+                    "ttl": 63158413,
+                    "length": 264,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 0.6666666666666666
+                },
+                "s_nr": {
+                    "ttl": 2592011,
+                    "length": 17,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 0.6666666666666666
+                },
+                "AMCVS_ED7001AC512D2ABD0A490D4C%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 0.3333333333333333
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00030069159065851457,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.de",
+                "www.mtv.de",
+                "www.southpark.de"
+            ]
+        },
+        {
+            "rule": "mtvnservices\\.com\\/aria\\/SourcePoint\\/bento\\/sourcepoint-core\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "btg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cf4ea29cb827a6e26ddfe82ac6a0c0518822829cccb0a4190190cf4b6455d2b8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "mtv.de",
+                "www.mtv.de",
                 "www.southpark.de"
             ]
         },
@@ -88,38 +148,15 @@
                 "www.mtv.de",
                 "www.southpark.de"
             ]
-        },
-        {
-            "rule": "mtvnservices\\.com\\/measurements\\/r20\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rumtest-aka.ts"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "southpark.de",
-                "www.southpark.de"
-            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0.0002,
     "types": {
-        "Script": 2,
+        "Script": 6,
         "Preflight": 3,
-        "XHR": 3,
-        "Fetch": 2
+        "XHR": 3
     },
     "nameservers": [
         "dns1.p09.nsone.net",

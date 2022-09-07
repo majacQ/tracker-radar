@@ -18,7 +18,7 @@
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "ledev\\.fr\\/V5\\/getRootPage",
+            "rule": "ledev\\.fr\\/V5\\/getUserInfosWithToken",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -34,7 +34,7 @@
                 }
             ],
             "responseHashes": [
-                "90312d64e8710248f518bc43eb603a9605bb85ce9319dfacb9da52125dbd0fe1"
+                "2833283917b128afb351d0645a2e8c90ced10c608a64a333a68525994cb92739"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -70,7 +70,7 @@
             ]
         },
         {
-            "rule": "ledev\\.fr\\/V5\\/getUserInfosWithToken",
+            "rule": "ledev\\.fr\\/V5\\/getClientIsLoggedIn",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -86,9 +86,34 @@
                 }
             ],
             "responseHashes": [
-                "4558dabddb223661f251dae7ecabbacd6cab9794a8f4eef32c71bff52e7d16c5"
+                "b51567beef343a318cda5fbcb0a90392bafcdb08d62e65a6069cad5caa9f2e9e"
             ],
             "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmotv.fr",
+                "www.filmotv.fr"
+            ]
+        },
+        {
+            "rule": "ledev\\.fr\\/V5\\/getClientIsLoggedIn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "filmo-varnish"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "webservices-web.filmotv.fr",
+                    "resolved": "filmo-varnish.ledev.fr"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -102,7 +127,7 @@
     "cookies": 0,
     "types": {
         "XHR": 4,
-        "Preflight": 2
+        "Preflight": 4
     },
     "nameservers": []
 }

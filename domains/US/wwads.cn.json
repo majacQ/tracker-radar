@@ -4,71 +4,55 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "cdn"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "wwads\\.cn\\/js\\/makemoney\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.maxTouchPoints": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "f9b3440b57f1f21c07bd8e3507b80897b1c9a6de33396d65df83ba434ce64a33"
+                "3b4fe162d6c0efceafd1147f0d3a62c5456dff736db4bd2255356fe516780919"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "v2ex.com",
+                "csdn.net",
+                "blog.csdn.net",
                 "www.v2ex.com"
             ]
         },
         {
             "rule": "wwads\\.cn\\/code\\/banners",
-            "cookies": 0.0000138,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "efa21e89a995ee47cd61be21aa7b17f7e7768544bd75417f2297631002ddd958"
+                "17d2ea63a5462360d0f63298803016c0c6c996417552899f69a657fb0d13b2b8"
             ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "v2ex.com",
-                "www.v2ex.com"
-            ]
-        },
-        {
-            "rule": "wwads\\.cn\\/creatives\\/CS6OsFXs41NQljKlMJ5C62aW1HwY4erqIepj1tWX\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "6b46eb993f55fc15b08d2302e8987606c8bc6ede8cb7babcb67665ba3a97fb2f"
-            ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -79,11 +63,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0,
     "types": {
-        "Script": 2,
-        "XHR": 2,
-        "Image": 2
+        "Script": 3,
+        "Fetch": 2
     },
     "nameservers": [
         "vip2.alidns.com",

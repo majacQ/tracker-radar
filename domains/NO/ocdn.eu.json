@@ -7,36 +7,51 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
+        "artemis-cdn",
         "events"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "ocdn\\.eu\\/faktucs\\/fakt_pl\\/fakt_logo\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "rule": "ocdn\\.eu\\/artemis\\/0\\.2\\.2\\/artemis\\.min\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "artemis-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "4022f70a96e6edc1e03c6fc474ffff73dbe349e632590d36c2836bd503b81cdd"
+                "f4a6728c954a7d9b3eea556cb7c3c7b1bafcdd3056528f3d48ba5c62adb8d06d"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "ats_ri": {
+                    "ttl": 604803,
+                    "length": 5,
+                    "prevalence": 0.0003009328919650918,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fakt.pl",
-                "www.fakt.pl"
+                "blick.ch",
+                "www.imobiliare.ro",
+                "www.pulse.ng"
             ]
         },
         {
-            "rule": "ocdn\\.eu\\/v2\\/EA-1746213\\/me",
+            "rule": "ocdn\\.eu\\/v2\\/EA-5469564\\/me",
             "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
@@ -47,28 +62,89 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "dd0f3fa76668d9c01b4df6b734c82d3c83f543fb2dd48aa13bbd93a534e126de"
+                "4f7dd504dccd79c9b024a6642b2d458c9110ecefae2b6b3f0627b8befb93fef3"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.00010035122930255896
+                "ea_uuid": 0.00010031096398836393
             },
             "exampleSites": [
-                "fakt.pl",
-                "www.fakt.pl"
+                "blick.ch",
+                "www.blick.ch"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/fp\\/2\\.5\\.2\\/fp\\.min\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [
+                "artemis-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 3,
+                "OfflineAudioContext.prototype.constructor": 3,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.connection": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Performance.prototype.memory": 3,
+                "Navigator.prototype.plugins": 3,
+                "window.indexedDB": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.devicePixelRatio": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "AudioBuffer.prototype.getChannelData": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.webdriver": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "dbd917696642b9d1e32f596aecd92accf3e910c1cc82d25ed23ac23a2ad371a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1660795381,
+                    "length": 1,
+                    "prevalence": 0.0003009328919650918,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blick.ch",
+                "www.imobiliare.ro",
+                "www.pulse.ng"
             ]
         },
         {
             "rule": "ocdn\\.eu\\/v2\\/",
-            "cookies": 0.000201,
+            "cookies": 0.000401,
             "fingerprinting": 0,
             "subdomains": [
                 "events"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "7de69cbfeaa5d87188931bb942786f32c1029b6fdb9c6b05859949f4a475948d"
@@ -76,20 +152,71 @@
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "ea_uuid": 0.00020070245860511792
+                "ea_uuid": 0.0003009328919650918,
+                "get_top_level_domain_cookie": 0.00010031096398836393
             },
             "exampleSites": [
-                "fakt.pl",
-                "www.fakt.pl"
+                "blick.ch",
+                "www.blick.ch",
+                "www.imobiliare.ro",
+                "www.pulse.ng"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-4789202\\/me",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "137027d704c49e484b469ae7756f19a659d171610e8bef4929238cfa4f062410"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.00010031096398836393
+            },
+            "exampleSites": [
+                "imobiliare.ro",
+                "www.imobiliare.ro"
+            ]
+        },
+        {
+            "rule": "ocdn\\.eu\\/v2\\/EA-4719209\\/me",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "756aa32a3c400a35292065a976975c9b589583a04ee19512fafca794e649f80c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ea_uuid": 0.00010031096398836393
+            },
+            "exampleSites": [
+                "pulse.ng",
+                "www.pulse.ng"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0.000301,
     "types": {
-        "Image": 2,
-        "XHR": 4
+        "Script": 6,
+        "XHR": 10
     },
     "nameservers": [
         "ns33.ringpublishing.net",

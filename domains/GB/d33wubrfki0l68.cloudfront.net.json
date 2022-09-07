@@ -9,30 +9,39 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.001,
-    "sites": 10,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "d33wubrfki0l68\\.cloudfront\\.net\\/b152eb4214943f96e83c4babde026b12221e68f1\\/a20c2\\/img\\/oss_logo\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "d33wubrfki0l68\\.cloudfront\\.net\\/js\\/a7a21e58d3a07b43ab66559959385696204d4a20\\/utm-grabber\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Document.cookie setter": 2
+            },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "750890b31e7b34200755f0a26fc97a277b962b293b8cd3c99c49cb877b166f2e"
+                "bb5224b38dcfe5edb1ebb870d99935b77c49b89fd887ab6dfe9567f175a69e3c"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "utm_source": {
+                    "ttl": 86400,
+                    "length": 6,
+                    "prevalence": 0.00020056157240272763,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "jestjs.io",
-                "reactnative.dev"
+                "apollographql.com",
+                "www.apollographql.com"
             ]
         }
     ],
@@ -40,9 +49,9 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Image": 2
+        "Script": 2
     },
     "nameservers": [
         "ns-1455.awsdns-53.org",

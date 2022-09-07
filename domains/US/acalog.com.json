@@ -4,22 +4,18 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000069,
-    "sites": 10,
+    "prevalence": 0.0000746,
+    "sites": 11,
     "subdomains": [
         "american.catalog",
         "cnm.catalog",
+        "tntech.catalog",
         "usfca.catalog",
-        "calstatela.catalog",
-        "hofstra.catalog",
         "memphis.catalog",
-        "montgomerycollege.catalog"
+        "montgomerycollege.catalog",
+        "nvcc.catalog"
     ],
     "cnames": [
-        {
-            "original": "bulletin.hofstra.edu",
-            "resolved": "hofstra.catalog.acalog.com"
-        },
         {
             "original": "catalog.american.edu",
             "resolved": "american.catalog.acalog.com"
@@ -37,28 +33,33 @@
             "resolved": "montgomerycollege.catalog.acalog.com"
         },
         {
-            "original": "catalog.usfca.edu",
-            "resolved": "usfca.catalog.acalog.com"
+            "original": "catalog.nvcc.edu",
+            "resolved": "nvcc.catalog.acalog.com"
         },
         {
-            "original": "ecatalog.calstatela.edu",
-            "resolved": "calstatela.catalog.acalog.com"
+            "original": "catalog.tntech.edu",
+            "resolved": "tntech.catalog.acalog.com"
+        },
+        {
+            "original": "catalog.usfca.edu",
+            "resolved": "usfca.catalog.acalog.com"
         }
     ],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "acalog\\.com\\/widget-api\\/widget-api\\.min\\.css",
-            "cookies": 0.0000207,
+            "cookies": 0.0000271,
             "fingerprinting": 0,
             "subdomains": [
                 "american.catalog",
                 "cnm.catalog",
+                "tntech.catalog",
                 "usfca.catalog"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [
                 {
                     "original": "catalog.american.edu",
@@ -67,6 +68,10 @@
                 {
                     "original": "catalog.cnm.edu",
                     "resolved": "cnm.catalog.acalog.com"
+                },
+                {
+                    "original": "catalog.tntech.edu",
+                    "resolved": "tntech.catalog.acalog.com"
                 },
                 {
                     "original": "catalog.usfca.edu",
@@ -82,32 +87,24 @@
             "exampleSites": [
                 "american.edu",
                 "www.cnm.edu",
+                "www.tntech.edu",
                 "www.usfca.edu"
             ]
         },
         {
             "rule": "acalog\\.com\\/widget-api\\/widget-api\\.min\\.js",
-            "cookies": 0.0000276,
+            "cookies": 0.0000339,
             "fingerprinting": 0,
             "subdomains": [
-                "calstatela.catalog",
-                "hofstra.catalog",
                 "memphis.catalog",
                 "montgomerycollege.catalog",
+                "nvcc.catalog",
                 "usfca.catalog"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.0000345,
+            "prevalence": 0.0000339,
             "cnames": [
-                {
-                    "original": "ecatalog.calstatela.edu",
-                    "resolved": "calstatela.catalog.acalog.com"
-                },
-                {
-                    "original": "bulletin.hofstra.edu",
-                    "resolved": "hofstra.catalog.acalog.com"
-                },
                 {
                     "original": "catalog.memphis.edu",
                     "resolved": "memphis.catalog.acalog.com"
@@ -115,6 +112,10 @@
                 {
                     "original": "catalog.montgomerycollege.edu",
                     "resolved": "montgomerycollege.catalog.acalog.com"
+                },
+                {
+                    "original": "catalog.nvcc.edu",
+                    "resolved": "nvcc.catalog.acalog.com"
                 },
                 {
                     "original": "catalog.usfca.edu",
@@ -128,20 +129,48 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "calstatela.edu",
-                "www.hofstra.edu",
+                "memphis.edu",
                 "www.memphis.edu",
                 "www.montgomerycollege.edu",
+                "www.nvcc.edu",
                 "www.usfca.edu"
+            ]
+        },
+        {
+            "rule": "acalog\\.com\\/widget-api\\/catalog\\/12\\/programs\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nvcc.catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "catalog.nvcc.edu",
+                    "resolved": "nvcc.catalog.acalog.com"
+                }
+            ],
+            "responseHashes": [
+                "f136547f4bcf0fab5a84a174c11c0df54c51e4696fcde61372327b0fd03e3c67"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvcc.edu",
+                "www.nvcc.edu"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000621,
+    "cookies": 0.0000746,
     "types": {
-        "Stylesheet": 3,
-        "Script": 5
+        "Stylesheet": 4,
+        "Script": 5,
+        "XHR": 2
     },
     "nameservers": []
 }

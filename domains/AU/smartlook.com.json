@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0012,
-    "sites": 12,
+    "prevalence": 0.0016,
+    "sites": 16,
     "subdomains": [
-        "rec"
+        "rec",
+        "web-sdk"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -17,33 +18,66 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "rec"
+                "rec",
+                "web-sdk"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 12
+                "PerformanceTiming.prototype.navigationStart": 15,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 12,
-            "prevalence": 0.0012,
+            "sites": 16,
+            "prevalence": 0.0016,
             "cnames": [],
             "responseHashes": [
-                "394653b172e1eb8c527dba3151a9d40522d67cd0ce88f8a7097b4c3347e7080e"
+                "f84e632475e1c66798c24d6248193e1c5f60bc087a225e1492839590e826ab6f",
+                "bbb77f02a3d77e7b76318da048bc4fd7b7b5e84a5944f0084fd4bf29f75ae25b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "puma.com",
-                "duralirrigation.com.au",
+                "asianinspirations.com.au",
+                "au.puma.com",
+                "bupaoptical.bupa.com.au",
                 "honestmarijuana.com",
                 "try.sendle.com",
-                "wheelandbarrow.com.au",
                 "www.agtrader.com.au",
                 "www.fiverr.com",
+                "www.globirdenergy.com.au",
                 "www.kmart.com.au",
-                "www.philstar.com",
+                "www.nutritionwarehouse.com.au",
+                "www.nvisioncenters.com",
+                "www.propertyme.com.au",
                 "www.sendle.com",
-                "www.swann.com",
-                "www.tafesa.edu.au"
+                "www.sleepsolutions.com.au",
+                "www.tafesa.edu.au",
+                "www.thebongshop.com.au"
+            ]
+        },
+        {
+            "rule": "smartlook\\.com\\/recorder\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rec"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f84e632475e1c66798c24d6248193e1c5f60bc087a225e1492839590e826ab6f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sendle.com",
+                "www.sendle.com"
             ]
         }
     ],
@@ -51,12 +85,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 12
+        "Script": 16,
+        "Fetch": 2
     },
     "nameservers": [
-        "ns-1317.awsdns-36.org",
         "ns-1600.awsdns-08.co.uk",
         "ns-429.awsdns-53.com",
-        "ns-949.awsdns-54.net"
+        "ns-949.awsdns-54.net",
+        "ns-1317.awsdns-36.org"
     ]
 }

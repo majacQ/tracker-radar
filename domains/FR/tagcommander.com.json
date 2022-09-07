@@ -10,7 +10,7 @@
         "DuckDuckGo-FR"
     ],
     "prevalence": 0.0153,
-    "sites": 152,
+    "sites": 153,
     "subdomains": [
         "cdn",
         "manager"
@@ -19,35 +19,8 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "tagcommander\\.com\\/4340\\/tc_PoleEmploi_24\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.cookieEnabled": 3,
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "e1a4834afcde3480c5c5cd70af81be94c0b2ac2e2f619364682fdb4812a64857"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pole-emploi.fr",
-                "candidat.pole-emploi.fr",
-                "www.pole-emploi.fr"
-            ]
-        },
-        {
             "rule": "tagcommander\\.com\\/3235\\/tc_AXATesting_1\\.js",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
@@ -55,7 +28,9 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
                 "WebGLRenderingContext.prototype.getExtension": 2,
                 "WebGLRenderingContext.prototype.getParameter": 2,
                 "Date.prototype.getTimezoneOffset": 2,
@@ -64,17 +39,59 @@
                 "Screen.prototype.colorDepth": 2,
                 "window.devicePixelRatio": 2,
                 "Screen.prototype.orientation": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Document.cookie getter": 2
+                "Navigator.prototype.cookieEnabled": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a9964c9ce755b0514dfead56135c4787e23ceaa238aba40171361804ec0a8f94"
+                "dbf66678a472ee220943de5322aa664cebfba1d85a46d3b40a36b9bb800a37c3"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "TC_SONDE": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "mbox": {
+                    "ttl": 63244803,
+                    "length": 103,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "TCSESSION": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "tc_cj_v2": {
+                    "ttl": 31536002,
+                    "length": 48,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "mboxEdgeCluster": {
+                    "ttl": 1862,
+                    "length": 2,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "tc_ipLabel": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "TCPID": {
+                    "ttl": 33955203,
+                    "length": 20,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "axa.fr",
@@ -83,7 +100,7 @@
         },
         {
             "rule": "tagcommander\\.com\\/1508\\/tc_AXAFRSP_19\\.js",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
@@ -91,21 +108,39 @@
             "apis": {
                 "Date.prototype.getTime": 2,
                 "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
                 "Screen.prototype.pixelDepth": 2,
                 "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Navigator.prototype.language": 2,
-                "Navigator.prototype.javaEnabled": 2
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "64a17aa5b72ea0b04d5ad80b225c21948013b5ab90f8cea078446fbd8a2f1ae3"
+                "b7fa395d8d780dc034a363c65118a95e91ab23467431991be7ebcdc09f8e7cf8"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "atuserid": {
+                    "ttl": 34300802,
+                    "length": 186,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "atauthority": {
+                    "ttl": 34300803,
+                    "length": 222,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "axa.fr",
@@ -135,24 +170,25 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_13\\.js",
-            "cookies": 0,
+            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_6\\.js",
+            "cookies": 0.0001,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.userAgent": 4,
-                "window.sessionStorage": 4,
-                "Navigator.prototype.cookieEnabled": 1
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1
             },
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "ff220d156c4b17c83c71278f0fbe249fefedd7a32e007a2e0c864ff1ffc5bd49"
+                "107f734651f09b65568a60177bcd1d620eb897756ecee113b9d2e9afd034f0bf"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -160,8 +196,156 @@
             "exampleSites": [
                 "laposte.fr",
                 "localiser.laposte.fr",
-                "web-mail.laposte.net",
-                "www.education.laposte.net"
+                "secure.digiposte.fr",
+                "www.laposte.net",
+                "www.laposte.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3418\\/tc_MAIF_1\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "42de3869306763eb1dc31ba72c950dad7ed4e14e111c443de791065a970dec66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tc_cj_v2": {
+                    "ttl": 31536001,
+                    "length": 48,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "Id_maif": {
+                    "ttl": 31536002,
+                    "length": 32,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "session_dcf": {
+                    "ttl": 1802,
+                    "length": 39,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "tc_compteur_pv": {
+                    "ttl": 2592002,
+                    "length": 1,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.6666666666666666
+                },
+                "pageRef": {
+                    "ttl": 1802,
+                    "length": 20,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "TCPID": {
+                    "ttl": 33955203,
+                    "length": 20,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maif.fr",
+                "espacepersonnel.maif.fr",
+                "www.maif.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3418\\/tc_MAIF_2\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.colorDepth": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.javaEnabled": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2a4a6caacb4a998eda2e8558517195ea7040548d8d0eb5bb094d5e52dcb2598d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "atuserid": {
+                    "ttl": 15724802,
+                    "length": 186,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "atidvisitor": {
+                    "ttl": -1660740742,
+                    "length": 153,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.3333333333333333
+                },
+                "atauthority": {
+                    "ttl": 15724802,
+                    "length": 222,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maif.fr",
+                "espacepersonnel.maif.fr",
+                "www.maif.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3418\\/tc_MAIF_3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "04b2dbf596e1bea5030349f3560553f5d99c9c8db437234dbd29914c3de22ba1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maif.fr",
+                "espacepersonnel.maif.fr",
+                "www.maif.fr"
             ]
         },
         {
@@ -172,35 +356,41 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
                 "Document.cookie getter": 3,
-                "Document.cookie setter": 3
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "378b31eca528670b5d3924af44edcf7048a61d733e8611a5a87e0fe6ba09be9a"
+                "a5ab84cf042b38e48de7b27c6ff0e324ff3c7533ddb7a5c63cc4e5d830a82cbf"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "tc_cj_v2": {
+                    "ttl": 31536001,
+                    "length": 48,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
                 "tc_pageCounter": {
                     "ttl": null,
                     "length": 1,
-                    "prevalence": 0.0003012653143201446,
+                    "prevalence": 0.00030096308186195825,
                     "uniqueness": 0.3333333333333333
                 },
                 "TC_ABTESTING": {
                     "ttl": 31536001,
                     "length": 1,
-                    "prevalence": 0.0003012653143201446,
-                    "uniqueness": 0.3333333333333333
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.6666666666666666
                 },
                 "TCPID": {
-                    "ttl": 33955202,
-                    "length": 21,
-                    "prevalence": 0.0003012653143201446,
+                    "ttl": 33955203,
+                    "length": 20,
+                    "prevalence": 0.00030096308186195825,
                     "uniqueness": 1
                 }
             },
@@ -226,7 +416,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "775be66d58e9ceee7bc3848c73d69b68ba1e052258111f02a8486f34aa3eb721"
+                "0579236ca2c85d64e4961074ca6de3799b688fcd5a882d4d05d86c78c798d9ed"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -245,14 +435,13 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3
+                "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "27a4d6f3027f80f4ce755a8c65091a8c802fdc9b1c70f43ee8e6a11cf34cb1bb"
+                "4886436effb15a128b32620e5eb3cbcd511339b19476fa18f5b148197d7bccd2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -264,71 +453,258 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/3480\\/tc_Bpifrance_1\\.js",
-            "cookies": 0.0001,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Document.cookie getter": 1,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "bfc46212ad2f48479ef7037bb9854addafe77eac0c8e04362c83e50205df0579"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "TCPID": {
-                    "ttl": 33955203,
-                    "length": 22,
-                    "prevalence": 0.0001004217714400482,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bpifrance-creation.fr",
-                "www.bpifrance.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/3480\\/tc_Bpifrance_2\\.js",
+            "rule": "tagcommander\\.com\\/3887\\/tc_Somfy_48\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a1fb0a643d7c5da7c9d27d2c9b53923ec81f5f80a42473ec5cb2ad4dd3d5a0e6"
+                "57531a33dab97152fa821788d3ba6c2a8d2eafd594bc2376865abbb13c046250"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bpifrance-creation.fr",
-                "www.bpifrance.fr"
+                "somfy.fr",
+                "forum.somfy.fr",
+                "www.somfy.fr"
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/3418\\/tc_MAIF_1\\.js",
+            "rule": "tagcommander\\.com\\/4340\\/tc_PoleEmploi_24\\.js",
             "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6c4e72254212767d8f95ecbdf208bffba343b8d8d7a7da4f6a1505e260404c18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "TCPID": {
+                    "ttl": 33955205,
+                    "length": 21,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pole-emploi.fr",
+                "www.pole-emploi.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/1922\\/tc_edfgroupe_1\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ef18101f0e30e0d2c5a7dcf96f84f9747807c0ae9f9457e61e15616ee1b9cec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pa_privacy": {
+                    "ttl": 34128001,
+                    "length": 11,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "TCPID": {
+                    "ttl": 33955202,
+                    "length": 21,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edf.fr",
+                "www.edf.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/1922\\/tc_edfgroupe_3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7602857ae42ea6bfc8936ab7836811d3cb80d4c236e7a5094b76ee5b20eae71a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edf.fr",
+                "www.edf.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2392\\/tc_GMF_3\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ddc52d9cef90bbf572d590b4e34eb6f109083a64b6bb01970211caee2f678e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tCdebugLib": {
+                    "ttl": 2592008,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "cookie_session": {
+                    "ttl": 86408,
+                    "length": 32,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "cookie_visits": {
+                    "ttl": null,
+                    "length": 42,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "cookie_immediat": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "TCPID": {
+                    "ttl": 33955209,
+                    "length": 20,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmf.fr",
+                "www.gmf.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2392\\/tc_GMF_1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "96c7bdd07177958253844014f8ec4066ca6ecfe7c6b7cce0f320746663b0b4fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmf.fr",
+                "www.gmf.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2392\\/tc_GMF_5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "29ea93bb5e67f0d6f4c3cb732ed92dadf3939ef9259ebbcae04871adc95fff05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmf.fr",
+                "www.gmf.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/5592\\/tc_UFCQueChoisir_20\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
                 "Document.cookie getter": 2,
                 "Document.cookie setter": 2
@@ -337,100 +713,17 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5fc0b3f9ab5b38942a3f02f87f7f23ba9d83e984ce2968701d76f95b76e993ab"
+                "a83646b218e88458891130120c9d18ecfb52ba9af368b3751b16f29bf2987d07"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "TCPID": {
-                    "ttl": 33955203,
-                    "length": 23,
-                    "prevalence": 0.0002008435428800964,
+                    "ttl": 33955202,
+                    "length": 21,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "maif.fr",
-                "www.maif.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/3418\\/tc_MAIF_3\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.cookieEnabled": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "a57ec39c2ea596a815deb8660d6e42a0867440b5a9f77404e8bc9d156a928ba8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "maif.fr",
-                "www.maif.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/3418\\/tc_MAIF_2\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.pixelDepth": 2,
-                "Screen.prototype.colorDepth": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.javaEnabled": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "4f7bddb8eb4160b7413e547dd292334ed06457f2209822d49ec84eb98f8e8515"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "maif.fr",
-                "www.maif.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/5592\\/tc_UFCQueChoisir_20\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "a83646b218e88458891130120c9d18ecfb52ba9af368b3751b16f29bf2987d07"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "quechoisir.org",
@@ -464,80 +757,49 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/5594\\/tc_tv5_global_20\\.js",
+            "rule": "tagcommander\\.com\\/6035\\/tc_hcom_prod\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6ea91b515dc370b984374fa50473c82c52faa8d840a82e08b2d380466fe89742"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_23\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "706ec94f4b6b0ef13016e9b9c7b6d14b9b863f4095323cb0c9639faae3481841"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "tv5monde.com",
-                "www.tv5monde.com"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_17\\.js",
-            "cookies": 0.0001,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3,
-                "window.sessionStorage": 3,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1,
-                "Navigator.prototype.cookieEnabled": 2
+                "window.localStorage": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "dc858ad34afd03427620f4babac0da619717ba44029f0bc436bb34ac9ec5dcbb"
+                "1c5be0c6f3a03a59f4feecb06ab06592cd2dd66061be35e0f24993d9341274a9"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "tc_splitaudience2020": {
-                    "ttl": 31536003,
-                    "length": 11,
-                    "prevalence": 0.0001004217714400482,
-                    "uniqueness": 1
-                },
-                "TC_priv_Perso": {
-                    "ttl": 30240003,
-                    "length": 5,
-                    "prevalence": 0.0001004217714400482,
-                    "uniqueness": 1
-                },
-                "tCdebugLib": {
-                    "ttl": 2592003,
-                    "length": 1,
-                    "prevalence": 0.0001004217714400482,
-                    "uniqueness": 1
-                },
-                "TCPID": {
-                    "ttl": 33955203,
-                    "length": 21,
-                    "prevalence": 0.0001004217714400482,
-                    "uniqueness": 1
-                }
-            },
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "laposte.fr",
@@ -546,7 +808,48 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_3\\.js",
+            "rule": "tagcommander\\.com\\/33\\/tc_Boulanger_36\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e449ca4d8853650812630b72adf1b4e0377685f492bb330c6a6b2b8205d86f81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tc_cj_v2": {
+                    "ttl": 31536002,
+                    "length": 48,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "TCPID": {
+                    "ttl": 33955203,
+                    "length": 22,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.boulanger.com"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/33\\/tc_Boulanger_32\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -554,193 +857,46 @@
             ],
             "apis": {
                 "window.localStorage": 2,
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "dc856f4e7a153d10293ca6784e2c7ce6907ab9794ac34ec64d576f23ae285112"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "laposte.fr",
-                "www.laposte.net",
-                "www.laposte.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_6\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3,
-                "window.sessionStorage": 3,
-                "Navigator.prototype.cookieEnabled": 1,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "32acc232affa4d791f5bc0a189c9b5c706a0d5810edff4b94b562a391ac59ea3"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "TCPID": {
-                    "ttl": 33955202,
-                    "length": 22,
-                    "prevalence": 0.0001004217714400482,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "laposte.fr",
-                "www.laposte.net",
-                "www.laposte.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/1638\\/tc_header_FR\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
                 "Navigator.prototype.cookieEnabled": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "c2d71198fc6ff809645037c3fb557d24c06d0f7b62f65b7ee2c9ef929028213a"
+                "13bca49a3af1eeddf35d9f61b86e09c8868128e601a68149a258d2e10a5916e2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "damart.fr",
-                "www.damart.fr"
+                "boulanger.com",
+                "www.boulanger.com"
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/1638\\/tc\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "9d9d21db314c4bc8bb2f258ab17eb1cc5753e70ec5e27be7bcd52ef2b169fa71"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "damart.fr",
-                "www.damart.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/dms\\/engage\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
-            "cnames": [],
-            "responseHashes": [
-                "3dd7cf465f3a7849974b1c5f038608da3346e56563f28aa1de0a80ea7b326d2a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "damart.fr",
-                "www.celio.com",
-                "www.damart.fr",
-                "www.kiabi.com"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/1638\\/tc_catalog_FR\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f8194622fb4075843813c6cb4a64a078206e05064645a526dd5ba3bb5c847867"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "damart.fr",
-                "www.damart.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/cs\\/cs\\.min\\.js",
+            "rule": "tagcommander\\.com\\/33\\/tc_Boulanger_34\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 13,
-                "Date.prototype.getTime": 13,
-                "Document.cookie getter": 5
+                "window.localStorage": 2
             },
-            "sites": 13,
-            "prevalence": 0.00131,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "fb28af044088df7700e04ee46a30f6aa9f005e210585cc3903ec9aa217454a5a"
+                "04e448c1f242ccfce257903d7c5c1b0561fad0288000a14f96d75f5b3d729aea"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "damart.fr",
-                "tenup.fft.fr",
-                "www.butagaz.fr",
-                "www.camaieu.fr",
-                "www.damart.fr",
-                "www.decathlon.fr",
-                "www.maisonsdumonde.com",
-                "www.moulinex.fr",
-                "www.promod.fr",
-                "www.rowenta.fr",
-                "www.sengager.fr",
-                "www.tefal.fr",
-                "www.yoox.com"
+                "boulanger.com",
+                "www.boulanger.com"
             ]
         },
         {
@@ -751,22 +907,23 @@
                 "cdn"
             ],
             "apis": {
+                "Document.cookie setter": 2,
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "151c7f6a2fe895bcb16b2f5544f16cc0858fe21c0a19d5db9f9978f612a44699"
+                "ee030895b87617bd28449e53bb353721c9d56ad2b0a63583d26308556cbeb04b"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "tCdebugLib": {
-                    "ttl": 2592002,
+                    "ttl": 2592021,
                     "length": 1,
-                    "prevalence": 0.0002008435428800964,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 0.5
                 }
             },
@@ -786,8 +943,7 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2,
-                "window.localStorage": 2
+                "Document.cookie setter": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
@@ -805,23 +961,43 @@
         },
         {
             "rule": "tagcommander\\.com\\/3063\\/tc_MGEN_3\\.js",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 1,
-                "Document.cookie getter": 1
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ac604f5086b1e782a7cfc270bd42568c3ade89251e4112822a3f29cc10f48712"
+                "442543765812ca982a1e1418c33ec990c37cfb435b2f3d80b715d8966843822b"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "tCdebugLib": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "tc_pageCounter": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "visitorid_media": {
+                    "ttl": 34128001,
+                    "length": 33,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "mgen.fr",
@@ -843,7 +1019,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c43fd93ac172ccd1203990627a67749e3a2318a16ffe5fa08f485a5befc7b547"
+                "26a192b2c29f5fcf8b1512e22a212a03375eeffa7632dd4ad38d74cb669d3396"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -855,20 +1031,59 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/3468\\/tc_ENGIE_1\\.js",
+            "rule": "tagcommander\\.com\\/4557\\/tc_ENEDIS_21\\.js",
             "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a74641310c03873194fce7b98f9838261709d44a450e565fea01b8bbd2173d7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "TCPID": {
+                    "ttl": 33955202,
+                    "length": 20,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enedis.fr",
+                "www.enedis.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3468\\/tc_ENGIE_1\\.js",
+            "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie setter": 1,
-                "Document.cookie getter": 1,
                 "window.sessionStorage": 2,
                 "window.localStorage": 2,
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.platform": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
                 "Notification.permission": 2,
                 "Navigator.prototype.cookieEnabled": 2
             },
@@ -876,20 +1091,20 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "3b4823ec574490c826254e3879b85d5aeba74fa7587c9ee0fb0a6c21c9f017ce"
+                "239f7bbf30705126a2df8cf04e68427f9e16d5b4aed8a09f024f6f238e1894b7"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "tc_n_test": {
-                    "ttl": 15552002,
+                    "ttl": 15552003,
                     "length": 1,
-                    "prevalence": 0.0001004217714400482,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 },
                 "TCPID": {
-                    "ttl": 33955203,
-                    "length": 21,
-                    "prevalence": 0.0001004217714400482,
+                    "ttl": 33955204,
+                    "length": 20,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
@@ -901,37 +1116,69 @@
         },
         {
             "rule": "tagcommander\\.com\\/344\\/lcl_container_refonte\\.js",
-            "cookies": 0.0001,
+            "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.vendor": 2,
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
                 "Screen.prototype.pixelDepth": 2,
                 "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Navigator.prototype.language": 2,
                 "Navigator.prototype.javaEnabled": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
+                "Navigator.prototype.cookieEnabled": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "f9bd7c6bff20b37a22b83c85a4b75a7f713facc2b27379c002ea532fa2a73df6"
+                "84ffe48c14a97dee496c524370ba0f719a2c610fc8d8626d85aa3be9013623d4"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "tc_cj_v2": {
+                    "ttl": 31536003,
+                    "length": 48,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "TC_privacy_load": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "atuserid": {
+                    "ttl": 34300803,
+                    "length": 186,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "atidvisitor": {
+                    "ttl": -1660731988,
+                    "length": 153,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "atauthority": {
+                    "ttl": 34300807,
+                    "length": 222,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
                 "TCPID": {
                     "ttl": 33955204,
-                    "length": 21,
-                    "prevalence": 0.0001004217714400482,
+                    "length": 20,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
@@ -943,7 +1190,7 @@
         },
         {
             "rule": "tagcommander\\.com\\/3063\\/tc_MGEN_1\\.js",
-            "cookies": 0.0001,
+            "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
@@ -952,10 +1199,10 @@
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.vendor": 2,
                 "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.cookieEnabled": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
+                "Document.cookie setter": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
@@ -965,10 +1212,28 @@
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "tCdebugLib": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "tc_pageCounter": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
                 "visitorid_media": {
-                    "ttl": 34128001,
-                    "length": 33,
-                    "prevalence": 0.0001004217714400482,
+                    "ttl": 34128002,
+                    "length": 31,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "TCPID": {
+                    "ttl": 33955202,
+                    "length": 20,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
@@ -976,6 +1241,35 @@
             "exampleSites": [
                 "mgen.fr",
                 "www.mgen.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/cs\\/cs\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "b3f29536bd95a1fdf320b81bab8e420538cdea710842e5639330410b2d805d63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fft.fr",
+                "www.camaieu.fr",
+                "www.conforama.fr",
+                "www.fff.fr",
+                "www.sengager.fr"
             ]
         },
         {
@@ -1003,19 +1297,19 @@
                 "tc_cj_v2": {
                     "ttl": 31536002,
                     "length": 48,
-                    "prevalence": 0.0002008435428800964,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 0.5
                 },
                 "pageCounterCarrefourVoyages": {
                     "ttl": null,
                     "length": 1,
-                    "prevalence": 0.0002008435428800964,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 0.5
                 },
                 "pageCounterVoyages": {
                     "ttl": null,
                     "length": 1,
-                    "prevalence": 0.0002008435428800964,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 0.5
                 }
             },
@@ -1041,7 +1335,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "ca9c319fc5613a44a2286cacdc438a065fbcd38690a743af75b5e5359e76eb6c"
+                "d2ee7eee0e785ced3a5e7b3f73d7a9b09acdbda449241477d37657134d3c0b4f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1054,49 +1348,32 @@
         {
             "rule": "tagcommander\\.com\\/tagperf\\/tagPerf\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
-            "cnames": [],
-            "responseHashes": [
-                "32d7cb6e91cb60eefe4b588aea6905a6c02371c7c746a23554183df71755ac09"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "camaieu.fr",
-                "www.gemo.fr",
-                "www.mma.fr",
-                "www.totalenergies.fr"
-            ]
-        },
-        {
-            "rule": "tagcommander\\.com\\/5666\\/tc_sgbdf_1\\.js",
-            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.devicePixelRatio": 2
+                "PerformanceTiming.prototype.navigationStart": 1
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 9,
+            "prevalence": 0.000903,
             "cnames": [],
             "responseHashes": [
-                "964906df8e083012d95f9c1495be1c28615203e0a73c2520d3a1c18b2dfca6a2"
+                "d8fe8e41da3bed4c85c612b475ea0f17c347ae9dcdb651dd164e722377c29cbf"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "cedeo.fr",
-                "www.pointp.fr"
+                "ag2rlamondiale.fr",
+                "www.camaieu.fr",
+                "www.europe1.fr",
+                "www.gemo.fr",
+                "www.kiabi.com",
+                "www.mma.fr",
+                "www.parismatch.com",
+                "www.rfm.fr",
+                "www.totalenergies.fr"
             ]
         },
         {
@@ -1107,25 +1384,112 @@
                 "cdn"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "c611476c38573e2fd93751c492aa1c101b2330771ebdc57a8c438f6a7a79b4c1"
+                "be80fe9412a709a11257f55336c056fa87cbd400ac8fd5a2aafb1bad38ddecf0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "celio.com",
+                "www.linvosges.com",
                 "www.okaidi.fr",
-                "www.oxybul.com",
+                "www.ouigo.com",
                 "www.petit-bateau.fr"
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/5762\\/tc_SergentMajor_20\\.js",
+            "rule": "tagcommander\\.com\\/dms\\/engage\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "3ef2616b16e70dddef6cadfd38756d6f6dff26be13b958b9c700d6918f57e76e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "celio.com",
+                "www.conforama.fr",
+                "www.fff.fr",
+                "www.ouigo.com"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3969\\/tc_CarrefourONE_21\\.js",
             "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "135e8f73da82db93c9ab1c4e4bcd09aa564190e54382da61c5ae071fca77f83e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cs_mk": {
+                    "ttl": 1808,
+                    "length": 33,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carrefour.fr",
+                "www.carrefour.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3969\\/tc_CarrefourONE_22\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b5e08db3ed124f7cfa64117a6e85415c8bcdf36397ff9159024555a00214e5fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carrefour.fr",
+                "www.carrefour.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/5762\\/tc_SergentMajor_20\\.js",
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -1133,9 +1497,9 @@
             "apis": {
                 "Navigator.prototype.cookieEnabled": 2,
                 "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
+                "Document.cookie setter": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
@@ -1146,9 +1510,9 @@
             "type": "Script",
             "firstPartyCookies": {
                 "TCPID": {
-                    "ttl": 33955205,
-                    "length": 22,
-                    "prevalence": 0.0001004217714400482,
+                    "ttl": 33955204,
+                    "length": 21,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
@@ -1166,31 +1530,31 @@
                 "cdn"
             ],
             "apis": {
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
                 "Date.prototype.getTime": 3,
                 "Navigator.prototype.userAgent": 3,
                 "Navigator.prototype.vendor": 3,
-                "window.localStorage": 3,
-                "Document.cookie getter": 3,
-                "Document.cookie setter": 3
+                "window.localStorage": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3cc80f42956a1312abe3f12d5633a3003f59e2e367c8359ee40bf74843e23556"
+                "9418b745d408f7adb8b785aced2901b47afa8545c16b1dcc20d31ac9d2b5a124"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "tc_cj_v2": {
-                    "ttl": 31536003,
+                    "ttl": 31536005,
                     "length": 110,
-                    "prevalence": 0.0003012653143201446,
+                    "prevalence": 0.00030096308186195825,
                     "uniqueness": 1
                 },
                 "tCdebugLib": {
-                    "ttl": 2592004,
+                    "ttl": 2592011,
                     "length": 1,
-                    "prevalence": 0.0003012653143201446,
+                    "prevalence": 0.00030096308186195825,
                     "uniqueness": 0.3333333333333333
                 }
             },
@@ -1210,14 +1574,14 @@
             ],
             "apis": {
                 "Date.prototype.getTime": 3,
-                "window.localStorage": 3,
-                "Document.cookie getter": 3
+                "Document.cookie getter": 3,
+                "window.localStorage": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "9d22fa2a65bd0a643f92c01f9f5fe0a7e608756d122cd25fb05f737ff1e8eb19"
+                "101a04a1641db84e371465fa2a1133b684e60e476327a53fd28bbfc60384b530"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1229,29 +1593,42 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/utils\\/hit\\.php",
+            "rule": "tagcommander\\.com\\/3862\\/tc_AnalyticsMediaGlobal_22\\.js",
             "cookies": 0.000201,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "manager"
+                "cdn"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "3ca19e57c9a2465ae4df271316ba4d29e7ff7f113a2a2c5297780c0b7a0ac09d"
+                "f44a8bce2e8333b5399a2c5c7883f721f829a8356476bb06c4556045e43b7574"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "tc_cj_v2": {
+                    "ttl": 31536004,
+                    "length": 48,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "floabank.fr",
-                "www.gemo.fr"
+                "europcar.com",
+                "www.europcar.fr"
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_5\\.js",
+            "rule": "tagcommander\\.com\\/3862\\/tc_AnalyticsMediaGlobal_20\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -1261,16 +1638,342 @@
                 "window.localStorage": 2,
                 "Date.prototype.getTime": 2,
                 "Navigator.prototype.userAgent": 2,
-                "window.sessionStorage": 2
+                "Document.cookie getter": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "fe40a9122c37b9c865bba8ef7d81b08701201ec0ae549aa72ff599eb85aaa492"
+                "6984f15bd34475c32f81452bfa87d19ce1a4df02969f7e8fc5694159b1ff5b03"
             ],
             "type": "Script",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "europcar.com",
+                "www.europcar.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/3862\\/tc_AnalyticsMediaGlobal_21\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ad870fb5aa4f467e622c16120c29741f6ae5fc74f93a5b413f222a3b0befb88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "europcar.com",
+                "www.europcar.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/6035\\/tc_bex_prod\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0d9849b17fc2b7188fb70033a49f56dd73937eed8077336ea6a0cf323023caf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "page_name": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expedia.fr",
+                "www.expedia.com"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2520\\/tc_Global_SpecificNeeds_89\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "896713987d2bbdfbaf4dc899771956d437a0781a556af3c8b8e19f05aa5c13ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s2s_activation": {
+                    "ttl": 2592006,
+                    "length": 1,
+                    "prevalence": 0.0004012841091492777,
+                    "uniqueness": 0.25
+                },
+                "SessionIDUnique": {
+                    "ttl": 1806,
+                    "length": 33,
+                    "prevalence": 0.0004012841091492777,
+                    "uniqueness": 1
+                },
+                "TCPID": {
+                    "ttl": 33955209,
+                    "length": 20,
+                    "prevalence": 0.0004012841091492777,
+                    "uniqueness": 1
+                },
+                "tCdebugLib": {
+                    "ttl": 2592006,
+                    "length": 1,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "krups.fr",
+                "www.moulinex.fr",
+                "www.rowenta.fr",
+                "www.seb.fr",
+                "www.tefal.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2623\\/tc_LaBanquePostale_4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a95aea5ce17ef29f1ebf59ed81478c7e2c64d9492915728110e7d1296321127d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labanquepostale.com",
+                "www.labanquepostale.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2623\\/tc_LaBanquePostale_6\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "553cf3e1b88526c202c35623708ddd9f1817a17d60d8e1a9c08fcfe9d30d3d58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tCdebugLib": {
+                    "ttl": 2592002,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "testing_buttons": {
+                    "ttl": 2592002,
+                    "length": 1,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "TCPID": {
+                    "ttl": 33955203,
+                    "length": 21,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labanquepostale.com",
+                "www.labanquepostale.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2623\\/tc_LaBanquePostale_5\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ebfbcd618cabbac9067d7d4826f7836b41e6d5948d54f206004e098da74b24e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "atuserid": {
+                    "ttl": 34300802,
+                    "length": 186,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "atidvisitor": {
+                    "ttl": -1660729482,
+                    "length": 153,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "atauthority": {
+                    "ttl": 34300802,
+                    "length": 222,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labanquepostale.com",
+                "www.labanquepostale.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_17\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "23cf6bc1885d7626c23b471c96664776a4074a2895802a8c29a8ef6c001fc0f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laposte.net",
+                "www.laposte.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_5\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3e13c7ab43cd10ca46ac306d5c15fcbfd5cd7c9a9a0e673679791adcca506b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tc_cj_v2": {
+                    "ttl": 31536003,
+                    "length": 48,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "tc_splitaudience2020": {
+                    "ttl": 31536003,
+                    "length": 11,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "TC_priv_Perso": {
+                    "ttl": 30240003,
+                    "length": 5,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "TCPID": {
+                    "ttl": 33955204,
+                    "length": 21,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "laposte.net",
@@ -1279,22 +1982,78 @@
         },
         {
             "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_1\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f3e0c93e644e13afeb83b49a4daa5e24da452297709b1ce8ec3183e51f3feac4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "atuserid": {
+                    "ttl": 34300804,
+                    "length": 186,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "atidvisitor": {
+                    "ttl": -1660729489,
+                    "length": 153,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                },
+                "atauthority": {
+                    "ttl": 34300804,
+                    "length": 222,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laposte.net",
+                "www.laposte.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/1491\\/tc_LaboutiqueLaPoste_3\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 1,
-                "Date.prototype.getTime": 1,
-                "Navigator.prototype.userAgent": 1,
-                "window.sessionStorage": 1
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "44c06a10b795e118303f5c72810d7a08241a76ba7477fc50461b1bf82fcfb31d"
+                "0c09f49de862346b0a281317ed9dff0844aabc82c8d08bfb5c70eca2a0cc783e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1305,44 +2064,131 @@
             ]
         },
         {
-            "rule": "tagcommander\\.com\\/2520\\/tc_Global_SpecificNeeds_89\\.js",
-            "cookies": 0.000301,
+            "rule": "tagcommander\\.com\\/1432\\/tc_Linvosgesfr_1\\.js",
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "Document.cookie getter": 3,
-                "Document.cookie setter": 3
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2
             },
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "257c2bf58d3d3708d3e18d4e1a01b6994f4a90ba879285c9f03e9bf53ae8c7f0"
+                "00dfacd2d3139fe025d115b32d18a677ec82ac77b802af5dbb86c0da42ba7269"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "TCPID": {
-                    "ttl": 33955202,
+                "TCSESSION": {
+                    "ttl": 1808,
                     "length": 21,
-                    "prevalence": 0.0003012653143201446,
-                    "uniqueness": 1
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
                 },
-                "SessionIDUnique": {
-                    "ttl": 1802,
-                    "length": 33,
-                    "prevalence": 0.0003012653143201446,
-                    "uniqueness": 1
+                "tc_cj_v2": {
+                    "ttl": 31536009,
+                    "length": 48,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "ow_cookielist": {
+                    "ttl": -714035499,
+                    "length": 7,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "ow_cross_sell": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "moulinex.fr",
-                "www.rowenta.fr",
-                "www.seb.fr",
-                "www.tefal.fr"
+                "linvosges.com",
+                "www.linvosges.com"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/2451\\/tagpattern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "18307f1c76f72fab62cf0d3578ae8df65d9708d32108162b17bd95a15cd43517"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rfm.fr",
+                "www.rfm.fr"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/4343\\/tc_SEBrandGlobal_93\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7c6cc71299f5574289c5597eea2c8521f9f347c291dcf2151d7c150b111b466b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "se.com",
+                "www.se.com"
+            ]
+        },
+        {
+            "rule": "tagcommander\\.com\\/4343\\/tc_SEBrandGlobal_21\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "be18d3d2a55eebf2e57f474a28446283ff430759771d3ea9db843d27cf42630d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "se.com",
+                "www.se.com"
             ]
         }
     ],
@@ -1354,17 +2200,16 @@
         "Action Pixels"
     ],
     "performance": {},
-    "cookies": 0.00743,
+    "cookies": 0.0139,
     "types": {
-        "Script": 116,
-        "Image": 2
+        "Script": 151
     },
     "nameservers": [
-        "ns-1168.awsdns-18.org",
-        "ns-1696.awsdns-20.co.uk",
         "ns-277.awsdns-34.com",
         "ns-838.awsdns-40.net",
         "ns1.cdnetdns.net",
-        "ns2.cdnetdns.net"
+        "ns2.cdnetdns.net",
+        "ns-1696.awsdns-20.co.uk",
+        "ns-1168.awsdns-18.org"
     ]
 }

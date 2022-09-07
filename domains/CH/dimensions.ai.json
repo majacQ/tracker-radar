@@ -7,33 +7,35 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000402,
+    "sites": 4,
     "subdomains": [
         "badge"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "dimensions\\.ai\\/badge\\.js",
+            "rule": "dimensions\\.ai\\/config\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "badge"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "3a955472a1cbe5edeb21207bdd2efb9013e4cc475e49b803ca6e9cd4261d324a"
+                "66a9ac33bc7334e6ce14160321089e9efd0d7eeef308a9498c89349f062e74f3"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "iop.org",
+                "bullmed.ch",
+                "iopscience.iop.org",
+                "saez.ch",
                 "www.degruyter.com"
             ]
         },
@@ -45,18 +47,43 @@
                 "badge"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "6a595596af0cfb99df058d2787d8ee8028a3efb951305b3b30e6c9dc9b7979e5"
+                "bf76e5f03be0c0fca62fdd9cabc51f1724001084b13296d66141342a7f2ad8b6"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "iop.org",
+                "bullmed.ch",
+                "iopscience.iop.org",
                 "saez.ch",
+                "www.degruyter.com"
+            ]
+        },
+        {
+            "rule": "dimensions\\.ai\\/badge\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "badge"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65cb8727c37d70b89e10f0211f0883d295b77fc0a62f07932a95a3a37f52db24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iop.org",
                 "www.degruyter.com"
             ]
         }
@@ -65,13 +92,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
-        "Stylesheet": 3
+        "Fetch": 4,
+        "Stylesheet": 4,
+        "Script": 2
     },
     "nameservers": [
-        "ns-1443.awsdns-52.org",
-        "ns-1624.awsdns-11.co.uk",
         "ns-254.awsdns-31.com",
-        "ns-514.awsdns-00.net"
+        "ns-514.awsdns-00.net",
+        "ns-1443.awsdns-52.org",
+        "ns-1624.awsdns-11.co.uk"
     ]
 }

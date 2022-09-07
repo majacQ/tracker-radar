@@ -4,36 +4,37 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "matomo"
+        "matomo",
+        "geo"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "geosurf\\.io\\/matomo\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.00000678,
             "fingerprinting": 2,
             "subdomains": [
                 "matomo"
             ],
             "apis": {
                 "Document.cookie getter": 1,
-                "window.name": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.platform": 2,
+                "window.name": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.mimeTypes": 1,
+                "Navigator.prototype.javaEnabled": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.platform": 1,
                 "Document.cookie setter": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d14787e0b55b599553fda8b517a2a441bbcb78e826a0625193850e9f9373be89"
@@ -43,16 +44,38 @@
                 "_pk_id.1.09dd": {
                     "ttl": 33955200,
                     "length": 28,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
                 "_pk_ses.1.09dd": {
                     "ttl": 1800,
                     "length": 1,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urban-vpn.com",
+                "www.urban-vpn.com"
+            ]
+        },
+        {
+            "rule": "geosurf\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "78016fb64fb18ba53de5a4eea1a8f04ec3656cee3dc754208cac2ee5c0b1eccb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "urban-vpn.com",
@@ -68,12 +91,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -84,10 +107,11 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0.00000678,
     "types": {
         "Script": 2,
-        "Other": 2
+        "XHR": 2,
+        "Ping": 2
     },
     "nameservers": [
         "pdns11.domaincontrol.com",

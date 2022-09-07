@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "maps"
+        "maps",
+        "cookie-banner"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -21,7 +22,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "24f84d63919e61c2b83fc2b008bd6ffe824237402595ff7fadca0e8bb40142c1"
@@ -35,9 +36,31 @@
             ]
         },
         {
+            "rule": "medialabtc\\.it\\/style\\/tecnocasa\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-banner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0670d68bffb49439375d99dc0bb350dbc162ae0c7677ebd7920735cbe115c6d7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tecnocasa.it",
+                "www.tecnocasa.it"
+            ]
+        },
+        {
             "rule": "medialabtc\\.it\\/js\\/2\\.0\\/bundle\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "maps"
             ],
@@ -46,12 +69,58 @@
                 "CanvasRenderingContext2D.prototype.getImageData": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c83e9d97512629dc3583006df781df6257d1d1f0696fc65591b1c370ee0dc0b8"
+                "bccad8741b774da51b00529b0c9f3f22c946d6d1b5c7cfb4143425abb8f22ce3"
             ],
             "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tecnocasa.it",
+                "www.tecnocasa.it"
+            ]
+        },
+        {
+            "rule": "medialabtc\\.it\\/cookies\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookie-banner"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e9ab53847b5adcc5582d4f88fbb3b9d887f6d5b786ea9a52f1c0ce4970b6796d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tecnocasa.it",
+                "www.tecnocasa.it"
+            ]
+        },
+        {
+            "rule": "medialabtc\\.it\\/v2\\/services\\/poi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -64,8 +133,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Stylesheet": 2,
-        "Script": 2
+        "Stylesheet": 4,
+        "Script": 4,
+        "Fetch": 2
     },
     "nameservers": [
         "ximena.ns.cloudflare.com",

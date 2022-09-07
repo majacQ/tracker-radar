@@ -7,25 +7,25 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.0413,
-    "sites": 412,
+    "prevalence": 0.0333,
+    "sites": 332,
     "subdomains": [
         "quantcast.mgr",
         "test.quantcast.mgr",
         "audit-tcfv2.quantcast.mgr",
         "stat.optad360.mgr",
         "webads.mgr",
-        "clickio.mgr",
         "optad360.mgr",
+        "gemius.mgr",
         "cdn.consentmanager.mgr",
         "consentmanager.mgr",
-        "ensighten.mgr",
-        "spolecznosci.mgr",
-        "cookies.onetrust.mgr",
-        "core.conversant.mgr",
         "trustarc.mgr",
+        "cookies.onetrust.mgr",
+        "c.sharethis.mgr",
+        "spolecznosci.mgr",
         "cdn.conversant.mgr",
-        "api.conversant.mgr"
+        "api.conversant.mgr",
+        "meteored.mgr"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -49,54 +49,138 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "10minutemail.com",
-                "knowyourmeme.com",
+                "www.insidermonkey.com",
                 "www.kleurenwaaier.nl"
             ]
         },
         {
             "rule": "consensu\\.org\\/tcfv2\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.0002,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.product": 203,
-                "Navigator.prototype.userAgent": 203,
-                "window.localStorage": 203,
-                "Document.cookie getter": 177,
-                "Date.prototype.getTime": 202
+                "Navigator.prototype.product": 147,
+                "Navigator.prototype.userAgent": 146,
+                "window.localStorage": 146,
+                "Document.cookie getter": 146,
+                "Date.prototype.getTime": 145,
+                "Document.cookie setter": 2
             },
-            "sites": 204,
-            "prevalence": 0.0205,
+            "sites": 147,
+            "prevalence": 0.0147,
             "cnames": [],
             "responseHashes": [
-                "0b5ea38631a92e351ee2023ed5cc1f7560d1bc370b41a33c83484832a1651b85"
+                "64f2f1f02fc851d4d6bdaab153f5511584d04c8fbe30742a2acedc68f955d547"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 33696000,
+                    "length": 4,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 2617,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0002004008016032064
+            },
             "exampleSites": [
                 "9gag.com",
                 "forum.xda-developers.com",
                 "itsfoss.com",
+                "mashable.com",
                 "myanimelist.net",
-                "patient.info",
                 "tabs.ultimate-guitar.com",
                 "whatismyipaddress.com",
-                "www.answers.com",
                 "www.bustle.com",
-                "www.express.co.uk",
-                "www.spanjevandaag.com",
-                "segmentnext.com",
-                "time.is",
-                "www.gpfans.com",
-                "www.op.gg",
-                "www.gamepressure.com",
-                "girlswhomagazine.nl",
-                "nl.forvo.com",
-                "www.parcelmonitor.com",
-                "www.sciencefocus.com"
+                "www.ign.com",
+                "www.manualslib.com",
+                "www.pistonheads.com",
+                "howchoo.com",
+                "afstand.net",
+                "www.patiencespelen.nl",
+                "tinyurl.com",
+                "www.eenvoudig-afvallen.nl",
+                "www.skoften.net",
+                "www.calendar-365.com",
+                "www.allmusic.com",
+                "www.trustedreviews.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/40\\/cmp2\\.js",
+            "cookies": 0.00591,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 63,
+                "Navigator.prototype.userAgent": 62,
+                "window.localStorage": 61,
+                "Document.cookie getter": 61,
+                "Date.prototype.getTime": 60,
+                "Document.cookie setter": 59
+            },
+            "sites": 65,
+            "prevalence": 0.00651,
+            "cnames": [],
+            "responseHashes": [
+                "c681185172b31540ba25420b054eb68c41fc623b7396cf7002b0b561abfd6660"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.0059118236472945895,
+                    "uniqueness": 0.13559322033898305
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.005711422845691383,
+                    "uniqueness": 0.017543859649122806
+                }
+            },
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.001503006012024048
+            },
+            "exampleSites": [
+                "www.howtogeek.com",
+                "www.nexusmods.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "global.techradar.com",
+                "www.cyclingweekly.com",
+                "www.cinemablend.com",
+                "www.loudersound.com",
+                "www.infoleek.nl",
+                "man-man.nl",
+                "www.space.com",
+                "www.windowscentral.com",
+                "forums.tomsguide.com",
+                "www.voetbal.com",
+                "www.imore.com",
+                "www.gamesradar.com",
+                "fem-fem.nl",
+                "webwoordenboek.nl",
+                "www.worldfootball.net"
             ]
         },
         {
@@ -107,81 +191,83 @@
                 "test.quantcast.mgr"
             ],
             "apis": {},
-            "sites": 309,
-            "prevalence": 0.031,
+            "sites": 107,
+            "prevalence": 0.0107,
             "cnames": [],
             "responseHashes": [
-                "0a5c20add80dfa892c8ce20c1185a664b9d9ba991c3b7281db96dab5178bfbf6"
+                "3f3060ece094097feb40c8b919c5b44a0798362a67bd346d29453debfdcf0b54"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "9gag.com",
-                "forum.xda-developers.com",
-                "itsfoss.com",
-                "myanimelist.net",
                 "pastebin.com",
-                "patient.info",
-                "tabs.ultimate-guitar.com",
-                "twinfinite.net",
-                "whatismyipaddress.com",
-                "www.answers.com",
-                "www.spanjevandaag.com",
-                "www.gawker.com",
-                "www.radiotimes.com",
-                "www.androidbytes.nl",
-                "www.unity.nu",
-                "www.curioctopus.nl",
-                "www.rcgroups.com",
-                "ezgif.com",
+                "www.express.co.uk",
+                "www.fixya.com",
+                "www.howtogeek.com",
+                "www.mirror.co.uk",
+                "www.nexusmods.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "worldofsolitaire.com",
+                "www.xandernieuws.net",
                 "whatculture.com",
-                "www.resetera.com"
+                "www.klusidee.nl",
+                "www.bekendeburen.nl",
+                "www.pcgamer.com",
+                "www.guitarworld.com",
+                "fem-fem.nl",
+                "www.marieclaire.com",
+                "www.whathifi.com",
+                "www.hardnieuws.nl"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/35\\/cmp2ui-nl\\.js",
+            "rule": "consensu\\.org\\/tcfv2\\/40\\/cmp2ui-nl\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.product": 70,
-                "Navigator.prototype.userAgent": 70,
-                "Date.prototype.getTime": 70,
-                "Screen.prototype.width": 70
+                "Navigator.prototype.product": 31,
+                "Navigator.prototype.userAgent": 31,
+                "Date.prototype.getTime": 31,
+                "window.innerWidth": 31,
+                "window.innerHeight": 31,
+                "Screen.prototype.width": 31
             },
-            "sites": 70,
-            "prevalence": 0.00702,
+            "sites": 31,
+            "prevalence": 0.00311,
             "cnames": [],
             "responseHashes": [
-                "ba9ff8a789a908f13dc1b4fbfd0ddf2f829136af7ddef6e2e24e908818b66f75"
+                "90d46e40ab7d0242342c8ecfcb943789dc563fefc1cc9e921199dd10ad6921eb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.grootsneek.nl",
-                "nl.forvo.com",
-                "www.afkortingen.nu",
-                "www.unity.nu",
-                "www.bridgebase.com",
-                "girlswhomagazine.nl",
-                "www.arrow.nl",
-                "www.manualscat.com",
-                "www.ralkleuren.com",
+                "www.techradar.com",
+                "lovereality.nl",
+                "www.wordfeudhelp.nl",
+                "www.trendalert.nl",
+                "www.alletop10lijstjes.nl",
+                "www.hetkontakt.nl",
+                "www.xandernieuws.net",
+                "www.dierenfun.com",
+                "tpo.nl",
+                "global.techradar.com",
+                "www.muzieklijstjes.com",
+                "www.welklidwoord.nl",
+                "groentegroente.nl",
+                "babyhelp.nl",
                 "www.xgn.nl",
-                "gamersdecide.com",
+                "freshhh.nl",
+                "www.gewoonvoorhem.nl",
                 "www.rdwdata.nl",
-                "www.lekkerensimpel.com",
-                "www.voetbalprimeur.nl",
-                "www.manify.nl",
-                "nl.tankbillig.info",
-                "www.allefolders.nl",
-                "www.gamersdecide.com",
-                "www.droidapp.nl",
-                "www.mijnserie.nl"
+                "www.yoys.nl",
+                "www.infoleek.nl"
             ]
         },
         {
@@ -192,36 +278,36 @@
                 "quantcast.mgr"
             ],
             "apis": {},
-            "sites": 202,
-            "prevalence": 0.0203,
+            "sites": 70,
+            "prevalence": 0.00701,
             "cnames": [],
             "responseHashes": [
-                "fade2d08994edcfb3de3883f9d23491bdf45476b8e25915736ad467d066f00ca"
+                "3d1627f72485993621281a48bd4f0d5251aa69b37b51b643af4c59abdf68ad07"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "9gag.com",
-                "forum.xda-developers.com",
-                "itsfoss.com",
-                "myanimelist.net",
-                "patient.info",
-                "tabs.ultimate-guitar.com",
-                "whatismyipaddress.com",
-                "www.answers.com",
-                "www.bustle.com",
                 "www.express.co.uk",
-                "www.ultimatespecs.com",
-                "www.volcanodiscovery.com",
-                "dutchreview.com",
-                "journals.sagepub.com",
-                "www.rdwdata.nl",
-                "www.sitepoint.com",
-                "www.gebruikershandleiding.com",
-                "afstand.net",
-                "lagged.com",
-                "www.travelgay.com"
+                "www.howtogeek.com",
+                "www.mirror.co.uk",
+                "www.nexusmods.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.androidcentral.com",
+                "www.hetkontakt.nl",
+                "man-man.nl",
+                "www.welklidwoord.nl",
+                "whatculture.com",
+                "www.whathifi.com",
+                "www.worldfootball.net",
+                "www.t3.com",
+                "www.imore.com",
+                "www.whattowatch.com",
+                "www.dierenfun.com",
+                "monsterhunterrise.wiki.fextralife.com",
+                "www.alletop10lijstjes.nl"
             ]
         },
         {
@@ -232,36 +318,36 @@
                 "quantcast.mgr"
             ],
             "apis": {},
-            "sites": 272,
-            "prevalence": 0.0273,
+            "sites": 97,
+            "prevalence": 0.00972,
             "cnames": [],
             "responseHashes": [
-                "d1b7822f309944cfed2b4b3715e070abace1d5bc6b62d98850c9912ba055b76d"
+                "01221da7571bda9135de704c433d67e3c4908ed930df8894a09fd812eee8b53e"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "9gag.com",
-                "forum.xda-developers.com",
-                "patient.info",
-                "tabs.ultimate-guitar.com",
-                "twinfinite.net",
-                "whatismyipaddress.com",
-                "www.answers.com",
-                "www.bustle.com",
-                "www.buzzfeed.com",
                 "www.express.co.uk",
-                "www.volcanodiscovery.com",
-                "www.setlist.fm",
+                "www.fixya.com",
+                "www.howtogeek.com",
                 "www.mirror.co.uk",
-                "codycross.info",
-                "www.androidcentral.com",
-                "www.gamerguides.com",
-                "www.whattowatch.com",
-                "www.babybytes.nl",
-                "www.thegearpage.net",
-                "www.guru3d.com"
+                "www.nexusmods.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.whathifi.com",
+                "www.laptopmag.com",
+                "perezhilton.com",
+                "www.imore.com",
+                "www.voetbalkrant.com",
+                "www.hetkontakt.nl",
+                "www.walesonline.co.uk",
+                "www.woorden.org",
+                "monsterhunterrise.wiki.fextralife.com",
+                "www.bekendeburen.nl",
+                "www.gta5-mods.com",
+                "freshhh.nl"
             ]
         },
         {
@@ -273,37 +359,39 @@
                 "stat.optad360.mgr"
             ],
             "apis": {},
-            "sites": 310,
-            "prevalence": 0.0311,
+            "sites": 106,
+            "prevalence": 0.0106,
             "cnames": [],
             "responseHashes": [
-                "2d0f6b590917e7d27ddeb026b280d62dde9d03bb92f47f56342fc5f68f0c24eb",
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
                 "63b4df6325a19186c1e5f955c3886e7a14f62c47c8f080f207e3dfd4630d3b35"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0018036072144288577
+            },
             "exampleSites": [
-                "9gag.com",
-                "forum.xda-developers.com",
-                "itsfoss.com",
-                "myanimelist.net",
                 "pastebin.com",
-                "patient.info",
-                "tabs.ultimate-guitar.com",
-                "twinfinite.net",
-                "whatismyipaddress.com",
-                "www.answers.com",
-                "www.codespeedy.com",
-                "poki.com",
-                "www.manify.nl",
-                "www.sciencedaily.com",
-                "imgur.com",
-                "www.digitalcameraworld.com",
-                "www.boekbeschrijvingen.nl",
-                "www.radio-frequentie.nl",
-                "urlebird.com",
-                "dutchreview.com"
+                "www.express.co.uk",
+                "www.fixya.com",
+                "www.howtogeek.com",
+                "www.mirror.co.uk",
+                "www.nexusmods.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.space.com",
+                "www.bleepingcomputer.com",
+                "worldofsolitaire.com",
+                "petapixel.com",
+                "www.yoys.nl",
+                "www.marieclaire.com",
+                "www.how2shout.com",
+                "www.mangaread.org",
+                "man-man.nl",
+                "www.walesonline.co.uk",
+                "www.voetbalkrant.com"
             ]
         },
         {
@@ -315,36 +403,326 @@
                 "test.quantcast.mgr"
             ],
             "apis": {},
-            "sites": 114,
-            "prevalence": 0.0114,
+            "sites": 44,
+            "prevalence": 0.00441,
             "cnames": [],
             "responseHashes": [
-                "393c989e1afd87e44cab9ce9174490c4eb0a2a71c3c229e710a4d3379affc061"
+                "40c5ce5b2f65eaa285d9210af9e82659b1918eb0ebb6ce2f908d655909f42b5a"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "www.techradar.com",
-                "www.tomsguide.com",
-                "www.tomshardware.com",
-                "www.winkels-nederland.nl",
+                "www.viafora.nl",
+                "babyhelp.nl",
+                "www.voetbalkrant.com",
+                "www.waterkant.net",
+                "www.hetkontakt.nl",
+                "tpo.nl",
+                "groentegroente.nl",
+                "www.trendalert.nl",
                 "www.babybytes.nl",
-                "www.cyclingnews.com",
-                "www.whattowatch.com",
-                "www.tuxx.nl",
-                "www.manify.nl",
-                "www.telstar-online.nl",
-                "www.arrow.nl",
-                "www.wikifeet.com",
-                "freshhh.nl",
-                "www.gewoonvoorhem.nl",
+                "www.xandernieuws.net",
+                "www.dierenfun.com",
+                "112groningen.nl",
+                "www.mijnwoordenboek.nl",
+                "www.encyclo.nl",
+                "www.xgn.nl",
+                "www.alletop10lijstjes.nl",
                 "www.bekendeburen.nl",
-                "www.radioluisteren.fm",
-                "bitcoinmagazine.nl",
-                "gamersdecide.com",
-                "androidworld.nl",
-                "www.laptopmag.com"
+                "webwoordenboek.nl",
+                "www.gewoonvoorhem.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/cmp\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "ec04824b05ce8df2fc59efa298c93f9428b4bac283200ab572e8678b045ff6de"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/consentUi\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "b4a93a2f61cb85ff9f8a262b693807d16611a9045cd5298b390d70e3d18915ba"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/consentUi\\/icons\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "5f340e58f71b513d43ae1731dfc9f3161289ee9681b8affd200bc25a3a3bb0c7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/consentUi\\/static\\/css\\/main\\.78b068c0\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "7b98d1f7d819a2f00e3ed971991e71dc39e90cb96b674864a707ad454f057774"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/consentUi\\/static\\/js\\/2\\.84810796\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 7
+            },
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "67ecd6fe79095a9e894f8a3d58885ab4c98dc270aa175ceaa30a79a6ae8a0f44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/consentUi\\/static\\/js\\/main\\.b4941022\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "0810f7c629a8a0126de1a82940042f445e08a75f375cb0abef33592d0bb7e8a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/consentUi\\/fonts\\/icomoon\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webads.mgr"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.0015,
+            "cnames": [],
+            "responseHashes": [
+                "90f64f853ae8d97fedbdd04cedf34f441d9686ad731916ec32243e78d8bf6c7f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbq-helden.nl",
+                "drimble.nl",
+                "forum.fok.nl",
+                "frontpage.fok.nl",
+                "isgeschiedenis.nl",
+                "schrijvenonline.org",
+                "songteksten.net",
+                "www.chicklit.nl",
+                "www.detelefoongids.nl",
+                "www.ensie.nl",
+                "www.livep2000.nl",
+                "www.oudersenzo.nl",
+                "www.touretappe.nl",
+                "www.treinreiziger.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/30\\/cmp2\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2ddef05ee7b0caa6fd9be281a5b4e53ada42bff7814578d748144f2f9181e476"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccm.net",
+                "nl.ccm.net",
+                "www.voetbalkrant.com"
             ]
         },
         {
@@ -356,662 +734,83 @@
                 "test.quantcast.mgr"
             ],
             "apis": {},
-            "sites": 112,
-            "prevalence": 0.0112,
+            "sites": 65,
+            "prevalence": 0.00651,
             "cnames": [],
             "responseHashes": [
-                "c5f2a9329c15bccafd83c5acefcb49f5042436f7d78ff7b195a9b0454c5c99a7"
+                "ec04824b05ce8df2fc59efa298c93f9428b4bac283200ab572e8678b045ff6de"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "pastebin.com",
-                "twinfinite.net",
-                "www.buzzfeed.com",
                 "www.fixya.com",
-                "www.howtogeek.com",
-                "www.independent.co.uk",
-                "www.mirror.co.uk",
-                "www.nexusmods.com",
-                "www.researchgate.net",
-                "www.techradar.com",
-                "darksouls.wiki.fextralife.com",
-                "www.cyclingweekly.com",
-                "www.pcinvasion.com",
-                "read-onepiecemanga.com",
-                "forums.anandtech.com",
-                "www.techrepublic.com",
-                "monsterhunterworld.wiki.fextralife.com",
-                "www.motorbiscuit.com",
-                "petapixel.com",
-                "www.bimmerfest.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 29,
-                "Navigator.prototype.product": 29,
-                "Date.prototype.getTime": 29,
-                "Screen.prototype.width": 29,
-                "Event.prototype.timeStamp": 5
-            },
-            "sites": 29,
-            "prevalence": 0.00291,
-            "cnames": [],
-            "responseHashes": [
-                "587e2e7350886d6b5fd31e385638ffe5cf3331c82260e8fe76523f99cda27a42"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pastebin.com",
-                "www.fixya.com",
-                "www.researchgate.net",
-                "geekprank.com",
-                "www.how2shout.com",
-                "www.italy24news.com",
-                "www.codespeedy.com",
-                "www.skyscrapercity.com",
-                "www.bleepingcomputer.com",
-                "www.connectivasystems.com",
-                "www.looperman.com",
-                "pandagossips.com",
-                "www.bimmerfest.com",
-                "linuxconfig.org",
-                "read-onepiecemanga.com",
-                "www.mangaread.org",
-                "sparkbyexamples.com",
-                "dnschecker.org",
-                "www.pinknews.co.uk",
-                "www.phoronix.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/35\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 129,
-                "Navigator.prototype.userAgent": 129,
-                "Date.prototype.getTime": 129,
-                "Screen.prototype.width": 129
-            },
-            "sites": 129,
-            "prevalence": 0.0129,
-            "cnames": [],
-            "responseHashes": [
-                "5497d7b0c9713f3e5f37f4a6974af180eec8b11f969b13a4cba88a795916a806"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "9gag.com",
-                "forum.xda-developers.com",
-                "itsfoss.com",
-                "myanimelist.net",
-                "patient.info",
-                "tabs.ultimate-guitar.com",
-                "whatismyipaddress.com",
-                "www.answers.com",
-                "www.bustle.com",
-                "www.express.co.uk",
-                "www.androidbytes.nl",
-                "worldpopulationreview.com",
-                "time.is",
-                "www.pistonheads.com",
-                "www.radio-frequentie.nl",
-                "www.psu.com",
-                "segmentnext.com",
-                "www.resetera.com",
-                "www.setlist.fm",
-                "www.warhistoryonline.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/cmp\\/vendor-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {},
-            "sites": 20,
-            "prevalence": 0.00201,
-            "cnames": [],
-            "responseHashes": [
-                "c5f2a9329c15bccafd83c5acefcb49f5042436f7d78ff7b195a9b0454c5c99a7"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.1limburg.nl",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl",
-                "www.zoover.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/consentUi\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "521a5303db1a18b3250c4397de512a27e4f74a210fd68b6cb1a048c8fe27ac46"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/consentUi\\/icons\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "5f340e58f71b513d43ae1731dfc9f3161289ee9681b8affd200bc25a3a3bb0c7"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/consentUi\\/static\\/css\\/main\\.0572141e\\.chunk\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "056e13d2f3f9e96fa69de7b631f4fe18aa413aecb17ab85114d997661568f1c7"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/consentUi\\/static\\/js\\/2\\.936df2b6\\.chunk\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {
-                "Event.prototype.timeStamp": 8
-            },
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "83444059074cc63737405a09399e553980b192d01c6c2823cf74d158eb44f919"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/consentUi\\/static\\/js\\/main\\.06e4421c\\.chunk\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "ff43d54911a6006abf35096430b10c90ee71d27b2f787e5be1186d1f8c0088ee"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/consentUi\\/fonts\\/icomoon\\.ttf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webads.mgr"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
-            "cnames": [],
-            "responseHashes": [
-                "2f07aadbc5813df2b83690f626a9a8416fa044dc73c6898540173c749995906d"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "adorablebooks.nl",
-                "bbq-helden.nl",
-                "drimble.nl",
-                "forum.fok.nl",
-                "frontpage.fok.nl",
-                "isgeschiedenis.nl",
-                "jaimyskitchen.nl",
-                "promodomo.nl",
-                "schrijvenonline.org",
-                "songteksten.net",
-                "www.chicklit.nl",
-                "www.klusidee.nl",
-                "www.livep2000.nl",
-                "www.tijdmetkinderen.nl",
-                "www.touretappe.nl",
-                "www.vandale.nl",
-                "www.welklidwoord.be",
-                "www.welklidwoord.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/6Fv0cGNfc_bw8\\/www\\.themoneytizer\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "8f24dc76070927cc3d13b4f52f8ecb898fce1875c32563e7a3fae2450ef6babc"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "answerstoall.com",
-                "partyflock.nl",
-                "urlebird.com",
-                "www.mvorganizing.org"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/30\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3,
-                "window.localStorage": 3,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "2ddef05ee7b0caa6fd9be281a5b4e53ada42bff7814578d748144f2f9181e476"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ccm.net",
-                "nl.ccm.net",
-                "www.voetbalkrant.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/5pR25819dph-b\\/fextralife\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 7
-            },
-            "sites": 7,
-            "prevalence": 0.000702,
-            "cnames": [],
-            "responseHashes": [
-                "d84ee983231a00b7c7c0ad49ebc009a26724b53e8817a0a2448583c311782e7c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "darksouls2.wiki.fextralife.com",
-                "darksouls3.wiki.fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "monsterhunterworld.wiki.fextralife.com",
-                "newworld.wiki.fextralife.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/33\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 16,
-                "Navigator.prototype.userAgent": 16,
-                "window.localStorage": 16,
-                "Document.cookie getter": 16,
-                "Date.prototype.getTime": 16
-            },
-            "sites": 16,
-            "prevalence": 0.00161,
-            "cnames": [],
-            "responseHashes": [
-                "50620886c101862d378bb6aafe054417e7b0b8a0892b55e15fbf0f745936a797"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "darksouls2.wiki.fextralife.com",
-                "darksouls3.wiki.fextralife.com",
-                "diablo2.diablowiki.net",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "monsterhunterworld.wiki.fextralife.com",
-                "newworld.wiki.fextralife.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "pokemongohub.net",
-                "twinfinite.net",
-                "www.diabloii.net",
-                "www.icy-veins.com",
-                "www.nexusmods.com",
-                "www.pcinvasion.com",
-                "www.rolex.com",
-                "www.systemrequirementslab.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/33\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 15,
-                "Navigator.prototype.userAgent": 15,
-                "Date.prototype.getTime": 15,
-                "Screen.prototype.width": 15
-            },
-            "sites": 16,
-            "prevalence": 0.00161,
-            "cnames": [],
-            "responseHashes": [
-                "277443d02fbaa9316d69a948dd540ac44a82609406dad51e084f54b924b0d898"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "darksouls2.wiki.fextralife.com",
-                "darksouls3.wiki.fextralife.com",
-                "diablo2.diablowiki.net",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "monsterhunterworld.wiki.fextralife.com",
-                "newworld.wiki.fextralife.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "pokemongohub.net",
-                "twinfinite.net",
-                "www.diabloii.net",
-                "www.icy-veins.com",
-                "www.nexusmods.com",
-                "www.pcinvasion.com",
-                "www.rolex.com",
-                "www.systemrequirementslab.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/t\\/consent_220206_V3\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "clickio.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "a9146fd9f509ae0a1e70ebc41d5061417a42e15c99474236fbed8beb416ddd65"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "abcdef.wiki",
-                "nl.abcdef.wiki"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 28,
-                "Navigator.prototype.product": 28,
-                "window.localStorage": 28,
-                "Document.cookie getter": 25,
-                "Date.prototype.getTime": 28
-            },
-            "sites": 28,
-            "prevalence": 0.00281,
-            "cnames": [],
-            "responseHashes": [
-                "7baadf42bdd7151de787de3b98f1c65f55cc2b3d34d4fbe90a0e490756dd3a1b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00010034115994380895
-            },
-            "exampleSites": [
-                "www.fixya.com",
-                "www.researchgate.net",
-                "www.sciencedaily.com",
-                "www.avsforum.com",
-                "www.vi.nl",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
                 "www.bekendeburen.nl",
-                "www.encyclo.nl",
-                "www.pinknews.co.uk",
-                "tinyurl.com",
-                "www.mijnwoordenboek.nl",
-                "www.bleepingcomputer.com",
-                "www.phoronix.com",
-                "www.bimmerfest.com",
-                "www.babybytes.nl",
-                "linuxconfig.org",
-                "www.looperman.com",
-                "pandagossips.com",
                 "www.dagelijksestandaard.nl",
+                "www.windowscentral.com",
+                "poki.com",
+                "nieuwdezeweek.nl",
+                "www.bleepingcomputer.com",
+                "hardloopkalender.nl",
+                "www.androidcentral.com",
+                "www.gamesradar.com",
+                "www.avsforum.com",
+                "www.pcgamer.com",
                 "www.hardnieuws.nl",
-                "www.mariowiki.com"
+                "sparkbyexamples.com",
+                "www.loudersound.com",
+                "perezhilton.com",
+                "linuxconfig.org"
             ]
         },
         {
-            "rule": "consensu\\.org\\/choice\\/ef319LWA1Q2Gu\\/www\\.softpedia\\.com\\/choice\\.js",
+            "rule": "consensu\\.org\\/tcfv2\\/40\\/cmp2ui-en\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.product": 32,
+                "Navigator.prototype.userAgent": 32,
+                "Date.prototype.getTime": 32,
+                "window.innerWidth": 32,
+                "window.innerHeight": 32,
+                "Screen.prototype.width": 32
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 32,
+            "prevalence": 0.00321,
             "cnames": [],
             "responseHashes": [
-                "4a19ffd85b2ddcf324fc9b602c0daff4b3e4a60f66d8732e4e9096d75205df2e"
+                "350786f64e0b10bb61083f97962b7d0e490ccb41eabad5189059e17d4b3a6b03"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "softpedia.com",
-                "www.softpedia.com"
+                "www.howtogeek.com",
+                "www.nexusmods.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.pcinvasion.com",
+                "www.guitarworld.com",
+                "monsterhunterrise.wiki.fextralife.com",
+                "www.laptopmag.com",
+                "www.space.com",
+                "www.digitalcameraworld.com",
+                "www.musicradar.com",
+                "www.livescience.com",
+                "www.androidcentral.com",
+                "www.pcgamer.com",
+                "www.whattowatch.com",
+                "www.worldfootball.net",
+                "www.t3.com",
+                "www.cyclingweekly.com",
+                "u.gg",
+                "www.loudersound.com"
             ]
         },
         {
@@ -1022,8 +821,8 @@
                 "optad360.mgr"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 11,
+            "prevalence": 0.0011,
             "cnames": [],
             "responseHashes": [
                 "8bed5f918553905a007e52b43555508f418de0f0553e856bee0bf4a857f895bc"
@@ -1033,14 +832,16 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ecobuilderz.com",
-                "nl.10steps.org",
-                "nl.blog-womantoday.com",
+                "garden-landscape.com",
                 "nl.delachieve.com",
-                "nl.esdifferent.com",
-                "nl.lets-rebuild.com",
+                "nl.ezgardentips.com",
+                "nl.macspots.com",
                 "nl.sawakinome.com",
-                "nl.strephonsays.com",
-                "nl.thpanorama.com"
+                "nl.thpanorama.com",
+                "nl.tierient.com",
+                "nl1.warbletoncouncil.org",
+                "projectsports.nl",
+                "unistica.com"
             ]
         },
         {
@@ -1051,11 +852,12 @@
                 "optad360.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Date.prototype.getTime": 9
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "window.innerWidth": 6
             },
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
                 "eb16304c17c120cabd2bc9ba56114d31bb2c05114e17c531bcf21a682f8629d2"
@@ -1065,14 +867,11 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ecobuilderz.com",
-                "nl.10steps.org",
-                "nl.blog-womantoday.com",
+                "garden-landscape.com",
                 "nl.delachieve.com",
-                "nl.esdifferent.com",
-                "nl.lets-rebuild.com",
-                "nl.sawakinome.com",
-                "nl.strephonsays.com",
-                "nl.thpanorama.com"
+                "nl.ezgardentips.com",
+                "nl.tierient.com",
+                "unistica.com"
             ]
         },
         {
@@ -1080,28 +879,32 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "optad360.mgr"
+                "optad360.mgr",
+                "gemius.mgr"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 12,
+            "prevalence": 0.0012,
             "cnames": [],
             "responseHashes": [
-                "c5f2a9329c15bccafd83c5acefcb49f5042436f7d78ff7b195a9b0454c5c99a7"
+                "ec04824b05ce8df2fc59efa298c93f9428b4bac283200ab572e8678b045ff6de"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ecobuilderz.com",
-                "nl.10steps.org",
-                "nl.blog-womantoday.com",
+                "garden-landscape.com",
                 "nl.delachieve.com",
-                "nl.esdifferent.com",
-                "nl.lets-rebuild.com",
+                "nl.ezgardentips.com",
+                "nl.macspots.com",
                 "nl.sawakinome.com",
-                "nl.strephonsays.com",
-                "nl.thpanorama.com"
+                "nl.thpanorama.com",
+                "nl.tierient.com",
+                "nl1.warbletoncouncil.org",
+                "projectsports.nl",
+                "unistica.com",
+                "www.cinemagia.ro"
             ]
         },
         {
@@ -1112,756 +915,159 @@
                 "optad360.mgr"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 11,
+            "prevalence": 0.0011,
             "cnames": [],
             "responseHashes": [
-                "393c989e1afd87e44cab9ce9174490c4eb0a2a71c3c229e710a4d3379affc061"
+                "40c5ce5b2f65eaa285d9210af9e82659b1918eb0ebb6ce2f908d655909f42b5a"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ecobuilderz.com",
-                "nl.10steps.org",
-                "nl.blog-womantoday.com",
+                "garden-landscape.com",
                 "nl.delachieve.com",
-                "nl.esdifferent.com",
-                "nl.lets-rebuild.com",
+                "nl.ezgardentips.com",
+                "nl.macspots.com",
                 "nl.sawakinome.com",
-                "nl.strephonsays.com",
-                "nl.thpanorama.com"
+                "nl.thpanorama.com",
+                "nl.tierient.com",
+                "nl1.warbletoncouncil.org",
+                "projectsports.nl",
+                "unistica.com"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/34\\/cmp2\\.js",
+            "rule": "consensu\\.org\\/choice\\/6Fv0cGNfc_bw8\\/www\\.themoneytizer\\.com\\/choice\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.product": 35,
-                "Navigator.prototype.userAgent": 35,
-                "window.localStorage": 35,
-                "Document.cookie getter": 20,
-                "Date.prototype.getTime": 35
+                "Date.prototype.getTime": 3
             },
-            "sites": 35,
-            "prevalence": 0.00351,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "7289837e876c7bbbf1afc71abc4c5383e7f56692abeaa0a72b82e4e721ceba26"
+                "ad07c6b24e5575bc7fea432515d21d7ada9aeee0bdd5518b1d5fe24b98a091e3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.howtogeek.com",
-                "www.mirror.co.uk",
-                "www.techradar.com",
-                "www.tomsguide.com",
-                "www.tomshardware.com",
-                "poki.nl",
-                "poki.com",
-                "www.whattowatch.com",
-                "forums.tomsguide.com",
-                "www.cyclingweekly.com",
-                "www.whathifi.com",
-                "www.androidcentral.com",
-                "anandtech.com",
-                "www.imore.com",
-                "forums.tomshardware.com",
-                "www.gamesradar.com",
-                "www.marieclaire.com",
-                "www.filmvandaag.nl",
-                "forums.whathifi.com",
-                "www.guitarworld.com"
+                "elkantwoord.com",
+                "huisdierhier.nl",
+                "urlebird.com"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/34\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2\\.js",
+            "cookies": 0.0021,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.product": 10,
-                "Navigator.prototype.userAgent": 10,
-                "Date.prototype.getTime": 10,
-                "Screen.prototype.width": 10
-            },
-            "sites": 10,
-            "prevalence": 0.001,
-            "cnames": [],
-            "responseHashes": [
-                "e95015e979a80102c2ca35fd0d302a3d72fe378e46babe201e2219d41fab8658"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "anandtech.com",
-                "forums.tomsguide.com",
-                "forums.tomshardware.com",
-                "forums.whathifi.com",
-                "poki.com",
-                "www.howtogeek.com",
-                "www.marieclaire.com",
-                "www.mirror.co.uk",
-                "www.motorbiscuit.com",
-                "www.sciencealert.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/Hwnr8j7tWA3Nu\\/gamersdecide\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.language": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fdb1805089756df0f04063252659d2ef24208a1bf67bf1977b55c3deeead7786"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gamersdecide.com",
-                "www.gamersdecide.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp\\.min\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 30,
-            "prevalence": 0.00301,
-            "cnames": [],
-            "responseHashes": [
-                "12940ec656d0dc49993e7294149c671fd9a633d916536fbda7ae4bab15b144f0"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ok.ru",
-                "sourceforge.net",
-                "www.songtexte.com",
-                "www.fietsersbond.nl",
-                "steamcharts.com",
-                "inhetnieuws.nl",
-                "kortingscodes.ad.nl",
-                "www.kortingscode.nl",
-                "www.oozo.nl",
-                "www.faillissementsdossier.nl",
-                "www.inhetnieuws.nl",
-                "www.speeleiland.nl",
-                "www.vergleich.org",
-                "newworldfans.com",
-                "www.newworld-map.com",
-                "namemc.com",
-                "www.serebii.net",
-                "www.schuhe.de",
-                "techraptor.net",
-                "njam.tv"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp\\.php",
-            "cookies": 0.0013,
-            "fingerprinting": 1,
-            "subdomains": [
-                "consentmanager.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 24,
-                "Document.cookie getter": 14,
-                "Document.cookie setter": 5
-            },
-            "sites": 34,
-            "prevalence": 0.00341,
-            "cnames": [],
-            "responseHashes": [
-                "d6f88c3c9891e2d946f8e264a3b7bf33d771710c1f22555ad73e4d48c2992a5f",
-                "cd9d498aa3ff1f26807336369995cdfd9315cd3ec182b32ccff9844d512b4274",
-                "3197ef101b9016dafc57bbb471046b3e41617d59c5eafda97462a604da8fc6bd",
-                "ac4af85a74949fb66561b278449659cbf9d18815b07c6e3640855128120b14c6",
-                "0654aa133199f9e676a5fee684c1a4da7e938ca9b300bc3361eafc1b42f11a3d",
-                "2ce6205c31074a55fb8b0d2a1b897a29c4059104afb19be4c5bfa880a629b0a8",
-                "37bafcae26f5bf927563208934126de48725e2de2ab06fe8520d58717f575b54",
-                "8056e9c33bac7d06cb39512b3b2ad55a106b40964c87c764e7393636b5246b2c",
-                "ddc2857c2ad860b1341770182aac2b5cf755383469e660bc811635f078bcefb7",
-                "a8fbecd87269ebd087946aaac6e9578a6334d551deac2eb261172fcf84b9fa2c",
-                "9d78551a366f7690c9f8434ac584c116bab9c7b2b5554fcaac633ba37aba412a",
-                "bf84243673b6f3aab6b7596e87da750b6280e6e2a8d633786931cd70aaf52db8",
-                "79bf9b9e75a50e544f4be21803d5fa2288ca09c781ac4691953018c646419fc6",
-                "01557069a2d110e59cb7a214310d3d136ef01b14591a57f4fe092294b0407501",
-                "dd04e48d2e2d4f97e57794a6bdd35f4419507ac08889f2be72d4a4870fbbf6c5",
-                "69aa3e3707a2bffab011a88c7c688b380b328e1a8c661f754d6eaad167c5827f",
-                "71233172eb066d5936599806b6fe3877d86ce3994ac14ac6c9701c1ee2dbac85",
-                "3c5fbf1142c4c37c968c1688001c542e92cc43c8b0074166ed5e26a1114c7a47",
-                "6a3ab97a9be9e7b8e03f64eda0415cdbdedb8b11073a32d550797b5c54b0d058",
-                "43a6a0fba32c1ab91df507b4c9cde52ae4a12528bbcbff45be39a2bedba214e0",
-                "e737838ed95ac5f03730bcb22ea74d6a2ed835edec03d5cbd9f6ff0b8e7ecdc1",
-                "d72ff865b4769e93cb4835c2f045ff64bb03b331d4acb6443e4a271537e65d11",
-                "d76f6e84e70d1328d807a3e51b3e6a21e11884cc15840a8857b8443e1ddecf80",
-                "4e39f1c52b3f1a6bfc5d33aa5ec39fadfe0c37583be5f1f1e4db82eda0b1ae1a",
-                "4ab436cad78e967d20d4afb712529a34f789944996aa4443e78d2ded1b067c3d",
-                "3f116b3be8a7e21096e2d60c133566fa9e53d664b7d96bc7976300a6d87d185a",
-                "234f96c49caa72c2745e8c67c3d3074307ff7b5d2153517a956a4aede96fd93b",
-                "b9f0415e4cd0f1cf69e7c5212617d4b520de6aa52c0a73c557057c2fc1ab9113",
-                "ab8b03cfb09d8bea0278565ef2ff612001c70b40b22df2c39cb6be328564c229",
-                "bb698ba5d134ed3027db81aee0474b1b7d13b5b7f2dec9d128445f597667135a",
-                "45738e76a373b40c8b534969bd632bdea24536c54493ed9073ede5dffd7dca16"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "__cmpcc": {
-                    "ttl": 34128002,
-                    "length": 1,
-                    "prevalence": 0.0005017057997190448,
-                    "uniqueness": 0.2
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mail.ru",
-                "ok.ru",
-                "otvet.mail.ru",
-                "sourceforge.net",
-                "kortingscodes.ad.nl",
-                "www.fietsersbond.nl",
-                "www.kortingscode.nl",
-                "www.schuhe.de",
-                "www.thelabelfinder.nl",
-                "www.pcgamesn.com",
-                "www.vergleich.org",
-                "www.songtexte.com",
-                "www.serebii.net",
-                "www.eenvoudig-afvallen.nl",
-                "www.ok.ru",
-                "www.faillissementsdossier.nl",
-                "steamcharts.com",
-                "namemc.com",
-                "www.oozo.nl",
-                "www.lampen24.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp_nl\\.min\\.js",
-            "cookies": 0.00211,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.languages": 18,
-                "Navigator.prototype.language": 18,
+                "Navigator.prototype.userAgent": 21,
+                "Navigator.prototype.product": 21,
+                "window.localStorage": 21,
                 "Document.cookie getter": 21,
                 "Date.prototype.getTime": 21,
-                "Document.cookie setter": 21,
-                "window.localStorage": 1
+                "Document.cookie setter": 21
             },
             "sites": 21,
-            "prevalence": 0.00211,
+            "prevalence": 0.0021,
             "cnames": [],
             "responseHashes": [
-                "b2a94ee6d50cb9569286765e0a614b0deeeb5e2e206ee7e4c7e9bb6a7825f60f"
+                "7baadf42bdd7151de787de3b98f1c65f55cc2b3d34d4fbe90a0e490756dd3a1b"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "__cmpconsentx13566": {
-                    "ttl": 86402,
-                    "length": 44,
-                    "prevalence": 0.00030102347983142685,
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.002104208416833667,
                     "uniqueness": 1
                 },
-                "__cmpcccx13566": {
-                    "ttl": 86402,
-                    "length": 20,
-                    "prevalence": 0.00030102347983142685,
-                    "uniqueness": 1
-                },
-                "__cmpconsent10997": {
-                    "ttl": 1209603,
-                    "length": 63,
-                    "prevalence": 0.0006020469596628537,
-                    "uniqueness": 1
-                },
-                "__cmpcvcu10997": {
-                    "ttl": 1209603,
-                    "length": 14,
-                    "prevalence": 0.0006020469596628537,
-                    "uniqueness": 0.3333333333333333
-                },
-                "__cmpcpcu10997": {
-                    "ttl": 1209603,
-                    "length": 4,
-                    "prevalence": 0.0006020469596628537,
-                    "uniqueness": 0.16666666666666666
-                },
-                "__cmpconsentx20819": {
-                    "ttl": 1209603,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcx20819": {
-                    "ttl": 1209603,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcx20819": {
-                    "ttl": 1209603,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvc": {
-                    "ttl": 1209603,
-                    "length": 4,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 0.5
-                },
-                "__cmpcpc": {
-                    "ttl": 1209603,
-                    "length": 4,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 0.5
-                },
-                "__cmpconsents1": {
-                    "ttl": 31536003,
-                    "length": 318,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 1
-                },
-                "__cmpcvcs1": {
-                    "ttl": 31536003,
-                    "length": 635,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 0.5
-                },
-                "__cmpcpcs1": {
-                    "ttl": 31536003,
-                    "length": 4,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 0.5
-                },
-                "__cmpconsent5854": {
-                    "ttl": 604803,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcu5854": {
-                    "ttl": 604803,
-                    "length": 15,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcu5854": {
-                    "ttl": 604803,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpconsentx11319": {
-                    "ttl": 1209602,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcx11319": {
-                    "ttl": 1209602,
-                    "length": 11,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcx11319": {
-                    "ttl": 1209602,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpconsentx17562": {
-                    "ttl": 1209603,
-                    "length": 48,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcx17562": {
-                    "ttl": 1209603,
-                    "length": 65,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcx17562": {
-                    "ttl": 1209603,
-                    "length": 5,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcu4505": {
-                    "ttl": 1209602,
-                    "length": 30,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcu4505": {
-                    "ttl": 1209602,
-                    "length": 9,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpconsentx20112": {
-                    "ttl": 1209602,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcx20112": {
-                    "ttl": 1209602,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcx20112": {
-                    "ttl": 1209602,
-                    "length": 4,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcvcu8023": {
-                    "ttl": 259203,
-                    "length": 22,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcpcu8023": {
-                    "ttl": 259203,
-                    "length": 5,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpconsentx18555": {
-                    "ttl": 86402,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcccx18555": {
-                    "ttl": 86402,
-                    "length": 15,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpconsentx33934": {
-                    "ttl": 1209602,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcccx33934": {
-                    "ttl": 1209602,
-                    "length": 26,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpconsentx20555": {
-                    "ttl": 1209602,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcccx20555": {
-                    "ttl": 1209602,
-                    "length": 58,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.002004008016032064,
+                    "uniqueness": 0.05
                 }
             },
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0001002004008016032
+            },
             "exampleSites": [
-                "mail.ru",
-                "otvet.mail.ru",
-                "sourceforge.net",
-                "inhetnieuws.nl",
-                "garticphone.com",
-                "www.eenvoudig-afvallen.nl",
-                "www.studentum.nl",
-                "kortingscodes.ad.nl",
-                "www.songtexte.com",
-                "www.faillissementsdossier.nl",
-                "www.kortingscode.nl",
-                "skribbl.io",
-                "njam.tv",
-                "www.dasoertliche.de",
-                "www.startpunthonden.nl",
-                "www.schuhe.de",
-                "www.oozo.nl",
-                "www.thelabelfinder.nl",
-                "www.inhetnieuws.nl",
-                "www.fietsersbond.nl"
+                "www.fixya.com",
+                "www.advrider.com",
+                "www.tuxx.nl",
+                "petapixel.com",
+                "synoniemen.net",
+                "www.dagelijksestandaard.nl",
+                "www.avsforum.com",
+                "www.rcgroups.com",
+                "www.bekendeburen.nl",
+                "www.mtbr.com",
+                "www.phoronix.com",
+                "www.encyclo.nl",
+                "www.babybytes.nl",
+                "linuxconfig.org",
+                "www.talkaboutmarriage.com",
+                "www.bleepingcomputer.com",
+                "www.mijnwoordenboek.nl",
+                "www.hardnieuws.nl",
+                "ybw.com",
+                "www.woorden.org"
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/customdata\\/bV8xLndfMTM1NjYuZF81MzI0LnhfMTAudi5w\\.js",
+            "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2ui-en\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 2,
             "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "3d4e97ed73fc16eb6709cfbbf011c01647bd931bd530d74dd5683c59b463aa3d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "garticphone.com",
-                "skribbl.io",
-                "www.speeleiland.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/pixel\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.00341,
-            "cnames": [],
-            "responseHashes": [
-                "5704a2e9f2f7ce43a79f9b407f1aedcfd50223cbe8bd2f71ff8c5c819e469cbc"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mail.ru",
-                "ok.ru",
-                "otvet.mail.ru",
-                "sourceforge.net",
-                "www.dasoertliche.de",
-                "www.trueachievements.com",
-                "www.thelabelfinder.nl",
-                "www.serebii.net",
-                "njam.tv",
-                "www.startpunthonden.nl",
-                "www.studentum.nl",
-                "garticphone.com",
-                "www.newworld-map.com",
-                "www.vergleich.org",
-                "www.lampen24.nl",
-                "www.eenvoudig-afvallen.nl",
-                "steamcharts.com",
-                "inhetnieuws.nl",
-                "genshin.gg",
-                "www.kortingscode.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/img\\/logo1592405744x390\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "73e80796df0f325249f01776635aecedb926aaa6df8404c66aedb6941f95d918"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "garticphone.com",
-                "skribbl.io",
-                "www.speeleiland.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/flags\\/nl\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.00151,
-            "cnames": [],
-            "responseHashes": [
-                "a811844c68df57ac35187d372c18f79450debb7483271742001ccbe259b8ce78"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "garticphone.com",
-                "inhetnieuws.nl",
-                "mail.ru",
-                "otvet.mail.ru",
-                "skribbl.io",
-                "www.eenvoudig-afvallen.nl",
-                "www.faillissementsdossier.nl",
-                "www.inhetnieuws.nl",
-                "www.oozo.nl",
-                "www.songtexte.com",
-                "www.speeleiland.nl",
-                "www.startpunthonden.nl",
-                "www.studentum.nl",
-                "www.thelabelfinder.nl",
-                "www.vergleich.org"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp_en\\.min\\.js",
-            "cookies": 0.001,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
+                "quantcast.mgr"
             ],
             "apis": {
-                "Document.cookie getter": 10,
-                "Date.prototype.getTime": 10,
-                "Document.cookie setter": 10,
-                "Navigator.prototype.languages": 1,
-                "Navigator.prototype.language": 1
+                "Navigator.prototype.userAgent": 17,
+                "Navigator.prototype.product": 17,
+                "Date.prototype.getTime": 17,
+                "window.innerWidth": 17,
+                "window.innerHeight": 17,
+                "Screen.prototype.width": 17,
+                "Event.prototype.timeStamp": 17
             },
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 17,
+            "prevalence": 0.0017,
             "cnames": [],
             "responseHashes": [
-                "6c32cc39cae3c9cf6d1274e1f1de89a1b3307980e7dc97d1ef1ee69b1cfb6b5e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "__cmpconsent6648": {
-                    "ttl": 604803,
-                    "length": 44,
-                    "prevalence": 0.0009030704394942806,
-                    "uniqueness": 1
-                },
-                "__cmpcvcu6648": {
-                    "ttl": 604803,
-                    "length": 346,
-                    "prevalence": 0.0009030704394942806,
-                    "uniqueness": 0.1111111111111111
-                },
-                "__cmpcpcu6648": {
-                    "ttl": 604803,
-                    "length": 4,
-                    "prevalence": 0.0009030704394942806,
-                    "uniqueness": 0.1111111111111111
-                },
-                "__cmpconsentx16979": {
-                    "ttl": 1209602,
-                    "length": 44,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                },
-                "__cmpcccx16979": {
-                    "ttl": 1209602,
-                    "length": 30,
-                    "prevalence": 0.00010034115994380895,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "genshin.gg",
-                "namemc.com",
-                "newworldfans.com",
-                "steamcharts.com",
-                "techraptor.net",
-                "www.newworld-map.com",
-                "www.pcgamesn.com",
-                "www.serebii.net",
-                "www.trueachievements.com",
-                "www.vergleich.org"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/customdata\\/bV8xLndfOTU0NS5kXzM4MTAueF8xMDEudi5wLnRfMzgxMA\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [
-                "0ccdc38144eb836d90bf4d532ca617098e274459ab1e05bbcfbd22cc329460dd"
+                "587e2e7350886d6b5fd31e385638ffe5cf3331c82260e8fe76523f99cda27a42"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "genshin.gg",
-                "namemc.com",
-                "newworldfans.com",
-                "steamcharts.com",
-                "techraptor.net",
-                "www.newworld-map.com",
-                "www.pcgamesn.com",
-                "www.serebii.net",
-                "www.trueachievements.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/img\\/logo1628676641x6500\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [
-                "21c3e18b2717da57674d1ee98dc1e6beef2858c6591465e253cf142db335c387"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "genshin.gg",
-                "namemc.com",
-                "newworldfans.com",
-                "steamcharts.com",
-                "techraptor.net",
-                "www.newworld-map.com",
-                "www.pcgamesn.com",
-                "www.serebii.net",
-                "www.trueachievements.com"
+                "ybw.com",
+                "linuxconfig.org",
+                "pastebin.com",
+                "perezhilton.com",
+                "petapixel.com",
+                "sparkbyexamples.com",
+                "wikiofcelebs.com",
+                "www.advrider.com",
+                "www.avsforum.com",
+                "www.bleepingcomputer.com",
+                "www.fixya.com",
+                "www.how2shout.com",
+                "www.mangaread.org",
+                "www.mtbr.com",
+                "www.phoronix.com",
+                "www.rcgroups.com",
+                "www.talkaboutmarriage.com"
             ]
         },
         {
@@ -1875,10 +1081,10 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "4503932f56bfd16a780558109962af298944d7a6389c0527ddc141fe19b66631"
+                "f0d836252477f0791bf09e414e6271f17c3436b7e26692ecd2759a9bc455e8bc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1889,76 +1095,352 @@
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/34\\/cmp2ui-nl\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "consensu\\.org\\/tcfv2\\/35\\/cmp2\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.product": 25,
-                "Navigator.prototype.userAgent": 25,
-                "Date.prototype.getTime": 25,
-                "Screen.prototype.width": 25
-            },
-            "sites": 25,
-            "prevalence": 0.00251,
-            "cnames": [],
-            "responseHashes": [
-                "f4246e6d97ead4c800258c742eb6610ae54f723af480e2b81a8c4efa2d55d108"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "techradar.com",
-                "www.techradar.com",
-                "www.tomsguide.com",
-                "www.tomshardware.com",
-                "www.space.com",
-                "poki.nl",
-                "www.pcgamer.com",
-                "www.livescience.com",
-                "www.androidcentral.com",
-                "www.gamesradar.com",
-                "www.digitalcameraworld.com",
-                "www.cyclingweekly.com",
-                "www.whathifi.com",
-                "www.windowscentral.com",
-                "www.laptopmag.com",
-                "www.creativebloq.com",
-                "www.imore.com",
-                "www.whattowatch.com",
-                "www.filmvandaag.nl",
-                "www.cinemablend.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/RcRc7Rvu-zsRV\\/gamepressure\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "6dc28465b7df408ed5a2246ab202c0a7cd28fc3940ccd034d42baffd0c6a6074"
+                "0b5ea38631a92e351ee2023ed5cc1f7560d1bc370b41a33c83484832a1651b85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guys.nl",
+                "manly.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/35\\/cmp2ui-nl\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "8d2ce7f9004ed4eafd5cff93c48761e9a8f0bdb74d46b6db91698667f0d99546"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamepressure.com",
-                "www.gamepressure.com"
+                "guys.nl",
+                "manly.nl"
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/customdata\\/bV8xLndfMjY4MzkuZF82OTE0LnhfMi52LnAudF82OTE0\\.js",
+            "rule": "consensu\\.org\\/delivery\\/cmp\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.consentmanager.mgr"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "f8dd77a7399253e94d69a15bcd37dfb5cdbe2b424e29a48eaa1d2a3d3d943c86"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inhetnieuws.nl",
+                "njam.tv",
+                "www.dasoertliche.de",
+                "www.fietsersbond.nl",
+                "www.gesundheit.de",
+                "www.inhetnieuws.nl",
+                "www.oozo.nl",
+                "www.songtexte.com",
+                "www.thelabelfinder.nl",
+                "www.tuv.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/cmp\\.php",
+            "cookies": 0.000902,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consentmanager.mgr"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 4
+            },
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "587b38794dbacd44ea649df37001e8735905ec3d392734847660773c4b8e085f",
+                "24658e106e661bdbee0dbf5f557b2d0b5a89bcf9eb62da9dc27efed4b5ec4362",
+                "11597aab0ed5a6f4426ac8fa49b8ebf55521806e5d0a0ba15e62de47830ab435",
+                "c4a69faa455e66850de6aa0c683d18ea6f5e8ac41c18368808aa9ae27b2d6fd2",
+                "6e300f59ac137705bfb549fe3ec6c8c92941d7f00b209e11dd6ecfe90403b595",
+                "6d98a134ac2cc42ae2e4e23e7dac23238778446b5b2322d974b1489e8ae79aeb",
+                "c7c8cdf0bd7caf1b7693f6b9e0c4f6e3a638f23f4c796af81da0f29a03ba6860",
+                "ead1b6b46f51c2b63b5e6f1539b56ab2cd71f7ff9bb90179ffd917c0430e1107",
+                "6bafd8e347b4d2dc749ac1a83a1488b0138ecc24479d18cf85a4dcdf28198d92",
+                "7f4f5fb3f1941b8eb2c24b0f7d1abf79215dbf35d234848667cfe3fc73b2e473",
+                "c5b6cf14d448f345f66972ec6b9b230052446e035177ebe6e10b8456bfbf6bc4",
+                "8857b0b131631c2ce0568edc89c76911038806db87f29c188f34945e3f43ce6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cmpcc": {
+                    "ttl": 34128002,
+                    "length": 1,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 0.3333333333333333
+                },
+                "__cmpcvcx12192": {
+                    "ttl": 1209603,
+                    "length": 43,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpcx12192": {
+                    "ttl": 1209603,
+                    "length": 6,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcvc": {
+                    "ttl": 1209603,
+                    "length": 43,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpc": {
+                    "ttl": 1209603,
+                    "length": 6,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inhetnieuws.nl",
+                "mail.ru",
+                "njam.tv",
+                "otvet.mail.ru",
+                "www.fietsersbond.nl",
+                "www.gesundheit.de",
+                "www.inhetnieuws.nl",
+                "www.kortingscode.nl",
+                "www.lampen24.nl",
+                "www.oozo.nl",
+                "www.songtexte.com",
+                "www.thelabelfinder.nl",
+                "www.tuv.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/cmp_nl\\.min\\.js",
+            "cookies": 0.0011,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.consentmanager.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 10,
+                "Navigator.prototype.language": 10,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie setter": 11,
+                "window.localStorage": 1
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "6393246b0bef505ebd0e9521261ecaa17874013b6bb9e74aca300efaa509ba6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cmpconsent10997": {
+                    "ttl": 31536005,
+                    "length": 384,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 0.6666666666666666
+                },
+                "__cmpcvcu10997": {
+                    "ttl": 31536005,
+                    "length": 3023,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 0.6666666666666666
+                },
+                "__cmpcpcu10997": {
+                    "ttl": 31536005,
+                    "length": 9,
+                    "prevalence": 0.0003006012024048096,
+                    "uniqueness": 0.6666666666666666
+                },
+                "__cmpconsents1": {
+                    "ttl": 31536017,
+                    "length": 318,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 1
+                },
+                "__cmpcvcs1": {
+                    "ttl": 31536017,
+                    "length": 594,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                },
+                "__cmpcpcs1": {
+                    "ttl": 31536017,
+                    "length": 4,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                },
+                "__cmpconsentx16013": {
+                    "ttl": 31536007,
+                    "length": 402,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcvcx16013": {
+                    "ttl": 31536007,
+                    "length": 235,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpcx16013": {
+                    "ttl": 31536007,
+                    "length": 11,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcvcu4505": {
+                    "ttl": 31536005,
+                    "length": 222,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpcu4505": {
+                    "ttl": 31536005,
+                    "length": 18,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpconsent4505": {
+                    "ttl": 31536005,
+                    "length": 58,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpconsentx24566": {
+                    "ttl": 31536005,
+                    "length": 480,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcccx24566": {
+                    "ttl": 31536005,
+                    "length": 116,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpconsentx18555": {
+                    "ttl": 31536004,
+                    "length": 418,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcccx18555": {
+                    "ttl": 31536004,
+                    "length": 200,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpconsentx20555": {
+                    "ttl": 31536005,
+                    "length": 319,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcccx20555": {
+                    "ttl": 31536005,
+                    "length": 116,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcvcu7702": {
+                    "ttl": 31536004,
+                    "length": 203,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpcu7702": {
+                    "ttl": 31536004,
+                    "length": 12,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpconsent7702": {
+                    "ttl": 31536004,
+                    "length": 38,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inhetnieuws.nl",
+                "mail.ru",
+                "njam.tv",
+                "otvet.mail.ru",
+                "www.fietsersbond.nl",
+                "www.gesundheit.de",
+                "www.inhetnieuws.nl",
+                "www.oozo.nl",
+                "www.songtexte.com",
+                "www.thelabelfinder.nl",
+                "www.tuv.nl"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/customdata\\/bV8xLndfMjY4MzkuZF82OTE0LnhfNS52LnAudF82OTE0\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1966,10 +1448,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "40c0bfde1085a4648a58f3160b11ce8183809bf2e0c99944080886f3691191a6"
+                "7fa12abbce17b33eaf4e301bc8e6a7c74995287c6c720f1aeb24ce93a30f67db"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1980,6 +1462,39 @@
             ]
         },
         {
+            "rule": "consensu\\.org\\/delivery\\/info\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentmanager.mgr"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inhetnieuws.nl",
+                "mail.ru",
+                "njam.tv",
+                "otvet.mail.ru",
+                "www.fietsersbond.nl",
+                "www.gesundheit.de",
+                "www.inhetnieuws.nl",
+                "www.kortingscode.nl",
+                "www.lampen24.nl",
+                "www.oozo.nl",
+                "www.songtexte.com",
+                "www.thelabelfinder.nl",
+                "www.tuv.nl"
+            ]
+        },
+        {
             "rule": "consensu\\.org\\/delivery\\/cmplogo\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
@@ -1987,8 +1502,8 @@
                 "cdn.consentmanager.mgr"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
                 "3e19865caed6dbd12eacd00501eb4b382a1f0190df9cf2a8373d110bab7a47e1"
@@ -1998,116 +1513,148 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "inhetnieuws.nl",
-                "www.eenvoudig-afvallen.nl",
-                "www.faillissementsdossier.nl",
                 "www.fietsersbond.nl",
                 "www.inhetnieuws.nl",
                 "www.oozo.nl",
-                "www.startpunthonden.nl",
-                "www.thelabelfinder.nl",
-                "www.vergleich.org"
+                "www.thelabelfinder.nl"
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/cookieblock\\.min\\.js",
+            "rule": "consensu\\.org\\/delivery\\/flags\\/nl\\.gif",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn.consentmanager.mgr"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 8,
+            "prevalence": 0.000802,
             "cnames": [],
             "responseHashes": [
-                "16ea5911ef4f2422f3b2bc49c541e386cf9fdeeb96f8fd3a2e3431790562f58a"
+                "d4ee00167b06201126251ac8da70b10e5e200da9329a837301e12d49b1d6f775"
             ],
-            "type": "Script",
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ad.nl",
-                "www.kortingscode.nl"
+                "inhetnieuws.nl",
+                "mail.ru",
+                "otvet.mail.ru",
+                "www.inhetnieuws.nl",
+                "www.oozo.nl",
+                "www.songtexte.com",
+                "www.thelabelfinder.nl",
+                "www.tuv.nl"
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/alertdomains\\.php",
-            "cookies": 0,
+            "rule": "consensu\\.org\\/delivery\\/consent\\.php",
+            "cookies": 0.0011,
             "fingerprinting": 0,
             "subdomains": [
                 "consentmanager.mgr"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 12,
+            "prevalence": 0.0012,
             "cnames": [],
             "responseHashes": [
-                "5704a2e9f2f7ce43a79f9b407f1aedcfd50223cbe8bd2f71ff8c5c819e469cbc"
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ad.nl",
-                "www.kortingscode.nl"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/10\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 4,
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Document.cookie getter": 3
+            "firstPartyCookiesSent": {
+                "__cmpconsent10997": 0.0003006012024048096,
+                "__cmpconsents1": 0.0002004008016032064,
+                "__cmpconsentx16013": 0.0001002004008016032,
+                "__cmpconsent4505": 0.0001002004008016032,
+                "__cmpconsentx24566": 0.0001002004008016032,
+                "__cmpcccx24566": 0.0001002004008016032,
+                "__cmpconsentx12192": 0.0001002004008016032,
+                "__cmpconsentx18555": 0.0001002004008016032,
+                "__cmpcccx18555": 0.0001002004008016032,
+                "__cmpconsentx20555": 0.0001002004008016032,
+                "__cmpcccx20555": 0.0001002004008016032,
+                "__cmpconsent7702": 0.0001002004008016032
             },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "6a405c1b2082a75e67dc42d9766a4f524522790c30ce66eca4e70937ad63764c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "maxius.nl",
-                "www.biosagenda.nl",
-                "www.hetkontakt.nl",
-                "www.meemetoranje.nl"
+                "inhetnieuws.nl",
+                "mail.ru",
+                "njam.tv",
+                "otvet.mail.ru",
+                "www.fietsersbond.nl",
+                "www.gesundheit.de",
+                "www.inhetnieuws.nl",
+                "www.lampen24.nl",
+                "www.oozo.nl",
+                "www.songtexte.com",
+                "www.thelabelfinder.nl",
+                "www.tuv.nl"
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/recall\\/recall_shield\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "consensu\\.org\\/delivery\\/js\\/cmp_nl\\.min\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn.consentmanager.mgr"
             ],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "7b6df09126812101bb982d8d1e1ec73db97e3815b9b5c222afd09dcac9bfd60b"
+                "6393246b0bef505ebd0e9521261ecaa17874013b6bb9e74aca300efaa509ba6e"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cmpconsentx20112": {
+                    "ttl": 1209607,
+                    "length": 44,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcvcx20112": {
+                    "ttl": 1209607,
+                    "length": 25,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpcx20112": {
+                    "ttl": 1209607,
+                    "length": 4,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcvc": {
+                    "ttl": 1209607,
+                    "length": 25,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                },
+                "__cmpcpc": {
+                    "ttl": 1209607,
+                    "length": 4,
+                    "prevalence": 0.0001002004008016032,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "njam.tv",
-                "www.dasoertliche.de"
+                "www.kortingscode.nl"
             ]
         },
         {
             "rule": "consensu\\.org\\/tcfv2\\/30\\/cmp2ui-nl\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
@@ -2115,10 +1662,12 @@
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.product": 2,
                 "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Screen.prototype.width": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "eccdf6380563adb4c1a375fbf93988dfd8db14167ab9e9f2e94b9c958b8e8ec6"
@@ -2132,112 +1681,74 @@
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/cmp_ru\\.min\\.js",
-            "cookies": 0.000201,
+            "rule": "consensu\\.org\\/cmp\\/v2\\/cmp-3\\.2\\.2\\.min\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "cdn.consentmanager.mgr"
+                "optad360.mgr"
             ],
             "apis": {
-                "Navigator.prototype.languages": 2,
-                "Navigator.prototype.language": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "window.innerWidth": 5
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "60b680a93d23cdc1fd074ce7af20299d8e92aa07d8bceed3a59308145c70d47b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "__cmpconsentx501": {
-                    "ttl": 31536003,
-                    "length": 364,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 1
-                },
-                "__cmpcvcx501": {
-                    "ttl": 31536003,
-                    "length": 954,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 0.5
-                },
-                "__cmpcpcx501": {
-                    "ttl": 31536003,
-                    "length": 4,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 0.5
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ok.ru",
-                "www.ok.ru"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/customdata\\/bV8xLndfNTAxLmRfNjMyLnhfNjUudi5wLnRfNjMy\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f58cedc89a88b600c7816c3f916b155c71560a45ef82575001147ca8d022ea63"
+                "f56e492c10145dbf06276635cf10daf821401c53b928c76e0957b15b134a12e5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ok.ru",
-                "www.ok.ru"
+                "macspots.com",
+                "nl.sawakinome.com",
+                "nl.thpanorama.com",
+                "nl1.warbletoncouncil.org",
+                "projectsports.nl"
             ]
         },
         {
-            "rule": "consensu\\.org\\/delivery\\/flags\\/ru\\.gif",
+            "rule": "consensu\\.org\\/icons\\/branding-ads\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cdn.consentmanager.mgr"
+                "optad360.mgr"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "4306ff8241d011fc96dd02789600623ce20f7a2f4d412735fd1217e34e6b36ce"
+                "d04a8585ca1c9cbff59e413fe76da6b8dcf3c567cbc68ec436b852d7f1694df1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ok.ru",
-                "www.ok.ru"
+                "warbletoncouncil.org",
+                "projectsports.nl"
             ]
         },
         {
             "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2ui-nl\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 13,
-                "Navigator.prototype.product": 13,
-                "Date.prototype.getTime": 13,
-                "Screen.prototype.width": 13,
-                "Event.prototype.timeStamp": 4
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.product": 9,
+                "Date.prototype.getTime": 9,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9,
+                "Screen.prototype.width": 9,
+                "Event.prototype.timeStamp": 9
             },
-            "sites": 13,
-            "prevalence": 0.0013,
+            "sites": 9,
+            "prevalence": 0.000902,
             "cnames": [],
             "responseHashes": [
                 "40a7eb3f3dfc6676aadc58e7a0b8f6102517f25a8b896cb9f12aeec9eae4b4bd"
@@ -2246,77 +1757,192 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "readcomiconline.li",
                 "synoniemen.net",
                 "www.babybytes.nl",
                 "www.bekendeburen.nl",
                 "www.dagelijksestandaard.nl",
                 "www.encyclo.nl",
                 "www.hardnieuws.nl",
-                "www.includehelp.com",
                 "www.mijnwoordenboek.nl",
                 "www.tuxx.nl",
-                "www.vi.nl",
-                "www.wikifeet.com",
                 "www.woorden.org"
             ]
         },
         {
-            "rule": "consensu\\.org\\/choice\\/DZZa7nKCW8kGP\\/www\\.ultimate-guitar\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "consensu\\.org\\/tcfv2\\/38\\/cmp2\\.js",
+            "cookies": 0.000401,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "daa69b1386c33dae4e01c4b465a8eeb20705c68cff710fd04101ae75441ef820"
+                "87a05e266719cffcabe1f5b046d7e6c0b095a2f35723e3d00b41d001b5b02ff0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.0004008016032064128,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.0004008016032064128,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whatculture.com",
+                "www.dailystar.co.uk",
+                "www.express.co.uk",
+                "www.walesonline.co.uk"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/38\\/cmp2ui-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Screen.prototype.width": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "7fd77c2a1954dc2b757a6b8245a264a0422a70161f9566d997bac242f47d5bbc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ultimate-guitar.com",
-                "www.ultimate-guitar.com"
+                "whatculture.com",
+                "www.dailystar.co.uk",
+                "www.express.co.uk",
+                "www.walesonline.co.uk"
             ]
         },
         {
-            "rule": "consensu\\.org\\/v2\\/vendor-list\\.json",
+            "rule": "consensu\\.org\\/asset\\/cmpcookie\\.v2\\.html",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "ensighten.mgr",
-                "spolecznosci.mgr"
+                "trustarc.mgr"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "08cb1f182e9aa8c1128314ad7599c0f9ef72a79ac164a2913b66ce4a809f5b2b"
+                "2f3457ee45fd2945cd922f8761edcad427bc116803e5bd69000c45e18da3156a"
             ],
-            "type": "XHR",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "aljazeera.com",
-                "www.routeplanner-kaarte.nl"
+                "wikitravel.org",
+                "www.forbes.com",
+                "www.formula1.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/asset\\/tcfapi\\.js\\/v\\/2\\.1",
+            "cookies": 0.0002,
+            "fingerprinting": 1,
+            "subdomains": [
+                "trustarc.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "059331dedcfb3bb7ad7b676771afd4f4bab13b6a23f4a8b1191c9defeced31bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 7779606,
+                    "length": 377,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wikitravel.org",
+                "www.forbes.com",
+                "www.formula1.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/42\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b628942e8ff712de0d166d8704f779bd3860800817549c8a375868977e117863"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alblasserdamsnieuws.nl",
+                "www.filmvandaag.nl",
+                "www.radioluisteren.fm"
             ]
         },
         {
             "rule": "consensu\\.org\\/",
-            "cookies": 0,
+            "cookies": 0.000401,
             "fingerprinting": 1,
             "subdomains": [
                 "cookies.onetrust.mgr"
             ],
             "apis": {
-                "Date.prototype.getTime": 4
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
             },
             "sites": 4,
             "prevalence": 0.000401,
@@ -2331,40 +1957,19 @@
                 "biblegateway.com",
                 "www.biblegateway.com",
                 "www.coursera.org",
-                "www.detelefoongids.nl"
+                "www.nickiswift.com"
             ]
         },
         {
-            "rule": "consensu\\.org\\/gdpr\\/iab\\/consent\\/current",
+            "rule": "consensu\\.org\\/tcfv2\\/43\\/cmp2\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "core.conversant.mgr"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bravotv.com",
-                "www.bravotv.com",
-                "www.cancer.org"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/26\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
                 "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
                 "window.localStorage": 3,
                 "Document.cookie getter": 3,
                 "Date.prototype.getTime": 3
@@ -2373,171 +1978,38 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "dc605d43d32d7a4783e0627945dc7324951c2e23ac8716a0b5f95792cdb6c284"
+                "64f2f1f02fc851d4d6bdaab153f5511584d04c8fbe30742a2acedc68f955d547"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "buzzfeed.com",
-                "www.buzzfeednews.com",
-                "www.huffpost.com"
+                "www.huffpost.com",
+                "www.huffingtonpost.co.uk"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/26\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3,
-                "Date.prototype.getTime": 3,
-                "Screen.prototype.width": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "1e7df277332aaf0631f2fe09a8f8a3a0746d0466a957f9aec530b4945b54e8f2"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "buzzfeed.com",
-                "www.buzzfeednews.com",
-                "www.huffpost.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/28\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.product": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "29507fd3a172d0d54a23c53defa95fe78dbf477c5577b7b789abc2946c8a40d8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dailystar.co.uk",
-                "www.liverpoolecho.co.uk"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/28\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.product": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "28b8b74ad9feea728d789aa5b84c6366ba2d220a2403e3ba03712d16c041eb58"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dailystar.co.uk",
-                "www.liverpoolecho.co.uk"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/lang\\/langpurpose_de\\.min\\.js",
+            "rule": "consensu\\.org\\/v2\\/vendor-list\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cdn.consentmanager.mgr"
+                "c.sharethis.mgr",
+                "spolecznosci.mgr"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "2379c0a9ea59e6709dbcfdbea6d7ceec9cc54c6de77d0a09936381d43c2104b3"
+                "56ecf25224b8690166a59fd8bfecb8b1650e582e3a58bfd7feb62523d7aa4e93"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dasoertliche.de",
-                "www.schuhe.de"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/asset\\/cmpcookie\\.v2\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "trustarc.mgr"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "2f3457ee45fd2945cd922f8761edcad427bc116803e5bd69000c45e18da3156a"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "doityourself.com",
-                "www.forbes.com",
-                "www.formula1.com",
-                "www.modelmayhem.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/asset\\/tcfapi\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "trustarc.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Document.cookie getter": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "7d0511f49b5af61ebe2685701ceb75013f994cc1d4cfc72a4691dbfb8992e10d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "doityourself.com",
-                "www.forbes.com",
-                "www.formula1.com",
-                "www.modelmayhem.com"
+                "dolcevia.com",
+                "www.routeplanner-kaarte.nl"
             ]
         },
         {
@@ -2549,7 +2021,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "8334e5eb7851550868428f192dd7d9f10d7b513381d8bb3f5606774bc78c3976"
@@ -2564,7 +2036,7 @@
         },
         {
             "rule": "consensu\\.org\\/gdpr\\/cmp\\/3\\/gdpr-cmp-bootstrap\\.js",
-            "cookies": 0.000201,
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn.conversant.mgr"
@@ -2575,24 +2047,24 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "267d1daed09d9ecec5f1e21bb6fe93e6eb9b65a051b7c07e966dfcda10f9e812"
+                "c5ce585015433e8c2e3488acd77585474b2b452580f49529a8633be8fa053773"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "cmp-data": {
                     "ttl": 33696000,
                     "length": 40,
-                    "prevalence": 0.0002006823198876179,
+                    "prevalence": 0.0002004008016032064,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fastcompany.com",
-                "www.inc.com"
+                "inc.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -2604,17 +2076,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "e4f3a935072be30552400ab1c6a8a9e070acfacf4519f88e209b2337caf268ec"
+                "50fcd68bbf50123e59497448ddd2e77ff11607394f05e3c27eed8245ff32f30f"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fastcompany.com",
-                "www.inc.com"
+                "inc.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -2626,17 +2098,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "c5f2a9329c15bccafd83c5acefcb49f5042436f7d78ff7b195a9b0454c5c99a7"
+                "86af650ed3452c03477e710c3d6f094d1198340d6111c0ebd73fefea6b92136c"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fastcompany.com",
-                "www.inc.com"
+                "inc.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -2657,9 +2129,9 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fastcompany.com",
-                "www.fastcompany.com",
-                "www.inc.com"
+                "inc.com",
+                "www.inc.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -2670,72 +2142,69 @@
                 "cdn.conversant.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Event.prototype.timeStamp": 2,
-                "Navigator.prototype.language": 2
+                "Navigator.prototype.userAgent": 1,
+                "Event.prototype.timeStamp": 1,
+                "Navigator.prototype.language": 1,
+                "window.innerHeight": 1
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
-            "responseHashes": [
-                "6dbfba471ede6d5d286947ae471abb02656ff5cc5f69374dd133ed2ba11e86c3"
-            ],
+            "responseHashes": [],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fastcompany.com",
-                "www.inc.com"
+                "inc.com",
+                "www.xxlmag.com"
             ]
         },
         {
-            "rule": "consensu\\.org\\/gdpr\\/cmp\\/3\\/languages\\/nl\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "consensu\\.org\\/tcfv2\\/39\\/cmp2\\.js",
+            "cookies": 0.0002,
+            "fingerprinting": 2,
             "subdomains": [
-                "cdn.conversant.mgr"
+                "quantcast.mgr"
             ],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "50afaf648edda4ecebda9836271bb9802b5cf9cabf6e7fb4d1701bea1e3b96a5"
+                "32ed95b190974ab3c06dcbfe84decbe46ba5bf9ef759aaad201b053d06342d9e"
             ],
-            "type": "XHR",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.0002004008016032064,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fastcompany.com",
-                "www.inc.com"
+                "manchestereveningnews.co.uk",
+                "www.mirror.co.uk"
             ]
         },
         {
-            "rule": "consensu\\.org\\/gdpr\\/vendorlist\\/v2\\/purposes-nl\\.json",
+            "rule": "consensu\\.org\\/tcfv2\\/39\\/cmp2ui-en\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.conversant.mgr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "393c989e1afd87e44cab9ce9174490c4eb0a2a71c3c229e710a4d3379affc061"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fastcompany.com",
-                "www.inc.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/35\\/cmp2ui-de\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
@@ -2743,64 +2212,22 @@
                 "Navigator.prototype.product": 2,
                 "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Screen.prototype.width": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "04ad25a4b3ae9d07b6ebead1b9648d6b2413ceb8773d882c540b4784a156d3d4"
+                "a6bdf620e64f6f9481b0b273e6365a133ce173c2feb8839cfb99542f0f7f518e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "greelane.com",
-                "www.manualslib.de"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/GVL-v2\\/purposes-DE\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fed5363e0871eeb0725b0902b7714e74522e62cac598a46ba6976f1fca598c29"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "greelane.com",
-                "www.manualslib.de"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/recall\\/recall_cookie\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "a701cd4a9cfc02344ae90ef4adacb3ffb69feb8d5922e324df6383a03b1a9921"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "schuhe.de",
-                "www.studentum.nl"
+                "manchestereveningnews.co.uk",
+                "www.mirror.co.uk"
             ]
         },
         {
@@ -2815,7 +2242,7 @@
                 "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "39572bba9a23b801f7ef009d7a84cc9639ebdf173e5177b6505a71b95dd05b7b"
@@ -2829,27 +2256,25 @@
             ]
         },
         {
-            "rule": "consensu\\.org\\/choice\\/qus2_C4r9e8UC\\/www\\.voetbalkrant\\.com\\/choice\\.js",
+            "rule": "consensu\\.org\\/iframe-v2\\.html",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "quantcast.mgr"
+                "meteored.mgr"
             ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "65dcf01c5a4eece6cc40171ab9c53e631fab10f9e19c2571fb792ef2818aab2d"
+                "c533aa6ca62d0016fec92189d941ec5e7815e0bac29a0b209bf57da10090235d"
             ],
-            "type": "Script",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "voetbalkrant.com",
-                "www.voetbalkrant.com"
+                "tameteo.nl",
+                "www.theweather.com"
             ]
         }
     ],
@@ -2857,14 +2282,14 @@
         "Non-Tracking"
     ],
     "performance": {},
-    "cookies": 0.00361,
+    "cookies": 0.0118,
     "types": {
-        "Script": 771,
-        "XHR": 1381,
-        "Document": 26,
-        "Stylesheet": 66,
-        "Font": 18,
-        "Image": 78
+        "Script": 437,
+        "XHR": 547,
+        "Document": 24,
+        "Stylesheet": 40,
+        "Font": 15,
+        "Image": 40
     },
     "nameservers": [
         "pdns10.domaincontrol.com",

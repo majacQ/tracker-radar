@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000621,
-    "sites": 9,
+    "prevalence": 0.000115,
+    "sites": 17,
     "subdomains": [
         "data"
     ],
@@ -14,33 +14,35 @@
     "resources": [
         {
             "rule": "eetech\\.com\\/eetech\\.js",
-            "cookies": 0.0000345,
+            "cookies": 0.000061,
             "fingerprinting": 2,
             "subdomains": [
                 "data"
             ],
             "apis": {
-                "Document.cookie getter": 5,
-                "Date.prototype.getTime": 5,
-                "Document.cookie setter": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Screen.prototype.colorDepth": 5,
-                "Navigator.prototype.userAgent": 5,
-                "Date.prototype.getTimezoneOffset": 5
+                "Document.cookie getter": 9,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9,
+                "Screen.prototype.colorDepth": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTimezoneOffset": 9
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
-                "ef80d6e7107c9f1c4800a55c262ee47ce8f66ed11849503464d9b1abc154fe43"
+                "ed97f6c93998be761f17ce7a0233afcafa72173edae58c106846169e23e6e1ff"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "__eetech_uid": {
-                    "ttl": 63072002,
+                    "ttl": 63072003,
                     "length": 19,
-                    "prevalence": 0.00003451036691422103,
+                    "prevalence": 0.000061001233580501296,
                     "uniqueness": 1
                 }
             },
@@ -49,8 +51,12 @@
                 "control.com",
                 "eepower.com",
                 "forum.allaboutcircuits.com",
+                "maker.pro",
                 "www.allaboutcircuits.com",
-                "www.electronicspoint.com"
+                "www.electronicspoint.com",
+                "www.microchip.com",
+                "www.renesas.com",
+                "www.rohde-schwarz.com"
             ]
         },
         {
@@ -61,32 +67,81 @@
                 "data"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
-                "6adc3d4c1056996e4e8b765a62604c78b1f867cceb3b15d0b9bedb7c4857f992"
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "__eetech_uid": 0.00003451036691422103
+                "__eetech_uid": 0.000061001233580501296,
+                "dy_fs_page": 0.000006777914842277922
             },
             "exampleSites": [
                 "control.com",
                 "eepower.com",
                 "forum.allaboutcircuits.com",
+                "maker.pro",
                 "www.allaboutcircuits.com",
-                "www.electronicspoint.com"
+                "www.electronicspoint.com",
+                "www.microchip.com",
+                "www.renesas.com",
+                "www.rohde-schwarz.com"
+            ]
+        },
+        {
+            "rule": "eetech\\.com\\/cjs\\/microchip\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9fb239959388281b74c6079308819c055d10d20fe5f7997300d749e4c9628309"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microchip.com",
+                "www.microchip.com"
+            ]
+        },
+        {
+            "rule": "eetech\\.com\\/cjs\\/rs\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6fdd63f8ec98598c03621f387604c9508f02a3df768b5a6a98aaebbb3f47b663"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rohde-schwarz.com",
+                "www.rohde-schwarz.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000621,
+    "cookies": 0.000115,
     "types": {
-        "Script": 5,
-        "Other": 5
+        "Script": 13,
+        "Ping": 9
     },
     "nameservers": [
         "hank.ns.cloudflare.com",

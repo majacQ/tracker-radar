@@ -7,14 +7,13 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.000602,
-    "sites": 6,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "static",
+        "mailchimp",
         "zoom",
-        "bulk",
-        "litebit",
-        "rollout"
+        "litebit"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -27,269 +26,307 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "window.localStorage": 3
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d25a2e77e9d9d53e6fd7a6fd3fbec686cb586b4a046b0d1bd0d53d6719e08c8e"
+                "eb65eea5b0069719395dcb871c0dacde06b746ecfb1c869dc9f6cbbdf2e89c9d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/client\\/5c94a40\\/index\\.js",
+            "rule": "ada\\.support\\/embed-manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "142dbfe4b8cdef6a30a29fd434c11f213e96a03f9c03c6757e0f451d5ec0e966"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed2\\.b2dd6e8\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.userAgent": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
                 "Notification.permission": 3,
-                "window.localStorage": 3,
-                "window.sessionStorage": 3,
-                "Navigator.prototype.permissions": 3,
-                "Navigator.prototype.languages": 2
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 4,
+                "window.matchMedia(\"prefers-color-scheme\")": 1
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "e941c4d3e380021f58dc6b215d5504c9ebcfec2ee26fb59d6fdc5e774df26be7"
+                "296508e649df67ab9f0eb0ef9bb068742fe9911069115a9e802057b9da0b7bee"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/x-storage\\/5c94a40\\/index\\.html",
+            "rule": "ada\\.support\\/chat-manifest\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "c5ebedd4d66b96437cd1447fd09755cab252a3b9e7eeae3e1c5d544606a91eae",
+                "3888e5c028db5860a87b2a438e31faf1a4ac2e1f8e725e11ba65bfbb9a8138a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/x-storage\\/b2dd6e8\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d0b5fac3f7868d64dca5953860169f7393a4c757eb87a68d4a83a045562a87be"
+                "135cc772ab77bf6b4fc8b652097da35bf8feed9c1f60d7a91cc76913c0ad05bd"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/button\\/5c94a40\\/index\\.html",
+            "rule": "ada\\.support\\/embed\\/button\\/b2dd6e8\\/index\\.html",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "c73ae9696d40e3dc48ec880ffecc69511342767bcf3314cb34a8f5f65ac13228"
+                "95ade7c258794343aaf4823e2e3e750590e24b84ac40aaad7dc2f2efa920c79b"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/x-storage\\/5c94a40\\/sentry\\.bbf935f1623f62eaf966\\.js",
+            "rule": "ada\\.support\\/embed\\/x-storage\\/b2dd6e8\\/sentry\\.b6985341d53aea5af72f\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 3
+                "PerformanceTiming.prototype.navigationStart": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "711b1bdb5ca2d2e911c866905ac8de8a20e6b88ac02be7b94db4b4c313ce5b53"
+                "804e9d42f244d50d3a24fc30ed5c688cb10dbd9d043e2b61da54c6c99919745b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/x-storage\\/5c94a40\\/index\\.js",
+            "rule": "ada\\.support\\/embed\\/x-storage\\/b2dd6e8\\/index\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "window.sessionStorage": 3
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d1bd9cdd89b066aae5cd62209735f498c68c4b4548a21be593d5cf65f519c33e"
+                "d7f094dd7c4b3a272c8c8f44c7c6af1c6ef7e8fc331f0599560f5c777e1ece1e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/button\\/5c94a40\\/sentry\\.bbf935f1623f62eaf966\\.js",
+            "rule": "ada\\.support\\/embed\\/button\\/b2dd6e8\\/sentry\\.b6985341d53aea5af72f\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 3
+                "PerformanceTiming.prototype.navigationStart": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "711b1bdb5ca2d2e911c866905ac8de8a20e6b88ac02be7b94db4b4c313ce5b53"
+                "804e9d42f244d50d3a24fc30ed5c688cb10dbd9d043e2b61da54c6c99919745b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/button\\/5c94a40\\/preact\\.bc7a377cc5c841d8adfc\\.js",
+            "rule": "ada\\.support\\/embed\\/button\\/b2dd6e8\\/preact\\.8ab2422822c47580185f\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "b7f603f45c96d212351bd127d99b48c4af69e67079ea3bd99c711d723b6ef4f0"
+                "e31e52c79d9c0b78cebe49299c6b484aa34befa52738755d3f7f7effa6a3a902"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         },
         {
-            "rule": "ada\\.support\\/embed\\/legacy\\/button\\/5c94a40\\/index\\.js",
+            "rule": "ada\\.support\\/embed\\/button\\/b2dd6e8\\/index\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "mailchimp",
                 "zoom",
-                "bulk",
                 "litebit"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.languages": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "46df0e3b203b3934252ac0cfbddbcf26869889a4238319921fd192d5dc0f32a4"
+                "0579b1810123eac55d589f94843dc6e3282cb52cbfcbe814f66dde845578ccc2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "zoom.us",
-                "www.bulk.com",
-                "www.litebit.eu"
-            ]
-        },
-        {
-            "rule": "ada\\.support\\/bulk\\/client\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rollout"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "cea8ff865abf5edd1bd1abc522588c53c86d8a4940f4d21f45cf012bd2effeca"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bulk.com",
-                "www.bulk.com"
+                "mailchimp.com",
+                "support.zoom.us",
+                "www.litebit.eu",
+                "zoom.us"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 21,
-        "Document": 6,
-        "XHR": 2
+        "Script": 28,
+        "Fetch": 8,
+        "Document": 8
     },
     "nameservers": [
         "ns-1316.awsdns-36.org",

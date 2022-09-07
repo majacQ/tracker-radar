@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.0013,
+    "sites": 13,
     "subdomains": [
         "c",
-        "dc"
+        "dc",
+        "d"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -26,9 +27,9 @@
                 "c"
             ],
             "apis": {
+                "Document.cookie getter": 4,
                 "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 4,
-                "Document.cookie getter": 2
+                "Date.prototype.getTime": 4
             },
             "sites": 4,
             "prevalence": 0.000401,
@@ -48,7 +49,7 @@
         },
         {
             "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/1\\.3\\.37\\/common\\.js",
-            "cookies": 0.000401,
+            "cookies": 0.000501,
             "fingerprinting": 2,
             "subdomains": [
                 "c"
@@ -62,11 +63,13 @@
                 "Screen.prototype.width": 7,
                 "Screen.prototype.height": 7,
                 "Navigator.prototype.javaEnabled": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
                 "Date.prototype.getTime": 7,
-                "Document.cookie getter": 6,
+                "Document.cookie getter": 7,
                 "Navigator.prototype.doNotTrack": 7,
                 "Navigator.prototype.userAgent": 7,
-                "Document.cookie setter": 4
+                "Document.cookie setter": 5
             },
             "sites": 7,
             "prevalence": 0.000702,
@@ -77,15 +80,15 @@
             "type": "Script",
             "firstPartyCookies": {
                 "ORA_FPC": {
-                    "ttl": 63113858,
+                    "ttl": 63113870,
                     "length": 2,
-                    "prevalence": 0.0003006614552014432,
-                    "uniqueness": 0.3333333333333333
+                    "prevalence": 0.0004010427110487267,
+                    "uniqueness": 0.25
                 },
                 "FPC": {
-                    "ttl": 63113865,
+                    "ttl": 63113871,
                     "length": 2,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 }
             },
@@ -140,9 +143,9 @@
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "5d72e1737c80c0a370a318093cf6022ee74927163985cd9266799fef1baca5e3",
-                "b0b94da3d33a954e0831647642f46b53945945f6e4f00fa6672e89d0c924dbc7",
-                "50331d2f8965a007d23c616e079df8ada3b330bcd8063ef54c2c6867e6008281"
+                "8e3305286f99e9c15afd659c59803f4de1812015bf9038c65a79d07767fef404",
+                "2874cc6dad489e4deccd4fdd7d99d0f47acad1b9db86e9196b430e72e505811f",
+                "d681f75158e172f74a18dc4a8844c969219b4c53ebee323be7a5e8905b1d7c9c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -163,15 +166,15 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.00010022048506714773
+                "IR_gbd": 0.00010026067776218167
             },
             "exampleSites": [
                 "bws.com.au",
@@ -179,11 +182,121 @@
             ]
         },
         {
-            "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/1\\.3\\.43\\/common\\.js",
-            "cookies": 0.0002,
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/ymfedzmzxs\\/js\\/gtm\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00d17a8c9c0800d29d7e8d33181ed523ed02fd76d4da89ac25c08c2046ab9804"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/0\\.0\\.23\\/common\\.js",
+            "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "c"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "86858cd0288dad2be819484b57532f299c393c1851d884eb0c11a84d5cc5ad42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/ymfedzmzxs\\/js\\/gtm\\/analytics-default\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "31b713625e486162a96ffdc1d7bb05a1385ff9ce2b3f7d194c2eb465105d3122"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/ymfedzmzxs\\/wtid\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aca1fbf40eeec2dde5b055be646488f9366ac0f3fff5b0a3577cb290a37c7dca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstchoiceliquor.com.au",
+                "www.vintagecellars.com.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.45\\/common\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
             ],
             "apis": {
                 "Date.prototype.getTime": 2,
@@ -195,30 +308,60 @@
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
                 "Navigator.prototype.javaEnabled": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Document.cookie getter": 2,
                 "Navigator.prototype.doNotTrack": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e459686ed93cae4bd847128b0b0984cc9816bb1670a950e891b56b8a1e6338c9"
+                "81093243af7522a5e72e68149207c3ed1a737b8b010ed4ae63366e92eafcd4ab"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "ORA_FPC": {
-                    "ttl": 63113863,
+                    "ttl": 63113859,
                     "length": 2,
-                    "prevalence": 0.00020044097013429546,
-                    "uniqueness": 0.5
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "FPC": {
+                    "ttl": 63113874,
+                    "length": 2,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "farfetch.com",
-                "www.yesstyle.com"
+                "healthgrades.com",
+                "www.vu.edu.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/df27aa426e9d4d996280eb808af503e0\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthgrades.com",
+                "www.healthgrades.com"
             ]
         },
         {
@@ -230,10 +373,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -242,19 +385,63 @@
                 "shopback.com.au",
                 "www.shopback.com.au"
             ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/becd73dbfea1453f445300c97145f1d4\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vu.edu.au",
+                "www.vu.edu.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/29ac35499c0d4d600a9c0eb0a3c174ad\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesstyle.com",
+                "www.yesstyle.com"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000702,
+    "cookies": 0.000802,
     "types": {
-        "Script": 21,
-        "Image": 4
+        "Script": 29,
+        "Image": 10
     },
     "nameservers": [
         "ns1.p04.dynect.net",
-        "ns3.p04.dynect.net",
         "ns2.p04.dynect.net",
+        "ns3.p04.dynect.net",
         "ns4.p04.dynect.net"
     ]
 }

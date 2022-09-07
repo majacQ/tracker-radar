@@ -9,12 +9,36 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/pages\\/rebrand-2021\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "c60a2634e463f086bc166443acd4938600b5f11452e38fcaf31ef8183758215d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000020333744526833766,
+                "lotame_domain_check": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "bodybuilding.com",
+                "forum.bodybuilding.com",
+                "www.bodybuilding.com"
+            ]
+        },
         {
             "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/data\\/creeper-bar\\/creeper-bar",
             "cookies": 0,
@@ -22,13 +46,39 @@
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "ae8b858aa1d4000ee18bac26b31f6822550db2f97b5ea4f753e19675875096c6",
+                "15e929ad45310f676df16bddcf9a2c7501d737a3b57c071c7661472b995a58c5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000020333744526833766,
+                "lotame_domain_check": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "bodybuilding.com",
+                "forum.bodybuilding.com",
+                "www.bodybuilding.com"
+            ]
+        },
+        {
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/data\\/creeper-bar\\/creeper-bar",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.000020706220148532618
+                "IR_gbd": 0.000020333744526833766,
+                "lotame_domain_check": 0.000006777914842277922
             },
             "exampleSites": [
                 "bodybuilding.com",
@@ -37,21 +87,22 @@
             ]
         },
         {
-            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/data\\/creeper-bar\\/creeper-bar",
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/pages\\/rebrand-2021\\/bbcomWrapper\\.c301e2a1\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "cba8b87a8f0fba01ba6b0229e8197061adbcb3a4c697e80c5c69dbd32e8459b2"
+                "6dd37944d0b925087b867b9909f779bc403d24d31cfcb04aca0bb9bae75aaf09"
             ],
-            "type": "XHR",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.000020706220148532618
+                "IR_gbd": 0.000020333744526833766,
+                "lotame_domain_check": 0.000006777914842277922
             },
             "exampleSites": [
                 "bodybuilding.com",
@@ -60,21 +111,46 @@
             ]
         },
         {
-            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/shopify-temp-navigation\\/navigation-shopify\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "bbcom-prod-content-cache\\.s3-us-west-2\\.amazonaws\\.com\\/www\\.bodybuilding\\.com\\/pages\\/rebrand-2021\\/bbcomWrapper\\.e1e7d26b\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 2,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.language": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Performance.prototype.memory": 3,
+                "window.sessionStorage": 3
+            },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "5a4ef917f3a838b842d0ae452fdc9a7a83f935d115b0c9456be6230379cf5784"
+                "f42a33e173697a83cfc9577966903e6a18870aa6c7a5dbfc2f23523765119430"
             ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "cart_count": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.3333333333333333
+                },
+                "country": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.000020706220148532618
+                "IR_gbd": 0.000020333744526833766,
+                "lotame_domain_check": 0.000006777914842277922
             },
             "exampleSites": [
                 "bodybuilding.com",
@@ -87,16 +163,18 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000271,
     "types": {
-        "Preflight": 3,
+        "Fetch": 3,
         "XHR": 3,
-        "Fetch": 3
+        "Preflight": 3,
+        "Stylesheet": 3,
+        "Script": 3
     },
     "nameservers": [
-        "ns-673.awsdns-20.net",
-        "ns-427.awsdns-53.com",
-        "ns-1831.awsdns-36.co.uk",
-        "ns-1052.awsdns-03.org"
+        "ns-546.awsdns-04.net",
+        "ns-352.awsdns-44.com",
+        "ns-1997.awsdns-57.co.uk",
+        "ns-1144.awsdns-15.org"
     ]
 }

@@ -7,17 +7,14 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000903,
-    "sites": 9,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
         "player",
         "link",
-        "zagent25",
-        "sky-de",
-        "swisscom",
-        "player2",
-        "zagent1657",
-        "zagent1545"
+        "api-cdn",
+        "zagent30",
+        "zagent29"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -25,37 +22,39 @@
         {
             "rule": "h-cdn\\.com\\/loader\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "window.localStorage": 9,
-                "Navigator.prototype.userAgent": 9
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "window.sessionStorage": 1,
+                "window.devicePixelRatio": 1,
+                "window.innerHeight": 1
             },
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "de99ad4a7e3a53dc505aa65129f058b89259ddd07839fd6f253cc9414829095d",
-                "7022b018b64b99d24ff044ab5d9382d3210155405b188af5f03133d4616c1c80",
-                "c4f852579d4d35d364b8cbdcb453e786a3d2d877d830a37df807c336dab86612",
-                "f6d4c6efc9806224f4b220d2ec60d7c3e04357f60f1399737ee5c15a64f9ebf4",
-                "8c8b2358f09c092d4ed5beedcbfbff2af47aff5b762a7e2befd8736b193f365f",
-                "f8457f64b045a21dac76a0728a7742c4e387405afe6a7fb6e9fb1bc97f0da128"
+                "576e9cfdafac068b7f11e2b2bd24bd1c338c39227a283b8ffc6e9a05f9e040dd",
+                "445e30b15ce5e7ad5c3f01b28430947a907904401399e192580cecb4409048fb",
+                "423fbb3405b610627a815b066751acfc8d6403a7cc08071636336a3f2a9981ea",
+                "9b4c646357f3b3bb099a85b2cc3f321ec7db61d6a460bf0234c8b0949ba62ac8",
+                "d4701dc962c9dd56e9547118506313344746a90ecd1f0dfa8bc6c1130e3c77cc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fcbayern.com",
+                "dw.com",
                 "m.dw.com",
-                "sport.sky.de",
-                "sport.bild.de",
                 "www.blick.ch",
-                "www.bluewin.ch",
                 "www.dw.com",
-                "www.rtl2.de",
+                "www.sportschau.de",
                 "www.tagesschau.de"
             ]
         },
@@ -67,119 +66,26 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9
+                "Navigator.prototype.userAgent": 5
             },
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "3c9fbcbdde5ec53ff3aeb31d436052e1866eaa7d3abd4ccae05e330ee58aa52a",
-                "ff78f89526b6351b77428ca67ae966ed2d7c5b1f5dd126fd2f31b9ad7213f4d1",
-                "88daecaba2528c6dfa23bd53f6049011ff2f42cd44f107085aa4cdae68c6bb83",
-                "cb946633ca1c1c3d9955f511dc5d978a92fa30853794001c8ade020201fe7e9d",
-                "aa6cceb22d34fe592e64d767703de72ea85f4e2db8ba6da13957d2d8c1e24600",
-                "b551039da81b9cf915ea463bba8cfa4edbc68a4c3606e49c7e9db44e466a1c32",
-                "1b25dec139b02cf9d23cc7ea7c090d9a41b150eb467017ebc1c56018ee10e737"
+                "8c6a8c34071d1e257a7ce7dcff2086f897a0609b0d93805de71bd1fcb5f2615c",
+                "af3ef9ac9e5e27a3c83ae5993f8a3a3040ee320c6a4e07edfe60eac9b4f7a500",
+                "b3c0f116abc61107c0e62ff4da2bc6eb63ffa7ebdcd385688b0d73dbf23e5970",
+                "41aa3d1e4d1e79e8206da97d183539135e399ddb275e31439a4ad5dda777ee64"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fcbayern.com",
-                "m.dw.com",
-                "sport.sky.de",
-                "sport.bild.de",
+                "dw.com",
                 "www.blick.ch",
-                "www.bluewin.ch",
                 "www.dw.com",
-                "www.rtl2.de",
+                "www.sportschau.de",
                 "www.tagesschau.de"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/get",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "link"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fcbayern.com",
-                "m.dw.com",
-                "sport.sky.de",
-                "sport.bild.de",
-                "www.blick.ch",
-                "www.bluewin.ch",
-                "www.dw.com",
-                "www.rtl2.de"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/get",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "link"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
-            "cnames": [],
-            "responseHashes": [
-                "d307fee9a506a6b7d7caf59ebc222e1b9d8c39431b2a9377e697cf27cdf8ccf7",
-                "3bd15bd0ea3bc22286d6a0de0e268f900ced086f0e122df05df89c0f9684e73f",
-                "72469f07ac4906cc3cef19a86738c62519c2edd684e343733249d09c6d2e567c",
-                "d52fd60c72aa124466e232e35ffda77a92a39cc3c29ab3700f3c84cff3ee2c24",
-                "ea29360d3cd13cc91431938d0415d8b7b7025de8a201e9d051f234a09c3c94ab",
-                "875bcc55e5931d0d05af48670b9d0fc1923e70054e562d7cb8ce5d551be38808",
-                "7448465ea97992bd796b4870ababa0414332b67f6e7f5c6fdcfaf211bfb596bb"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fcbayern.com",
-                "m.dw.com",
-                "sport.sky.de",
-                "sport.bild.de",
-                "www.blick.ch",
-                "www.bluewin.ch",
-                "www.dw.com",
-                "www.rtl2.de"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/cmd\\/get_playlists",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "zagent25",
-                "sky-de",
-                "swisscom"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "a40fb556a1a8199793b26857af4f01c85b91c8d79be92c39f1a7407ca198c55f",
-                "f7da2ba29ee816a22735ccad0e2109428063728e42b42533e5fcf072eeacd648"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fcbayern.com",
-                "sport.sky.de",
-                "www.bluewin.ch"
             ]
         },
         {
@@ -190,8 +96,8 @@
                 "player"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "b141a7524bb772ea57aaf05440bcae1e74fe44208644cad5bcd70f8a3c6e2ba4"
@@ -200,10 +106,7 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fcbayern.com",
-                "m.dw.com",
-                "sport.sky.de",
-                "www.blick.ch",
+                "dw.com",
                 "www.dw.com"
             ]
         },
@@ -215,8 +118,8 @@
                 "player"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "42224d4aca0ff3faca9c8ff6dddfc649dfdda53c48cede3db38150b71190bf07"
@@ -225,56 +128,99 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fcbayern.com",
-                "m.dw.com",
-                "sport.sky.de",
-                "www.blick.ch",
+                "dw.com",
                 "www.dw.com"
             ]
         },
         {
-            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/player_shortcuts\\.css",
+            "rule": "h-cdn\\.com\\/get",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "player2"
+                "link"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "182ee5bb8570669360cee5b6f82d51a4ddb6ef43f4001ee2d0bbcf96d0c59e0f"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fcbayern.com",
-                "sport.sky.de"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/cmd\\/get_geoip",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "zagent1657",
-                "zagent1545"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "3b5d2e12d416ecd3cae7e256b72e7bb198985ce1cc3b74a6fa58671fc8969369"
+                "7a54aad7069a1fae96d420666c7015cc66791cf7bd8c0127998a45f90c2528af"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sky.de",
-                "sport.sky.de"
+                "dw.com",
+                "www.dw.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "www.dw.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/preview_url",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "cd321abcf37e0ba5383367e3cb696843a7fe63ab194236134c3cf16407f735c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00020046106043900973
+            },
+            "exampleSites": [
+                "blick.ch",
+                "www.blick.ch"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/cmd\\/get_links_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zagent30",
+                "zagent29"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "36dc211e25df26c90ecbfec681670deef2b7b5c8be21c96e3ab890f1aaa1147d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportschau.de",
+                "www.sportschau.de",
+                "www.tagesschau.de"
             ]
         }
     ],
@@ -282,10 +228,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 18,
-        "Preflight": 8,
-        "XHR": 13,
-        "Stylesheet": 12
+        "Script": 11,
+        "Stylesheet": 4,
+        "XHR": 7,
+        "Preflight": 2
     },
     "nameservers": [
         "ns-1405.awsdns-47.org",

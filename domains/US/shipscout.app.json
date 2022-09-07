@@ -4,42 +4,74 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000069,
-    "sites": 10,
+    "prevalence": 0.0000949,
+    "sites": 14,
     "subdomains": [
         "web",
-        "current-test"
+        "current-test",
+        "api-identify"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "shipscout\\.app\\/app\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.00000678,
+            "fingerprinting": 1,
             "subdomains": [
                 "web"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "e365143a82a9dc9f8694ecb4dd585ea6fe39bee90e12a298ab7329785dd44a19"
+                "cecd2a40ef57131ac035817e5eab4aa6bebeddf0183297915a246be1b562c990"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_sc_test": {
+                    "ttl": 31536021,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_sc_3": {
+                    "ttl": 31536021,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_sc_uuid": {
+                    "ttl": 31536021,
+                    "length": 36,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_sc_identified": {
+                    "ttl": 31536022,
+                    "length": 36,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "drinkolipop.com",
                 "freshcleantees.com",
-                "lairdsuperfood.com",
                 "northspore.com",
                 "wethepeopleholsters.com",
-                "www.puravidabracelets.com"
+                "www.blenderseyewear.com",
+                "www.chubbiesshorts.com",
+                "www.utzsnacks.com"
             ]
         },
         {
-            "rule": "shipscout\\.app\\/puravidabracelets\\.myshopify\\.com\\.json",
+            "rule": "shipscout\\.app\\/blenderseyewear-com\\.myshopify\\.com\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -47,31 +79,100 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0561f12fbb4293ba2928b146fbfdb3a8cf6d4e201019bc12c4a732488d57883d"
+                "1e78a5eb73b59749fc589b925515ca7c03bd6ebf34ae256466449a8b186b2e4f"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "puravidabracelets.com",
-                "www.puravidabracelets.com"
+                "blenderseyewear.com",
+                "www.blenderseyewear.com"
+            ]
+        },
+        {
+            "rule": "shipscout\\.app\\/chubbies\\.myshopify\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "current-test"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "afd14face1ceccc10119e15f286762570c60b3c3a3a8b0123066f804734764d4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chubbiesshorts.com",
+                "www.chubbiesshorts.com"
+            ]
+        },
+        {
+            "rule": "shipscout\\.app\\/utz-snacks\\.myshopify\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "current-test"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6d69d65d611d0d89e34e66e20bee9cef2b8f509bd7a24f756b4f8c592a333ce1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utzsnacks.com",
+                "www.utzsnacks.com"
+            ]
+        },
+        {
+            "rule": "shipscout\\.app\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-identify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_sc_uuid": 0.000013555829684555844,
+                "_sc_identified": 0.000013555829684555844
+            },
+            "exampleSites": [
+                "utzsnacks.com",
+                "www.utzsnacks.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000136,
     "types": {
-        "Script": 5,
-        "XHR": 2
+        "Script": 7,
+        "XHR": 8
     },
     "nameservers": [
+        "ns-1320.awsdns-37.org",
         "ns-1884.awsdns-43.co.uk",
-        "ns-432.awsdns-54.com",
         "ns-685.awsdns-21.net",
-        "ns-1320.awsdns-37.org"
+        "ns-432.awsdns-54.com"
     ]
 }

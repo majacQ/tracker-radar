@@ -9,19 +9,83 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000601,
+    "sites": 6,
     "subdomains": [
-        "davisgateway-apiman-prd"
+        "adac-apim-p-gw02",
+        "davisgateway-apiman-prd",
+        "uiapim2b80e30deb7e"
     ],
     "cnames": [
         {
+            "original": "apim-p-gw02.adac.de",
+            "resolved": "adac-apim-p-gw02.azure-api.net"
+        },
+        {
             "original": "davis.vattenfall.de",
             "resolved": "davisgateway-apiman-prd.azure-api.net"
+        },
+        {
+            "original": "internal.api.union-investment.de",
+            "resolved": "uiapim2b80e30deb7e.azure-api.net"
         }
     ],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "azure-api\\.net\\/mapbox\\/map\\/fonts\\/Roboto%20Medium\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adac-apim-p-gw02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "apim-p-gw02.adac.de",
+                    "resolved": "adac-apim-p-gw02.azure-api.net"
+                }
+            ],
+            "responseHashes": [
+                "315639bdaa90a0aeda3620f8f7b065d4617a795e7a331c6aec3719699dee163c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adac.de",
+                "maps.adac.de"
+            ]
+        },
+        {
+            "rule": "azure-api\\.net\\/mapbox\\/map\\/fonts\\/Roboto%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adac-apim-p-gw02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "apim-p-gw02.adac.de",
+                    "resolved": "adac-apim-p-gw02.azure-api.net"
+                }
+            ],
+            "responseHashes": [
+                "38d7cea516b2d19e6520e8ae5800f973b6c5b303119ac5361881c5f88390ec5e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adac.de",
+                "maps.adac.de"
+            ]
+        },
         {
             "rule": "azure-api\\.net\\/api\\/digitalinterface\\/1\\.2\\/Account\\/GetTokenAnonym",
             "cookies": 0,
@@ -31,7 +95,32 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "davis.vattenfall.de",
+                    "resolved": "davisgateway-apiman-prd.azure-api.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vattenfall.de",
+                "www.vattenfall.de"
+            ]
+        },
+        {
+            "rule": "azure-api\\.net\\/api\\/digitalinterface\\/1\\.2\\/Account\\/GetTokenAnonym",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "davisgateway-apiman-prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "davis.vattenfall.de",
@@ -39,7 +128,7 @@
                 }
             ],
             "responseHashes": [
-                "b9a2785d2421efd1700b27459a6a3b1cbf9d589481e251ca8423c319ed1708f0"
+                "b73c98f43a4ceedc86ad47978c76a5a132b7a570599c749102e4985eeff3e474"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -48,12 +137,66 @@
                 "vattenfall.de",
                 "service.vattenfall.de"
             ]
+        },
+        {
+            "rule": "azure-api\\.net\\/beta\\/web\\/portrait\\/fundindex",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uiapim2b80e30deb7e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "internal.api.union-investment.de",
+                    "resolved": "uiapim2b80e30deb7e.azure-api.net"
+                }
+            ],
+            "responseHashes": [
+                "324c70077a58d877ee5557f2c2af3b63b1c806cfe76bcce10c928a0d34159a23"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "union-investment.de",
+                "www.union-investment.de"
+            ]
+        },
+        {
+            "rule": "azure-api\\.net\\/beta\\/web\\/portrait\\/fundindex",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uiapim2b80e30deb7e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "internal.api.union-investment.de",
+                    "resolved": "uiapim2b80e30deb7e.azure-api.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "union-investment.de",
+                "www.union-investment.de"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0,
     "types": {
+        "Fetch": 6,
+        "Preflight": 4,
         "XHR": 2
     },
     "nameservers": []

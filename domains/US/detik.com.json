@@ -7,13 +7,13 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
+    "prevalence": 0.0000407,
     "sites": 6,
     "subdomains": [
-        "ngobrol",
+        "newcomment",
+        "kayumanis",
         "newrevive",
         "connect",
-        "newcomment",
         "cdnstatic",
         "images",
         "push"
@@ -22,40 +22,60 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "detik\\.com\\/public\\/plugin\\/zoid\\/zoid\\.min\\.js",
+            "rule": "detik\\.com\\/static\\/bridge\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "ngobrol"
+                "newcomment"
             ],
-            "apis": {
-                "window.name": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "a189557ebd9ac47843a7e49a66664bb38479b9cb1b53f262e6ee1f7ef5ad8082"
+                "b7e5b9782716544084bbc417c495802bfc509e47c30e75d0b03e9043471a15c1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cnbcindonesia.com",
-                "www.cnbcindonesia.com"
+                "www.haibunda.com",
+                "www.insertlive.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/api\\/validation\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kayumanis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbcindonesia.com",
+                "www.cnbcindonesia.com",
+                "www.haibunda.com",
+                "www.insertlive.com"
             ]
         },
         {
             "rule": "detik\\.com\\/delivery\\/asyncjs\\.php",
-            "cookies": 0.0000276,
+            "cookies": 0.0000271,
             "fingerprinting": 0,
             "subdomains": [
                 "newrevive"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
                 "bda2b2b3fe408efaec1312cdc117f353a14e6d1717f1846d827c319c5836bbff"
@@ -79,7 +99,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "765f1412ae83fc5ca8c70d4578967c2bbd147a6beed2a9b9fc9b5f70a7bcfde0"
@@ -101,7 +121,7 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
                 "4ead2bd6c769b87d010407b5bea2b3b642b1d5bcfea1d9103e5044f9c02195fa"
@@ -117,143 +137,7 @@
             ]
         },
         {
-            "rule": "detik\\.com\\/public\\/bridge\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ngobrol"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "168323581a0bf468ede78d91be16ec5f4442e60e85029ed23d52e232b95f2e4f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cnbcindonesia.com",
-                "www.cnbcindonesia.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/delivery\\/asyncspc\\.php",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "bef9e03038b305a05c83cbd48610fb76b22cb234d0174b2bd13088ea914e66b0",
-                "2e15047b8289707f2afd7ad3a8a191b374f1dd81e11f1fb14c26b67a35d3ec30"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cnbcindonesia.com",
-                "www.haibunda.com",
-                "www.insertlive.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/delivery\\/lg\\.php",
-            "cookies": 0.0000276,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cnbcindonesia.com",
-                "www.cnbcindonesia.com",
-                "www.haibunda.com",
-                "www.insertlive.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/static\\/bridge\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newcomment"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f41f588741b9382d3172a6118b518d23a7b78e6bf82972958bc34c14833cd0ee"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cnbcindonesia.com",
-                "www.haibunda.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/frontend\\/static\\/src\\/assets\\/css\\/fonticon\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newcomment"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "825d9735b1f46d77ddd08900fb38eedb3d9eddcda1b24899b28d5467cdc77725"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cnbcindonesia.com",
-                "www.haibunda.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/frontend\\/static\\/src\\/assets\\/js\\/sharebox\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newcomment"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "195338ca4581727aa0f10469ecbf13a61357492eb7ae32a94c8a54a128a4006f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cnbcindonesia.com",
-                "www.haibunda.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/live\\/js\\/eyeotadtk\\.js",
+            "rule": "detik\\.com\\/live\\/_rmbassets\\/mr1-scrollpage\\/scrollpage\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -261,12 +145,34 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7140a907c2d5e058b18f9c64b37cbca0c4915a3cc5919f5be199849db17099b8"
+                "80f1fbeb1e95f186e1ef324d132860cc499bec297a2ef4b673c73478f21692b7"
             ],
-            "type": "Script",
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.haibunda.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/live\\/_rmbassets\\/mr2-scrollpage\\/scrollpage\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnstatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f16cbd61c5063eee06064df8697819fbb972df80a1f022fdf59954c6b1f533e"
+            ],
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -283,7 +189,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "f25cf1a788fd845ec9fd9612d636207ad7db744aa99624c76fb6c8ecd379e92f"
@@ -297,7 +203,7 @@
             ]
         },
         {
-            "rule": "detik\\.com\\/community\\/media\\/detikconnect\\/2021\\/9\\/27\\/6b9fd8d81a98f06906b9d2816204f542\\.jpeg",
+            "rule": "detik\\.com\\/community\\/media\\/detikconnect\\/2022\\/2\\/21\\/26f29bbdc9279c6645a435c4b5cc18c2\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -305,10 +211,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f2e426a23e461bb20960dbb9e3aef39a5827af0b0af572a7e48cf1b19f938baf"
+                "1d4eb13622fd2233013be45ae4f07b21161b82f612eb8fd3e8a514863212a0bd"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -319,7 +225,7 @@
             ]
         },
         {
-            "rule": "detik\\.com\\/community\\/media\\/detikconnect\\/2021\\/7\\/28\\/86b1e3261456913bd43af15c131becee\\.png",
+            "rule": "detik\\.com\\/community\\/media\\/detikconnect\\/2022\\/6\\/16\\/2765ff0f1e3df9f742332a07a52013d3\\.jpeg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -327,10 +233,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e101b567c517c069e8223a925225c87222096a799224ce015ada58452a19c585"
+                "acee12a14f91541ee45ff98326c480969123838cffa920047536eb41c7b5c29c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -338,6 +244,167 @@
             "exampleSites": [
                 "haibunda.com",
                 "www.haibunda.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/delivery\\/asyncspc\\.php",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newrevive"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "8eae1cf6057b58f7c301ad4b5515527363548465787dadb4bdb1a0ac552c2a8c",
+                "ed2d439e651a129939f0bc2b5a03fcc6e9bfaf51e315ae84552f62a7f397b385"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.haibunda.com",
+                "www.insertlive.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/images\\/55e1f87ccce059d801a4fefd604a71eb\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newrevive"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "25d1b99c7cbc5e5a647ed804a4d05dfdf6d356fed0b8081a405696442cceca82"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.haibunda.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/delivery\\/lg\\.php",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newrevive"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.haibunda.com",
+                "www.insertlive.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/images\\/92c4092352d2053f15bd9934f69bfc4f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newrevive"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ceb6b7598620f59621a3ab9b03e0ed43f88f57f1f972196689a33dee322814f5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.haibunda.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/static\\/dist\\/xcomponent\\.frame\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "newcomment"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "00b0534e0ea12ee3bc1fc850484e4ec5cb41e59f3bab1a25001035e59295f1b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.insertlive.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/frontend\\/static\\/src\\/assets\\/css\\/fonticon\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newcomment"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "825d9735b1f46d77ddd08900fb38eedb3d9eddcda1b24899b28d5467cdc77725"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.insertlive.com"
+            ]
+        },
+        {
+            "rule": "detik\\.com\\/frontend\\/static\\/src\\/assets\\/js\\/sharebox\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newcomment"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "195338ca4581727aa0f10469ecbf13a61357492eb7ae32a94c8a54a128a4006f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haibunda.com",
+                "www.insertlive.com"
             ]
         },
         {
@@ -349,7 +416,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
@@ -361,7 +428,7 @@
             ]
         },
         {
-            "rule": "detik\\.com\\/images\\/8613106209a7285cf37537e680329640\\.jpg",
+            "rule": "detik\\.com\\/images\\/69f431b60b53b5255913d9ebcd5e920f\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -369,78 +436,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "insertlive.com",
-                "www.insertlive.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/images\\/8613106209a7285cf37537e680329640\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "5498e78727aa0afcd5e0f31d864467b63e58a0a9187c9396f81b99d16fc3e113"
+                "e57c5992bdae8fb9d134c886601aee226160b3bceae1d6fc3f8f0d983a8afaea"
             ],
             "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "insertlive.com",
-                "www.insertlive.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/images\\/58a340d196446a0611875d53450720c2\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "776fd35402a8469f4f82d586bcdb0ffef41349f00478b320618fac4d5fddb5a5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "insertlive.com",
-                "www.insertlive.com"
-            ]
-        },
-        {
-            "rule": "detik\\.com\\/images\\/58a340d196446a0611875d53450720c2\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -451,21 +452,21 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000414,
+    "cookies": 0.0000407,
     "types": {
-        "Script": 16,
-        "Stylesheet": 4,
+        "Script": 13,
+        "XHR": 7,
+        "Stylesheet": 8,
         "Document": 4,
-        "XHR": 3,
-        "Image": 12,
-        "WebSocket": 2,
-        "Fetch": 4
+        "Image": 13,
+        "WebSocket": 2
     },
     "nameservers": [
         "ns1.detik.net.id",
         "ns.detik.net.id",
         "ns.detik.com",
         "ns1.detik.com",
+        "ns2.detik.net.id",
         "ns2.detik.com"
     ]
 }

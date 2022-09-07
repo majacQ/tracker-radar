@@ -8,77 +8,133 @@
     "sites": 3,
     "subdomains": [
         "assets",
-        "csp"
+        "csp",
+        "www1",
+        "dji-official-fe"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "djicdn\\.com\\/pkg\\/@dji\\/scio@1\\.15\\.4\\/scio\\.umd\\.js",
-            "cookies": 0.0002,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "dfb9458f085ef3e21a049ed113e4911cdc7027060a70f2b2a970edc53b8e7a75"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "country": {
+                    "ttl": 4,
+                    "length": 1,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "_gcl_au": {
+                    "ttl": 7776009,
+                    "length": 25,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 1
+                },
                 "_ga": {
-                    "ttl": 63072011,
+                    "ttl": 63072014,
                     "length": 27,
-                    "prevalence": 0.00020044097013429546,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 1
                 },
                 "_gid": {
                     "ttl": 86411,
-                    "length": 27,
-                    "prevalence": 0.00020044097013429546,
+                    "length": 26,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 1
                 },
                 "_gat": {
                     "ttl": 68,
                     "length": 1,
-                    "prevalence": 0.00010022048506714773,
-                    "uniqueness": 1
-                },
-                "_gcl_au": {
-                    "ttl": 7776010,
-                    "length": 24,
-                    "prevalence": 0.00020044097013429546,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "_dc_gtm_UA-43055594-1": {
                     "ttl": 71,
                     "length": 1,
-                    "prevalence": 0.00020044097013429546,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 0.5
                 },
+                "_hjSessionUser_1984370": {
+                    "ttl": 31536020,
+                    "length": 115,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 1
+                },
+                "_hjFirstSeen": {
+                    "ttl": 1820,
+                    "length": 1,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 0.5
+                },
+                "_hjIncludedInSessionSample": {
+                    "ttl": 140,
+                    "length": 1,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 0.5
+                },
+                "_hjSession_1984370": {
+                    "ttl": 1820,
+                    "length": 115,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 1
+                },
+                "_hjIncludedInPageviewSample": {
+                    "ttl": 131,
+                    "length": 1,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "_hjAbsoluteSessionInProgress": {
+                    "ttl": 1820,
+                    "length": 1,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 1
+                },
                 "_ga_HXRDE344GS": {
-                    "ttl": 63072010,
-                    "length": 34,
-                    "prevalence": 0.00010022048506714773,
+                    "ttl": 63072014,
+                    "length": 38,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 1
                 },
                 "_ga_5ZEP5JEM1K": {
-                    "ttl": 63072010,
-                    "length": 33,
-                    "prevalence": 0.00010022048506714773,
+                    "ttl": 63072014,
+                    "length": 38,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 1
                 },
-                "scarab.visitor": {
-                    "ttl": 31536011,
-                    "length": 22,
-                    "prevalence": 0.00010022048506714773,
+                "_ab_exp": {
+                    "ttl": 7776000,
+                    "length": 37,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "_bl_uid": {
+                    "ttl": 15552000,
+                    "length": 28,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "_fbp": {
+                    "ttl": 7776021,
+                    "length": 28,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 }
             },
@@ -97,7 +153,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -109,14 +165,38 @@
                 "dji.com",
                 "forum.dji.com"
             ]
+        },
+        {
+            "rule": "djicdn\\.com\\/cms\\/uploads\\/49ccbdc4825c03ffd51aeb8d6541009c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www1",
+                "dji-official-fe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a547a7538090407c3f6098335b8d15e8a09303fcc515dc39974f20eefcc17dc5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dji.com",
+                "www.dji.com"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0002,
+    "cookies": 0.000301,
     "types": {
         "Script": 2,
-        "Other": 2
+        "Other": 2,
+        "Image": 2
     },
     "nameservers": [
         "ns-258.awsdns-32.com",

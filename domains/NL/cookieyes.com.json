@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "active",
-        "geoip"
+        "directory",
+        "log"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -22,12 +23,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
             ],
-            "type": "Fetch",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -40,22 +41,45 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "geoip"
+                "directory"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ed1fa4cb535a4d61d84a6482da640ca1aaf0571103f5789d685b0c217d35aa4c"
+                "f2e423fbbd8173d32b388df31cf5ef5b0bbfd02db945de6c1c0e43f8a2db8c35"
             ],
-            "type": "XHR",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "borent.nl",
-                "www.archyde.com",
-                "www.borent.nl"
+                "www.borent.nl",
+                "www.youfone.nl"
+            ]
+        },
+        {
+            "rule": "cookieyes\\.com\\/api\\/v1\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "borent.nl",
+                "www.borent.nl",
+                "www.youfone.nl"
             ]
         }
     ],
@@ -63,8 +87,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 2,
-        "XHR": 3
+        "Ping": 5,
+        "Fetch": 3
     },
     "nameservers": [
         "dns1.registrar-servers.com",

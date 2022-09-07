@@ -7,14 +7,15 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000345,
-    "sites": 5,
+    "prevalence": 0.0000746,
+    "sites": 11,
     "subdomains": [
         "static",
-        "api"
+        "public-api",
+        "isc-tracking"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "eventim\\.com\\/evi\\/3\\.12\\/evi-widget\\.js",
@@ -24,8 +25,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
                 "77c32b3ef7efba4688432ec9a25f386fea0bd99ae6b57b4789148ccff05f42ac"
@@ -35,27 +36,54 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "eventim.de",
+                "www.eventim.de",
+                "www.fnacspectacles.com",
+                "www.lippu.fi",
                 "www.oeticket.com",
                 "www.ticketcorner.ch",
                 "www.ticketone.it"
             ]
         },
         {
-            "rule": "eventim\\.com\\/evi\\/api\\/evi\\/public\\/rule",
-            "cookies": 0,
+            "rule": "eventim\\.com\\/trip\\/api\\/v1\\/min-prices\\/",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
-                "api"
+                "public-api"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "dc95053c17bf9bd82eca0aca0b7c83c01be2528baab693e6bb0faca991352430",
-                "b8fdbd22e5ee66f4f638790160c01f9ff50d51b4227c980b1891fb3da99f6440",
-                "4453aa9bae453bd946629d4354957a5dbe6b601bb839dfb6b4bc439cf00f097c",
-                "16f7ecd8f87507c3ccffd4735c2f9ccec5b07d7cbb133c838d5ea10935fe3393"
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventim.de",
+                "www.eventim.de"
+            ]
+        },
+        {
+            "rule": "eventim\\.com\\/evi\\/api\\/evi\\/public\\/rule",
+            "cookies": 0.0000474,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "0a1b02e8895d08cddf3223d5c6bd05a090cd1de5d1527c56cb66e4c6e75a1742",
+                "0469600fdfa2b934af4e48567ef26cfb15005a7a48ce99814e0eb9635471bd3a",
+                "4564bb51f26cc83373ef3358fe510fb961c8d6cc3436bbaf0076b115c99ef360",
+                "f2f335f6e1e970287671737393a5a539cc3b3089a0c9bb06cbcc9b6970f51b21",
+                "729120524bed9d28adf65a60e32b11e3f48f2e398d216bd3e51e130b1e84a4d4",
+                "e25b865e9a95283ad1f8c0b2a4409d1ed611e821a343054ee2e94c1a74c4029b"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -63,18 +91,70 @@
             "exampleSites": [
                 "eventim.de",
                 "www.eventim.de",
+                "www.fnacspectacles.com",
+                "www.lippu.fi",
                 "www.oeticket.com",
                 "www.ticketcorner.ch",
+                "www.ticketone.it"
+            ]
+        },
+        {
+            "rule": "eventim\\.com\\/js\\/eventim\\.prodg\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "isc-tracking"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4a821bca91a0fec45395430211f8db9d0f1a38590b326d34741b1b9321059f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketone.it",
+                "www.ticketone.it"
+            ]
+        },
+        {
+            "rule": "eventim\\.com\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "isc-tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketone.it",
                 "www.ticketone.it"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000746,
     "types": {
-        "Script": 4,
-        "Fetch": 5
+        "Script": 9,
+        "XHR": 4,
+        "Fetch": 7
     },
     "nameservers": [
         "a3-64.akam.net",

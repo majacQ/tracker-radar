@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.00652,
-    "sites": 65,
+    "prevalence": 0.00722,
+    "sites": 72,
     "subdomains": [
         "browser",
         "js"
@@ -21,13 +21,15 @@
         {
             "rule": "sentry-cdn\\.com\\/6\\.0\\.2\\/bundle\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "browser"
             ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
                 "7307a947e724964d6bd1b2fb4656a03e2ae65abecf8f57a6575ad8e8034c9278"
@@ -42,35 +44,90 @@
                 "www.dagbladet.no",
                 "www.elbil24.no",
                 "www.kk.no",
+                "www.lommelegen.no",
+                "www.plussmobil.no",
                 "www.seher.no",
                 "www.vi.no"
             ]
         },
         {
-            "rule": "sentry-cdn\\.com\\/6\\.10\\.0\\/bundle\\.min\\.js",
+            "rule": "sentry-cdn\\.com\\/c41771aeccbb43fbbffbc4755e65c9be\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "031ae69b49b033571c622c2a4a447270636170abb5454c1dc7dc892471cf5a47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "derimot.no",
+                "nameberry.com",
+                "steigan.no",
+                "stevekirsch.substack.com",
+                "substack.com",
+                "techstacker.com",
+                "www.ricksdailytips.com"
+            ]
+        },
+        {
+            "rule": "sentry-cdn\\.com\\/5\\.12\\.1\\/bundle\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "browser"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 5,
-                "Navigator.prototype.userAgent": 2
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "f80a6dfe11e2b60758ab376b4de71fd697d4abed085a98c611b185ad182b0ca2"
+                "75457b054e6e1e89f10dda4b777d5676404acaa1541618f03d4ed055a3857e05"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "cryptotab.farm",
-                "getproofed.com",
+                "roblox.com",
+                "www.effectivealtruism.org",
+                "www.resursbank.no",
+                "www.ya.no"
+            ]
+        },
+        {
+            "rule": "sentry-cdn\\.com\\/7\\.9\\.0\\/bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "browser"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "c4c8bcf52e5f6bcd938a67e728eb9aafd32cbfb4753cb72fa969a76a7f60a31d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustpilot.com",
                 "no.trustpilot.com",
-                "www.jetbrains.com",
+                "uk.trustpilot.com",
                 "www.trustpilot.com"
             ]
         },
@@ -82,8 +139,8 @@
                 "browser"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "6d7bf2b801bc5f1a75cd37efc373b3d8d7de99ecd963112e306b4bf4e9005ef2"
@@ -93,6 +150,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "scribd.com",
+                "pt.scribd.com",
                 "www.scribd.com"
             ]
         },
@@ -104,8 +162,8 @@
                 "browser"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "79e34e8ea066913d88be93b8462be752ccd77e639161c8262d64cdafd886b093"
@@ -115,6 +173,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "scribd.com",
+                "pt.scribd.com",
                 "www.scribd.com"
             ]
         },
@@ -130,7 +189,7 @@
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "38441acfa4281843f70a1b71c01c649f736c6b5d6a174f7bc3c2d664c12afa57"
+                "79014e3ee21d17e582928153263e3df8ba30abaa0502a56186380de38123942e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -143,132 +202,34 @@
             ]
         },
         {
-            "rule": "sentry-cdn\\.com\\/5\\.12\\.0\\/bundle\\.min\\.js",
+            "rule": "sentry-cdn\\.com\\/6\\.19\\.7\\/bundle\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "browser"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e9d34649bd6c6142e235be644ba8a41c4f16a163f467d3458b524630ffd9da77"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kommons.com",
-                "www.noagallery.se"
-            ]
-        },
-        {
-            "rule": "sentry-cdn\\.com\\/5\\.5\\.0\\/bundle\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "browser"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.userAgent": 4
             },
             "sites": 4,
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "8c04755395b8f232c57d062a7669c3c414658299d29c6b6f83f1f30185d94ecb"
+                "6ba797956f6d29b650d458897e48a190cddf0a6ba374350c0bb565fa04f80d65"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "miro.com",
-                "vkfaces.com",
-                "www.numerade.com",
-                "www.unisportstore.no"
+                "imgur.com",
+                "worldstarhiphop.com",
+                "www.slideshare.net",
+                "www.toptal.com"
             ]
         },
         {
-            "rule": "sentry-cdn\\.com\\/6\\.8\\.0\\/bundle\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "browser"
-            ],
-            "apis": {
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "9c70b332a3417f6d502d5ef954214f736ed7099226afe747bad783df68fa865c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nabobil.no",
-                "tv.nrk.no"
-            ]
-        },
-        {
-            "rule": "sentry-cdn\\.com\\/c41771aeccbb43fbbffbc4755e65c9be\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "5ba7c2b751bc8bb6d1fec12982980daf5a16ebd71e9a8d81852dd4b72c75094f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nameberry.com",
-                "substack.com",
-                "techstacker.com",
-                "www.aldaily.com",
-                "www.ricksdailytips.com"
-            ]
-        },
-        {
-            "rule": "sentry-cdn\\.com\\/6\\.13\\.2\\/bundle\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "browser"
-            ],
-            "apis": {
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8974278ea485021f8ff76efd8a518b441478c3b7f4b0c0238068bd680ff67c2a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "psychcentral.com",
-                "www.doctolib.fr"
-            ]
-        },
-        {
-            "rule": "sentry-cdn\\.com\\/5\\.19\\.1\\/bundle\\.min\\.js",
+            "rule": "sentry-cdn\\.com\\/5\\.26\\.0\\/bundle\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -279,14 +240,43 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5064ba4cd387a2aa7d579e5c29b4398b12bab57abc3da6edd8fcfa27ee3a1f2c"
+                "4ce77a45249855fbcb3520a4d78194efa6eb5bb50808faf00eea5b6064777b79"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "chess.com",
-                "www.edc.dk"
+                "learnsql.com",
+                "learnpython.com"
+            ]
+        },
+        {
+            "rule": "sentry-cdn\\.com\\/6\\.12\\.0\\/bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "browser"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "94c19003c0a3011caaf3989f90a30c0bc8b96d112e42a4396e7d3c101b5c4481"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com",
+                "www.masterofmalt.com"
             ]
         },
         {
@@ -310,6 +300,31 @@
                 "nordicchoicehotels.com",
                 "www.nordicchoicehotels.no"
             ]
+        },
+        {
+            "rule": "sentry-cdn\\.com\\/6\\.15\\.0\\/bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "browser"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2489e3030ed6c46482968c18ba87e88ab27573c9d03f7d26e2dbf2f561c2dc8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thansen.dk",
+                "www.thansen.no"
+            ]
         }
     ],
     "categories": [
@@ -319,12 +334,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 40
+        "Script": 48
     },
     "nameservers": [
-        "ns-cloud-e1.googledomains.com",
         "ns-cloud-e2.googledomains.com",
         "ns-cloud-e3.googledomains.com",
-        "ns-cloud-e4.googledomains.com"
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com"
     ]
 }

@@ -4,14 +4,14 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000402,
+    "sites": 4,
     "subdomains": [
         "cdn",
         "static",
+        "events1",
         "cdn1",
-        "avm",
-        "events1"
+        "avm"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -24,22 +24,24 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.sessionStorage": 2,
-                "Navigator.prototype.maxTouchPoints": 2
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.maxTouchPoints": 4
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "c8aba5a821df184d25014d3dda38619d690d340b154bb2d7725187e074c3c542"
+                "2e4386cf56ad2612f0ad0526372b3d1cd96d6ecb3f32836f141aa28207b3907e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
+                "arkids.net",
+                "ch.hotdeals.com",
+                "skyrimcommands.com",
+                "www.larousse.fr"
             ]
         },
         {
@@ -50,18 +52,44 @@
                 "static"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "d24a4ffdd8faf20b9b9b33c1bec38b41dbd443c55e2db1d765959fb5bc761f5d"
+                "6a4c2f02417925a87e6c21ec3280f3c76f0ddd13e0589991c0b482f44c127c6d"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
+                "arkids.net",
+                "ch.hotdeals.com",
+                "skyrimcommands.com",
+                "www.larousse.fr"
+            ]
+        },
+        {
+            "rule": "avantisvideo\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkids.net",
+                "ch.hotdeals.com",
+                "skyrimcommands.com",
+                "www.larousse.fr"
             ]
         },
         {
@@ -72,25 +100,94 @@
                 "cdn1"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "3fac6fcea268523d827b4512f268a9bb1df0479b8a4603d118c9e4df7489a038"
+                "24374f583eeb0c88723c3cb830828d5798ce87144c8ce4e32076df4786f72848"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
+                "arkids.net",
+                "ch.hotdeals.com",
+                "skyrimcommands.com",
+                "www.larousse.fr"
             ]
         },
         {
             "rule": "avantisvideo\\.com\\/api\\/v1\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ad8cf4beada8b353de7962cad21663ae9051a693f1cf80bd5916ae2c6d94256f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkids.net",
+                "ch.hotdeals.com",
+                "skyrimcommands.com"
+            ]
+        },
+        {
+            "rule": "avantisvideo\\.com\\/api\\/v1\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkids.net",
+                "ch.hotdeals.com",
+                "skyrimcommands.com"
+            ]
+        },
+        {
+            "rule": "avantisvideo\\.com\\/api\\/v1\\/tag\\/7dfd55ec-50af-4813-90c9-4d5e57b6172c\\/2\\/desktop\\/generate\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "avm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6fddf4cc8173ef38e57945a46525d52e11d5b5fe73740cef2d0c595beb4c50bd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkids.net",
+                "skyrimcommands.com"
+            ]
+        },
+        {
+            "rule": "avantisvideo\\.com\\/api\\/v1\\/tag\\/7dfd55ec-50af-4813-90c9-4d5e57b6172c\\/2\\/desktop\\/generate\\/t",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -105,30 +202,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
-            ]
-        },
-        {
-            "rule": "avantisvideo\\.com\\/api\\/v1\\/geoip",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "avm"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "1468b4f9e21da2c6cc9242d2ad7b8463c6a501ce03f71700f6358ab960d78b9a"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
+                "arkids.net",
+                "skyrimcommands.com"
             ]
         },
         {
@@ -141,46 +216,25 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
-                "window.sessionStorage": 2,
                 "window.localStorage": 2,
-                "Navigator.prototype.maxTouchPoints": 2,
+                "window.sessionStorage": 2,
                 "Navigator.prototype.language": 2,
-                "Navigator.prototype.languages": 2
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.webdriver": 2
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b5eb66c23cbc69aa883cb2ba29fa732c25582626fdae83746d333e88021c6af3"
+                "b2675f2bc3393449a44784c7815f9c36449024e4397d7f174812c42c6bbaa148"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
-            ]
-        },
-        {
-            "rule": "avantisvideo\\.com\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "events1"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gameranx.com",
-                "www.scan-manga.com"
+                "hotdeals.com",
+                "skyrimcommands.com",
+                "www.larousse.fr"
             ]
         }
     ],
@@ -188,16 +242,16 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4,
-        "XHR": 4,
-        "Document": 2,
-        "Preflight": 2,
-        "Other": 2
+        "Script": 7,
+        "XHR": 9,
+        "Ping": 4,
+        "Document": 4,
+        "Preflight": 5
     },
     "nameservers": [
-        "ns-1428.awsdns-50.org",
-        "ns-1618.awsdns-10.co.uk",
         "ns-224.awsdns-28.com",
-        "ns-553.awsdns-05.net"
+        "ns-553.awsdns-05.net",
+        "ns-1618.awsdns-10.co.uk",
+        "ns-1428.awsdns-50.org"
     ]
 }

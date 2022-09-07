@@ -7,18 +7,17 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "www",
         "analytics",
         "sstats",
         "media",
-        "auth",
-        "api"
+        "appdeumext"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 0,
     "resources": [
         {
             "rule": "tdameritrade\\.com\\/privacy_iframe\\.html",
@@ -29,7 +28,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b3751dd6f28e3a408c722e5c7586f56388f3997c84b1c8fcd056bdeb611eec71"
@@ -44,36 +43,14 @@
         },
         {
             "rule": "tdameritrade\\.com\\/clickstream-v1\\/events",
-            "cookies": 0,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "analytics"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "thinkorswim.com",
-                "tlc.thinkorswim.com",
-                "trade.thinkorswim.com",
-                "www.advisorclient.com"
-            ]
-        },
-        {
-            "rule": "tdameritrade\\.com\\/clickstream-v1\\/events",
-            "cookies": 0.0000276,
-            "fingerprinting": 0,
-            "subdomains": [
-                "analytics"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -84,25 +61,44 @@
             "exampleSites": [
                 "thinkorswim.com",
                 "tlc.thinkorswim.com",
-                "trade.thinkorswim.com",
+                "www.advisorclient.com"
+            ]
+        },
+        {
+            "rule": "tdameritrade\\.com\\/clickstream-v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thinkorswim.com",
+                "tlc.thinkorswim.com",
                 "www.advisorclient.com"
             ]
         },
         {
             "rule": "tdameritrade\\.com\\/id",
-            "cookies": 0.0000276,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "sstats"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "08f351af132ecb99c793682a4d5d0e222ee61e6af90f1559d4aa745abbf282e9",
-                "10c69aa27b6eae35a8f64e6159a71ff68387a4f02615e58fc32be0ef515bdf1c",
-                "c5994e9f61f48303100098aee9853cdd392b7c61baac6b1af1605d3346e89520"
+                "14f02f435dc15cb28597ab891e0fa7a9c3eee12f624c25fa29c1c33cf7251fbb",
+                "797c7e04dbfa825f35e75bda8c844a8ba14b1967ead76fa7e33ae8f87d1adcb7"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -110,7 +106,6 @@
             "exampleSites": [
                 "thinkorswim.com",
                 "tlc.thinkorswim.com",
-                "trade.thinkorswim.com",
                 "www.advisorclient.com"
             ]
         },
@@ -122,8 +117,8 @@
                 "media"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d467a2863558a9754a650569c532f1a03e6d2e02e62524d739d9af73cf4c048c"
@@ -133,8 +128,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "thinkorswim.com",
-                "tlc.thinkorswim.com",
-                "trade.thinkorswim.com"
+                "tlc.thinkorswim.com"
             ]
         },
         {
@@ -145,8 +139,8 @@
                 "media"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "de2b959a7a7718c4931a64a1514a54fc30bacc383a44a90f139b0af2560f0c41"
@@ -156,93 +150,48 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "thinkorswim.com",
-                "tlc.thinkorswim.com",
-                "trade.thinkorswim.com"
+                "tlc.thinkorswim.com"
             ]
         },
         {
-            "rule": "tdameritrade\\.com\\/auth",
-            "cookies": 0.0000138,
+            "rule": "tdameritrade\\.com\\/eumcollector\\/beacons\\/browser\\/v1\\/EUM-AAB-AZA\\/adrum",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
-                "auth"
+                "appdeumext"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b0f12a9563d78f0ea7b3449f24fc3b5d2e4b26799bfb430ddbf9b4d6e9f5933a"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Document",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "thinkorswim.com",
-                "trade.thinkorswim.com"
-            ]
-        },
-        {
-            "rule": "tdameritrade\\.com\\/v1\\/marketdata\\/OPTION\\/hours",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "thinkorswim.com",
-                "trade.thinkorswim.com"
-            ]
-        },
-        {
-            "rule": "tdameritrade\\.com\\/media\\/css\\/tdasans_remote\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "media"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "f9583f9709cda6506cb1f30e7420f6c8f03d8ec2c843d9007d1d92bfc99dd681"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "thinkorswim.com",
-                "trade.thinkorswim.com"
+                "advisorclient.com",
+                "www.advisorclient.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000414,
+    "cookies": 0.0000271,
     "types": {
-        "Document": 4,
-        "Preflight": 4,
+        "Document": 2,
         "XHR": 8,
-        "Font": 6,
-        "Fetch": 2,
-        "Stylesheet": 2
+        "Preflight": 3,
+        "Font": 4
     },
     "nameservers": [
-        "ns1.p50.dynect.net",
-        "pdns151.ultradns.net",
-        "pdns151.ultradns.biz",
         "ns3.p50.dynect.net",
         "ns2.p50.dynect.net",
         "ns4.p50.dynect.net",
-        "pdns151.ultradns.com"
+        "pdns151.ultradns.com",
+        "ns1.p50.dynect.net",
+        "pdns151.ultradns.net",
+        "pdns151.ultradns.biz"
     ]
 }

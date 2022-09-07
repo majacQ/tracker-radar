@@ -9,16 +9,154 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.00331,
-    "sites": 33,
+    "prevalence": 0.00351,
+    "sites": 35,
     "subdomains": [
-        "adserver",
         "js",
+        "adserver",
         "ads"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "juicyads\\.com\\/jp\\.php",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.mimeTypes": 11,
+                "window.innerWidth": 11,
+                "window.innerHeight": 11,
+                "window.screenX": 11,
+                "window.screenLeft": 11,
+                "window.screenY": 11,
+                "window.screenTop": 11,
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "45be097a7738ee7f1966b5d380a9f9dc1148c22799189797c7a504f947dfb9f0",
+                "5238e6c39e2aee3c21d04c7162b84c6a43ae7bf2012f913a7204e5716d0c3ef0",
+                "bddcf0caab52d552e41d3560f41a0b2643aa7fd81e909307035ac016774fded8",
+                "6ddfdd2603a1844e4fe508ad35526cdabb463f2467055cfe1e99c99379eb7c52",
+                "1271ff90ec848e15be5f9dfd24eea8b420c5417fbd172b1d5a102f0017a0e0ed",
+                "e92ca267baac847ac0b14fee5286428807e0e0569781407b37cf1b1123b63a81",
+                "c500d266362c08a01ceaa4d748a1d904f72e1c4f5f31bee3126c2936ba61101d",
+                "d42bf905d72871e727638ad5f72820da61779f29ecc4491ddb1ca68048652018",
+                "f0985e93bedae08c891d2b80b5ffdcdacf95aa26a2cfeee509c5b5712ca008dc",
+                "8f7089a00cefd72cd9ee8c2e82cca023f71d42e7fbdedd4f03b3106cf14c3e9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baddiesonly.tv",
+                "bokepindonesia.net",
+                "digoyang.com",
+                "freeadultcomix.com",
+                "hentaicrot.com",
+                "megapornpics.com",
+                "pixhentai.com"
+            ]
+        },
+        {
+            "rule": "juicyads\\.com\\/js\\/fadeinbox\\.js",
+            "cookies": 0.001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adserver"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Document.cookie setter": 10,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "43799418c7a36f766db96b168104db592e151fc6e7ec6d9d613a0c99ddf9f9d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "juicy_fadedin": {
+                    "ttl": null,
+                    "length": 3,
+                    "prevalence": 0.0010032102728731941,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bindoxxxx.xyz",
+                "bokepfbx.xyz",
+                "digoyang.com",
+                "megapornpics.com",
+                "pornogrim.xyz",
+                "shemaledream.tube",
+                "xn--bkep-qqa.com",
+                "xn--bokponlineterbaru-dtb.com"
+            ]
+        },
+        {
+            "rule": "juicyads\\.com\\/adshow\\.php",
+            "cookies": 0.0013,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "3c9d4d34df8727fbf799ff1e5675ae65aa842b49710168af45593382f17eeaa0",
+                "3adde7e68193cc357518d495dec1125a87b9ef9de52e26e74551af25674dbc30",
+                "98c36ed19ea4f7cb4b325d915839e971f5f06c9cf617e2778a244f662f9dc16b",
+                "9740a8ab7daf84745846a88108a4ab8855a7c55c2d03d60ab79f0d9a5d26d7a9",
+                "2dfd988516844c024795d20d3e54e26aeed9f7d985314acae2d75b06902c38d3",
+                "2bb208161a4e4434e49c46b211b27aa1169fce977252c0a072f5b8e762eff1be",
+                "53e226add13023c8bde963e2faf1d4cb9de4347f844f118303766c8c9aa816c2",
+                "846f4538e7b9b8c0c181a8ca3575e199041e99c34d4e02ce46d2d91ead4e1bf3",
+                "ab92fb243fcf53b581fbf0aa6d37e4a94d9da38bcb27449949afe4be8f70c585",
+                "50fe0748e3c924e82da93602cc45eae847514cfef8114df0bea1f96e8efb6c38",
+                "dcb0c7e0e54431857d20373855e7df359d513fd28ee7968e4ed099b8bc04c04e",
+                "63bd6276b9c4379649a88c71a0cf8c60e1738e927895ba4bcac2574c51b74c8f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babesrater.com",
+                "bindoxxxx.xyz",
+                "bokepfbx.xyz",
+                "bokepindonesia.net",
+                "boobyday.com",
+                "digoyang.com",
+                "e-hentai.org",
+                "handjobhub.com",
+                "lewdzone.com",
+                "megapornpics.com",
+                "nudecollect.com",
+                "pornogrim.xyz",
+                "shemaledream.tube",
+                "www.faproulette.co",
+                "www.iafd.com",
+                "www.incestflix.com",
+                "www.nudecollect.com",
+                "xn--bkep-qqa.com",
+                "xn--bokponlineterbaru-dtb.com",
+                "xnxxarab.cc"
+            ]
+        },
         {
             "rule": "juicyads\\.com\\/js\\/jads\\.js",
             "cookies": 0,
@@ -39,175 +177,38 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "babesrater.com",
+                "bokepindonesia.net",
                 "boobyday.com",
-                "cumception.com",
                 "e-hentai.org",
-                "gay.xtapes.to",
+                "handjobhub.com",
+                "lewdzone.com",
                 "megapornpics.com",
-                "photosfemmesnues.net",
-                "voyeur-house.club",
-                "www.iafd.com",
-                "www.shadbase.com"
+                "shemaledream.tube",
+                "www.iafd.com"
             ]
         },
         {
-            "rule": "juicyads\\.com\\/adshow\\.php",
-            "cookies": 0.000502,
-            "fingerprinting": 0,
-            "subdomains": [
-                "adserver"
-            ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.00151,
-            "cnames": [],
-            "responseHashes": [
-                "e267b3f703322f0863b462739cd90e0c8f65450618e395c011e9a8b55d5c56a9",
-                "0881894d86a8b0e44c53b9bc0d74f743b1301c1abf24cd234c21d2a80bdbd28f",
-                "ffecab06205debe0ef208fb3f61fb2c4f506afbbd07f01751f7096267727dcc1",
-                "c8091bcefc347fda3a402f6cdea3b1ce78548d0c8c4d4fbdb5e285b5bbf3c162",
-                "5b8692a0300d685745887a0a6f4c71185c783a26c4ab0c7596ef911e59d21329"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "9hentai.to",
-                "boobyday.com",
-                "cumception.com",
-                "e-hentai.org",
-                "gay.xtapes.to",
-                "megapornpics.com",
-                "photosfemmesnues.net",
-                "voyeur-house.club",
-                "www.faproulette.co",
-                "www.iafd.com",
-                "www.incestflix.com",
-                "www.nudecollect.com",
-                "www.shadbase.com"
-            ]
-        },
-        {
-            "rule": "juicyads\\.com\\/jp\\.php",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 12,
-                "Navigator.prototype.mimeTypes": 12,
-                "Date.prototype.getTime": 12,
-                "window.localStorage": 12
-            },
-            "sites": 12,
-            "prevalence": 0.00121,
-            "cnames": [],
-            "responseHashes": [
-                "731e428f285c702e43b279a62745fcda8f6ea2ca4d0872489b108da94b1a4ecb",
-                "bcd2cbe11241df6b954706cb5fcb13a33237867b03de1bfd3d55a4e33601905d",
-                "93212e362c9e302a21e5fa078ff0b6302d1585737c46f4ca13ecb28a3ff6fdc6",
-                "4d86326a782212313686acbb6fbbd6cdbb541e48c1cdd6966ec75adcc0af1589",
-                "62592016edcd61de3272a51a183e89cc732abfef7a0ec40c2049f63bee725eaf",
-                "ec481b4fbe5a46a7f90b9fb3623fe72862961b2a7b7d47080c2873b683fa8752",
-                "1c1521f0c6ee796d3b79eef907636578b8493fcf2d6d3296afca0f3aa3444ce3",
-                "b5821b416669f2f2b993d4beb2acd3dc43482857fb6e0a183d1c835d21d8ca48",
-                "6e6aa0b7c46495016d2a1e8cfefc4aea8670a180c2523eb11911a5311f450616",
-                "9c659edd2e289e455c713f65bfed0baaa30ab171199822ac5452d4356af1dda6",
-                "940e4f72be8fcf8abc6516d6237b552d273d600b9dd00f8cbc9786818c673d5c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bokepindohot.net",
-                "bokepr.com",
-                "cumception.com",
-                "doujindesu.id",
-                "hentaiplay.net",
-                "hentairead.com",
-                "megapornpics.com",
-                "pixhentai.com",
-                "ru.hamsterix.cam",
-                "trannyvideosxxx.com",
-                "www.jeux-sexe-gratuit.com",
-                "www.trannyvideosx.com"
-            ]
-        },
-        {
-            "rule": "juicyads\\.com\\/js\\/fadeinbox\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 1,
-            "subdomains": [
-                "adserver"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "43799418c7a36f766db96b168104db592e151fc6e7ec6d9d613a0c99ddf9f9d6"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "juicy_fadedin": {
-                    "ttl": null,
-                    "length": 3,
-                    "prevalence": 0.0002008435428800964,
-                    "uniqueness": 0.5
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "cumception.com",
-                "megapornpics.com"
-            ]
-        },
-        {
-            "rule": "juicyads\\.com\\/ads\\/user57648\\/ad1490192-1530569409\\.gif",
+            "rule": "juicyads\\.com\\/ads\\/user57648\\/ad1712824-1588340503\\.gif",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "005839f2a9f773c412f6910ff21281f934d1d9c9509cd9c170f72f2bee5f43ef"
+                "a6f877843c617951f59e8840c42a911a726575fd81c2d0bb47d0018aea44d552"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hentaiworld.tv",
-                "www.pichunter.com"
-            ]
-        },
-        {
-            "rule": "juicyads\\.com\\/ads\\/user57648\\/ad1506660-1567949151\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "8562cbd03f72973512b7d6a111ea034ea7b5f8f7964c4a990b74588476ba8309"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "myhentaicomics.com",
-                "myhentaigallery.com"
+                "nudecollect.com",
+                "rule34video.com",
+                "www.nudecollect.com"
             ]
         }
     ],
@@ -217,16 +218,16 @@
         "Malware"
     ],
     "performance": {},
-    "cookies": 0.00151,
+    "cookies": 0.00231,
     "types": {
-        "Script": 25,
-        "Document": 15,
-        "Image": 4
+        "Script": 32,
+        "Document": 23,
+        "Image": 3
     },
     "nameservers": [
-        "dns1.p07.nsone.net",
-        "dns2.p07.nsone.net",
+        "dns4.p07.nsone.net",
         "dns3.p07.nsone.net",
-        "dns4.p07.nsone.net"
+        "dns2.p07.nsone.net",
+        "dns1.p07.nsone.net"
     ]
 }

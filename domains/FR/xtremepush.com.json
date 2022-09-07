@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "api"
     ],
@@ -14,18 +14,19 @@
     "resources": [
         {
             "rule": "xtremepush\\.com\\/push\\/api\\/deviceCreate",
-            "cookies": 0.000301,
+            "cookies": 0.000401,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "6a6fc7b478fa592eb0ad32d2d7e941177356e428a0721fde9ac3be5054cbf509",
-                "6134f54cfc202a0b17e2a706e9dcf6a9521a7998b7efa0386aa463c63b96d65a"
+                "952f53710c6edafc495b49306ca14867bd0ef22bb7564c18518f390f259c2d70",
+                "1a01c454bf00b298adf6ee863766dc2439f76a678a54de6950a0eb2decb71ee3",
+                "53c077938c0b248070ebe03481a6ba4ca2bfd182fcd8bc888639c5c4274136d0"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -33,7 +34,8 @@
             "exampleSites": [
                 "dhgate.com",
                 "www.gametwist.com",
-                "www.irishtimes.com"
+                "www.irishtimes.com",
+                "www.rte.ie"
             ]
         },
         {
@@ -45,7 +47,7 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.000402,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "33cf9635b62dfc0a9f749b5e6a97c281d10b4791460559460658dc3220e9311f"
@@ -55,17 +57,63 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dhgate.com",
-                "fr.dhgate.com",
                 "www.gametwist.com",
-                "www.irishtimes.com"
+                "www.irishtimes.com",
+                "www.rte.ie"
+            ]
+        },
+        {
+            "rule": "xtremepush\\.com\\/push\\/api\\/swActivate",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7bbde71e5f3d9e7fbcaccebabcd5064f0de17fd4cb5a3a79dee5db1278d6ac91"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gametwist.com",
+                "www.irishtimes.com",
+                "www.rte.ie"
+            ]
+        },
+        {
+            "rule": "xtremepush\\.com\\/push\\/api\\/swActivate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gametwist.com",
+                "www.irishtimes.com",
+                "www.rte.ie"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000401,
     "types": {
-        "XHR": 7
+        "XHR": 8,
+        "Fetch": 3,
+        "Preflight": 3
     },
     "nameservers": [
         "ns-112.awsdns-14.com",

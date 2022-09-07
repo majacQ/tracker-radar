@@ -9,16 +9,17 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.00321,
-    "sites": 32,
+    "prevalence": 0.00471,
+    "sites": 47,
     "subdomains": [
         "get",
         "onetag-geo",
         "signal-beacon",
         "connect-metrics-collector",
+        "signal-metrics-collector-beta",
         "prebid",
-        "onetag-geo-grouping",
-        "market-dev"
+        "signal-segments",
+        "dfp-gateway"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -31,24 +32,22 @@
                 "get"
             ],
             "apis": {
-                "window.localStorage": 6
+                "window.localStorage": 3,
+                "window.innerWidth": 3
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "0c08815f5e74c5477b25c5303f3b512b5c04ccf403e41e319c29cb5243fce5f8"
+                "cbe72b686c98aad3ca2c58357108742c0cccd68f45cd9d4affd2ddbf3a5e08df"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aidwiki.com",
-                "celebpie.com",
-                "celebsaga.com",
-                "heightzone.com",
-                "www.appunwrapper.com",
-                "www.newslocker.com"
+                "tattle.life",
+                "www.se80.co.uk"
             ]
         },
         {
@@ -59,8 +58,8 @@
                 "onetag-geo"
             ],
             "apis": {},
-            "sites": 31,
-            "prevalence": 0.00311,
+            "sites": 46,
+            "prevalence": 0.00461,
             "cnames": [],
             "responseHashes": [
                 "c5df855bb7f3551f87eef4460c632047936ad10699f9c1bc5b4495a8751ae9ae"
@@ -69,26 +68,26 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "money.cnn.com",
+                "itsfoss.com",
                 "www.cnn.com",
+                "www.discogs.com",
+                "www.express.co.uk",
+                "www.independent.co.uk",
                 "www.mirror.co.uk",
-                "www.spanishdict.com",
-                "www.whitepages.com",
                 "www.zerohedge.com",
-                "www.lewrockwell.com",
-                "www.kongregate.com",
-                "www.mumsnet.com",
-                "www.salon.com",
-                "www.newslocker.com",
-                "techraptor.net",
-                "www.bodybuilding.com",
-                "edition.cnn.com",
-                "www.sporcle.com",
+                "www.kicker.de",
+                "www.goal.com",
                 "distrowatch.com",
-                "greenwichmeantime.com",
-                "www.dailystar.co.uk",
-                "www.bellazon.com",
-                "heightzone.com"
+                "www.se80.co.uk",
+                "awoiaf.westeros.org",
+                "nl.windfinder.com",
+                "www.walesonline.co.uk",
+                "weather-and-climate.com",
+                "www.sherdog.com",
+                "www.nme.com",
+                "www.voetbalzone.nl",
+                "top.gg",
+                "liveuamap.com"
             ]
         },
         {
@@ -99,38 +98,70 @@
                 "signal-beacon"
             ],
             "apis": {
-                "window.localStorage": 23
+                "window.localStorage": 39,
+                "window.innerHeight": 25
             },
-            "sites": 24,
-            "prevalence": 0.00241,
+            "sites": 41,
+            "prevalence": 0.00411,
             "cnames": [],
             "responseHashes": [
-                "3956abb802c9c7d9423c07d90c15ed2edeefcb4387915d92f39dc9a215ed4c00"
+                "93975ae1d8cef7cb7a8c05ef392abe1b4d080b570b19cab279a208afe7d36cf9"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.spanishdict.com",
-                "www.whitepages.com",
+                "itsfoss.com",
+                "www.discogs.com",
+                "www.express.co.uk",
+                "www.independent.co.uk",
                 "www.zerohedge.com",
-                "aidwiki.com",
-                "mydramalist.com",
-                "www.appunwrapper.com",
-                "www.thestudentroom.co.uk",
-                "www.salon.com",
-                "www.mumsnet.com",
-                "celebsaga.com",
-                "www.newslocker.com",
-                "heightzone.com",
+                "weather-and-climate.com",
+                "www.avforums.com",
+                "www.standard.co.uk",
+                "www.nme.com",
                 "www.sherdog.com",
-                "techraptor.net",
+                "www.scientificamerican.com",
+                "dev.bukkit.org",
+                "mydramalist.com",
+                "en.m.uesp.net",
+                "www.mumsnet.com",
+                "liveuamap.com",
+                "tattle.life",
                 "www.sporcle.com",
-                "www.kongregate.com",
-                "gamertweak.com",
-                "www.bellazon.com",
-                "distrowatch.com",
-                "celebpie.com"
+                "www.gumtree.com",
+                "www.worldhistory.org"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/7284df62-edfa-4b01-bf2f-6f54f7507c72\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "window.innerWidth": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [
+                "57a719872cb518c1a874905211cd4d0a0a2b7a59d02b466152543e0547521915"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westeros.org",
+                "dev.bukkit.org",
+                "en.m.uesp.net",
+                "en.uesp.net",
+                "files.minecraftforge.net",
+                "socialblade.com",
+                "top.gg",
+                "www.discogs.com"
             ]
         },
         {
@@ -138,29 +169,40 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "connect-metrics-collector"
+                "connect-metrics-collector",
+                "signal-metrics-collector-beta"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 40,
+            "prevalence": 0.00401,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "celebpie.com",
-                "distrowatch.com",
-                "gamertweak.com",
-                "heightzone.com",
-                "money.cnn.com",
-                "mydramalist.com",
-                "www.appunwrapper.com",
-                "www.japantimes.co.jp",
-                "www.kongregate.com",
-                "www.lewrockwell.com"
+                "itsfoss.com",
+                "www.cnn.com",
+                "www.discogs.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.zerohedge.com",
+                "nl.windfinder.com",
+                "www.scientificamerican.com",
+                "dev.bukkit.org",
+                "en.m.uesp.net",
+                "www.goal.com",
+                "edition.cnn.com",
+                "en.uesp.net",
+                "stocktwits.com",
+                "www.walesonline.co.uk",
+                "www.sherdog.com",
+                "www.se80.co.uk",
+                "www.kicker.de",
+                "awoiaf.westeros.org",
+                "distrowatch.com"
             ]
         },
         {
@@ -184,7 +226,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cnn.com",
-                "money.cnn.com",
+                "edition.cnn.com",
                 "www.cnn.com"
             ]
         },
@@ -196,20 +238,21 @@
                 "signal-beacon"
             ],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 3,
+                "window.innerHeight": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "01f4575af9b5deeb2515e0457e93f8dec5b926d3f4458cdef622f5b97c9bd248"
+                "0b5f70b5766bdc7352be33719cde8b5a6641dc146ef408b7d74ac559aaf2fd35"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "cnn.com",
-                "money.cnn.com",
+                "edition.cnn.com",
                 "www.cnn.com"
             ]
         },
@@ -221,22 +264,194 @@
                 "get"
             ],
             "apis": {
-                "window.localStorage": 4
+                "window.localStorage": 6,
+                "window.innerWidth": 6
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "83af3eed9bc9713193f2ad86f6214e2554ec29f8022e054dcf696a10d59ff9d2"
+                "cbff952e8c47bf976906662ac210c3ae9aaf8e10820d404e8f760bc273bcb4fb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "greenwichmeantime.com",
+                "itsfoss.com",
                 "mydramalist.com",
-                "techraptor.net",
+                "stocktwits.com",
+                "weather-and-climate.com",
+                "www.se80.co.uk",
                 "www.sherdog.com"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/85ee9de7-754b-4e9d-ab1f-8c68498a76c9\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "1152c9cfcb6652332b40f0bc57d8cc83a82f43de46042518ef7c3c1bd41496d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windfinder.com",
+                "www.windfinder.com"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/0db6fc14-cc7e-43d6-aa47-200c36378f86\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "7fea510405456724022af5ded923ebc1089f0f91464f8c4ec972ed9e490121dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailystar.co.uk",
+                "www.express.co.uk"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/83fac9a1-5f8a-479c-8d67-5509bd66a362\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "1aaaec35b922f754f8e9dbb31f42ddc9d823d723b2e257f8eb0fd23130aef2aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goal.com",
+                "www.voetbalzone.nl"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/433c1e30-7c65-4207-9d5b-58bd0e41680f\\/prebid\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prebid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "fd20b9a5ed50c0cfd051e5c57bddce5c533983d52ee42577b2f4cdaa8df1630a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "independent.co.uk",
+                "www.independent.co.uk"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/desktop\\/www\\.kicker\\.de\\/%2F",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signal-segments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "b8b7a4d72b9b764cd978db78d2d96ca1a8fa357603c2df742cd387ec7696569e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kicker.de",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/desktop\\/www\\.kicker\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signal-segments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e6365cbf1f49d8bf2c27e6f345b14fbf89b4fc096f6940215f54025783bf7080"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kicker.de",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/8172a4c1-f9d1-482e-bec0-3088a1d9dc80\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "3e83f7a5c2c0d27aa16038cede25a24cebdeaa9e0843ac1f08216c689e94aeb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeandstylemag.com",
+                "www.mensjournal.com"
             ]
         },
         {
@@ -247,21 +462,23 @@
                 "get"
             ],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d23a8febdb5af74f054dbe8339a269d93d3f3823f0fa44a2468be3374b9a508c"
+                "f073bc8fc40b28a57624f2f8c32d0fc082601b7b9cdde4ad74289ae8f550078b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailystar.co.uk",
-                "www.liverpoolecho.co.uk",
-                "www.mirror.co.uk"
+                "manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.walesonline.co.uk"
             ]
         },
         {
@@ -272,98 +489,108 @@
                 "signal-beacon"
             ],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 3,
+                "window.innerHeight": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "f4be2b3e96f3a4b1d0b2295637f91c8633457f03335cfad10b7738d87356f7ef"
+                "8a33ef9c853607ed85c0aa618ccd964f19a97352f4684c7c3bb3e2c81565bea8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailystar.co.uk",
-                "www.liverpoolecho.co.uk",
-                "www.mirror.co.uk"
+                "manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.walesonline.co.uk"
             ]
         },
         {
-            "rule": "s-onetag\\.com\\/1c70080c-ad0d-42a0-9959-21c14b15f917\\/prebid\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "prebid"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.cookieEnabled": 4,
-                "window.sessionStorage": 4,
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "7e3fceeba7f229456c0fe2cdc78060d31e3a0363417fe7b6928c551c50f4db0c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dailystar.co.uk",
-                "www.dailystar.co.uk",
-                "www.liverpoolecho.co.uk",
-                "www.mirror.co.uk"
-            ]
-        },
-        {
-            "rule": "s-onetag\\.com\\/regionalbloc\\/EU",
+            "rule": "s-onetag\\.com\\/1\\/5293\\/5962166053",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "onetag-geo-grouping"
+                "dfp-gateway"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mirror.co.uk",
+                "www.walesonline.co.uk"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/desktop\\/www\\.se80\\.co\\.uk\\/%2F",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signal-segments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "6088012dda2274a27fa40ed153d9e3a6c96a22af1b177f8a2916368eb3e88bb0"
+                "a37fed5bf784068e3b8390da1ed8168cc5d5152f00238980c67fdd9e3968e0fc"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailystar.co.uk",
-                "www.liverpoolecho.co.uk",
-                "www.mirror.co.uk"
+                "se80.co.uk",
+                "www.se80.co.uk"
             ]
         },
         {
-            "rule": "s-onetag\\.com\\/px\\.gif",
+            "rule": "s-onetag\\.com\\/desktop\\/www\\.se80\\.co\\.uk",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "market-dev"
+                "signal-segments"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "3b7b8a4b411ddf8db9bacc2f3aabf406f8e4c0c087829b336ca331c40adfdff1"
+                "b443ccc439a34a5c07dab652336bc5cb6ad081927d20229b4dd7b4a4f6eac806"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailystar.co.uk",
-                "www.dailystar.co.uk",
-                "www.liverpoolecho.co.uk",
-                "www.mirror.co.uk",
-                "www.whitepages.com"
+                "se80.co.uk",
+                "www.se80.co.uk"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/desktop\\/www\\.zerohedge\\.com\\/%2F",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signal-segments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "4ebdab30802eefd65170f9006c8f5fc468ccabef45857f8d84d921473d7a4f4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zerohedge.com",
+                "www.zerohedge.com"
             ]
         }
     ],
@@ -374,10 +601,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 50,
-        "Fetch": 34,
-        "Other": 10,
-        "Image": 5
+        "Script": 80,
+        "Fetch": 58,
+        "Ping": 40
     },
     "nameservers": [
         "ns-13.awsdns-01.com",

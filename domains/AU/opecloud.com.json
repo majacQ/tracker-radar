@@ -4,51 +4,62 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
-        "tagger"
+        "cdn",
+        "tagger",
+        "tagger-scmp"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "tagger.ope.scmp.com",
+            "resolved": "tagger-scmp.opecloud.com"
+        }
+    ],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "opecloud\\.com\\/fox\\/v2\\/tagger\\.js",
-            "cookies": 0.0002,
+            "rule": "opecloud\\.com\\/ope-fox\\.js",
+            "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "tagger"
+                "cdn"
             ],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.colorDepth": 2
+                "window.localStorage": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Document.prototype.interestCohort": 3
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "13bbb7a71c3d0a4432b0a2c068e94b35bd4da4a688bdd795fecf5fc7ec629bac"
+                "d5e45e21f5b9666ac777c2880cce493cb9e38020e90f7af02be3c667e48ee635",
+                "df87de984dedb3db668d9a5e9af100968332d874fb1f36199323eb5c1b7f78cd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "foxnews.com",
-                "www.foxnews.com"
+                "www.foxnews.com",
+                "www.foxbusiness.com"
             ]
         },
         {
             "rule": "opecloud\\.com\\/fox\\/v2\\/pixel\\.gif",
-            "cookies": 0.0002,
+            "cookies": 0.000401,
             "fingerprinting": 0,
             "subdomains": [
                 "tagger"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [],
             "type": "Image",
@@ -56,7 +67,9 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "foxnews.com",
-                "www.foxnews.com"
+                "video.foxnews.com",
+                "www.foxnews.com",
+                "www.foxbusiness.com"
             ]
         },
         {
@@ -67,8 +80,8 @@
                 "tagger"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Image",
@@ -76,7 +89,8 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "foxnews.com",
-                "www.foxnews.com"
+                "www.foxnews.com",
+                "www.foxbusiness.com"
             ]
         },
         {
@@ -87,8 +101,8 @@
                 "tagger"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Image",
@@ -96,43 +110,107 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "foxnews.com",
-                "www.foxnews.com"
+                "www.foxnews.com",
+                "www.foxbusiness.com"
             ]
         },
         {
-            "rule": "opecloud\\.com\\/scmp\\/pcs\\.gif",
-            "cookies": 0.0002,
+            "rule": "opecloud\\.com\\/yahoo\\/pbfs\\.gif",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "tagger"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00020044097013429546
-            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.foxbusiness.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/scmp\\/v2\\/pixel\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger-scmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "tagger.ope.scmp.com",
+                    "resolved": "tagger-scmp.opecloud.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
             "exampleSites": [
                 "scmp.com",
                 "www.scmp.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/scmp\\/pcs\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scmp.com",
+                "www.scmp.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/adalliance\\/v2\\/pixel\\.gif",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000501,
     "types": {
-        "Script": 2,
-        "Image": 8
+        "Script": 3,
+        "Image": 18
     },
     "nameservers": [
-        "ns-899.awsdns-48.net",
-        "ns-1611.awsdns-09.co.uk",
         "ns-1454.awsdns-53.org",
-        "ns-353.awsdns-44.com"
+        "ns-1611.awsdns-09.co.uk",
+        "ns-353.awsdns-44.com",
+        "ns-899.awsdns-48.net"
     ]
 }

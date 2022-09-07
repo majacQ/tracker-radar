@@ -4,33 +4,110 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.0011,
+    "sites": 11,
     "subdomains": [
+        "cdn",
         "api"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "rudderlabs\\.com\\/sourceConfig\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "rudderlabs\\.com\\/v1\\.1\\/rudder-analytics\\.min\\.js",
+            "cookies": 0.001,
+            "fingerprinting": 2,
             "subdomains": [
-                "api"
+                "cdn"
             ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "apis": {
+                "window.localStorage": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Document.cookie setter": 10,
+                "Document.cookie getter": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "window.devicePixelRatio": 10,
+                "window.innerWidth": 10,
+                "window.innerHeight": 10,
+                "Navigator.prototype.language": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
+            "responseHashes": [
+                "c6d2542138c1d551e221287ecb1d1fd724fe2c036561e8ce00ac7d21f52cb419"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__tld__": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 0.1
+                },
+                "test_rudder_cookie": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 0.1
+                },
+                "rl_user_id": {
+                    "ttl": 31536002,
+                    "length": 66,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                },
+                "rl_trait": {
+                    "ttl": 31536002,
+                    "length": 65,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                },
+                "rl_group_id": {
+                    "ttl": 31536002,
+                    "length": 66,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                },
+                "rl_group_trait": {
+                    "ttl": 31536002,
+                    "length": 65,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                },
+                "rl_anonymous_id": {
+                    "ttl": 31536002,
+                    "length": 114,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                },
+                "rl_page_init_referrer": {
+                    "ttl": 31536002,
+                    "length": 64,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                },
+                "rl_page_init_referring_domain": {
+                    "ttl": 31536002,
+                    "length": 66,
+                    "prevalence": 0.0010028078620136383,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "grafana.com",
-                "www.1mg.com",
-                "www.tabnine.com"
+                "brandalley.co.uk",
+                "www.capitalfm.com",
+                "www.capitalxtra.com",
+                "www.classicfm.com",
+                "www.heart.co.uk",
+                "www.lbc.co.uk",
+                "www.popbuzz.com",
+                "www.radiox.co.uk",
+                "www.smoothradio.com",
+                "www.vinterior.co"
             ]
         },
         {
@@ -41,29 +118,75 @@
                 "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 11,
+            "prevalence": 0.0011,
             "cnames": [],
             "responseHashes": [
-                "657e47a4fd2aca9d8b84a3ee3d63b19d8dd29d724d947b626be7b80125f1e57e",
-                "5f20a9b123be19ff04079ae5378878c881189e528fafe4e7f3b891e8e87cc3f5"
+                "2aa1b7892f4cdd4189843562bd57f5608fad93c9433886baadc85fcdaec923e0",
+                "c58329a03577fd6581bd49d77eb13f24263e82714ec73f139ce580dc35e2a5b8",
+                "e670ebffbde3531b8498f832182d2910476e39ca66ef06f77663c9fc3614f0e4",
+                "7afe85aa55b7f50701a40e5d91b359cdb1eea574cd9b6430216f5f21ce2f439c",
+                "698b0854e57eaa07ed10617fbc457ba0d942cb2a658e1ec37c1475e3bc2efe3e",
+                "8346c31e01cecef5ccd08bf2e2acb01a3d7a1d5b49b131fc9e6326832d2aa61e",
+                "099251aa0e480fc7e04fa24c695ff3057275a418dbae154dea98684542705a5f",
+                "0c9d305890a7ca9677615e0e1c20267c76d6a9e0c98407dc41cadaf39bddc8ce",
+                "3ee72fbe038be9eeef88db795f4d5fc80e98244bbfc0c44492b7220bab69e000",
+                "5f093541238ea7001fc2aa672d11082a0ed1762cd776f4735ef38571ab0e3c05"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "grafana.com",
-                "www.1mg.com",
-                "www.tabnine.com"
+                "brandalley.co.uk",
+                "www.capitalfm.com",
+                "www.capitalxtra.com",
+                "www.classicfm.com",
+                "www.heart.co.uk",
+                "www.lbc.co.uk",
+                "www.popbuzz.com",
+                "www.radiox.co.uk",
+                "www.smoothradio.com",
+                "www.tabnine.com",
+                "www.vinterior.co"
+            ]
+        },
+        {
+            "rule": "rudderlabs\\.com\\/sourceConfig\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brandalley.co.uk",
+                "www.capitalfm.com",
+                "www.capitalxtra.com",
+                "www.classicfm.com",
+                "www.heart.co.uk",
+                "www.lbc.co.uk",
+                "www.popbuzz.com",
+                "www.radiox.co.uk",
+                "www.smoothradio.com",
+                "www.tabnine.com",
+                "www.vinterior.co"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.001,
     "types": {
-        "Preflight": 3,
-        "XHR": 3
+        "Script": 10,
+        "XHR": 11,
+        "Preflight": 11
     },
     "nameservers": [
         "ns-697.awsdns-23.net",

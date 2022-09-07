@@ -10,7 +10,7 @@
         "de"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "drugchecking\\.ch\\/css\\/ext\\/embediframe\\.php",
@@ -37,20 +37,30 @@
         },
         {
             "rule": "drugchecking\\.ch\\/js\\/ext\\/embediframe\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.000301,
+            "fingerprinting": 1,
             "subdomains": [
                 "de"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3b4339d6eea82711e7ed376228632929d6285823ecbe46af48d30a4be9874605"
+                "0b9dfc25829cd5fcf516a3cd3c723f88f7db03f251ea050566038cb175884d88"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "dc_notice": {
+                    "ttl": 7776000,
+                    "length": 5,
+                    "prevalence": 0.0003012350637614218,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "eve-rave.ch",
@@ -61,28 +71,19 @@
         {
             "rule": "drugchecking\\.ch\\/",
             "cookies": 0.000301,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "de"
             ],
-            "apis": {
-                "Document.cookie setter": 1
-            },
+            "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "27a1123bab70587e8ce4dd220723f6b31921663e9c34d8a26d5ca6b6381fce12"
+                "614684c042bcf757ad4744bf6f8be08e4f2c90439c8003b92f6d2af57506a919"
             ],
             "type": "Document",
-            "firstPartyCookies": {
-                "notice": {
-                    "ttl": null,
-                    "length": 5,
-                    "prevalence": 0.00010037137408411121,
-                    "uniqueness": 1
-                }
-            },
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "eve-rave.ch",
@@ -102,7 +103,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "2e4e3f979596aa78c267549d818e26aa540724095509a6a90ce413a8cfb7905d"
+                "1ae1cd254778c6874e6c7ebcbcc687dcaa98479f28ce5779999644e842343d6e"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -121,16 +122,16 @@
                 "de"
             ],
             "apis": {
-                "window.indexedDB": 3,
-                "HTMLMediaElement.prototype.canPlayType": 3,
-                "window.localStorage": 3,
-                "window.sessionStorage": 3
+                "window.indexedDB": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "45572a4ce38195f01229dfcfabee8e445d2836a9411434780253fe14ee08fd66"
+                "4de1d2176e43929f8e52d6e1368c68f9cf774e392b747752759bf21219faddf8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -173,14 +174,13 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 1,
                 "Event.prototype.timeStamp": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "45db99c748573a96c821879885df1768c45223c2abe0508b011b9689b6281ab9"
+                "943b3b402a5a2c80f083d6c30d1c5fe3bd28e5eda911998545a186373e48517d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -203,7 +203,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "7139eca41ab29e801f478a954dc168a56c4cae455cc4ab41852d7ddb098c0451"
+                "3d06d452288cf391c645c3fb695cced096c83e05f18403dca1a33ac43eaa1a5e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -226,7 +226,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c66e3e7506660d4b75ed5d2438fd6b3c0d12dabf6f2e22f6d0233410e0f611dd"
+                "dfdb5cbd06cfd3be4447d00e6275ad40e5d8c39bef2d49bfe568f7a758c29aaf"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -249,7 +249,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "9cf8a6f242aab3b1ddf12c89bfef3540e50f2c4bc67f77258f86b072f9b035cc"
+                "cf02e3d141625463ad9c1f43965e8e3e0768a127c5384d7047214ea63bfc2f32"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -272,7 +272,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "09a64723aebeaa760c2c25bd970f7fd34921c5640e35864390f3e2764b7d2de6"
+                "594b6570a9d01f32a57810f56f913c4d8aaa84b51b5e4a68e9ab1c78ea0e5f10"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -295,7 +295,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "4213ef67c4d6b4582d802039c954ba64f26c66ddbfbc0c8d77d0cc27d5855fa9"
+                "78453a2d0c2eaf54f90db237280d24c58853dac1ab6d8d73c9d537cd61871836"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -318,7 +318,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "fa064232a787cd44df212427bbec81639e23faf94d7c399a3c871f06a339cc48"
+                "e2d251a664a8c90eace4fe217d254021518c0d8c8cb34bbd69bc00c41abfea87"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -341,7 +341,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d04f6650e4c89abb278e072c7b5047f4bc5122ba79ccf0b4f18612f47e281c24"
+                "af3ccc97c6e4ab43ffbb90442fca5c9d06d3a67b5135d292f9d9c63eba54b017"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -364,7 +364,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "13db97b6254b714e776e59befb26efe368016bd680383f0d31ef7a467d0fc39b"
+                "47d79d68d4a0b59741d14b67b39dcaaea3d6339f531c62be26aca2d408a83563"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -387,7 +387,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "64a941beda74121be82f5da11d05c7c50bf27104f143b04f83488e8d8901f9c7"
+                "259af5294876f4bff21bd05e5a3b95e5fc1fdf6507b99be39353bbaafd920932"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -410,7 +410,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "633933fe45150a0bf2eba9155c21f3258d5fcdacbf7f6a0ef5a6c2a0784b6176"
+                "c3fcf86d68661f0219ca375978a9cdf085748e4b92f995fc0b52a69c0f8d938e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -433,7 +433,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d70319be2ed4c3a4c66ef64145bd7dec6c8e924599b60e9cf6a0a2c8b77ea690"
+                "09aae4b178a0edd3fb7d298207ac1318eb9d544fb0224ad8284c93510cc9a612"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -456,7 +456,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "9cde73758282a2a32d83b83a0b1977ae4a3b80c888ee39db3386f693772c04ff"
+                "a8bde204ae957a8599e8fda8544565f51c334c329d4dfe094cd939686761bf12"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -479,7 +479,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a7d39ebf6afe8daf1461f799cfa806e2b7f2fedb13217ea6aadfddc7cdca8f80"
+                "c1fc5ef8136acb39d8ba51c52e38ac1b3589faafba4b4dd53ffa7c4148141433"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -502,7 +502,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ddec0d395840b453baf788c19e78c1319bf1f287be3c2d30990ea0c7634e4d64"
+                "892efc4425991488b9e467f95357bc69d736231ec767d52500dbbf60aa36fce8"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -525,7 +525,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "2aa7f0e90d10ab3e641da0be9e04e04ac1768e40b8c360085fec5d003604340d"
+                "c6d4d775443f55bc49539c2aacfb2dd4e3f7d352503a081e9da2b7839c373183"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -548,7 +548,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "73ac849bb4b7a84d4491d53c5157318d30638df21f7171563ed84b34289eae66"
+                "ee77ed2660e995d6be173cb117390a5781790a83d09de160dcd1c9529baab67d"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -571,7 +571,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "f6315a008d202fe0d7b0366f35435f104d1470e2ffdd415e44a568e76f8e4f94"
+                "6841a6f3dbe78f04dd7c4475e108a3a4da3f6f0c3c4b0dbad20641c8691445bb"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -594,7 +594,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1e36277c8ec5f3eed12cc80069c38c6a46aff5382fe60ab6581e5e15486b5fe4"
+                "5c60afb96aa77be35d4071e2e0b7776c8732c6e63c761947871749a56e7a9317"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -606,76 +606,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/ajax\\/notice\\.php",
-            "cookies": 0.000301,
-            "fingerprinting": 0,
-            "subdomains": [
-                "de"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "d6e1664e37a041ad6d57ee46cb35753a11d8fd99c49e8592c3c0483811593339"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "eve-rave.ch",
-                "mail.eve-rave.ch",
-                "www.eve-rave.ch"
-            ]
-        },
-        {
-            "rule": "drugchecking\\.ch\\/img\\/close-32\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "de"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "d9066f23f3ea3c17df843452cf10a9b09e26eeadbc17d5966f63adb4afdbd848"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "eve-rave.ch",
-                "mail.eve-rave.ch",
-                "www.eve-rave.ch"
-            ]
-        },
-        {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2571\\/large\\/sample\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "de"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "201f2cf693a153943be07bbbc5085ec0b8910a01210b252dec98f15fabef0c97"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "eve-rave.ch",
-                "mail.eve-rave.ch",
-                "www.eve-rave.ch"
-            ]
-        },
-        {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2572\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2981\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -686,7 +617,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "efd659bc2ea813b8f220956f5f8ffb8785d3fdaaa49f45bf2927830eae0e3e88"
+                "ee8552f90f33d87ab3275cfe7a6d7295134e3c19fbe195a6372415465ede02f1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -698,7 +629,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2561\\/large\\/Wikinger\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2980\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -709,7 +640,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "44488ac562f292bea467ed567ec18dc4c3ad1dd33b7857b052266361461997ce"
+                "50527cd658f3249f5de3916ec5100dff738767c8798a9ac67da8353cec249474"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -721,7 +652,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2560\\/large\\/Heisenberg-Walter-White\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2979\\/large\\/My-Brand-Totenkopf\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -732,7 +663,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "7c97f59e337a39bdaffb697e98b862a97aead2ee5605891974497928ce0eb699"
+                "d9c74d908ec3455e5682135c8b30ad2a9c6083497398537c6c5404762144b3d9"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -744,7 +675,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2566\\/large\\/Philipp-Plein\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2978\\/large\\/Monkey-with-Headphone\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -755,7 +686,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b3e50d0b556a7ccebf368aa8cddd7691f1611a457a2e0070ca665f2acc6c8ade"
+                "29985703a28e830c8662a83e3bde7d3714cd5f724a6a2bd4e27ddf70c229e1b2"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -767,7 +698,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2565\\/large\\/Kleeblatt\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2977\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -778,7 +709,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d7d4a8fba9ded3fe4b802e4194ac5e3856d0e45827b7f33217ffe8f1c64b0d1b"
+                "6c661be64df1b2e2bd27e50a2d182079a48ed96572d0100949933200149d9cbf"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -790,7 +721,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2564\\/large\\/Punisher\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2976\\/large\\/Signal-Call-Secure\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -801,7 +732,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "9d56b32d11972188de29c332eab323802a0722fdf90c8a4951c44dc48e8d7fc8"
+                "750b2317dc4d2b743525689ceb6eefcdfc98b429b245aab6f50cd5c8efe22958"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -813,7 +744,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2563\\/large\\/Philipp-Plein\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2975\\/large\\/Handgranate\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -824,7 +755,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "180efe25459d9ac19077d3c656f32e226c9c46c76c81201aafc0eb622c2701be"
+                "6237ad916a9d0d6bf7009a1c80fbeea0b507e466aba8967c9176770435749120"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -836,7 +767,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2562\\/large\\/Kleeblatt\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2970\\/large\\/Tesla\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -847,7 +778,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "bd9bcee30e5851a48fa71eecfc71a9027667a7aad4419fe8f6796f186137b1ce"
+                "a3d25a9064fde50d99eaf6940e8225a06e31b0420a547a0e63e94eeb1557f6c5"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -859,7 +790,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2559\\/large\\/Hund-mit-Krone\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2974\\/large\\/Wolf\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -870,7 +801,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c34f8fb1b5a88e55f8e6ef0666d9e872470b8439fd828a422f5313fd532dba73"
+                "e60161a2827a2ba77fcf5ce165e2aee7c36856f1f03b5c214085c3b4908ebbba"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -882,7 +813,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2570\\/large\\/Warner-Brothers\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2973\\/large\\/Pop-Smoke-Rapper\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -893,7 +824,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1c0c70fda2b6bf6caa17af23293306a99a1992642c19be0113e3daaaa6046112"
+                "d0712cb3ee1216c52f648c4a87747fab7074abba0f6169adeb487c25cc3a2dcf"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -905,7 +836,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2568\\/large\\/Maserati\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2972\\/large\\/Red-Bull\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -916,7 +847,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a398c1cce130dc4a1062b7ebfc72a49497bd6c2216b0a90496d4a5b2f3d59939"
+                "71b2aeb59d540c6febf77b4d88857b80ff288258aeacbab590d418ad87f7bd10"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -928,7 +859,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2567\\/large\\/Herz\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2971\\/large\\/DJ\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -939,7 +870,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "127d08e9b176b7bfb34a8ad95300f345d09acebca74ae63bd512f8b37b4b846f"
+                "8d78fb250ec57d593c4f3a99abbba6fd09923f6e2e51054f64ba8468be8d1fe0"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -951,7 +882,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2569\\/large\\/Rolls-Royce\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2969\\/large\\/Wolf\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -962,7 +893,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ddd36c73f023ddd0adb2dd0df786c074b0ebec330b250c406819135bbc7f91fc"
+                "86f8f133f30cf0b0291d8325b952c3c6cc13e1f6158aec807ee338f6f3c72974"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -974,7 +905,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2550\\/large\\/Hund-mit-Krone\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2968\\/large\\/Berghain\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -985,7 +916,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b38c06a99d6f6c146ea15b8d00fdd1389e76f10d66fe94f7d0ac4ff1c64fbea8"
+                "79693dfb4d7d33a7a3ed4d925a2469161d093f374d8047f0363684208c5924d6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -997,7 +928,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2552\\/large\\/My-Brand-Totenkopf\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2960\\/large\\/Moncler\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1008,7 +939,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "4e31e6e9124f544e6fe965cff5283a7a886218278976bf0d1278f5d7e77571ca"
+                "d40c811090aa9bba92350a0ce5273a1c5fa653215778e9df95c9b9486e800692"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1020,7 +951,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2557\\/large\\/Three-Wise-Monkeys-No-See\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2959\\/large\\/Tekashi69\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1031,7 +962,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "96073c272ad61357a3cc11e7608dc4780b2df54c604c5472cbaae2c87ba69003"
+                "45c056a4036918ba6c4bbc6da293d68fa4e68156a65962d690fc85f0b17500ea"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1043,7 +974,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2556\\/large\\/Three-Wise-Monkeys-No-Speak\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2958\\/large\\/Tekashi69\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1054,7 +985,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "262cb0c91cd6717d1e6e10a35f482c8f09d55b3ffadf5f84e1488fab6720a212"
+                "4cd3dc9e1e329c64a37b3c1e345ca92b67dcd5ee07a4fdf447ba2784a847d7e6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1066,7 +997,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2555\\/large\\/Diamant\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2967\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1077,7 +1008,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c01fbacf96ea448a8a7cbdcd8e0c0ff9a4e44156ef7d5ac61012be38e276cfd8"
+                "c9736aa7b88cd7ffceecb8dfb236b6eeac32d8499337cfd82ad6faf6fc832db4"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1089,7 +1020,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2554\\/large\\/XANAX\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2966\\/large\\/Totenkopf-My-Brand\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1100,7 +1031,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "193114a4b9197276e9c03f450e5eda883ecf5377b6fd7ecd10a75cceed7ae5db"
+                "897aaae0b2f9f1f3e896a2db28f4ddff6378f9ad3469996384eecf7ee65ba916"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1112,7 +1043,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2553\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2965\\/large\\/Philipp-Plein\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1123,7 +1054,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "740b3117480e5ebeb507a34f80fc592a07e9677204f884bb6a0e82f4cafec1a5"
+                "d91ba477dd2b7d00c5c3d1af2b7b6aa7470811e322d9e9fff7371430efcfe512"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1135,7 +1066,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2551\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2964\\/large\\/Pop-Smoke-Rapper\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1146,7 +1077,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "96f583b33107d902ae320c8c8867c24042779455f0f595d9ec2f80bc42eeeb5d"
+                "c2fa441139bde3a9560251f4161e659d4596f1e9e2810a248c42a5e568a1ac67"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1158,7 +1089,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2558\\/large\\/Maya\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2963\\/large\\/Pop-Smoke-Rapper\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1169,7 +1100,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "33136685aa3727dd8a6fbc2ea6781aa1280f36ec834c7e62521b208cd4d86319"
+                "671e65722e522d24dd13a491d9b6e0ab3477c1a38d3d69b63b5ae017529acccb"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1181,7 +1112,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2543\\/large\\/Tesla\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2962\\/large\\/Moncler\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1192,7 +1123,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "2bed2251db9e9732326d925a552ac8c0b1066a6f9976acab9765c089091d9dda"
+                "2e394d84b3d06f9c8880193da071e9283a5849e5dc2bfcf739e4f6963b26f884"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1204,7 +1135,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2541\\/large\\/skype\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2961\\/large\\/Ace-of-Spades\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1215,7 +1146,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a0e135329cc00e2a99f2587e76256629247ad296bdbd0bbfdf3d6029ee0b4371"
+                "f043e2d398db712e5d06e449addb45de314da53d4aba07236a6e474dd1c5a5fd"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1227,7 +1158,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2535\\/large\\/Bugatti\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2955\\/large\\/Bitcoin\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1238,7 +1169,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "28d638023f42849fa83bd986d990ab09e7fc427e5361fbeb943071c85d737e28"
+                "1794de0ee1e609bbb908909930251dcc60d84fd2afcc18143123a3cbd33bbe6d"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1250,7 +1181,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2528\\/large\\/Eule-Panama\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2948\\/large\\/Bitcoin\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1261,7 +1192,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "6f7a489e4e55192e952254495c4d67a1c961e1606eb6dca2d981a78ec7bf7a6c"
+                "fabc4f79544924520c1c69dce275d406ed4a5955210056c70e30addc516a360a"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1273,7 +1204,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2530\\/large\\/Punisher\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2943\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1284,7 +1215,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "6688f8c11ffa4a083384695872c3116a522e966b411addae4ff4c58b85db0a33"
+                "643fd30b3ce913e38602e1e1b89b8f27f2cae8f32ddc97ada995939610a1bb73"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1296,7 +1227,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2526\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2940\\/large\\/Bitcoin\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1307,7 +1238,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c65b527b1663c7c9b7bd83c6196d674617540b2e58a9b0766a92c250e39cc328"
+                "52413630d2ab9f812c13e16c3e48acd1f7391574730933e9a0f23e2940b4018e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1319,7 +1250,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2514\\/large\\/Kein-Logo\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2954\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1330,7 +1261,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "168b76bbaebdd51d2a49421ddc6a30a3649e575520714bf39a178611780558a6"
+                "c75f2e11a6ee3f23607c43f3a30dc5dd4ae5c9a15104021c898e4cf9f53357e2"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1342,7 +1273,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2498\\/large\\/Monkey-with-Headphone\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2950\\/large\\/Erdbeere\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1353,7 +1284,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c4321a58310aa6edd6dbcff32617e5e29bd533202a81c5a263285d56344d8368"
+                "c831968676e274bc6a571c40dfbc9bb392caf5e10b179090d270ea60f6d9b227"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1365,7 +1296,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2512\\/large\\/Erdbeere\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2939\\/large\\/Oreo\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1376,7 +1307,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c185b796b95df3c9d2ae0c0e460beded1e1ad200ac061db44b6388a87512bfbf"
+                "b068665fe3e5ee680e0adcc393340707a214f012a88fee13bd89dc8705f07960"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1388,7 +1319,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2511\\/large\\/Audi-RS\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2933\\/large\\/Goomba\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1399,7 +1330,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "2ce910f3a54d7980ed8288d0c198089bbeafad3647ca132f8714e3e8e33073de"
+                "592376a8a49bd83ae47eb59a9963a1db92f75093a66d22eee6d99e8dc2a79fac"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1411,7 +1342,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2546\\/large\\/Tesla\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2938\\/large\\/Domino\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1422,7 +1353,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "58bc81696edc8af9590b0232439cf6d34c88dea171368756e08e90b8d3f83e81"
+                "3ac9f12cc225249ce8b033e77099c1c60aef0b8bd430af34df31fd6484351597"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1434,7 +1365,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2545\\/large\\/Maybach\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2934\\/large\\/sample\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1445,7 +1376,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ac3aadb1c34126a6f984eb30f63a62e3f33f457604f9a657d92ece2cd12c64b5"
+                "d818559251c63c85cca9a5c251b7b51c3a75677950fcdd3afb01a9c992e002cd"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1457,7 +1388,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2544\\/large\\/Wolf\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2957\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1468,7 +1399,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "234caff61d1f3a4ed959c647caf06c525de6a3bc47443f853b46431d4a4ad2c2"
+                "04cc94877593c609d9fd336de49b0e8a9361e9b7519a9fbde536087430180703"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1480,7 +1411,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2542\\/large\\/Tesla\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2956\\/large\\/Rakete\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1491,7 +1422,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1f151e335c5a9922aa39f1f58be76b605beeda80ea70fbae3d393c3629cbde1e"
+                "26d31b65377cad414e37d466ccc70e978a0eb30fba081de3a0ac7e25a6e92669"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1503,7 +1434,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2540\\/large\\/Rolex\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2953\\/large\\/Rolls-Royce\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1514,7 +1445,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "227e0f45b54fe72d575d9ff7089e4e89116ad435fd4624da02d0f266d425da5c"
+                "87566b5d4ce7488c98aa8ea1fa041f1de465cbcfd015533a5a1a9646017878c1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1526,7 +1457,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2539\\/large\\/Nightmare-before-Christmas\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2952\\/large\\/Windm-hle\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1537,7 +1468,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "33015243e9a2c21f84fa04ca96c41fe6531c2865d41d29a15f92cd21e1a7543e"
+                "2b4eb19aab7284acade9154795698214368dfda4c3706fee80d9bccb1baa514d"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1549,7 +1480,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2538\\/large\\/Louis-Vuitton\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2951\\/large\\/Kein-Logo\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1560,7 +1491,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a7842d8830de01758d01e1d2f5c7e87a9e05ae1ae7e4b96cf555ee30218914ed"
+                "9b85e0ee0b833a53e38b6f03bcf0e2459d24d62d2f5a760a876fac3d73e31438"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1572,7 +1503,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2537\\/large\\/Kein-Logo\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2949\\/large\\/Donald-Trump\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1583,7 +1514,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1cec0e62630072d299eb94b017905bf6bf35d0870e1eca60549e619757fdff70"
+                "16857ef836b9178cd010c9e19f3fa29c8f04c9c647e0c63901f12de7f21535ec"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1595,7 +1526,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2536\\/large\\/Herz\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2947\\/large\\/Berghain\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1606,7 +1537,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "356a3631af8e447bb89ac1f9748df2e933c606bcb967ce491e57f09656026589"
+                "479861b054eb964ee9c69f5fd83a3f37c28395dd2e06435f648e1deb982bed2b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1618,7 +1549,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2534\\/large\\/Three-Wise-Monkeys-No-Hear\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2946\\/large\\/Tesla\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1629,7 +1560,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "34ff6c2e1f95f911b783b0faa8a1a335914fd6930c0fa1f69d0b170fae3a0d91"
+                "137959b43c98504cde484844224ab8d43a2745ba8f6832c247d30ff513925c17"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1641,7 +1572,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2533\\/large\\/Tesla\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2945\\/large\\/Pop-Smoke-Rapper\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1652,7 +1583,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "67117205de3a5bdb0794e9a227ac6418ff3e76ccf9aef9333e8d7984fb3a90f6"
+                "ef0a8535aabb66eac316558eb33c83081a75d335b8aafbea3595cbc4ffebe0d1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1664,7 +1595,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2532\\/large\\/Skittles\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2944\\/large\\/Tomorrowland\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1675,7 +1606,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a983e61115540283b7653243a203cf2b08e3bef245c2221d642dfaddf365ca95"
+                "f8ee3aa5b098a997895fd9697ab4dd1c4021d450c21df51696e1f9afccfb7f00"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1687,7 +1618,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2531\\/large\\/Rolex\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2942\\/large\\/Philipp-Plein\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1698,7 +1629,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "44b129b69a26225b7aff1626fb1c3fdad185481ecfc7ca8b3aacea27050ab371"
+                "45c8aab5077fdc8acd7abb9be38f6648f01c2880fb33d85c04bc7b0a73533ac2"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1710,7 +1641,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2529\\/large\\/Three-Wise-Monkeys-No-Speak\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2941\\/large\\/Elefant\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1721,7 +1652,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "144d82dfc21e64b5a28111ea7016d704e22378bd9e006b4a3d57bfae9d6a868c"
+                "742d1ac2c430af5d7e15249113df120e4444d69aac6b9ee130936ccdcb0f9bbf"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1733,7 +1664,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2513\\/large\\/Herz\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2937\\/large\\/DJ\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1744,7 +1675,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "12485ac1fdf937ffae387007cabed79c4598743bfcd6e5a08f94f3db482cffe6"
+                "e5be809925ac632a648f904309eb869a0690be189d92581f5f6e2c95dedcae82"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1756,7 +1687,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2502\\/large\\/Maserati\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2936\\/large\\/UPS\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1767,7 +1698,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c5329531d354619ce654d1144b592d736c6638f85147b6b67e757e4ee5f297f7"
+                "11a3ea03e8aafcbbbffee9dc8842384d4b12c7c2d15abd9f967dccc521369c3f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1779,7 +1710,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2492\\/large\\/Herz\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2935\\/large\\/Philipp-Plein\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1790,7 +1721,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1580ffe817ed4d1c3b0495e0b2d1b4c0b969baf0d70c68c24b188c2e3aa6356f"
+                "32d270ade3fb06295a2eb6a39b426b87fe4a38d048fd68c395c2a6980a57e0d5"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1802,7 +1733,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2491\\/large\\/Tesla\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2930\\/large\\/Oreo\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1813,7 +1744,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "20050b0a027e669d165edba7f274400f6c117ba623ba94163e2cff21cd599927"
+                "82baea68b02e7c550540381ce13fe5f2aca621a4bb4baa47188d5816054085ca"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1825,7 +1756,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2490\\/large\\/Dom-P-rignon\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2929\\/large\\/Takeshi-69\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1836,7 +1767,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "1f7b2eb104ca84384e274c88ef6a43909e568653eedbe0fdcf6378be88545e7c"
+                "5095df707542d7508cb3ff641ee3c4c6d75f5190d4c517b5f308f5cb1188e869"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1848,7 +1779,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2493\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2928\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1859,7 +1790,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5b28c02bf63a3b5751bbb1f1d1323ae82cf570e357ffb36ea8275e3531f62378"
+                "f761d0cbea4d08f18e43db1cfe3304ee5e340ac7dc4232eb489e2afc21182d8e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1871,7 +1802,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2496\\/large\\/Red-Bull\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2931\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1882,7 +1813,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "6a3b2924435fc961818ed41b69cead338aaa3bdafa182411f2c2fac43d1c64e7"
+                "1a100ca3f2ac2f77f36b09f67516c428cf7b9cdff9746cedf1287f93a93c0f85"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1894,7 +1825,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2495\\/large\\/La-casa-de-papel\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2926\\/large\\/Squid-Game\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1905,7 +1836,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "7593b82545c8e82afe17a48584e3fed099fa002a045b719b9f00d5f34aa46a12"
+                "2b800a6ca9f52f2694a162d37eaec6a2cc82119e85c74c8f78378c72b6632f7c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1917,7 +1848,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2494\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2927\\/large\\/sample\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1928,7 +1859,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5366bc2b44a2d4002a6874a2c9a9080b023f1792318c373a4d1f617d41971a4c"
+                "416acb9ae53ca2f98f85015d35af406b386689399b07e920d157a0d275c70815"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1940,7 +1871,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2487\\/large\\/Wickr\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2898\\/large\\/Berghain\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1951,7 +1882,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "4528f92529ab95b06de102eb2707f73f93454d482048a98aac295759c8b2a210"
+                "fbb09347a30bc3b46883dc0730298c2bc93f828a2b7b6c32d2dfb6cc18633704"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1963,7 +1894,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2525\\/large\\/Philipp-Plein\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2895\\/large\\/USA\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1974,7 +1905,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d86e28a1d22994e56c24b7fab2e43dab64171edd318877a24fa27d96c66c4265"
+                "9b87d68e33b18988c09f2d09bd868e77e5e5eae6759c8ff112e9a3b834d911c2"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1986,7 +1917,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2524\\/large\\/Philipp-Plein\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2894\\/large\\/Goomba\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1997,7 +1928,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "25e22c6a9439801827c1f505f468acd947efe83d89c69c336ede50d8247ae5df"
+                "41f64ecc6c308e5e329e7eb85698137967aa9c874a3ea7879b019ec7f61e5acb"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2009,7 +1940,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2523\\/large\\/Totenkopf\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2892\\/large\\/sample\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2020,7 +1951,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a9c433404287fff58737daf45e9c37260e2edefd2b470be21f4e375d0d081ea3"
+                "a97c109305626c67bab7e67ab799027fd0a7981f6f1893a029d5b98a062f080b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2032,7 +1963,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2522\\/large\\/Telegram\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2900\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2043,7 +1974,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "95874bcd35eb972afc6c1a370aad3e411f24e6c364d803f44c07a10472fb9d8b"
+                "3ca72c99868e30c1a7553911351ae0e19159ad9b91c99a6f21b3e57819fb2026"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2055,7 +1986,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2521\\/large\\/Red-Buli\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2893\\/large\\/sample\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2066,7 +1997,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3feb1f77f1ab4c6414569a4b84566df0543688429c1a163fd18d82bf8a62d024"
+                "82a83ba3d486342e3d26f662002ff0a757b4c8b6b610e27acd25f0734a0af7c1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2078,7 +2009,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2520\\/large\\/Punisher\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2901\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2089,7 +2020,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "68b3a2abec1ba0e59fac3a5b14f6e2f73bf4c5901b057c2731f968921a25f4d4"
+                "67e770b19481f0222df5d3bf90e7969041e84725f17e33372b51462648ffb272"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2101,7 +2032,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2519\\/large\\/Three-Wise-Monkeys-No-Speak\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2908\\/large\\/Tingle\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2112,7 +2043,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "cb2969e18d60b13ab8e7e611d82c48ed42ec12ff1d6215a75abc60f2d3fd0f26"
+                "1bd4a67038206377e3b01a4e9f026fb7f6f59f0d6b2400f3b67fbc77675a40b7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2124,7 +2055,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2518\\/large\\/Maybach\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2907\\/large\\/NASA\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2135,7 +2066,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "de4bcb85284538288b35ee9bf1a69f02f35f7db155316460b89d63a62539c218"
+                "8268d04503bb2760053bb19c07e4504a9c449430aac27cb9cf17135f9540e0e8"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2147,7 +2078,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2517\\/large\\/Heineken\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2913\\/large\\/Skittles\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2158,7 +2089,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "60d98f1051c6715f00d8f03b5676931ad98434efc6231b0753f30f312a6520dc"
+                "433d7c9646bdac2ddb4bd28ba9605d2e4653ce0367dd9d5554f951c33e8935aa"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2170,7 +2101,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2516\\/large\\/Elefant\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2911\\/large\\/Goomba\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2181,7 +2112,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a156525f863b2cb5e3a5dd612416ef9c0c6c42227192517188d7ed7bda8dd4f2"
+                "1ad26d712df3bd280ade8d7d5a3d9832e35dca32374b2b8b7dba8c14d07ca208"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2193,7 +2124,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2515\\/large\\/Diamant\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2910\\/large\\/sample\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2204,7 +2135,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5ef34335bcca043d25fd9318d6f8f8994eadf4de416e53203d88fc3b84fd2219"
+                "159372bf51d7ec9b9dfb814c694260d110f10acf0b3394722b3ae73edee2257f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2216,7 +2147,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2510\\/large\\/Tesla\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2906\\/large\\/Goomba\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2227,7 +2158,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "828942556c31c95bdeb4fc971bdf500652562fa880626e1af683adaabe7455c7"
+                "aa1aaf08946bdc520bcca30fe12adacd0d095a76752e73b50954767a7b375c8e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2239,7 +2170,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2507\\/large\\/Stewie-Family-Guy\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2905\\/large\\/Rockstar\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2250,7 +2181,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3755f22eb3a00d5eb128492565d1179ba96f411f7a4b311f39fb4bb19a601b30"
+                "92bc90f7758b2f4c47f8e1510eae074f0c59a616e3f67d11403ae129dac12758"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2262,7 +2193,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2506\\/large\\/Philipp-Plein\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2921\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2273,7 +2204,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b1d7916a175f5b21fbe7dbf0dbaafe0ae3836c3419bcba3d8572c58ca28d7f6d"
+                "c321a2575ae407601ea3ac6a10c3d417a93b48aaaf88ba87f85933e1b2821f2b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2285,7 +2216,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2505\\/large\\/Bugatti\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2920\\/large\\/Thunderdome\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2296,7 +2227,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a56e32a26257b314ed6accf809d126c8026891a096fc070c15dbe303011349e9"
+                "3f6e31372d04810f80254ab27b1ac060943a41cd9e15c24b0b8cc566a801cf82"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2308,7 +2239,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2504\\/large\\/Audi\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2915\\/large\\/Skittles\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2319,7 +2250,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "46a2e0a9d36d3d07fd4e3fabf16a6f32a45db835846d4fa827e892f2afdd8de8"
+                "4a88bf536bb116e4d2cbeba33531a9bbd966e784ef48efccf8649cd16f6642cd"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2331,7 +2262,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2503\\/large\\/Totenkopf\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2912\\/large\\/Philipp-Plein-Totenkopf\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2342,7 +2273,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "95cc7cdb13d892773b398fd728f7394f8c76902fc433ee72b864a334827f7371"
+                "9eb83d6d6823bffd380bf8d7a867326312410095f3a963311cfb00951f53d3aa"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2354,7 +2285,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2488\\/large\\/Three-Wise-Monkeys-No-Speak\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2919\\/large\\/Punisher\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2365,7 +2296,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ed1746760d64be9dc6c1cc67061e6d516421de9e2c94559288cd9222c5f792b4"
+                "b0a13000e07864c66ff082859975d236b8bf2b2ff828d63cd19b2fe13b11d0b4"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2377,7 +2308,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2486\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2904\\/large\\/Monkey-with-Headphone\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2388,7 +2319,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5f118ca897f4a250c0cad517ac2f81e141c0a98ca718c8b74a37aff32628cbb7"
+                "3f8d756ed8c3d6654856676792b57c1ab4898f3d5bec8efc4311069401c2021d"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2400,7 +2331,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2478\\/large\\/sample\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2909\\/large\\/sample\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2411,7 +2342,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a0641acc9f2ce80c7da944d0e8c03186c236eda21fd25307ed0d9ad46d16bfca"
+                "213531d4519d31893c120a00b5e6032daafb73b0fa1e6d1d086506a711292bc3"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2423,7 +2354,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2485\\/large\\/Elefant\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2880\\/large\\/Tesla\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2434,7 +2365,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ea1528f55d66b017e6f0fc672b80554c0cbf2105e5c2c5cadf4d10a136065474"
+                "6fda2ce51afea313117b354ce3511e8b8c17b2e4a3067f9dddfadab4c70746fc"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2446,7 +2377,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2484\\/large\\/Philipp-Plein-Totenkopf\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2879\\/large\\/Schmetterling\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2457,7 +2388,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "41616d1c677d6310e23da7155224fa43ac8ceae54c0e12ec407186cd9f0c5f4b"
+                "9f252ac3736fdc718e8429156f3819df7452d819f8c83db73dad7557a645a334"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2469,7 +2400,7 @@
             ]
         },
         {
-            "rule": "drugchecking\\.ch\\/img\\/samples\\/2497\\/large\\/Three-Wise-Monkeys-No-Speak\\.jpg",
+            "rule": "drugchecking\\.ch\\/img\\/samples\\/2884\\/large\\/Rolls-Royce\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2480,7 +2411,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "375e0d57eaf9293a0944c8db655370feea4f34da1c5ad7285f4e7b64f510b00a"
+                "a1dfd212c5ae073bdff557911c536209a4d545e076494bee98d686330bf0a35e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2500,12 +2431,12 @@
         "Script": 12,
         "Document": 3,
         "Font": 6,
-        "Image": 285,
-        "XHR": 6
+        "Image": 279,
+        "XHR": 3
     },
     "nameservers": [
-        "ns.hostpoint.ch",
         "ns2.hostpoint.ch",
+        "ns.hostpoint.ch",
         "ns3.hostpoint.ch"
     ]
 }

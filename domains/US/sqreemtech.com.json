@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
-        "tracker"
+        "tracker",
+        "trackerscript"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -20,22 +21,105 @@
                 "tracker"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 4
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "0ed7af71a302c4c9c94674dddf0ff8f16b2fb27f241eea356e96ac59613705d1"
+                "c2f2a96c97501b80e5966f8298551e84f6533c0ffd07b7c66766978fcee1207d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "listerine.com",
-                "www.listerine.com",
-                "www.ocbc.com",
+                "crepeerase.com",
+                "www.crepeerase.com",
+                "www.yukoyuko.net"
+            ]
+        },
+        {
+            "rule": "sqreemtech\\.com\\/41c7b8d5-a03f-4b30-8ff2-83800eca510e\\/5b161104-804a-4a05-8fea-a055cc138f78\\/scriptobject\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trackerscript"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ee6f5c58573700790876a0a715b130059dce65814b491223eea24d9068cd0a39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crepeerase.com",
+                "www.crepeerase.com"
+            ]
+        },
+        {
+            "rule": "sqreemtech\\.com\\/41c7b8d5-a03f-4b30-8ff2-83800eca510e\\/5b161104-804a-4a05-8fea-a055cc138f78\\/scriptobject\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trackerscript"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crepeerase.com",
+                "www.crepeerase.com"
+            ]
+        },
+        {
+            "rule": "sqreemtech\\.com\\/05b65684-0fee-4810-9ac5-43bb7d085b57\\/f92c07df-a4e3-4b9c-9749-2c6b8dca6c1a\\/scriptobject\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trackerscript"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5410e686d261341a7791e860741321a3762d05c11f88c1150d731c0095045fb7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yukoyuko.net",
+                "www.yukoyuko.net"
+            ]
+        },
+        {
+            "rule": "sqreemtech\\.com\\/05b65684-0fee-4810-9ac5-43bb7d085b57\\/f92c07df-a4e3-4b9c-9749-2c6b8dca6c1a\\/scriptobject\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trackerscript"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yukoyuko.net",
                 "www.yukoyuko.net"
             ]
         }
@@ -44,7 +128,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4
+        "Script": 3,
+        "XHR": 4,
+        "Preflight": 4
     },
     "nameservers": [
         "ns-186.awsdns-23.com",

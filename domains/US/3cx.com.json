@@ -7,11 +7,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
         "cdn",
-        "wcdn"
+        "downloads-global"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -32,10 +32,10 @@
                 "window.sessionStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "fef56a59150597a4426c16fd6ad37e954153ba66f56fadc42f373a38c79b47e7"
+                "8a10cf12cfb88e372913d913fa840ec00163ccdfaab6e477c5f6073eb3c48beb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -46,25 +46,31 @@
             ]
         },
         {
-            "rule": "3cx\\.com\\/wp-content\\/uploads\\/2020\\/09\\/cta-lady\\.png",
+            "rule": "3cx\\.com\\/downloads\\/livechatandtalk\\/v1\\/callus\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "wcdn"
+                "downloads-global"
             ],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a5ba981dfa924ba7ff53d09c5eabed5b5974e4e18926bd8c9e9b2aae1685a56f"
+                "7bb0e575307f6b5bfa555ac1f1e51a2058dfa143d87591ef8c648a4a17adfc36"
             ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ip-phone-forum.de",
-                "www.ip-phone-forum.de"
+                "coronacigar.com",
+                "www.coronacigar.com"
             ]
         }
     ],
@@ -72,8 +78,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
-        "Image": 2
+        "Script": 4
     },
     "nameservers": [
         "alina.ns.cloudflare.com",

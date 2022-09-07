@@ -4,57 +4,101 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000136,
+    "sites": 2,
     "subdomains": [
-        "product-labels-pro"
+        "bloop-static",
+        "bloop-api"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "bsscommerce\\.com\\/css\\/style\\.css",
+            "rule": "bsscommerce\\.com\\/bloop-loyalty\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "product-labels-pro"
+                "bloop-static"
             ],
-            "apis": {},
+            "apis": {
+                "window.localStorage": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1883deb8a24b0c7d063bb1fd5f722fa0870593d8028f53193790a6b9d8315d35"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "globalhealing.com",
-                "www.muji.us"
-            ]
-        },
-        {
-            "rule": "bsscommerce\\.com\\/js\\/product_label_log\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "product-labels-pro"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "b67dd7eb839443df788705081252bd44770c1660dc85b7d738b81bd1b8f0a17a"
+                "fd7fe68d20bc1027977e8a56493b0daf4f308632a2f62365ce996c63b408c127"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "muji.us",
-                "www.muji.us",
-                "www.startfitness.co.uk"
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/store-front\\/store-referral-popup\\/bridgecom-systems\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/store-front\\/store-referral-popup\\/bridgecom-systems\\.myshopify\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0f4c2ac6d1626b7faec7c08583af7419f8eddba74ee15dc89d552474bae9f1ad"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
+            ]
+        },
+        {
+            "rule": "bsscommerce\\.com\\/bloop_loyalty_ready\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bloop-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1dd0a2a91b539da3db98679217b212a79261d1ddfa1a058bfc8c6f1912fdb36d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bridgecomsystems.com",
+                "www.bridgecomsystems.com"
             ]
         }
     ],
@@ -62,8 +106,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Stylesheet": 2,
-        "Script": 3
+        "Script": 4,
+        "Preflight": 2,
+        "XHR": 2
     },
     "nameservers": [
         "elinore.ns.cloudflare.com",

@@ -1,14 +1,18 @@
 {
     "domain": "avplayer.com",
-    "owner": {},
+    "owner": {
+        "name": "AVPlayer",
+        "displayName": "AVPlayer.com"
+    },
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000601,
-    "sites": 6,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
         "player",
-        "atrack"
+        "track1",
+        "feed"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -21,38 +25,43 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.appVersion": 4,
-                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.userAgent": 5,
                 "Screen.prototype.height": 4,
-                "Navigator.prototype.vendor": 4,
-                "Screen.prototype.orientation": 2
+                "Navigator.prototype.vendor": 5,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5,
+                "Screen.prototype.orientation": 4
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "142d085939eff84bb1b7ca0a9707f6f6efc6c9b762fdf6616fce54901ef84663"
+                "4fb80b7bf623f709e8773d63406d7d20cbb8dda584d2259f86b7cc94050923d1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mangaeffect.com",
+                "gamerescape.com",
                 "mydramalist.com",
-                "www.gamerguides.com",
-                "www.israel21c.org"
+                "quotetheanime.com",
+                "randomwordgenerator.com",
+                "www.craiyon.com",
+                "www.mangaread.org",
+                "www.onegreenplanet.org"
             ]
         },
         {
-            "rule": "avplayer\\.com\\/track",
+            "rule": "avplayer\\.com\\/ctrack",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "atrack"
+                "track1"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -61,9 +70,30 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mangaeffect.com",
-                "newsinstact.com",
-                "www.sfgate.com"
+                "gamerescape.com",
+                "quotetheanime.com"
+            ]
+        },
+        {
+            "rule": "avplayer\\.com\\/backend\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "787362ec22fff54a85e51605ae73381dd59f977c50bdb4a0b1d75fe45ac2660a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quotetheanime.com",
+                "www.onegreenplanet.org"
             ]
         }
     ],
@@ -71,8 +101,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4,
-        "Image": 3
+        "Script": 7,
+        "Image": 2,
+        "XHR": 2
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

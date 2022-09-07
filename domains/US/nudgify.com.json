@@ -4,17 +4,18 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
-        "pixel"
+        "pixel",
+        "data"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "nudgify\\.com\\/pixel\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "pixel"
@@ -22,29 +23,28 @@
             "apis": {
                 "Document.cookie getter": 3,
                 "Navigator.prototype.language": 3,
-                "Document.cookie setter": 1,
-                "Date.prototype.getTime": 1
+                "Document.cookie setter": 2
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "83a4529ba8171d6519b80fb39d48c018f1135c3fc44e7e5bbddaaa239d5eb4de"
+                "04079920a4d4b0aef503f7fa513420587d4d8f2701d08e9c2be0b6437b63bf68"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "nudgify-visitor": {
-                    "ttl": 31536001,
+                    "ttl": 31536006,
                     "length": 74,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nyheter24.se",
-                "royalcbd.com",
-                "www.campusreel.org"
+                "holzharry.de",
+                "www.campusreel.org",
+                "www.rslartunion.com.au"
             ]
         },
         {
@@ -52,37 +52,57 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "pixel"
+                "data"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "b82f69f83f78924eb92b33d925d08c9e5b908915f4ccbb4b5d582c184cfa3c46",
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+                "5be24bbe55a8b97cffded6f8e59e7cf8a96688e89411f822ba6e4ba2c1cee919"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holzharry.de",
+                "www.campusreel.org",
+                "www.rslartunion.com.au"
+            ]
+        },
+        {
+            "rule": "nudgify\\.com\\/visitors\\/count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
                 "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nyheter24.se",
-                "royalcbd.com",
-                "www.campusreel.org"
+                "rslartunion.com.au",
+                "www.rslartunion.com.au"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000203,
     "types": {
         "Script": 3,
-        "Fetch": 3
+        "Fetch": 5
     },
     "nameservers": [
-        "ns-287.awsdns-35.com",
-        "ns-876.awsdns-45.net",
-        "ns-1615.awsdns-09.co.uk",
-        "ns-1039.awsdns-01.org"
+        "paul.ns.cloudflare.com",
+        "penny.ns.cloudflare.com"
     ]
 }

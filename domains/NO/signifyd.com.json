@@ -7,144 +7,91 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.000702,
+    "sites": 7,
     "subdomains": [
         "cdn-scripts",
-        "bt",
         "imgs"
     ],
     "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
-            "rule": "signifyd\\.com\\/shopify\\/script-tag\\.js",
-            "cookies": 0,
+            "rule": "signifyd\\.com\\/bigcommerce\\/script-tag\\.js",
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn-scripts"
             ],
             "apis": {
-                "Document.cookie getter": 1,
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "window.name": 2,
-                "Navigator.prototype.userAgent": 2
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8677603c79ea7b8ac5ff91a7d32558c1f8f381c5ed7127cdf291e6f9698a4162"
+                "4dae09e85f848e29dc41cc4874d336ac8b4b7ec70f0123601e18fd7d346e7b4e"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "sig-bc-stores/16115g8ghe": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.00010031096398836393,
+                    "uniqueness": 1
+                },
+                "sig-bc-stores/99kn4fj7jr": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.00010031096398836393,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com"
-            ]
-        },
-        {
-            "rule": "signifyd\\.com\\/onload",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bt"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "www.coldsteel.com"
             ]
         },
         {
             "rule": "signifyd\\.com\\/fp\\/tags\\.js",
-            "cookies": 0.000502,
+            "cookies": 0.000702,
             "fingerprinting": 1,
             "subdomains": [
                 "imgs"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.vendor": 5,
-                "Navigator.prototype.platform": 5,
-                "Navigator.prototype.appVersion": 5
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.vendor": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.appVersion": 7
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "986eecdd306583cf9ec1554a33fe3b961be54de83c291163d043aac61f3e60f1",
-                "9b5b5459ea47790f23f654f1a3031a768a26b98692994960eb5912aeeb43ccf5",
-                "fddb575c10281848e6c931788d398c216b006aa2537ca5bdb6d1377569f4b634",
-                "2a2e36d185a99df3974bee263a207d72f562d74f06cdf80f523c75d22ca481fb"
+                "cec1c27896721910942d272769b3779f9bd163de975dffa95387b775d6deb07a",
+                "93da90c997034f7a1399d56a64e13e72e926ff5eaae4ee9c1e0c0c172cd87880",
+                "8dc602d00200bc80485e0cf75adbb32b57facedd07535d2716d35c239877c844",
+                "bdd08607dc688a3127934439cc2cfa3661ec98ad3a1d18c537f06e90bca8b321",
+                "c3f94bc5ab6ca97c9d8a0cab42e56c7a54bb45bf98c84aaacba9d7a4ed2abb2a",
+                "419f5f3c95ad4601705f41b86bbd8daabeea18f75d751dfaceb30daa907b2e0e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "sig-bc-stores/16115g8ghe": 0.00010031096398836393,
+                "sig-bc-stores/99kn4fj7jr": 0.00010031096398836393
+            },
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
-            ]
-        },
-        {
-            "rule": "signifyd\\.com\\/ingest",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bt"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amiri.com",
-                "www.birkenstock.com",
-                "www.holley.com"
-            ]
-        },
-        {
-            "rule": "signifyd\\.com\\/ingest",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bt"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amiri.com",
-                "www.birkenstock.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
             ]
         },
         {
@@ -155,52 +102,65 @@
                 "imgs"
             ],
             "apis": {
-                "Navigator.prototype.mimeTypes": 5,
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.vendor": 5,
-                "Navigator.prototype.platform": 5,
-                "Navigator.prototype.appVersion": 5,
-                "Date.prototype.getTimezoneOffset": 5,
-                "window.devicePixelRatio": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Screen.prototype.availWidth": 5,
-                "Screen.prototype.availHeight": 5,
-                "Screen.prototype.colorDepth": 5,
-                "Navigator.prototype.plugins": 5,
-                "Navigator.prototype.hardwareConcurrency": 5,
-                "Navigator.prototype.deviceMemory": 5,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
-                "HTMLCanvasElement.prototype.toDataURL": 5,
-                "WebGLRenderingContext.prototype.getParameter": 5,
-                "WebGLRenderingContext.prototype.getSupportedExtensions": 5,
-                "WebGLRenderingContext.prototype.getExtension": 5,
-                "window.localStorage": 5,
-                "window.indexedDB": 5,
-                "Navigator.prototype.storage": 5,
-                "Navigator.prototype.getBattery": 5,
-                "OfflineAudioContext.prototype.constructor": 5,
-                "Navigator.prototype.mediaDevices": 5,
-                "AudioBuffer.prototype.getChannelData": 5
+                "Navigator.prototype.mimeTypes": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.vendor": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "window.devicePixelRatio": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.availWidth": 7,
+                "Screen.prototype.availHeight": 7,
+                "window.screenX": 7,
+                "window.screenY": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "window.outerWidth": 7,
+                "window.outerHeight": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Navigator.prototype.plugins": 7,
+                "Navigator.prototype.hardwareConcurrency": 7,
+                "Navigator.prototype.deviceMemory": 7,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 7,
+                "WebGLRenderingContext.prototype.getParameter": 7,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 7,
+                "WebGLRenderingContext.prototype.getExtension": 7,
+                "window.localStorage": 7,
+                "window.indexedDB": 7,
+                "RTCPeerConnection.prototype.constructor": 7,
+                "Navigator.prototype.storage": 7,
+                "Navigator.prototype.getBattery": 7,
+                "OfflineAudioContext.prototype.constructor": 7,
+                "Navigator.prototype.mediaDevices": 7,
+                "MediaDevices.prototype.enumerateDevices": 7,
+                "HTMLCanvasElement.prototype.toDataURL": 7,
+                "AudioBuffer.prototype.getChannelData": 7,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 7
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "5ff72a5956d903902c1c9968b4b500eda46d1ae08f712d265dfef8486c05edcc",
-                "d1fe8d82ad8f60d824202b99a809f4670a1797f0971ebea9bb723192b98520c7",
-                "e8d29c58e6ff1208690e46d6a9a2b671355c516eec240d85aa793ea0c455516a",
-                "92b23b087321cdfed513a76f69fc2ce8d1b967ba4bd83f4c90bb095cccb71bab"
+                "0fcd466c16e22d0922dbde2fa3104ebaf8c4bdae120191f314147b9701cf9c9c",
+                "d534be853ab49055a4906d9c304522bd95ad4730aaca9036d434cf223db5720c",
+                "d32cae03cb958ebedcd0612939eb6ced87415b56e8ab9fd4ca742e6097a2eb5e",
+                "29174555ae910cb3a0af97bf60a446439742f2d3435e31bef8579e11b4517ea7",
+                "cc082e0b1310588bec97715ccbc5a640747acf4fea6b244a4e6e5c24db27a099",
+                "d79a2e4f7cf9679fd76f1eddca6bcee64e1ba14659aa9ba7ae03b8a5b1cf654d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
             ]
         },
         {
@@ -211,21 +171,50 @@
                 "imgs"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "95518cbec0d55a574a9c8ef72a2a7d62ac0d40a4de5dfe67a76a7d214dc8b743"
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
             ]
         },
         {
@@ -236,26 +225,57 @@
                 "imgs"
             ],
             "apis": {
-                "window.localStorage": 5
+                "window.localStorage": 7
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "6778a2bbef567dfd8342fc7f5484701b5ce8e1b27fb9c4be893038e8a270aebd",
-                "e4e127f6cc94d572b452438562a6fb5e1d65246df7caa5df94f9a61cf2c3fb86",
-                "bc1f6f6a0e0373dbcd99926ab2bd67fffa8529892594a9b4bc5b75d9a33a6774",
-                "035109c8b0caa42c1b1349d18ee5d299df0791d99fde5d25dfc8f50ad6aec8b9"
+                "d7c44abc6743be55100f237cf12dcb768a7a5ebceb48e29d4cb3f32aef66d22e",
+                "5232ec5fe144cf6b808959893ea60db546740639a3aaf7ea40e67e542290ef91",
+                "8cc94bb979933f70fcd9784d5b7d4566777e22da9a22cba30e02b8eaf3befda2",
+                "a7452640376ccc7769c6a94bf176f1320e9b20a9a2e8c38e68491e990b8b121f",
+                "d4d87b06d4307b0f2949f5433a88c328e67e03460dce1727d4b4d8a4ac3f6a76",
+                "8d3dd1f29a4ba3ab8e21f990da58f8ef5f9a1b802fb24e78d98becacfdf3d218"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
             ]
         },
         {
@@ -266,76 +286,30 @@
                 "imgs"
             ],
             "apis": {
-                "Date.prototype.getTime": 5
+                "Date.prototype.getTime": 7
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "0ce22f549d23e8f116df93a8ca022f3e69ff3cd089b28bad03894817a3bdf646",
-                "e3eaa037ccb84e0d13e26fba8048197a968ff1deab8739489d8ca169693d0561",
-                "b13326d59bbcdb1145a950b2d8058030a4c261fa70b5c24e8697d3bc026feb14",
-                "e22b6aa62e709bdabe794385c6b7770dde625f1149910831de2ed00f2ec4ff88"
+                "034b3eb59198c37ed541d3976e7fbe22dafebe8a3a8116e7b4d2d02429dac82f",
+                "085150d1775f17ead7ddf374706a7733327d5c182f49eeedb08567a8f9a95c45",
+                "29a9b63c799ed69aae067b368113782faa48fcaa465f9b83b416c288a4b4f904",
+                "956240132d70a1ddc636f257457c64b18cf8e6dd7a1e8221aabbe9446144e6b5",
+                "3f500ac0f0fa3c923419a1284f02c2682ff0c379977c769978249f4b86e16fa0",
+                "b0f6326ba4b71b6ab4c3902febb8c6fbc58f67aff1ae191b13bf64881c1d5b14"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
-            ]
-        },
-        {
-            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "imgs"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "95518cbec0d55a574a9c8ef72a2a7d62ac0d40a4de5dfe67a76a7d214dc8b743"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
-            ]
-        },
-        {
-            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "imgs"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
             ]
         },
         {
@@ -346,8 +320,8 @@
                 "imgs"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -356,11 +330,39 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "amiri.com",
-                "us.kef.com",
-                "www.birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "bravocompanyusa.com",
+                "thepihut.com",
+                "www.cardkingdom.com",
+                "www.coldsteel.com",
+                "www.sram.com",
+                "www.usa.philips.com",
+                "www.worldwidecyclery.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/shopify\\/script-tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-scripts"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "28007761338c1e98e5b151031b85fdea6624c9218c8d8503967f312867d7972a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thepihut.com",
+                "www.worldwidecyclery.com"
             ]
         },
         {
@@ -371,35 +373,32 @@
                 "cdn-scripts"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3,
-                "window.localStorage": 3
+                "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e17857cb74ff8bb8c18929844a2d0ff42bd36dee42113f85a8831ad42ef6eb79"
+                "57caaa6f25768c8ca470e5dc1b4a7cf322785745c57b260b143221391cff0ebd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "birkenstock.com",
-                "www.gregorypacks.com",
-                "www.holley.com"
+                "cardkingdom.com",
+                "www.sram.com",
+                "www.usa.philips.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000502,
+    "cookies": 0.000702,
     "types": {
-        "Script": 20,
-        "XHR": 13,
-        "Preflight": 3,
-        "Image": 10,
-        "Document": 10
+        "Script": 28,
+        "Image": 14,
+        "XHR": 7,
+        "Document": 14
     },
     "nameservers": [
         "ns-1445.awsdns-52.org",

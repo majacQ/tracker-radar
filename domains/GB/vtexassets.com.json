@@ -14,6 +14,29 @@
     "fingerprinting": 2,
     "resources": [
         {
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/bundle\\/css\\/asset\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hotpointuk",
+                "motorolauk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b3937372e72f0d326d62e49ffda5d1106ec1526797ba8831ff246b06bb072ace"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotpoint.co.uk",
+                "www.motorola.co.uk"
+            ]
+        },
+        {
             "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/vtex-render-session@1\\.9\\.2\\/dist\\/index\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
@@ -75,77 +98,6 @@
             "cnames": [],
             "responseHashes": [
                 "b737400b2f4bfd2a23988e4de22e31685fce174318b2df037367ba44eefc9689"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotpoint.co.uk",
-                "www.motorola.co.uk"
-            ]
-        },
-        {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/react@16\\.9\\.0\\/umd\\/react\\.production\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "hotpointuk",
-                "motorolauk"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "9ee45880f5590afacc788bd7bfcaf83fc6bf15605a7120d4192f910f7c78d5f9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotpoint.co.uk",
-                "www.motorola.co.uk"
-            ]
-        },
-        {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/react-dom@16\\.9\\.0\\/umd\\/react-dom\\.production\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "hotpointuk",
-                "motorolauk"
-            ],
-            "apis": {
-                "Event.prototype.timeStamp": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "4297816d13adb23b94958e2c6fc461b34bbee4194b8587e41b7437a7b895ec27"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotpoint.co.uk",
-                "www.motorola.co.uk"
-            ]
-        },
-        {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/react-dom@16\\.9\\.0\\/umd\\/react-dom-server\\.browser\\.production\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "hotpointuk",
-                "motorolauk"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "0d614ec11e1b9c5d64bc88aacaf7176acb8314dd5688b7d62f0d6f0eb2ce2858"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -229,7 +181,7 @@
             ]
         },
         {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/lazysizes@5\\.2\\.2\\/plugins\\/unveilhooks\\/ls\\.unveilhooks\\.min\\.js",
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/lazysizes@5\\.3\\.2\\/plugins\\/unveilhooks\\/ls\\.unveilhooks\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -241,7 +193,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "0f1958d11afa74dc1f2a1aaf2b93d6ad3552eea2612084cc7dc2d9d6b62be41e"
+                "96eaa8c7730da226b5e755a8374b95ff51ae5897e2c004d1fe9b8a8231d745d1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -252,7 +204,7 @@
             ]
         },
         {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/lazysizes@5\\.2\\.2\\/lazysizes\\.min\\.js",
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/npm\\/lazysizes@5\\.3\\.2\\/lazysizes\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -260,13 +212,15 @@
                 "motorolauk"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "037f8ba1773d79468ed2d3611e93a073c95bc7c6cf38b3d1c541751edd754f5e"
+                "3f235958c001b583753533a93268610d345f2b5d03d0b1f237b71083093bed51"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -300,7 +254,7 @@
             ]
         },
         {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.2\\/public\\/react\\/common\\.min\\.js",
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.4\\/public\\/react\\/common\\.min\\.js",
             "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
@@ -308,26 +262,27 @@
                 "motorolauk"
             ],
             "apis": {
-                "Document.cookie setter": 2
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "45389fdb58e363899fa6e5cef469b6182b78bfb72acd73667701813e09ff8454"
+                "9e132a141440145522af618bedfc3b2d0b750b184a1a8b5eb7133cea0f6b5af3"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "VtexWorkspace": {
-                    "ttl": 2591584,
+                    "ttl": 2592000,
                     "length": 10,
-                    "prevalence": 0.00020066218521119696,
+                    "prevalence": 0.00020056157240272763,
                     "uniqueness": 0.5
                 },
                 "vtex_binding_address": {
                     "ttl": 31536000,
                     "length": 21,
-                    "prevalence": 0.00020066218521119696,
+                    "prevalence": 0.00020056157240272763,
                     "uniqueness": 1
                 }
             },
@@ -338,7 +293,7 @@
             ]
         },
         {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.2\\/public\\/react\\/graphql\\.min\\.js",
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.4\\/public\\/react\\/graphql\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -350,7 +305,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "0c4a9191f828d2336472919c0a06f1223d11d2fefecd72b90a83e3d316cf78df"
+                "cf0d90f10340550bf3143e53e19377a011ce123ac9fd6b93304476d45c895c8d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -361,7 +316,7 @@
             ]
         },
         {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.2\\/public\\/react\\/apollo\\.min\\.js",
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.4\\/public\\/react\\/apollo\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -375,7 +330,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "cb59a6da6cfb8dfd0583a4cbb0e794a1b2253e0bfa76c0c9dd83f35d7a60d87e"
+                "d4c09b0057f66d30bb301f48c690e3fd6c4a8e936ef1b1da8f851360978ff395"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -386,7 +341,7 @@
             ]
         },
         {
-            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.2\\/public\\/react\\/index\\.min\\.js",
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.render-runtime@8\\.132\\.4\\/public\\/react\\/index\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -398,7 +353,7 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b7e3019ea4acea24ae06b4df798bf7f3b6b2920bbabcf88cb049bc47772cc9bb"
+                "7080e665a2aa3b9421b6d90a2aa1d370e5e9c9a480554878bbe01bd7e7bc1e9a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -411,18 +366,20 @@
         {
             "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/bundle\\/public\\/react\\/asset\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "hotpointuk",
                 "motorolauk"
             ],
-            "apis": {},
+            "apis": {
+                "window.innerHeight": 1
+            },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ce07499e5d7a8e5070aecfc0d97c3f0ce4cdccdec053242478da758e138f65e0",
-                "49557b141feffd71922ef97d310986fe1bcebe868508445fb3a66f13bedd58b1"
+                "8bf65e5bf756dc6da10af1c096a5c2a9c14c59efa0881b392492fa5d325a59a3",
+                "3e46331f1c8c27c403d8d91559f83baff07e440de618a4cc2f34363f47ab912b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -432,13 +389,37 @@
                 "www.hotpoint.co.uk",
                 "www.motorola.co.uk"
             ]
+        },
+        {
+            "rule": "vtexassets\\.com\\/_v\\/public\\/assets\\/v1\\/published\\/vtex\\.store-drawer@0\\.16\\.2\\/public\\/react\\/0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hotpointuk",
+                "motorolauk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bf69138ac7a7b5bb9364ecc12b36a95c33798aa4ac7d0a55f3fe09fd7c7fc027"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotpoint.co.uk",
+                "www.motorola.co.uk"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0.000201,
     "types": {
-        "Script": 35
+        "Stylesheet": 2,
+        "Script": 31
     },
     "nameservers": [
         "ns-1220.awsdns-24.org",

@@ -7,18 +7,19 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.0012,
+    "sites": 12,
     "subdomains": [
         "e",
+        "x",
         "sync"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "serverbid\\.com\\/api\\/v2",
-            "cookies": 0,
+            "cookies": 0.000903,
             "fingerprinting": 0,
             "subdomains": [
                 "e"
@@ -28,23 +29,44 @@
             "prevalence": 0.0011,
             "cnames": [],
             "responseHashes": [
-                "903eb8f1cc364e01930ba03579f049a72794aa91d1a5842a2edb6365e436bb7c"
+                "903eb8f1cc364e01930ba03579f049a72794aa91d1a5842a2edb6365e436bb7c",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "celebpie.com",
-                "drudgereport.com",
-                "screenrant.com",
-                "www.breitbart.com",
-                "www.cbr.com",
-                "www.makeuseof.com",
-                "www.mlb.com",
-                "www.thegamer.com",
-                "www.therichest.com",
-                "www.thethings.com",
-                "www.urbandictionary.com"
+                "biblehub.com",
+                "classic.wowhead.com",
+                "fr.tbc.wowhead.com",
+                "fr.wowhead.com",
+                "tbc.wowhead.com",
+                "www.hearthstonetopdecks.com",
+                "www.metasrc.com",
+                "www.nexusmods.com",
+                "www.pcinvasion.com",
+                "www.wowhead.com",
+                "www.xxlmag.com"
+            ]
+        },
+        {
+            "rule": "serverbid\\.com\\/usersync",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -55,29 +77,6 @@
                 "e"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "celebpie.com",
-                "drudgereport.com",
-                "www.urbandictionary.com"
-            ]
-        },
-        {
-            "rule": "serverbid\\.com\\/udb\\/9969\\/match",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
@@ -86,82 +85,50 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "drudgereport.com",
-                "www.mlb.com"
+                "biblehub.com",
+                "www.xxlmag.com"
             ]
         },
         {
-            "rule": "serverbid\\.com\\/api\\/v2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "screenrant.com",
-                "www.cbr.com",
-                "www.thegamer.com",
-                "www.thethings.com"
-            ]
-        },
-        {
-            "rule": "serverbid\\.com\\/api\\/v2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "makeuseof.com",
-                "www.makeuseof.com",
-                "www.therichest.com"
-            ]
-        },
-        {
-            "rule": "serverbid\\.com\\/ss\\/1032790\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "serverbid\\.com\\/ss\\/2000775\\.html",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
             "subdomains": [
                 "sync"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "4d9703f5b2fc4a0503e690cdbc7cd298606bdbe68fc31e1badeeb6c270f4a564"
+            ],
             "type": "Document",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "sb_ss": {
+                    "ttl": 64827,
+                    "length": 2,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "urbandictionary.com",
-                "www.urbandictionary.com"
+                "xxlmag.com",
+                "www.xxlmag.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000903,
     "types": {
         "XHR": 11,
-        "Image": 5,
-        "Other": 4,
-        "Preflight": 3,
+        "Image": 4,
         "Document": 2
     },
     "nameservers": [

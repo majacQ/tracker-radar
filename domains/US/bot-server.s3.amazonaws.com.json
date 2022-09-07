@@ -9,7 +9,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [],
     "cnames": [],
@@ -18,14 +18,17 @@
         {
             "rule": "bot-server\\.s3\\.amazonaws\\.com\\/js\\/inbot-iframe\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerHeight": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6945fabf480bfaa8971e90e57ef99370c436a71ddde3a2a46ef0f016983ebca3"
+                "c23c2440b1386c99b3a235a4cc321c64e8c9d49bcaa9bc24a5153040269d5caf"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -42,10 +45,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f50759100f7c528e38fb0355928309e4808555aa731ed774cb50357e3075b7ae"
+                "3f6f2507cda5fecbdbf9bfe577a98611fbeda57ce8dabbd7a3cc1e58879d848f"
             ],
             "type": "Document",
             "firstPartyCookies": {},
@@ -56,7 +59,7 @@
             ]
         },
         {
-            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/api\\/inbot\\.js",
+            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/api\\/inbot\\.gz\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
@@ -64,10 +67,10 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1c3230afe519c1db42ef13fc873eb421ad431ba8b1ae5052326335c4b82d8286"
+                "efa43b1a5ae38bbfab2614bc72616b1124af5c5badf6582db7a916069a4c8f47"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -78,16 +81,16 @@
             ]
         },
         {
-            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/cache\\/bot-loader-sbt\\.html",
+            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/cache\\/bot-loader-sbt\\.gz\\.html",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b74132b73d5e43ddc7ae2db54214034fea2a41646af79fa156e7f95434492d54"
+                "89f6f4593a0b4109d9f72fdd6b5b058377e8e094a1724a70717863dc576832e7"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -98,13 +101,13 @@
             ]
         },
         {
-            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/in-framework\\/main-v2\\.css",
+            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/in-framework\\/main-v2\\.gz\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "4ca7de1a40411f58b5619cc018b0661fec2d7d6cf1d38e8c40d357eb2da1ff4b"
@@ -118,16 +121,16 @@
             ]
         },
         {
-            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/js\\/inbot\\.css",
+            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/js\\/inbot\\.gz\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "41874914f3150faa251357bab4afae9b2cebcf658cd98cf51e94cad9ab062dd5"
+                "9b10200380e7a76b571f03d11436185b541bc007c179df116f6e0c0ad9cb341f"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -138,58 +141,19 @@
             ]
         },
         {
-            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/js\\/inbot-framework\\.js",
-            "cookies": 0.0000069,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Screen.prototype.width": 2,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "0bb5db51ad49cee47b687e1ac4a912fe885a300f49ecb42f3d2ae850ae440306"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "inbot_session_id": {
-                    "ttl": 1805,
-                    "length": 36,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                },
-                "inbot_user_id": {
-                    "ttl": 473040005,
-                    "length": 36,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "sbt.com.br",
-                "www.sbt.com.br"
-            ]
-        },
-        {
-            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/js\\/jquery-ui\\/jquery-ui\\.js",
+            "rule": "bot-server\\.s3\\.amazonaws\\.com\\/js\\/inbot-framework\\.gz\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "46438621a96429e8fc26124bcbce5589385a27936a2776ff802315f7eaa666c9"
+                "ecb898067325a5428cbd0c7e2eda00e87662c961f680de16a5ea9222f1d96f67"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -204,17 +168,17 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0,
     "types": {
-        "Script": 8,
+        "Script": 6,
         "Document": 2,
         "XHR": 2,
         "Stylesheet": 4
     },
     "nameservers": [
+        "ns-1173.awsdns-18.org",
         "ns-674.awsdns-20.net",
         "ns-328.awsdns-41.com",
-        "ns-1620.awsdns-10.co.uk",
-        "ns-1173.awsdns-18.org"
+        "ns-1620.awsdns-10.co.uk"
     ]
 }

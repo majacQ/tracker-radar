@@ -7,13 +7,23 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000152,
-    "sites": 22,
+    "prevalence": 0.000176,
+    "sites": 26,
     "subdomains": [
-        "a"
+        "a",
+        "prod"
     ],
-    "cnames": [],
-    "fingerprinting": 0,
+    "cnames": [
+        {
+            "original": "inline.bankrate.com",
+            "resolved": "prod.myfidevs.io"
+        },
+        {
+            "original": "inline.healthline.com",
+            "resolved": "prod.myfidevs.io"
+        }
+    ],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "myfidevs\\.io\\/record",
@@ -23,29 +33,31 @@
                 "a"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000104,
+            "sites": 17,
+            "prevalence": 0.000115,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "usnews.com",
                 "investinganswers.com",
                 "investorjunkie.com",
-                "myslumberyard.com",
-                "nocable.org",
-                "psychcentral.com",
+                "thepointsguy.com",
                 "www.advisoryhq.com",
-                "www.bankdealguy.com",
+                "www.allconnect.com",
+                "www.amny.com",
                 "www.bankrate.com",
+                "www.benzinga.com",
                 "www.cordcuttersnews.com",
-                "www.doughroller.net",
+                "www.gamespot.com",
+                "www.healthline.com",
                 "www.hustlermoneyblog.com",
+                "www.marketwatch.com",
+                "www.moneycrashers.com",
                 "www.moneyunder30.com",
-                "www.soda.com",
-                "www.thedollarstretcher.com"
+                "www.savingadvice.com",
+                "www.soda.com"
             ]
         },
         {
@@ -56,8 +68,8 @@
                 "a"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000104,
+            "sites": 17,
+            "prevalence": 0.000115,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -66,35 +78,66 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "usnews.com",
                 "investinganswers.com",
                 "investorjunkie.com",
-                "myslumberyard.com",
-                "nocable.org",
-                "psychcentral.com",
+                "thepointsguy.com",
                 "www.advisoryhq.com",
-                "www.bankdealguy.com",
+                "www.allconnect.com",
+                "www.amny.com",
                 "www.bankrate.com",
+                "www.benzinga.com",
                 "www.cordcuttersnews.com",
-                "www.doughroller.net",
+                "www.gamespot.com",
+                "www.healthline.com",
                 "www.hustlermoneyblog.com",
+                "www.marketwatch.com",
+                "www.moneycrashers.com",
                 "www.moneyunder30.com",
-                "www.soda.com",
-                "www.thedollarstretcher.com"
+                "www.savingadvice.com",
+                "www.soda.com"
+            ]
+        },
+        {
+            "rule": "myfidevs\\.io\\/api\\/dimensions\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "inline.bankrate.com",
+                    "resolved": "prod.myfidevs.io"
+                },
+                {
+                    "original": "inline.healthline.com",
+                    "resolved": "prod.myfidevs.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bankrate.com",
+                "www.healthline.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0.0000136,
     "types": {
-        "Preflight": 15,
-        "XHR": 15
+        "Preflight": 17,
+        "XHR": 19
     },
     "nameservers": [
-        "ns-1098.awsdns-09.org",
         "ns-1948.awsdns-51.co.uk",
+        "ns-622.awsdns-13.net",
         "ns-273.awsdns-34.com",
-        "ns-622.awsdns-13.net"
+        "ns-1098.awsdns-09.org"
     ]
 }

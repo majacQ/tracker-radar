@@ -7,61 +7,101 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000069,
+    "prevalence": 0.0000678,
     "sites": 10,
     "subdomains": [
-        "tk",
-        "tk-global"
+        "tk-global",
+        "tk-crf",
+        "cdn-crf"
     ],
-    "cnames": [],
-    "fingerprinting": 0,
+    "cnames": [
+        {
+            "original": "content-strl.courses-en-ligne.carrefour.fr",
+            "resolved": "tk-crf.storetail.io"
+        },
+        {
+            "original": "op-drive-sto.carrefour.fr",
+            "resolved": "cdn-crf.storetail.io"
+        }
+    ],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "storetail\\.io\\/js",
-            "cookies": 0.0000483,
+            "cookies": 0.0000407,
             "fingerprinting": 0,
             "subdomains": [
-                "tk",
-                "tk-global"
+                "tk-global",
+                "tk-crf"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
-            "cnames": [],
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [
+                {
+                    "original": "content-strl.courses-en-ligne.carrefour.fr",
+                    "resolved": "tk-crf.storetail.io"
+                }
+            ],
             "responseHashes": [
-                "acbb22582b80830b7764b5a2a381444f82f6f075949228be8e672c2285e1f9e8",
-                "a833c9a0f6ff07f88bdaa477a567fe8d9e1adddd773062b7621c7efb2152a782",
-                "4c694cd11356743633c4a7ea87f7e501a78f60aeffa05530abc8f19f2ed03c01",
-                "a201bc0060eded1850f3eb66232e0d0636ab46f90647c5c740a56e1fc256cda6",
-                "a2d820127c9c8125581a54cc326ba8403d30193e7df2e94f227dbee068bfe67a",
-                "4e7633da7784e5544efbaa077ffafd875d40c63ad1c6a07ae5cb8774eeceae79"
+                "b5e49b61bf685486a27d827557c5249f659c5a482fc24d1f337dce8f0fa957b9",
+                "f35b09dae7fd4f0669e72c49b1ab6b8de8461a9ab1156575932a0750d318cb65",
+                "96f077491c36a1bd05260205bc6ab3c09c6110955a88edcbd8e3b096c7ef4520",
+                "ae772768b9654bb60852bfe2204f206fcca9fcc4d9e231b42461fd1ed4aae1ff",
+                "a6eb6934447679cff523c20e2b5104da3f62fc84d810e74f8159a36642c7835a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "intermarche.com",
+                "rewe.de",
                 "shop.rewe.de",
-                "www.bestbuy.com",
-                "www.carrefour.es",
-                "www.costco.ca",
-                "www.meijer.com",
+                "www.carrefour.fr",
+                "www.parfumdreams.de",
+                "www.primor.eu",
                 "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "storetail\\.io\\/ST-CRF1804\\/tag\\.js",
+            "cookies": 0.00000678,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-crf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "op-drive-sto.carrefour.fr",
+                    "resolved": "cdn-crf.storetail.io"
+                }
+            ],
+            "responseHashes": [
+                "b8aef9533da74f7521d2f9dc2f33fe694828843d2e8ec47eca609b221b8fb386"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carrefour.fr",
+                "www.carrefour.fr"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000069,
+    "cookies": 0.000061,
     "types": {
-        "Script": 7
+        "Script": 8
     },
     "nameservers": [
-        "ns22.criteo.com",
         "ns23.criteo.com",
-        "ns25.criteo.com",
-        "ns26.criteo.com",
         "ns27.criteo.com",
-        "ns28.criteo.com"
+        "ns26.criteo.com",
+        "ns22.criteo.com",
+        "ns28.criteo.com",
+        "ns25.criteo.com"
     ]
 }

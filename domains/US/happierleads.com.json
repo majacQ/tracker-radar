@@ -4,17 +4,18 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000203,
+    "sites": 3,
     "subdomains": [
-        "rest"
+        "rest",
+        "rest-low"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "happierleads\\.com\\/v3\\/script",
-            "cookies": 0.0000069,
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "rest"
@@ -23,13 +24,17 @@
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.vendor": 2,
                 "Navigator.prototype.platform": 2,
-                "Navigator.prototype.product": 2,
+                "window.localStorage": 2,
                 "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
                 "Navigator.prototype.plugins": 2,
                 "Date.prototype.getTimezoneOffset": 2,
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
                 "Navigator.prototype.languages": 2,
                 "Navigator.prototype.hardwareConcurrency": 2,
                 "Navigator.prototype.deviceMemory": 2,
@@ -37,60 +42,80 @@
                 "Screen.prototype.availWidth": 2,
                 "Screen.prototype.availHeight": 2,
                 "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
-                "HTMLCanvasElement.prototype.toDataURL": 2,
-                "window.localStorage": 1,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
+                "HTMLCanvasElement.prototype.toDataURL": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "79706f935448a524289772deb959f4efe2c667a267bf584a37577df051f20834"
+                "9334d0240ccad2fa71818369432e7cf3fa68c90b1e5fbc6096e3935b7a0db7c9"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "first_session": {
-                    "ttl": 2764807,
-                    "length": 474,
-                    "prevalence": 0.000006902073382844206,
+                    "ttl": 2764805,
+                    "length": 518,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "rastaroutes.com",
-                "www.rastaroutes.com"
+                "donorbox.org",
+                "www.apollotechnical.com"
             ]
         },
         {
-            "rule": "happierleads\\.com\\/v3\\/fingerprint",
+            "rule": "happierleads\\.com\\/v3\\/new-tracking",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "rest"
+                "rest",
+                "rest-low"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donorbox.org",
+                "www.apollotechnical.com"
+            ]
+        },
+        {
+            "rule": "happierleads\\.com\\/v3\\/new-tracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rest",
+                "rest-low"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5251b3937b1d4d02a23b163fd569800da788a8afc29ce146559b6dbfc733c6bf"
+                "ce603434e7dd7c32f804d622fbe150d4061c0b39aaae82aa2f247bb555075614"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "rastaroutes.com",
-                "www.rastaroutes.com"
+                "donorbox.org",
+                "www.apollotechnical.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0.0000203,
     "types": {
         "Script": 2,
+        "Preflight": 2,
         "Fetch": 2
     },
     "nameservers": [

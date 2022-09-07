@@ -4,34 +4,79 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000069,
-    "sites": 1,
+    "prevalence": 0.0000746,
+    "sites": 11,
     "subdomains": [
-        "esp"
+        "esp",
+        "esp-m",
+        "web-sdk"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "aptrinsic\\.com\\/rte\\/v1\\/command",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "esp"
+                "esp",
+                "esp-m"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "4e03969cfd80d1845f4b2e83b156e1ba95e31049fb762870fc50f5ed6a92b2af"
+                "8dd1e8ba1d4a5b4cd66abcc076c8c175b4715b79f6b953f82c6829d38d934d43",
+                "d383935b261bf40e678598b9b48e3cc90082f0563eacd84469f345ab10440163",
+                "7d155c13f13939648361e21f422f1c63feecf5d6d7c8a2cd84f7bdadb483594c",
+                "65fc055dbbc6a845b3912e7f65de0f850cb2da8692c06cd1b96ed1d27abe243f",
+                "095f430147e64aee4f46366d350ce6b4243049bbb5c82d27797cd559ad545091",
+                "ae29923303e3a7c5bf80fabfbb9ef52d39bab69d3c0535c1dc283dfd60f1431e"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.000027111659369111688
+            },
             "exampleSites": [
-                "f5.com",
-                "techdocs.f5.com"
+                "availity.com",
+                "apps.availity.com",
+                "experienceleague.adobe.com",
+                "experienceleaguecommunities.adobe.com",
+                "support.f5.com",
+                "theartofeducation.edu",
+                "www.compass.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/api\\/v1\\/feature\\/client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-m"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "b3385cc16b446953356fb7973e134d081c65c2bf29bb7ec0b11316e03ff8273d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.000027111659369111688
+            },
+            "exampleSites": [
+                "availity.com",
+                "experienceleague.adobe.com",
+                "experienceleaguecommunities.adobe.com",
+                "support.f5.com",
+                "theartofeducation.edu",
+                "www.compass.com"
             ]
         },
         {
@@ -39,21 +84,148 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "esp"
+                "esp",
+                "esp-m"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.000027111659369111688
+            },
+            "exampleSites": [
+                "availity.com",
+                "experienceleague.adobe.com",
+                "experienceleaguecommunities.adobe.com",
+                "support.f5.com",
+                "theartofeducation.edu",
+                "www.compass.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/api\\/aptrinsic\\.js",
+            "cookies": 0.0000407,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie setter": 6,
+                "Date.prototype.getTime": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "8b4afb2371706d2d7270bd82551aae07b85b18b70cb98d5b660b3297deec59e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "apt.uid": {
+                    "ttl": 31536002,
+                    "length": 51,
+                    "prevalence": 0.00004066748905366753,
+                    "uniqueness": 1
+                },
+                "apt.sid": {
+                    "ttl": 1803,
+                    "length": 41,
+                    "prevalence": 0.00004066748905366753,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "experienceleague.adobe.com",
+                "experienceleaguecommunities.adobe.com",
+                "support.f5.com",
+                "theartofeducation.edu",
+                "www.compass.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-PCBATQJJQHRG-2-1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp-m"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "81bb3c4efab0770ef394557dbddff5838efd6c72b37f4b9daf4bb6bdc0476f2d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "experienceleague.adobe.com",
+                "experienceleaguecommunities.adobe.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-sdk"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "14c65d468b63233231ce1fe30a3f4e74b492e2278f6a5f469a9bc64ead4cd779"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "experienceleague.adobe.com",
+                "experienceleaguecommunities.adobe.com",
+                "support.f5.com",
+                "theartofeducation.edu",
+                "www.compass.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-WRV63MYM32AQ-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "bb74b923315ebd2ab42cd8ca19914c5aabd2bdf9059bfd5de095e55b7077f042"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "f5.com",
-                "techdocs.f5.com"
+                "support.f5.com"
             ]
         },
         {
@@ -65,7 +237,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -73,19 +245,43 @@
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "apt.sid": 0.000013804146765688412
+                "apt.sid": 0.000013555829684555844
             },
             "exampleSites": [
                 "f5.com",
-                "techdocs.f5.com"
+                "support.f5.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-0QSGHASHTTOI-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "15d4942ddb4303ac28643feabc2ac9eeb568107b531fb2d072da42810251a7f8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compass.com",
+                "www.compass.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0.0000678,
     "types": {
-        "XHR": 6
+        "XHR": 28,
+        "Script": 6,
+        "Stylesheet": 6
     },
     "nameservers": [
         "ns34.domaincontrol.com",

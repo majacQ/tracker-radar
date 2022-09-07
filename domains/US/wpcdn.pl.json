@@ -4,114 +4,128 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000525,
-    "sites": 76,
+    "prevalence": 0.00113,
+    "sites": 167,
     "subdomains": [
         "std",
-        "onelogin",
         "fonts",
         "techforum",
+        "onelogin",
+        "portal-parenting",
+        "portal-abczdrowie",
+        "pocztanh",
         "extradom",
         "pogoda",
-        "sgwp"
+        "sgwp",
+        "totalmoney"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
+            "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-sync\\.js",
+            "cookies": 0.000305,
+            "fingerprinting": 1,
+            "subdomains": [
+                "std"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 45,
+                "Document.cookie setter": 45,
+                "Document.cookie getter": 45,
+                "window.localStorage": 45
+            },
+            "sites": 69,
+            "prevalence": 0.000468,
+            "cnames": [],
+            "responseHashes": [
+                "4cd4c056d7bcf49a34ccf576773e74d1eab591ecf205499a94ebcb2cc71c8c8b",
+                "76528369d2ad3bda53dca7a9b329778c3cdd2d2dd8aa6bbabdde8ab497d7c558"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_X_": {
+                    "ttl": -1660957040,
+                    "length": 1,
+                    "prevalence": 0.0003050061679025065,
+                    "uniqueness": 0.022222222222222223
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.telepolis.pl",
+                "gazetawroclawska.pl",
+                "www.wirtualnemedia.pl",
+                "joemonster.org",
+                "kenyan-post.com",
+                "www.olx.pl",
+                "nowiny24.pl",
+                "www.worlddata.info",
+                "ca.jooble.org",
+                "lubimyczytac.pl",
+                "znachit.needlewoman.ru",
+                "www.meczyki.pl",
+                "planroute.de",
+                "comment-reparer.com",
+                "beauty-around.com",
+                "zmianynaziemi.pl",
+                "www.twoplayergames.org",
+                "dorzeczy.pl",
+                "www.mgsm.pl",
+                "forumdacasa.com"
+            ]
+        },
+        {
             "rule": "wpcdn\\.pl\\/wpjslib\\/wpjslib-sgap\\.js",
-            "cookies": 0.0000276,
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "std"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.connection": 4,
-                "Notification.permission": 4,
-                "Document.cookie getter": 4,
-                "Screen.prototype.availWidth": 4,
-                "Screen.prototype.availHeight": 4,
-                "Document.cookie setter": 4,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Navigator.prototype.hardwareConcurrency": 2,
-                "Navigator.prototype.deviceMemory": 2
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.connection": 2,
+                "Notification.permission": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8b7f4ca1d0ff3c11b76e28c1ef57258470f9f0dcd0772d6b8598a3f638d39545"
+                "0c1b9a7402a3e814a7da31749d0527780c4b7f7cb733bd4cbf2354283d85deb7"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "PWA_adbd": {
-                    "ttl": 33696002,
+                "_X_": {
+                    "ttl": -1660969787,
                     "length": 1,
-                    "prevalence": 0.000027608293531376825,
-                    "uniqueness": 0.25
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "WPabs": {
+                    "ttl": 33696003,
+                    "length": 6,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
                 },
                 "WPdp": {
                     "ttl": 33696004,
-                    "length": 223,
-                    "prevalence": 0.000027608293531376825,
+                    "length": 279,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
-                },
-                "WPtcs2": {
-                    "ttl": 33696004,
-                    "length": 233,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "sa31": {
-                    "ttl": 304,
-                    "length": 32,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "sa32": {
-                    "ttl": 304,
-                    "length": 14,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "autokult.pl",
-                "poczta.o2.pl",
-                "www.autocentrum.pl",
-                "www.poczta.o2.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/onelogin\\/olwidget-pkce\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "onelogin"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 2,
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "b93538805767e67b8382681f3e4a371998e8dde7376f385b239be95486568f88"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "autokult.pl",
-                "www.pudelek.pl"
+                "www.autocentrum.pl"
             ]
         },
         {
@@ -122,36 +136,36 @@
                 "fonts"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.000145,
+            "sites": 27,
+            "prevalence": 0.000183,
             "cnames": [],
             "responseHashes": [
-                "f9bc132980c62433dfd76631f5a602fd1bf318141d67ebb6b70b4d3cc92555b0"
+                "eabf75402caeb61638f4344fa183b377acf8538e43ee2f3a909501d888fa4b7d"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "domodi.pl",
-                "www.nocowanie.pl",
-                "www.homebook.pl",
-                "sportowefakty.wp.pl",
-                "wiadomosci.wp.pl",
-                "www.pudelek.pl",
-                "pytania.abczdrowie.pl",
-                "forum.dobreprogramy.pl",
-                "www.autocentrum.pl",
-                "www.dobreprogramy.pl",
-                "www.money.pl",
-                "www.wakacje.pl",
                 "portal.abczdrowie.pl",
-                "www.o2.pl",
-                "mapa.nocowanie.pl",
-                "f.kafeteria.pl",
-                "parenting.pl",
+                "www.homebook.pl",
+                "domodi.pl",
+                "www.totalmoney.pl",
+                "pytania.abczdrowie.pl",
+                "www.dobreprogramy.pl",
+                "forum.dobreprogramy.pl",
+                "www.money.pl",
                 "zywienie.abczdrowie.pl",
-                "www.extradom.pl",
-                "autokult.pl"
+                "pogoda.wp.pl",
+                "forum.abczdrowie.pl",
+                "autokult.pl",
+                "www.pudelek.pl",
+                "www.wp.pl",
+                "kobieta.wp.pl",
+                "www.autocentrum.pl",
+                "poczta.o2.pl",
+                "www.wakacje.pl",
+                "poczta.wp.pl",
+                "www.extradom.pl"
             ]
         },
         {
@@ -162,146 +176,157 @@
                 "fonts"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.000145,
+            "sites": 27,
+            "prevalence": 0.000183,
             "cnames": [],
             "responseHashes": [
-                "1f03b3082883c94de09ea4c0b38092a45f2f7ca60c14889818a3e19057da34b8"
+                "9967c2a421786b74b091d0915c8bec92ec75d5c53052eb5adb3c872ae1c8fa34"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.extradom.pl",
-                "zywienie.abczdrowie.pl",
-                "www.autocentrum.pl",
-                "www.wp.pl",
-                "www.pudelek.pl",
-                "wiadomosci.wp.pl",
+                "www.totalmoney.pl",
                 "portal.abczdrowie.pl",
-                "f.kafeteria.pl",
-                "autokult.pl",
-                "www.money.pl",
-                "www.dobreprogramy.pl",
                 "mapa.nocowanie.pl",
                 "www.nocowanie.pl",
-                "sportowefakty.wp.pl",
-                "www.o2.pl",
-                "forum.dobreprogramy.pl",
+                "kobieta.wp.pl",
+                "poczta.o2.pl",
+                "www.extradom.pl",
                 "pytania.abczdrowie.pl",
+                "www.autocentrum.pl",
+                "f.kafeteria.pl",
+                "wiadomosci.wp.pl",
+                "www.o2.pl",
+                "www.money.pl",
+                "forum.dobreprogramy.pl",
+                "poczta.wp.pl",
+                "forum.abczdrowie.pl",
                 "www.homebook.pl",
-                "www.wakacje.pl",
+                "autokult.pl",
+                "domodi.pl",
                 "parenting.pl"
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/wpjslib\\/wpjslib-sync\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "std"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 13
-            },
-            "sites": 17,
-            "prevalence": 0.000117,
-            "cnames": [],
-            "responseHashes": [
-                "3248cacd69f3835e0cd422cee868de28a8e6c0a0423d7c529effc768e47d0b16"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dalechatea.me",
-                "fajnyogrod.pl",
-                "ising.pl",
-                "jastrzabpost.pl",
-                "kb.pl",
-                "kwejk.pl",
-                "lubimyczytac.pl",
-                "stylzycia.radiozet.pl",
-                "www.antyradio.pl",
-                "www.planeta.pl",
-                "www.radiozet.pl",
-                "www.twoplayergames.org",
-                "www.wirtualnemedia.pl",
-                "www.wroclaw.pl",
-                "www.wykop.pl",
-                "wykop.pl",
-                "zdrowie.radiozet.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-ecom\\.js",
-            "cookies": 0.0000138,
+            "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-ecad\\.js",
+            "cookies": 0.0000203,
             "fingerprinting": 2,
             "subdomains": [
                 "std"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "Screen.prototype.availWidth": 2,
-                "Screen.prototype.availHeight": 2,
-                "Document.cookie setter": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Navigator.prototype.connection": 3,
+                "window.innerWidth": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "c9ef73f125f6964257c9fe0d241c8306f0fdb67b1bfafcabc35a1fbeb8210f4a"
+                "49d7b6eeb5e48b3deac930be8983f6a4915a459791ed6e84dd15d3ec69a740b7"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "PWA_adbd": {
-                    "ttl": 33696001,
-                    "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "WPdp": {
-                    "ttl": 33696003,
-                    "length": 282,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "WPtcs2": {
-                    "ttl": 33696003,
-                    "length": 233,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
                 "_X_": {
-                    "ttl": -1633243923,
+                    "ttl": -1660969717,
                     "length": 1,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.3333333333333333
                 },
                 "WPabs": {
-                    "ttl": 33696000,
+                    "ttl": 33696001,
                     "length": 6,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                },
+                "WPdp": {
+                    "ttl": 33696007,
+                    "length": 279,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                },
+                "statid": {
+                    "ttl": 33696007,
+                    "length": 53,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "domodi.pl",
+                "mapa.nocowanie.pl",
+                "www.nocowanie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-ecom\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 2,
+            "subdomains": [
+                "std"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "window.innerWidth": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "b7e2f22b4c90aa7899c548fcb9dce0d3f5b20a3bd183aaaa3d2f9d6108f79d22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_X_": {
+                    "ttl": -1660965085,
+                    "length": 1,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.3333333333333333
+                },
+                "WPabs": {
+                    "ttl": 33696001,
+                    "length": 6,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                },
+                "WPdp": {
+                    "ttl": 33696005,
+                    "length": 279,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domodi.pl",
+                "www.homebook.pl",
                 "www.wakacje.pl"
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/341e4a57816af3ba440d891ca87450ff_framework\\.css\\.f1727267d36cf9213eba9773459451d7\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/341e4a57816af3ba440d891ca87450ff_framework\\.css\\.cf4f165fc226c63f694019839e905bd2\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c6ae574636150e406b0d2a52f6475c260510aeaa040db8268d16b2098770aa6c"
@@ -315,13 +340,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/05e81b71abe4f22d6eb8d1a929494829_responsive\\.css\\.1013017bfbcdb1addd93b7e6987f9a22\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/05e81b71abe4f22d6eb8d1a929494829_responsive\\.css\\.5a6c7194cc84950374dcaefd331db311\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "fc6154549956d13dec4b969506c228180045bca73c818e7cbb186d4fee56bd97"
@@ -335,13 +360,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/90eb5adf50a8c640f633d47fd7eb1778_core\\.css\\.a887573e1f8b82fed92f136357d5633b\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/90eb5adf50a8c640f633d47fd7eb1778_core\\.css\\.924d57543c9cbd3012d320e40febd8ca\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "7c06ba146b91b758def0b783ee8c0bfd350085706eb0f1b4eee2670badd87256"
@@ -355,13 +380,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/5a0da001ccc2200dc5625c3f3934497d_core_responsive\\.css\\.23bd0e77fac3e144f2ff537bc3cf75a6\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/5a0da001ccc2200dc5625c3f3934497d_core_responsive\\.css\\.660448d3a548edb9da626f33786ef6c5\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "5bfab13aedcdfa95b7e2061853d40c4ff20287fb66f9ca01524978afd984d522"
@@ -375,13 +400,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/62e269ced0fdab7e30e026f1d30ae516_forums\\.css\\.ba9e4e4014795cc48cb10be2178de6f6\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/62e269ced0fdab7e30e026f1d30ae516_forums\\.css\\.48ec0bca4622a2ad8e3ecf208a59a6be\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c53fe9b8b0b53eea402ea593dc8ab72a0425edc1cec5b01e2ca9be55ca7e532e"
@@ -395,13 +420,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/76e62c573090645fb99a15a363d8620e_forums_responsive\\.css\\.9b136a983e35b19927964146534728e4\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/76e62c573090645fb99a15a363d8620e_forums_responsive\\.css\\.3ac9f6a60b76aed5cbfd970a94cf7050\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b592f92b2199679802b32f916b5d4bede21d144d15221ea1432837deda394449"
@@ -415,13 +440,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/258adbb6e4f3e83cd3b355f84e3fa002_custom\\.css\\.7e04d349579dac18e2ee15b8d691c6ad\\.css\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/css_built_2\\/258adbb6e4f3e83cd3b355f84e3fa002_custom\\.css\\.60727458c09ab0cc2adacdaf19d741dc\\.css\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "20b4729c902d56e2341d372678cd323b70925f4fe00bf8050bc7258ea6d8a4d4"
@@ -443,10 +468,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8a610d1227f7659abb1fa63ec2588854d6391a75730b5bfc96e24dce199b6fc0"
+                "60d6a643cd16a5ee5c1eb7358ade00a11a92ee3e1d3b6459489acb26f12ecb6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -458,81 +483,73 @@
         },
         {
             "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-sgap\\.js",
-            "cookies": 0.0000207,
+            "cookies": 0.0000339,
             "fingerprinting": 2,
             "subdomains": [
                 "std"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.connection": 3,
-                "Notification.permission": 3,
-                "Document.cookie getter": 3,
-                "Screen.prototype.availWidth": 3,
-                "Screen.prototype.availHeight": 3,
-                "Document.cookie setter": 3,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Navigator.prototype.hardwareConcurrency": 1,
-                "Navigator.prototype.deviceMemory": 1
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "window.innerHeight": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availHeight": 5,
+                "Navigator.prototype.connection": 5,
+                "Notification.permission": 5,
+                "window.innerWidth": 5,
+                "Date.prototype.getTime": 5
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "be3925cdd2b4464b68113fe2145fe2e623893dbe01fd696e9483d71b6b698bdb"
+                "4647d71ca77ac3a8d97763a6550f8742f91635b90315cac5f0b3e1d61a0ea575",
+                "db567b63561b9e99cee6b0f5039347bcc3277388ef6e5ed2d66bc7682b364240"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "PWA_adbd": {
-                    "ttl": 33696002,
-                    "length": 1,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
-                },
-                "WPdp": {
-                    "ttl": 33696004,
-                    "length": 242,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "WPtcs2": {
-                    "ttl": 33696005,
-                    "length": 233,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
                 "_X_": {
-                    "ttl": -1633191721,
+                    "ttl": -1660968070,
                     "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
+                    "prevalence": 0.000033889574211389605,
+                    "uniqueness": 0.2
                 },
                 "WPabs": {
-                    "ttl": 33696002,
+                    "ttl": 33696003,
                     "length": 6,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000033889574211389605,
                     "uniqueness": 1
                 },
-                "sa31": {
-                    "ttl": 303,
-                    "length": 32,
-                    "prevalence": 0.000006902073382844206,
+                "WPdp": {
+                    "ttl": 33696008,
+                    "length": 279,
+                    "prevalence": 0.000033889574211389605,
                     "uniqueness": 1
                 },
-                "sa32": {
-                    "ttl": 303,
-                    "length": 14,
-                    "prevalence": 0.000006902073382844206,
+                "statid": {
+                    "ttl": 33696014,
+                    "length": 53,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
-                "inisuid": {
-                    "ttl": 86403,
-                    "length": 5,
-                    "prevalence": 0.000006902073382844206,
+                "STvisit": {
+                    "ttl": 33696014,
+                    "length": 73,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "BDh": {
+                    "ttl": 33696014,
+                    "length": 47,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "BDhs": {
+                    "ttl": 33696014,
+                    "length": 48,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
@@ -540,6 +557,8 @@
             "exampleSites": [
                 "kafeteria.pl",
                 "f.kafeteria.pl",
+                "forum.abczdrowie.pl",
+                "poczta.o2.pl",
                 "poczta.wp.pl"
             ]
         },
@@ -550,10 +569,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "68c617750354a7fba948a8a992fae5f9ae21fd36c82620a937ef7c7c04eaea61"
+                "ec95077299bcba5235d5ecaf407902b35a90a8df95601e4d73737cc96bb884a1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -570,10 +589,10 @@
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "273b58c7188394db85d7a067e211ef52a726438b1b1242e348c48472e9ee7232"
+                "e306334f4b5dcf3aeec1c3254f2d68e650129240cb4598b1b6145016f856e117"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -584,16 +603,16 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2021_10\\/M_member_194053496\\.png",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_08\\/E_member_194077152\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "55dc7e9f32628ad9a474dd11cc5dcb6d868f2b227e01105fe3cf50ea3cede8ff"
+                "fdaaf5ca501c407ab2da9f221dc35b9a37b188bfb2d5542d83c1208cde3db8a7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -604,16 +623,16 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2021_10\\/1998512136_IMG_20210927_1613442\\.thumb\\.jpg\\.d7bf6c70baf87e6fca2224abc2a021e5\\.jpg",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_08\\/th-3037371932\\.thumb\\.jpeg\\.0fa60757fd441b1605ccf31f922dae07\\.jpeg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "2eeda850467e05ae29efedd9854821c602cc0694780c14f02aa48ce2954f91bc"
+                "7a375220a8cd997cef0301cf5d7b888005ad4fbe4d6841a9da9046bc75c8201d"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -624,16 +643,16 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2021_02\\/SZUSZ\\.thumb\\.jpg\\.d034cfb1c405b39944fad5d43cf9ed64\\.jpg",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_01\\/icran\\.thumb\\.jpeg\\.2bfa444608c4338d8c22dab24d7e4aca\\.jpeg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "2eca45c2f92bcc87c27b20bd4c0e3949d594e3e8eb99b95b4dc49d4eacb57b97"
+                "ef9ffcc027dd10519ad9ca1b694a81c36ebb3b3b54ed81666638721caeb611ea"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -644,16 +663,16 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2021_10\\/IMG_20211002_131627\\.thumb\\.jpg\\.a4ab6fce85f3e9753f9e49e2b8dd0866\\.jpg",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_08\\/21e6a5311920c938a49071a6a6352a29\\.thumb\\.jpg\\.da434b2a6aef8a4e7916c6d37974223f\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "047fc91341587c5dc90223611e2a4f047362f1764262b183bbe366de87b12785"
+                "92a8c6458975897e941fcfa8432b3dc73f391ce3de764178f15537df545c3653"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -664,16 +683,16 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2020_11\\/16800E7B-CD4C-416B-AE59-ADDDE9190454\\.thumb\\.jpeg\\.1b02006b0926b8af459f8022a3564e16\\.jpeg",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_08\\/samael-angel-of-death-fan-casting-poster-129237-large\\.thumb\\.jpg\\.7d251730b9f2fe4848b1b737fed52910\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d69468a56efc4ae54feffaa3912a53482daac5493c1296b8715e69702770e14c"
+                "b7a55732851f60e63e7e1309b997c2d67c0d72782c5a19a5714e4f9db7cf177b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -684,7 +703,67 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_library\\.js\\.21bc384540352b9b0d4d4ac870fe9c1a\\.js\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_08\\/Screenshot-20220818-231259\\.thumb\\.jpg\\.a48cd1732c0ff5e8d5bc235a1ee8bd94\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "49350f124f15c5f08a624cb479f7b97d4aaa3d8fa10624f38b1b7be63891ab3d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kafeteria.pl",
+                "f.kafeteria.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_08\\/5BC7E55E-4062-4511-B446-59CE64B3DE44\\.thumb\\.jpeg\\.34521184b1a16c8257954ed1a99a6c41\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4b2cb1c48935b9597008a0cbd25977b30149cf8afab3363d21825d95a6921ed4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kafeteria.pl",
+                "f.kafeteria.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/monthly_2022_01\\/3aa92fdcdca6dfb5e2d36a3f1114ee51\\.thumb\\.jpg\\.cc38bc4c969b27e43d04c97ec6536fb1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7fdb695326742a94a0f030c308bbb2eaef4a508ef7b6812a2450121fb3aa104a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kafeteria.pl",
+                "f.kafeteria.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_library\\.js\\.8b85c5a2f61038ffdc47ce7cd348d0fb\\.js\\.gz",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [],
@@ -700,7 +779,7 @@
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b7ec078408b63b6808b842331734a80258bb576f39d26253e983d6bff1b003b4"
@@ -714,13 +793,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_js_lang_2\\.js\\.847b31afcb78adc1da3300e4271d35ef\\.js\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_js_lang_2\\.js\\.5e71d11c4fc5743a1b8452c3130facb0\\.js\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "1d2bd26661b870551c2e9c84ba458cb513dfa8d1e4670c937d91733dc9b4a163"
@@ -734,19 +813,19 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_framework\\.js\\.d1b10da0a4b93f2aaee2d10c1e79bac0\\.js\\.gz",
-            "cookies": 0.0000138,
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_framework\\.js\\.93072e2e0a0a8465d7ceea47730e0ec2\\.js\\.gz",
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
+                "window.innerWidth": 2,
                 "window.localStorage": 2,
                 "Document.cookie setter": 2,
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 1,
-                "window.sessionStorage": 2
+                "window.sessionStorage": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "1ac6b8f50790f6c469c90351321d67f2cad3d67f683119047ef52f5de19c85e4"
@@ -756,13 +835,13 @@
                 "ips4_ipsTimezone": {
                     "ttl": null,
                     "length": 16,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 },
                 "ips4_hasJS": {
                     "ttl": 86403,
                     "length": 4,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 }
             },
@@ -773,13 +852,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_core\\/global_global_core\\.js\\.e2f5e7dbe0570d1fc91c0baec0d6d0e5\\.js\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_core\\/global_global_core\\.js\\.509061ea7774763a8db6953ea147bc11\\.js\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "17cf77b49e169a8da7f273c9c562b456c321bca1cc847b79c81bc47f7dda03d0"
@@ -793,13 +872,13 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_front\\.js\\.b1d93b3e34b1c83d94409d1d22674927\\.js\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_front\\.js\\.a365eadd7f4cdad71294b9bc2d5b3a57\\.js\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "514d0900a5111a211f8f534d28d43e29abc576e1559beb0be3dfbf5389d2d12d"
@@ -813,16 +892,16 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_map\\.js\\.7a276adeac4f14e53889357e1f6fff1b\\.js\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_global\\/root_map\\.js\\.1226f7e9da6a1b9a96d3b1f0e8d71593\\.js\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "88198652f52f6eb9c062b51052387938371f41fad56ecaa7c0577f5e246474cc"
+                "b8ccc591e914f47263cbea1f386805d0eb94048d9ab122bf97f77b84f5442941"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -833,13 +912,33 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_core\\/front_front_widgets\\.js\\.aa6fbd51ea860075eaa8731458412a2a\\.js\\.gz",
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_forums\\/front_front_forum\\.js\\.7f34472ca7a0654bb938a5d686b249ac\\.js\\.gz",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "29c58ce545b1ffdd4e4fa925c9f5f346f6c94a7711e7f4a7e4403e1cf08b50fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kafeteria.pl",
+                "f.kafeteria.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/kafeteria-forum\\/javascript_core\\/front_front_widgets\\.js\\.3dab6bd348285b761467b23b6a39ba92\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d8a9d8f6106a5b965c99d537d94344fc895ddfbae4b56c1cf8c42505292e6f87"
@@ -860,67 +959,483 @@
                 "fonts"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "2b56e3544de25a2bc015f2df367a527d3e1f5691510605d7cb5d06d8c2e7fd6d"
+                "83fa228257f48de0dd39f86da41326e1998a44bff8224ac65df4f4c1850d10d4"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "kafeteria.pl",
-                "wiadomosci.wp.pl",
-                "www.money.pl"
+                "kobieta.wp.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl",
+                "wiadomosci.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/341e4a57816af3ba440d891ca87450ff_framework\\.css\\.95fa521173c70fbb7d1143b6d02ee36b\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7a79763175680cb3a9eeee321aa7d716bee161d9d4b0d94ec316cab687fecc7e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/05e81b71abe4f22d6eb8d1a929494829_responsive\\.css\\.d5b235ea916863f8c1e08f8345f2b013\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c003d5a094e07dd4b93f9cb7dc877814ce3563c0d72f27c630759d2eaac69b3f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/20446cf2d164adcc029377cb04d43d17_flags\\.css\\.17d3d8b457facf08599da3977fd1400e\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b85c39c13dce80d31be6e124ff3a4828898cf8c74cbab15adcb7b926b90171d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/90eb5adf50a8c640f633d47fd7eb1778_core\\.css\\.c74ae2e5fc3eb5f7aaf4505276748454\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f55f08de590e02ba79b3ddf66a3821c901285abad05c8f3e9ff81066ec916886"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/5a0da001ccc2200dc5625c3f3934497d_core_responsive\\.css\\.b8c6fef5900584a41f68564445b62f08\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "159308ebb6cd30326aa68872f9a327c7b99ec1a2d167d509ff333bec2e098b79"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/62e269ced0fdab7e30e026f1d30ae516_forums\\.css\\.19ebc98b37abe5f173be50be6daef5c9\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f60e704278243c82c28bc263d0ad6f0fbda6f71099c6e72b799e0b719dba5d50"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/76e62c573090645fb99a15a363d8620e_forums_responsive\\.css\\.95d588d33cc963402d5cb64028ed390a\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f0bec4e20bc4af56f95159be1e6dd93c1150eae46e1aabd71db1b5d937af44bb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/css_built_2\\/258adbb6e4f3e83cd3b355f84e3fa002_custom\\.css\\.0eee17830f329779f3465d3eafe943ac\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3f217a281db617ffa12e474f7de766824139e611ab0da68d355b0271b6f96eb5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/adv\\/config\\/inline\\/desktop-abczdrowie\\.pl\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "std"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f5d58659bf521cdd66f9bf9b06236a6fa275cb3d9f33e907f2aa02d8bb587b7d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/set_resources_2\\/f132dac71c712d00896a0f5ac4506b38_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "de5a0f1ee68677014efba9899f758ea9be34d994c3716c81928793ec4bbf62d8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/set_resources_2\\/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fadaac449377fa21b15e66ecac58c987394938aa121a8a7dca95d44735f10665"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_global\\/root_library\\.js\\.73e877f5d7a74a04eed1e304d0c3a37b\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "window.localStorage": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Element.prototype.getClientRects": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6a1f8f243c85f0023dcf30a77a626a1885076cbcc5e268129f6e1f978713df3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_global\\/root_js_lang_2\\.js\\.c5e62db6b2c0fefcee12279a014b8857\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5098b05ad300203ce2615f08f4844f0b018375d6d3b77ce39034486f7c88356c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_global\\/root_framework\\.js\\.c2d595ab98a453e00e6e10be6c6bf090\\.js\\.gz",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Notification.permission": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c8cfbe11dfe6ba94860bf0fa9eb3e65a9507c629a48cf258c035dd21e3909598"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ips4_ipsTimezone": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "ips4_hasJS": {
+                    "ttl": 86403,
+                    "length": 4,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_core\\/global_global_core\\.js\\.17aede6da2170779e7935152c510586a\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c451e968e926da4739ed2dd2a66a18f7b7c072235da7db7bce15a8ddb7acfaf8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_global\\/root_front\\.js\\.ecfc3f326c110a91bd19a886240ed126\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "463fa9c211b4920c9dc491aad55246444eb6f794788bcc328e099d1a741f5a68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_global\\/root_map\\.js\\.5ad8ec8d53932c0beb94fee804d8d341\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6279465d3975a35112a2938511c85b3d177a44537bc7bf2acdb817b1becaa29b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/fira-sans\\/woff2\\/FiraSans-Book\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fonts"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "9baa7589c545a771ae52e5dcc987596188984a0417915fffee5f47d3215899fc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl",
+                "parenting.pl",
+                "portal.abczdrowie.pl",
+                "pytania.abczdrowie.pl",
+                "zywienie.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/abczdrowie-forum\\/javascript_core\\/front_front_widgets\\.js\\.d5ea4cc3e1980af67de312598d3f6dc0\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6be7316f5723aa38095a52b175efa8e9048345ff88227c7e806971dc888afe3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abczdrowie.pl",
+                "forum.abczdrowie.pl"
             ]
         },
         {
             "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-lite\\.js",
-            "cookies": 0.0000207,
+            "cookies": 0.0000203,
             "fingerprinting": 2,
             "subdomains": [
                 "std"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "Document.cookie getter": 3,
                 "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "window.innerHeight": 3,
                 "Screen.prototype.availWidth": 3,
                 "Screen.prototype.availHeight": 3,
+                "window.innerWidth": 3,
                 "Date.prototype.getTime": 3
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "879f8645b4bd670d33736f32832746f75d08b5c4b4183650ff3fa4130a3bbff1"
+                "260c23336545f9d0c404c93f3648d6253b07730e4246fe00b0ee885ca5db6df2"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "PWA_adbd": {
-                    "ttl": 33696003,
+                "_X_": {
+                    "ttl": -1660995220,
                     "length": 1,
-                    "prevalence": 0.000020706220148532618,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 0.3333333333333333
                 },
-                "WPdp": {
-                    "ttl": 33696006,
-                    "length": 279,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "WPtcs2": {
-                    "ttl": 33696006,
-                    "length": 233,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "statid": {
+                "WPabs": {
                     "ttl": 33696003,
-                    "length": 53,
-                    "prevalence": 0.000006902073382844206,
+                    "length": 6,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                },
+                "WPdp": {
+                    "ttl": 33696013,
+                    "length": 279,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 }
             },
@@ -940,10 +1455,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5cac2ed23a33c784a5fb20cdbca8a0718b820b29f7044a7a494b6cb9372784f9"
+                "8f5e6a4f855cba8656113a370020b8f8b70ed7cbc4090871a6c54ff2227b65c7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -954,159 +1469,54 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/wpjslib\\/wpjslib-ecad\\.js",
-            "cookies": 0.0000207,
-            "fingerprinting": 2,
-            "subdomains": [
-                "std"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie setter": 3,
-                "Document.cookie getter": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.connection": 3,
-                "Screen.prototype.availWidth": 3,
-                "Screen.prototype.availHeight": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "6787f3dd05b929dc25a4e72c92eb8f4b333b4b566129b303cd1505f8a49af4cd"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "_X_": {
-                    "ttl": -1633186260,
-                    "length": 1,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
-                },
-                "WPabs": {
-                    "ttl": 33696002,
-                    "length": 6,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "PWA_adbd": {
-                    "ttl": 33696002,
-                    "length": 1,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
-                },
-                "WPdp": {
-                    "ttl": 33696003,
-                    "length": 279,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "WPtcs2": {
-                    "ttl": 33696003,
-                    "length": 233,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "statid": {
-                    "ttl": 33696002,
-                    "length": 53,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nocowanie.pl",
-                "mapa.nocowanie.pl",
-                "www.nocowanie.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/wpjslib6\\/wpjslib-ecad\\.js",
-            "cookies": 0.0000276,
-            "fingerprinting": 2,
-            "subdomains": [
-                "std"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Document.cookie setter": 4,
-                "Document.cookie getter": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.connection": 4,
-                "Screen.prototype.availWidth": 1,
-                "Screen.prototype.availHeight": 1,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "edaae4860a01456513db31d1137d23769ed248c42847eada101137f473dc6e9a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "_X_": {
-                    "ttl": -1633219854,
-                    "length": 1,
-                    "prevalence": 0.000027608293531376825,
-                    "uniqueness": 0.25
-                },
-                "WPabs": {
-                    "ttl": 33696001,
-                    "length": 6,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                },
-                "PWA_adbd": {
-                    "ttl": 33696002,
-                    "length": 1,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                },
-                "WPdp": {
-                    "ttl": 33696004,
-                    "length": 279,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                },
-                "WPtcs2": {
-                    "ttl": 33696004,
-                    "length": 233,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nocowanie.pl",
-                "mapa.nocowanie.pl",
-                "www.homebook.pl",
-                "www.nocowanie.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/fira-sans\\/woff2\\/FiraSans-Book\\.woff2",
+            "rule": "wpcdn\\.pl\\/playfair-display\\/woff2\\/PlayfairDisplay-Regular\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "fonts"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "11217bb50b9a9b2d68c3580682380747fe5b6bd9dcf10ac2e7c927aedf68ed6f"
+                "38f313f4dd79b96e9de77a27ca844802dff1ece00f5085f99367511aee8b65e7"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "wp.pl",
+                "kobieta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/onelogin\\/olwidget-pkce\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "onelogin"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "02813dc79b2fc78a6f24d92aa886745c7f5d8356417802cd51c7560d4fdb94bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wp.pl",
+                "kobieta.wp.pl",
                 "parenting.pl",
                 "portal.abczdrowie.pl",
-                "pytania.abczdrowie.pl",
+                "wiadomosci.wp.pl",
                 "zywienie.abczdrowie.pl"
             ]
         },
@@ -1119,10 +1529,10 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "e009c2e46e5faa39da1a8d355aeb64081932022ce66187407009c85fcdb1c0a5"
+                "f737bd2032816be555b62ca9d844a8a5d1317566ffcb6fa0c7dbcb1066c1e3c1"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1143,10 +1553,10 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "50c29060a551de2d04f1bd71c276322b36a747db85a9642b5c112807ce9cf1c5"
+                "8a2fe47c310643c59116c867e23458caa663693ae6d3e9753794785dce99fb6b"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1167,10 +1577,10 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "c767fc72023d82c8241e99eac92ba4f3e7d3232986cf5ede3e7b13f5e5fb4936"
+                "523c34f40d705847bc5e54d2acc890d810cc7bb719c87dff694aeab3ed33cf84"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1183,24 +1593,20 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/onelogin\\/olwidget-pkce\\.es6\\.js",
+            "rule": "wpcdn\\.pl\\/abczdrowie\\/icons\\.woff2",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "onelogin"
+                "fonts"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 3,
-                "window.localStorage": 3
-            },
+            "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "26b9bdc68013ff39cab7c4329bd11fd1724c77d715f9f5fc2eac8369f76c3979"
+                "b5c414280f95644623698657159b42da133fe7327c7e2841c35329bb15212952"
             ],
-            "type": "Script",
+            "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -1210,26 +1616,322 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/abczdrowie\\/icons\\.woff2",
+            "rule": "wpcdn\\.pl\\/reports\\/prod\\/acquisition_bar_home_narrow\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "fonts"
+                "portal-parenting",
+                "portal-abczdrowie"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "03314f1e0bc4205d84f50333fad267cdc6c7182cb0ba6a527e0103a342fb80a6"
+                "cc43fd2de6d0f1fd47775d3d25b1eb2ca733232ecf1a7f5745a96881847a5d51"
             ],
-            "type": "Font",
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "parenting.pl",
-                "portal.abczdrowie.pl",
-                "zywienie.abczdrowie.pl"
+                "portal.abczdrowie.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/770\\.7994c7ef706b468ac0f9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c55e575e89846edf03473c49aafeb9ce28708b108be36420acce3079d4e12dc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/895\\.ce69a6704df7ec8b09f1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "75e0ff0cfb458598ee15d88f12628c91f26ddf8bda605bd51d8bf6221bfce37d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/634\\.7a5d5e6421dabdfce9b7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1f041711a9ca94f2d3422b793c482069f7444b4509fe9623db392908684c715d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/webpack-85d499874d93dd463b3d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "babca4a7de7973ebd2864a1e857e8afcaaafc5f4eaed673ea6a1ed76119d4f01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/framework-717d42ae9e172961f2a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "c0118ea216055b10feb8fa1a66e90d1a11dc2422ef9d35669fa3be13a6730631"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/main-4144248eb21a76ea1b7c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "234cb3d08ac1346fa8da1d15563b4d083a0a22722c4f1e1399087eb7562fb446"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/pages\\/_app-c156c2b76387075f49cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "ab1080d9424206cdc7ba125c1254eea5edb9e3acaaf9e5960d4939a73e5f1c60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/50-aff701d510ee627ddcfb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "270d73b4ee730e29670cd8863c9588c0d667bd62bf5e22769f7a7aa8fc3bbe12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/295-27908b8efdb38b9436f1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e80c61b456ff67618b7a6a1e723548b372c5f74bebc524a9e8d178ec3565a940"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/pages\\/index-a422dbdb7b828213a3ca\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "33f9cdc944f72db0ab431c1d84c7baae65fbf9af40eaca226f9a0461fcbc6c3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/FZ2SvI3UGKBqLRhwxk1gu\\/_buildManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3d1c1b006816ab76c72bd68a9050ab8ab4b1020c03e2eaa9b13d9709578cb792"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/FZ2SvI3UGKBqLRhwxk1gu\\/_ssgManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/images\\/o2\\/poczta-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eed3f29a051f9825de475698129e804f5aba545a06ed17ff6ee28c25b74bf81c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl"
             ]
         },
         {
@@ -1240,45 +1942,154 @@
                 "onelogin"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Document.cookie getter": 4
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "475d451e4ded165d6a2051b30a576ca1166ae98ac3d6bdc45c12ae5d07f4ff81"
+                "f2961c5df76239addb251b73fb604d690ad37e85366accd9396f574e10b9142f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2.pl",
+                "poczta.o2.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/605\\.2c879aacdaa4032b9bfe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2995c2b21edef0dabb907295390956e058138483f0918a38b94453a43fecc4fa"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "wp.pl",
-                "poczta.wp.pl",
-                "poczta.o2.pl",
-                "www.poczta.o2.pl"
+                "poczta.wp.pl"
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/abczdrowie\\/0320\\/icons\\.woff2",
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/799\\.6d0586ec387e3864bfe0\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "fonts"
+                "pocztanh"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "03314f1e0bc4205d84f50333fad267cdc6c7182cb0ba6a527e0103a342fb80a6"
+                "122f42ebed89748cc98ff5364566ba2bcd642093bf7ed3229ddc217c260fd0e2"
             ],
-            "type": "Font",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "abczdrowie.pl",
-                "pytania.abczdrowie.pl"
+                "wp.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/chunks\\/781\\.9601b4decced69b37670\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4ac8fb193491e290a6a676ab09420758f47ca458c3876780c196923cccf52fc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wp.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/UbuioneLjXmO3nZND5kB3\\/_buildManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3d1c1b006816ab76c72bd68a9050ab8ab4b1020c03e2eaa9b13d9709578cb792"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wp.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/_next\\/static\\/UbuioneLjXmO3nZND5kB3\\/_ssgManifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wp.pl",
+                "poczta.wp.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/pocztanh\\/uil\\/v4\\.26\\.0\\/svg\\/wp\\/poczta-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pocztanh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c15d348135f401262aae405899af313dcf8cfc5d870038c42fc1da82446cc3c6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wp.pl",
+                "poczta.wp.pl"
             ]
         },
         {
@@ -1289,17 +2100,18 @@
                 "fonts"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "7134987e37934d17a5b351e3f0af4a2b500061ed3e5da234c74e5f83aa7375fa"
+                "4c9318ae49405c1739ad3463898969031cf905a0ab492ca9bf47658067b72cc8"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "wp.pl",
+                "pogoda.wp.pl",
                 "sportowefakty.wp.pl",
                 "wiadomosci.wp.pl",
                 "www.wp.pl"
@@ -1314,10 +2126,10 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "200cc35f2a32c2c915db346c9363d68e2d45001fb4073151a4a7850d8fb130f0"
+                "1d914fd728aa612bed2080b35a4455b116dbaadc60c6aac1ef97bd8981bd90c1"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1330,29 +2142,25 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/onelogin\\/olwidget\\.es6\\.js",
+            "rule": "wpcdn\\.pl\\/abczdrowie\\/0320\\/icons\\.woff2",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "onelogin"
+                "fonts"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 2,
-                "window.localStorage": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9019da041bc274b5b02ac335f5235bfba570e8d474285984dd9a6e17e86de43e"
+                "b5c414280f95644623698657159b42da133fe7327c7e2841c35329bb15212952"
             ],
-            "type": "Script",
+            "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "wp.pl",
-                "wiadomosci.wp.pl"
+                "abczdrowie.pl",
+                "pytania.abczdrowie.pl"
             ]
         },
         {
@@ -1364,10 +2172,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e1bcdd8f749606c4538a34cd1d0f34ceb903ee808a70c7cd93daf2db9370e4e3"
+                "ea80078ed91158920475b1dc0f05393505bc4dfb02f101c399d27e43d7e15b77"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1378,7 +2186,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/css\\/__main\\/style\\.css",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/style\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1386,10 +2194,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "25f84b9b264db7134676d8bc5dbb0c40d96a98a91052ae283f3bc20baee75142"
+                "8001097bd0547b5ecb8a4c2dd0a9e06768af5cd75401679da537b6575838b3a3"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1400,7 +2208,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/css\\/__main\\/screen-and-min-width-992px\\.css",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/screen-and-min-width-400px\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1408,10 +2216,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f970bd66f6637e724636365eea428c97480f2a959819cac8a192f0367c370f79"
+                "aed5d4f179ccc857c3561baadc51451c3eead6879c9dc7b243d17af368100a87"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1422,7 +2230,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/css\\/__main\\/screen-and-min-width-1200px\\.css",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/screen-and-min-width-576px\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1430,7 +2238,73 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7a9c01a97e8d9392bdea10457b95b74b6faa8d430d794ca7437b97c620eeb772"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extradom.pl",
+                "www.extradom.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/screen-and-min-width-768px\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "extradom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "98af6d9480c4892f2b82a0847bf35baaa355038cd139b570459f799efcba8430"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extradom.pl",
+                "www.extradom.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/screen-and-min-width-992px\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "extradom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3258a676022b6c1957ea05a5d36498aba6d3bff14ffe9fe000c9f8990a0d84d7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extradom.pl",
+                "www.extradom.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/screen-and-min-width-1200px\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "extradom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "75c4c29af5c20c701e4edb124997b8bb62f924535a79e28425b38b13c71ae02a"
@@ -1444,7 +2318,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/css\\/__main\\/screen-and-min-width-1280px\\.css",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/css\\/__main\\/screen-and-min-width-1280px\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1452,10 +2326,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1d3f4a5a2b075ce52be3724eafec404c0333f1c092f4089dc7c693d7f854a6cb"
+                "b52b626e07eeb94dc275500ef7eab05ffc94fda63cdb084ffafb41f3acb33bc8"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -1466,7 +2340,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/js\\/main\\.js",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/js\\/main\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -1474,13 +2348,16 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "96f20b867ce2527da644d1cce279b877c92808930c3a95a1dbf98e9d9a42658f"
+                "d5a61316fba15a5724ac767bf37e225f0bf2b41186fdd1fe339157c7626b719f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1491,7 +2368,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/logo\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/logo-urodzinowe\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1499,10 +2376,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7ebd5c1278012924b8a787f6c3638713324f4b1ee2d83b34ebfce7978d94c6ac"
+                "874a7ba9a73c5bfe2a9ed435c3057177fb3dc8d54cdb94d5f4b270e52eaf9244"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1513,7 +2390,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/search-icon\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/search-icon\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1521,7 +2398,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "346215c5256ef9c35c7ed1e50f13355ad66798dd06da8ca378fc3a9f31213769"
@@ -1535,7 +2412,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/back\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/back\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1543,7 +2420,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "721fc7ed3ae7672ebccd752204a72e7533423c1e88817c98436bb9a8fb7117c0"
@@ -1557,7 +2434,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/magnifier\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/magnifier\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1565,7 +2442,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "8c4558dc3f6fe198b2f3d9373495a6bb8775b4133f8ffe1688b7a317f3da2446"
@@ -1579,7 +2456,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/cart\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/cart\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1587,7 +2464,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "23675e4ea4bcf04bd56633eb68a469b0a501ba7b0182dc67bc109a60860bebdf"
@@ -1601,7 +2478,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/user\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/avatar-new\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1609,10 +2486,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6b6caa5cb9a6b8b98887cf10e1676517c888bec94daba55fca567817b98f2528"
+                "8fc3d46c8e66ad270e5f5162c87fe7f470d21a6182e06dae9a3270772e58dcb6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1623,7 +2500,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/fonts\\/nunito\\/NunitoSans-Regular\\.woff2",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/fonts\\/nunito\\/NunitoSans-Regular\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1631,10 +2508,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3fa7109bca690385a1c0160b63e38577389c71d79d014a06c885f7807de6ee7c"
+                "ad82cfb3eb8446edddeb59339f31c7fa6e9f775c3d016921160e88516716efa6"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1645,7 +2522,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/fonts\\/nunito\\/NunitoSans-Bold\\.woff2",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/fonts\\/nunito\\/NunitoSans-ExtraBold\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1653,10 +2530,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7587a917a4e316650b5bf5b2a0a50e40187b630feac6a4094d16d7f0d5bf5f4b"
+                "771f9910bd8afe10014985631e92960a4b5bbc534ded9bfdfe6658baae4f2c1e"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1667,7 +2544,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/fonts\\/nunito\\/NunitoSans-ExtraBold\\.woff2",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/fonts\\/nunito\\/NunitoSans-SemiBold\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1675,10 +2552,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b6aa43d85339e1d6cfb19038b8ae9a0a14acb4850d37321a0ad811b19d871afa"
+                "4435ee56656ebd02885703b0c7be38b22bdaba72e3ed5e60854eff4c435a9df3"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1689,7 +2566,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/fonts\\/nunito\\/NunitoSans-SemiBold\\.woff2",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/fonts\\/nunito\\/NunitoSans-Bold\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1697,10 +2574,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "317f082317f27374e8529364e68c1400277c094b29870b6efcaa7932b0f5daf7"
+                "b43b9d29033fb7d9b6299f76286ee15c504f9b12cdea388c1310ce093c3a2cac"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -1711,7 +2588,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/help\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/help\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1719,7 +2596,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "615ab278c54bde88c82a2e73ad31164c2c35cd0efec724805b59575782d54f5b"
@@ -1733,7 +2610,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/heart\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/heart\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1741,7 +2618,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "45bfd58b7690cdffb0e9c20528b49279b4810dbd2a67c58f4de355cc401390f1"
@@ -1755,7 +2632,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/cart\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/cart\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1763,7 +2640,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "6d267a084bd4b6eefeb0f524c655906abf1b05522d3823fc58595743b2c1d287"
@@ -1777,7 +2654,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/dom\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/dom\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1785,7 +2662,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "3a6eace28ddb1f8e8c4701cd694a3915da3b75ef8fd72b79d7311de905f59fce"
@@ -1799,7 +2676,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/garaz\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/ready-houses\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1807,7 +2684,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "77fee2fbef54cd545ebbe5aeaa3dde1e951d7182d8d01e6696cbb0ef9561e7f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extradom.pl",
+                "www.extradom.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/garaz\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "extradom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "2740c13ab9d4b2d354be0229876cc879982cda0d6140d0ce085eddf0c7fd5cc9"
@@ -1821,7 +2720,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/inny\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/inny\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1829,7 +2728,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "0879010c1a7da29da6ab64876a19b2f2f8d883eeea67e7ce9b96dff9c1d7c4a4"
@@ -1843,7 +2742,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/zuraw\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/zuraw\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1851,7 +2750,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "a62ef37f9ae890c4cbf71ddaf08fc1fcfb3cc654fee4fded164c7eb8a0e7abd4"
@@ -1865,7 +2764,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/tag-promotion\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/artykuly\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1873,29 +2772,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "52ab2112f51c6420eb31253b0bd39f9b69a5b420d3386ddf1d1d648774241a30"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "extradom.pl",
-                "www.extradom.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/artykuly\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "extradom"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "a31a80a8cfb910db9e976f60c2732aaaa417b60f728e4417a476c355b271d95d"
@@ -1909,7 +2786,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/tools\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/tools\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1917,7 +2794,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "fdd21d379a45679c92c2dfc89a779678f25bd1e626df88577bd7b0b1ba369872"
@@ -1931,7 +2808,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/users\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/users\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1939,7 +2816,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "8f99979f294c144da6c427915bef0c4faa2f9f143a832ea59cb2f0860bb34fe5"
@@ -1953,7 +2830,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/kondygnacje\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/kondygnacje\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1961,7 +2838,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "5a367fc89d9c485d29733a83ec67d3b3b13b4b4dd98b7653026c08888e07f342"
@@ -1975,7 +2852,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/house\\/parterowy\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/house\\/parterowy\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -1983,10 +2860,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6dfe65d32923989e41a0e48bb6c8984dea6d4cc684c9d88c3365038527645965"
+                "f2dd8ee3ecf9bb811a72e1bef5588e6daf6e0b70f2708ea186f6109e30100ed1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -1997,7 +2874,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/house\\/poddasze-uzytkowe\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/house\\/poddasze-uzytkowe\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2005,10 +2882,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6ab639cd5ceff4baf82963258683125bc00c363c3e22127cd692aa77122c1f44"
+                "ed85bbd76a30a70907b3354859e1326d415277d7e5017fddd36a7a59b8163058"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2019,7 +2896,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/house\\/poddasze-do-adaptacji\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/house\\/poddasze-do-adaptacji\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2027,10 +2904,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "46111e65ba79c4c3eb144976e12f843d994e1326c14c93862636bc0fc783c76a"
+                "aa6cc1d950734820953f0751a7b3c4fa8994633866cd8761d76a11d5841d780f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2041,7 +2918,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/house\\/pietrowy\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/house\\/pietrowy\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2049,10 +2926,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9b94f2a6f0779815056c882f7f895f2cff0b6fad6c7fda619cc5fbc9a11d6a26"
+                "abe95eea80d365acd7b6bcf5a895b805553205942cd56040276a1cbc9bf11b99"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2063,7 +2940,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/powierzchnia\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/powierzchnia\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2071,7 +2948,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "6143b276cdb5afa0515dcf03d8c298829f2d4c2bc1d661bb5cf52e833f4f6849"
@@ -2085,7 +2962,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/garaz\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/garaz\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2093,7 +2970,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "43b8ce662a0f89323899c98424a7e429df57a2afc34dd4d3aee5d8e258f1df51"
@@ -2107,7 +2984,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/dach\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/dach\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2115,7 +2992,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d28c5fdc394224b6f52589c25132f0ac7f13d7ff86eba5dff635c7c3b0b73750"
@@ -2129,7 +3006,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/konstrukcja\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/konstrukcja\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2137,7 +3014,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "0a3b37c70adecc017bec2e2e1ef9545557f91ebd2f0caee37faa499874bc5733"
@@ -2151,7 +3028,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/styl\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/styl\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2159,7 +3036,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b288bf4dd7a12b23691603b2d33f4ec87ad424e39d762c1f6c59a0e10dfcbcf4"
@@ -2173,7 +3050,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/zabudowa\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/zabudowa\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2181,7 +3058,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "f995ea6bf8e4c65bc31c50255387f2d75e0a819f4eaa557cc2b9866480de7365"
@@ -2195,7 +3072,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/energooszczednosc\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/energooszczednosc\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2203,7 +3080,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "8357e86f913ab3825c9028481817e25f60c4e6ab7144f5969ae22e74005d38c5"
@@ -2217,7 +3094,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/dodatkowe\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/dodatkowe\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2225,7 +3102,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "ef4f6c2e429ab0cbdfd4e1056c5f91de9148e1d43e39638b14e42894a37c063f"
@@ -2239,7 +3116,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/najnowsze\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/najnowsze\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2247,7 +3124,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "00ebc728ddbdc2c31c2bb9d1f9238b52afc5eee031ca68338e567c6743922bc7"
@@ -2261,7 +3138,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/popularne\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/popularne\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2269,7 +3146,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "1cd4fe186dea14fc88c141bb7c389de06e64ac801c71156e66230e9944c8c086"
@@ -2283,7 +3160,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/tanie-w-budowie\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/tanie-w-budowie\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2291,7 +3168,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "453ef2b15ca55af8e99d3fc3886cd38eca68bb442d4afb9addffc3cca42cd704"
@@ -2305,7 +3182,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/promocja\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/promocja\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2313,7 +3190,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e8d2a359e55ff06cae010796032267436ca0e592deb41ae017ded77af67687f5"
@@ -2327,7 +3204,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/hiacynt\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/hiacynt\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2335,10 +3212,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "03c42b33b6c9fa3dc4dbfbdb03d4fea902db570d7d883fd851491baf42de15f6"
+                "4c1906592c11e4cabe75f28262d8e650a438cc1089e45ffa50d716543805b270"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2349,7 +3226,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/stanowiska\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/stanowiska\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2357,7 +3234,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "a5fb21d7c95b2c4708631929e0eaf25025267d9dc4a2f581b189d60ce165db92"
@@ -2371,7 +3248,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/garage\\/jednostanowiskowe\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/garage\\/jednostanowiskowe\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2379,10 +3256,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e9118d1171c069a9ed3be57fa7768858fb8f1e6a3f0aebe81fa3ace7d15c5e18"
+                "ab9c3cacb91e66aec96379b9e66960986abfcd5add752a00336e67f9475c4b7e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2393,7 +3270,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/garage\\/dwustanowiskowe\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/garage\\/dwustanowiskowe\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2401,10 +3278,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ccdaac609f611c2710b8f4c49195f156a3c8369208d2a223369dc7f9b46f02d2"
+                "e93b475f5077782ed67c1cd05a353a728422f5e3681885d51f3149288e37fd06"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2415,7 +3292,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/garage\\/wielostanowiskowe\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/garage\\/wielostanowiskowe\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2423,10 +3300,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d5923bdae7901c92e5618e20cf73f694b6b1cbad81649b3aa2eda383cabe153a"
+                "229479f6d132c00c48a5f40ef56abe1ae573f5c867fadd04f1794d1a6083c937"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2437,7 +3314,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/typ\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/typ\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2445,29 +3322,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "0bc6634433a158c96de67a95801ed51b8a6fce411b7daaac02e4a01115740996"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "extradom.pl",
-                "www.extradom.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/gospodarcze\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "extradom"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "0bc6634433a158c96de67a95801ed51b8a6fce411b7daaac02e4a01115740996"
@@ -2481,7 +3336,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/other\\/gospodarczy\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/gospodarcze\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2489,10 +3344,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d70cc4f2e237525e05dbc1320ab93f3089dd96edc6292b9d2840f0e9e13b1d39"
+                "0bc6634433a158c96de67a95801ed51b8a6fce411b7daaac02e4a01115740996"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2503,7 +3358,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/other\\/gospodarczy-z-garazem\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/other\\/gospodarczy\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2511,10 +3366,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "08ff6bdb302448c9b39e30b96d86fba9f7df0a8932140a318bd2276225f08e60"
+                "ff6395f0f375be5d0ab4764dfc1fc52fcdadfed41633c03b08fbf9bd75c2df32"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2525,7 +3380,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/other\\/gospodarczy-z-poddaszem\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/other\\/gospodarczy-z-garazem\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2533,10 +3388,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "231c6b456aeaead51fbeae789acb9e42a23dd5ec8fa2751796f8f3d05982e3c9"
+                "bf4bda2c6bc0077bc3a1bb89922f746b9339b1592a5a814c44e6f4b714ad3827"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2547,7 +3402,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/other\\/gospodarczy-z-wiata\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/other\\/gospodarczy-z-poddaszem\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2555,10 +3410,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "cf6ded16605a1c56ead586dfd4f2f37ab00bb6f60a847fd6925bc02477303635"
+                "2e41dfde185d2eb1449327c71fad2522b92b62041beddfe12ae7283732bd8c81"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2569,7 +3424,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/rekreacyjne\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/other\\/gospodarczy-z-wiata\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2577,7 +3432,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0674b906db589eb5b678919742f69c1cca8ff547427acf13a0bcc41c7c115339"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extradom.pl",
+                "www.extradom.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/rekreacyjne\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "extradom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "6215525f74a0cd685cfaedb821d238efd0e9d95d3df4ee9f86e34fc5fa091a22"
@@ -2591,7 +3468,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/uslugowe\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/uslugowe\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2599,7 +3476,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "70f8c56f83e4cf7fc5ccdd8e2aae97dc0f4647316777b836f842079108502bf7"
@@ -2613,7 +3490,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/dla-biznesu\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/dla-biznesu\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2621,7 +3498,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e58c381cace45eb68b92f4b6777458c5ec4b937b5600ed307c57a5a70fd38fbb"
@@ -2635,7 +3512,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/rolnicze\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/rolnicze\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2643,7 +3520,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "db50d5830bfdcafd5080684e003ae8d51fd89b6ce6ca73aa5706f8a29fe2de1f"
@@ -2657,7 +3534,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/etap1\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/etap1\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2665,7 +3542,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "48a646cb6a08b1fc9e84d27c128fdbe927e06b1e9098cf6afdb3c40ea1bc22da"
@@ -2679,7 +3556,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/article\\/analiza-mpzp\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/article\\/analiza-mpzp\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2687,10 +3564,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "580df250cf8c9d6112405a876c7894362f12516eb4d659f585e603f92d1600cc"
+                "be992d736def851337a499e63ea80212fb80b0e305eaa5e4d734f89b28a09603"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2701,7 +3578,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/article\\/warunki-zabudowy\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/article\\/warunki-zabudowy\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2709,10 +3586,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1313935100b1ef01c72d8a517f9c6cdb6e627cb993a00098081a28892cedf44d"
+                "bbe05c1f2b90fbd99f9a5904972b660653f80526b1e99ef957a98b6224be71f0"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2723,7 +3600,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/article\\/mapa-ewidencyjna\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/article\\/mapa-ewidencyjna\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2731,10 +3608,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c0bd0a51e3745e32b31e0fcf225c4f5928f6c83bd0cb91bc8364460101d9c288"
+                "7f44be2b36b5b7d1b806d6128443e0ceb61f45e6b1117fd2c33570a4f8efce0e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2745,7 +3622,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/article\\/domy-modulowe\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/article\\/domy-modulowe\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2753,10 +3630,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9bca2c6833e3dd44761def0498e56f56950f89ed3b0c248836bb580e86ef9b3a"
+                "bdb785ee3a39565b15e153dfe00d24a3d7a52a0cc88d6b16af270c657e39f4c6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2767,7 +3644,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/img\\/menu\\/article\\/dom-pasywny\\.jpg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/img\\/menu\\/article\\/dom-pasywny\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2775,10 +3652,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9f14ba95d0d79332ddccd0680291f96ba8e4e4e28b108705bbc42881cb8a5a10"
+                "6246d8619f4f0bd10e37b91ccfa6bb0b953e5f3d948157998c4996de9162ac8b"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -2789,7 +3666,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/etap2\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/etap2\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2797,7 +3674,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "0906cdae8fe431f42da6f20afa391583ac1e7fb8c92e63cee4047ccbf3cbe4cb"
@@ -2811,7 +3688,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/etap3\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/etap3\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2819,7 +3696,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "856cd4d808013220e32387f870daee84b508ce76079883532e57273724e21aeb"
@@ -2833,7 +3710,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/etap4\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/etap4\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2841,7 +3718,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "64a73dadc4004c43f2901f33c78ebb0ac45b040981b1c1b74af6e3b6efef2588"
@@ -2855,7 +3732,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/przepisy-i-formalnosci\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/przepisy-i-formalnosci\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2863,7 +3740,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "a9a5855fbe9811774e6ee3fb84e859528d9f7411222e9772145c213451aa73da"
@@ -2877,7 +3754,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/red\\/finanse-i-koszty\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/red\\/finanse-i-koszty\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2885,7 +3762,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e4e659c9ce32c18320e87db6dbb3922471bb22a2f2a4a937345ab53c6e9c8f67"
@@ -2899,7 +3776,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/idesigner\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/idesigner\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2907,7 +3784,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "0ac30e50b99949d7517858d32200194f338692505862fc6c7c55aca09f621be8"
@@ -2921,7 +3798,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/kreator3d\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/kreator3d\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2929,7 +3806,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "3b324eb48073f5efcd6cbe4fa20e1a0731c293ce9addc0cc5ca6b7545b903f64"
@@ -2943,7 +3820,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/analiza-dzialki\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/analiza-dzialki\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2951,7 +3828,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d5a4990d15f935084b02bdab3f3b2ca02488d59ac2cdd9a7419f425c0324bdd9"
@@ -2965,7 +3842,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/mapa-budowy\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/mapa-budowy\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2973,7 +3850,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "4d6b3b41c12946a4a51c500c2ee27ab0a5245b5e8fb0b24e0c249431a7302de3"
@@ -2987,7 +3864,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/login\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/login\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -2995,7 +3872,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c339891b1cec15be6648e6f1e5a1951df001dc04e1fdaf7328bbfb7edf4cfe8b"
@@ -3009,7 +3886,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/powiadomienia\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/phone\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3017,73 +3894,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "48a09f19b49c82dfaea6b05fcf7f7650424224c429f3110a625ee9a4f1677744"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "extradom.pl",
-                "www.extradom.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/poczta\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "extradom"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "c32d39c36c3cedf0d1a2dcbf61ec1102d72454397d1ade75a6be02d2d612e20b"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "extradom.pl",
-                "www.extradom.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/ustawienia\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "extradom"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e10a762180201a95789652d6ff81495ef988b4a52f0452f3d2369e371d372f48"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "extradom.pl",
-                "www.extradom.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/phone\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "extradom"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "a5edf1087ca1382fb4cdacf194f1bbf86c8eacf7da5631f222743a5d836b2ef3"
@@ -3097,7 +3908,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/chat\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/chat\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3105,7 +3916,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c85f68f6fb57f0eabe182b537b09c87021b7788ed98a4553a1cd87482655ac61"
@@ -3119,7 +3930,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/images\\/svg\\/menu\\/mail\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/2a32e86\\/images\\/svg\\/menu\\/mail\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3127,34 +3938,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b747079886bbc4c045571b58428878e2d7f2684ee4c93e42aef45ac2111c203d"
             ],
             "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "extradom.pl",
-                "www.extradom.pl"
-            ]
-        },
-        {
-            "rule": "wpcdn\\.pl\\/assets\\/65c40e3\\/fonts\\/nunito\\/NunitoSans-Light\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "extradom"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "588b5c8caf5c8c24c6a87a2a905e45ca8444f763c5b184dbe3aac06f637534d0"
-            ],
-            "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -3171,7 +3960,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "653b962a3acea462aae566e5aa7f35dd8cf98943e64d2461c2304d7b3833a78c"
@@ -3185,28 +3974,6 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/adv\\/config\\/inline\\/desktop-homebook\\.pl\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "std"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "fb37385032e16d6f05a961d8d71a9de21ad2520f9a6ef078a4eb50218d6c0e65"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "homebook.pl",
-                "www.homebook.pl"
-            ]
-        },
-        {
             "rule": "wpcdn\\.pl\\/merriweather\\/woff2\\/Merriweather-Regular\\.woff2",
             "cookies": 0,
             "fingerprinting": 0,
@@ -3215,9 +3982,11 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "1e698128ad45f4214ce9190e705540cc9e3bdfb3778622edc1fad5e65a9b89bd"
+            ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
@@ -3235,10 +4004,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b38f0a95399b02de439894ceeccf3b78bd87110dabd58f16d52f16543eab6bcd"
+                "74ee3844dad1cf622b225e80f5de1bdfc54eedc162b55d70bac7068d18309e2e"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -3249,29 +4018,60 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/onelogin\\/olwidget\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "wpcdn\\.pl\\/wpjslib\\/wpjslib-ecom\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [
-                "onelogin"
+                "std"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
                 "window.localStorage": 2,
-                "Document.cookie getter": 2
+                "window.innerHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5abb9a3109918c9c8ddfe3d410acaabbfa6c62242829fb47c380f08a529a3ce1"
+                "c14c7822b241359dbe0806f4851fd5efafa9a35574730d80081aab7f52d3fa5c"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_X_": {
+                    "ttl": -1661017027,
+                    "length": 1,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "WPabs": {
+                    "ttl": 33696002,
+                    "length": 6,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                },
+                "statid": {
+                    "ttl": 33696007,
+                    "length": 53,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "WPdp": {
+                    "ttl": 33696008,
+                    "length": 279,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "money.pl",
-                "www.money.pl"
+                "nocowanie.pl",
+                "www.totalmoney.pl"
             ]
         },
         {
@@ -3283,10 +4083,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "304c5ca9e5c60827c0d96a1c08ff3977ab346ecf4e9759c50c03ab62a0ecd3d5"
+                "b1dbb014c2844cbd50c8d531369ee945d9e5045223a6881f425c44856f0cff9f"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -3297,7 +4097,7 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/static\\/icons\\/svg\\/37\\.svg",
+            "rule": "wpcdn\\.pl\\/static\\/icons\\/svg\\/51\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3305,10 +4105,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "585c644b704c46b1227632ae62a71c287a2424d76f62765d9d362e7ab89b83d1"
+                "9f7adbf6637f23ee3c959007c65dc76537c869711579cc400974047c9b859d6f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -3327,7 +4127,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "c8f1e6ba0eb53bdc58b25d9bfe3bf9725688d60cd4f11352e3ab071e8859fc84"
@@ -3342,7 +4142,29 @@
             ]
         },
         {
-            "rule": "wpcdn\\.pl\\/static\\/icons\\/svg\\/51\\.svg",
+            "rule": "wpcdn\\.pl\\/assets\\/prod\\/8fb535d\\/assets\\/app\\/img\\/svg-2\\.0\\/totalmoneyPl\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "totalmoney"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f2cf369f85e2dab7916091871c359ee5cbfa1e83944c74afba88ce8b0d8829f4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "totalmoney.pl",
+                "www.totalmoney.pl"
+            ]
+        },
+        {
+            "rule": "wpcdn\\.pl\\/static\\/icons\\/svg\\/37\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -3350,10 +4172,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9f7adbf6637f23ee3c959007c65dc76537c869711579cc400974047c9b859d6f"
+                "585c644b704c46b1227632ae62a71c287a2424d76f62765d9d362e7ab89b83d1"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -3366,15 +4188,15 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000173,
+    "cookies": 0.000685,
     "types": {
-        "Script": 71,
-        "Font": 90,
-        "Stylesheet": 22,
-        "Image": 167
+        "Script": 175,
+        "Font": 107,
+        "Stylesheet": 44,
+        "Image": 179
     },
     "nameservers": [
-        "ns1.wp.pl",
-        "ns2.wp.pl"
+        "ns2.wp.pl",
+        "ns1.wp.pl"
     ]
 }

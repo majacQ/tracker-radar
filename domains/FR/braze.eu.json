@@ -7,10 +7,11 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
-        "sdk.fra-01"
+        "sdk.fra-01",
+        "sdk.fra-02"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -20,20 +21,29 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "sdk.fra-01"
+                "sdk.fra-01",
+                "sdk.fra-02"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "2984030c6456c7482cca4908cee2dca998be45ba60e91022046ef888b59a3452",
+                "1a37e37c971cb188a6828e115571dc1456301813394978169e75bb078d42f09c",
+                "770aa83a8971d56f2e00db34b208bbdbf5cd74ddf37238e39a064d85a03668f9",
+                "ef2b327eda19b5827244d9db95ef9e6d39bf5e77d609be3a9002beb81a1551d8",
+                "2738fbe3fe2d340ff59d1f7db705a6839a650a4aa7c378ea6d5b16acad44fa63"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "getyourguide.fr",
+                "vestiairecollective.com",
                 "www.getyourguide.fr",
-                "www.ma-reduc.com",
+                "www.kfc.fr",
+                "www.lepermislibre.fr",
+                "www.thefork.com",
                 "yoopies.fr"
             ]
         },
@@ -42,44 +52,23 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "sdk.fra-01"
+                "sdk.fra-01",
+                "sdk.fra-02"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
-            "cnames": [],
-            "responseHashes": [
-                "f4dd1e1b61bb53b2464922e425a65ba39508584b8864cd7ac328b68ed8755638",
-                "2db015e1b1d7d468ed1c7fa49884953fb676a1e3fbf17a80fba4cb7a8effab65",
-                "f1278b83d287282c4b18c091c5fe8f83f1af1708426da86d1714e79b48aaaf3e"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "getyourguide.fr",
-                "www.getyourguide.fr",
-                "www.ma-reduc.com",
-                "yoopies.fr"
-            ]
-        },
-        {
-            "rule": "braze\\.eu\\/api\\/v3\\/content_cards\\/sync",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sdk.fra-01"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "getyourguide.fr",
+                "vestiairecollective.com",
+                "www.getyourguide.fr",
+                "www.kfc.fr",
+                "www.lepermislibre.fr",
+                "www.thefork.com",
                 "yoopies.fr"
             ]
         },
@@ -91,17 +80,43 @@
                 "sdk.fra-01"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "8c886a453e90de8b27d248beac8da2ae49427e81d1b15d8613ac3af0d031b566"
+                "836e2c87d9c7c33be473c6dafe68d6c97e3ac81748d3063de788234c2386804b",
+                "56ed64ba1a0f1af7b481c5ae8ea4124175048757a70b7e2defa1038edf0c8cf1",
+                "b83e4f58de6004a36edd8671bb67dccce847c23f45ee1821d54edfe0e2976a6b"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "getyourguide.fr",
+                "vestiairecollective.com",
+                "www.getyourguide.fr",
+                "www.kfc.fr",
+                "yoopies.fr"
+            ]
+        },
+        {
+            "rule": "braze\\.eu\\/api\\/v3\\/content_cards\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.fra-01"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vestiairecollective.com",
+                "www.getyourguide.fr",
+                "www.kfc.fr",
                 "yoopies.fr"
             ]
         }
@@ -110,8 +125,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 6,
-        "XHR": 6
+        "XHR": 10,
+        "Preflight": 10
     },
     "nameservers": [
         "ns-273.awsdns-34.com",

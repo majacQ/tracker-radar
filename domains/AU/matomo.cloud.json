@@ -4,74 +4,45 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000401,
-    "sites": 4,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
-        "cdn",
-        "reverseads",
-        "grandseikoboutique"
+        "freespoke",
+        "thepirateproxybay",
+        "beanbagsrus",
+        "yubico",
+        "cdn"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "matomo\\.cloud\\/reverseads\\.matomo\\.cloud\\/container_agXv5ReJ\\.js",
-            "cookies": 0.0002,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Date.prototype.getTimezoneOffset": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.platform": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "4882a9054f842fec14cf3ffeebc92f484b21e02ea6f6d29040a01f60fef1fb7b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "swyftx.com",
-                "trade.swyftx.com.au"
-            ]
-        },
-        {
             "rule": "matomo\\.cloud\\/matomo\\.php",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "reverseads",
-                "grandseikoboutique"
+                "freespoke",
+                "thepirateproxybay",
+                "beanbagsrus",
+                "yubico"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                "cc283801a7ccb1ab03daf7095d0c98b5fe7e186e29c7750d9de4c52e6cd84aa1"
+                "9760c934fb755909c57e1b667a397e5f3df51b2b8aeba102ede5df5da6420d5b",
+                "481beea6f83c5c784276df3bfb8693cc60c0ce8ef0a2cb8f47d624e2d6c9b076",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "swyftx.com",
-                "trade.swyftx.com.au",
-                "www.seikowatches.com"
+                "freespoke.com",
+                "proxybay.github.io",
+                "www.beanbagsrus.com.au",
+                "www.yubico.com"
             ]
         },
         {
@@ -79,34 +50,71 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "reverseads"
+                "freespoke",
+                "yubico"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "bed3f931fdbbc5596f42b6faf4e51da885c8b5e956c4a868fdc739ea94e7d2e7"
+                "0f271827198e17635dbaf9d276b552a91a443dc0895eb8e8db55b64a8cb1e2ce"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "swyftx.com",
-                "trade.swyftx.com.au"
+                "freespoke.com",
+                "www.yubico.com"
+            ]
+        },
+        {
+            "rule": "matomo\\.cloud\\/yubico\\.matomo\\.cloud\\/matomo\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee78943e5211791d0bfd66e4ea3f562e07775a1b3efec92c88aac93e48ecdf48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yubico.com",
+                "www.yubico.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000401,
     "types": {
-        "Script": 4,
-        "Other": 3
+        "Ping": 4,
+        "Script": 4
     },
     "nameservers": [
-        "ns-1060.awsdns-04.org",
         "ns-1933.awsdns-49.co.uk",
+        "ns-1060.awsdns-04.org",
         "ns-302.awsdns-37.com",
         "ns-616.awsdns-13.net"
     ]

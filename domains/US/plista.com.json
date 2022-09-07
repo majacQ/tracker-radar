@@ -9,47 +9,69 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.00058,
-    "sites": 84,
+    "prevalence": 0.000508,
+    "sites": 75,
     "subdomains": [
-        "farm-pl",
-        "farm",
-        "static-de",
-        "static",
-        "farm-de",
-        "farm-pt",
         "farm-au",
+        "farm-de",
+        "farm",
+        "farm-pl",
+        "static",
+        "static-de",
+        "static-pt",
+        "static-pl",
+        "static-au",
+        "static-sk",
+        "static-nl",
+        "static-at",
+        "static-ch",
+        "static-tw",
+        "farm-nl",
         "farm-sk",
         "farm-ch",
-        "farm-uk",
         "farm-at",
-        "static-pl",
-        "static-pt",
         "static-se",
-        "static-ru",
-        "static-nl",
-        "static-sk",
-        "static-ch",
-        "static-au",
-        "static-at",
-        "static-tw",
-        "static-uk",
         "media"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "plista\\.com\\/video\\/vast\\/",
-            "cookies": 0.0000138,
+            "rule": "plista\\.com\\/activity2",
+            "cookies": 0.0000271,
             "fingerprinting": 0,
             "subdomains": [
-                "farm-pl",
+                "farm-au",
+                "farm-de",
                 "farm"
             ],
             "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "dcdf6c37f5caf6a54f0c7f2238d669e015901b674c7fc55099acc7fe629db356"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianmade.com.au",
+                "www.freenet.de",
+                "www.mdm.de",
+                "www.weightwatchers.com"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/video\\/vast\\/",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farm-pl"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "51a92d0800cd66f6bf20e50b043d49f2fefa9dc368ae442a57a95e10edbd63bd"
@@ -59,521 +81,462 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bajeczki.org",
-                "demotywatory.pl"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/PLISTA_FLYAD\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static-de",
-                "static"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 6,
-                "Document.cookie getter": 6,
-                "Screen.prototype.width": 6,
-                "Screen.prototype.height": 6
-            },
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [
-                "efeeb0a797c97fa15bf785e4c609443472a1ef5608658a7329d980cd6c458c86",
-                "f53d34ebd249f65365315de48f35cea55e459d587a498da84e6f36e46632e1eb"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mtb-news.de",
-                "bikemarkt.mtb-news.de",
-                "hifi.de",
-                "www.hifi-forum.de",
-                "www.mtb-news.de",
-                "www.myheimat.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async_lib\\.js",
-            "cookies": 0.000269,
-            "fingerprinting": 0,
-            "subdomains": [
-                "farm-de",
-                "farm-pl",
-                "farm-pt",
-                "farm",
-                "farm-au",
-                "farm-sk",
-                "farm-ch",
-                "farm-uk",
-                "farm-at"
-            ],
-            "apis": {},
-            "sites": 44,
-            "prevalence": 0.000304,
-            "cnames": [],
-            "responseHashes": [
-                "e6ef5e15709cf98b8fea8403e1b41a699fe06a909c68e035adab0575188dce75",
-                "ee05827d5505736ec974c858555dcf4720e4b9be0782904b02706675d5191cca",
-                "d2109de781d3992310818a6b446ba91fcfe85f73062ccdd586e8f54c59749258",
-                "a9165acfb4521c023f7db73696002bfae1322ad59c7e9b179d24094a2d36e38e",
-                "f67f6b4c868afa46e7be22235d3940c42f3990a14d582298164e5e5fc1814e85",
-                "e92eacddaa09150a62d82853a51de0feb3becc01fe993812af4b331b9193a853",
-                "a73c1a70aeaf70f7f87d2e27120756f5e63e56e853e6dae2f57913b6e3f2a337",
-                "26921f439f6a7b9cbd078ebe5696ddee920488ae1ec249628de248a868ac92d8",
-                "9800ea115b7dd039a02e75d732cff140815eec679be32937101670ea146182ad",
-                "52d800859158ba03dc7d56a5b8bd9eeee4503e1be38c3583cf7d3bfa59d25b24",
-                "d22d1fbc20933f8e344433a87c85362f1937654ed22ca6a4575f4fc5a34a71c9",
-                "6522e8f23fbc41f55f4f8215011e7ce062e7aaeae1bfed26eb8bb773dadf3583",
-                "7c62708cc63f42999eaa01a3827bf2631a74d26cd669fd868f5f0728beab7b81",
-                "3661b8688daa42921a0aa5cc627ebb018af4ad6a5243b6d45a1f80e1bbd6cce5",
-                "28b47d7c54f1cc4c003f28038643cf053cbeb513ec3a0b0dae44d46b832d3a7c",
-                "869200ce540d0ccfd6b46e02ca57b312f4cc39ad95046940a3e990f349b18e7f",
-                "3d245eaddb05aa4dc1743b5bfe9945beb10e547ab5ba825a4d51779dc3a1d98b",
-                "8ac0233d5c4cec8491df47eaa025ef4a2216e86f527dad7de539d2f368fd2c90",
-                "a325de9ee143a6f9b120fc839ffd7a1a151b8ffa32cf65f5463554e6e5e0eb9e",
-                "40af4effb94b719f5b1f7d426f2c3bf0b80eadf93dffc2b06bd225e79aef8969",
-                "c1bef095803ce7e8bd761d188d09675cc4b0e04499407da22e34e65ec423902d",
-                "669d7b7e1f38d7e43242b772a1668c3819918bafe3661ba8e92272df96beed64",
-                "1d8c0d3119786bd9d79a4f036546c8e53a0af1173422c3b3169349ee4322b1e4",
-                "5953ea29d2972a24ff29432b912530e49565122cdcb978a8cdb4f567fbe69eda",
-                "00eea800b72392b3ec54cdba9b688d5a35e69a37c08db2b37255acce4a6e74ac",
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                "e1722e8c0efa2fa1ff4c1b6393c9068aa115fb5461baa575f5369f8f1203aece",
-                "55d1fe8eb8396e4457da990132c0c6821cf35b2a2924d19dd7f9e3ebe38b8845",
-                "442e23103849efe4eabaf098c17ef7800f7ed23180d9950caf502a8f985703f2",
-                "bbc4c847e7fb592cc296f0d84df5b313c9d82106164d4bdf0a15bfe5c025b953",
-                "80dbe52b713ac8a616c5a396075bf93251912ce71275cc29e5b71c0e64ef8b15",
-                "249c6c99f77661b5979a00effd5491bed629d0a51b16c9294676297fcd949c6d",
-                "1640a6fad051a3e2d2023ed40a6c64e3af9842c101b01f67e76874689741270a",
-                "775adc7c160a82088a7c464cc13e75b402914dc2f69ff2d23e8321151545ee5b",
-                "59b7a324deffc8c306a1c2f668f91b1e8b07988efe67decbdd34b501fb82341d",
-                "063d75475e9ba566c3c3be79c75a72c3bbaad341cdedf4fab12acfeeab899a1d",
-                "805ba8c31a9afa1a8ac01bc7156bf3017cc31fa04745d3f63e9bc02b70d6cb73",
-                "dc8ebff47a75926eda7172a3b298cf307dbbff37134a2126128eab683420f406",
-                "4188c264dd3d9092d29fd862c28f746afaa5819f8c7f2799f1547ea4d7d83c9a",
-                "1d0d9e314849a5a3cb776e52d7ad83027594ef0d151a2588e26c640c4b3012a7"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.moz.de",
-                "www.wissenschaft.de",
-                "www.bluewin.ch",
-                "thelatch.com.au",
-                "www.teneriffa-news.com",
-                "www.gartenbista.de",
-                "www.gps-tour.info",
-                "www.hifi-forum.de",
-                "www.myheimat.de",
-                "www.spektrum.de",
-                "www.aktuality.sk",
-                "stylzycia.radiozet.pl",
-                "wpolityce.pl",
-                "www.pctipp.ch",
-                "www.mmnews.de",
-                "www.apfelpage.de",
-                "www.przyslijprzepis.pl",
-                "www.meinbezirk.at",
-                "gotujmy.pl",
-                "mtb-news.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/min\\/ast,highimpact\\/0\\.11\\.7\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-de",
-                "static"
-            ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.0000828,
-            "cnames": [],
-            "responseHashes": [
-                "2ec1c91bf14406a7a75829fa12550d251c45d5035a37476c32550d999108f11b",
-                "40a8cde11b45a89c7f4970f4ad7ba5db3e5111f1c05402086d082a9d8fe60b73"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mtb-news.de",
-                "bikemarkt.mtb-news.de",
-                "hifi.de",
-                "www.androidkosmos.de",
-                "www.gartenbista.de",
-                "www.gesundheits-fakten.de",
-                "www.hifi-forum.de",
-                "www.mmnews.de",
-                "www.mtb-news.de",
-                "www.myheimat.de",
-                "www.onetz.de",
-                "www.unicum.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/matching\\/pixel\\/",
-            "cookies": 0.000248,
-            "fingerprinting": 0,
-            "subdomains": [
-                "farm-de",
-                "farm-pl",
-                "farm-pt",
-                "farm",
-                "farm-sk"
-            ],
-            "apis": {},
-            "sites": 36,
-            "prevalence": 0.000248,
-            "cnames": [],
-            "responseHashes": [
-                "6a842ea462daca2a0b5a0f5f25bcfc8e0059ac811ca6c6a1bc54e4d9119621c3"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.hifi-forum.de",
-                "www.donnerwetter.de",
-                "www.spektrum.de",
-                "www.gps-tour.info",
-                "mtb-news.de",
-                "gotujmy.pl",
-                "www.apfelpage.de",
-                "www.pnn.de",
-                "hifi.de",
-                "tvrepublika.pl",
-                "www.moz.de",
-                "www.aktuality.sk",
-                "scilogs.spektrum.de",
-                "stylzycia.radiozet.pl",
-                "www.androidkosmos.de",
-                "forsal.pl",
-                "www.pctipp.ch",
-                "bikemarkt.mtb-news.de",
-                "www.przyslijprzepis.pl",
-                "natemat.pl"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static-pl",
-                "static-pt",
-                "static-se",
-                "static-ru",
-                "static-de",
-                "static-nl"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 21,
-                "Document.cookie getter": 18,
-                "Screen.prototype.width": 11,
-                "Screen.prototype.height": 11,
-                "Date.prototype.getTime": 10,
-                "Animation.prototype.currentTime": 1,
-                "Animation.prototype.startTime": 1,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 21,
-            "prevalence": 0.000145,
-            "cnames": [],
-            "responseHashes": [
-                "a7756ffd6ecb0356f7211dea50e52492ae93292a4be364cf4283ec2c723e922a",
-                "3c88ec96437e187eea5ba170e6c0a59de8e74bde4419a8c8818af990b82d2c18",
-                "df483fe55084279fe0b7739bcfbafe02150ece7afa533d19491e70772c00f639",
-                "d1ed76c04c5d1e6951561d335c3a17a6856c6162afa6c6e637ce461e2a08a228",
-                "3d6318572444ba2a3b4f23e82b174d510725f831b63746b6034de37d7e26dece",
-                "975ead8ffb3f27967af3d7b03c112a0b576eda247067208a7b0056eb04a3d486"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.donnerwetter.de",
-                "zdrowie.radiozet.pl",
-                "tvrepublika.pl",
-                "www.androidkosmos.de",
-                "www.fronda.pl",
-                "www.planeta.pl",
-                "www.e-konomista.pt",
-                "www.radiozet.pl",
-                "www.antyradio.pl",
-                "tvrain.ru",
-                "niezalezna.pl",
-                "www.skoften.net",
-                "www.mmnews.de",
-                "www.unicum.de",
-                "www.oberberg-aktuell.de",
-                "forsal.pl",
-                "stylzycia.radiozet.pl",
-                "natemat.pl",
-                "www.spektrum.de",
-                "forum.motorguia.net"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/min\\/txl\\/0\\.11\\.7\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-pl"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "cb8b0372de4b106e1253b3a7386489abe95e64ed5303a6c5f68e1fe0ff8f5a0e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "stylzycia.radiozet.pl",
-                "www.radiozet.pl"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/image\\/adchoices\\/pl\\/13\\/119,119,119\\/0\\/1\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-pl"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
-            "cnames": [],
-            "responseHashes": [
-                "ca4a0d9cd1e97c1ff197ba906a140f97d2bfcaf57ae764ccbf92d97130e77b50"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "forsal.pl",
-                "stylzycia.radiozet.pl",
-                "tvrepublika.pl",
-                "www.antyradio.pl",
-                "www.przyslijprzepis.pl",
-                "www.rmf24.pl",
-                "zdrowie.radiozet.pl"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/image\\/logo_plista_small_AAAAAA\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-pl",
-                "static-pt",
-                "static",
-                "static-sk",
-                "static-ch",
-                "static-de"
-            ],
-            "apis": {},
-            "sites": 22,
-            "prevalence": 0.000152,
-            "cnames": [],
-            "responseHashes": [
-                "22a9b070ac8a7999aa6f980758abb06f5a0777e3b995d3b2bbbf2e94998eeab6",
-                "9e17d0099442499f39e87306e0b2f338dd01075be607b54ca9b0ef61ba7bb851"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "scilogs.spektrum.de",
-                "www.spektrum.de",
-                "www.gps-tour.info",
-                "www.gesundheits-fakten.de",
-                "www.antyradio.pl",
-                "www.moz.de",
-                "www.pctipp.ch",
-                "tvrepublika.pl",
-                "www.bluewin.ch",
-                "forsal.pl",
-                "gotujmy.pl",
-                "www.pnn.de",
-                "www.unicum.de",
-                "www.aktuality.sk",
-                "www.donnerwetter.de",
-                "zdrowie.radiozet.pl",
-                "pedelec-elektro-fahrrad.de",
-                "www.rmf24.pl",
-                "forum.motorguia.net",
-                "stylzycia.radiozet.pl"
+                "joemonster.org"
             ]
         },
         {
             "rule": "plista\\.com\\/async\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
+                "static",
+                "static-de",
                 "static-pt",
                 "static-pl",
-                "static",
                 "static-au",
                 "static-sk",
                 "static-nl",
                 "static-at",
-                "static-de",
+                "static-ch",
                 "static-tw"
             ],
             "apis": {
-                "window.devicePixelRatio": 30,
-                "Document.cookie getter": 28,
+                "window.devicePixelRatio": 28,
+                "Document.cookie getter": 27,
                 "Screen.prototype.width": 18,
                 "Screen.prototype.height": 18,
-                "Date.prototype.getTime": 18,
-                "Navigator.prototype.userAgent": 1
+                "window.innerWidth": 18,
+                "Date.prototype.getTime": 17,
+                "window.innerHeight": 24
             },
-            "sites": 31,
-            "prevalence": 0.000214,
+            "sites": 30,
+            "prevalence": 0.000203,
             "cnames": [],
             "responseHashes": [
-                "d33491effd185deef662c7ec1340729d461cb0d54952156fb86b4e5acab6121c",
-                "a1e5c154dd0d4e201d1a3de1eccea845e911c0abf9f223c26b5dbe03b15f001e",
-                "1318517d045defffe7df09176dfd58df7c1784cd0ae45cb3905856feb6d7fe84",
-                "a3d0f7c45107f6f097378459c64f8c02461a44afe9d787009eb75c709d6ff3df",
-                "27e4f311bf13bcc7a3bd4f44fbe76e2c959bf80126c4a4ace111090170c697ba",
-                "955c6dc8d11ce36f90a8649e55d187c8ae772d4ab1e5808b906be1f54cdc308d",
-                "b0837662244ee886dc232d1051e9cffb8e2b0208257595f0f6d172c29896f2f6",
-                "e808fa4225c9018ed5198540fb6c577335b93aa7bb8fc86dbc5662e1cd9e9b7a"
+                "b8736c93c8abc2b9b7b937c3e38319b521b96f03f19684245e6c012182097773",
+                "1113070c4602ad1a0cfcbb00467516f887849cbfa1685a489bb06df5ce2f7d0c",
+                "a19941bdc88c791e108bbb7144a4b8001899dd1b8ad45268bd5211a6843540b4",
+                "bc0b571d71ebdcb946f9604a04adb204540bf753479fea792d33d790f941e28b",
+                "8cec4b0f3f90243f3acb7dfa8740e904bfab43a6c95d546731a119719b4eece6",
+                "6397c9e1829a174d7998ec779aa0d01a7d3415ef46b8f2ce68209bb4c6107b06",
+                "1e1d6f7fb2b5ac7061161227be864ea31e4a14244c8dfdefe34f52639ef58c99",
+                "ce7db0ead4ef0a05c663915a24672d56c2fbee02c4afacb40f2ace6b8d78ca45",
+                "967a6e74462cc0ccc43bb02cbfb6e2661fbaf7a9121008fd4b12035911373a99"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.onetz.de",
-                "thelatch.com.au",
-                "www.hdsports.org",
-                "www.gesundheits-fakten.de",
-                "www.lekkerensimpel.com",
-                "tvi24.iol.pt",
-                "www.flaironline.nl",
-                "www.taiwannews.com.tw",
-                "www.teneriffa-news.com",
-                "www.przyslijprzepis.pl",
+                "www.flair.nl",
                 "www.moz.de",
+                "www.westfalen-blatt.de",
+                "m.gameswelt.de",
+                "www.telegraaf.nl",
+                "maisfutebol.iol.pt",
+                "susi.at",
+                "www.wissenschaft.de",
+                "www.der-betze-brennt.de",
+                "m.pnn.de",
                 "www.meinbezirk.at",
-                "wpolityce.pl",
-                "www.gartenbista.de",
+                "www.glamour.pl",
+                "www.trendsderzukunft.de",
+                "www.mojegotowanie.pl",
                 "www.rmf24.pl",
-                "gotujmy.pl",
-                "www.volksstimme.de",
-                "motorguia.net",
-                "www.apfelpage.de",
-                "www.wissenschaft.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/PLISTA_OUTSTREAM\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static-pt",
-                "static-uk"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "f8fa531df24b1c39e1125a6228140472fb4b6e240045c152bb87bae2b34e3472",
-                "cda5d4d996e624b6a01aea98112a9954b3cbc718bb4ad16b253d8f21e6f46cb8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "motorguia.net",
-                "forum.motorguia.net",
-                "www.joe.co.uk"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/pub\\/be30fbcedb53b4092f4c286b\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-pt"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "700d78334160ade474355169417f106816edffcd6187e75e42a261891c725f82"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "motorguia.net",
-                "forum.motorguia.net"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/min\\/billboard\\/0\\.11\\.7\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-pl",
-                "static-de"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "44758f43a63b9b81c1defec95362fd8114d203cb05c8d5f9ff907c16b9891140"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gotujmy.pl",
-                "www.rmf24.pl",
-                "www.wissenschaft.de"
+                "ninemsn.com.au",
+                "www.skoften.net",
+                "www.spektrum.de",
+                "www.national-geographic.pl",
+                "demotywatory.pl"
             ]
         },
         {
             "rule": "plista\\.com\\/async_lib\\.js",
-            "cookies": 0.0000276,
+            "cookies": 0.000217,
             "fingerprinting": 0,
             "subdomains": [
+                "farm",
+                "farm-pl",
+                "farm-nl",
                 "farm-de",
-                "farm"
+                "farm-sk",
+                "farm-ch",
+                "farm-at"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 38,
+            "prevalence": 0.000258,
             "cnames": [],
             "responseHashes": [
-                "688e7d126a8eec9a2610cc53d3c067ff9976911cddc643f8792e1ab7566d8237",
-                "54f8707d23e81c3326598c1362ea1d10f710467b8cc1558bd5bb1958f39c4d78"
+                "e92eacddaa09150a62d82853a51de0feb3becc01fe993812af4b331b9193a853",
+                "bcdef3c3cc634d293c497d48594fa0e344d1ed8d89346a3edc1932f82de56261",
+                "7d6e9b7185cf8d46e19749a3ce3574ab44d64e8c374830095209739dcbc345c7",
+                "1b016d6d395e330ee16e4673a283baa59a1d5890c642831afa19bdc022f16f3c",
+                "32c84eb7f50af85c91bb6ac585a045a575e52fe6486587286271d574488d1eb4",
+                "bb968c3c568552b5dc7145b83bf8c0b492951b07a2c9f2ead27044a50bb93ced",
+                "8c9adb560d432e32adde155336cd42c7ab5955e5808a899b47bbbf176b5cbe19",
+                "b35aec47cf5d63dccfaec9f78745082524065e9ca3b15e00b1b1fb23c4f27a02",
+                "61dd74ea994330f3f13a5d850e2ff67a450582bdd8e879ecd58d1e7296b735eb",
+                "816513a231bcef733cfc38683efe7e4462d31e16541e0b390cd18cab65cd3b18",
+                "d5729f765c3883b2482bea1489c08a2d8b2aebcc6436a12b7f68eb792d22bea0",
+                "10b28a449f4aa1adcc84d4f671826e1675e2c825f2f9e82b53a02122074bd174",
+                "4b6942b806af8ddc687323c118a04d112a6d86ba232286664ae6ed8e00b9f76e",
+                "4fcd139c4dae2c955ef175c4b5698b19ccc3e49975445600c74cc1f19c0b8d26",
+                "c6ac095f5471297394894ff40e3fd728f6b34bb03494395c4c0f8596df473cb5",
+                "52440160257fa0ed512424ccedce878c6108410ccb5a84d4b1e0a68a1e187f3a",
+                "59b26329d22223168feff069859fe048e6881544a5ef58908e0ff02ecdf632ea",
+                "086642ccc7ff12b863d6aa547e2f4f3f4fc02ae91f542091632de7e486fbc06d",
+                "353946990f56faf30552cd9b27091db6f03b65cd48a74c8a8a96c89caa8f1102",
+                "d7778f98afb9733a201fa5844504439f516d2b283be6de64cad25a6136378d43",
+                "e9c484643dc10b7bd7ab8345a54ee5d1382b78ed46d5c09d80bede21aaab1e77",
+                "c3d52a2b12b3674f28eeb5f54ff80c29d5cd7a5c0ce82a7c0b6b10fb29bb3e87",
+                "89971a36db4bc2c31eb30018d3f41e54d75111c30ad4897ba5ad719f0711d53a",
+                "435427748857fbfdf4e2aa1c7d22f76e9f367394e588dcfd765a760339ad173e",
+                "4182c09cec7a9c409a6a0e516a6cf0e7c149ee553fbcc5a6010e30866af25e8f",
+                "fea7a6c9dcb1bb263ad4065d8716af92b871e125b4c79af739fc093810d3a29b",
+                "ae242e74eeb58d17106c4fb78782e7b5e73eb8c0f79dd94a2929843995889ce9",
+                "098ea74f80efbe63cb4060b615cfdf5134f68cd8d297774b47200fe9becc19be",
+                "956d00901bdfd58ffce677a95bb3f62148845202d0c5a7e5d4854954d1e68896",
+                "4608988fa33ff2602099d3d8d4dff4f4dc280f7e2f1bec503feb7ffe411e5a9a",
+                "ae73dddfb60bb5c8a5a47963a3c0f7167f70a0952e21b840cab4123ecb7bb307",
+                "b89479cdba6f31dcbd3c421ae46ceb30592dab4a071f171af6377ad814309839",
+                "4f90b8e2b6fd426bb3e57380570ced7e3ef9d9e4dde3a38f3ff0372d38be9d87",
+                "4fafb01d6447fe82cd27537e60647bf03df1767dcfb4c7a68a76c1f62115fb5d",
+                "55bd2ff0f4de87f1deac44f4a882f1c7b893709826099a119ab22f10e57ed77f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CookieControlTC": 0.000006777914842277922,
+                "eupubconsent-v2": 0.000020333744526833766
+            },
+            "exampleSites": [
+                "forsal.pl",
+                "www.meinbezirk.at",
+                "www.moz.de",
+                "www.trendsderzukunft.de",
+                "www.pctipp.ch",
+                "www.westfalen-blatt.de",
+                "www.rmf24.pl",
+                "www.przyslijprzepis.pl",
+                "m.pnn.de",
+                "www.aktuality.sk",
+                "rozrywka.radiozet.pl",
+                "www.schlagerplanet.com",
+                "www.spektrum.de",
+                "wpolityce.pl",
+                "www.bluewin.ch",
+                "zapytaj.onet.pl",
+                "www.extremnews.com",
+                "demotywatory.pl",
+                "stylzycia.radiozet.pl",
+                "www.polizei-schweiz.ch"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static-pl",
+                "static-nl",
+                "static-se",
+                "static-sk",
+                "static-de",
+                "static-pt"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 16,
+                "Document.cookie getter": 16,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "window.innerWidth": 10,
+                "Date.prototype.getTime": 7,
+                "window.innerHeight": 14,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "827a301e50135a7fa80826a7cc2b0c089a3d0f6efd129f97b770a42a6b6f167d",
+                "ae65d7e89f29542aa66e9a285e761004252d6a68f68653f109ed6395a5114048",
+                "9238a0a30f301619d47b4e9e7576db18a430b4cdb64710841e67881909f44ee9",
+                "b5b7d4295abf83e695c444ca263c4e237fcb8323ca6fb4f00ffe4c0790ce43a6",
+                "f5692a2c4b2319909a41ad3118d852ad79ffa68ddc427224352311a6ae510a46",
+                "61eba6696ed6b2c1daf0d133f224109f6e49331bbd08c8ab0c8ec11a7f2d4235"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forsal.pl",
+                "forum.viva.nl",
+                "kurera.se",
+                "niezalezna.pl",
+                "rozrywka.radiozet.pl",
+                "sport.aktuality.sk",
+                "stylzycia.radiozet.pl",
+                "wiadomosci.radiozet.pl",
+                "www.androidkosmos.de",
+                "www.antyradio.pl",
+                "www.e-konomista.pt",
+                "www.motorsport-total.com",
+                "www.schlagerplanet.com",
+                "www.skoften.net",
+                "www.spektrum.de",
+                "www.startpagina.nl",
+                "www.unicum.de",
+                "zdrowie.radiozet.pl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/pub\\/75442e57617cb8b4527e50af\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-nl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0db6201969d7a5662be9d1189af717e988f793aefc61fb7ce7759d3c7b2a1c04"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.nl",
+                "forum.viva.nl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/egZxkVR4mD0ClC_VmIg5qK4Fx40=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fmedia\\.flair\\.nl%2Fm%2Fpic1pferpvqm\\.jpg%2Fheader-artikel-mag-in-mag\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "11d44db4e1a947a0b14fc9191cada27d7921a5c3454c301e1fd55474bdb9d64d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.nl",
+                "forum.viva.nl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/jbUy8ZqRa9fsBBluDlFpqhbRBSA=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fmedia\\.flair\\.nl%2Fm%2Fq9k1jclrvdxp\\.jpg%2Fhester-zitvast\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ea589313d5e80c8218a7e93274776050cc96c72b381908a8f6346a490d1447b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.nl",
+                "forum.viva.nl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/fGexspWImyCECAfUlrSB2nmV7Fg=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fmedia\\.flair\\.nl%2Fm%2F2a01ouir2f9s\\.png%2Fbedgeheimen\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a614d2581377a620032c6eeaacf81404086ff2f01d6e6e32ce17c0efb9378c12"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.nl",
+                "forum.viva.nl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/matching\\/pixel\\/",
+            "cookies": 0.00021,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farm-nl",
+                "farm-de",
+                "farm",
+                "farm-pl",
+                "farm-sk",
+                "farm-at",
+                "farm-ch"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.00021,
+            "cnames": [],
+            "responseHashes": [
+                "dcdf6c37f5caf6a54f0c7f2238d669e015901b674c7fc55099acc7fe629db356"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hifi-forum.de",
+                "www.national-geographic.pl",
+                "niezalezna.pl",
+                "wpolityce.pl",
+                "m.pnn.de",
+                "www.antyradio.pl",
+                "www.androidkosmos.de",
+                "www.rmf24.pl",
+                "rozrywka.radiozet.pl",
+                "www.meinbezirk.at",
+                "www.extremnews.com",
+                "www.schlagerplanet.com",
+                "m.gameswelt.de",
+                "forum.viva.nl",
+                "www.motorsport-total.com",
+                "susi.at",
+                "sport.aktuality.sk",
+                "viva.nl",
+                "www.trendsderzukunft.de",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/event\\/",
+            "cookies": 0.0000339,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farm-nl",
+                "farm",
+                "farm-de"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "dcdf6c37f5caf6a54f0c7f2238d669e015901b674c7fc55099acc7fe629db356"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.nl",
+                "forum.viva.nl",
+                "m.gameswelt.de",
+                "susi.at",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/PLISTA_FLYAD\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static-de",
+                "static"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3,
+                "Document.cookie getter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "f27944bb806df5847c7e32699cfe9d814c1c1bffa800b156fcbe6e32355110fc",
+                "3d7bbbcd75f945390efb3a339b685f8c0c42ce5a9add132ecbc3d994924b2d70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hifi.de",
+                "www.hifi-forum.de",
+                "www.trendsderzukunft.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/min\\/ast,highimpact\\/0\\.11\\.20\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-de",
+                "static-ch",
+                "static"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000061,
+            "cnames": [],
+            "responseHashes": [
+                "f0d1da72bcc3f69879031b455fdadf31b7aba565d9e9306b6d9e6b1233297ce6",
+                "d588aa33ecf6ec99dd2b124088bc68a9fc18e848eea0a58c32ebc872b534d425",
+                "e2129bb78528f28683d48675192d1834ba458b949f4484779cdf02c1b66caf4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hifi.de",
+                "m.pnn.de",
+                "www.androidkosmos.de",
+                "www.hifi-forum.de",
+                "www.polizei-schweiz.ch",
+                "www.schlagerplanet.com",
+                "www.trendsderzukunft.de",
+                "www.unicum.de",
+                "www.westfalen-blatt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async_lib\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farm-de"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e8edfd82f6b8dec7d0ac325cbf47b157a2c9daf7a81942a5ce5bbcfd2df18b07",
+                "688e7d126a8eec9a2610cc53d3c067ff9976911cddc643f8792e1ab7566d8237"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "hifi.de",
-                "www.gartenbista.de",
-                "www.hifi-forum.de",
-                "www.pnn.de"
+                "m.pnn.de",
+                "www.hifi-forum.de"
             ]
         },
         {
@@ -582,55 +545,33 @@
             "fingerprinting": 0,
             "subdomains": [
                 "static",
-                "static-de"
+                "static-de",
+                "static-ch",
+                "static-at"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.0000897,
+            "sites": 12,
+            "prevalence": 0.0000813,
             "cnames": [],
             "responseHashes": [
-                "76ceb9b46c9787fba45d74064ac8e7ea819b8cfe3060d11a0c9cea3706f4575f"
+                "356e76f6630b1ec9cd605820adcc3b0b49cddf4d67a0e310069e6f1fcedd25db"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "pedelec-elektro-fahrrad.de",
-                "scilogs.spektrum.de",
-                "www.donnerwetter.de",
-                "www.gartenbista.de",
-                "www.gesundheits-fakten.de",
-                "www.gps-tour.info",
-                "www.moz.de",
-                "www.myheimat.de",
+                "gameswelt.de",
+                "m.pnn.de",
+                "susi.at",
+                "www.bluewin.ch",
+                "www.der-betze-brennt.de",
+                "www.extremnews.com",
+                "www.meinbezirk.at",
                 "www.pctipp.ch",
-                "www.pnn.de",
+                "www.polizei-schweiz.ch",
                 "www.spektrum.de",
                 "www.unicum.de",
                 "www.wissenschaft.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/min\\/billboard,ast,highimpact\\/0\\.11\\.7\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static",
-                "static-de"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "feb0367afdd1381d853cbace616613bf590e556eb4ce1d9164bc86d7d6d9c97e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "spektrum.de",
-                "www.spektrum.de"
             ]
         },
         {
@@ -639,25 +580,92 @@
             "fingerprinting": 0,
             "subdomains": [
                 "static",
+                "static-pl",
                 "static-de"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "9e17d0099442499f39e87306e0b2f338dd01075be607b54ca9b0ef61ba7bb851"
+                "0605e4010bfed04bc76e388455543d36d8b12efe3c1c3fabd18eb96b14582e03",
+                "4f744ac1ebd691eb91b0bbea2ddb1780792c8e619fc6e7f9552d3f8a3a88d77f",
+                "b08f04c7d1f9f2f7789c0a5cf6474ad9cc29b397303ff2f512d9f04fda5beea0"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "spektrum.de",
-                "www.apfelpage.de",
-                "www.gartenbista.de",
-                "www.gps-tour.info",
-                "www.myheimat.de",
-                "www.spektrum.de"
+                "gameswelt.de",
+                "susi.at",
+                "www.rmf.fm",
+                "www.spektrum.de",
+                "zapytaj.onet.pl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/pub\\/e00ab93b1c205821c16f67a97494fd78f23e585c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c08396535bc7cd9eeb40fcbddfce770df8c6e5daf81ca4ea0d6fa3ba6d965fe4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnn.de",
+                "m.pnn.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/image\\/logo_plista_small_AAAAAA\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-de",
+                "static-sk",
+                "static-pl",
+                "static-ch",
+                "static",
+                "static-at"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000115,
+            "cnames": [],
+            "responseHashes": [
+                "4f744ac1ebd691eb91b0bbea2ddb1780792c8e619fc6e7f9552d3f8a3a88d77f",
+                "b08f04c7d1f9f2f7789c0a5cf6474ad9cc29b397303ff2f512d9f04fda5beea0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnn.de",
+                "sport.aktuality.sk",
+                "www.aktuality.sk",
+                "www.antyradio.pl",
+                "www.bluewin.ch",
+                "www.der-betze-brennt.de",
+                "www.extremnews.com",
+                "www.meinbezirk.at",
+                "www.pctipp.ch",
+                "www.polizei-schweiz.ch",
+                "www.przyslijprzepis.pl",
+                "www.rmf24.pl",
+                "www.spektrum.de",
+                "www.trendsderzukunft.de",
+                "www.unicum.de",
+                "www.wissenschaft.de",
+                "zdrowie.radiozet.pl"
             ]
         },
         {
@@ -668,32 +676,28 @@
                 "static-pl"
             ],
             "apis": {
-                "window.devicePixelRatio": 6,
-                "Document.cookie getter": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTime": 2
+                "window.devicePixelRatio": 5
             },
             "sites": 6,
-            "prevalence": 0.0000414,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "351665fbfdc93fc06479dc6e16de5614488cabb847ee54bc59af2f8866a291da"
+                "87dca09dc9b2c2b460cf354c90ad01c026dd0a2807ac912b222cf011be7f7944"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "radiozet.pl",
+                "rozrywka.radiozet.pl",
                 "stylzycia.radiozet.pl",
+                "wiadomosci.radiozet.pl",
                 "www.antyradio.pl",
-                "www.planeta.pl",
-                "www.radiozet.pl",
                 "zdrowie.radiozet.pl"
             ]
         },
         {
-            "rule": "plista\\.com\\/async\\/pub\\/fc586bc992abfbe68292aa5a\\.js",
+            "rule": "plista\\.com\\/async\\/pub\\/b8708fbb99097e0afec7548e\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -701,17 +705,39 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "740ff4d7fe2e8051e0c7bcf19ed656a05a6ef10f4dd6a1d3c5104532bd9b1c29"
+                "f84b5bb9e9b0b99afd41615709e610f20ed2d8df8661928c2b583ee027f2cb1c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "radiozet.pl",
-                "stylzycia.radiozet.pl"
+                "rozrywka.radiozet.pl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/image\\/adchoices\\/sk\\/13\\/119,119,119\\/0\\/1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-sk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "eeb99312886881f43c9fe4adb48d333d9ccc626ae4fab8491cc2bbfecd169158"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktuality.sk",
+                "www.aktuality.sk"
             ]
         },
         {
@@ -723,7 +749,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "712b5ccdb9a0277570efaa8cd817d90ce126c22018978345b12ecaf85fc15a1d"
@@ -737,7 +763,55 @@
             ]
         },
         {
-            "rule": "plista\\.com\\/Y9-wTYhWnyrCDtwXRKjNKprco0c=\\/370x246\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fgfx\\.antyradio\\.pl%2Fvar%2Fantyradio2%2Fstorage%2Fimages%2Ffilmy-i-seriale%2Fseriale%2Fsandman-od-netflix-z-pierwszym-zwiastunem-zapowiada-sie-kawal-porzadnej-produkcji-48666%2F15925984-2-pol-PL%2FSandman-od-Netflix-z-pierwszym-zwiastunem\\.-Zapowiada-sie-kawal-porzadnej-produkcji_size-300x225\\.jpg",
+            "rule": "plista\\.com\\/image\\/adchoices\\/pl\\/13\\/119,119,119\\/0\\/1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-pl"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "387209f9941786ebf304fa26e57becc4560137b54e9e4940ad339243d1ddab4e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antyradio.pl",
+                "www.przyslijprzepis.pl",
+                "www.rmf.fm",
+                "www.rmf24.pl",
+                "zapytaj.onet.pl",
+                "zdrowie.radiozet.pl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/pub\\/e5493ef8ea6a54b08f31aacf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "80bd2dc67573fd3ab9aba48365ed6ffb4a06525a2ffc7799d50b217e70b78b5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/0BHxmsZcxq_EXYRLkcinyBo92m0=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F1000-symbolfoto-rasen-wappen\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -745,142 +819,175 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d40ab0424e162868bb6ab7f5b31d1d837ab10b0a3a3c83064f3580bdfb5ca566"
+                "8fa89b9a245236bd70eaa5998eb0cf32d903c8235535d48df7362985545930d6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "antyradio.pl",
-                "www.antyradio.pl"
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
             ]
         },
         {
-            "rule": "plista\\.com\\/activity2",
-            "cookies": 0.0000276,
+            "rule": "plista\\.com\\/22PTZ_Ynn3Fzmnc3opDspX5mvyQ=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F2022-08-14-startaufstellung-fck-scp\\.jpg",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "farm-de",
-                "farm-ch",
-                "farm"
+                "media"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6a842ea462daca2a0b5a0f5f25bcfc8e0059ac811ca6c6a1bc54e4d9119621c3"
+                "e192056a387b3e994a00c146254eded8c2b5b5d423358baa6beb263a2660c913"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "freenet.de",
-                "www.freenet.de",
-                "www.vermoegenszentrum.ch",
-                "www.vueling.com"
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
             ]
         },
         {
-            "rule": "plista\\.com\\/async\\/PLISTA_d1e3ed9a9e1e153fdd66d479\\.js",
+            "rule": "plista\\.com\\/KbcHztN_IBudR15GrBjyVdNmCx0=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F2022-08-12-fck-stp-mannschaft-kurve-jpg",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "media"
             ],
-            "apis": {
-                "window.devicePixelRatio": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTime": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3c06c5af08a47f6fade435e93ecf63f852c4a861015ef534fdf781fa6bc197a9"
+                "1daf4dcb4fdac3b8541927fd0c386a9215bd77ae3aed1378d1dcc5e8bf5324ec"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/LdBLNPPVwxvGs4bD6WBpn1n_TL0=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F2022-08-05-dirk-schuster-dbb-interview\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b22eb9fc100588d4105c228e2e1641e131206233ef6104f7a339b4895b5a7323"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/clSoK8353y1J7Ybsid569zcvZ7Q=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F2022-08-09-zweikampf-marlon-ritter-fck-fcsp\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "77e7b79da2a10b1b1e00805c061f8db24992e487f9104f2b5a2257e19498b44b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/sK3KEzDSJO5D7KEkNi7WNBaG_e0=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F2022-08-19-fck-ii-mannschaftsfoto-2022-2023--fck\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a491ccf9d412c32f687223b046a95980a2ec1a8816cb0c07372a0956380202c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/j5duPDrxaqxntUW12aiAy-We7Q8=\\/320x180\\/smart\\/filters:format\\(webp\\):quality\\(85\\)\\/https%3A%2F%2Fwww\\.der-betze-brennt\\.de%2Fimages%2Fnews%2F2022-08-03-dirk-schuster-pk-dfb-pokal-fck-scf\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e4cf8175601bb4ec2a45affff9b5c8c0d9f96c169aa24deac51b8ef1c29ec4d6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "der-betze-brennt.de",
+                "www.der-betze-brennt.de"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/pub\\/66bb3a38d5573fb0b696aaf3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-nl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4a73856444090a91fabca9eda47b4e74f5685a0d5591d800e036f815ff588b6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fremdwort.de",
-                "www.fremdwort.de"
+                "flair.nl",
+                "www.flair.nl"
             ]
         },
         {
-            "rule": "plista\\.com\\/async\\/pub\\/c52647e6cc0fb22fa056c13f\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "3690af9f79ff2ea2d19884e8d82e13ce8aa0dd698837f3bd1744afd16492f10a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "gesundheits-fakten.de",
-                "www.gesundheits-fakten.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/recommendation\\/v2\\/",
-            "cookies": 0.0000276,
-            "fingerprinting": 0,
-            "subdomains": [
-                "farm-de"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "9a57ad35c4c8d3cb97ebffea19a6251c464408f2fef37990fd15ff5610dd7ad2"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "grazia-magazin.de",
-                "www.jolie.de",
-                "www.netzkatzen.de",
-                "www.vital.de"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/hdsports\\.at_v1\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "94952456f373ca0939126990b524867a3ade14f7a3051ca3af3618cd45278d5c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hdsports.org",
-                "www.hdsports.org"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/pub\\/a92ea0a885a457472e9d4e6b\\.js",
+            "rule": "plista\\.com\\/async\\/pub\\/ed66f0578845603187f7e159\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -888,83 +995,116 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c89ea20822e9d08e7ed0851b51768470ff124b3f5399c662bb0b059e1b69460a"
+                "5568b9daab5f6ebab34771177a86ca6bda8b4c73f1a11a24f52d4effc82a854a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hdsports.org",
-                "www.hdsports.org"
+                "meinbezirk.at",
+                "www.meinbezirk.at"
             ]
         },
         {
-            "rule": "plista\\.com\\/async\\/pub\\/faaff22338e2df17cf77716d\\.js",
+            "rule": "plista\\.com\\/async\\/PLISTA_18a87aec527bb4249deb1ff4\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f4a9e139c554e44d9b1574c4ad2d80295258da7cbcb80c3c897c37bc069f52f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parents.at",
+                "www.parents.at"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/pub\\/95ae02406f6e703aa210d68f\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
+                "static-pl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7862e9ec5e132fd36421b12f78b3e3f11e4267e470e78333256b9ccd916e33c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "przyslijprzepis.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "plista\\.com\\/async\\/min\\/billboard\\/0\\.11\\.20\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-pl",
                 "static-de"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "301e9bcf4ebdaae1b32371fd49639f90e524fae3ec1720f4397f4afb71b86eb5"
+                "162212663514f9c7f9fcca16df80f5d4d9ff0d035f386df0a5c6b76100d485a1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "oberberg-aktuell.de",
-                "www.oberberg-aktuell.de"
+                "rmf.fm",
+                "www.rmf24.pl",
+                "www.spektrum.de",
+                "www.wissenschaft.de"
             ]
         },
         {
-            "rule": "plista\\.com\\/async\\/pub\\/ac2dfe2ecd80fc4c1e9e900f\\.js",
+            "rule": "plista\\.com\\/async\\/pub\\/92a3159af7e45aca4c88120c\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static-pl"
+                "static-nl"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "72e85475c19fd38ac9dc0f9b63e350ee86bc925f0b9086970b79d2e6bc24d2c5"
+                "1eb8c88a434f4e32fdd16368a5212e6a87fa76a3f3e3c9680d0d19f255103fe5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "planeta.pl",
-                "www.planeta.pl"
-            ]
-        },
-        {
-            "rule": "plista\\.com\\/async\\/pub\\/0c2378b917163d18b95defb2\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-pl"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "c0e4ef3ad17df74ab22dce3881aa9ed3a35b2bbd9a430fb096e083d0c3494271"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "radiozet.pl",
-                "www.radiozet.pl"
+                "skoften.net",
+                "www.skoften.net"
             ]
         },
         {
@@ -976,7 +1116,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c58b489f6b219d4ba7be92b69f25088e360e2755ad1ab98e0b2d40e6ebdeb2b6"
@@ -998,10 +1138,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "987eff71ce881b772473c5b8adb623dd6fe2810e27dbc4e8c23744285bd6c68a"
+                "c8623d1258824314edcc3ae9ff44c36d2e1431b7b63922139ba5c069cfc25ecc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1014,18 +1154,18 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000414,
+    "cookies": 0.000346,
     "types": {
+        "Image": 102,
         "Fetch": 2,
-        "Script": 155,
-        "Image": 90,
-        "XHR": 8
+        "Script": 132,
+        "XHR": 3
     },
     "nameservers": [
-        "ns10.dnsmadeeasy.com",
-        "ns11.dnsmadeeasy.com",
         "ns12.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com",
         "ns13.dnsmadeeasy.com",
-        "ns14.dnsmadeeasy.com"
+        "ns14.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com"
     ]
 }

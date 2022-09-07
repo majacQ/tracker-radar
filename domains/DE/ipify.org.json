@@ -1,13 +1,17 @@
 {
     "domain": "ipify.org",
-    "owner": {},
+    "owner": {
+        "name": "ipify.org",
+        "displayName": "ipify.org"
+    },
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.00191,
-    "sites": 19,
+    "prevalence": 0.002,
+    "sites": 20,
     "subdomains": [
-        "api"
+        "api",
+        "api64"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -31,17 +35,43 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "influxdata.com",
-                "health.clevelandclinic.org",
+                "camarads.com",
+                "docs.influxdata.com",
                 "hollandbikeshop.com",
-                "my.clevelandclinic.org",
-                "www.ao.de",
-                "www.apollo.de",
+                "www.bloomberg.com",
                 "www.bodybuilding.com",
-                "www.dtv.de",
+                "www.brb.de",
                 "www.gazelle.de",
-                "www.knappschaft.de",
-                "www.post.ch"
+                "www.nordwestbahn.de",
+                "www.post.ch",
+                "www.sigmaaldrich.com",
+                "www.swk.de"
+            ]
+        },
+        {
+            "rule": "ipify\\.org\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api64"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "3edd2f9f428121d87f07d141a9a69f5b611a6c14bbbffeb22437105a774caa37",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sensiseeds.com",
+                "www.freeconvert.com",
+                "www.hunkemoller.de",
+                "www.techrepublic.com"
             ]
         },
         {
@@ -56,18 +86,18 @@
             "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "3cd79c3c55200c10e9b6a887eddf717fdd9fcf5ca4ee944981d1782792c401fb",
-                "3edd2f9f428121d87f07d141a9a69f5b611a6c14bbbffeb22437105a774caa37"
+                "3edd2f9f428121d87f07d141a9a69f5b611a6c14bbbffeb22437105a774caa37",
+                "3cd79c3c55200c10e9b6a887eddf717fdd9fcf5ca4ee944981d1782792c401fb"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "spis.gov.pl",
-                "www.abiweb.de",
-                "www.dnb.com",
-                "www.fossil.com",
+                "dnb.com",
+                "www.frontiersin.org",
+                "www.hunkemoller.de",
                 "www.merckmillipore.com",
+                "www.scandlines.de",
                 "www.sigmaaldrich.com",
                 "www.weightwatchers.com"
             ]
@@ -78,6 +108,7 @@
     "cookies": 0,
     "types": {
         "Script": 11,
+        "Fetch": 4,
         "XHR": 7
     },
     "nameservers": [

@@ -4,14 +4,38 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.0002,
+    "sites": 2,
     "subdomains": [
         "api"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "boerse-go\\.de\\/charting\\/\\.image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0adeede0583976e0a223d9d84b58d56bd856b54be5daf66ba5996bdc61ac5ba5",
+                "ce99e23401719ed5b608fa4e666f1488c851e4205b55d6f0af9ce69acdeb178f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cashkurs.com",
+                "www.cashkurs.com",
+                "www.godmode-trader.de"
+            ]
+        },
         {
             "rule": "boerse-go\\.de\\/v1\\/article\\/\\.json",
             "cookies": 0,
@@ -21,10 +45,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "d479b0ac42ee63db57f047541ceea5503cffd865367b711a764e10ec60e6c6b4"
+                "d31794f353ae5eb89276b22a8e60dfc59870b7425546bb2e0d53baf7239710e5"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -37,8 +61,9 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0,
     "types": {
+        "Image": 3,
         "Fetch": 2
     },
     "nameservers": [

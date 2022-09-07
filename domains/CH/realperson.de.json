@@ -4,72 +4,80 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000402,
+    "sites": 4,
     "subdomains": [
-        "chat131",
-        "chat140"
+        "chat140",
+        "chat131"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "realperson\\.de\\/system\\/scripts\\/loadchatmodul\\.js",
             "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
-                "chat131",
-                "chat140"
+                "chat140",
+                "chat131"
             ],
             "apis": {
-                "Navigator.prototype.cookieEnabled": 2,
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 4,
+                "URL.createObjectURL": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
                 "Document.cookie setter": 2
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "90d690b80ee3a7138c242ef75af67226d1210fe385a628196d8341f407981a90"
+                "d83bf1ac4ab7e1f32512fc80ef53e0ebae8533bc18a865c4106539ebc57c6307",
+                "8f325e8c5d1bcf43bc4df72fdff91c133ccfdd33dba076b677400eec39668691"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "REALPERSON_SESSION": {
                     "ttl": null,
                     "length": 40,
-                    "prevalence": 0.00020074274816822243,
+                    "prevalence": 0.0002008233758409479,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "flyedelweiss.com",
-                "www.migros.ch"
+                "migros.ch",
+                "cumulus.migros.ch",
+                "gastro.migros.ch",
+                "www.flyedelweiss.com"
             ]
         },
         {
-            "rule": "realperson\\.de\\/system\\/scripts\\/loadconfig\\.php",
+            "rule": "realperson\\.de\\/api\\/embed\\/config",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "chat131",
-                "chat140"
+                "chat140",
+                "chat131"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "d9e60dbe2947957b476295feff6ad49834cd127ddae100eb9e89b7f060d064e9"
+                "83372354479983ea5f5c81907c64f3350e8dad11f19873e2a05657c30bc2856e",
+                "eb1264f94b152870d3cf749ddc2bd9bf65890959beb1f8b0f8cac8dfb54a5204"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "flyedelweiss.com",
-                "www.migros.ch"
+                "migros.ch",
+                "cumulus.migros.ch",
+                "gastro.migros.ch",
+                "www.flyedelweiss.com"
             ]
         },
         {
@@ -77,22 +85,97 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "chat131",
-                "chat140"
+                "chat140",
+                "chat131"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "fce6c0d9d4adebdaa9fcea68be6b1ec00b36eacb995ba19b736ebc406a382b79"
+                "a9ae19320304e78e7c60d0302251efb292058780330748a5c2857e1a30cba2ac"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "flyedelweiss.com",
-                "www.migros.ch"
+                "migros.ch",
+                "www.flyedelweiss.com"
+            ]
+        },
+        {
+            "rule": "realperson\\.de\\/system\\/scripts\\/loadlayerchatmodul\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chat140",
+                "chat131"
+            ],
+            "apis": {
+                "window.outerHeight": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7cfbe2f35abcdb135b137a3634ff5862553ae65c11fa2a0bd1832bc039711319"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "migros.ch",
+                "www.flyedelweiss.com"
+            ]
+        },
+        {
+            "rule": "realperson\\.de\\/system\\/layer\\/blank\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat140",
+                "chat131"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d88e4b06f8decb1c684a2c326d9d227419d3dd2d7a2283b41dc42d85e83ca57"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "REALPERSON_SESSION": 0.0002008233758409479
+            },
+            "exampleSites": [
+                "migros.ch",
+                "www.flyedelweiss.com"
+            ]
+        },
+        {
+            "rule": "realperson\\.de\\/api\\/embed\\/status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat140",
+                "chat131"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "migros.ch",
+                "www.flyedelweiss.com"
             ]
         }
     ],
@@ -100,9 +183,10 @@
     "performance": {},
     "cookies": 0.000201,
     "types": {
-        "Script": 2,
-        "XHR": 2,
-        "Stylesheet": 2
+        "Script": 6,
+        "XHR": 6,
+        "Stylesheet": 2,
+        "Document": 2
     },
     "nameservers": [
         "ns3.stratoserver.net",

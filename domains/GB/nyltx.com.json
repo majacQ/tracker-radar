@@ -11,34 +11,49 @@
         "analytics"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "nyltx\\.com\\/lib\\/1\\.0\\/ra-bootstrap\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.0001,
+            "fingerprinting": 2,
             "subdomains": [
                 "ruler"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "Date.prototype.getTimezoneOffset": 2
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTimezoneOffset": 1
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "8f0d67b2902b4209941809c031e0984437291a20fcc90823cd3725c785b7ba8b"
+                "a20cf93a3bb9224c05fed36b6a4267c2b4211860813a8a74f59035d3f9eee13d"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "__rafm": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                },
+                "__rasesh": {
+                    "ttl": 88819204,
+                    "length": 64,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "crownoil.co.uk",
-                "www.nationwidefuels.co.uk"
+                "ukpostbox.com",
+                "www.visitliverpool.com"
             ]
         },
         {
@@ -53,45 +68,24 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "3b84385e14c53b46e3152722ecc567f6eead5f0909739780ca71ca54badd2c1c"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "__rafm": 0.00020056157240272763
+            },
             "exampleSites": [
-                "crownoil.co.uk",
-                "www.nationwidefuels.co.uk"
-            ]
-        },
-        {
-            "rule": "nyltx\\.com\\/lib\\/2\\.0\\/ra-collect",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "analytics"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "crownoil.co.uk",
-                "www.nationwidefuels.co.uk"
+                "ukpostbox.com",
+                "www.visitliverpool.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 4,
-        "Other": 2
+        "Script": 4
     },
     "nameservers": [
         "ns-538.awsdns-03.net",

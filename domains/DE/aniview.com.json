@@ -7,44 +7,48 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.002,
+    "sites": 20,
     "subdomains": [
         "player",
         "track1",
         "go1",
         "premiumsrv",
+        "s2s",
         "sync",
+        "pbs",
         "tg1"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "aniview\\.com\\/script\\/6\\.1\\/player\\.js",
+            "rule": "aniview\\.com\\/ssync\\/5e0e296628a061270b21ccab\\/ssync\\.html",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "player"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5
-            },
+            "apis": {},
             "sites": 5,
-            "prevalence": 0.000502,
+            "prevalence": 0.000501,
             "cnames": [],
-            "responseHashes": [
-                "6d1ddf5ac8cc95b092103244def0dd9ba5886ca6c8310e84eb45fe4be7555461"
-            ],
-            "type": "Script",
+            "responseHashes": [],
+            "type": "Document",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00010023053021950487,
+                "__cmpconsent11997": 0.00010023053021950487,
+                "__cmpconsentx43312": 0.00010023053021950487,
+                "__cmpconsent12160": 0.00010023053021950487,
+                "__cmpconsentx18555": 0.00010023053021950487
+            },
             "exampleSites": [
-                "gamerescape.com",
-                "kreuzwortraetsel.de",
-                "wh40k.lexicanum.com",
-                "www.kreuzwortraetsel.de",
-                "www.wort-suchen.de"
+                "alleantworten.de",
+                "raptastisch.net",
+                "www.history.com",
+                "www.qiez.de",
+                "www.songtexte.com"
             ]
         },
         {
@@ -55,34 +59,40 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Navigator.prototype.vendor": 9,
-                "Navigator.prototype.language": 9,
-                "Navigator.prototype.doNotTrack": 9,
-                "window.localStorage": 9,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9,
-                "Navigator.prototype.languages": 7
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Navigator.prototype.vendor": 7,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.language": 7,
+                "window.innerHeight": 7,
+                "window.innerWidth": 7,
+                "Navigator.prototype.doNotTrack": 7,
+                "window.localStorage": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7
             },
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 12,
+            "prevalence": 0.0012,
             "cnames": [],
             "responseHashes": [
-                "fb40b2dbc64bcbf5be6e3a00d3b1e0f877691fc9b09eb0eb09c7fbeade6fa305"
+                "8aee6d7e6d51e6d543f52ac97a4a1633a6c07a12eb955c8603fff01a357297f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "kreuzwortraetsel.de",
-                "mangaeffect.com",
+                "fandom.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.allkpop.com",
-                "www.kreuzwortraetsel.de",
-                "www.tippsundtricks.co",
-                "www.wort-suchen.de"
+                "www.focus.de",
+                "www.kicker.de",
+                "www.mangaread.org",
+                "www.marktcom.de",
+                "www.mopo.de",
+                "www.mtv.de",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
             ]
         },
         {
@@ -101,198 +111,173 @@
             ],
             "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00040092212087801946,
+                "activation_referrer": 0.00010023053021950487
+            },
             "exampleSites": [
-                "gamerescape.com",
-                "ffxiv.gamerescape.com",
-                "kreuzwortraetsel.de",
-                "mangaeffect.com",
+                "fandom.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.allkpop.com",
-                "www.kreuzwortraetsel.de",
-                "www.tippsundtricks.co",
-                "www.wort-suchen.de"
+                "www.kicker.de",
+                "www.mangaread.org",
+                "www.marktcom.de",
+                "www.mtv.de",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
             ]
         },
         {
             "rule": "aniview\\.com\\/api\\/adserver\\/tag\\/",
-            "cookies": 0.000802,
+            "cookies": 0.000601,
             "fingerprinting": 0,
             "subdomains": [
                 "go1",
                 "premiumsrv"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
-                "e2da58acd8af2a45ef3d7036536b67c6d765f966c01f58b2c6fe2357be4653c6",
-                "dadf0687dc668d62859d8c7216c67278513d35380d84186d676ed32cf4680554",
-                "d0c1bfa342da3dd23d3decbd46da30ff55feeb881798a7e04801ecb9ee093a8c",
-                "c27aada7a9b9b34f2987cecfc63b35ab2255a4128e99671df80f26b50d76cb48",
-                "3d933fe8629b63627702ead50c671b65dbf63d815e504783977b70e42a720fc9",
-                "db5747101bb72cdde45d1107a6145ad317b781292a4c9666987c3bf1563e3544",
-                "efcac8c165030a2b7d894a07d111f6b3ac96843b0021cc8b6c4d523c9b3a0cc9"
+                "b6c857a215d66cbdc94d7fe30112b85bcdd7bfbc1c32416cf031e0ab72d372e9",
+                "385e1db88cabb035fd1442ddb6e3331c497cfd0f38537fa1a03e62f657bb486a",
+                "30651d48ea3055f67abc76988c2e179462d8543ed6c10166dddd52aef3beb10c",
+                "9af18ee504e51880442808b6ed0e8a8b66d0f53dbeeab2b05de93533e95000bb",
+                "ba98ef0e1243af8b0722e992ededd87f1d45a2f204b864be5f034acd92d9e12b"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "_ym_d": 0.00010023053021950487,
+                "eupubconsent-v2": 0.00010023053021950487,
+                "euconsent-v2": 0.00010023053021950487,
+                "lotame_domain_check": 0.00020046106043900973,
+                "activation_referrer": 0.00010023053021950487
+            },
             "exampleSites": [
-                "gamerescape.com",
-                "mangaeffect.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.allkpop.com",
-                "www.kreuzwortraetsel.de",
-                "www.tippsundtricks.co",
-                "www.wort-suchen.de"
+                "www.mangaread.org",
+                "www.mtv.de",
+                "www.notebookcheck.net",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
             ]
         },
         {
-            "rule": "aniview\\.com\\/script\\/6\\.1\\/avpb3\\.js",
-            "cookies": 0.000802,
-            "fingerprinting": 2,
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Navigator.prototype.cookieEnabled": 9,
-                "window.sessionStorage": 9,
-                "window.localStorage": 9,
-                "Document.cookie getter": 9,
-                "Document.cookie setter": 8,
-                "Date.prototype.getTime": 9,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Screen.prototype.colorDepth": 3,
-                "Date.prototype.getTimezoneOffset": 3,
-                "Navigator.prototype.doNotTrack": 6,
-                "Navigator.prototype.language": 5,
-                "Navigator.prototype.vendor": 2
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.doNotTrack": 1
             },
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "259b4e231ffd99000322aa5b2c1f153648db23d7e6f517caf30c3cf591d4fd14"
+                "3c94d07090acdd3c44fa5f23a2c957c961c7413129f068acecf17f1402102c4d"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "_pbjs_userid_consent_data": {
                     "ttl": 2592022,
                     "length": 16,
-                    "prevalence": 0.0008024877119069114,
-                    "uniqueness": 0.125
-                },
-                "pbjs-id5id": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
+                    "prevalence": 0.00030069159065851457,
                     "uniqueness": 0.3333333333333333
                 },
-                "pbjs-id5id_nb": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "pbjs-id5id_258_nb": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.00020062192797672785,
-                    "uniqueness": 0.5
-                },
-                "pbjs-id5id_last": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id.1st": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id.1st_nb": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id.1st_258_nb": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.00020062192797672785,
-                    "uniqueness": 0.5
-                },
-                "id5id.1st_last": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id_nb": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "id5id_258_nb": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.00020062192797672785,
-                    "uniqueness": 0.5
-                },
-                "id5id_last": {
-                    "ttl": -86378,
-                    "length": 3,
-                    "prevalence": 0.0003009328919650918,
-                    "uniqueness": 0.3333333333333333
-                },
-                "pbjs-id5id_371_nb": {
-                    "ttl": -86380,
-                    "length": 3,
-                    "prevalence": 0.00010031096398836393,
-                    "uniqueness": 1
-                },
-                "id5id.1st_371_nb": {
-                    "ttl": -86380,
-                    "length": 3,
-                    "prevalence": 0.00010031096398836393,
-                    "uniqueness": 1
-                },
-                "id5id_371_nb": {
-                    "ttl": -86380,
-                    "length": 3,
-                    "prevalence": 0.00010031096398836393,
+                "_pubcid": {
+                    "ttl": 31536022,
+                    "length": 36,
+                    "prevalence": 0.00010023053021950487,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "kreuzwortraetsel.de",
-                "mangaeffect.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.allkpop.com",
-                "www.kreuzwortraetsel.de",
-                "www.tippsundtricks.co",
-                "www.wort-suchen.de"
+                "www.mangaread.org",
+                "www.mtv.de",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
             ]
         },
         {
-            "rule": "aniview\\.com\\/script\\/6\\.1\\/avpb3a0\\.js",
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "9ff07ed2c891ed887a0e9eb61461ca9c00277a27fd98d73e40d60b91b2eb86f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mydramalist.com",
+                "www.mangaread.org",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "57a18b6c18cc1cb382fc80abd6302ee9c092d472b15d257fd911d942e6def986"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mydramalist.com",
+                "www.mangaread.org",
+                "www.mtv.de",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a3\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -304,53 +289,104 @@
                 "Screen.prototype.width": 2,
                 "Navigator.prototype.doNotTrack": 1,
                 "Navigator.prototype.vendor": 1,
-                "Navigator.prototype.userAgent": 1,
-                "Screen.prototype.availWidth": 1,
-                "Screen.prototype.availHeight": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Date.prototype.getTime": 1
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "90913d718044d1123c724ca6f7a2e57fede0167f58780c215dc20accb92dc399"
+                "737ecccfd5058eeb7a46e5ea9616822be78a60668342b22f2fcfae3130f7d8c1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.wort-suchen.de"
+                "www.mangaread.org",
+                "www.notebookcheck.net"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "3d339d8964a7cbfedf6d7bede292d224a5fe885ee37ffc9ee1a9220851a1ee4e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mydramalist.com",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/s2s",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "eupubconsent-v2": 0.00010023053021950487
+            },
+            "exampleSites": [
+                "mydramalist.com",
+                "www.mtv.de"
             ]
         },
         {
             "rule": "aniview\\.com\\/cookiesyncendpoint",
-            "cookies": 0.000702,
+            "cookies": 0.000401,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Document",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00020046106043900973
+            },
             "exampleSites": [
-                "gamerescape.com",
-                "ffxiv.gamerescape.com",
-                "kreuzwortraetsel.de",
                 "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.kreuzwortraetsel.de",
-                "www.wort-suchen.de"
+                "www.mangaread.org",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
             ]
         },
         {
@@ -361,25 +397,101 @@
                 "track1"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00030069159065851457
+            },
+            "exampleSites": [
+                "mydramalist.com",
+                "www.mangaread.org",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/aniview\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6a26f472970788e1b9638b18961c8932d2c4c400b9d2c258e6c562ca770ba14c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamerescape.com",
-                "kreuzwortraetsel.de",
-                "mangaeffect.com",
-                "mydramalist.com",
-                "wh40k.lexicanum.com",
-                "www.allkpop.com",
-                "www.kreuzwortraetsel.de",
-                "www.tippsundtricks.co",
-                "www.wort-suchen.de"
+                "focus.de",
+                "www.kicker.de",
+                "www.mopo.de"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/setuid",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pbs"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18",
+                "248c5c260b8061ece6b0d78fb45760c32e728018cd13b8e44557f9de44d3ebb0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "eupubconsent-v2": 0.00010023053021950487
+            },
+            "exampleSites": [
+                "grosseleute.de",
+                "www.nintendolife.com",
+                "www.planetminecraft.com",
+                "www.radiosaw.de"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/api\\/adserver\\/spt",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "2972160ae1d81696057a1743e25f48b2d242477c65387bf41b42b954b8ef3ef2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mangaread.org",
+                "www.worldatlas.com"
             ]
         },
         {
@@ -394,27 +506,76 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "11a423a500b07cb276d8a00662f8c68563234daaff29190b69b9ae7ef05c6681",
-                "e0b4a91236dc252503bcfbf41b334d319085a236e35d7aad95e198631f2071cc"
+                "07ddb970b77978bf85ed54bae79a9966328799f579e8e26fc0320e127f150739",
+                "ceec3ca45667f1f24ccadc5384fb783fc47f4599c7fd55406333a9246fea35e5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kreuzwortraetsel.de",
-                "www.kreuzwortraetsel.de",
-                "www.wort-suchen.de"
+                "marktcom.de",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "6a26f472970788e1b9638b18961c8932d2c4c400b9d2c258e6c562ca770ba14c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marktcom.de",
+                "www.notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.planetminecraft.com",
+                "www.worldatlas.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/libs\\/prebid\\/avpb6\\.27\\.0a6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notebookcheck.net",
+                "www.notebookcheck.com",
+                "www.worldatlas.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000903,
+    "cookies": 0.001,
     "types": {
-        "Script": 30,
-        "Image": 10,
-        "XHR": 17,
-        "Document": 7
+        "Document": 11,
+        "Script": 55,
+        "Image": 14,
+        "XHR": 12,
+        "Fetch": 2
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

@@ -7,97 +7,55 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "seo-rpc-gateway",
+        "traveller-api",
         "flight"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "dock-yard\\.io\\/harp-alert",
+            "rule": "dock-yard\\.io\\/graphql",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "seo-rpc-gateway"
+                "traveller-api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4c1ca89397fc89c84a9ca265b572ecaa23d3f1d8ee04df392b1a795979de50f6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airparks.co.uk",
+                "www.airparks.co.uk"
+            ]
+        },
+        {
+            "rule": "dock-yard\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traveller-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "holidayextras.com",
-                "www.holidayextras.com"
-            ]
-        },
-        {
-            "rule": "dock-yard\\.io\\/json-storage",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "seo-rpc-gateway"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "holidayextras.com",
-                "www.holidayextras.com"
-            ]
-        },
-        {
-            "rule": "dock-yard\\.io\\/harp-alert",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "seo-rpc-gateway"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "c7a83b47800a849af1d821283f220ae4ae7adde8ab64183b52f276f31c165c37"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "holidayextras.com",
-                "www.holidayextras.com"
-            ]
-        },
-        {
-            "rule": "dock-yard\\.io\\/json-storage",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "seo-rpc-gateway"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "723c7e8ea244995757990e4c76ea17440d155f89db31586c62013960243b733b"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "holidayextras.com",
-                "www.holidayextras.com"
+                "airparks.co.uk",
+                "www.airparks.co.uk"
             ]
         },
         {
@@ -108,18 +66,22 @@
                 "flight"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "eaec3ad6de0d800e5859f1719b1425b04407035587050351633345908390311e"
+                "3f767d774973197e9634c559f8d28bc4c7bdb58c14bc9719b812f676c5757926",
+                "78b353e9d2a4499dedd13a0f69179d6426553bf929c2e75b34babf09df10353e",
+                "1c3a8512857400e8fcc03d5e57ccf263614bf5e50ee61cfa872430cb4f4ed3f6"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "holidayextras.com",
-                "www.holidayextras.com"
+                "airparks.co.uk",
+                "www.airparks.co.uk",
+                "www.holidayextras.com",
+                "www.purpleparking.com"
             ]
         }
     ],
@@ -127,8 +89,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 4,
-        "XHR": 6
+        "Fetch": 2,
+        "Preflight": 2,
+        "XHR": 4
     },
     "nameservers": [
         "ns-153.awsdns-19.com",

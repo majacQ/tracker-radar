@@ -7,42 +7,68 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000201,
+    "sites": 2,
     "subdomains": [
-        "api"
+        "static",
+        "public-api"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "eventim\\.com\\/evi\\/api\\/evi\\/public\\/rule",
+            "rule": "eventim\\.com\\/evi\\/3\\.12\\/evi-widget\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "api"
+                "static"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "7e222d5deab3757959d111c6d7c0ce57a96294c860465b715f0f4b25b7e582d9"
+                "77c32b3ef7efba4688432ec9a25f386fea0bd99ae6b57b4789148ccff05f42ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventim.de",
+                "www.ticketcorner.ch"
+            ]
+        },
+        {
+            "rule": "eventim\\.com\\/evi\\/api\\/evi\\/public\\/rule",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1e6bffb713107212c820ac263580d5438456a370e2b438256ee67bb13d9c027b",
+                "cde579f6a173bf98f4f441064b0cf04f419d25f2d3e51e9f898574acdf8815c5"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ticketcorner.ch",
+                "eventim.de",
+                "www.eventim.de",
                 "www.ticketcorner.ch"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
-        "Fetch": 2
+        "Script": 2,
+        "Fetch": 3
     },
     "nameservers": [
         "a3-64.akam.net",

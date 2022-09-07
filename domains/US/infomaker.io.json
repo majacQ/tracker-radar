@@ -4,17 +4,55 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
-        "static.lrf",
+        "imengine.public.prod.ktd",
         "imengine2.lrf",
         "imengine.prod.ltn",
-        "prod.ew.ltn"
+        "static.lrf"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "image.khaleejtimes.com",
+            "resolved": "imengine.public.prod.ktd.infomaker.io"
+        }
+    ],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "infomaker\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imengine.public.prod.ktd",
+                "imengine2.lrf",
+                "imengine.prod.ltn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [
+                {
+                    "original": "image.khaleejtimes.com",
+                    "resolved": "imengine.public.prod.ktd.infomaker.io"
+                }
+            ],
+            "responseHashes": [
+                "5e128478d2df24b14fb0038af38927b822d5283d3f948a0f027234b55e2c5ee4",
+                "44d76a73ea8ad7ad59b413d9024e6223ab8ae5b146352a53391beace2c1c0f87",
+                "c01a413286a78b242cdc84e91fad107e7d746979c60f54a1bc5b4ac1269ae1f6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com",
+                "www.land.se",
+                "www.tnonline.com"
+            ]
+        },
         {
             "rule": "infomaker\\.io\\/wp-content\\/themes\\/land-master\\/dist\\/styles\\/main\\.css",
             "cookies": 0,
@@ -24,10 +62,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5036d5bdfe9167731cdf11554cbd339855103ef2c3ff68aacacd93b27e1e0447"
+                "1a270beca4871bd754ed6ebb270cbb161536166fdb5710788e703a49d28bbc54"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -38,31 +76,6 @@
             ]
         },
         {
-            "rule": "infomaker\\.io\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "imengine2.lrf",
-                "imengine.prod.ltn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "e18e43cb1b6c8be9e98a9f21685640ead80914e95bb22e23b0601327c5d23872",
-                "3b942d6541b14c2b06b9c44782b0734f03803a102fecc1e105cfa1bc433a4cf5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "land.se",
-                "www.land.se",
-                "www.tnonline.com"
-            ]
-        },
-        {
             "rule": "infomaker\\.io\\/wp-content\\/themes\\/land-master\\/dist\\/scripts\\/main\\.js",
             "cookies": 0,
             "fingerprinting": 1,
@@ -70,13 +83,15 @@
                 "static.lrf"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c9fe3692ff884538fa35dfba3e612c5b5aa8f6f8b5e8cb879b915e71e891e447"
+                "cb6fe295f4ba46b89567faa97a5cb08e4284880ca4da5e177456ce651ef3a74b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -95,10 +110,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4ce10e24ee02c9e4e08f79885f0c5f955a266cf41eee5fa11c0404101d19feae"
+                "98e153d58690c215cca1d24e61628002e29d59d8b1e65d0d2e194a01f501bb52"
             ],
             "type": "Font",
             "firstPartyCookies": {},
@@ -107,37 +122,15 @@
                 "land.se",
                 "www.land.se"
             ]
-        },
-        {
-            "rule": "infomaker\\.io\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "prod.ew.ltn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "tnonline.com",
-                "www.tnonline.com"
-            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0,
     "types": {
+        "Image": 4,
         "Stylesheet": 2,
-        "Image": 3,
-        "Script": 4,
+        "Script": 2,
         "Font": 2
     },
     "nameservers": [

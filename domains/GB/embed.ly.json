@@ -7,10 +7,11 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
-        "cdn"
+        "cdn",
+        "i-cdn"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -34,7 +35,52 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "time.com",
-                "www.gbnews.uk"
+                "www.rtl-sdr.com"
+            ]
+        },
+        {
+            "rule": "embed\\.ly\\/1\\/display",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8c38a2ed2274acb999c426c5dd3c9b1ad2d00e156503b9789f3c1144bdd30c1e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "concertarchives.org",
+                "www.concertarchives.org"
+            ]
+        },
+        {
+            "rule": "embed\\.ly\\/player-0\\.0\\.12\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "41dcb916808791070bfcb1381a07d00b2bcf921ffcab510dbaab8e5614ccff28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spglobal.com",
+                "www.spglobal.com",
+                "www.timesofisrael.com"
             ]
         }
     ],
@@ -42,12 +88,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 5,
+        "Image": 2
     },
     "nameservers": [
         "ns-1278.awsdns-31.org",
         "ns-1857.awsdns-40.co.uk",
-        "ns-406.awsdns-50.com",
-        "ns-597.awsdns-10.net"
+        "ns-597.awsdns-10.net",
+        "ns-406.awsdns-50.com"
     ]
 }

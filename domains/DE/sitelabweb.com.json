@@ -4,15 +4,46 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000702,
-    "sites": 7,
+    "prevalence": 0.000902,
+    "sites": 9,
     "subdomains": [
+        "colrep",
         "colres",
-        "colrep"
+        "session"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "sitelabweb\\.com\\/chpdata\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "colrep"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triumph.com",
+                "de.triumph.com",
+                "www.arket.com",
+                "www.bodendirect.de",
+                "www.cos.com",
+                "www.newbalance.de",
+                "www.shop-apotheke.com",
+                "www.shop-apotheke.at",
+                "www.stories.com",
+                "www.upwork.com"
+            ]
+        },
         {
             "rule": "sitelabweb\\.com\\/referrer",
             "cookies": 0,
@@ -21,8 +52,8 @@
                 "colres"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
                 "15971bae84a18f790ed6d3842f47d5c3097a44e43f2f891a8571f3273ce25b24"
@@ -31,39 +62,80 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "arket.com",
-                "www.bitiba.de",
-                "www.bodendirect.de",
-                "www.cosstores.com",
+                "triumph.com",
+                "www.arket.com",
+                "www.cos.com",
+                "www.newbalance.de",
+                "www.shop-apotheke.com",
                 "www.stories.com",
-                "www.zooplus.de"
+                "www.upwork.com"
             ]
         },
         {
-            "rule": "sitelabweb\\.com\\/rp\\/",
+            "rule": "sitelabweb\\.com\\/nmg_tag\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "colrep"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+                "df655ac1e861078efa8aaf30c48e69b55e455a934fba6a1c73facef8085009d0"
             ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "arket.com",
-                "www.bitiba.de",
-                "www.bodendirect.de",
-                "www.cosstores.com",
+                "bodendirect.de",
+                "www.upwork.com"
+            ]
+        },
+        {
+            "rule": "sitelabweb\\.com\\/sid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "session"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "52f2de05ca2896d3627bddcda8c3ff4d3c161aaf50652a0297db5bea61d2bb18"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodendirect.de",
+                "www.upwork.com"
+            ]
+        },
+        {
+            "rule": "sitelabweb\\.com\\/jdldata\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "colrep"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shop-apotheke.com",
                 "www.shop-apotheke.com",
-                "www.stories.com",
-                "www.zooplus.de"
+                "www.shop-apotheke.at"
             ]
         }
     ],
@@ -71,8 +143,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 6,
-        "Image": 7
+        "Image": 10,
+        "Script": 9,
+        "XHR": 2,
+        "Fetch": 3
     },
     "nameservers": [
         "ns-1199.awsdns-21.org",

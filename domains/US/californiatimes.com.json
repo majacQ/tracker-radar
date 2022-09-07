@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000345,
-    "sites": 5,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "activate.platform",
         "ssor.platform",
@@ -16,23 +16,36 @@
     "resources": [
         {
             "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/Bootstrap\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
             "subdomains": [
                 "activate.platform"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.language": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "6494a498789cf87c6427e8decc48666ad42c417bf193c3683c21f689f0a03038"
+                "e41f3010e3826ef4a0dcd0e6cc933767778f9df41816c020d5be6853f1815887"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "CALTIMES_ENSIGHTEN_PRIVACY_BANNER_LOADED": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "latimes.com",
@@ -47,13 +60,15 @@
                 "ssor.platform"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ad3f13e7539a35a38e2da76c235648a64104f2cb1442fdf3a81fcdcb403efcbf"
+                "0d77899b5845b78377cca02a7ea5094277750ab223174ebc9dcb8c282c3abffb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -66,20 +81,21 @@
         {
             "rule": "californiatimes\\.com\\/meteringjs\\/latspot\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "libs.platform"
             ],
             "apis": {
                 "window.localStorage": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.storage": 1
+                "window.innerWidth": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ec475f2f4ba1383611919238f76d7c1bec6176ff1be3f5bd98d2deb246bdbc46"
+                "de154ef4ac3ae5b0a24e635ea385be77ab357efbd99986aff6bf0994219becfc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -98,10 +114,10 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "faf9d8a0aaad67f389822224a487c77856849cbb97d4d5b37527f72fb676cf0e"
+                "a6eec83ada4501800d04b969ab2643c6ac92650b3f5d94f049c053b9ebaf70e8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -121,43 +137,19 @@
             ],
             "apis": {
                 "window.localStorage": 3,
-                "Document.cookie getter": 2
+                "Document.cookie getter": 3
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "2c419f753d2f4b332cc37d7b0a14326da3bf8b522d34d988ecd97d83f88f73d8"
+                "83bd74e7261bd24236da4431df477cc603f2374f5169d4e34b4ade224b0e5b81"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "latimes.com",
-                "www.latimes.com",
-                "www.sandiegouniontribune.com"
-            ]
-        },
-        {
-            "rule": "californiatimes\\.com\\/privacy\\/v1\\/b\\/r\\.rnc",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "activate.platform"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "latimes.com",
-                "latimesblogs.latimes.com",
                 "www.latimes.com",
                 "www.sandiegouniontribune.com"
             ]
@@ -171,21 +163,46 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "74cc72a86f30be6186b8e75b2ccb75ad1a6c230608ff8c2357d420cd44200f8f"
+                "dbba1dc9f721c7cd89e3ecd6623cdae8e2b67b23d88b05c05593fcbf5190560d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013555829684555844
+            },
             "exampleSites": [
                 "latimes.com",
                 "www.latimes.com"
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/9f1fa0f4a90d848a8f261c6537a23740\\.js",
+            "rule": "californiatimes\\.com\\/privacy\\/v1\\/b\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "activate.platform"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latimes.com",
+                "www.latimes.com",
+                "www.sandiegouniontribune.com"
+            ]
+        },
+        {
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/b04d43fe3bc5d0f70cf345b755ee1fbd\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -193,10 +210,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "be002b6bc7cd8b9043f09bcc3ddd290611ffa9f39e1923789414390a89e6c0a7"
+                "91a2b5cc9914cea9b83b04ab7f1c78a0c707a1b38c1bac715a0edfd73682539e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -207,15 +224,37 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/624d27262fcacc6c13b4e71421b7b63c\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/3e55e35a7920bee4e0dc5845d3938440\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "activate.platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "176f1e1850d00e90ebd6017d73dd7fead644ed5807dee9d820702bbfd405f0bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latimes.com",
+                "www.latimes.com"
+            ]
+        },
+        {
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/7d83c3b8b50ca1da6d4458b7aa9d426e\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "activate.platform"
             ],
             "apis": {
-                "Screen.prototype.orientation": 2,
                 "Document.cookie getter": 2,
+                "Screen.prototype.orientation": 2,
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
                 "Navigator.prototype.storage": 2,
@@ -223,10 +262,10 @@
                 "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "65cf6da39fb1d7677e2b402054850b43017173b2e9422e8eed4c1956358389f4"
+                "5dac5656b6b3c0576a6559dfe0960a0952c4a01ac1dc64dd19df6a68ef698352"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -237,7 +276,7 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/fff69306c91b8d8c42f744cf32f956fb\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/d49708ca49b6742fb3c7e415784e48b5\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -245,10 +284,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3f67eeec6f33b2f9d9050fe1004f69b5a0a318bcc17bded25736061be1983101"
+                "67b19d52aabbb5a7073309265ed94b6febf35f8750608ebc8bce89432ce20d0d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -259,7 +298,7 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/dd658ba69acc0c9a6c57ad99ee7e8a19\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/6eafe66ec628fb7ca767143e506f287b\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -270,10 +309,10 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1d4815608e9cde74d93030bc79c525c049060fac5ed82aeacfffe301852b69cf"
+                "c1776d9b8be5ea7b6c77f6a42966ba2492ad65a758c15c12830bf6f53e1fc2a4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -284,7 +323,7 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/fa40d706ae3ab8c22b6bd269259e1f51\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/a59be9f52c9f2f8cd7bb7888dc98e105\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -292,10 +331,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d357fc6caa2a50825ab1a12ebf30692e57b0263d48af5f5b26eb53ce47a09a16"
+                "84cf8a07b7faa0d5be42485d855495fad746626f4fcfd9192d4d46dc0de675d3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -306,7 +345,7 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/8004b0f59be7d959c194bbcac43add72\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/latimes\\/code\\/1e12db380f95f8ac51326a3a2b10ddd3\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -317,10 +356,10 @@
                 "Screen.prototype.width": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "654ad4e6d10d7319e6dc93c14e20f9e8bc91fa553cebf246597d8e1b53ac85a2"
+                "9901d6c821de1f8f21a0d3890d505d0fabd7f6e3f6881d3e0002c2f121e430cb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -331,8 +370,31 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/Bootstrap\\.js",
+            "rule": "californiatimes\\.com\\/privacy\\/v1\\/c\\/r\\.rnc",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "activate.platform"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latimes.com",
+                "www.latimes.com",
+                "www.sandiegouniontribune.com"
+            ]
+        },
+        {
+            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/Bootstrap\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "activate.platform"
@@ -340,18 +402,28 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.language": 2,
-                "Document.cookie getter": 1
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1c624db5e38138bc2956b47bad38144fa6a3c015dafe11f436955c3b9051cae8"
+                "be4fd32a867c9f40b8c4e0a38ef75c4ce082d2136433efb25145af95e637b0f5"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "CALTIMES_ENSIGHTEN_PRIVACY_BANNER_LOADED": {
+                    "ttl": 31536004,
+                    "length": 1,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "sandiegouniontribune.com",
@@ -367,14 +439,14 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 1
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4fa328c8fae542fc508658f410fe193862dfc871873ac24138a5e1fa19dd38e5"
+                "4ff289704b79c7871021da15adc029e648b5f53f007ed205b82356e5e93c9229"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -387,20 +459,22 @@
         {
             "rule": "californiatimes\\.com\\/meteringjs\\/sdutspot\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "libs.platform"
             ],
             "apis": {
                 "window.localStorage": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.storage": 2
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "5a4e72c56b73db305e06c0fef0c6c836171d13123a65533b7252878283c5c56e"
+                "83b60a8cca03971508e57db2facf1a083b55669a260efbda90632757d7c9a337"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -419,21 +493,23 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3d4ede72759c6b7e84cf2706f1c2c90645d993139da79d3420c9745f2f7dd880"
+                "6d85e70cd4585468095fdd69041ef192bda2144e733839a39c082df0e62ded5d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013555829684555844
+            },
             "exampleSites": [
                 "sandiegouniontribune.com",
                 "www.sandiegouniontribune.com"
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/6fcddf1146a3f4ca1c835f723e927ac9\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/173e0ba2c853d3d415cee46b3b8d552d\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -441,10 +517,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c6a728263842fa4606c88b9136ca7d99d86d619337d2fef966a46c69a2d02456"
+                "bdbc48cbb838e530c013c9a718ded694b09b813e011253b4696c74eee5ee39f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -455,15 +531,15 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/31b14c364616a78d046979444d839a47\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/40e8bbdcab42fef394cf26174cc67190\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "activate.platform"
             ],
             "apis": {
-                "Screen.prototype.orientation": 2,
                 "Document.cookie getter": 2,
+                "Screen.prototype.orientation": 2,
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
                 "Navigator.prototype.storage": 2,
@@ -472,10 +548,10 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "65d730203838b69763f23ae03c92138da88773750b6d3697878947d77277721a"
+                "c304dec145a03fb61dedfb75cf1c1072d66eeb15b7efac8a8fb2b749450ff7fc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -486,7 +562,7 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/b496e5757bc1098a84644e2c050c1ac2\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/60e8b4164358db2466475418e46abc8e\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -494,10 +570,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "c7c447571df7c2a4b6178abbb8eac090ce235346d6fb0e0e585ebf4c8576d8a1"
+                "1cfa4accefb9522f3c82899972c1490c7bc0a79bf83f50d082ba3fbe688b3d5e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -508,29 +584,7 @@
             ]
         },
         {
-            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/fa40d706ae3ab8c22b6bd269259e1f51\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "activate.platform"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "d357fc6caa2a50825ab1a12ebf30692e57b0263d48af5f5b26eb53ce47a09a16"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "sandiegouniontribune.com",
-                "www.sandiegouniontribune.com"
-            ]
-        },
-        {
-            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/8004b0f59be7d959c194bbcac43add72\\.js",
+            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/1e12db380f95f8ac51326a3a2b10ddd3\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -541,10 +595,32 @@
                 "Screen.prototype.width": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "654ad4e6d10d7319e6dc93c14e20f9e8bc91fa553cebf246597d8e1b53ac85a2"
+                "9901d6c821de1f8f21a0d3890d505d0fabd7f6e3f6881d3e0002c2f121e430cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sandiegouniontribune.com",
+                "www.sandiegouniontribune.com"
+            ]
+        },
+        {
+            "rule": "californiatimes\\.com\\/caltimes\\/sdut-bsp-prod\\/code\\/b3eec0106d8d4195d15ae217450320ed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "activate.platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a69c0a17debc4a80c5a61443a7b2d04c8136fccd31833abd0080b532600b8297"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -557,10 +633,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000271,
     "types": {
-        "Script": 44,
-        "Image": 4
+        "Script": 46,
+        "Image": 6
     },
     "nameservers": [
         "ns-484.awsdns-60.com",

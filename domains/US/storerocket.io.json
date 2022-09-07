@@ -4,14 +4,125 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000345,
-    "sites": 5,
+    "prevalence": 0.0000474,
+    "sites": 7,
     "subdomains": [
-        "cdn"
+        "cdn",
+        "api"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "storerocket\\.io\\/js\\/embed\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "781d3e3dec2851f45146a4fc08c75d49c784a40cab6ecd3f30b6601bec8ef129"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slimchickens.com",
+                "www.fitnescity.com"
+            ]
+        },
+        {
+            "rule": "storerocket\\.io\\/css\\/embed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "038bae6618ec543baf78bca224546bfd6d457261e40ce33714e90ccb4a9a8405"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slimchickens.com",
+                "www.fitnescity.com"
+            ]
+        },
+        {
+            "rule": "storerocket\\.io\\/js\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dd71162929e9f0df93270fdb5f1101ebe6a3e9241f9b3b3671ce02d81f27eb12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slimchickens.com",
+                "www.fitnescity.com"
+            ]
+        },
+        {
+            "rule": "storerocket\\.io\\/api\\/user\\/OdJERyL8WE",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7f78f7bbf3da6816502645968537eef157598547bc20282ad9414565b98a7f76"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitnescity.com",
+                "www.fitnescity.com"
+            ]
+        },
+        {
+            "rule": "storerocket\\.io\\/embed\\/OdJERyL8WE\\/launcher",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e77e98684d05f68eda6fa60c0c34fab01ae432ae1370ad1b0ec37dc1892814a9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitnescity.com",
+                "www.fitnescity.com"
+            ]
+        },
         {
             "rule": "storerocket\\.io\\/widget\\.js",
             "cookies": 0,
@@ -21,10 +132,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "326cb47daafc671724971be8e1e37df37b256e4f58069f0bf0cb661982eca0b3"
+                "967edb59e6ad4853cb9263418322d7c2317941e35cf2cf8036466d98e2dea446"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -37,9 +148,12 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000271,
     "types": {
-        "Script": 2
+        "Script": 6,
+        "Stylesheet": 2,
+        "XHR": 2,
+        "Document": 2
     },
     "nameservers": [
         "pam.ns.cloudflare.com",

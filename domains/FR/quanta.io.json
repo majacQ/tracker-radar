@@ -4,42 +4,61 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000702,
+    "sites": 7,
     "subdomains": [
-        "rum-metrics"
+        "appstatic"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "quanta\\.io\\/f376e2a6b9625f311f905ded1e8b1804e84b2bc1d797454488\\/beacon\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "quanta\\.io\\/rum\\/1894\\/quanta-rum-v2\\.0\\.0\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
             "subdomains": [
-                "rum-metrics"
+                "appstatic"
             ],
-            "apis": {},
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.platform": 2
+            },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "3ae25a648e070dcebced6e728fc7de76719bc6baa2ec47e82534d63f76c23c8b"
+                "6440fd31d311a900fdca50083f8537824e108bd109c404638b50960a281eccc3"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "_qta_rum": {
+                    "ttl": 1819,
+                    "length": 2,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "melty.fr",
-                "www.melty.fr"
+                "courir.com",
+                "www.courir.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.000702,
     "types": {
-        "Image": 2
+        "Script": 2
     },
     "nameservers": [
         "ns-220.awsdns-27.com",

@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000802,
-    "sites": 8,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
         "client",
-        "image"
+        "image",
+        "client.relay"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -24,99 +25,142 @@
                 "client"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "Date.prototype.getTimezoneOffset": 8,
-                "Navigator.prototype.languages": 8,
-                "Navigator.prototype.mediaDevices": 8,
-                "Navigator.prototype.cookieEnabled": 8,
-                "Navigator.prototype.appVersion": 8
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTimezoneOffset": 10,
+                "Navigator.prototype.languages": 10,
+                "Navigator.prototype.mediaDevices": 10,
+                "window.innerWidth": 10,
+                "window.innerHeight": 10,
+                "Navigator.prototype.cookieEnabled": 10,
+                "Navigator.prototype.appVersion": 10
             },
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "589ee9b72c357818cdabb776e5b811d7a176fa6afe046bb00c3194826e3e6ce4"
+                "606544e1a9799b24a9adb613926b64f4d8e6a920c46c8453dcafbbf5f3aa7524"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "geekymedics.com",
                 "inflact.com",
                 "reedsy.com",
+                "usafoods.com.au",
+                "www.icliniq.com",
                 "www.lloydsauctions.com.au",
                 "www.myhaircare.com.au",
                 "www.mymusclechef.com",
-                "www.projectveritas.com",
-                "www.renovatorstore.com.au",
+                "www.trackingmore.com",
                 "www.yubico.com"
             ]
         },
         {
             "rule": "crisp\\.chat\\/static\\/javascripts\\/client\\.js",
-            "cookies": 0.000501,
+            "cookies": 0.001,
             "fingerprinting": 2,
             "subdomains": [
                 "client"
             ],
             "apis": {
-                "HTMLMediaElement.prototype.canPlayType": 8,
-                "Navigator.prototype.maxTouchPoints": 8,
-                "Date.prototype.getTime": 8,
-                "Navigator.prototype.userAgent": 8,
-                "window.sessionStorage": 8,
-                "Navigator.prototype.product": 8,
-                "window.localStorage": 7,
-                "Document.cookie getter": 5,
-                "Document.cookie setter": 5
+                "HTMLMediaElement.prototype.canPlayType": 10,
+                "Navigator.prototype.maxTouchPoints": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie getter": 10,
+                "Navigator.prototype.product": 10,
+                "window.sessionStorage": 10,
+                "Document.cookie setter": 10,
+                "window.localStorage": 10,
+                "window.innerHeight": 10,
+                "window.innerWidth": 10
             },
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "14c56e9da103cef51354e475a6a3431f75f3ce750edbdeaa68eaa43c7de08c49"
+                "a586d884a1d5413849783bea66cb216710fa58ff31bc5bdcb224ee2badae3307"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "crisp-client%2Fsession%2F8582e868-5611-4536-8897-51c0c51cc840": {
-                    "ttl": 15768013,
+                "crisp-client%2Fsession%2Fcdfb9054-1a9e-43f8-8888-33f42869f76a": {
+                    "ttl": 15768011,
                     "length": 44,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2Ff530319a-693e-4cfa-8e5e-e7ac510873f2": {
+                    "ttl": 15768010,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2F8582e868-5611-4536-8897-51c0c51cc840": {
+                    "ttl": 15768015,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2F2e11c9b0-e435-4bb9-a89d-22a8725e3978": {
+                    "ttl": 15768026,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2F44c8628b-aae9-45eb-98f2-c4db5eea6088": {
+                    "ttl": 15768011,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2Fa198aec0-5c3e-45f8-8f3e-7e3012a0220e": {
+                    "ttl": 15768016,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "crisp-client%2Fsession%2F1b528f39-d044-42d8-91ca-2dd58517c9e3": {
-                    "ttl": 15768013,
+                    "ttl": 15768012,
                     "length": 44,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "crisp-client%2Fsession%2F5fff203d-1916-4a4d-b2d5-407d3694e41e": {
-                    "ttl": 15768010,
-                    "length": 44,
-                    "prevalence": 0.00010022048506714773,
-                    "uniqueness": 1
-                },
-                "crisp-client%2Fsession%2F74ddb773-206f-4117-9c9f-d3c19c1beed8": {
-                    "ttl": 15768010,
-                    "length": 44,
-                    "prevalence": 0.00010022048506714773,
-                    "uniqueness": 1
-                },
-                "crisp-client%2Fsession%2Fbc879cba-1b23-44d4-8a7b-ab89d50eeb65": {
                     "ttl": 15768012,
                     "length": 44,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2F99d33d31-6c5b-4401-b4c8-4b22e91474ca": {
+                    "ttl": 15768015,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsocket%2F99d33d31-6c5b-4401-b4c8-4b22e91474ca": {
+                    "ttl": -1660838231,
+                    "length": 1,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                },
+                "crisp-client%2Fsession%2Fc8ce9fa4-d423-4400-93e3-961c097bc7c2": {
+                    "ttl": 15768013,
+                    "length": 44,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "geekymedics.com",
                 "inflact.com",
                 "reedsy.com",
+                "usafoods.com.au",
+                "www.icliniq.com",
                 "www.lloydsauctions.com.au",
                 "www.myhaircare.com.au",
                 "www.mymusclechef.com",
-                "www.projectveritas.com",
-                "www.renovatorstore.com.au",
+                "www.trackingmore.com",
                 "www.yubico.com"
             ]
         },
@@ -128,23 +172,25 @@
                 "client"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "35fb10c43bbcac422e48e9f6f35465e2a20b3f49c4d70e52c97fab3909fb72bb"
+                "c9c61bb6004fddf317317d374c110f542c304111ce52b5f4603cc13b04ed0704"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "geekymedics.com",
                 "inflact.com",
                 "reedsy.com",
+                "usafoods.com.au",
+                "www.icliniq.com",
                 "www.lloydsauctions.com.au",
                 "www.myhaircare.com.au",
                 "www.mymusclechef.com",
-                "www.projectveritas.com",
-                "www.renovatorstore.com.au",
+                "www.trackingmore.com",
                 "www.yubico.com"
             ]
         },
@@ -156,23 +202,25 @@
                 "client"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "1e6a02537662d902138b1d3d4a392a9c77f5db17f359e3c88bd5a68cf38d5f2d"
+                "9daaf2ad15bece2b36d07d071fc920778be6efe8b5c9d03436a0ab13cb1a4b71"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "geekymedics.com",
                 "inflact.com",
                 "reedsy.com",
+                "usafoods.com.au",
+                "www.icliniq.com",
                 "www.lloydsauctions.com.au",
                 "www.myhaircare.com.au",
                 "www.mymusclechef.com",
-                "www.projectveritas.com",
-                "www.renovatorstore.com.au",
+                "www.trackingmore.com",
                 "www.yubico.com"
             ]
         },
@@ -184,26 +232,120 @@
                 "image"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "911b9000a6d6d3063a3af839f70763680f4234558a586ef86c7a735479fddfe3",
+                "fc5fa14713c84963e9b4cc23e67274c94272538313122ad0b394e118f0978b47"
+            ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "inflact.com",
-                "reedsy.com"
+                "reedsy.com",
+                "usafoods.com.au"
+            ]
+        },
+        {
+            "rule": "crisp\\.chat\\/static\\/fonts\\/noto_sans\\/0020-007F\\/noto_sans_bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f55d0af125014ed162001f7ab77253e6f93df70584ab38146900716648b4af8a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inflact.com",
+                "reedsy.com",
+                "usafoods.com.au"
+            ]
+        },
+        {
+            "rule": "crisp\\.chat\\/static\\/fonts\\/noto_sans\\/0020-007F\\/noto_sans_regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "73a4961e623d8d7b9b68bb2d14677718442a1f4e334248f26c21650825cf0ef9"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inflact.com",
+                "reedsy.com",
+                "usafoods.com.au"
+            ]
+        },
+        {
+            "rule": "crisp\\.chat\\/settings\\/website\\/99d33d31-6c5b-4401-b4c8-4b22e91474ca\\/prelude\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "83d523d6459def8bc1c0a63ea48479a97e6650b2855bb44be887414a2eba7b61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trackingmore.com",
+                "www.trackingmore.com"
+            ]
+        },
+        {
+            "rule": "crisp\\.chat\\/w\\/e0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client.relay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trackingmore.com",
+                "www.trackingmore.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000501,
+    "cookies": 0.001,
     "types": {
-        "Script": 24,
-        "Stylesheet": 8,
-        "Image": 2
+        "Script": 32,
+        "Stylesheet": 10,
+        "Image": 3,
+        "Font": 6,
+        "WebSocket": 2
     },
     "nameservers": [
         "ns1.crisp.chat",

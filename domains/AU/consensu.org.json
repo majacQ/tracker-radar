@@ -7,23 +7,20 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0355,
-    "sites": 354,
+    "prevalence": 0.0268,
+    "sites": 267,
     "subdomains": [
         "quantcast.mgr",
         "cdn.consentmanager.mgr",
         "consentmanager.mgr",
-        "vendorlist",
         "test.quantcast.mgr",
         "audit-tcfv2.quantcast.mgr",
-        "trustarc.mgr",
-        "clickio.mgr",
-        "admiral.mgr",
         "cdn.conversant.mgr",
-        "api.conversant.mgr"
+        "api.conversant.mgr",
+        "trustarc.mgr"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "consensu\\.org\\/cmp\\.js",
@@ -33,8 +30,8 @@
                 "quantcast.mgr"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "60d8c88007dd47e378850d031990400b01e7932cca0a2654dd662a95aa31e77a"
@@ -44,315 +41,66 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "10minutemail.com",
-                "knowyourmeme.com",
-                "www.androidheadlines.com",
-                "www.babynamewizard.com",
-                "www.chordie.com",
-                "www.dvdsreleasedates.com",
                 "www.insidermonkey.com",
-                "www.mindbodygreen.com",
-                "www.motherearthnews.com",
+                "www.searchquarry.com",
                 "www.teslarati.com"
             ]
         },
         {
             "rule": "consensu\\.org\\/tcfv2\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.0001,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.product": 182,
-                "Navigator.prototype.userAgent": 182,
-                "window.localStorage": 124,
-                "Document.cookie getter": 112,
-                "Date.prototype.getTime": 26
+                "Navigator.prototype.product": 138,
+                "Navigator.prototype.userAgent": 138,
+                "window.localStorage": 99,
+                "Document.cookie getter": 99,
+                "Date.prototype.getTime": 15,
+                "Document.cookie setter": 1
             },
-            "sites": 182,
-            "prevalence": 0.0182,
+            "sites": 139,
+            "prevalence": 0.0139,
             "cnames": [],
             "responseHashes": [
-                "68aac77383cddf341ca76c5944e3e28df30b81b77b70e07042ea141e0447597b"
+                "47a2d133064504ee53496e9739d8fdb388031dbce3acb88ba82606b416ad5f05"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 33696000,
+                    "length": 4,
+                    "prevalence": 0.00010026067776218167,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {
-                "_li_dcdm_c": 0.00020044097013429546
+                "lotame_domain_check": 0.00120312813314618,
+                "_li_dcdm_c": 0.00020052135552436334
             },
             "exampleSites": [
                 "9gag.com",
                 "forum.xda-developers.com",
                 "itsfoss.com",
                 "myanimelist.net",
-                "patient.info",
+                "researchgate.net",
                 "whatismyipaddress.com",
-                "www.answers.com",
-                "www.express.co.uk",
+                "www.manualslib.com",
                 "www.nfl.com",
-                "www.worldhistory.org",
-                "www.joblo.com",
-                "www.xda-developers.com",
-                "celebhook.com",
-                "www.timesofisrael.com",
-                "www.powerthesaurus.org",
-                "www.avforums.com",
-                "www.creativespirits.info",
-                "www.carscoops.com",
-                "www.girlsaskguys.com",
-                "www.totalprosports.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp\\.min\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 21,
-            "prevalence": 0.0021,
-            "cnames": [],
-            "responseHashes": [
-                "12940ec656d0dc49993e7294149c671fd9a633d916536fbda7ae4bab15b144f0"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "steamah.com",
-                "www.trueachievements.com",
-                "www.futwiz.com",
-                "www.pcgamesn.com",
-                "www.gamepretty.com",
-                "www.sarna.net",
-                "alcasthq.com",
-                "newworldfans.com",
-                "psnprofiles.com",
-                "namemc.com",
-                "techraptor.net",
-                "serebii.net",
-                "www.theloadout.com",
-                "www.openpr.com",
-                "genshin.gg",
-                "www.serebii.net",
-                "www.kevduit.com",
-                "oldschool.tools",
-                "parade.com",
-                "www.newworld-map.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp\\.php",
-            "cookies": 0.000802,
-            "fingerprinting": 1,
-            "subdomains": [
-                "consentmanager.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 15,
-                "Document.cookie getter": 8
-            },
-            "sites": 23,
-            "prevalence": 0.00231,
-            "cnames": [],
-            "responseHashes": [
-                "ab36100872d145815562d33f986ef2d2ab0c65ebe62838e331140b42cee92d14",
-                "83a96da36c5bbc6ef520ee2cd6b299542908d6eb9dcc0a71d8d33d3f062a4cfa",
-                "19de615c695ab360927378e25bdb4846bbd587f754a82bd13d0ff1227eb457e1",
-                "cc4a963e091068251d2118fb084038ce8e15f231548f839ae523578649433b0c",
-                "db67547ae2309ec1ea808fc27109c9056b20679763cd4e9106c543bff59a0b23",
-                "a3fd016397d2652182e07d38b899fddb1c0dd799dfee5a2ee082ba8c21d998e7",
-                "cd7093cfcdea5e11df21bfde1aa07171a4a249d151a81b3bf79e4ad945062c7b",
-                "9f6026036d0a20e9fec7904cec888c81ca0c293ac26c70c440d9519d25af9fe3",
-                "ff89d3da7c5af1574587a0f98373b8c5931515970f21c1e339e034119bbdf3c9",
-                "64792b575bd59b42040f8ca855dff120b936ef2cb72eaa61d5f41d6c6aaadc35",
-                "cd950c3819d59c615c2570f03b3a9d7adb20308a00b806085a62952d4d3dc04e",
-                "18c13f64965e37f369524f197895089596d1857ee7ff3b1ba6f1f47027ad8523",
-                "7f9d7150f7b33a2170d5c1e0c597ce8d3ad20509b945403cfa74daeb51c53d0f",
-                "6c1df974f1e6a08df779fc7275149a44f8331addea03eee75b381c9510752b1b",
-                "13f2da20f5d819e258f23955ee3aa8aee2ea0bbe4aa72d5c76ee3626c522ac36",
-                "fc8854f5f78fb0e29da5836df4aea7c4065359bd6d7056cb6b1a728868689475",
-                "1c03dcfae890cbcc1d29b855df6eb22aa2b9fd42a11ff717e0d37b632fd36cc3",
-                "31a8f19b9a0ddd211847cf7e0d3735de51e07855beef711575d8e2564182f2d2"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.pcgamesn.com",
-                "www.futwiz.com",
-                "alcasthq.com",
-                "www.sarna.net",
-                "parade.com",
-                "www.kevduit.com",
-                "steamah.com",
-                "www.gamepretty.com",
-                "genshin.gg",
-                "www.trueachievements.com",
-                "www.theloadout.com",
-                "steamcharts.com",
-                "www.serebii.net",
-                "coupons.nine.com.au",
-                "www.newworld-map.com",
-                "serebii.net",
-                "techraptor.net",
-                "psnprofiles.com",
-                "namemc.com",
-                "www.cuponation.com.au"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/cmp_en\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {
-                "Document.cookie getter": 20,
-                "Date.prototype.getTime": 21,
-                "Navigator.prototype.languages": 7,
-                "Navigator.prototype.language": 7
-            },
-            "sites": 21,
-            "prevalence": 0.0021,
-            "cnames": [],
-            "responseHashes": [
-                "6c32cc39cae3c9cf6d1274e1f1de89a1b3307980e7dc97d1ef1ee69b1cfb6b5e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.newworld-map.com",
-                "steamcharts.com",
-                "alcasthq.com",
-                "www.kevduit.com",
-                "www.futwiz.com",
-                "psnprofiles.com",
-                "www.pcgamesn.com",
-                "www.openpr.com",
-                "www.serebii.net",
-                "steamah.com",
-                "namemc.com",
-                "serebii.net",
-                "techraptor.net",
-                "www.gamepretty.com",
-                "parade.com",
-                "www.sarna.net",
-                "www.trueachievements.com",
-                "www.theloadout.com",
-                "genshin.gg",
-                "oldschool.tools"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/customdata\\/bV8xLndfOTU0NS5kXzM4MTAueF8xMDEudi5wLnRfMzgxMA\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn.consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 17,
-            "prevalence": 0.0017,
-            "cnames": [],
-            "responseHashes": [
-                "ac5283cb2fbe9ab43fbc3bfdcb551e8bbf440d5d7a5b6d56c820e0156c1ffa3b",
-                "0ccdc38144eb836d90bf4d532ca617098e274459ab1e05bbcfbd22cc329460dd"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "alcasthq.com",
-                "genshin.gg",
-                "namemc.com",
-                "newworldfans.com",
-                "oldschool.tools",
-                "psnprofiles.com",
-                "serebii.net",
-                "steamah.com",
-                "steamcharts.com",
-                "techraptor.net",
-                "www.futwiz.com",
-                "www.gamepretty.com",
-                "www.kevduit.com",
-                "www.newworld-map.com",
-                "www.sarna.net",
-                "www.serebii.net",
-                "www.trueachievements.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/delivery\\/pixel\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "consentmanager.mgr"
-            ],
-            "apis": {},
-            "sites": 23,
-            "prevalence": 0.00231,
-            "cnames": [],
-            "responseHashes": [
-                "5704a2e9f2f7ce43a79f9b407f1aedcfd50223cbe8bd2f71ff8c5c819e469cbc"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "newworldfans.com",
-                "www.pcgamesn.com",
-                "www.newworld-map.com",
-                "steamah.com",
-                "www.sarna.net",
-                "www.trueachievements.com",
-                "oldschool.tools",
-                "parade.com",
-                "www.gamepretty.com",
-                "www.futwiz.com",
-                "coupons.nine.com.au",
-                "techraptor.net",
-                "genshin.gg",
-                "www.serebii.net",
-                "alcasthq.com",
-                "www.theloadout.com",
-                "psnprofiles.com",
-                "www.cuponation.com.au",
-                "www.openpr.com",
-                "serebii.net"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/6Fv0cGNfc_bw8\\/www\\.themoneytizer\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 6,
-                "Navigator.prototype.language": 1
-            },
-            "sites": 6,
-            "prevalence": 0.000601,
-            "cnames": [],
-            "responseHashes": [
-                "8f24dc76070927cc3d13b4f52f8ecb898fce1875c32563e7a3fae2450ef6babc"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "answerstoall.com",
-                "boardgamestips.com",
-                "colors-newyork.com",
-                "psichologyanswers.com",
-                "urlebird.com",
-                "www.mvorganizing.org"
+                "www.researchgate.net",
+                "www.diabetes.co.uk",
+                "www.thestudentroom.co.uk",
+                "spamcalls.net",
+                "www.gottabemobile.com",
+                "www.tecmint.com",
+                "worldpopulationreview.com",
+                "imgur.com",
+                "www.thenamemeaning.com",
+                "readysteadycut.com",
+                "www.ozbargain.com.au",
+                "www.litcharts.com"
             ]
         },
         {
@@ -366,10 +114,10 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "059d141419f8eae1c1231dfb19d562e76da137b1380e0aca1b3a7cba4c3219a7"
+                "bedbfd998fd1d99418830d85189c3dca1064df40ac50ff016865e988d8c51473"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -380,294 +128,29 @@
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/27\\/cmp2\\.js",
+            "rule": "consensu\\.org\\/choice\\/6Fv0cGNfc_bw8\\/www\\.themoneytizer\\.com\\/choice\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3,
-                "window.localStorage": 1,
-                "Document.cookie getter": 1,
-                "Date.prototype.getTime": 1
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 1
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "af5fa93f43ebd6644d0ce119197c8c97efbe40997042bdd69830b779125780e9"
+                "ad07c6b24e5575bc7fea432515d21d7ada9aeee0bdd5518b1d5fe24b98a091e3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mathworks.com",
-                "www.immunology.org",
-                "www.mathworks.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/v-215\\/vendorlist\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "vendorlist"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pcmag.com",
-                "www.pcmag.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/5pR25819dph-b\\/fextralife\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 10
-            },
-            "sites": 10,
-            "prevalence": 0.001,
-            "cnames": [],
-            "responseHashes": [
-                "d84ee983231a00b7c7c0ad49ebc009a26724b53e8817a0a2448583c311782e7c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "darksouls.wiki.fextralife.com",
-                "darksouls2.wiki.fextralife.com",
-                "diablo2.wiki.fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "elderscrollsonline.wiki.fextralife.com",
-                "monsterhunterrise.wiki.fextralife.com",
-                "monsterhunterworld.wiki.fextralife.com",
-                "newworld.wiki.fextralife.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/33\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 25,
-                "Navigator.prototype.userAgent": 25,
-                "window.localStorage": 24,
-                "Document.cookie getter": 24
-            },
-            "sites": 25,
-            "prevalence": 0.00251,
-            "cnames": [],
-            "responseHashes": [
-                "d0640745a18673143ae3aa8bb964dddc857bd12f4a6f116149edf8408d2e9072"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "twinfinite.net",
-                "www.nexusmods.com",
-                "fextralife.com",
-                "www.gta5-mods.com",
-                "www.rolex.com",
-                "www.cheatsheet.com",
-                "diablo2.diablowiki.net",
-                "darksouls2.wiki.fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "www.pcinvasion.com",
-                "elderscrollsonline.wiki.fextralife.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "www.systemrequirementslab.com",
-                "www.pocketgamer.com",
-                "robloxsong.com",
-                "darksouls.wiki.fextralife.com",
-                "monsterhunterworld.wiki.fextralife.com",
-                "diablo2.wiki.fextralife.com",
-                "www.diabloii.net",
-                "mcpedl.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/GVL-v2\\/cmp-list\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "test.quantcast.mgr"
-            ],
-            "apis": {},
-            "sites": 68,
-            "prevalence": 0.00681,
-            "cnames": [],
-            "responseHashes": [
-                "0a5c20add80dfa892c8ce20c1185a664b9d9ba991c3b7281db96dab5178bfbf6"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.express.co.uk",
-                "www.mirror.co.uk",
-                "www.researchgate.net",
-                "www.sciencefocus.com",
-                "www.australiangeographic.com.au",
-                "www.phoronix.com",
-                "www.realestateview.com.au",
-                "www.gardeningknowhow.com",
-                "www.calcmaps.com",
-                "www.deliciousmagazine.co.uk",
-                "digital-photography-school.com",
-                "podtail.com",
-                "wind.willyweather.com.au",
-                "www.barstoolsports.com",
-                "www.thesouthafrican.com",
-                "www.gardenersworld.com",
-                "www.madeformums.com",
-                "www.suggest.com",
-                "dnschecker.org",
-                "forum.bikeradar.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/35\\/cmp2ui-en\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 26,
-                "Navigator.prototype.userAgent": 26,
-                "Date.prototype.getTime": 26,
-                "Screen.prototype.width": 26
-            },
-            "sites": 26,
-            "prevalence": 0.00261,
-            "cnames": [],
-            "responseHashes": [
-                "5497d7b0c9713f3e5f37f4a6974af180eec8b11f969b13a4cba88a795916a806"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.express.co.uk",
-                "www.officialcharts.com",
-                "www.entertainmentdaily.co.uk",
-                "www.thesouthafrican.com",
-                "www.fantasyfootballscout.co.uk",
-                "www.deliciousmagazine.co.uk",
-                "www.marinetraffic.com",
-                "www.madeformums.com",
-                "www.typingtest.com",
-                "www.gardeningknowhow.com",
-                "www.classical-music.com",
-                "www.bbcgoodfood.com",
-                "www.sciencefocus.com",
-                "forum.bikeradar.com",
-                "www.diabetes.co.uk",
-                "podtail.com",
-                "www.bikeradar.com",
-                "www.digitalmusicnews.com",
-                "www.pistonheads.com",
-                "www.radiotimes.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/GVL-v2\\/vendor-list-trimmed-v1\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {},
-            "sites": 26,
-            "prevalence": 0.00261,
-            "cnames": [],
-            "responseHashes": [
-                "fade2d08994edcfb3de3883f9d23491bdf45476b8e25915736ad467d066f00ca"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.express.co.uk",
-                "www.typingtest.com",
-                "www.thenamemeaning.com",
-                "podtail.com",
-                "www.sciencefocus.com",
-                "www.fantasyfootballscout.co.uk",
-                "www.pistonheads.com",
-                "journals.sagepub.com",
-                "www.officialcharts.com",
-                "www.diabetes.co.uk",
-                "www.classical-music.com",
-                "www.digitalmusicnews.com",
-                "www.olivemagazine.com",
-                "www.marinetraffic.com",
-                "www.carscoops.com",
-                "www.radiotimes.com",
-                "www.bikeradar.com",
-                "www.madeformums.com",
-                "forum.bikeradar.com",
-                "www.entertainmentdaily.co.uk"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "audit-tcfv2.quantcast.mgr"
-            ],
-            "apis": {},
-            "sites": 33,
-            "prevalence": 0.00331,
-            "cnames": [],
-            "responseHashes": [
-                "2d0f6b590917e7d27ddeb026b280d62dde9d03bb92f47f56342fc5f68f0c24eb"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.express.co.uk",
-                "www.mirror.co.uk",
-                "www.entertainmentdaily.co.uk",
-                "www.calcmaps.com",
-                "journals.sagepub.com",
-                "www.officialcharts.com",
-                "www.fantasyfootballscout.co.uk",
-                "www.walesonline.co.uk",
-                "www.olivemagazine.com",
-                "www.immunology.org",
-                "www.diabetes.co.uk",
-                "www.classical-music.com",
-                "www.bikeradar.com",
-                "www.marinetraffic.com",
-                "www.sciencefocus.com",
-                "www.madeformums.com",
-                "www.manchestereveningnews.co.uk",
-                "www.pistonheads.com",
-                "www.deliciousmagazine.co.uk",
-                "www.thenamemeaning.com"
+                "bikehike.org",
+                "news.am",
+                "urlebird.com"
             ]
         },
         {
@@ -680,13 +163,14 @@
             "apis": {
                 "Navigator.prototype.languages": 2,
                 "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "fac8b74f6443ac0b588357f6ef5413ba5e0d5e29a2004d63c682ec21e6f00168"
+                "1730c6101fb786cb64e268d65d06bd6dcd651fa12fdabf97b6473938563224dc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -697,8 +181,35 @@
             ]
         },
         {
+            "rule": "consensu\\.org\\/delivery\\/cmp\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consentmanager.mgr"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "84985622338e2fbdcf6ab5c677ee56d4416546e132f062afd8e6c45829d00898",
+                "2ecb85456abbacc1ab59fd13be865bdc56065b1e0574ef4692a6033a30284e9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "coupons.nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
             "rule": "consensu\\.org\\/delivery\\/js\\/cmp_en\\.min\\.js",
-            "cookies": 0.0002,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn.consentmanager.mgr"
@@ -711,53 +222,53 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6c32cc39cae3c9cf6d1274e1f1de89a1b3307980e7dc97d1ef1ee69b1cfb6b5e"
+                "3a94e9260eb7e98a7aae4f5008afff35776666f9fc7b379e1d726b700342934c"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "__cmpconsentx26949": {
-                    "ttl": 86408,
+                    "ttl": 1209613,
                     "length": 44,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "__cmpcvcx26949": {
-                    "ttl": 86408,
-                    "length": 28,
-                    "prevalence": 0.00010022048506714773,
+                    "ttl": 1209613,
+                    "length": 24,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "__cmpcpcx26949": {
-                    "ttl": 86408,
+                    "ttl": 1209613,
                     "length": 4,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "__cmpcvc": {
-                    "ttl": 86408,
-                    "length": 23,
-                    "prevalence": 0.00020044097013429546,
+                    "ttl": 1209613,
+                    "length": 24,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 1
                 },
                 "__cmpcpc": {
-                    "ttl": 86408,
+                    "ttl": 1209613,
                     "length": 4,
-                    "prevalence": 0.00020044097013429546,
+                    "prevalence": 0.00020052135552436334,
                     "uniqueness": 0.5
                 },
                 "__cmpconsentx30388": {
-                    "ttl": 1209606,
+                    "ttl": 1209612,
                     "length": 44,
-                    "prevalence": 0.00010022048506714773,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 },
                 "__cmpcccx30388": {
-                    "ttl": 1209606,
-                    "length": 23,
-                    "prevalence": 0.00010022048506714773,
+                    "ttl": 1209612,
+                    "length": 27,
+                    "prevalence": 0.00010026067776218167,
                     "uniqueness": 1
                 }
             },
@@ -768,62 +279,113 @@
             ]
         },
         {
-            "rule": "consensu\\.org\\/GVL-v2\\/vendor-list\\.json",
+            "rule": "consensu\\.org\\/delivery\\/alertdomains\\.php",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "test.quantcast.mgr",
-                "quantcast.mgr"
+                "consentmanager.mgr"
             ],
             "apis": {},
-            "sites": 54,
-            "prevalence": 0.00541,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "c5f2a9329c15bccafd83c5acefcb49f5042436f7d78ff7b195a9b0454c5c99a7"
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
             ],
-            "type": "XHR",
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.independent.co.uk",
-                "www.mirror.co.uk",
-                "www.researchgate.net",
-                "www.realestateview.com.au",
-                "www.oursteps.com.au",
-                "www.the-ambient.com",
-                "www.executivetraveller.com",
-                "www.walesonline.co.uk",
-                "www.australiangeographic.com.au",
-                "www.dailystar.co.uk",
-                "www.wareable.com",
-                "www.rent.com.au",
-                "www.manchestereveningnews.co.uk",
-                "www.rsvp.com.au",
-                "www.swellnet.com",
-                "www.willyweather.com.au",
-                "rainfall.willyweather.com.au",
-                "www.betootaadvocate.com",
-                "www.phoronix.com",
-                "www.barstoolsports.com"
+                "nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/delivery\\/info\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentmanager.mgr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nine.com.au",
+                "coupons.nine.com.au",
+                "www.cuponation.com.au"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/40\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 52,
+                "Navigator.prototype.userAgent": 52,
+                "window.localStorage": 50,
+                "Document.cookie getter": 50
+            },
+            "sites": 53,
+            "prevalence": 0.00531,
+            "cnames": [],
+            "responseHashes": [
+                "798f5481a5a9a77bdd05e6949f9ca2f61cf3957fa191a937bb99da277ae8802e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.0016041708441949067
+            },
+            "exampleSites": [
+                "www.howtogeek.com",
+                "www.nexusmods.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.gta5-mods.com",
+                "www.digitalcameraworld.com",
+                "www.womanandhome.com",
+                "www.guitarworld.com",
+                "www.pcinvasion.com",
+                "www.space.com",
+                "darksouls.wiki.fextralife.com",
+                "www.creativebloq.com",
+                "www.tapology.com",
+                "www.cyclingnews.com",
+                "www.livescience.com",
+                "www.musicradar.com",
+                "forums.tomsguide.com",
+                "divinityoriginalsin2.wiki.fextralife.com",
+                "www.bikeperfect.com"
             ]
         },
         {
             "rule": "consensu\\.org\\/tcfv2\\/23\\/cmp2\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 34,
-                "Navigator.prototype.product": 34,
-                "window.localStorage": 34,
-                "Document.cookie getter": 33,
-                "Date.prototype.getTime": 34
+                "Navigator.prototype.userAgent": 24,
+                "Navigator.prototype.product": 24,
+                "window.localStorage": 24,
+                "Document.cookie getter": 24,
+                "Date.prototype.getTime": 24
             },
-            "sites": 34,
-            "prevalence": 0.00341,
+            "sites": 24,
+            "prevalence": 0.00241,
             "cnames": [],
             "responseHashes": [
                 "b3d7664a9bc1602bae1581a2bb4181109516fb2ae83e439e272954399a8adb12"
@@ -832,26 +394,26 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.researchgate.net",
                 "wind.willyweather.com.au",
+                "forums.ybw.com",
+                "www.swellnet.com",
+                "linuxconfig.org",
+                "www.stayathomemum.com.au",
+                "www.oversixty.com.au",
+                "www.yourlifechoices.com.au",
+                "sunrisesunset.willyweather.com.au",
+                "www.weatherzone.com.au",
+                "www.betootaadvocate.com",
+                "hotcopper.com.au",
                 "www.rsvp.com.au",
                 "digital-photography-school.com",
-                "www.realestateview.com.au",
-                "www.swellnet.com",
                 "rainfall.willyweather.com.au",
-                "manofmany.com",
-                "sunrisesunset.willyweather.com.au",
-                "perezhilton.com",
-                "www.broadsheet.com.au",
-                "www.rent.com.au",
-                "dnschecker.org",
-                "www.executivetraveller.com",
-                "forums.ybw.com",
-                "www.barstoolsports.com",
-                "www.ozbargain.com.au",
-                "hotcopper.com.au",
-                "www.yourlifechoices.com.au",
-                "www.weatherzone.com.au"
+                "www.seabreeze.com.au",
+                "www.phoronix.com",
+                "petapixel.com",
+                "www.grays.com",
+                "publicholidays.com.au",
+                "www.willyweather.com.au"
             ]
         },
         {
@@ -862,113 +424,121 @@
                 "quantcast.mgr"
             ],
             "apis": {},
-            "sites": 62,
-            "prevalence": 0.00621,
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
             "responseHashes": [
-                "d1b7822f309944cfed2b4b3715e070abace1d5bc6b62d98850c9912ba055b76d"
+                "01221da7571bda9135de704c433d67e3c4908ed930df8894a09fd812eee8b53e"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "www.express.co.uk",
-                "www.mirror.co.uk",
-                "www.researchgate.net",
-                "www.betootaadvocate.com",
-                "www.fantasyfootballscout.co.uk",
-                "www.radiotimes.com",
+                "perezhilton.com",
+                "sunrisesunset.willyweather.com.au",
+                "www.wareable.com",
+                "petapixel.com",
+                "www.oursteps.com.au",
                 "www.seabreeze.com.au",
-                "www.swellnet.com",
-                "hotcopper.com.au",
-                "tides.willyweather.com.au",
-                "www.grays.com",
+                "www.sciencedaily.com",
+                "www.chroniclelive.co.uk",
                 "www.dailyrecord.co.uk",
-                "www.australiangeographic.com.au",
-                "forum.bikeradar.com",
-                "www.realestateview.com.au",
-                "wind.willyweather.com.au",
-                "www.manchestereveningnews.co.uk",
-                "www.willyweather.com.au",
-                "www.barstoolsports.com",
-                "manofmany.com"
+                "tides.willyweather.com.au",
+                "www.yourlifechoices.com.au",
+                "strengthlevel.com",
+                "www.broadsheet.com.au",
+                "www.rsvp.com.au",
+                "www.grays.com",
+                "www.swellnet.com",
+                "www.executivetraveller.com",
+                "www.walesonline.co.uk",
+                "www.willyweather.com.au"
             ]
         },
         {
-            "rule": "consensu\\.org\\/asset\\/tcfapi\\.js",
+            "rule": "consensu\\.org\\/GVL-v2\\/cmp-list\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "trustarc.mgr"
+                "test.quantcast.mgr"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
             "responseHashes": [
-                "7d0511f49b5af61ebe2685701ceb75013f994cc1d4cfc72a4691dbfb8992e10d"
+                "3f3060ece094097feb40c8b919c5b44a0798362a67bd346d29453debfdcf0b54"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fortune.com",
-                "www.formula1.com"
+                "www.express.co.uk",
+                "www.seabreeze.com.au",
+                "www.broadsheet.com.au",
+                "www.walesonline.co.uk",
+                "www.weatherzone.com.au",
+                "digital-photography-school.com",
+                "www.manchestereveningnews.co.uk",
+                "linuxconfig.org",
+                "www.stayathomemum.com.au",
+                "www.willyweather.com.au",
+                "www.oursteps.com.au",
+                "www.oversixty.com.au",
+                "www.grays.com",
+                "petapixel.com",
+                "www.rsvp.com.au",
+                "www.bosshunting.com.au",
+                "www.wareable.com",
+                "tides.willyweather.com.au",
+                "www.yourlifechoices.com.au",
+                "publicholidays.com.au"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/34\\/cmp2\\.js",
+            "rule": "consensu\\.org\\/GVL-v2\\/vendor-list\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "quantcast.mgr"
+                "quantcast.mgr",
+                "test.quantcast.mgr"
             ],
-            "apis": {
-                "Navigator.prototype.product": 39,
-                "Navigator.prototype.userAgent": 39,
-                "window.localStorage": 39,
-                "Document.cookie getter": 39,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 39,
-            "prevalence": 0.00391,
+            "apis": {},
+            "sites": 63,
+            "prevalence": 0.00632,
             "cnames": [],
             "responseHashes": [
-                "c8f231beb3163174c2bb050ca93027f8f6b9e2dd94faeed7c2963aabdf8b72e4"
+                "ec04824b05ce8df2fc59efa298c93f9428b4bac283200ab572e8678b045ff6de"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00010022048506714773
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.howtogeek.com",
-                "www.mirror.co.uk",
                 "www.techradar.com",
                 "www.tomsguide.com",
                 "www.tomshardware.com",
-                "forums.tomshardware.com",
-                "www.realhomes.com",
-                "www.motorbiscuit.com",
-                "www.womanandhome.com",
-                "www.anandtech.com",
-                "www.laptopmag.com",
-                "www.loudersound.com",
-                "www.cyclingnews.com",
-                "www.cyclingweekly.com",
-                "www.gamesradar.com",
                 "www.digitalcameraworld.com",
+                "www.windowscentral.com",
+                "hotcopper.com.au",
+                "www.executivetraveller.com",
+                "www.guitarworld.com",
+                "strengthlevel.com",
+                "www.laptopmag.com",
+                "www.phoronix.com",
                 "www.whathifi.com",
-                "anandtech.com",
+                "www.golfmonthly.com",
+                "perezhilton.com",
+                "www.betootaadvocate.com",
                 "www.marieclaire.com",
-                "www.androidcentral.com"
+                "trip101.com",
+                "www.pcgamer.com",
+                "www.cyclingnews.com",
+                "publicholidays.com.au"
             ]
         },
         {
-            "rule": "consensu\\.org\\/choice\\/RcRc7Rvu-zsRV\\/gamepressure\\.com\\/choice\\.js",
+            "rule": "consensu\\.org\\/choice\\/AaqDBHcavs6a0\\/www\\.researchgate\\.net\\/choice\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -978,149 +548,203 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6dc28465b7df408ed5a2246ab202c0a7cd28fc3940ccd034d42baffd0c6a6074"
+                "ad5639ac8be53ce970512af44b9ae13261c02470f6bd6d500c2eec681120a063"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamepressure.com",
-                "www.gamepressure.com"
+                "researchgate.net",
+                "www.researchgate.net"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/26\\/cmp2\\.js",
+            "rule": "consensu\\.org\\/tcfv2\\/43\\/cmp2\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3,
-                "window.localStorage": 3,
-                "Document.cookie getter": 3
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6dd5005569e154d0f0e682051f9b7bc70afa48c431ffb384466c14111a78e776"
+                "47a2d133064504ee53496e9739d8fdb388031dbce3acb88ba82606b416ad5f05"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "tasty.co",
-                "www.huffingtonpost.co.uk",
                 "www.huffpost.com"
             ]
         },
         {
-            "rule": "consensu\\.org\\/t\\/consent_218348\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "consensu\\.org\\/tcfv2\\/38\\/cmp2\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
             "subdomains": [
-                "clickio.mgr"
+                "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.product": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 2
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 8,
+            "prevalence": 0.000802,
             "cnames": [],
             "responseHashes": [
-                "835d218bd910e4026950a48bb783e676591d8c2de77507d3e88311a93b74b922"
+                "99d3a35cb295c4056ab352e9c427bc40b90a30cedfa64fe1b0f4bc9fff48701a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 441,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1357,
+                    "prevalence": 0.00020052135552436334,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010026067776218167
+            },
+            "exampleSites": [
+                "whatculture.com",
+                "www.chroniclelive.co.uk",
+                "www.dailyrecord.co.uk",
+                "www.dailystar.co.uk",
+                "www.express.co.uk",
+                "www.liverpoolecho.co.uk",
+                "www.motorbiscuit.com",
+                "www.walesonline.co.uk"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/34\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8f231beb3163174c2bb050ca93027f8f6b9e2dd94faeed7c2963aabdf8b72e4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "adpost.com",
-                "www.babynamespedia.com"
+                "worldofsolitaire.com",
+                "www.fantasticfiction.com"
             ]
         },
         {
-            "rule": "consensu\\.org\\/portal\\.html",
+            "rule": "consensu\\.org\\/tcfv2\\/38\\/cmp2ui-en\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "admiral.mgr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "2977bb94c82e5fdc0c4922e57b17113c391a439a9a7065d4a87f938e82fc3be1"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dailydot.com",
-                "www.onmsft.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/28\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "quantcast.mgr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
                 "Navigator.prototype.product": 5,
-                "window.localStorage": 5,
-                "Document.cookie getter": 5,
-                "Date.prototype.getTime": 4
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Screen.prototype.width": 5
             },
             "sites": 5,
             "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "002d05b2b988473e1deab13681b49d408f31fa4cdc50f5f71786137bc924f9c1"
+                "7fd77c2a1954dc2b757a6b8245a264a0422a70161f9566d997bac242f47d5bbc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailystar.co.uk",
+                "chroniclelive.co.uk",
                 "www.dailyrecord.co.uk",
-                "www.liverpoolecho.co.uk",
+                "www.dailystar.co.uk",
+                "www.express.co.uk",
+                "www.walesonline.co.uk"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/GVL-v2\\/vendor-list-trimmed-v1\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "3d1627f72485993621281a48bd4f0d5251aa69b37b51b643af4c59abdf68ad07"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chroniclelive.co.uk",
+                "www.dailyrecord.co.uk",
+                "www.dailystar.co.uk",
+                "www.express.co.uk",
                 "www.manchestereveningnews.co.uk",
                 "www.walesonline.co.uk"
             ]
         },
         {
-            "rule": "consensu\\.org\\/tcfv2\\/28\\/cmp2ui-en\\.js",
+            "rule": "consensu\\.org\\/",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "quantcast.mgr"
+                "audit-tcfv2.quantcast.mgr"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.product": 4,
-                "Date.prototype.getTime": 4,
-                "Screen.prototype.width": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "28b8b74ad9feea728d789aa5b84c6366ba2d220a2403e3ba03712d16c041eb58"
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dailystar.co.uk",
+                "chroniclelive.co.uk",
                 "www.dailyrecord.co.uk",
+                "www.dailystar.co.uk",
+                "www.express.co.uk",
                 "www.manchestereveningnews.co.uk",
                 "www.walesonline.co.uk"
             ]
@@ -1156,14 +780,14 @@
                 "cdn.conversant.mgr"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Document.cookie getter": 2
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "267d1daed09d9ecec5f1e21bb6fe93e6eb9b65a051b7c07e966dfcda10f9e812"
+                "c5ce585015433e8c2e3488acd77585474b2b452580f49529a8633be8fa053773"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -1171,7 +795,8 @@
             "exampleSites": [
                 "fastcompany.com",
                 "www.inc.com",
-                "www.irishcentral.com"
+                "www.irishcentral.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -1182,12 +807,13 @@
                 "api.conversant.mgr"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "94f9a4c8d402dd5339231af17763120a154aa9b9d279cf5fbbd111658626f56a",
-                "943bd0f2bdf5ed0bd9f855361a79ee5b706423cbddecedbc515d46a5de0506de"
+                "95f6f65c715ce0152a131f8d8efd50d3339e34e4caa94d93f096ed3836c276b0",
+                "da664e124e918971803cb3aab3201af318b4a7bf1623ebe01d9856e21002b3fc",
+                "7a2c2cce1d1bddcd86524bfa4a3671b641cf983125592a220fe3c133935d6631"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -1195,7 +821,8 @@
             "exampleSites": [
                 "fastcompany.com",
                 "www.inc.com",
-                "www.irishcentral.com"
+                "www.irishcentral.com",
+                "www.xxlmag.com"
             ]
         },
         {
@@ -1206,8 +833,8 @@
                 "api.conversant.mgr"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -1218,7 +845,88 @@
             "exampleSites": [
                 "fastcompany.com",
                 "www.inc.com",
-                "www.irishcentral.com"
+                "www.irishcentral.com",
+                "www.xxlmag.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/asset\\/tcfapi\\.js\\/v\\/2\\.1",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "trustarc.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "059331dedcfb3bb7ad7b676771afd4f4bab13b6a23f4a8b1191c9defeced31bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "formula1.com",
+                "www.formula1.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/asset\\/cmpcookie\\.v2\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "trustarc.mgr"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2f3457ee45fd2945cd922f8761edcad427bc116803e5bd69000c45e18da3156a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "formula1.com",
+                "www.formula1.com",
+                "www.thehindu.com"
+            ]
+        },
+        {
+            "rule": "consensu\\.org\\/tcfv2\\/39\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "quantcast.mgr"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f639fefc365d0abb4fbf80e21378cb773d043bcbb18b9c98e35c35a8d9dca67e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010026067776218167
+            },
+            "exampleSites": [
+                "manchestereveningnews.co.uk",
+                "www.mirror.co.uk"
             ]
         },
         {
@@ -1230,7 +938,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -1252,7 +960,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -1263,30 +971,6 @@
             "exampleSites": [
                 "politifact.com",
                 "www.politifact.com"
-            ]
-        },
-        {
-            "rule": "consensu\\.org\\/choice\\/EFmB2PBrrJf1G\\/www\\.strat-talk\\.com\\/choice\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "e32b51e36a1f6bd8d31560820872e0da399c4e82bb0e0f966f839d6368e27a6a"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "strat-talk.com",
-                "www.strat-talk.com"
             ]
         },
         {
@@ -1301,7 +985,7 @@
                 "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "39572bba9a23b801f7ef009d7a84cc9639ebdf173e5177b6505a71b95dd05b7b"
@@ -1313,47 +997,18 @@
                 "systutorials.com",
                 "www.systutorials.com"
             ]
-        },
-        {
-            "rule": "consensu\\.org\\/tcfv2\\/22\\/cmp2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "quantcast.mgr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.product": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "4dbd92d5e698c6057cf0546420c0fa3ac75a9f5ac201ef70a0dbdc797a3024d4"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "the-ambient.com",
-                "www.wareable.com"
-            ]
         }
     ],
     "categories": [
         "Non-Tracking"
     ],
     "performance": {},
-    "cookies": 0.000802,
+    "cookies": 0.000602,
     "types": {
-        "Script": 436,
-        "Stylesheet": 21,
-        "Image": 23,
-        "XHR": 251,
-        "Document": 2
+        "Script": 268,
+        "Image": 5,
+        "XHR": 151,
+        "Document": 3
     },
     "nameservers": [
         "pdns09.domaincontrol.com",

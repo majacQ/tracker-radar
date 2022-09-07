@@ -1,46 +1,49 @@
 {
     "domain": "vk.com",
     "owner": {
-        "name": "Mail.Ru Group, OOO",
-        "displayName": "Mail.Ru"
+        "name": "VK Company Ltd.",
+        "displayName": "VK"
     },
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0012,
-    "sites": 12,
+    "prevalence": 0.001,
+    "sites": 10,
     "subdomains": [
-        "st"
+        "st6-23"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "vk\\.com\\/js\\/api\\/openapi\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.0001,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
             "sites": 9,
-            "prevalence": 0.000903,
+            "prevalence": 0.000902,
             "cnames": [],
             "responseHashes": [
-                "72c92826bda2b186ecf7d9e46f04825efabbaa97e72d2738219ba1f4be476432",
-                "88e18c18aaad6ce455b83f64192aa8d57e46d778496dba0f63bd416289d921a4"
+                "2f7e190c7a25194337efdd52f0018320ebfa239e150b19b95f3703b0bc02e6c8",
+                "2f041b5874edc1c94d686c876d2dc1f95d3e7dd3203c456a3c087aed7e4bf7c7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "2gis.ru",
-                "pikabu.ru",
+                "rt.com",
+                "dic.academic.ru",
+                "lifehacker.ru",
                 "rezka.ag",
-                "ria.ru",
-                "sci-hub.st",
-                "telemetr.me",
-                "tgstat.com",
-                "tgstat.ru",
-                "www.expo2020dubai.com"
+                "rutube.ru",
+                "www.film.ru",
+                "www.mcarthurglen.com",
+                "www.ontvtime.ru",
+                "www.sci-hub.st"
             ]
         },
         {
@@ -53,16 +56,40 @@
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef"
+                "2e977bdccc768f21f5e6e93aa077f55edb9a01c32429d8ac18752fd59fe30f1c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "2gis.ru",
-                "habr.com",
-                "pikabu.ru",
-                "www.expo2020dubai.com"
+                "rt.com",
+                "lifehacker.ru",
+                "rutube.ru",
+                "www.mcarthurglen.com"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/widget_community\\.php",
+            "cookies": 0.0002,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fe2a244adc0560b3df56ecbd7e1788c6603e4052c295cb4e08c2a4a27653de38"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
@@ -75,19 +102,19 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "0d7e358637c1b1caa66949aefc529c1e4488923f99e499d6be09eb8cdd0b4202"
+                "7474075a0639df868e185bc277886b155d022a953c2c1d2b0008c8f14ed6a0c0"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/js\\/loader_nav21548527012_6\\.js",
+            "rule": "vk\\.com\\/js\\/loader_nav214413827362_6\\.js",
             "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [],
@@ -96,66 +123,90 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "59a0e91c95902d4000e7e867255c59bcda7492b1902339d0dfec0377c4a7496a",
-                "8e90390ded0247fd98a7ae758d043782d6fa51b42b2c41359413d9baf9207637"
+                "014907d955fa7146dfe8fa500a820a9f748ac0f06e13db8dffd7403456051054",
+                "5d0b01f5bc30a71435fe1d2047c195a5d1552439671b31c34fe4bc27d0686357"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/css\\/al\\/lite\\.9a782e534e96f8348aa1\\.css",
+            "rule": "vk\\.com\\/css\\/al\\/fonts_cnt\\.5df9a2d31f91db9fc063\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "st"
+                "st6-23"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "036bddc5f6cc6629f0130827d18b84210ccb8ed29eddce04772e31b30567e558"
+                "2b86791b4bc5469817735d814f73f5b52cdc6078c60befd4c6cbe27c68b40027"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/css\\/al\\/lite\\.6c66c0daec92881132e1\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "cdd7c154a56c0b9bdd841d64d3b5ab66ec815fcd18e43713b1b458bb9ad715f7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
             "rule": "vk\\.com\\/js\\/al\\/lite\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.plugins": 3,
                 "Navigator.prototype.mimeTypes": 3,
                 "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
                 "Event.prototype.timeStamp": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "d737814f6a7f37300d73d89ff180edc18fcbd9c090ab5f7cd0e2d469b3df9715"
+                "4d03a63102bbdd3380f758ff06e821ed49f522827c336203b4740d760c634414"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
@@ -168,15 +219,15 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "34641bf1b14bf232582e4cd9202d7a9349619c9f207f584d3e993a416eb08727"
+                "3834e30d24e30fce5427393c0145d69287258da6e55803710126a14aee41799a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
@@ -184,7 +235,7 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "st"
+                "st6-23"
             ],
             "apis": {
                 "window.name": 3
@@ -200,140 +251,295 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/css\\/al\\/base\\.feb222d67b10d3dfc9cd\\.css",
+            "rule": "vk\\.com\\/css\\/al\\/ui_common\\.1df861ba938616283cc8\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "st"
+                "st6-23"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "773618a06f687736af9b902801648d70afd760b80ecae02cab5b10218922af6a"
+                "11f2ccc24ea678d37c805e57ade87e4e3c4247d535cc19682f3de0719c51ba19"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "rezka.ag",
-                "tgstat.com",
-                "tgstat.ru"
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/widget_like\\.php",
-            "cookies": 0.000201,
+            "rule": "vk\\.com\\/dist\\/vendors\\.ff70abc0f9938e61a98c\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "window.devicePixelRatio": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "d16f306cc7b432949b0c5a58d1b36e0e34b47757297da7d1d141c2709cb3518c"
+            "subdomains": [
+                "st6-23"
             ],
-            "type": "Document",
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tgstat.com",
-                "tgstat.ru"
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/css\\/al\\/widgets\\.ec5cab8fe07cbd294462\\.css",
+            "rule": "vk\\.com\\/dist\\/palette\\.992d54cdc8e561f2b111\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "st"
+                "st6-23"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/dist\\/audioplayer\\.95d4be528a8d5c2e6b7c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/dist\\/common\\.078e89f2026e76466f6a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/dist\\/web\\/ui_common\\.d36d489042c736049a49\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/dist\\/web\\/audioplayer\\.a973faf2d3af5fffdd34\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/css\\/al\\/widget_community\\.9ca595beb85e959e0204\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "41df0d9772d211749a5feb51196106f25eb3ba40814a584381255e71e91225c5"
+                "27f5c31a162dbd0480b3181c53c0364ca1a82847814b2ac1c4cd305023e7a2c6"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tgstat.com",
-                "tgstat.ru"
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/js\\/api\\/widgets\\/al_like\\.js",
+            "rule": "vk\\.com\\/dist\\/web\\/likes\\.49bf6832eebe2134d5e8\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "st"
+                "st6-23"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
-            "responseHashes": [
-                "43fe62030092e73be7d24ffff01910b0046174c3e61f2a3a4a01de13bb367a6e"
-            ],
+            "responseHashes": [],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tgstat.com",
-                "tgstat.ru"
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/images\\/icons\\/like_widget\\.png",
+            "rule": "vk\\.com\\/dist\\/api\\/widgets\\/community\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st6-23"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/css\\/al\\/base\\.f41339b5ad8ce3dd4683\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "st"
+                "st6-23"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "3795726557f64bf66677a94511e34f7d67dd58c73baef60ddb3f9a0cb8f38c1e"
+                "047e583ffe8d1aaff3b88fea82bd4b9213c2e3bbec63fd32a97a75109fe053cd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
+            ]
+        },
+        {
+            "rule": "vk\\.com\\/images\\/camera_50\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d75ef54077191e52650d899d06d7acd11883737fb4fef5416aa7760aba2a2ab4"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "tgstat.com",
-                "tgstat.ru"
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         },
         {
-            "rule": "vk\\.com\\/share\\.php",
-            "cookies": 0.000201,
+            "rule": "vk\\.com\\/images\\/icons\\/post_widget\\.png",
+            "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "st6-23"
+            ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e346406886636bb78bffe42a074b2af5d370b1087f033b036f3d620db6978b23"
+                "4868556668a8bde391b3387e496064b9bc03093a15770caf7b75223257669b97"
             ],
-            "type": "Script",
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "saveporn.net",
-                "www.xnxxvideodownload.com"
+                "rezka.ag",
+                "www.bolshoyvopros.ru",
+                "www.ontvtime.ru"
             ]
         }
     ],
@@ -348,17 +554,17 @@
         "Social Network"
     ],
     "performance": {},
-    "cookies": 0.000903,
+    "cookies": 0.000802,
     "types": {
-        "Script": 25,
-        "Image": 9,
-        "Stylesheet": 8,
-        "Document": 2
+        "Script": 45,
+        "Image": 13,
+        "Document": 3,
+        "Stylesheet": 15
     },
     "nameservers": [
-        "ns3.vkontakte.ru",
-        "ns4.vkontakte.ru",
         "ns1.vkontakte.ru",
-        "ns2.vkontakte.ru"
+        "ns2.vkontakte.ru",
+        "ns3.vkontakte.ru",
+        "ns4.vkontakte.ru"
     ]
 }

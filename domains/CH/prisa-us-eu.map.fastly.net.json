@@ -9,10 +9,14 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [],
     "cnames": [
+        {
+            "original": "as00.epimg.net",
+            "resolved": ".prisa-us-eu.map.fastly.net"
+        },
         {
             "original": "ep00.epimg.net",
             "resolved": ".prisa-us-eu.map.fastly.net"
@@ -24,6 +28,30 @@
     ],
     "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/pxlctl\\.gif",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "pxlctl.elpais.com",
+                    "resolved": ".prisa-us-eu.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "as.com",
+                "elpais.com",
+                "mejorconsalud.as.com"
+            ]
+        },
         {
             "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/js\\/pbs\\/pbs\\.slots\\.elpais\\.js",
             "cookies": 0,
@@ -50,36 +78,13 @@
             ]
         },
         {
-            "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/pxlctl\\.gif",
-            "cookies": 0.000201,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [
-                {
-                    "original": "pxlctl.elpais.com",
-                    "resolved": ".prisa-us-eu.map.fastly.net"
-                }
-            ],
-            "responseHashes": [],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "as.com",
-                "elpais.com"
-            ]
-        },
-        {
             "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/pxlctl2\\.gif",
             "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [
                 {
                     "original": "pxlctl.elpais.com",
@@ -87,10 +92,53 @@
                 }
             ],
             "responseHashes": [
-                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
             ],
             "type": "Image",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "as.com",
+                "elpais.com",
+                "mejorconsalud.as.com"
+            ]
+        },
+        {
+            "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/js\\/gdt\\/chartbeat\\/chartbeat_mab\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "as00.epimg.net",
+                    "resolved": ".prisa-us-eu.map.fastly.net"
+                },
+                {
+                    "original": "ep00.epimg.net",
+                    "resolved": ".prisa-us-eu.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "ac266ceabed489709290488636bd548b0f1c2037e7fd03b99fbb741a9026ae19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_t_tests": {
+                    "ttl": 3609,
+                    "length": 292,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                },
+                "_cb_ls": {
+                    "ttl": 34128006,
+                    "length": 1,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "as.com",
@@ -98,7 +146,7 @@
             ]
         },
         {
-            "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/js\\/comun\\/streamsense\\.js",
+            "rule": "prisa-us-eu\\.map\\.fastly\\.net\\/js\\/prisa\\/user\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
@@ -112,14 +160,14 @@
                 }
             ],
             "responseHashes": [
-                "c42f45190304729ee5a09eb2456c541ed7bfbed49462287393eb30d1672226a9"
+                "a9e91374ed3a79cc0498d7a838c2f3407f1c9084dbf1b1843a56914895de2e68"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "as.com",
-                "elpais.com"
+                "elpais.com",
+                "mejorconsalud.as.com"
             ]
         }
     ],
@@ -134,11 +182,11 @@
         "Session Replay"
     ],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.000301,
     "types": {
+        "Image": 6,
         "XHR": 2,
-        "Image": 4,
-        "Script": 2
+        "Script": 4
     },
     "nameservers": []
 }

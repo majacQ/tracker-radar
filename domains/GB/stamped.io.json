@@ -4,14 +4,41 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000803,
-    "sites": 8,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "cdn1"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "stamped\\.io\\/files\\/widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "2e2fa265de80bdfa748d80790ec4d6426485465d210b5464844d7861575d0a8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vapefiend.co.uk",
+                "wildcrush.co.uk",
+                "www.flintrehab.com",
+                "www.meaco.com"
+            ]
+        },
         {
             "rule": "stamped\\.io\\/files\\/widget\\.min\\.css",
             "cookies": 0,
@@ -20,42 +47,20 @@
                 "cdn1"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "5810a31d0e0905e74e45920f55f97157d5be09282d03cdd7e1f0dc2785a5b6ab"
+                "fe871c503c63731d10da090f9e990fe9b0f7110c2db12e800c3eb9cba700acfe"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "secretlab.co.uk",
-                "vapeuk.co.uk",
-                "www.everyonedoesit.co.uk",
-                "www.gardeningexpress.co.uk",
-                "www.grasscity.co.uk",
-                "www.kickgame.co.uk"
-            ]
-        },
-        {
-            "rule": "stamped\\.io\\/api\\/getappkey",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "7029f5e9f2c0c116b999bd6cf36e920663be314b19cd9c3c3c696869d7866561"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "secretlab.co.uk",
-                "www.everyonedoesit.co.uk"
+                "vapefiend.co.uk",
+                "wildcrush.co.uk",
+                "www.flintrehab.com",
+                "www.meaco.com"
             ]
         },
         {
@@ -70,45 +75,53 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b2f365310c35cf84e0ab011e82072fe91bb97f1e7a159fb7806e4f79172bec33"
+                "726a193a5cae1b684a5650816c21bb6145b8f8241616eed27276fa3613705712"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "secretlab.co.uk",
-                "vapeuk.co.uk",
-                "www.gardeningexpress.co.uk"
+                "vapefiend.co.uk",
+                "wildcrush.co.uk",
+                "www.flintrehab.com"
             ]
         },
         {
-            "rule": "stamped\\.io\\/files\\/widget\\.min\\.js",
+            "rule": "stamped\\.io\\/api\\/widget\\/badges",
             "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "window.localStorage": 4
-            },
-            "sites": 7,
-            "prevalence": 0.000702,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [
-                "e87b507dcf1026babc8bd24deabc7118cc941fbe032ba9369307a3f1207b9fbe"
-            ],
-            "type": "Script",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "secretlab.co.uk",
-                "vapeuk.co.uk",
-                "www.everyonedoesit.co.uk",
-                "www.gardeningexpress.co.uk",
-                "www.grasscity.co.uk",
-                "www.kickgame.co.uk",
-                "www.wildmeat.co.uk"
+                "vapefiend.co.uk",
+                "wildcrush.co.uk"
+            ]
+        },
+        {
+            "rule": "stamped\\.io\\/api\\/widget\\/badges",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2518ab13fa938d2c94fa688c3baf2536113fd0aa34838120cfa8017b129b2d0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vapefiend.co.uk",
+                "wildcrush.co.uk"
             ]
         }
     ],
@@ -116,15 +129,16 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Stylesheet": 6,
-        "XHR": 2,
+        "Script": 4,
+        "Stylesheet": 4,
         "Font": 3,
-        "Script": 7
+        "Preflight": 2,
+        "XHR": 2
     },
     "nameservers": [
         "ns-798.awsdns-35.net",
-        "ns-1268.awsdns-30.org",
+        "ns-367.awsdns-45.com",
         "ns-1848.awsdns-39.co.uk",
-        "ns-367.awsdns-45.com"
+        "ns-1268.awsdns-30.org"
     ]
 }

@@ -9,107 +9,140 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.00171,
-    "sites": 17,
+    "prevalence": 0.00181,
+    "sites": 18,
     "subdomains": [
-        "embed",
         "player",
-        "pubsub-edge",
-        "irc-ws.chat",
+        "embed",
         "gql",
-        "countess"
+        "pubsub-edge",
+        "irc-ws.chat"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "twitch\\.tv\\/embed\\/v1\\.js",
-            "cookies": 0.000502,
+            "rule": "twitch\\.tv\\/js\\/embed\\/v1\\.js",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "embed"
+                "player"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "958de52ce14caf952e9ae6dc3f9e6fea647c5421b2c2e4c997edc6352a8f809b"
+                "aa6ea4dbf82068f55270e3dcfcc9353af725dde8c52a75e2523671a682ef83b4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "agoratv.ch",
-                "newworldfans.com",
-                "twinfinite.net",
-                "www.laune.tv",
-                "www.launetv.com"
+                "catch-newz.com",
+                "en.m.uesp.net",
+                "en.uesp.net",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.directoalpaladar.com",
+                "www.totalwar.com",
+                "www.twilio.com"
             ]
         },
         {
-            "rule": "twitch\\.tv\\/js\\/embed\\/v1\\.js",
+            "rule": "twitch\\.tv\\/",
             "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player",
+                "embed"
+            ],
+            "apis": {
+                "Document.cookie getter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "74a7a7fcf584b617f219a44bf5fcbbacecbe6ffde15bd4cba5c3ac5e8e4e1c0f",
+                "a5260ec2994b3042c97e3e888377e8cfd4ee782b8abbb2a6fdc33d456e544bab",
+                "65e9957bd58ea4383da61067feee14b98795499acab6f40fc185212367db9dab",
+                "ded9ae5811e1d248a46a83304d240536bee596f40b3a0e34d4222aaabff749db",
+                "e24d0b781dddec3d10b3a8f5848a53b9ae6ae3f5d0a0cbf5e78a17c44efa0503",
+                "6fe35dc60150d530182a5e39210c425260be828165f93524355d62f87e84584d",
+                "79301509b92c8d11c7adceb1aa17c095c70b27d52255417177aa86119915dd00"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "catch-newz.com",
+                "dofus.jeuxonline.info",
+                "gamewave.fr",
+                "lostarkcodex.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.ign.com",
+                "www.speedrun.com",
+                "www.winamax.fr"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/gql",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "player"
+                "gql"
             ],
             "apis": {},
             "sites": 8,
             "prevalence": 0.000803,
             "cnames": [],
             "responseHashes": [
-                "958de52ce14caf952e9ae6dc3f9e6fea647c5421b2c2e4c997edc6352a8f809b"
+                "c9fcb2c02c8d79d77228e81f1d1ba50c22d9e243324cf15564535c67d33e9195",
+                "8dba5319cb303c86328d9cd1718eeefb9a43702fca294e107809ccc4e55c1071",
+                "1c3f8ae80624e18053cb93ea93a6bf06f94909204abcd84ae10647562ff677cf",
+                "c3e7829c029fd068bdf5b4e7cbec9de5aab19f95161951b246ec3d104bbff9cc",
+                "e2975f88dcc9ca44852774c525df1f0853a6be33278952f243aa6dcb26cb62a4",
+                "d2bce26cc2f463df343cba551ea9e2066aa5fd7a7cbb69a8b27efa42872edfb4",
+                "68e1f7fe4cf099698a633f5018d1214335806bb84d9645dbf542361c88b890ec"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "brandnewtube.com",
-                "darksouls3.wiki.fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "en.uesp.net",
-                "game-guide.fr",
-                "help.ea.com",
+                "catch-newz.com",
+                "dofus.jeuxonline.info",
+                "gamewave.fr",
+                "lostarkcodex.com",
                 "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "www.alucare.fr"
+                "www.ign.com",
+                "www.speedrun.com",
+                "www.winamax.fr"
             ]
         },
         {
-            "rule": "twitch\\.tv\\/",
-            "cookies": 0.000904,
+            "rule": "twitch\\.tv\\/gql",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "embed",
-                "player"
+                "gql"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000904,
+            "sites": 8,
+            "prevalence": 0.000803,
             "cnames": [],
-            "responseHashes": [
-                "98e010ce473d6bf5c3d611265c65fef30daa8a3b103f585dcf5997bd208bf584",
-                "75ed5c495c1cfb023582b927d49401d87ee1831f6e5948861753dd40abc3cd9e",
-                "257b5b1b4f2b4be58a294d4c9de4871342f35ef723d8e4d8fd2e65e5939b0fa0",
-                "567e7f8e88ef6cab585d373210608a48b4357594a59aed935dc345c576f96b3c",
-                "4ddda8e9577cbd53359f08b5679d31f76116f2eb7bf371d8e996d0f53261d85c",
-                "9a9104d05cc1b481a1b4c0fc4ba72701bcfa6446ad75e6f5831e57062d2e47c3",
-                "b282d69be2eaa91b75537c458d33dd6200878607b11012e68921f375d99be227",
-                "35bcd6f48252c5797a6093c202c1269701153be942a2719547156173179ae547"
-            ],
-            "type": "Document",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
+                "catch-newz.com",
                 "dofus.jeuxonline.info",
-                "game-guide.fr",
-                "newworldfans.com",
+                "gamewave.fr",
+                "lostarkcodex.com",
                 "pathfinderwrathoftherighteous.wiki.fextralife.com",
                 "www.ign.com",
-                "www.laune.tv",
-                "www.launetv.com"
+                "www.speedrun.com",
+                "www.winamax.fr"
             ]
         },
         {
@@ -120,23 +153,22 @@
                 "pubsub-edge"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000904,
+            "sites": 8,
+            "prevalence": 0.000803,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
+                "catch-newz.com",
                 "dofus.jeuxonline.info",
-                "game-guide.fr",
-                "newworldfans.com",
+                "gamewave.fr",
+                "lostarkcodex.com",
                 "pathfinderwrathoftherighteous.wiki.fextralife.com",
                 "www.ign.com",
-                "www.laune.tv",
-                "www.launetv.com"
+                "www.speedrun.com",
+                "www.winamax.fr"
             ]
         },
         {
@@ -147,120 +179,21 @@
                 "irc-ws.chat"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000603,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "newworldfans.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "www.laune.tv",
-                "www.launetv.com"
-            ]
-        },
-        {
-            "rule": "twitch\\.tv\\/gql",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gql"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "darksouls3.wiki.fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "dofus.jeuxonline.info",
-                "game-guide.fr",
-                "newworldfans.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "www.ign.com",
-                "www.laune.tv",
-                "www.launetv.com"
-            ]
-        },
-        {
-            "rule": "twitch\\.tv\\/gql",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gql"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
-            "cnames": [],
-            "responseHashes": [
-                "cf092deb9e2fdc28557bb8041263066402e35dad4c1fbddf21dcf5e4d0451818",
-                "7a37afefd667b380f1d56e9b01658eb5d31588de23a585f20477b8c8821d4df2",
-                "ca801259f63ce11b02b91b6748caef1316d46840cb19267bab85e2f9d4262c2c",
-                "c1ad1d5f637a6e3dd8c2f71565b9302470b3b83d3b92a41ae8aa84710530aaf8",
-                "29583ae80877946d02cf1bc8765eef9ee65cb96598c594786c7df862a4473536",
-                "0aa7970b96b28190eccf5bf18dba2168decfcdbbbd861f99bc931e3643d72c67",
-                "b4f547d67319273f519660b34d4ff1949920b41a33a63478076c21a354e70da6",
-                "8c82b0fea5766efa69af72a7b8e11d350df88ae32017596aa8ee88f2e679ec26",
-                "649f8ad421cc0ab170872498d062148dd73b50fca9532f82c81566a9163aec87"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "darksouls3.wiki.fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "dofus.jeuxonline.info",
-                "game-guide.fr",
-                "newworldfans.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "www.ign.com",
-                "www.laune.tv",
-                "www.launetv.com"
-            ]
-        },
-        {
-            "rule": "twitch\\.tv\\/ping\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "countess"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000904,
-            "cnames": [],
-            "responseHashes": [
-                "8337212354871836e6763a41e615916c89bac5b3f1f0adf60ba43c7c806e1015"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fextralife.com",
-                "divinityoriginalsin2.wiki.fextralife.com",
-                "dofus.jeuxonline.info",
-                "game-guide.fr",
-                "newworldfans.com",
-                "pathfinderwrathoftherighteous.wiki.fextralife.com",
-                "www.ign.com",
-                "www.laune.tv",
-                "www.launetv.com"
+                "catch-newz.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com"
             ]
         },
         {
             "rule": "twitch\\.tv\\/undefined",
-            "cookies": 0.000402,
+            "cookies": 0.000401,
             "fingerprinting": 0,
             "subdomains": [
                 "player",
@@ -268,7 +201,7 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.000402,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -278,9 +211,34 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "jeuxonline.info",
-                "newworldfans.com",
-                "www.ign.com",
-                "www.launetv.com"
+                "lostarkcodex.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com",
+                "www.ign.com"
+            ]
+        },
+        {
+            "rule": "twitch\\.tv\\/embed\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "aa6ea4dbf82068f55270e3dcfcc9353af725dde8c52a75e2523671a682ef83b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hadratrancefestival.net",
+                "lostarkcodex.com",
+                "twinfinite.net",
+                "www.madmoizelle.com",
+                "www.mtggoldfish.com"
             ]
         }
     ],
@@ -289,19 +247,19 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.00151,
+    "cookies": 0.000803,
     "types": {
-        "Script": 13,
-        "Document": 9,
-        "WebSocket": 15,
-        "Preflight": 10,
-        "Fetch": 10,
-        "Image": 13
+        "Script": 12,
+        "Document": 8,
+        "Fetch": 8,
+        "Preflight": 8,
+        "WebSocket": 10,
+        "Image": 4
     },
     "nameservers": [
+        "ns-1450.awsdns-53.org",
         "ns-1778.awsdns-30.co.uk",
         "ns-219.awsdns-27.com",
-        "ns-664.awsdns-19.net",
-        "ns-1450.awsdns-53.org"
+        "ns-664.awsdns-19.net"
     ]
 }

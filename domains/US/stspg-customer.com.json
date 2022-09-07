@@ -4,29 +4,88 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000759,
-    "sites": 11,
+    "prevalence": 0.000108,
+    "sites": 16,
     "subdomains": [
+        "41r4n34zfdrv",
+        "562d9t2pmlqq",
         "qrxf5mzbrsxw",
-        "93ywsp42bpfg",
-        "r9sjd13s1zsp"
+        "6y7q01nkqphm",
+        "3x6vjqhj2cpt",
+        "r9sjd13s1zsp",
+        "04qn2xdrvpqm",
+        "z158fxkzc1r9"
     ],
     "cnames": [
+        {
+            "original": "status.bnz.co.nz",
+            "resolved": "562d9t2pmlqq.stspg-customer.com"
+        },
+        {
+            "original": "status.chaturbate.com",
+            "resolved": "6y7q01nkqphm.stspg-customer.com"
+        },
         {
             "original": "status.duo.com",
             "resolved": "qrxf5mzbrsxw.stspg-customer.com"
         },
         {
-            "original": "status.ipvanish.com",
-            "resolved": "93ywsp42bpfg.stspg-customer.com"
+            "original": "status.ring.com",
+            "resolved": "41r4n34zfdrv.stspg-customer.com"
+        },
+        {
+            "original": "status.stash.com",
+            "resolved": "z158fxkzc1r9.stspg-customer.com"
         },
         {
             "original": "status.ui.com",
             "resolved": "r9sjd13s1zsp.stspg-customer.com"
+        },
+        {
+            "original": "status.warwick.ac.uk",
+            "resolved": "04qn2xdrvpqm.stspg-customer.com"
+        },
+        {
+            "original": "status.wix.com",
+            "resolved": "3x6vjqhj2cpt.stspg-customer.com"
         }
     ],
     "fingerprinting": 0,
     "resources": [
+        {
+            "rule": "stspg-customer\\.com\\/api\\/v2\\/status\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "41r4n34zfdrv",
+                "562d9t2pmlqq"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "status.ring.com",
+                    "resolved": "41r4n34zfdrv.stspg-customer.com"
+                },
+                {
+                    "original": "status.bnz.co.nz",
+                    "resolved": "562d9t2pmlqq.stspg-customer.com"
+                }
+            ],
+            "responseHashes": [
+                "c71a25aec8d6e31db20092547923c01059da9798caf862b0e524b43b660bca07",
+                "d4e1fa16d5cb42e2abbaf777b0e853241fc01630f7c89a7735bf3e95d672f4f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ring.com",
+                "community.ring.com",
+                "www.bnz.co.nz"
+            ]
+        },
         {
             "rule": "stspg-customer\\.com\\/",
             "cookies": 0,
@@ -36,7 +95,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "status.duo.com",
@@ -44,7 +103,7 @@
                 }
             ],
             "responseHashes": [
-                "bdfaa307eed9ffa91a708e6f23a64987e43d8b543fdfa6c7381f9f37f376347b"
+                "5ddb6bebe226205b779840d2cd666a705d530cb4820f1c7cb2ecbf226ff8c8ab"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -55,30 +114,57 @@
             ]
         },
         {
-            "rule": "stspg-customer\\.com\\/api\\/v2\\/components\\.json",
+            "rule": "stspg-customer\\.com\\/api\\/v2\\/summary\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "93ywsp42bpfg"
+                "6y7q01nkqphm"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "status.ipvanish.com",
-                    "resolved": "93ywsp42bpfg.stspg-customer.com"
+                    "original": "status.chaturbate.com",
+                    "resolved": "6y7q01nkqphm.stspg-customer.com"
                 }
             ],
             "responseHashes": [
-                "4f2255a4a75509f6087995ea664fb35e62baaf04b0e3a94fbe29b4cc79da0dd4"
+                "c69ad714f74b6eb90adc703e6d2a1e56b26c561f35217a03bc58e852d2b9978c"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ipvanish.com",
-                "support.ipvanish.com"
+                "chaturbate.com",
+                "support.chaturbate.com"
+            ]
+        },
+        {
+            "rule": "stspg-customer\\.com\\/api\\/v2\\/incidents\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "3x6vjqhj2cpt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "status.wix.com",
+                    "resolved": "3x6vjqhj2cpt.stspg-customer.com"
+                }
+            ],
+            "responseHashes": [
+                "57240189495644f23009c9aa7f9a6f0302264418973df9cc4ee47b9f52d34177"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "support.wix.com"
             ]
         },
         {
@@ -90,7 +176,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "status.ui.com",
@@ -98,7 +184,7 @@
                 }
             ],
             "responseHashes": [
-                "df5342b561095ef55a6f3a092caad14765332602b50861650e480c4bc31cd8e0"
+                "6a1b41adcf5aca380f8787cb43975e14915ce64082f23944532f1b613787ae15"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -117,7 +203,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "status.ui.com",
@@ -125,7 +211,7 @@
                 }
             ],
             "responseHashes": [
-                "df5342b561095ef55a6f3a092caad14765332602b50861650e480c4bc31cd8e0"
+                "6a1b41adcf5aca380f8787cb43975e14915ce64082f23944532f1b613787ae15"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -134,12 +220,45 @@
                 "ui.com",
                 "unifi.ui.com"
             ]
+        },
+        {
+            "rule": "stspg-customer\\.com\\/api\\/v2\\/summary\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "04qn2xdrvpqm",
+                "z158fxkzc1r9"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "status.warwick.ac.uk",
+                    "resolved": "04qn2xdrvpqm.stspg-customer.com"
+                },
+                {
+                    "original": "status.stash.com",
+                    "resolved": "z158fxkzc1r9.stspg-customer.com"
+                }
+            ],
+            "responseHashes": [
+                "9f4c4aa0b955423a6324d7c0ba9175ea85f8c245a78da367e52e9c15642fab04"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "warwick.ac.uk",
+                "www.stash.com"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0,
     "types": {
+        "Fetch": 7,
         "XHR": 8
     },
     "nameservers": []

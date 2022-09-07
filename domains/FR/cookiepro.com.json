@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.00221,
-    "sites": 22,
+    "prevalence": 0.00231,
+    "sites": 23,
     "subdomains": [
-        "cookie-cdn"
+        "cookie-cdn",
+        "privacyportal"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -20,75 +21,39 @@
                 "cookie-cdn"
             ],
             "apis": {
-                "Document.cookie getter": 10
+                "Document.cookie getter": 23,
+                "window.sessionStorage": 23
             },
-            "sites": 20,
-            "prevalence": 0.00201,
+            "sites": 23,
+            "prevalence": 0.00231,
             "cnames": [],
             "responseHashes": [
-                "1cb4f8ad1c77d76c76fec82ee2bb6ec3709d9d724e09f447327d62cc590aa067"
+                "b193e73190db64bafdb99e78994418d143e8289717118e54fb1cc55f54f7a712"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "leo.org",
-                "fr.investing.com",
-                "lavillette.com",
-                "miniwebtool.com",
-                "shop.fairphone.com",
-                "www.avis-verifies.com",
                 "www.azlyrics.com",
-                "www.doctipharma.fr",
-                "www.fairphone.com",
-                "www.games-workshop.com",
-                "www.geant-beaux-arts.fr",
-                "www.jeu.fr",
-                "www.jeux.fr",
+                "www.urbandictionary.com",
+                "www.ribambel.com",
+                "www.monkitsolaire.fr",
                 "www.lebonbon.fr",
-                "www.lesanciennes.com",
-                "www.olightstore.fr",
-                "www.sofascore.com",
-                "www.sportskeeda.com",
-                "www.uncompagnon.fr",
-                "www.urbandictionary.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.12\\.0\\/otBannerSdk\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.languages": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.vendor": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "1d97729299024aa64b03739e244f254966f9b546045de88bd835701a473045d8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "OptanonConsent": {
-                    "ttl": 31536004,
-                    "length": 11,
-                    "prevalence": 0.0002008435428800964,
-                    "uniqueness": 0.5
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
                 "leo.org",
-                "fr.investing.com"
+                "www.lesanciennes.com",
+                "shop.fairphone.com",
+                "fr.numiscorner.com",
+                "www.lobstertube.com",
+                "www.investing.com",
+                "www.commeunefleche.com",
+                "www.docmorris.fr",
+                "fr.investing.com",
+                "www.fairphone.com",
+                "www.laboratoire-lescuyer.com",
+                "www.jeanlouisdavid.com",
+                "www.prusa3d.com",
+                "www.porzo.com",
+                "www.geant-beaux-arts.fr"
             ]
         },
         {
@@ -99,11 +64,11 @@
                 "cookie-cdn"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000904,
+            "sites": 8,
+            "prevalence": 0.000803,
             "cnames": [],
             "responseHashes": [
-                "15ee4859d75dbe88fb13c3583ab2e198c0c8f51298eadfc8aa3f2c16f373fc96"
+                "6430dc4f65a57738b9f44e49496846c3e249ddce4db0a5bff8cf0a475e61c6ab"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -111,41 +76,94 @@
             "exampleSites": [
                 "leo.org",
                 "fr.investing.com",
-                "miniwebtool.com",
                 "www.azlyrics.com",
-                "www.jeu.fr",
-                "www.jeux.fr",
+                "www.investing.com",
                 "www.lebonbon.fr",
                 "www.lesanciennes.com",
-                "www.sportskeeda.com"
+                "www.monkitsolaire.fr",
+                "www.urbandictionary.com"
             ]
         },
         {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.12\\.0\\/otTCF\\.js",
+            "rule": "cookiepro\\.com\\/request\\/v1\\/consentreceipts",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "cookie-cdn"
+                "privacyportal"
             ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0014,
             "cnames": [],
-            "responseHashes": [
-                "13f63ab5fa8d3973eef6d6366052135fb3958b54ca2149cc691864b03ed7d848"
-            ],
-            "type": "Script",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "leo.org",
-                "fr.investing.com"
+                "fr.investing.com",
+                "www.avis-verifies.com",
+                "www.azlyrics.com",
+                "www.commeunefleche.com",
+                "www.docmorris.fr",
+                "www.geant-beaux-arts.fr",
+                "www.investing.com",
+                "www.laboratoire-lescuyer.com",
+                "www.lesanciennes.com",
+                "www.prusa3d.com",
+                "www.ribambel.com",
+                "www.sofascore.com",
+                "www.urbandictionary.com"
             ]
         },
         {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.12\\.0\\/assets\\/otCookieSettingsButton\\.json",
+            "rule": "cookiepro\\.com\\/request\\/v1\\/consentreceipts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacyportal"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0014,
+            "cnames": [],
+            "responseHashes": [
+                "1b4cc8a938f7386227ce59b0e48fadbf125d1f881184d81c24ba37af5190f127",
+                "37756aca1508bd672df1e2bfd1ff817d0cc8b918e57d240dc89837b0e17eb75d",
+                "9a1bd6bb7151b685ea2d76193cce24140e34a89d2786109fd853020537a116a1",
+                "d12b5967e4acb35441bfcf0e9d33b642e13ebe612510c39b47c45c8cb32ba5bf",
+                "fe6c2f8bbcb0958d8ce5d1053ebd6aad6e7428f584611302b2ef182897ca2f19",
+                "9a212f71636d2504982749615fde7e3e4c42602d469c605c5b73dc369da29056",
+                "4790df7464ecc915538a49891192418e31941dd144a86f18a0d672d1c40d69c9",
+                "fc049df060166386a5a857f2c7e0712753acbb4b7133e455d032b40c147f36eb",
+                "e87aaf00f98685e754f43a724f2cc0397b91ba7d8fbe0acb19f3f7fd1affaf2a",
+                "5f3254edda1e718008d2f2c58fffe734a4b4dc316b6cf6d84b35fb3b94c7d60e",
+                "4ad52bba7c8ad6252653c17b10fb2df7e121e0e0be8686f297c6f45b34ec7ec1",
+                "91040695f2e0880bbe29556f44402f6cc27a03e945a3b73f630e47b757e767f8",
+                "5d2a393b631575c47afd01c0c15f37d6d1e603ff6a69a5e9c8f51affce8e0bc2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leo.org",
+                "fr.investing.com",
+                "www.avis-verifies.com",
+                "www.azlyrics.com",
+                "www.commeunefleche.com",
+                "www.docmorris.fr",
+                "www.geant-beaux-arts.fr",
+                "www.investing.com",
+                "www.laboratoire-lescuyer.com",
+                "www.lesanciennes.com",
+                "www.prusa3d.com",
+                "www.ribambel.com",
+                "www.sofascore.com",
+                "www.urbandictionary.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/consent\\/265d5ac2-7d0c-4675-bf4d-421a61fb482e\\/265d5ac2-7d0c-4675-bf4d-421a61fb482e\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -156,14 +174,211 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "cd44041e27f78770fced39f58e54ff661a452abda8f8541577caed06934f813d"
+                "c2f8035fe785690c7912b1082cdb6dbcca510a146bfdcd9961146b3f8d2d52d0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investing.com",
+                "www.investing.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.38\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.000401,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "42b2b9d16fbf8d3c6be72420699360790966e58fe30d8794fd90a71c8aef122d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536005,
+                    "length": 12,
+                    "prevalence": 0.0004012841091492777,
+                    "uniqueness": 0.25
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.0004012841091492777,
+                    "uniqueness": 1
+                },
+                "eupubconsent-v2": {
+                    "ttl": 31536005,
+                    "length": 441,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.3333333333333333
+                },
+                "OTAdditionalConsentString": {
+                    "ttl": 31536005,
+                    "length": 3049,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investing.com",
+                "www.commeunefleche.com",
+                "www.investing.com",
+                "www.prusa3d.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/consent\\/265d5ac2-7d0c-4675-bf4d-421a61fb482e\\/0db075cd-e380-4173-9948-0043a194b59c\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "37824773580a9431b5e2f3f1d831b4a36e5d2f36d0beeb13c6186174140939f1"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "leo.org",
-                "fr.investing.com"
+                "investing.com",
+                "www.investing.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/vendorlist\\/googleData\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7bcdaeebf2d946410ffb833e18b2b34f7e040aaf8bb81ffedf16f06bf3acbea4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "G_ENABLED_IDPS": 0.00020064205457463884
+            },
+            "exampleSites": [
+                "investing.com",
+                "www.investing.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.38\\.0\\/otTCF\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1f94185bf320b088eb3c40b75de95ac8516680f4036bd287131b34f9c058146a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investing.com",
+                "www.commeunefleche.com",
+                "www.investing.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.38\\.0\\/assets\\/otCenterRounded\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d94edd219d965011aa7c423435675f8fc3aba340d1d2a45840c88592b922dbf2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investing.com",
+                "www.investing.com",
+                "www.prusa3d.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.38\\.0\\/assets\\/otCookieSettingsButton\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a09d0f89e99cf5a081315ff701187632005dabd23f3ca116a75790003faa7e8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investing.com",
+                "www.investing.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.38\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "17770d05051a8a4f270ba5bdf049b90cc166ac42bd4513f419308a5804d7a161"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investing.com",
+                "www.commeunefleche.com",
+                "www.investing.com",
+                "www.prusa3d.com"
             ]
         },
         {
@@ -180,7 +395,9 @@
                 "Date.prototype.getTime": 2,
                 "Document.cookie setter": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2
+                "Navigator.prototype.vendor": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 1
             },
             "sites": 2,
             "prevalence": 0.000201,
@@ -191,10 +408,16 @@
             "type": "Script",
             "firstPartyCookies": {
                 "OptanonConsent": {
-                    "ttl": 31536004,
+                    "ttl": 31536012,
                     "length": 11,
-                    "prevalence": 0.0002008435428800964,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 0.5
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536012,
+                    "length": 24,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
@@ -226,132 +449,6 @@
             ]
         },
         {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.13\\.0\\/otBannerSdk\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.vendor": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "078981fc821f3cf39ab491128cca5f9e9f9aeda1987a4baf81ce5ddc3bbe860c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "OptanonConsent": {
-                    "ttl": 31536003,
-                    "length": 11,
-                    "prevalence": 0.0002008435428800964,
-                    "uniqueness": 0.5
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miniwebtool.com",
-                "www.azlyrics.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.13\\.0\\/otTCF\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "13f63ab5fa8d3973eef6d6366052135fb3958b54ca2149cc691864b03ed7d848"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miniwebtool.com",
-                "www.azlyrics.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.13\\.0\\/assets\\/otFlat\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "b8388718f670ddb4c773f542fef40257fd020ae066966c2ca33b0814eab04a74"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miniwebtool.com",
-                "www.azlyrics.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.13\\.0\\/assets\\/v2\\/otPcCenter\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "c604b3a9a3f1464144a15ce0ae7853500a51074eafb1e6ab4221e29a9986813a"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miniwebtool.com",
-                "www.azlyrics.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.13\\.0\\/assets\\/otCookieSettingsButton\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "cd44041e27f78770fced39f58e54ff661a452abda8f8541577caed06934f813d"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "miniwebtool.com",
-                "www.azlyrics.com"
-            ]
-        },
-        {
             "rule": "cookiepro\\.com\\/consent\\/a03ae68e-7cfd-4ade-8c32-22c1b9aaacfd\\/a03ae68e-7cfd-4ade-8c32-22c1b9aaacfd\\.json",
             "cookies": 0,
             "fingerprinting": 0,
@@ -375,22 +472,22 @@
         },
         {
             "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.10\\.0\\/otBannerSdk\\.js",
-            "cookies": 0.000402,
+            "cookies": 0.000301,
             "fingerprinting": 2,
             "subdomains": [
                 "cookie-cdn"
             ],
             "apis": {
-                "Navigator.prototype.doNotTrack": 4,
-                "Document.cookie getter": 4,
-                "Date.prototype.getTime": 4,
-                "Document.cookie setter": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.vendor": 4,
-                "Navigator.prototype.languages": 2
+                "Navigator.prototype.doNotTrack": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.languages": 1
             },
-            "sites": 4,
-            "prevalence": 0.000402,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "7a23e0e46e16f067271bc79c92a917c13769848457d16cdf109e4dc04c687e8f"
@@ -398,17 +495,28 @@
             "type": "Script",
             "firstPartyCookies": {
                 "OptanonConsent": {
-                    "ttl": 31536004,
+                    "ttl": 31536005,
                     "length": 11,
-                    "prevalence": 0.0004016870857601928,
-                    "uniqueness": 0.25
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.3333333333333333
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "eupubconsent-v2": {
+                    "ttl": 31536003,
+                    "length": 441,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "fairphone.com",
                 "www.fairphone.com",
-                "www.games-workshop.com",
                 "www.lesanciennes.com"
             ]
         },
@@ -480,7 +588,7 @@
             ]
         },
         {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.20\\.0\\/otBannerSdk\\.js",
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.29\\.0\\/otBannerSdk\\.js",
             "cookies": 0.000201,
             "fingerprinting": 2,
             "subdomains": [
@@ -488,270 +596,42 @@
             ],
             "apis": {
                 "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.languages": 1,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "295c66c14524b77dd1271317457dec037b5ef0943da346b9b73681e54da826e0"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "OptanonConsent": {
-                    "ttl": 31536003,
-                    "length": 12,
-                    "prevalence": 0.0002008435428800964,
-                    "uniqueness": 0.5
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "avis-verifies.com",
-                "www.doctipharma.fr"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.20\\.0\\/assets\\/otCenterRounded\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "b26a37736a1c5a3e268b492a0b89a278c88208bdf6ea88543c0720c0317854c8"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "avis-verifies.com",
-                "www.doctipharma.fr"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.20\\.0\\/assets\\/v2\\/otPcCenter\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "ded43a6af1e4e0a061fe1c97703f45cc4af82fc367de436789f6c70e5077b0eb"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "avis-verifies.com",
-                "www.doctipharma.fr"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.10\\.0\\/assets\\/v2\\/otPcCenter\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "3b27f686e9c39188ff63e191cc3efb6500a6c6d06f2d1d2ec27ceb623a2ecacc"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "games-workshop.com",
-                "www.lesanciennes.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.14\\.0\\/otBannerSdk\\.js",
-            "cookies": 0.000301,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.doNotTrack": 3,
-                "Navigator.prototype.languages": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Document.cookie setter": 3,
-                "Navigator.prototype.vendor": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "e7c129ee5de51a2692632d98e0e18cbc092fb758635921e4ecc404293495fafa"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "OptanonConsent": {
-                    "ttl": 31536003,
-                    "length": 11,
-                    "prevalence": 0.0003012653143201446,
-                    "uniqueness": 0.3333333333333333
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jeu.fr",
-                "www.jeux.fr",
-                "www.sportskeeda.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.14\\.0\\/otTCF\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "13f63ab5fa8d3973eef6d6366052135fb3958b54ca2149cc691864b03ed7d848"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jeu.fr",
-                "www.jeux.fr",
-                "www.sportskeeda.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.14\\.0\\/assets\\/otCenterRounded\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "b7a670a3463f433a06da18a8739714e618e67806edd249431d6f2ad0e8adbd9b"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jeu.fr",
-                "www.jeux.fr"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.14\\.0\\/assets\\/v2\\/otPcCenter\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "a5de3651c0aa89e6497da505565c8944039fd6480aa161b1f270d1f5953c9d5f"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jeu.fr",
-                "www.jeux.fr",
-                "www.sportskeeda.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.14\\.0\\/assets\\/otCookieSettingsButton\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "4d12329e0fd65159a22a6e3070ece0bc79825bdcda1357baf388818dc1756a00"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "jeu.fr",
-                "www.jeux.fr",
-                "www.sportskeeda.com"
-            ]
-        },
-        {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.23\\.0\\/otBannerSdk\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cookie-cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.languages": 1,
                 "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
                 "Document.cookie setter": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.languages": 1
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "99ac0e388250281fe8851ef71799b3222bab0db5612c2c17deba3962626e0ec1"
+                "de85ba404ac743bd5b7119b9a5dcad583fc9868f530e009e6b281bc1182023b5"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "OptanonConsent": {
-                    "ttl": 31536006,
+                    "ttl": 31536004,
                     "length": 12,
-                    "prevalence": 0.0002008435428800964,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 0.5
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536004,
+                    "length": 24,
+                    "prevalence": 0.00020064205457463884,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "olightstore.fr",
-                "www.sofascore.com"
+                "docmorris.fr",
+                "www.laboratoire-lescuyer.com"
             ]
         },
         {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.23\\.0\\/assets\\/otFlat\\.json",
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.29\\.0\\/assets\\/otCenterRounded\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -762,18 +642,40 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "72562f00bd821b6edc0368065bf009468955ba01f8ead742d8bbc2470c4358c4"
+                "ea07c75cc70340374feb3872db77d7d5b74e6e8b62fd538f36209b1815ecd3d6"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "olightstore.fr",
-                "www.sofascore.com"
+                "docmorris.fr",
+                "www.laboratoire-lescuyer.com"
             ]
         },
         {
-            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.23\\.0\\/assets\\/otCommonStyles\\.css",
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.29\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "02247b08df8916f94e78453a521fa8d6f4b8f0f22b4b8a3b64176a5068a7de1b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docmorris.fr",
+                "www.laboratoire-lescuyer.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.29\\.0\\/assets\\/otCommonStyles\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -790,18 +692,142 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "olightstore.fr",
-                "www.sofascore.com"
+                "docmorris.fr",
+                "www.laboratoire-lescuyer.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.32\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.innerHeight": 1,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 2,
+                "window.innerWidth": 3,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f8bd28fee94c800df636a486d42ed91d2df89db1fd3e223d5e89ce3d9dd107fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536005,
+                    "length": 12,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 0.6666666666666666
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.00030096308186195825,
+                    "uniqueness": 1
+                },
+                "eupubconsent-v2": {
+                    "ttl": 31536005,
+                    "length": 249,
+                    "prevalence": 0.00010032102728731942,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lobstertube.com",
+                "www.monkitsolaire.fr",
+                "www.ribambel.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.32\\.0\\/assets\\/v2\\/otPcTab\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6736760a1c0c624190fee65234d5013a261ded35d345e6f278a3739719fac230"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lobstertube.com",
+                "www.ribambel.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/scripttemplates\\/6\\.32\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8edbd08b9bb87f815ad871e44aae03af609fc44b1961d608e94eff3f4e010375"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lobstertube.com",
+                "www.monkitsolaire.fr",
+                "www.ribambel.com"
+            ]
+        },
+        {
+            "rule": "cookiepro\\.com\\/logos\\/static\\/poweredBy_cp_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "8df4e2508308452516a8972eb7d993d970eefeea6705487b0e100c0fa7b4b447"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lobstertube.com",
+                "www.monkitsolaire.fr",
+                "www.prusa3d.com",
+                "www.ribambel.com",
+                "www.urbandictionary.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.00211,
+    "cookies": 0.00231,
     "types": {
-        "Script": 44,
-        "Fetch": 44,
-        "XHR": 2
+        "Script": 40,
+        "Fetch": 41,
+        "Preflight": 14,
+        "XHR": 18,
+        "Image": 5
     },
     "nameservers": [
         "bob.ns.cloudflare.com",

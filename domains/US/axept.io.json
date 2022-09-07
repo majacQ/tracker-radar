@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000393,
-    "sites": 57,
+    "prevalence": 0.000556,
+    "sites": 82,
     "subdomains": [
         "static",
         "client"
@@ -14,104 +14,82 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "axept\\.io\\/sdk\\.js",
-            "cookies": 0,
+            "rule": "axept\\.io\\/sdk-slim\\.js",
+            "cookies": 0.0000746,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 26,
-                "Document.cookie getter": 21,
-                "Event.prototype.timeStamp": 11
+                "Document.cookie getter": 11,
+                "Document.cookie setter": 11,
+                "window.localStorage": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Event.prototype.timeStamp": 7
             },
-            "sites": 26,
-            "prevalence": 0.000179,
+            "sites": 11,
+            "prevalence": 0.0000746,
             "cnames": [],
             "responseHashes": [
-                "a83af9a4d21f670a611b9859cf2586c84cc6c5cbf47f91f126abd868ca8a6038",
-                "a15c6cf8bdb2a0a6c7e926d23421b5517b4052d548f9679c19ac9d55f7242ced"
+                "f18409a184ac51cfa2cf2970aa15a1768af76fe7747b88930ffa340ddbe6935b"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "axeptio_cookies": {
+                    "ttl": 31536002,
+                    "length": 116,
+                    "prevalence": 0.00007455706326505713,
+                    "uniqueness": 1
+                },
+                "axeptio_authorized_vendors": {
+                    "ttl": 31536002,
+                    "length": 6,
+                    "prevalence": 0.00007455706326505713,
+                    "uniqueness": 0.09090909090909091
+                },
+                "axeptio_all_vendors": {
+                    "ttl": 31536002,
+                    "length": 6,
+                    "prevalence": 0.00007455706326505713,
+                    "uniqueness": 0.09090909090909091
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.mavic.com",
-                "us.kompass.com",
-                "alternativi.fr",
-                "fr.kompass.com",
-                "www.operadeparis.fr",
-                "gb.kompass.com",
-                "www.legalstart.fr",
-                "www.aigle.com",
+                "normandie-tourisme.fr",
+                "en.normandie-tourisme.fr",
+                "fr.ulule.com",
+                "sav.darty.com",
+                "www.equidia.fr",
+                "www.logishotels.com",
+                "www.normandie-tourisme.fr",
+                "www.opinel.com",
                 "www.pmu.fr",
-                "www.astrotheme.com",
-                "www.doctrine.fr",
-                "www.3dnatives.com",
-                "de.kompass.com",
-                "www.prestashop.com",
-                "www.reezocar.com",
-                "www.helloasso.com",
-                "www.horoscope.fr",
-                "www.autosphere.fr",
-                "www.ornikar.com",
-                "www.astrotheme.fr"
+                "www.ulule.com",
+                "www.welcometothejungle.com"
             ]
         },
         {
-            "rule": "axept\\.io\\/6053a2752c0a5b3e720259b5\\.json",
+            "rule": "axept\\.io\\/5eb3ac9127e43b2aea3f3f78\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "client"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "8202c6442b4585765f8d9bcecfbbacc3526f71511c269296ad162198e7808e37"
+                "e7e60a4237c17d44589ae631048414260fa0ed91f8c795f56eae84a8b5aca85a"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kompass.com",
-                "ch.kompass.com",
-                "de.kompass.com",
-                "fr.kompass.com",
-                "gb.kompass.com",
-                "us.kompass.com"
-            ]
-        },
-        {
-            "rule": "axept\\.io\\/sdk-slim\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Document.cookie getter": 4,
-                "Navigator.prototype.userAgent": 6,
-                "Event.prototype.timeStamp": 6
-            },
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [
-                "b79e8927a9375474eb0acee805257a26cfeb299522aadfcf4478e3282749943b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ulule.com",
-                "fr.ulule.com",
-                "sav.darty.com",
-                "www.pmu.fr",
-                "www.ulule.com",
-                "www.welcometothejungle.com"
+                "normandie-tourisme.fr",
+                "en.normandie-tourisme.fr",
+                "www.normandie-tourisme.fr"
             ]
         },
         {
@@ -123,10 +101,10 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "b9151bf30b01cb4bdbdab92f7d041ef3f8d57ec17fffa06e0a595628405ebdc4"
+                "ca88f93b6f5e1fb56f77d25605371f13c681a4306f9af96a28030c231bc4ce36"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -138,6 +116,71 @@
             ]
         },
         {
+            "rule": "axept\\.io\\/sdk\\.js",
+            "cookies": 0.00023,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 35,
+                "Document.cookie getter": 34,
+                "Document.cookie setter": 34,
+                "window.localStorage": 34,
+                "Event.prototype.timeStamp": 32
+            },
+            "sites": 35,
+            "prevalence": 0.000237,
+            "cnames": [],
+            "responseHashes": [
+                "49e7f4021d24e715355861d16f80f0a8af664ae99ffd7d415cb28c4028fa27f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "axeptio_cookies": {
+                    "ttl": 31536002,
+                    "length": 116,
+                    "prevalence": 0.00023044910463744934,
+                    "uniqueness": 1
+                },
+                "axeptio_authorized_vendors": {
+                    "ttl": 31536002,
+                    "length": 6,
+                    "prevalence": 0.00023044910463744934,
+                    "uniqueness": 0.029411764705882353
+                },
+                "axeptio_all_vendors": {
+                    "ttl": 31536002,
+                    "length": 6,
+                    "prevalence": 0.00023044910463744934,
+                    "uniqueness": 0.029411764705882353
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lookcycle.com",
+                "www.aniwaa.com",
+                "www.superprof.de",
+                "www.carter-cash.com",
+                "www.anjou-tourisme.com",
+                "www.naturaforce.com",
+                "www.isere-tourisme.com",
+                "www.eelway.com",
+                "www.l-expert-comptable.com",
+                "www.century21.fr",
+                "www.prestashop.com",
+                "www.elsan.care",
+                "or.fr",
+                "www.dxo.com",
+                "www.cash-piscines.com",
+                "www.pmu.fr",
+                "www.superprof.fr",
+                "www.tourismecorreze.com",
+                "www.spareka.fr",
+                "www.jardiland.com"
+            ]
+        },
+        {
             "rule": "axept\\.io\\/6066f2ea6ac944450ffd0458\\.json",
             "cookies": 0,
             "fingerprinting": 0,
@@ -146,10 +189,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "2588800907d287340750fda88dab792f54562f6d71c82c3a7c85b92ec48413e0"
+                "3042abed1e78e26915484faca955ff887d08f3a878acfa48c27ba5316ca0a26d"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -160,7 +203,7 @@
             ]
         },
         {
-            "rule": "axept\\.io\\/606732306ac944450fff3a8e\\.json",
+            "rule": "axept\\.io\\/61f7a5caa7093c59d8747be2\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -168,21 +211,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e2a847400f2cf8dda301a03ee6e0528ae8262e1cd541a2256860ca654411543c"
+                "e306d8157c5dcb627b3bb477b1060f1df4ebef3a804e8f7288955fd25d6debc4"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "3dnatives.com",
-                "www.3dnatives.com"
+                "aniwaa.com",
+                "www.aniwaa.com"
             ]
         },
         {
-            "rule": "axept\\.io\\/614d950cc635236b70eb6b09\\.json",
+            "rule": "axept\\.io\\/60226d1d8cbb5e1a934f2b06\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -190,39 +233,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f76153b247167fb03e04f8835081209fef69abe2703491100f6afa83392c1f9a"
+                "553bc316eb292491e3cf04ea46e1722a21c88c1aad9f81c38f7f22af5adf1063"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "astrotheme.com",
-                "www.astrotheme.com"
-            ]
-        },
-        {
-            "rule": "axept\\.io\\/612c9e2be10820295114177f\\.json",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "client"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e29a84ab0b2b1458c208e29322002c6e49893d626f59e872b1e51db81aa8b050"
-            ],
-            "type": "Fetch",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "astrotheme.fr",
-                "www.astrotheme.fr"
+                "anjou-tourisme.com",
+                "www.anjou-tourisme.com"
             ]
         },
         {
@@ -234,7 +255,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "caa3f3fffc906439c3fb89e1a3a9b14540994ee07bb66ced1bcb2cfef88b4264"
@@ -248,7 +269,7 @@
             ]
         },
         {
-            "rule": "axept\\.io\\/602d54c74b0e005e71113be3\\.json",
+            "rule": "axept\\.io\\/5fc66651285341297d8683c6\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -256,21 +277,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "13a17e8d03921b20551a7533a16ea79ab63a1ab605503c0847338a39482a6e13"
+                "5a98806ef6165cd93df43e448e365134f76bfeb04e0d0488bb4317407b7f8c90"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "doctrine.fr",
-                "www.doctrine.fr"
+                "carter-cash.com",
+                "www.carter-cash.com"
             ]
         },
         {
-            "rule": "axept\\.io\\/60729d213472a46f898d25db\\.json",
+            "rule": "axept\\.io\\/61d85712755636775f16c2be\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -278,17 +299,149 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "fdd0b676e597c64bfe9c85b01ff31f9b990c57d89439857d3f763eb009e009a6"
+                "f2c1cf7bf5f471682a1fa8899f10d90d8731c6adb5daa1d67403328706811c0d"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gotarot.de",
-                "www.gotarot.de"
+                "cash-piscines.com",
+                "www.cash-piscines.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/625eca783af3ac1695aaeec9\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "10171925fc213ef9f32df39f70a285388955027add66ea37fc6d86ff45412b3a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "century21.fr",
+                "www.century21.fr"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/60f82e4e0a56327564de8679\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6dd0b148f6047591ee889f485aa4b33595ec1c2e4303fd07b644f4b4ebe8d11b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delsey.com",
+                "www.delsey.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/602bda01d5519d568bae4d33\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ca25c3506b92cdf43edb40c61c8475acc18c348f7718527eda410ea3b544a2e6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dxo.com",
+                "www.dxo.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/613f438829e6ba0505dddb0d\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aefb196c808edb1b367546a64cebdcab84debc257cd3c9f2c8fa2c163c945bf9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eelway.com",
+                "www.eelway.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/60b4e2adcde9636412e810e6\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "905fb7da4c660987fa59070f2cfde47c255d36de432934fb7b9845c102e21df5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elsan.care",
+                "www.elsan.care"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/61309314a5a15a2447bf3c6c\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a2b119020906fbb85b99ccffbfd7eb3c7042bad073b0195a77cd42a12153b7c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equidia.fr",
+                "www.equidia.fr"
             ]
         },
         {
@@ -300,10 +453,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "dc5f9d8921e74e6df8d732469c12381108f41fc141caeb699cbacafbcead55c9"
+                "f8a54fc335ac09dc1f4f9a50370a19feced1161c1f126cbefb007974d50dbe84"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -322,10 +475,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "09e6ea4e205c183fd39e553e47bbb8a092f72f81c9b1f1a20ea89f45c972a01e"
+                "e362ae7f4d5807922c65be3234cd05692c6768d2a469379e6536d615085ff14b"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -333,6 +486,72 @@
             "exampleSites": [
                 "horoscope.fr",
                 "www.horoscope.fr"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/60a4e2916cd349769a3e2835\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1a522800e7120256fc95b7181ff85fc0fa2415bae799e9ab10455ea1b598803f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "isere-tourisme.com",
+                "www.isere-tourisme.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/6048e964fdd89b769fb81fa5\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d0644572bc18f927070e33acc16d90a0df294c600e226c484f0c95ff5217aced"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jardiland.com",
+                "www.jardiland.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/5df20a79a2db270f6699ce12\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "72ca92441d7e207c5cb6b7092f827188a8f2dad96c87569662bd051cb5970c84"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jura-tourism.com",
+                "www.jura-tourism.com"
             ]
         },
         {
@@ -344,10 +563,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "24b91e1ff6ecaf718cd88a48ec770ba477e86da805d2b0d93921a44b037e7c7d"
+                "7511c89c0a492b8542582075ab5d1bf3b6a568b5b52d14e4cc3c1c2a80a3d5e9"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -355,6 +574,28 @@
             "exampleSites": [
                 "l-expert-comptable.com",
                 "www.l-expert-comptable.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/625eba7fa14781bf4beea0a0\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c790d9696d196e9e99ee5fd5665f867e4582d2eafa182e493a0edeb3d7afda43"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lecyclo.com",
+                "www.lecyclo.com"
             ]
         },
         {
@@ -366,7 +607,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "c0a7d1930af19573f88081bf99ba7dcf942d1d13f84015864837ddc6f16a5294"
@@ -380,6 +621,50 @@
             ]
         },
         {
+            "rule": "axept\\.io\\/5ea2a0d7fe5be55dadbe1376\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "73a41d967c4eb4672eca9d8d5c452aad3aba882763d56f6860c0ef56421aca32"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logishotels.com",
+                "www.logishotels.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/608bd94c9297ef05cffb2052\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ceb9e7dd8212f745ab3bb193aba4a91dab547abbce1c32b476d88ba1e70a4c6b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lookcycle.com",
+                "www.lookcycle.com"
+            ]
+        },
+        {
             "rule": "axept\\.io\\/60ec65d1179d2b2e10bb9b61\\.json",
             "cookies": 0,
             "fingerprinting": 0,
@@ -388,10 +673,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8b5ad7651e8097f4cd7bb1c2723f5a51ab1b1c33119d1a07b7519f210e02e3b7"
+                "88298981f10533565280d4a5b93f07261d557f8e78ef6156c2bbc6299c87f81f"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -399,6 +684,50 @@
             "exampleSites": [
                 "mavic.com",
                 "www.mavic.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/6017cab404ebba3ce20577ea\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6d01b4cdcab56e5c478dd7c16c98d449996497befa86a87dc39242ff14bfe92c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "misterbandb.com",
+                "www.misterbandb.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/623073ebca84587d82f0a005\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2dd40ab4f996426da10055f10874e3b686a74f46c41874c6351e3e162fa2d587"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturaforce.com",
+                "www.naturaforce.com"
             ]
         },
         {
@@ -410,10 +739,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4dbff47d43c0c8d3749796eb2786dc90bfee23cccee43a46f7a1646f38711fd7"
+                "81e3426504fd5d2888b13f048592f1d93c4c48090678b29e7ab60a416c97db21"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -421,6 +750,28 @@
             "exampleSites": [
                 "operadeparis.fr",
                 "www.operadeparis.fr"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/60ad29c53d074c78fe2659fe\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "deaee60cb303a1f01ebd4b7e6c8c0e1c155320ac0d220ae09985539cc12b6132"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opinel.com",
+                "www.opinel.com"
             ]
         },
         {
@@ -432,10 +783,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0f76a466348aa570620c113b23ae65be513ca87c52025c5a93dbcbca4077ad8b"
+                "b63eac095a08ae1723575e814c3fabead3e261f248bc134a2845a8784b60a4f9"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -446,7 +797,7 @@
             ]
         },
         {
-            "rule": "axept\\.io\\/5e8c75ec2e221153e28022c0\\.json",
+            "rule": "axept\\.io\\/61b74a66f2a63a093c9ab7f6\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -454,21 +805,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "477c60b0d033a29978125146fddecc24d822c8d1a0709591982f815ad6159ad0"
+                "4c22ced36ca03dded9fa6a5deb7f0fb69c4295dc7c0f5da87e11fc2e18ccb18a"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "prestashop.com",
-                "www.prestashop.com"
+                "spareka.fr",
+                "www.spareka.fr"
             ]
         },
         {
-            "rule": "axept\\.io\\/603602684b0e005e711f1173\\.json",
+            "rule": "axept\\.io\\/6024ef0b4b0e005e7103bc4a\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -476,17 +827,39 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "82fa4d2450f2458def93132645a780c7006369b209b88793c6ecc6f8e5f3c828"
+                "21068a21603f4e9614f5fad0a270c6b8974bc1937e1e8360de301905340b303e"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "reezocar.com",
-                "www.reezocar.com"
+                "tourismecorreze.com",
+                "www.tourismecorreze.com"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/603f6c4dd5519d568bcbd87b\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c2b72a4679021012f3c48bf4ec739ee50b8934e67fbfaaa98ceadd5c141b36bc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tui.fr",
+                "www.tui.fr"
             ]
         },
         {
@@ -498,10 +871,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ac81c2dd23acb7b2335735245d183f0aa42f93a2e90ccd0fb5cbc0dd4c90d862"
+                "63f52ad1af29d9c5cf17f1f4165a41f13a36f421aa4990177f4331a4405a6807"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -514,14 +887,15 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000542,
     "types": {
-        "Script": 32,
-        "Fetch": 43
+        "Script": 46,
+        "Fetch": 70
     },
     "nameservers": [
-        "ns-88-a.gandi.net",
-        "ns-10-b.gandi.net",
-        "ns-188-c.gandi.net"
+        "ns-319.awsdns-39.com",
+        "ns-883.awsdns-46.net",
+        "ns-1395.awsdns-46.org",
+        "ns-2044.awsdns-63.co.uk"
     ]
 }

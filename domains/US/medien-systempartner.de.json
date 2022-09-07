@@ -4,13 +4,23 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "img",
-        "srvnwz-sso"
+        "nwguide-v2p",
+        "srvnwz-sso",
+        "tempestiva-nwz-prod"
     ],
     "cnames": [
+        {
+            "original": "events.nwzonline.de",
+            "resolved": "tempestiva-nwz-prod.medien-systempartner.de"
+        },
+        {
+            "original": "guide.nwzonline.de",
+            "resolved": "nwguide-v2p.medien-systempartner.de"
+        },
         {
             "original": "img.nwzonline.de",
             "resolved": "img.medien-systempartner.de"
@@ -20,18 +30,18 @@
             "resolved": "srvnwz-sso.medien-systempartner.de"
         }
     ],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/css\\/vendor\\.min\\.css",
-            "cookies": 0.0000207,
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/css\\/vendor\\.min\\.css",
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -51,15 +61,15 @@
             ]
         },
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/css\\/nwz_mobile\\.common\\.min\\.css",
-            "cookies": 0.0000138,
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/css\\/nwz_mobile\\.common\\.min\\.css",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -67,7 +77,7 @@
                 }
             ],
             "responseHashes": [
-                "848c368ebd9cfabe57412aec95bfce00a1f89a18f8259af1f293f0f87ca2c186"
+                "2cc703231d0daf726e06eecc6a3bb22d4ca54c85e6e185c4dcd262ddf19dc5d3"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -86,7 +96,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -106,15 +116,15 @@
             ]
         },
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/js\\/vendor\\/vendor\\.min\\.js",
-            "cookies": 0.0000207,
-            "fingerprinting": 1,
+            "rule": "medien-systempartner\\.de\\/img\\/nwz\\/20220307_imago0152483155h\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -122,7 +132,62 @@
                 }
             ],
             "responseHashes": [
-                "bc961805e0b80f1a0e476ea961e8964039d7c31ddbdefd08f0dba3e60deb19ed"
+                "d115db2c326b8756f8d87055f5e6726bfe5e775b21500f74088724cafb678928"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwzonline.de",
+                "www.nwzonline.de"
+            ]
+        },
+        {
+            "rule": "medien-systempartner\\.de\\/images\\/profilbild-dummy-carousel\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nwguide-v2p"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "guide.nwzonline.de",
+                    "resolved": "nwguide-v2p.medien-systempartner.de"
+                }
+            ],
+            "responseHashes": [
+                "6c9f01c4a3ad1969feae5520fb42ef78acad2449455da032df3c4cc0986c3b0b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwzonline.de",
+                "mobil.nwzonline.de",
+                "www.nwzonline.de"
+            ]
+        },
+        {
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/js\\/vendor\\/vendor\\.min\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "img.nwzonline.de",
+                    "resolved": "img.medien-systempartner.de"
+                }
+            ],
+            "responseHashes": [
+                "e207f0bf7e1d0906a3a4198a301f04e8895bbd3e5761b3220023e14eac866b40"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -134,7 +199,7 @@
             ]
         },
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/js\\/ng\\/vendor\\/ng-vendor\\.min\\.js",
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/js\\/ng\\/vendor\\/ng-vendor\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -142,7 +207,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -150,7 +215,7 @@
                 }
             ],
             "responseHashes": [
-                "23d13a82dc6eb3677f54bc399db2645617d79ce4e0fbae645862809884d0f7c9"
+                "fd387e168ad7a8a53de0b9c99ab63f17b2d96053b0c4cd6832f3691f3faf8a11"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -162,7 +227,7 @@
             ]
         },
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/js\\/ng\\/apps\\/nwzonline\\.min\\.js",
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/js\\/ng\\/apps\\/nwzonline\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -170,7 +235,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -178,9 +243,38 @@
                 }
             ],
             "responseHashes": [
-                "fece90549e9a6fef2e288dcc8d3b30ecdd0dc7aa1c46d0e0f189324fdd227748"
+                "e2b4553da1f1a885ba4899736e52c974b5c3ab819577523a976c9ffb8d7b2a52"
             ],
             "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwzonline.de",
+                "mobil.nwzonline.de",
+                "www.nwzonline.de"
+            ]
+        },
+        {
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/img\\/layout\\/sprite-images\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "img.nwzonline.de",
+                    "resolved": "img.medien-systempartner.de"
+                }
+            ],
+            "responseHashes": [
+                "8c13b217936c5d7e850683688ae77489a50c7243477962d150dc50456e2d752f",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -191,14 +285,14 @@
         },
         {
             "rule": "medien-systempartner\\.de\\/json\\/authenticate\\.php",
-            "cookies": 0.0000207,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "srvnwz-sso"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "login.nwzonline.de",
@@ -206,8 +300,8 @@
                 }
             ],
             "responseHashes": [
-                "636e0989c1cb4d8d1e06bfd159b16984b4912fc84c255f49212454b878b8cebd",
-                "19d00604ae69d7ed03c19654e992f87ad8b1ab36f54f9c5e2867dd1ed6386b91"
+                "a92ee36e3bded1122e943e6510fb7e8fe04a370a64df3646da95b4fcedda7291",
+                "9a6fb81c7929e1b02d747d015b1072f150a87ed165832153dfe2b6e7126af776"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -219,15 +313,71 @@
             ]
         },
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/img\\/layout\\/sprite-icons\\.png",
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/img\\/layout\\/sprite-icons\\.png",
             "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "img.nwzonline.de",
+                    "resolved": "img.medien-systempartner.de"
+                }
+            ],
+            "responseHashes": [
+                "3bff1b62bfa7188c9efaa442cfdf407d9f27d3e597e17236133c2c9f67ba56b9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwzonline.de",
+                "mobil.nwzonline.de",
+                "www.nwzonline.de"
+            ]
+        },
+        {
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/static\\/NWZonline-Logo--100x107\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "img.nwzonline.de",
+                    "resolved": "img.medien-systempartner.de"
+                }
+            ],
+            "responseHashes": [
+                "dc3c0ace5bdb6dffd75d580cb97b6fba2a1388de4f2c1e7b33e5723c3326a172"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwzonline.de",
+                "mobil.nwzonline.de",
+                "www.nwzonline.de"
+            ]
+        },
+        {
+            "rule": "medien-systempartner\\.de\\/assets\\/cmp\\/css\\/nwz_common\\.min\\.css",
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "img.nwzonline.de",
@@ -235,80 +385,51 @@
                 }
             ],
             "responseHashes": [
-                "b2aa10f2c2b10bc4e1900106d1fb5795e1d6877398bef8e4f57013dfc27dc545"
+                "86c49609647e60beca056e635efc5809c438bac053e83203396db724f472d780"
             ],
-            "type": "Image",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "nwzonline.de",
-                "mobil.nwzonline.de"
-            ]
-        },
-        {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/static\\/NWZonline-Logo--100x107\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "img"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [
-                {
-                    "original": "img.nwzonline.de",
-                    "resolved": "img.medien-systempartner.de"
-                }
-            ],
-            "responseHashes": [
-                "6742cb6cc825304865ed7502f66069feb1fa949647b30a9114ad96cffec38eaf"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nwzonline.de",
-                "mobil.nwzonline.de",
                 "www.nwzonline.de"
             ]
         },
         {
-            "rule": "medien-systempartner\\.de\\/assets\\/1\\.3\\.20\\/img\\/layout\\/sprite-images\\.png",
+            "rule": "medien-systempartner\\.de\\/api\\/load\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "img"
+                "tempestiva-nwz-prod"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.nwzonline.de",
-                    "resolved": "img.medien-systempartner.de"
+                    "original": "events.nwzonline.de",
+                    "resolved": "tempestiva-nwz-prod.medien-systempartner.de"
                 }
             ],
             "responseHashes": [
-                "8e62825d22b8386ecb21e2f64c8b1355ae9c493129fec80f02b18c003cce2411"
+                "04f5f6d89292c3a52baae2b0967ad1c171338f9c9255b7233843e228e984496a"
             ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "nwzonline.de",
-                "mobil.nwzonline.de",
                 "www.nwzonline.de"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000271,
     "types": {
-        "Stylesheet": 5,
-        "Image": 11,
-        "Script": 12
+        "Stylesheet": 7,
+        "Image": 17,
+        "Script": 14
     },
     "nameservers": []
 }

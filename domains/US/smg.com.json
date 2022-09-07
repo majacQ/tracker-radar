@@ -7,55 +7,219 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000228,
+    "prevalence": 0.000224,
     "sites": 33,
     "subdomains": [
-        "api",
-        "id.services"
+        "feedback",
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/Michael_s_Etrack\\/MIC_ETRK",
-            "cookies": 0.0000207,
-            "fingerprinting": 1,
+            "rule": "smg\\.com\\/etrackjslibrary",
+            "cookies": 0,
+            "fingerprinting": 2,
             "subdomains": [
-                "api"
+                "feedback"
             ],
             "apis": {
-                "Document.cookie setter": 3,
-                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "BroadcastChannel.prototype.constructor": 3,
                 "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.languages": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
             },
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "4d9f23333f80f9ceadd4f9b3866692503830dfe7be075701607e5c47c7e17865"
+                "f8481f7305099fc4da889398d4896fea2045ff2754d88f3d34b23d1cbb7520f8"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "cookietest": {
-                    "ttl": -1633185518,
-                    "length": 1,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
-                },
-                "_etr_p_michaels.com": {
-                    "ttl": 31536007,
-                    "length": 18,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 1
-                },
-                "_etr_s_michaels.com": {
-                    "ttl": null,
-                    "length": 13,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
-                }
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crackerbarrel.com",
+                "handandstone.com",
+                "www.crackerbarrel.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/api\\/v2\\/channelconfigview\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000949,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crackerbarrel.com",
+                "handandstone.com",
+                "locations.michaels.com",
+                "locations.redrobin.com",
+                "michaels.com",
+                "www.bigotires.com",
+                "www.bkstr.com",
+                "www.crackerbarrel.com",
+                "www.hobbycraft.co.uk",
+                "www.honeybaked.com",
+                "www.michaels.com",
+                "www.midas.com",
+                "www.ntb.com",
+                "www.redrobin.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/api\\/v2\\/channelconfigview\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000949,
+            "cnames": [],
+            "responseHashes": [
+                "2c07820ec71de33ff3181b9595b43b11084328d48a8ae38aa9e32935db6c6867",
+                "c68981c54de95b164bcd416277168eb73a88b0e98071aa30fe07cc0e758c68c6",
+                "e2b152ea953a76f4d3ff026d6bc3f5c5dd2b1842b0570e3727836841e57cec34",
+                "52c0809f614ca8df95875cac8fe4c0725e585b651c244236577a08e86efd4fee",
+                "7d0ba8c49154535f90c318d561112bf6540fca4b0aac035e6cffee78b26f9e04",
+                "c1e105c737b8f00bca42a345aa8d337fe2824e6b121594c60f91119d96f3eb2d",
+                "419b2169c754470f92919c3041265c8664953f42fc33a43fe4369d9695a8e157",
+                "38e824310f740856c2d548531c3f3e380b4b77b56fe6816e843408a2b0980772",
+                "f3d7f68c38a62a91fae5335bfa9cda50db42e1701319f2f4359e42beadd54fcb",
+                "c5bb45a18aa8d857b6f123582fb4bc62a5ae5627afdb6726a917711e98dcfa9f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crackerbarrel.com",
+                "handandstone.com",
+                "locations.michaels.com",
+                "locations.redrobin.com",
+                "michaels.com",
+                "www.bigotires.com",
+                "www.bkstr.com",
+                "www.crackerbarrel.com",
+                "www.hobbycraft.co.uk",
+                "www.honeybaked.com",
+                "www.michaels.com",
+                "www.midas.com",
+                "www.ntb.com",
+                "www.redrobin.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/api\\/v2\\/metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000949,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crackerbarrel.com",
+                "handandstone.com",
+                "locations.michaels.com",
+                "locations.redrobin.com",
+                "michaels.com",
+                "www.bigotires.com",
+                "www.bkstr.com",
+                "www.crackerbarrel.com",
+                "www.hobbycraft.co.uk",
+                "www.honeybaked.com",
+                "www.michaels.com",
+                "www.midas.com",
+                "www.ntb.com",
+                "www.redrobin.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/api\\/v2\\/metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000949,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crackerbarrel.com",
+                "handandstone.com",
+                "locations.michaels.com",
+                "locations.redrobin.com",
+                "michaels.com",
+                "www.bigotires.com",
+                "www.bkstr.com",
+                "www.crackerbarrel.com",
+                "www.hobbycraft.co.uk",
+                "www.honeybaked.com",
+                "www.michaels.com",
+                "www.midas.com",
+                "www.ntb.com",
+                "www.redrobin.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/etrackjslibrary\\/49491286-2785-4AED-A451-849F3895CC89",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "BroadcastChannel.prototype.constructor": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.languages": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
             },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "331d14de5cbf8330e27c7001bf21cb61cd1bc2350ac62c9bd63b4b4681cf19d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "michaels.com",
@@ -64,8 +228,8 @@
             ]
         },
         {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/PARTY_CITY_ETRK\\/PRTY_ETRK",
-            "cookies": 0.0000138,
+            "rule": "smg\\.com\\/Etrack\\/Sdk\\/Michael_s_Etrack\\/MIC_ETRK",
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "api"
@@ -77,36 +241,139 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "4b70718a5b8a051360074297134ddcbb756855aa87f1a7e0ead5310887306e4a"
+                "3c95adbedeb3669fa5f9772a0cf2104d324fc4f8b9e9700a8eefe69256fe4271"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "cookietest": {
-                    "ttl": -1633231010,
+                    "ttl": -1660917756,
                     "length": 1,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 },
-                "_etr_p_partycity.com": {
-                    "ttl": 31536009,
-                    "length": 25,
-                    "prevalence": 0.000013804146765688412,
+                "_etr_p_michaels.com": {
+                    "ttl": 31536014,
+                    "length": 18,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
-                "_etr_s_partycity.com": {
+                "_etr_s_michaels.com": {
                     "ttl": null,
-                    "length": 36,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
+                    "length": 13,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "partycity.com",
-                "www.partycity.com"
+                "michaels.com",
+                "locations.michaels.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/etrackjslibrary\\/2400785A-7D53-4FC7-8AD9-CEAA84770984",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "BroadcastChannel.prototype.constructor": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.languages": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "30a4d22c773a288f92e3d8d9ede5a6a841c414e6758f2b2940bf2bee8a18a71a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redrobin.com",
+                "locations.redrobin.com",
+                "www.redrobin.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/etrackjslibrary\\/23B32995-BBD5-4086-9F61-E3927CBFB090",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8163f173641a96b5570d852d0b1c69d9ff2b7a304298f74be497549bf318a130"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigotires.com",
+                "www.bigotires.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/etrackjslibrary\\/008749A8-13EA-4C8A-86A4-050C761DB982",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5fec8185ded0b189ba1b246efe62a9bf96509149948774406db6ddccad14913a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bkstr.com",
+                "www.bkstr.com"
             ]
         },
         {
@@ -117,208 +384,23 @@
                 "api"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "cc00c941632878aa029f4bef480579731c138a7dcca94431cd0242bcfa3a567b",
-                "1a36f55ea69027fb5e2d420a7a406414216fcd927de51f13201be6a08ab5fd93",
-                "af8cd0d6bc6f4902e81b1a598dd7efacb52eebd5c9cc3d79fbd1125520bebb7e"
+                "c8b63c1a94d83b1d781d75b2cb1d3692c12d2dfc753c9ccbbf2844c4ad02b2fe"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "partycity.com",
-                "sallybeauty.com",
-                "www.cosmoprofbeauty.com",
-                "www.michaels.com",
-                "www.ntb.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/SALLY_BEAUTY_ETRACK\\/SALL_ETRK",
-            "cookies": 0.0000138,
-            "fingerprinting": 1,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {
-                "Document.cookie setter": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "3732e07f1c62ce5723779799afa14f64724f454a28648ba4ff8873cf80d49d6d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "cookietest": {
-                    "ttl": -1633235172,
-                    "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "_etr_p_sallybeauty.com": {
-                    "ttl": 31536009,
-                    "length": 18,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_etr_s_sallybeauty.com": {
-                    "ttl": null,
-                    "length": 13,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "sallybeauty.com",
-                "www.sallybeauty.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/TBC_BIG_ETRK\\/TBC_BIG_ETRK",
-            "cookies": 0.0000138,
-            "fingerprinting": 1,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {
-                "Document.cookie setter": 2,
-                "Document.cookie getter": 2,
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "866e48768fa9ffd10beb40c56fdb4092995dee6e29fc0aa840d1cae2925bc41b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "cookietest": {
-                    "ttl": -1633206784,
-                    "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "_etr_ft_vi_": {
-                    "ttl": 31536004,
-                    "length": 10,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_etr_ft_js_": {
-                    "ttl": null,
-                    "length": 26,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bigotires.com",
-                "www.bigotires.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/Etrack\\/FeedbackTabUi",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "92809763f5eba934e98a8c0ebf4c675dce3193580acbfbb675dc7e73666c5224",
-                "2391376d6ed76d21f053453bd3420b188eff8def43cd991f48a39efea3e2e016",
-                "0217800c19b719b7f172f59292d698b4ed671b855213fa210ec3c275a35fdd90"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_etr_ft_vi_": 0.000027608293531376825,
-                "_vspsd": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "bigotires.com",
-                "www.bigotires.com",
-                "www.midas.com",
-                "www.ntb.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/CARTERS_ETRK\\/CART_ETRK",
-            "cookies": 0.0000207,
-            "fingerprinting": 1,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {
-                "Document.cookie setter": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "23a7346440937d00ec48c78ea7dd66ea762a3372155d79ff7129b9f3a44cb4ec"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "cookietest": {
-                    "ttl": -1633208896,
-                    "length": 1,
-                    "prevalence": 0.000020706220148532618,
-                    "uniqueness": 0.3333333333333333
-                },
-                "_etr_p_carters.com": {
-                    "ttl": 31536005,
-                    "length": 18,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_etr_s_carters.com": {
-                    "ttl": null,
-                    "length": 13,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "_etr_p_oshkosh.com": {
-                    "ttl": 31536012,
-                    "length": 18,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                },
-                "_etr_s_oshkosh.com": {
-                    "ttl": null,
-                    "length": 13,
-                    "prevalence": 0.000006902073382844206,
-                    "uniqueness": 1
-                }
-            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "carters.com",
-                "www.carters.com",
-                "www.oshkosh.com"
+                "www.cosmoprofbeauty.com"
             ]
         },
         {
             "rule": "smg\\.com\\/Etrack\\/Sdk\\/SALL_CP_ETRK\\/SALL_CP_ETRK",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "api"
@@ -330,7 +412,7 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "a660ece81939ed8a596526a5535d1e3894904d70409a2098f391e9be074020b4"
@@ -338,21 +420,21 @@
             "type": "Script",
             "firstPartyCookies": {
                 "cookietest": {
-                    "ttl": -1633210886,
+                    "ttl": -1660958009,
                     "length": 1,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 },
                 "_etr_p_cosmoprofbeauty.com": {
-                    "ttl": 31536005,
+                    "ttl": 31536010,
                     "length": 31,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "_etr_s_cosmoprofbeauty.com": {
                     "ttl": null,
                     "length": 58,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 }
             },
@@ -363,102 +445,8 @@
             ]
         },
         {
-            "rule": "smg\\.com\\/readsmgrcid\\.html",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "id.services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "69a322e0fd8e2d989b50a3ed860e8ed078e2d83a1f39df334f5876deca3d57da"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dgcustomerfirst.com",
-                "www.dgcustomerfirst.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/rcid\\/gethtmlrcid",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "id.services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dgcustomerfirst.com",
-                "www.dgcustomerfirst.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/Scripts\\/jquery-2\\.1\\.4\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "id.services"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "22642f202577f0ba2f22cbe56b6cf291a09374487567cd3563e0d2a29f75c0c5"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dgcustomerfirst.com",
-                "www.dgcustomerfirst.com"
-            ]
-        },
-        {
-            "rule": "smg\\.com\\/Scripts\\/EnhRcidRead\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "id.services"
-            ],
-            "apis": {
-                "window.sessionStorage": 2,
-                "window.localStorage": 2,
-                "window.name": 2,
-                "window.openDatabase": 2,
-                "window.indexedDB": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "89a0d76a721d8526ed4cc76b23844d8fb2172b3c86ff43aebf41bd79f38956f3"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dgcustomerfirst.com",
-                "www.dgcustomerfirst.com"
-            ]
-        },
-        {
             "rule": "smg\\.com\\/Etrack\\/Sdk\\/Dreams_Survey_Invites\\/DRE_ETR_CSI",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "api"
@@ -470,7 +458,7 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "075067a944553d16a4f00362f339f1b05964bd0cbf496a7336e61337a61087d3"
@@ -478,21 +466,21 @@
             "type": "Script",
             "firstPartyCookies": {
                 "cookietest": {
-                    "ttl": -1633213169,
+                    "ttl": -1660936406,
                     "length": 1,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 },
                 "_etr_p_dreams.co.uk": {
-                    "ttl": 31536005,
+                    "ttl": 31536011,
                     "length": 18,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "_etr_s_dreams.co.uk": {
                     "ttl": null,
                     "length": 13,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 }
             },
@@ -503,45 +491,101 @@
             ]
         },
         {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/TBC_MID_ETRK\\/TBC_MID_ETRK",
-            "cookies": 0.0000138,
-            "fingerprinting": 1,
+            "rule": "smg\\.com\\/etrackjslibrary\\/8A51F2C5-CFA3-4DF0-9A2D-5FF9889A6347",
+            "cookies": 0,
+            "fingerprinting": 2,
             "subdomains": [
-                "api"
+                "feedback"
             ],
             "apis": {
-                "Document.cookie setter": 2,
-                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
                 "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2
+                "window.localStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "08b0924e24ab85b769298f6c6d2677b67a8ef3cb5c3a969c937c4500944ba5d3"
+                "1a3783b533040dfddbde901028db7166204369b5fda0613a77693b418fe40677"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "cookietest": {
-                    "ttl": -1633226685,
-                    "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "_etr_ft_vi_": {
-                    "ttl": 31536002,
-                    "length": 10,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_etr_ft_js_": {
-                    "ttl": null,
-                    "length": 26,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                }
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hobbycraft.co.uk",
+                "www.hobbycraft.co.uk"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/etrackjslibrary\\/3438908B-8E96-46FC-BD27-87DFECDD2BE1",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
             },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5e75c89cb95eef509d9ff15b7caa27f96a39a71880eebbdcd24ec5b83fdbb0c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeybaked.com",
+                "www.honeybaked.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/etrackjslibrary\\/028906DB-C606-4A18-A6CE-EC94B80B617A",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "11cdf965761cfc15d5492ca07be920241112b05033ba6c0d4bf1fc3c032da713"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "midas.com",
@@ -549,72 +593,74 @@
             ]
         },
         {
-            "rule": "smg\\.com\\/Etrack\\/Sdk\\/TBC_ETRK_NTB\\/TBC_ETRK",
-            "cookies": 0.0000138,
-            "fingerprinting": 1,
+            "rule": "smg\\.com\\/etrackjslibrary\\/431F740A-7846-4512-997A-289E90309A21",
+            "cookies": 0,
+            "fingerprinting": 2,
             "subdomains": [
-                "api"
+                "feedback"
             ],
             "apis": {
-                "Document.cookie setter": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
                 "window.sessionStorage": 2,
-                "Navigator.prototype.userAgent": 2
+                "window.localStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8883925109143807df086bbfef3ec5bb9fb7aa3e40530332af34c04b7f19fea8"
+                "b8cd2ed4ff60911271903452e6b4b8689c388c31b7bfc2eb348b98242c89ba70"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "cookietest": {
-                    "ttl": -1633229565,
-                    "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "_etr_p_ntb.com": {
-                    "ttl": 31536004,
-                    "length": 31,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_etr_s_ntb.com": {
-                    "ttl": null,
-                    "length": 13,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                },
-                "_etr_ft_vi_": {
-                    "ttl": 31536003,
-                    "length": 10,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_etr_ft_js_": {
-                    "ttl": null,
-                    "length": 26,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                }
-            },
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ntb.com",
                 "www.ntb.com"
             ]
+        },
+        {
+            "rule": "smg\\.com\\/Etrack\\/Sdk\\/SALLY_BEAUTY_ETRACK\\/SALL_ETRK",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3732e07f1c62ce5723779799afa14f64724f454a28648ba4ff8873cf80d49d6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sallybeauty.com",
+                "www.sallybeauty.com"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000207,
+    "cookies": 0.0000542,
     "types": {
-        "Script": 26,
-        "XHR": 9,
-        "Document": 2
+        "Script": 29,
+        "Preflight": 28,
+        "Fetch": 28,
+        "XHR": 2
     },
     "nameservers": [
         "ns10.servicemanagement.com",

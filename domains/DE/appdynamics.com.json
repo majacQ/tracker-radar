@@ -7,13 +7,13 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.0012,
-    "sites": 12,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "cdn"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "appdynamics\\.com\\/adrum\\/adrum-20\\.6\\.0\\.3177\\.js",
@@ -25,10 +25,13 @@
             "apis": {
                 "PerformanceTiming.prototype.navigationStart": 2,
                 "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "fe3667dacaa74fed39aa53e8c8261c855a99ceaafd6fc1c3e60e0db2610c2b26"
@@ -40,65 +43,15 @@
                 "carhartt.com",
                 "www.carhartt.com"
             ]
-        },
-        {
-            "rule": "appdynamics\\.com\\/adrum\\/adrum-latest\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Date.prototype.getTime": 2,
-                "Event.prototype.timeStamp": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "802fe463fb2c5049f755d600c2add791806ba93cf67009d1f621119887e411d7"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nintendo.com",
-                "www.rentalcars.com"
-            ]
-        },
-        {
-            "rule": "appdynamics\\.com\\/adrum-ext\\.59191791453ae6311081a09b4cf33c2d\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e490994ad61a64454e06354b4c74756269548b48e8bd476b35762d713ccb8c86"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nintendo.com",
-                "www.rentalcars.com"
-            ]
         }
     ],
     "categories": [
         "Analytics"
     ],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 6
+        "Script": 2
     },
     "nameservers": [
         "ns-1486.awsdns-57.org",

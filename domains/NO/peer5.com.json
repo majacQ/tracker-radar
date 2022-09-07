@@ -16,12 +16,12 @@
         "ws"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "peer5\\.com\\/peer5\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 3,
             "subdomains": [
                 "api"
             ],
@@ -33,19 +33,45 @@
                 "Navigator.prototype.permissions": 2,
                 "window.localStorage": 2,
                 "Navigator.prototype.mediaDevices": 2,
-                "RTCPeerConnectionIceEvent.prototype.candidate": 2
+                "MediaDevices.prototype.enumerateDevices": 2,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 2,
+                "Navigator.prototype.onLine": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b521bb676250d9da8dc4191936c947b00f7c339222e9997028fbbb800dda3fac"
+                "036cf4bda6b302398cc96663627377a99da836d97be9da49ea569edd64ce513f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "rtve.es",
+                "visjonnorge.com",
+                "www.visjonnorge.com"
+            ]
+        },
+        {
+            "rule": "peer5\\.com\\/peer5\\.jwplayer8\\.plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "30d8a6bc93dad550e6caf6167c0e1c6cd1f5394c8b353403df1560e25e81997c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visjonnorge.com",
                 "www.visjonnorge.com"
             ]
         },
@@ -65,7 +91,7 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "rtve.es",
+                "visjonnorge.com",
                 "www.visjonnorge.com"
             ]
         }
@@ -74,7 +100,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
+        "Script": 4,
         "WebSocket": 2
     },
     "nameservers": [

@@ -7,26 +7,133 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000104,
-    "sites": 15,
+    "prevalence": 0.000237,
+    "sites": 35,
     "subdomains": [
         "www",
-        "mediaim",
-        "oms"
+        "oms",
+        "collector.prod",
+        "capig"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 0,
     "resources": [
         {
-            "rule": "expedia\\.com\\/trvl-px\\/v2\\/get",
-            "cookies": 0.0000414,
+            "rule": "expedia\\.com\\/go\\/hotel\\/search\\/Destination",
+            "cookies": 0.0000813,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 12,
+            "prevalence": 0.0000813,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "365atlantatraveler.com",
+                "aviewfrommyseat.co.uk",
+                "europebookings.com",
+                "lakelubbers.com",
+                "rove.me",
+                "www.danceus.org",
+                "www.everfest.com",
+                "www.festivalsunited.com",
+                "www.inyourpocket.com",
+                "www.runguides.com",
+                "www.runnersworld.de",
+                "www.worldtravelguide.net"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/id",
+            "cookies": 0.000061,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oms"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000061,
+            "cnames": [],
+            "responseHashes": [
+                "344626c0bb91c6b77e91afb228b139379df69352ce6bd093b7e05727d9e30286",
+                "7241804654cfb4632c234d8adf93eb4f417af8e6d6cec94f6878e3be89b42e0c",
+                "04292399325061ab9d140845055537d444b4937e49e8ddc05d18d82092f55a5a",
+                "c154a141c9ae3b62e116fe60ce00a0b6b1c103ff5ca9245faec1aec820cd1671",
+                "9010940bf5cfa4b524ba7a00196d40d6095f3dfc2e9bcb9233cce0f83d1c49f9",
+                "cecfa9e5170bdc396593f4400e4b63e5b5b00b94e0f5d711aaee845b77558354",
+                "484119b7b57e7286951aa5d79bffba2bb1abe12fda6991645de43339e6651887",
+                "31fb069bab05226eee8d6ce34197b8cb0dbeea27d51816bb286a6c2c577180ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "au.hotels.com",
+                "ca.hotels.com",
+                "de.hotels.com",
+                "fr.hotels.com",
+                "uk.hotels.com",
+                "www.carrentals.com",
+                "www.hotels.com",
+                "www.hotwire.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/omgpixel\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "au.hotels.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/omgpixel\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "au.hotels.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/trvl-px\\/v2\\/get",
+            "cookies": 0.0000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000542,
             "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
@@ -34,6 +141,8 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "hotels.com",
+                "au.hotels.com",
+                "ca.hotels.com",
                 "de.hotels.com",
                 "fr.hotels.com",
                 "uk.hotels.com",
@@ -42,15 +151,57 @@
             ]
         },
         {
-            "rule": "expedia\\.com\\/trvl-px\\/v2\\/pix",
-            "cookies": 0.0000414,
+            "rule": "expedia\\.com\\/trvl-px\\/v2\\/get",
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "au.hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/trvl-px\\/v2\\/pix",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotels.com",
+                "au.hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/trvl-px\\/v2\\/pix",
+            "cookies": 0.0000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000542,
             "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
@@ -58,6 +209,8 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "hotels.com",
+                "au.hotels.com",
+                "ca.hotels.com",
                 "de.hotels.com",
                 "fr.hotels.com",
                 "uk.hotels.com",
@@ -66,182 +219,89 @@
             ]
         },
         {
-            "rule": "expedia\\.com\\/destination\\/1\\/4aa876547f9e3a5475a085b8a8907e72\\.jpg",
+            "rule": "expedia\\.com\\/events",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "mediaim"
+                "capig"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "5204b89a6aa3df78230215b0f32ed7cd2428fa21001051ab2ffd14e51f658ab6"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotels.com",
-                "fr.hotels.com",
-                "uk.hotels.com"
-            ]
-        },
-        {
-            "rule": "expedia\\.com\\/destination\\/1\\/147a09db29d6e5bf3390d85d5ae7869c\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mediaim"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "bb7236b1913a21ec40e0b0c59eccf633783bd7e71de8e127f58c86369af26536"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotels.com",
-                "fr.hotels.com",
-                "uk.hotels.com"
-            ]
-        },
-        {
-            "rule": "expedia\\.com\\/destination\\/1\\/c89d714834715f9015c56b5c52b7cf62\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mediaim"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "27e1a5adf9686c6b231342270a7a4a6e5620dff6637d82ed7574f1cca852dbe4"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotels.com",
-                "fr.hotels.com",
-                "uk.hotels.com"
-            ]
-        },
-        {
-            "rule": "expedia\\.com\\/destination\\/7\\/2379e80ed907e4573da943b2560d6626\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mediaim"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "8cbb11c9ebe281714526727eff9cf0599da2ee1b403769e676b05f9e460ff373"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotels.com",
-                "fr.hotels.com",
-                "uk.hotels.com"
-            ]
-        },
-        {
-            "rule": "expedia\\.com\\/destination\\/7\\/f695f8939aae154ec508f4c922d6027a\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mediaim"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "d2cb1b7037fe807fbb952d83841a134e97711e6ae48f0aece321d441a9e3f827"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotels.com",
-                "fr.hotels.com",
-                "uk.hotels.com"
-            ]
-        },
-        {
-            "rule": "expedia\\.com\\/destination\\/1\\/0764499462e7bb9922a2ef4ee2dbdfeb\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mediaim"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "c534ad7c2255c07e9404cf0d28d4ee73ffe8c56abe9fb61a7706321f2ab8c26f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hotels.com",
-                "fr.hotels.com",
-                "uk.hotels.com"
-            ]
-        },
-        {
-            "rule": "expedia\\.com\\/id",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "oms"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "0a80c49e6f012b9d4527c32fbda102e9ecab5c49804d6f953dab8a27565e9065",
-                "f6abef09f2afef88809cd8526fdd34f638eef6a71afe4d08c7151a480e2b77c4"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "carrentals.com",
-                "www.hotels.com",
-                "www.hotwire.com"
+                "hotels.com",
+                "ca.hotels.com",
+                "www.hotels.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/marketing\\/widgets\\/searchform\\/widget",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitseattle.org",
+                "www.visitcaymanislands.com"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/go\\/hotel\\/launch",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeymoonalways.com",
+                "www.honeymoonalways.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000104,
+    "cookies": 0.000237,
     "types": {
-        "Fetch": 12,
-        "Image": 18,
-        "XHR": 3
+        "Document": 16,
+        "XHR": 14,
+        "Other": 2,
+        "Fetch": 16,
+        "Preflight": 6
     },
     "nameservers": [
         "pdns3.ultradns.org",
         "pdns4.ultradns.org",
+        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
         "pdns5.ultradns.info",
         "pdns6.ultradns.co.uk",
-        "pdns89.ultradns.net",
-        "pdns89.ultradns.com"
+        "dns1.p09.nsone.net",
+        "dns2.p09.nsone.net",
+        "dns3.p09.nsone.net",
+        "dns4.p09.nsone.net"
     ]
 }

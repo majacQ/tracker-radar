@@ -7,16 +7,17 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.00221,
-    "sites": 22,
+    "prevalence": 0.00211,
+    "sites": 21,
     "subdomains": [
-        "cc"
+        "cc",
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "swiftype\\.com\\/cc\\.js",
+            "rule": "swiftype\\.com\\/cc",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -27,26 +28,28 @@
             "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
             ],
             "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00010028078620136381
+            },
             "exampleSites": [
-                "gitlab.com",
-                "rankedboost.com",
-                "www.admiral.com",
-                "www.allaboutvision.com",
-                "www.bmc.com",
-                "www.calculatorsoup.com",
-                "www.doctorfox.co.uk",
-                "www.foxit.com",
-                "www.legal500.com",
-                "www.physio-pedia.com"
+                "deadline.com",
+                "mailchimp.com",
+                "tvline.com",
+                "variety.com",
+                "www.billboard.com",
+                "www.hollywoodreporter.com",
+                "www.indiewire.com",
+                "www.princess.com",
+                "www.rollingstone.com",
+                "www.sheknows.com"
             ]
         },
         {
-            "rule": "swiftype\\.com\\/cc",
+            "rule": "swiftype\\.com\\/cc\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -57,21 +60,61 @@
             "prevalence": 0.000903,
             "cnames": [],
             "responseHashes": [
-                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "deadline.com",
-                "mailchimp.com",
-                "tvline.com",
-                "variety.com",
-                "www.hollywoodreporter.com",
-                "www.indiewire.com",
-                "www.princess.com",
-                "www.rollingstone.com",
-                "www.sheknows.com"
+                "gitlab.com",
+                "rankedboost.com",
+                "www.admiral.com",
+                "www.allaboutvision.com",
+                "www.calculatorsoup.com",
+                "www.hermanmiller.com",
+                "www.legal500.com",
+                "www.lexisnexis.co.uk",
+                "www.physio-pedia.com"
+            ]
+        },
+        {
+            "rule": "swiftype\\.com\\/api\\/v1\\/public\\/engines\\/search\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colgate.com",
+                "www.colgate.com"
+            ]
+        },
+        {
+            "rule": "swiftype\\.com\\/api\\/v1\\/public\\/engines\\/search\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colgate.com",
+                "www.colgate.com"
             ]
         }
     ],
@@ -79,12 +122,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Image": 19
+        "Image": 19,
+        "Preflight": 2,
+        "XHR": 2
     },
     "nameservers": [
         "ns-140.awsdns-17.com",
-        "ns-1478.awsdns-56.org",
+        "ns-610.awsdns-12.net",
         "ns-1799.awsdns-32.co.uk",
-        "ns-610.awsdns-12.net"
+        "ns-1478.awsdns-56.org"
     ]
 }

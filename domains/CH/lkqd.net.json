@@ -9,61 +9,21 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.00371,
-    "sites": 37,
+    "prevalence": 0.000502,
+    "sites": 5,
     "subdomains": [
-        "cs",
         "ad",
         "v",
-        "t"
+        "t",
+        "cs"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
-        {
-            "rule": "lkqd\\.net\\/cs",
-            "cookies": 0.00311,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cs"
-            ],
-            "apis": {},
-            "sites": 35,
-            "prevalence": 0.00351,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "pastebin.com",
-                "www.mangaread.org",
-                "www.codespeedy.com",
-                "www.mariowiki.com",
-                "hypebeast.com",
-                "www.formulatv.com",
-                "www.physicsread.com",
-                "nanoreview.net",
-                "www.onlinepc.ch",
-                "www.naguide.com",
-                "www.grammar-monster.com",
-                "www.thisisanfield.com",
-                "www.wie-sagt-man-noch.de",
-                "www.italy24news.com",
-                "www.includehelp.com",
-                "www.sciencedaily.com",
-                "www.thetopsites.net",
-                "www.speedrun.com",
-                "www.how2shout.com",
-                "esdifferent.com"
-            ]
-        },
         {
             "rule": "lkqd\\.net\\/vpaid\\/formats\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "ad"
             ],
@@ -71,10 +31,12 @@
                 "Date.prototype.getTime": 4,
                 "Navigator.prototype.userAgent": 4,
                 "window.localStorage": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
                 "Navigator.prototype.doNotTrack": 4
             },
             "sites": 4,
-            "prevalence": 0.000401,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
                 "7cfe458faed6fe5c3094bd51f1f10174604be983739ade9d828b0aad190043e5"
@@ -84,64 +46,69 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "esdifferent.com",
-                "www.formulatv.com",
-                "www.onlinepc.ch"
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
             ]
         },
         {
             "rule": "lkqd\\.net\\/cookie-sync\\/usync\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.000402,
+            "fingerprinting": 1,
             "subdomains": [
                 "ad"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "6a9927d34f4bab2af700510fd27194cfd1603e97a34cbb21678350f4cd93b2b3"
+                "a09fb04841151074c73e8daf6edb12da7ffd8b5e7812492a6d9f3ae977fe3d31"
             ],
             "type": "Document",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "csip": {
+                    "ttl": 300,
+                    "length": 4,
+                    "prevalence": 0.0004016467516818958,
+                    "uniqueness": 0.25
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "esdifferent.com",
-                "www.formulatv.com",
-                "www.mobafire.com",
-                "www.onlinepc.ch"
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
             ]
         },
         {
             "rule": "lkqd\\.net\\/ad",
-            "cookies": 0.000401,
+            "cookies": 0.000402,
             "fingerprinting": 0,
             "subdomains": [
                 "v"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "59c07121951c284e11aa5af5b0a431e5b89f871cdd5f9fb8c10d234aa0d8ea57",
-                "e30374bd2baf76a35b11c9df3497b4a3d076be51c723ab31de11ebb8aef29789",
-                "82764490f771c00e8654f98f57e543f063f06ab9f7b895fb33fcbd7831b08a5d",
-                "9295767a9149c69d8b26e6f88d9ed232b621681d03f7207b4478c95d6e98219a",
-                "9a29315454ad6236c5209a7d9d36e12f9b092d59f58596b85fa7a5192b7478af"
+                "6f5b2034af84b4fc7e60e6fcddd5946c8ce8b1d28b21bf642f6db5f553ce0305",
+                "0783477af42fdf1abb3cd925fce7e1cacd3e35813be6698fb6bc5a40f1f90041",
+                "aab401d6716b16af1e7bf2c5ca1c52e0c4da3a999bff915ab9a8148466794284"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "esdifferent.com",
-                "www.counterstats.net",
-                "www.formulatv.com",
-                "www.mobafire.com",
-                "www.onlinepc.ch"
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
             ]
         },
         {
@@ -152,8 +119,30 @@
                 "t"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -161,83 +150,43 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "esdifferent.com",
-                "www.onlinepc.ch"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "esdifferent.com",
-                "www.formulatv.com",
-                "www.mobafire.com",
-                "www.onlinepc.ch"
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
             ]
         },
         {
             "rule": "lkqd\\.net\\/vpaid\\/vpaid\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "ad"
             ],
             "apis": {
-                "Date.prototype.getTime": 5,
-                "Navigator.prototype.userAgent": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Navigator.prototype.doNotTrack": 5
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.outerWidth": 4,
+                "window.innerWidth": 4,
+                "window.outerHeight": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.doNotTrack": 4
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "ef50960ff4008e29ce90d5fbf828aafc92f1df70f59fb672fa3884fdd2017a5f"
+                "36ae762191d24727fbba21272ea14872bb7824188961282001d50e67f7b1881c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "esdifferent.com",
-                "www.formulatv.com",
-                "www.mobafire.com",
-                "www.onlinepc.ch"
-            ]
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "24timezones.com",
-                "www.formulatv.com",
-                "www.mobafire.com"
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
             ]
         },
         {
@@ -249,7 +198,7 @@
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.000401,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -257,9 +206,34 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "24timezones.com",
-                "esdifferent.com",
-                "www.formulatv.com",
-                "www.onlinepc.ch"
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at"
+            ]
+        },
+        {
+            "rule": "lkqd\\.net\\/cs",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24timezones.com",
+                "www.bedeutungonline.de",
+                "www.pctipp.ch",
+                "www.wochenblick.at",
+                "www.yuh.com"
             ]
         }
     ],
@@ -270,14 +244,13 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {},
-    "cookies": 0.00321,
+    "cookies": 0.000502,
     "types": {
-        "Image": 35,
-        "Script": 9,
-        "Document": 5,
-        "XHR": 11,
-        "Preflight": 7,
-        "Other": 3
+        "Script": 8,
+        "Document": 4,
+        "XHR": 8,
+        "Preflight": 8,
+        "Image": 5
     },
     "nameservers": [
         "ns-1476.awsdns-56.org",

@@ -10,27 +10,53 @@
         "api"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "retargetly\\.com\\/optout",
-            "cookies": 0.000301,
+            "rule": "retargetly\\.com\\/loader",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "850859f9fb008e74a92d8860e00c8dfcf8eb825e9fd6949cce003144f6ebab41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nyadagbladet.se",
+                "www.eluniversal.com.mx"
+            ]
+        },
+        {
+            "rule": "retargetly\\.com\\/api",
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [],
             "type": "Document",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00010031096398836393
+            },
             "exampleSites": [
-                "medhelp.org",
-                "healthquestions.medhelp.org",
-                "www.medhelp.org"
+                "nyadagbladet.se",
+                "www.eluniversal.com.mx"
             ]
         }
     ],
@@ -38,10 +64,11 @@
     "performance": {},
     "cookies": 0.000201,
     "types": {
-        "Document": 3
+        "Script": 2,
+        "Document": 2
     },
     "nameservers": [
-        "hal.ns.cloudflare.com",
-        "tegan.ns.cloudflare.com"
+        "tegan.ns.cloudflare.com",
+        "hal.ns.cloudflare.com"
     ]
 }

@@ -4,12 +4,12 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0002,
-    "sites": 2,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "livechat",
-        "pushpromjs",
-        "static",
+        "ocw",
+        "livechat-metrics",
         "messaging"
     ],
     "cnames": [],
@@ -18,52 +18,100 @@
         {
             "rule": "messagebird\\.com\\/bootstrap\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
-                "livechat"
+                "livechat",
+                "ocw"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.language": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.width": 2
+                "Navigator.prototype.userAgent": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "window.innerHeight": 4
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "db884ee6bc17ae392939df2ea0223c37c99dc70345202bd59394c173cbf69f89"
+                "93fcbf48a2e2734a79ac1150cebe496a6b625fb4eeb300e5ff631e82aa606fae"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
             "rule": "messagebird\\.com\\/measure",
-            "cookies": 0.000301,
+            "cookies": 0.000401,
             "fingerprinting": 0,
             "subdomains": [
-                "pushpromjs"
+                "livechat-metrics"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
                 "www.aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
+            ]
+        },
+        {
+            "rule": "messagebird\\.com\\/livechat\\/widget\\/c2a309ad-97b5-4b93-8e6e-06d65b489c3b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messaging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "440b69d99ff35a3d7fbbf12d2f6865ace8661687dab5ae4d2eaded66986240c4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aramex.com.au",
+                "www.parcelconnect.com.au"
+            ]
+        },
+        {
+            "rule": "messagebird\\.com\\/livechat\\/widget\\/c2a309ad-97b5-4b93-8e6e-06d65b489c3b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messaging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aramex.com.au",
+                "www.parcelconnect.com.au"
             ]
         },
         {
@@ -71,233 +119,227 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "livechat"
+                "livechat",
+                "ocw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "feec85a239a5a342791e0e59fcc18fdf430a8291bde10d7d81153629120d0c2b"
+                "d55f03f1cf1a6b812c2c1b0890565cd526b754d6e32dfa3553aa5ceba89ea664"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/fonts\\.css",
+            "rule": "messagebird\\.com\\/js\\/index-nomodule-7220e133\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "95e62f18f28cc3f7a08cb2154d6ff05c09586d047d497f08c29480900668abcc"
+                "3a9abdb6ea61183f67b140a2716491cdf05fb7a4a2467b18533e94c9a417fb6e"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/index-nomodule-f4ac4975\\.css",
+            "rule": "messagebird\\.com\\/metrics\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "39339bf475aef5f7a90c0773e8df83c319d1a8e5fef11597d357ba5d072d25f4"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "aramex.com.au",
-                "www.scribbr.com"
-            ]
-        },
-        {
-            "rule": "messagebird\\.com\\/metrics\\/pushprom\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "752e4edcdeaf360caaa1b567c76c585bf892c5250429045eb205ff16a8305243"
+                "ebb439414c05fe94f65e4f4184a9667e7a5e2cf2872fd77e7f035d1851301566"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/assets\\/p\\/modern-34fee9ce\\.js",
+            "rule": "messagebird\\.com\\/js\\/modern-66f0a8a6\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.language": 2,
-                "BroadcastChannel.prototype.constructor": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.connection": 2,
-                "Navigator.prototype.userAgent": 2
+                "window.localStorage": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.userAgent": 4,
+                "BroadcastChannel.prototype.constructor": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.connection": 4
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "000a3df352530b2720588d02adc04701da8321b76f1451f072798f1cfaf65a3c"
+                "1a630b4d15a891e9c820792f1ee7ccbe16f75bdb1275c42c271912dffbccd932"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/assets\\/p\\/preact-vendor-chunk-0cfa2ff8\\.js",
+            "rule": "messagebird\\.com\\/js\\/preact-vendor-chunk-044e7ae1\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "f1addfef0f68cbb810eff57f633a8f2e4e6bd3d1c4869e82037fe3d1c65054f5"
+                "c7c46ecad530409a82be9b5ece1c85fa739a8a057dc3d82b2cffb5d67899f280"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/assets\\/p\\/corejs-chunk-1c1ac122\\.js",
+            "rule": "messagebird\\.com\\/js\\/corejs-chunk-2a3f580d\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "9fd8f25b5f0f28271d1be8a50ed2c166e849cbe365155316dd33b20b88153fc0"
+                "8a551109142600c0c71869bd8e0cbc9fcb1a8be451c89380d6ca265bddee336c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/assets\\/p\\/firebase-chunk-719cb087\\.js",
+            "rule": "messagebird\\.com\\/js\\/sentry-chunk-06125790\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "window.indexedDB": 2,
-                "window.sessionStorage": 2
+                "PerformanceTiming.prototype.navigationStart": 4
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d2047b8e6f712da48a4b39647843bc8b02a37db7ff11eaa9a0a23a4c6492c775"
+                "2154e01007e90c63d9f1262f29970f264a2028c45fbda58567fe38d80a5a4373"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/assets\\/p\\/lingui-chunk-a39ca2dd\\.js",
+            "rule": "messagebird\\.com\\/js\\/lingui-chunk-689c9363\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "acd4e8984515ba0628efae76b4ed489c9e27ac53652ed301264d25605fd30bab"
+                "c79c9845353432ec46ad503e211dcd04e5b6a512c2fe4153f3ecd29e26d60ba4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
         {
-            "rule": "messagebird\\.com\\/assets\\/p\\/messages-chunk-a8319eee\\.js",
+            "rule": "messagebird\\.com\\/js\\/messages-chunk-f8bba196\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "livechat"
+                "ocw"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "9af91776120790299f3c45cd3159ba3c2d8222eef414f6eb87629cf99320a220"
+                "1f486c9a504f460e2f3940ae8b9514712dd053528bfa861bc166cea769024839"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "aramex.com.au",
+                "www.cars24.com",
+                "www.parcelconnect.com.au",
                 "www.scribbr.com"
             ]
         },
@@ -310,10 +352,32 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "3724edcc5d54f1950338fcc80ceb291e501da053d0a2f9c6376d2257e9196965"
+                "470031b9a8cc6b3916205e27cbdb99b3361b241778d3f663d5c7eb33a105c446"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scribbr.com",
+                "www.scribbr.com"
+            ]
+        },
+        {
+            "rule": "messagebird\\.com\\/livechat\\/widget\\/f1969c26-6920-470c-b7be-d37a782c2acc\\/translations\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messaging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "992cd039e1965e51eb0e6f92f932dde93e2327e371ae735e0fb3417674681158"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -326,18 +390,19 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0002,
+    "cookies": 0.000401,
     "types": {
-        "Script": 16,
-        "Other": 3,
-        "Document": 2,
-        "Stylesheet": 4,
-        "Fetch": 2
+        "Script": 33,
+        "Ping": 5,
+        "Fetch": 6,
+        "Preflight": 2,
+        "Document": 5,
+        "Stylesheet": 4
     },
     "nameservers": [
-        "ns-1310.awsdns-35.org",
-        "ns-2001.awsdns-58.co.uk",
         "ns-24.awsdns-03.com",
-        "ns-752.awsdns-30.net"
+        "ns-752.awsdns-30.net",
+        "ns-1310.awsdns-35.org",
+        "ns-2001.awsdns-58.co.uk"
     ]
 }

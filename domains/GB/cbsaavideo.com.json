@@ -4,11 +4,14 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
-        "availability-cloudfront.syncbak-mediastore-cedexis",
-        "availability-edgecast.syncbak-mediastore-cedexis"
+        "vod-gcs-edgecast",
+        "vod-gcs-fastly",
+        "availability-akamai.syncbak-mediastore-cedexis",
+        "vod-gcs-lumen",
+        "vod-gcs-cedexis"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -18,15 +21,37 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "availability-cloudfront.syncbak-mediastore-cedexis"
+                "vod-gcs-edgecast",
+                "vod-gcs-fastly"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
             ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cbssports.com"
+            ]
+        },
+        {
+            "rule": "cbsaavideo\\.com\\/measurements\\/1536197413045-1555KB\\.ts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "availability-akamai.syncbak-mediastore-cedexis",
+                "vod-gcs-lumen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
@@ -36,26 +61,27 @@
             ]
         },
         {
-            "rule": "cbsaavideo\\.com\\/measurements\\/1536197413045-1555KB\\.ts",
+            "rule": "cbsaavideo\\.com\\/upsells\\/0623_landscape_final\\.mp4",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "availability-cloudfront.syncbak-mediastore-cedexis",
-                "availability-edgecast.syncbak-mediastore-cedexis"
+                "vod-gcs-cedexis"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "d7be1bf8e6eb14fd1d35039fa0607ccf6ee053bc5afcd9e68bcea87842f4091f"
             ],
-            "type": "Fetch",
+            "type": "Media",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "prevPageType": 0.00020056157240272763
+            },
             "exampleSites": [
-                "mtv.com",
-                "www.mtv.com"
+                "paramountplus.com",
+                "www.paramountplus.com"
             ]
         }
     ],
@@ -63,7 +89,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 4
+        "Image": 2,
+        "Fetch": 2,
+        "Media": 2
     },
     "nameservers": [
         "ns-1404.awsdns-47.org",

@@ -7,42 +7,142 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.00161,
+    "sites": 16,
     "subdomains": [
-        "cdn"
+        "cdn",
+        "s"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "exitbee\\.com\\/xtb\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.000803,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "apis": {
+                "Navigator.prototype.userAgent": 16,
+                "Document.cookie getter": 8,
+                "window.devicePixelRatio": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.connection": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8,
+                "window.sessionStorage": 8
+            },
+            "sites": 16,
+            "prevalence": 0.00161,
             "cnames": [],
             "responseHashes": [
-                "5b44650c9e80f39bcddfc86c0946c10db62d33e0b803c533e19fe185e35737fc"
+                "bc0491ddc880b1982a84e9ab1ac0874c52fae62125d0a0ee99c5bc722a5c8875"
             ],
             "type": "Script",
+            "firstPartyCookies": {
+                "Exitbee_vid": {
+                    "ttl": 15552007,
+                    "length": 36,
+                    "prevalence": 0.0008025682182985554,
+                    "uniqueness": 1
+                },
+                "Exitbee_sessionCampaigns": {
+                    "ttl": 15552007,
+                    "length": 2,
+                    "prevalence": 0.0008025682182985554,
+                    "uniqueness": 0.125
+                },
+                "Exitbee_nrPagesVisited": {
+                    "ttl": 15552007,
+                    "length": 1,
+                    "prevalence": 0.0008025682182985554,
+                    "uniqueness": 0.125
+                },
+                "Exitbee_visitsCount": {
+                    "ttl": 15552007,
+                    "length": 1,
+                    "prevalence": 0.0008025682182985554,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wowhead.com",
+                "fr.motor1.com",
+                "fr.motorsport.com",
+                "fr.tbc.wowhead.com",
+                "fr.wowhead.com",
+                "m.faitsdivers.org",
+                "m.scan-manga.com",
+                "tbc.wowhead.com",
+                "www.faitsdivers.org",
+                "www.forbes.fr",
+                "www.freenews.fr",
+                "www.hearthstonetopdecks.com",
+                "www.pourquoidocteur.fr",
+                "www.scan-manga.com",
+                "www.techadvisor.fr",
+                "www.wowhead.com"
+            ]
+        },
+        {
+            "rule": "exitbee\\.com\\/7596\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "macworld.co.uk",
-                "www.techadvisor.fr"
+                "wowhead.com",
+                "fr.tbc.wowhead.com",
+                "fr.wowhead.com",
+                "tbc.wowhead.com",
+                "www.wowhead.com"
+            ]
+        },
+        {
+            "rule": "exitbee\\.com\\/7596\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wowhead.com",
+                "fr.tbc.wowhead.com",
+                "fr.wowhead.com",
+                "tbc.wowhead.com",
+                "www.wowhead.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000803,
     "types": {
-        "Script": 2
+        "Script": 16,
+        "Preflight": 5,
+        "XHR": 5
     },
     "nameservers": [
         "isla.ns.cloudflare.com",

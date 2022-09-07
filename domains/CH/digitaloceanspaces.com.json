@@ -7,16 +7,40 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.00271,
-    "sites": 27,
+    "prevalence": 0.00201,
+    "sites": 20,
     "subdomains": [
+        "metadata-static-files.sfo2.cdn",
         "bmc-cdn.nyc3",
-        "serverbid-sync.nyc3.cdn",
         "ams3"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "digitaloceanspaces\\.com\\/pixel\\/lp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metadata-static-files.sfo2.cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "da5d487f1fe8c4f5bba93bab0b071aed1249cf770ffdbc0144a86a4c2bae3c2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "docs.splunk.com",
+                "www.codecademy.com",
+                "www.rstudio.com"
+            ]
+        },
         {
             "rule": "digitaloceanspaces\\.com\\/Fonts\\/65d75eb0-2601-4da5-a9a4-9ee67a470a59\\.woff",
             "cookies": 0,
@@ -29,133 +53,37 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "ab4883df74435cbd0eb4d9ddfa492e7cc2a4be7ceff47fcefe82199aed9c4ed0"
+                "e84fe3447551e08771ce136640268d758e479dcd11a0c8c4879366f63e3726fb"
             ],
             "type": "Font",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "averagelinuxuser.com",
-                "ciao-aus-italien.de",
-                "www.tutorialexample.com"
+                "freefrontend.com",
+                "schlaraffenwelt.de",
+                "transition-tv.ch"
             ]
         },
         {
-            "rule": "digitaloceanspaces\\.com\\/ss\\/2000462\\.js",
+            "rule": "digitaloceanspaces\\.com\\/weborama\\/rules\\/911\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "serverbid-sync.nyc3.cdn"
+                "ams3"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6249ff597510c040772d58830f7485b860a56aa18b3e9733a478a05ea2149c77"
+                "1c9ac06b3a6c45faf74dadb6ce4da1852679c668950e4941da92faf6ad263dd1"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "uproxx.com",
-                "www.songkick.com"
-            ]
-        },
-        {
-            "rule": "digitaloceanspaces\\.com\\/ss\\/2000865\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "serverbid-sync.nyc3.cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "d47b0a558d4b3c185baeca529965752d946921f4a10cb7c442b9bbee6985c4a5"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "minecraftskins.com",
-                "www.wcostream.com"
-            ]
-        },
-        {
-            "rule": "digitaloceanspaces\\.com\\/weborama\\/ls\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ams3"
-            ],
-            "apis": {
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "383b16459e7127a27208f53fef37fc34655f5c44b0ae2f7778eaaa3d940d9327"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "record.pt",
-                "www.visitportugal.com"
-            ]
-        },
-        {
-            "rule": "digitaloceanspaces\\.com\\/ss\\/1032790\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "serverbid-sync.nyc3.cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "62dfe992f48c3ae7c1b6b12225a2a16e80177a3bdec3ae9064b012fad19166ac"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "urbandictionary.com",
-                "www.urbandictionary.com"
-            ]
-        },
-        {
-            "rule": "digitaloceanspaces\\.com\\/ss\\/1035847\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "serverbid-sync.nyc3.cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "b88b894dbc9e1d6503532dbdd069278c6b7921abc55e9abfb5599dc1324d0794"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "usatoday.com",
-                "www.usatoday.com"
+                "cmjornal.pt",
+                "www.record.pt"
             ]
         }
     ],
@@ -165,9 +93,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
+        "Script": 4,
         "Font": 3,
-        "Script": 2,
-        "Document": 8
+        "XHR": 2
     },
     "nameservers": [
         "kim.ns.cloudflare.com",

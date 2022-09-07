@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
-        "external"
+        "external",
+        "websocket"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -15,28 +16,29 @@
         {
             "rule": "airport\\.ai\\/js\\/sdk\\/web\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "external"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Element.prototype.getClientRects": 2,
-                "Notification.permission": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Element.prototype.getClientRects": 3,
+                "Notification.permission": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "31d5e6d465425ead9e6ae272ee81398f10e6ecac371ca65a4d07e6578008b281"
+                "9c92e48496136b7460c8bcb92f8aa7596b5dde627dc200844ca467dddf20c083"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "sydneyairport.com.au",
+                "www.melbourneairport.com.au",
                 "www.sydneyairport.com.au"
             ]
         },
@@ -48,17 +50,19 @@
                 "external"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a3ee3d7fa8cefde0b9dae2ec3a1679b84a4d8edaf6e9d0233e44333de268e38e"
+                "aa85d0a44059156eb29f568819aca39dae286b302b108ffbafbc49fe39e947ff",
+                "425523dcc78e641310dfa7077a06a98737e24af2e5751bafc64f0eccb78a4182"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "sydneyairport.com.au",
+                "www.melbourneairport.com.au",
                 "www.sydneyairport.com.au"
             ]
         },
@@ -70,17 +74,18 @@
                 "external"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e3f405b078c15722cf3062716c965643826662f4732d81691e39b1c8804779f6"
+                "0f936581f2fe8ec5e222369f1374da94b88375f95271badb4392ec1d46fa9f87"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "sydneyairport.com.au",
+                "www.melbourneairport.com.au",
                 "www.sydneyairport.com.au"
             ]
         },
@@ -92,17 +97,86 @@
                 "external"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "766675460e4c358743d96fae0e3ddafb463d69af30280272b8eb835d8f5fa463"
+                "c390889ae67a06d8e3970b3c8a1f0b828b4ddac62fe26e3fb337ac96f172a1d5",
+                "690e9fe935e78085e80ef9984ab3d060ab335caa467849527256ef78d4494525"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "sydneyairport.com.au",
+                "www.melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/web\\/plugins\\/chat-launcher",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d8d53d7aeaf38152cc6b353fb3bd8f6fa160418acc711a799ff0004d2fe4952f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/web\\/plugins\\/chat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4d3477941bef1d7f544f528271026f6ceb637d3f45d9f364a2eeaaa746a4ce82"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/styles\\/roboto\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4cf42efbdbb2eae575fc0ceb786e4e82b1615bf1dbd2797391e0d501bc581c21"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.melbourneairport.com.au",
                 "www.sydneyairport.com.au"
             ]
         },
@@ -114,8 +188,8 @@
                 "external"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "0c8830ddd37d9e260458c4877c9a4bc7ad1ac686d456c7ba87099a044695e36c"
@@ -124,7 +198,122 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sydneyairport.com.au",
+                "melbourneairport.com.au",
+                "www.melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/styles\\/plugins\\/chat-launcher\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2438dad1a7b0ac4e651cd33785da5ae2aa62074fbd14c153b3079c3f3efa3fa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/js\\/plugins\\/chat-launcher\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d07c1fea03e1d7cb0854022ca48db33ff05bb6295d15edb66a7ae1becb7dca4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/styles\\/plugins\\/chat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3a597ef6307b9cb008cf84685fb1d0944a8dbd11f85034af0053ef01d7691f0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/js\\/plugins\\/chat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "07125d3dfd6ccaa6d17e7ecc30c491af817de3eb9cb1776fc6379656012d4879"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
+                "www.sydneyairport.com.au"
+            ]
+        },
+        {
+            "rule": "airport\\.ai\\/chat-prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "websocket"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "melbourneairport.com.au",
                 "www.sydneyairport.com.au"
             ]
         }
@@ -133,13 +322,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
-        "XHR": 4,
-        "Stylesheet": 4
+        "Script": 7,
+        "XHR": 6,
+        "Stylesheet": 13,
+        "Document": 4,
+        "WebSocket": 2
     },
     "nameservers": [
-        "ns1.101domain.com",
         "ns2.101domain.com",
-        "ns5.101domain.com"
+        "ns5.101domain.com",
+        "ns1.101domain.com"
     ]
 }

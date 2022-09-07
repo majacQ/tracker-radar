@@ -9,175 +9,240 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.00191,
-    "sites": 19,
+    "prevalence": 0.00161,
+    "sites": 16,
     "subdomains": [
         "app-ab01",
-        "app-sj13",
-        "app-ab42",
-        "app-abm",
+        "app-lon04",
+        "app-sj05",
         "app-sj06",
         "app-sj15",
-        "app-sj05",
-        "app-sj22",
+        "app-lon08",
         "app-ab06",
         "app-sj28",
-        "sjrtp2-cdn",
+        "app-sjl",
+        "app-sjf",
         "lonrtp1-cdn",
-        "sjrtp8-cdn",
         "sjrtp7-cdn",
+        "sjrtp8-cdn",
+        "abrtp3-cdn",
         "abrtp1-cdn",
         "rtp-static",
         "lonrtp1",
-        "sjrtp8"
+        "sjrtp8",
+        "abrtp3",
+        "abrtp1"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "marketo\\.com\\/js\\/forms2\\/js\\/forms2\\.min\\.js",
-            "cookies": 0.000903,
+            "cookies": 0.001,
             "fingerprinting": 1,
             "subdomains": [
                 "app-ab01",
-                "app-sj13",
-                "app-ab42",
-                "app-abm",
+                "app-lon04",
+                "app-sj05",
                 "app-sj06",
                 "app-sj15",
-                "app-sj05",
-                "app-sj22",
+                "app-lon08",
                 "app-ab06",
-                "app-sj28"
+                "app-sj28",
+                "app-sjl",
+                "app-sjf"
             ],
             "apis": {
                 "window.localStorage": 11,
                 "Navigator.prototype.userAgent": 11,
-                "Element.prototype.getClientRects": 8,
-                "Event.prototype.timeStamp": 8,
-                "Document.cookie getter": 2
+                "Element.prototype.getClientRects": 6,
+                "Document.cookie getter": 1,
+                "Event.prototype.timeStamp": 6
             },
-            "sites": 12,
-            "prevalence": 0.0012,
+            "sites": 11,
+            "prevalence": 0.0011,
             "cnames": [],
             "responseHashes": [
-                "2689a0237a95cfd8135f8da3ac79c430e903f3c542f8b862f68141c84c348c43"
+                "17dc16f203a20131a9dfccce83ed74af83cb9da328011181ca745b7f3a883d08"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bitly.com",
-                "blog.hootsuite.com",
-                "de.foursquare.com",
-                "eu.themyersbriggs.com",
-                "foursquare.com",
+                "docs.conan.io",
+                "docs.spring.io",
                 "health.clevelandclinic.org",
                 "mariadb.com",
                 "spring.io",
-                "www.crunchbase.com",
+                "www.citizengo.org",
                 "www.digikey.com",
-                "www.digikey.de",
-                "www.dnb.com"
+                "www.dnb.com",
+                "www.nokia.com",
+                "www.techtarget.com"
+            ]
+        },
+        {
+            "rule": "marketo\\.com\\/rtp-api\\/v1\\/rtp\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lonrtp1-cdn",
+                "sjrtp7-cdn",
+                "sjrtp8-cdn",
+                "abrtp3-cdn",
+                "abrtp1-cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appName": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "391dfd4237729629fddb9ff062a37dd10b86501e4ff66950ab2eace59daab55c",
+                "0d901a089521f0e93d88acbddd0bb79c5f03bcc68c27d77876a15c96811ea1d5",
+                "e297d8e9563beb973045b3f87902d605339791dd930984dcb08940b2042905f1",
+                "af861008784e0a9f15bb7fa8a78179a1019c17c3967d3141647e68c5660518c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "trwv.uid": {
+                    "ttl": 63072009,
+                    "length": 39,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 1
+                },
+                "trwsa.sid": {
+                    "ttl": 1809,
+                    "length": 39,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 1
+                },
+                "trwv.eml": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwsb.stu": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwsb.cpv": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwv.crd": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwv.vc": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwv.lvd": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "_ie_eml": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "_ie_cpn": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwv.cvd": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                },
+                "trwsb.sid": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0005020584396023697,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conan.io",
+                "www.microchip.com",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
             "rule": "marketo\\.com\\/index\\.php\\/form\\/getForm",
-            "cookies": 0.0001,
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
-                "app-sj13",
-                "app-ab42",
-                "app-abm",
+                "app-lon04",
+                "app-sj05",
                 "app-sj06",
                 "app-sj15",
-                "app-sj05",
                 "app-sj28"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "6ab8d8cde78614c3db27422cb42adca753b17df4d3b006bcebb9bba25b3b7f1c",
-                "45b9a95f83d3434e373b831e180256d53a9007af636fe457d5f7ffb5629e57a6",
-                "b2cc5587ab153cbda7110025814138b917f2297e453000dff8ac9e5e52394271",
-                "ce1f35fa00675fd8c6683b47f79ea8f4e09ae6a7eb04bff9611755f3cf67fbfa",
-                "dc4608243890a67f7d8eccf64b42fe50ebb62349a8a0b5a74d911b3151c4b456",
-                "82e31c3201c2c75a1356fd2e738165300b7555fb040b7bbcaa4f96faa65794d7",
-                "5e88f8fc0c493230e0b517a1397521d78ae6d97bc544dfe14d2ef9b8461efb4c",
-                "95697657fe6ecc2e16ec7063a75d1fb4ff48e7593c82d22f4bc6f5510fd13358"
+                "d28e9cacaa0b645bd97d4fc7b55da094fb0d8067ad6dcf6e1e895688f6d57b41",
+                "0b825154cd84151738142b04a70fa3286d5e56babe2c412c35fc74d69cdbcd47",
+                "5ad9d00d497927a3d7d67b12202837142386f77305acfe192f7819b65c6f54ea",
+                "692a90841369978ecb163359bc4edc1ea4fda421b8d0498f8c568629204c306c",
+                "2b0e65cef4c8fd7c26b3c65e3abfaca3be0298cb84a73e325ee5a6448d70883c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "os_lastpage_health.clevelandclinic.org": 0.00010037137408411121
+                "os_lastpage_health.clevelandclinic.org": 0.00010041168792047395
             },
             "exampleSites": [
-                "hootsuite.com",
-                "blog.hootsuite.com",
-                "de.foursquare.com",
-                "eu.themyersbriggs.com",
-                "foursquare.com",
+                "conan.io",
+                "docs.spring.io",
                 "health.clevelandclinic.org",
                 "mariadb.com",
                 "spring.io",
-                "www.dnb.com"
-            ]
-        },
-        {
-            "rule": "marketo\\.com\\/index\\.php\\/form\\/XDFrame",
-            "cookies": 0.001,
-            "fingerprinting": 0,
-            "subdomains": [
-                "app-sj13",
-                "app-ab42",
-                "app-abm",
-                "app-sj06",
-                "app-sj15",
-                "app-sj05",
-                "app-ab06",
-                "app-sj28"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
-            "cnames": [],
-            "responseHashes": [
-                "cecbf1890575d49aab6e0f3b7b5d8c58b8b80dcf4632360a29e84cba90c7bc81",
-                "0918b8743921dfcb9a4ce9c440093101d36da309eec24b4694b615d12a08d7ec",
-                "cf61463cf76f7c32e0a2367b93d373b1f1cc4e16858eefa761ff1523f5ad619a",
-                "fcb155c910d250a4aab26821e1d99ae8bb05fe9c5a7e678994bdc8f17765aee5",
-                "7c380d371bbe7980ffbbad0fc4fb6d36249e93b4aad0066844fbc8349d805d91",
-                "5d96ea65724ef8698cfd2581855c430a4d3d6b890511f2aa094be8a2f777683b",
-                "983b740f301c9013623152fa4c12c6772f4e1eec28a3442a2895deff12e1da5d"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hootsuite.com",
-                "de.foursquare.com",
-                "eu.themyersbriggs.com",
-                "foursquare.com",
-                "health.clevelandclinic.org",
-                "mariadb.com",
-                "spring.io",
-                "www.digikey.com",
-                "www.digikey.de",
                 "www.dnb.com"
             ]
         },
         {
             "rule": "marketo\\.com\\/js\\/forms2\\/css\\/forms2\\.css",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [
-                "app-ab42",
-                "app-abm",
+                "app-lon04",
+                "app-sj05",
                 "app-sj06",
                 "app-sj15",
-                "app-sj05",
                 "app-sj28"
             ],
             "apis": {},
@@ -191,8 +256,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "foursquare.com",
-                "eu.themyersbriggs.com",
+                "conan.io",
+                "docs.spring.io",
                 "health.clevelandclinic.org",
                 "mariadb.com",
                 "spring.io",
@@ -201,10 +266,10 @@
         },
         {
             "rule": "marketo\\.com\\/js\\/forms2\\/css\\/forms2-theme-plain\\.css",
-            "cookies": 0,
+            "cookies": 0.0001,
             "fingerprinting": 0,
             "subdomains": [
-                "app-ab42",
+                "app-lon04",
                 "app-sj06"
             ],
             "apis": {},
@@ -218,150 +283,43 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "foursquare.com",
+                "conan.io",
                 "health.clevelandclinic.org"
             ]
         },
         {
-            "rule": "marketo\\.com\\/rtp-api\\/v1\\/rtp\\.js",
-            "cookies": 0.000502,
-            "fingerprinting": 2,
-            "subdomains": [
-                "sjrtp2-cdn",
-                "lonrtp1-cdn",
-                "sjrtp8-cdn",
-                "sjrtp7-cdn",
-                "abrtp1-cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 5,
-                "Document.cookie getter": 4,
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.appName": 5,
-                "window.localStorage": 5,
-                "Document.cookie setter": 4,
-                "Date.prototype.getTimezoneOffset": 5,
-                "Navigator.prototype.doNotTrack": 1
-            },
-            "sites": 8,
-            "prevalence": 0.000803,
-            "cnames": [],
-            "responseHashes": [
-                "7ba9cdcf6fbca8799df7723b447c051d95d865fa80385d47a528daa24edc4df7",
-                "90f10955b5eba877b626544d634ea9c3b227b25c600deec8bed5f1128db81560",
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                "28519a1b76db3e622ee1d82eba63d2ed4c811e0b33e164641622cea469659a83",
-                "7f887531126cd4cac83ca209314e72deaa91190f980a593945ab3e610d65510f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "trwv.uid": {
-                    "ttl": 63072003,
-                    "length": 35,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 1
-                },
-                "trwsa.sid": {
-                    "ttl": 1803,
-                    "length": 35,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 1
-                },
-                "trwv.eml": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwsb.stu": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwsb.cpv": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwv.crd": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwv.vc": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwv.lvd": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "_ie_eml": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "_ie_cpn": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwv.cvd": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                },
-                "trwsb.sid": {
-                    "ttl": 3,
-                    "length": 4,
-                    "prevalence": 0.00040148549633644485,
-                    "uniqueness": 0.25
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "elastic.co",
-                "factuel.afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.microchip.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com",
-                "www.wingo.com"
-            ]
-        },
-        {
-            "rule": "marketo\\.com\\/js\\/forms2\\/css\\/forms2-theme-simple\\.css",
-            "cookies": 0,
+            "rule": "marketo\\.com\\/index\\.php\\/form\\/XDFrame",
+            "cookies": 0.000703,
             "fingerprinting": 0,
             "subdomains": [
-                "app-abm",
+                "app-lon04",
                 "app-sj05",
+                "app-sj06",
+                "app-sj15",
+                "app-ab06",
                 "app-sj28"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 7,
+            "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "14c8c62dc692fd8faa04434e3fed25e7c23d596b732f9db88f6e9f9ff5dfa61c"
+                "7c380d371bbe7980ffbbad0fc4fb6d36249e93b4aad0066844fbc8349d805d91",
+                "cf61463cf76f7c32e0a2367b93d373b1f1cc4e16858eefa761ff1523f5ad619a",
+                "fcb155c910d250a4aab26821e1d99ae8bb05fe9c5a7e678994bdc8f17765aee5",
+                "5d96ea65724ef8698cfd2581855c430a4d3d6b890511f2aa094be8a2f777683b",
+                "983b740f301c9013623152fa4c12c6772f4e1eec28a3442a2895deff12e1da5d"
             ],
-            "type": "Stylesheet",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "themyersbriggs.com",
+                "conan.io",
+                "docs.spring.io",
+                "health.clevelandclinic.org",
+                "mariadb.com",
                 "spring.io",
+                "www.digikey.com",
                 "www.dnb.com"
             ]
         },
@@ -386,11 +344,11 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
@@ -411,24 +369,26 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
             "rule": "marketo\\.com\\/gw1\\/trw",
-            "cookies": 0.000602,
+            "cookies": 0.000502,
             "fingerprinting": 0,
             "subdomains": [
                 "lonrtp1",
-                "sjrtp8"
+                "sjrtp8",
+                "abrtp3",
+                "abrtp1"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -437,12 +397,11 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "factuel.afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
@@ -454,7 +413,7 @@
             ],
             "apis": {
                 "Date.prototype.getTime": 5,
-                "Document.cookie getter": 4
+                "Document.cookie getter": 5
             },
             "sites": 5,
             "prevalence": 0.000502,
@@ -466,11 +425,11 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
@@ -479,7 +438,9 @@
             "fingerprinting": 0,
             "subdomains": [
                 "lonrtp1",
-                "sjrtp8"
+                "sjrtp8",
+                "abrtp3",
+                "abrtp1"
             ],
             "apis": {},
             "sites": 6,
@@ -492,12 +453,12 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "factuel.afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "docs.conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
@@ -521,11 +482,11 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
@@ -534,56 +495,83 @@
             "fingerprinting": 0,
             "subdomains": [
                 "lonrtp1",
-                "sjrtp8"
+                "sjrtp8",
+                "abrtp3",
+                "abrtp1"
             ],
             "apis": {},
             "sites": 6,
             "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "eb40481b549f13b236fdb35fe5c62204f3b8b159eb24e1fbdbd6ad2580f728d1",
-                "197a345f1527e2cfdfbc951974964753f288cc6e479e0c3f7a7bdeab2155477e",
-                "d7de2e3c5a5bfa7c822c58e2983cccb7f48fac926c219e181d5b69525ecdb9dc",
-                "22c9a68ebdcb83d5e97ba80e07706b03e96e1df5e7797717bfac83e9ef3fbffa",
+                "dbf6e5fb9b016ff969ab5c699fb8cc7bfeb32ea33027a68f7ccf2fc59edac947",
+                "c159b76a1acaf5d1d3060a87da137b91fd1b7229202489a5c7b34ff0b325b306",
+                "f4d12f97391f2b793b4dd85a6d8bf326d188d17dfffcbf85173fa86cd219a136",
+                "a0a023363a69aa703f8053f6fb19941be5fc61b3b4d77f4db4c6788e36c9b8aa",
                 "a140b69c22a663d58a65477ecae8ef6165c3ccce778685b7aa33fd74289556a8"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "factuel.afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "docs.conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
             ]
         },
         {
             "rule": "marketo\\.com\\/gw1\\/ga\\/sgm",
-            "cookies": 0.000602,
+            "cookies": 0.000502,
             "fingerprinting": 0,
             "subdomains": [
                 "lonrtp1",
-                "sjrtp8"
+                "sjrtp8",
+                "abrtp3",
+                "abrtp1"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "25b4e974dc91d718d1b66bf120388c20da6dfd3a886ec8401af1c269dd169a44"
+                "25b4e974dc91d718d1b66bf120388c20da6dfd3a886ec8401af1c269dd169a44",
+                "b112808e4bf217c616b8351848ffb1fa76499aff8bda672e8ca1f3335d1578bb"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "afp.com",
-                "factuel.afp.com",
-                "faktencheck.afp.com",
-                "mariadb.com",
-                "www.msckreuzfahrten.ch",
-                "www.nokia.com"
+                "conan.io",
+                "www.nokia.com",
+                "www.plasticsurgery.org",
+                "www.spglobal.com",
+                "www.visitscotland.com"
+            ]
+        },
+        {
+            "rule": "marketo\\.com\\/js\\/forms2\\/css\\/forms2-theme-simple\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-sj05",
+                "app-sj28"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "14c8c62dc692fd8faa04434e3fed25e7c23d596b732f9db88f6e9f9ff5dfa61c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spring.io",
+                "www.dnb.com"
             ]
         },
         {
@@ -597,54 +585,8 @@
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [
-                "c2040b3597c025e7ce51517e7f5bb82312e64db11c6a3be574a205dcc83c0a38"
-            ],
+            "responseHashes": [],
             "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "digikey.com",
-                "www.digikey.de"
-            ]
-        },
-        {
-            "rule": "marketo\\.com\\/\\/js\\/forms2\\/css\\/forms2\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "app-ab06"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "256e42104f48a5fa80b031da12dc56acde224fba3f9810f8f8192b39136d365a"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "digikey.com",
-                "www.digikey.de"
-            ]
-        },
-        {
-            "rule": "marketo\\.com\\/\\/js\\/forms2\\/css\\/forms2-theme-simple\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "app-ab06"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "14c8c62dc692fd8faa04434e3fed25e7c23d596b732f9db88f6e9f9ff5dfa61c"
-            ],
-            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -660,15 +602,15 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.00161,
+    "cookies": 0.00151,
     "types": {
-        "Script": 58,
-        "Document": 10,
-        "Stylesheet": 20,
-        "XHR": 12
+        "Script": 51,
+        "Stylesheet": 15,
+        "Document": 7,
+        "XHR": 11
     },
     "nameservers": [
-        "ns1.marketo.com",
-        "ns2.mktdns.com"
+        "ns2.mktdns.com",
+        "ns1.marketo.com"
     ]
 }

@@ -4,14 +4,50 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000903,
+    "sites": 9,
     "subdomains": [
-        "bom"
+        "widget",
+        "bom",
+        "images"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "destygo\\.com\\/destygo-webchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Event.prototype.timeStamp": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.product": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a1b8dc3471f6db568edbd847909991273c95b60b4d262c37fe110e316fddf6fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr",
+                "www.brusselsairlines.com",
+                "www.frenchbee.com",
+                "www.toulouse.aeroport.fr"
+            ]
+        },
         {
             "rule": "destygo\\.com\\/json\\/widget_config\\.json",
             "cookies": 0,
@@ -20,18 +56,103 @@
                 "bom"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "3c29774d1c1dfa1212b2cbe91c62dc182ee61df363d75f5c1fab07154b58e342"
+                "a415aa47e5e6326605fe40be8c51d868349b864bb98106eb7c9256a189046ddf",
+                "4a8833e5406e6899149030df31596e778c4bcfabec9bb6c2bd1f7b1cdef23b93",
+                "2435d650f891d87210f930e1d9c15b4cb544fe177f48504b41a52d5e4843ee33",
+                "04ee54c7696ca5edfd532e03993f695728f9bdd44536ce2ab10841113b689df5",
+                "a90c3a0148f8314f0a668fec989e379a3bfd7a32f05c6c87ea6a8ac1cf5e108a",
+                "f2b5c32a739350cc8a5939614dd76a942726b7791e16cbf945f3c0226f1b3fee",
+                "e80fbf8baf3e69a48d706aa5108b6b82478c9a1e59d0ee1117b1d4a9e3bbd5a0",
+                "cb21a93a30fc4e81209b8ac9ed092027d3919a1e76656de329c727f29fe846a3"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lyonaeroports.com",
-                "www.thalys.com"
+                "bordeaux.aeroport.fr",
+                "m.bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr",
+                "www.brusselsairlines.com",
+                "www.espaceplaisir.fr",
+                "www.frenchbee.com",
+                "www.lyonaeroports.com",
+                "www.ratp.fr",
+                "www.thalys.com",
+                "www.toulouse.aeroport.fr"
+            ]
+        },
+        {
+            "rule": "destygo\\.com\\/i18n\\/fr_FR-json\\.bundle\\.a60d1847837dcf193680\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "56aac91e1214b790bcbcb2326c5b5ddc5193c35583790602f955f7232e0bac1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr",
+                "www.espaceplaisir.fr",
+                "www.frenchbee.com",
+                "www.lyonaeroports.com",
+                "www.toulouse.aeroport.fr"
+            ]
+        },
+        {
+            "rule": "destygo\\.com\\/assets\\/widget_configuration\\/logo\\/332\\/LOGO-CHATBOT-adbm\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6cb1e01b8caacb81b12ae56e3756c9ef122cc560589086a62dacfe57b01c9995"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr"
+            ]
+        },
+        {
+            "rule": "destygo\\.com\\/assets\\/widget_configuration\\/bot_icon\\/332\\/LOGO-CHATBOT-adbm\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6cb1e01b8caacb81b12ae56e3756c9ef122cc560589086a62dacfe57b01c9995"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bordeaux.aeroport.fr",
+                "www.bordeaux.aeroport.fr"
             ]
         }
     ],
@@ -39,7 +160,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "XHR": 2
+        "Script": 11,
+        "XHR": 10,
+        "Image": 4
     },
     "nameservers": [
         "ns-115.awsdns-14.com",

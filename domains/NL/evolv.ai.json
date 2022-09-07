@@ -4,14 +4,89 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
+        "media",
         "participants"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "evolv\\.ai\\/asset-manager\\/releases\\/latest\\/webloader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "fe46211c06be51d729d0f8a41a34cfc8e53e847758d959f0e3afe03de67bc14c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "directv.com",
+                "www.fender.com",
+                "www.iciparisxl.nl",
+                "www.kruidvat.nl",
+                "www.verizon.com"
+            ]
+        },
+        {
+            "rule": "evolv\\.ai\\/v1\\/230a431cb7\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "participants"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "directv.com",
+                "www.directv.com"
+            ]
+        },
+        {
+            "rule": "evolv\\.ai\\/v1\\/f1d0ee309d\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "participants"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fender.com",
+                "www.fender.com"
+            ]
+        },
         {
             "rule": "evolv\\.ai\\/v1\\/b02d16aa80\\/data",
             "cookies": 0,
@@ -21,12 +96,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -39,12 +114,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Other": 2
+        "Script": 5,
+        "Ping": 6
     },
     "nameservers": [
+        "ns-1771.awsdns-29.co.uk",
         "ns-313.awsdns-39.com",
         "ns-896.awsdns-48.net",
-        "ns-1117.awsdns-11.org",
-        "ns-1771.awsdns-29.co.uk"
+        "ns-1117.awsdns-11.org"
     ]
 }

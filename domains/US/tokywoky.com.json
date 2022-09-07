@@ -4,16 +4,26 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000897,
-    "sites": 13,
+    "prevalence": 0.0000949,
+    "sites": 14,
     "subdomains": [
-        "img"
+        "img",
+        "bep"
     ],
-    "cnames": [],
-    "fingerprinting": 0,
+    "cnames": [
+        {
+            "original": "community.monki.com",
+            "resolved": "bep.tokywoky.com"
+        },
+        {
+            "original": "community.superdrug.com",
+            "resolved": "bep.tokywoky.com"
+        }
+    ],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "tokywoky\\.com\\/groupcategories\\/285\\/tiny-second-minimized\\.png",
+            "rule": "tokywoky\\.com\\/groupcategories\\/432\\/tiny-second-minimized\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -21,27 +31,85 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3f3def1559d0e47b9c0c22d1eeb8f3a065d5138dbcd885b42b3a1467e1c38e62"
+                "c9eb3ee9107bef24e5007f41efaf9a3ec3739ab09b2f415ce7588f8dd1faf065"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "toky_state": 0.000013804146765688412
+                "toky_state": 0.000013555829684555844
             },
             "exampleSites": [
-                "patrolbase.co.uk",
-                "www.patrolbase.co.uk"
+                "auvieuxcampeur.fr",
+                "www.auvieuxcampeur.fr"
+            ]
+        },
+        {
+            "rule": "tokywoky\\.com\\/webview\\/embed\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bep"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [
+                {
+                    "original": "community.monki.com",
+                    "resolved": "bep.tokywoky.com"
+                },
+                {
+                    "original": "community.superdrug.com",
+                    "resolved": "bep.tokywoky.com"
+                }
+            ],
+            "responseHashes": [
+                "fff8486c5bc8fba629868480f4bba4c7353903e7feef887c69ba4bde356ce2fe",
+                "88330930e716ffd72af60e935efe34e5f922fb98d6517f85fd4c4942fd695f83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monki.com",
+                "www.monki.com",
+                "www.superdrug.com"
+            ]
+        },
+        {
+            "rule": "tokywoky\\.com\\/groupcategories\\/120\\/tiny-first-minimized\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "efb42a3c3f123c389f145bb558dbe9b51a981139d17509f93875a1f74d2d5641"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "toky_state": 0.000013555829684555844
+            },
+            "exampleSites": [
+                "promessedefleurs.com",
+                "www.promessedefleurs.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000203,
     "types": {
-        "Image": 2
+        "Image": 4,
+        "Script": 3
     },
     "nameservers": [
         "amber.ns.cloudflare.com",

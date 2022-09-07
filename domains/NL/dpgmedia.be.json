@@ -4,73 +4,19 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.00181,
-    "sites": 18,
+    "prevalence": 0.000501,
+    "sites": 5,
     "subdomains": [
         "myprivacy",
         "cmp",
-        "www"
+        "login"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "dpgmedia\\.be\\/consent",
             "cookies": 0.000401,
-            "fingerprinting": 1,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "e87077e6f0c009d3a77e689b86d8c8281c2b909691ce0f1788d841bc21a38d0b",
-                "c870529b6a6753ed4c0e314edc6e223c1db8675b3cb0118f29a0fc5694623eb6",
-                "ab1c50db22e6b19958ecdd5f45a5e6eabcdfa990e0e29ff2c775e7feaf8c42c6"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vtm.be",
-                "www.demorgen.be",
-                "www.hln.be",
-                "www.humo.be"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.be\\/consent\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "b96e1373690687082da8e79c8e081f71e23b4d14d8ec35e6449a766cbe7112e0"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vtm.be",
-                "www.demorgen.be",
-                "www.hln.be",
-                "www.humo.be"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.be\\/consent\\/resources\\/logos\\/dpgmedia-logo\\.svg",
-            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "myprivacy"
@@ -80,9 +26,11 @@
             "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "269b79a884e834de9dcd94a42925676ea1fdbd19ecfb76ab116f84e6ba304615"
+                "0cb5159e475bc9d34c871054f8f5922ad27f18c607a9369cbb9a3e9f3dd1f471",
+                "578f4031d76ec7db1ca20ac90b5c30ec65ad85069fd01cd5b4431041a82baaa4",
+                "1cf8652420ace74b12264ff3294cd83096b39036a175b41d751752181ada43c9"
             ],
-            "type": "Image",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -94,21 +42,63 @@
         },
         {
             "rule": "dpgmedia\\.be\\/unified\\/wrapperMessagingWithoutDetection\\.js",
-            "cookies": 0,
+            "cookies": 0.000501,
             "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "727d1709a79641a09d3fc00aa33f7d1204e46f13aec53dc4c696729cea28a072"
+                "871253b52e47bc964b32817714d9248a14dc7cfd8eab522f4ebe828e5080380a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "consentUUID": {
+                    "ttl": 31536000,
+                    "length": 39,
+                    "prevalence": 0.000501002004008016,
+                    "uniqueness": 1
+                },
+                "euconsent-v2": {
+                    "ttl": 31536000,
+                    "length": 1229,
+                    "prevalence": 0.000501002004008016,
+                    "uniqueness": 0.4
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vtm.be",
+                "www.demorgen.be",
+                "www.hln.be",
+                "www.humo.be",
+                "www.livios.be"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.be\\/unified\\/3\\.6\\.3\\/gdpr-tcf\\.52bc741007b8279460bd\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "f2333a337cd9097f7fe63b86f32acfbb930573639ae16373086ca793d809cd1f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -117,31 +107,8 @@
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
-                "www.humo.be"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.be\\/consent\\/resources\\/fonts\\/Montserrat-Regular\\.ttf",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "077cdab15161232a9ba7124d2ddd7a9425145750788e9a966c156cc66274f525"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vtm.be",
-                "www.demorgen.be",
-                "www.hln.be",
-                "www.humo.be"
+                "www.humo.be",
+                "www.livios.be"
             ]
         },
         {
@@ -152,8 +119,36 @@
                 "cmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "aa148ddcc991658473d7c2dc4b856d897a2564bc15bf04746a6ced89de5d7a4a",
+                "770467c9748a7eb75280335316282b315980253253e32eb4041d736df3c9407d",
+                "b272ca1f501cf0103e3200235d2719a13183b4309773eef5064bdd20ddcc07e1",
+                "1576c050868063275a5c505097eb89e4a9a7c803155095c309d4eb9934a52e50"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vtm.be",
+                "www.demorgen.be",
+                "www.hln.be",
+                "www.humo.be",
+                "www.livios.be"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.be\\/wrapper\\/v2\\/get_messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -163,33 +158,8 @@
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
-                "www.humo.be"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.be\\/wrapper\\/v2\\/get_messages",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "858d8076d275f046b75b9e6576d760a6828f8ec51ddbfade7906fec1186695c5",
-                "c80dfb0450f080ab4ede7983e81a170cf90658166f5812f76ce1baf661eb5d1f",
-                "fe568912837856667a4a8cb47b03f28450bf079dfce095b0e26cb37851ca7f86"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "vtm.be",
-                "www.demorgen.be",
-                "www.hln.be",
-                "www.humo.be"
+                "www.humo.be",
+                "www.livios.be"
             ]
         },
         {
@@ -200,35 +170,38 @@
                 "cmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "a260891bd547b0e0b0e84f532fb25d3f0ae51246ff443150dc1201ca450030a0"
+                "869d747f2bf6b7f0c75ea35b9c806658e2d812731bdaef414bb707243f292a73"
             ],
             "type": "Document",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "consentUUID": 0.0006012024048096192
+            },
             "exampleSites": [
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
-                "www.humo.be"
+                "www.humo.be",
+                "www.livios.be"
             ]
         },
         {
-            "rule": "dpgmedia\\.be\\/Notice\\.03819\\.css",
+            "rule": "dpgmedia\\.be\\/Notice\\.a2194\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "51eb44a48f2ec3bf5ee39395698b49d23ad55ed26f05bcbbccbeb1e128f477ef"
+                "d07c218cf2ede8daec9179c818dce7dce1e65d78ae24c9e9bf08f26f42386077"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -237,7 +210,8 @@
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
-                "www.humo.be"
+                "www.humo.be",
+                "www.livios.be"
             ]
         },
         {
@@ -248,8 +222,8 @@
                 "cmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
                 "533b23c57b1770cc3ee9c15b998b2eb494fa0adb2d6929fd22a9b78adfade3a7"
@@ -261,22 +235,26 @@
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
-                "www.humo.be"
+                "www.humo.be",
+                "www.livios.be"
             ]
         },
         {
-            "rule": "dpgmedia\\.be\\/Notice\\.f7529\\.js",
+            "rule": "dpgmedia\\.be\\/Notice\\.0b008\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "apis": {
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "45b3ed28f8c8462d7f7486977f798ab4a4b6e32f4f2f4daba42763c120372e09"
+                "51cd20cbb2c5e74c8b23c00ad7ea5fc75d2beabb048db2fd0eebbb6cbd2bcbc4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -285,97 +263,90 @@
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
-                "www.humo.be"
+                "www.humo.be",
+                "www.livios.be"
             ]
         },
         {
-            "rule": "dpgmedia\\.be\\/consent\\/resources\\/logos\\/logo-dpgmedia\\.svg",
+            "rule": "dpgmedia\\.be\\/wrapper\\/v2\\/messages\\/choice\\/gdpr\\/11",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "myprivacy"
+                "cmp"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
-            "responseHashes": [
-                "ee366726e835cdea2d2f7a39debd71b4d195ff1d3fd79f7d4d43eb58a934484f"
-            ],
-            "type": "Image",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "vtm.be",
                 "www.demorgen.be",
                 "www.hln.be",
+                "www.humo.be",
+                "www.livios.be"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.be\\/wrapper\\/v2\\/messages\\/choice\\/gdpr\\/11",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vtm.be",
+                "www.demorgen.be",
+                "www.hln.be",
+                "www.humo.be",
+                "www.livios.be"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.be\\/ssosession",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "87be0e03b257491a7c8dde475b456470c9d1353e668c91623a419a435d1e187b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "demorgen.be",
+                "www.hln.be",
                 "www.humo.be"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.be\\/consent\\/resources\\/logos\\/none\\.png",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
-            "cnames": [],
-            "responseHashes": [
-                "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "deondernemer.nl",
-                "www.intermediair.nl",
-                "www.margriet.nl",
-                "www.nationalevacaturebank.nl",
-                "www.nouveau.nl",
-                "www.parool.nl",
-                "www.story.nl",
-                "www.trouw.nl",
-                "www.tubantia.nl",
-                "www.volkskrant.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.be\\/themes\\/custom\\/viacorp\\/dpg-media\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "ee366726e835cdea2d2f7a39debd71b4d195ff1d3fd79f7d4d43eb58a934484f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "donaldduck.nl",
-                "www.pzc.nl"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000502,
+    "cookies": 0.000501,
     "types": {
-        "Document": 8,
-        "Script": 16,
-        "Image": 20,
-        "Font": 4,
-        "Preflight": 4,
-        "XHR": 4,
-        "Stylesheet": 4
+        "Document": 9,
+        "Script": 20,
+        "XHR": 10,
+        "Preflight": 10,
+        "Stylesheet": 5,
+        "Fetch": 3
     },
     "nameservers": [
         "eur2.akam.net",

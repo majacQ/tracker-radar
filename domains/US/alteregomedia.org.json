@@ -4,13 +4,13 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "www"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "alteregomedia\\.org\\/files\\/js\\/gtags\\.js",
@@ -20,18 +20,88 @@
                 "www"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "dcda3544336de019b4d598473e4e90a29343fae3228380338bf05893db0c151d"
+                "794044bfb9cb76e4150fb93d37f3bc9bb64a1bd590997be369b44b07eb8e1db4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "in.gr",
-                "www.megatv.com"
+                "www.in.gr",
+                "www.tanea.gr"
+            ]
+        },
+        {
+            "rule": "alteregomedia\\.org\\/files\\/js\\/videojs\\.ima\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3096049a71fbbbb39b2bfa1dd5bc15859e6075ee4c04652f7603f94f6fb09006"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "in.gr",
+                "www.tanea.gr"
+            ]
+        },
+        {
+            "rule": "alteregomedia\\.org\\/files\\/js\\/inread\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d315d56bc9f954263b967f6fb475fe23bc8b8004c93ebe2df1ee36087f5caad1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "in.gr",
+                "www.tanea.gr"
+            ]
+        },
+        {
+            "rule": "alteregomedia\\.org\\/files\\/images\\/vid-ads-close-button\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "04cefc15777b5f6a9a1cce706e3b8d0714a184d2c230b3147a80551fe72db142"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "in.gr",
+                "www.tanea.gr"
             ]
         }
     ],
@@ -39,11 +109,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 7,
+        "Image": 2
     },
     "nameservers": [
-        "ns.dolnet.gr",
         "ns.in.gr",
-        "ns1.in.gr"
+        "ns1.in.gr",
+        "ns.dolnet.gr"
     ]
 }

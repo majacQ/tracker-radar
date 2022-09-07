@@ -7,15 +7,74 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000621,
-    "sites": 9,
+    "prevalence": 0.0000813,
+    "sites": 12,
     "subdomains": [
-        "api",
-        "cdn"
+        "cdn",
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "early-birds\\.fr\\/earlybirds-full\\.min\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "8bc785029786080d765bd02fa3792ed8b98c9ab8b8be4abd1b8725502e477736"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "eb-profile": {
+                    "ttl": 31536005,
+                    "length": 61,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darty.com",
+                "magasin.darty.com",
+                "www.darty.com"
+            ]
+        },
+        {
+            "rule": "early-birds\\.fr\\/tracker\\/581322bae80da2d93432ce27\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "cd220ef863d0ddd8fc77f29f4e4db6e70d9b6bd346758a8d7f7a034181f1369b",
+                "f2d441bc0b415164fab82b1097ee66e9c259cfcef903227801ed76315ac828e2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darty.com",
+                "magasin.darty.com",
+                "www.darty.com"
+            ]
+        },
         {
             "rule": "early-birds\\.fr\\/widget\\/602beb6b7eb9a0783773972c\\/recommendations",
             "cookies": 0,
@@ -25,10 +84,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "dd4a126d844071c138edf67a65423cd8ee5253623f282f30256b7534d7908348"
+                "070fc0ef5f5c8346c2bb6e5f1fea4582bc6557ecfff5ef17086d111243fa9fa4"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -39,7 +98,43 @@
             ]
         },
         {
-            "rule": "early-birds\\.fr\\/widget\\/5fb23a0c80c53374e39b5e6f\\/recommendations\\/",
+            "rule": "early-birds\\.fr\\/tenants\\/jardiland\\/earlybirds-full\\.min\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ba2b6b97ad3ccd3fdad7783b79be40d156470f85cddf43365ae3dcb516870dfe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "eb-profile": {
+                    "ttl": 31536014,
+                    "length": 55,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jardiland.com",
+                "www.jardiland.com"
+            ]
+        },
+        {
+            "rule": "early-birds\\.fr\\/tracker\\/5feb135487b4e7d5777c1489\\/identify",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -47,22 +142,22 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "01744b04b0d0b88fce0775f37e4a59f43dd6becb6dd6f9d28ac84d219d39573d"
+                "b65b25a2945023a027ce5ef7b5324b77d4506989dcde4942234bd8a02da967a3"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lapeyre.fr",
-                "www.lapeyre.fr"
+                "jardiland.com",
+                "www.jardiland.com"
             ]
         },
         {
-            "rule": "early-birds\\.fr\\/earlybirds-full\\.min\\.js",
-            "cookies": 0.0000138,
+            "rule": "early-birds\\.fr\\/tenants\\/lapeyre\\/earlybirds-full\\.min\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -73,30 +168,35 @@
                 "Date.prototype.getTime": 2,
                 "Document.cookie setter": 2
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0b3d0fc80d2552d00b82346a4bb8fd6ba66d9925c40e52dc452d1457fa735158"
+                "2c35cc09085e35ead156f005134f7324ba7573b2c31261c0d65243059837c329"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "eb-profile": {
-                    "ttl": 31536007,
-                    "length": 55,
-                    "prevalence": 0.000013804146765688412,
+                    "ttl": 31536009,
+                    "length": 62,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
+                },
+                "profileId": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "maisonsdumonde.com",
-                "www.maisonsdumonde.com",
-                "www.santediscount.com"
+                "lapeyre.fr",
+                "www.lapeyre.fr"
             ]
         },
         {
-            "rule": "early-birds\\.fr\\/tracker\\/5aa79de5c48ca82611b22e1a\\/identify",
+            "rule": "early-birds\\.fr\\/tracker\\/5acaa2b018bc4f4e9f6d883a\\/identify",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -104,31 +204,78 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0022a8849165fd1d4cfb110dbed069bd8651a6d82b98118f2da1b6d54b96c8e9"
+                "4d709791a79d0435f9ba32f88c2aa557f491c466fc16b157dd26973adc9b34c7"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "maisonsdumonde.com",
-                "www.maisonsdumonde.com"
+                "lapeyre.fr",
+                "www.lapeyre.fr"
+            ]
+        },
+        {
+            "rule": "early-birds\\.fr\\/tenants\\/relais-and-chateaux\\/earlybirds-full\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "46c770be4e01b829ffd84acbe4145f2e03f7f55625699414d8b48f66bfb99e68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "relaischateaux.com",
+                "www.relaischateaux.com"
+            ]
+        },
+        {
+            "rule": "early-birds\\.fr\\/tracker\\/5d60039a933d4c0b7d2617a3\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a69a54cc658daff9ec9ff2215bfccad71e42e3aa7f3a572a3d42bde39360767d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "relaischateaux.com",
+                "www.relaischateaux.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000276,
+    "cookies": 0.0000474,
     "types": {
-        "XHR": 6,
-        "Script": 3
+        "Script": 9,
+        "XHR": 11
     },
     "nameservers": [
         "ns-331.awsdns-41.com",
-        "ns-1686.awsdns-18.co.uk",
+        "ns-857.awsdns-43.net",
         "ns-1053.awsdns-03.org",
-        "ns-857.awsdns-43.net"
+        "ns-1686.awsdns-18.co.uk"
     ]
 }

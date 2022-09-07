@@ -7,61 +7,95 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000678,
+    "sites": 10,
     "subdomains": [
-        "static"
+        "static",
+        "col"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "site24x7rum\\.eu\\/beacon\\/site24x7rum-min\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.0000203,
             "fingerprinting": 2,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Date.prototype.getTime": 1,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.width": 1,
-                "Navigator.prototype.connection": 1,
-                "Navigator.prototype.deviceMemory": 1,
-                "PerformanceTiming.prototype.navigationStart": 1
+                "Navigator.prototype.userAgent": 5,
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "Date.prototype.getTime": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Navigator.prototype.connection": 5,
+                "Navigator.prototype.deviceMemory": 5,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-                "803a00b1f48737bf8ab1d5c362938e96c63f7e1c3888cd3299894394e36e6c48"
+                "e6a250397b2f90e8dc2bf8f67788f77036a206198af700e8189b166af29d439f",
+                "c028f2c10cf16b6f927aa07693b3b85ea92e4ea6534cd1860c7a1e445880ba08",
+                "446e6f8e94db7c0b8c16c628f6efb107ee4cf6a9b5f4037f4f152a598b224dc0",
+                "b84e28dd5a120cd7ca5da8b30ec684c638df43fe7475a0a14a7b448881b51a92",
+                "6c0b94efed957980753842ff2d5d1231972eeb0cba2fd1b900e17fb0ef4b4325"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "site24x7rumID": {
-                    "ttl": 34041623,
+                    "ttl": 32659226,
                     "length": 44,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000020333744526833766,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "softonic.com",
+                "nordicsemi.com",
+                "devzone.nordicsemi.com",
+                "en.softonic.com",
                 "www.bensonsforbeds.co.uk",
-                "www.coop.nl"
+                "www.cambridge.org",
+                "www.curzon.com",
+                "www.ukpowernetworks.co.uk"
+            ]
+        },
+        {
+            "rule": "site24x7rum\\.eu\\/rum\\/data",
+            "cookies": 0.0000339,
+            "fingerprinting": 0,
+            "subdomains": [
+                "col"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordicsemi.com",
+                "devzone.nordicsemi.com",
+                "www.cambridge.org",
+                "www.curzon.com",
+                "www.ukpowernetworks.co.uk"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000069,
+    "cookies": 0.0000474,
     "types": {
-        "Script": 3
+        "Script": 7,
+        "Ping": 5
     },
     "nameservers": [
         "ns-210.awsdns-26.com",

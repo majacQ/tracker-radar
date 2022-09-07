@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000221,
-    "sites": 32,
+    "prevalence": 0.000312,
+    "sites": 46,
     "subdomains": [
         "edge",
         "storefront"
@@ -19,16 +19,20 @@
         {
             "rule": "personalizer\\.io\\/storefront\\/2\\.0\\.0\\/js\\/shopify\\/storefront\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "edge"
             ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.000104,
+            "apis": {
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8
+            },
+            "sites": 16,
+            "prevalence": 0.000108,
             "cnames": [],
             "responseHashes": [
-                "c8d071a5ba5059b8b51efe8c6b1e24d7f2c4b3b7111c04bea485296e5f69f0c0"
+                "6d1b80788c6416e1fa373cdcd5217dc3037e2f733c4e94e0efd298952945caa8"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -36,71 +40,66 @@
             "exampleSites": [
                 "bicyclewarehouse.com",
                 "blade-city.com",
-                "buffalojackson.com",
-                "craftshack.com",
                 "darkestfox.com",
-                "ledhut.co.uk",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "optcorp.com",
                 "purebulk.com",
-                "saharacase.com",
                 "smokea.com",
-                "www.dutchgrown.com",
+                "sprinklersupplystore.com",
+                "www.braceability.com",
                 "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
+                "www.hukgear.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
             ]
         },
         {
-            "rule": "personalizer\\.io\\/storefront\\/shopify\\/main\\.4171e7a38eabbfd2173a\\.js",
-            "cookies": 0.0000897,
-            "fingerprinting": 2,
+            "rule": "personalizer\\.io\\/v1\\/storefrontRuntime",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/runtime\\.fda880d2b53035043b05\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
             "subdomains": [
                 "edge"
             ],
-            "apis": {
-                "window.localStorage": 14,
-                "Date.prototype.getTime": 14,
-                "window.sessionStorage": 14,
-                "window.name": 14,
-                "Document.cookie getter": 13,
-                "Document.cookie setter": 13,
-                "Navigator.prototype.userAgent": 13,
-                "Screen.prototype.width": 11,
-                "Screen.prototype.height": 11,
-                "Screen.prototype.availWidth": 1
-            },
-            "sites": 14,
-            "prevalence": 0.0000966,
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "fb51124eae0f00441294efada0735a798a433097da32ce556ba7874e4ea0ed68"
+                "f00632e5d1212b992810d5324509d63bb48258dd68b8a860b5c0cd53cf318ccd"
             ],
             "type": "Script",
-            "firstPartyCookies": {
-                "lsContextID": {
-                    "ttl": null,
-                    "length": 22,
-                    "prevalence": 0.00008282488059413047,
-                    "uniqueness": 1
-                }
-            },
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "purebulk.com",
-                "saharacase.com",
-                "smokea.com",
-                "www.dutchgrown.com",
-                "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
             ]
         },
         {
@@ -111,29 +110,56 @@
                 "storefront"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000104,
+            "sites": 22,
+            "prevalence": 0.000149,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "4102523509e7cb1f15e672e6176c26f057349545ba4276f26b28a7eaa8ec00d3",
+                "96a41c339b5ae714ba800c644aea3dc1dbc263b94b8a75e6c8b94c0fe229ca5c",
+                "090ff3b73e34bca00a117ff2d77d6f0f1f55e7273030d0e513f86e3f96a6b932",
+                "2f088047aff15c2ff33ddacfc060779b86c9bd73672253807daa85c66405a74c",
+                "fe064b1c3d70e87c46b7c3aff1ca9bc0c769b3ab98ee251af59c0be1517c6d56",
+                "238567906f9acdac5944ceb50eb8b6ac3e71b01498fa1f70aa7707f4698d24c3",
+                "3ef567aedc13be772f4ce87e1eff0e904a38f42427bbb1141008a8f485e804cc",
+                "f519f9657d9ffef47596ca69c92989a4f2fe412ba9d312af195c3d61d693d615",
+                "c6dc6c186018e119e856a332c5d2c729a2852117b2bd12eba44dcbcdbd2a60ee",
+                "e25f8320793da30ef138b2c09cb50781b2862185b4b797568a64e14f7755323a",
+                "cfdbea8d79db7988502026aec2d463c642b0c29e3afd0a613eb1c24f23e3a34c",
+                "c0e7b9936047e5b43bd67dcc76a92bb27050d3a631b1d12d4f9dba06cd6338ff",
+                "937aa444d307716bc3f23e5adbf72dc30cef6f64c4078ec784296f0ac2560b8f",
+                "9e33127f9412480e6850c231301a3f2a666d24f4f2dcd71fcdbc1bc7940e5868",
+                "c5258d0f912e90fce06369278dd1b7e15a43c515240121e6831a17f510f85434",
+                "d5e183bb19e630a9a337c70de556951e589167ab8058dc26c1024aece5f7fb0e",
+                "5c1b8a74f78264438770b4c61c321b97227fb8ee070cb9b97a7e72287d1eebe6",
+                "7c687685dd1925e3d6ad59b091e5e64169eab9b49e2f1a81b4d813a79b9a266e",
+                "f51a96411f53021382dedd069bcfadaac26e46fdbaecf70e9df05070cb5ec1dd",
+                "86c7e1eb6aeda5695cf141bbf5af06f2f6a05d2795480dafeab2209c8de41fa0",
+                "d68c17715c4638a41c9d0e94a87978be017b5293f78969feca8484e1a41aec3e"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "saharacase.com",
+                "tanbooks.com",
+                "www.everythingpolarisrzr.com",
+                "www.5dtactical.com",
                 "smokea.com",
-                "www.dutchgrown.com",
+                "www.tilley.com",
+                "purebulk.com",
+                "monstrumtactical.com",
+                "darkestfox.com",
+                "www.littlegiantladders.com",
+                "sprinklersupplystore.com",
+                "www.braceability.com",
+                "www.everythingcanamoffroad.com",
+                "optcorp.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com",
+                "janeiredale.com",
                 "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
+                "www.spicylingerie.com",
+                "www.everythingpolarisranger.com",
+                "www.hukgear.com"
             ]
         },
         {
@@ -144,342 +170,234 @@
                 "storefront"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000104,
-            "cnames": [],
-            "responseHashes": [
-                "86d0f09cb923e6189a251c9fbedb292aeafcf781582eb1bc4a216ebd19767acd",
-                "dacfc19c215e35d12d2431b2fa4bfdb0c121acec1b4db835f0ef265053085729",
-                "17290ab49c6117466b9ee3d40b6d60ed26a9450dc0049860f47797c385958288",
-                "4a20831c8428a1fb718549c083bd9272f4d36cb3f1303152b3793a4a0989f1da",
-                "8f2ac40b6b5158bd4b604a8b34ac014648c8a20c3e0b3942db05a2f861446bc5",
-                "90ec9dccefd2e7bc5a77e9148b07c54215a4e256871aec5efc730814cb276e33",
-                "83e13a22895880365397723edb1aac66855d6e95eba741d1adc236be60fc4f38",
-                "12328c505165d9b59df72a9e2c2ebf3ad629a7b1e533333fbab00959cd9ead68",
-                "2889c29f04e3ed3ed557ee336b6537acbf8c4c3b63552bf04cb77abf3e18296e",
-                "5c4616f8de2782a9643a3ae116596351d17b88319ef1f9fd8782b857182d5548",
-                "330141d3ed6d1e170d682c22e028aa3e3413ed01bcc2976de22efbaddfd9c635",
-                "91cc399e7f840d85ec52d0079b8bf2402d5ab1677620d25f776fc075893051c3",
-                "b9df854c13d3ce3b862bb52c6f1667674e1468ce1561c2ffe4b9f88ee4c477c8",
-                "24212ab6629d3b21c8b65ef91654a0e037ee5c49a13f52381b15bbe0da92d8f3"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "saharacase.com",
-                "smokea.com",
-                "www.dutchgrown.com",
-                "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/storefront\\/channel\\/core\\.html",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "edge"
-            ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.0000966,
-            "cnames": [],
-            "responseHashes": [
-                "db968c64a3be4db6249bedb52b9716e5b90dd1546ef3f9b4bbcf4e368cd6e8af"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "smokea.com",
-                "www.dutchgrown.com",
-                "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/recentviews",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.0000966,
+            "sites": 22,
+            "prevalence": 0.000149,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
+                "www.hukgear.com",
+                "fultonfishmarket.com",
+                "www.everythingpolarisrzr.com",
+                "optcorp.com",
                 "monstrumtactical.com",
-                "purebulk.com",
-                "smokea.com",
-                "www.dutchgrown.com",
                 "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/recentviews",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.0000966,
-            "cnames": [],
-            "responseHashes": [
-                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
+                "www.spicylingerie.com",
+                "www.vikingsbrand.co",
+                "www.5dtactical.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
                 "darkestfox.com",
-                "ledhut.co.uk",
-                "monstrumtactical.com",
-                "purebulk.com",
+                "bicyclewarehouse.com",
+                "tanbooks.com",
+                "janeiredale.com",
+                "sprinklersupplystore.com",
                 "smokea.com",
-                "www.dutchgrown.com",
-                "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
+                "www.everythingpolarisranger.com",
+                "www.volcom.com",
+                "www.braceability.com"
             ]
         },
         {
-            "rule": "personalizer\\.io\\/storefront\\/css\\/recommendation\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "edge"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.0000897,
-            "cnames": [],
-            "responseHashes": [
-                "aa66d7e2cdea897b328a2d5784443ea69822b05f1ac5424f0dbb4f03fbc069a7"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "smokea.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/crosssell",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "darkestfox.com",
-                "monstrumtactical.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/youmaylike",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "ledhut.co.uk",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/crosssell",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "6fa7880ff1f493360ecd9a699e9d4ba28c81e5e1e66c7fc5497512594d5fbc9b",
-                "b4ddeeb135660a7b1fc6411e6d9683ba61b2b3d327b3d4a63a153e910444ae93"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "darkestfox.com",
-                "monstrumtactical.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/youmaylike",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "ledhut.co.uk",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/storefront\\/channel\\/core\\.js",
+            "rule": "personalizer\\.io\\/6704\\.fda880d2b53035043b05\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "edge"
             ],
             "apis": {
-                "window.localStorage": 14
+                "Date.prototype.getTime": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
             },
-            "sites": 14,
-            "prevalence": 0.0000966,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "aa3e1d4dbf78fbca02008d1da3eddaf1bb9592be78404b56667e5abc0aaf6660"
+                "3bab3058e3fc692cc8aa617f06b961403f42433139bb7edd6d32f89edee8073e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/8396\\.fda880d2b53035043b05\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "2dd3c06dbae42424cba7cef44853d46e3001bbbc8ab1774f3f409d14c4de96af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/6092\\.fda880d2b53035043b05\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "99ff5d7f9c4571f5cc844851d86c558dbeadc3d7c114ded2cf5710a1894a6bee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/989\\.fda880d2b53035043b05\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "dd6d2f9c93bafcf498dcded257945c97571513165be5d2d83f0b7d382bc2789b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/4730\\.fda880d2b53035043b05\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "ed6d67083d63b4d1f9b1b81fd17b63e71c7bdb8cc1e2d5973a7a080d49243e8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/channel\\/core\\.fda880d2b53035043b05\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "9ebb9a1c82676ad81bddb8c8bf342fcd7dbc075881c37d01ce908d58202244db"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/recentviews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000136,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
                 "darkestfox.com",
-                "ledhut.co.uk",
+                "fultonfishmarket.com",
+                "janeiredale.com",
                 "monstrumtactical.com",
+                "optcorp.com",
                 "purebulk.com",
                 "smokea.com",
-                "www.dutchgrown.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
                 "www.dynavap.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.spicylingerie.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
             ]
         },
         {
-            "rule": "personalizer\\.io\\/snippets\\/images\\/loading\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "edge"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.0000552,
-            "cnames": [],
-            "responseHashes": [
-                "1bbc1b5438eb5334f08e31d7b6e680f9de6f410d88ff78edefd9fe3d5f500d30"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "purebulk.com",
-                "smokea.com",
-                "www.dutchgrown.com",
-                "www.mushroomrevival.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/activityLogs",
+            "rule": "personalizer\\.io\\/v1\\/recentviews",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "storefront"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.0000897,
+            "sites": 20,
+            "prevalence": 0.000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -487,217 +405,29 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
                 "darkestfox.com",
-                "ledhut.co.uk",
+                "fultonfishmarket.com",
+                "janeiredale.com",
                 "monstrumtactical.com",
+                "optcorp.com",
                 "purebulk.com",
                 "smokea.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.spicylingerie.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
             ]
         },
         {
-            "rule": "personalizer\\.io\\/v1\\/activityLogs",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.0000897,
-            "cnames": [],
-            "responseHashes": [
-                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bicyclewarehouse.com",
-                "buffalojackson.com",
-                "craftshack.com",
-                "darkestfox.com",
-                "ledhut.co.uk",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "smokea.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.romadesignerjewelry.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/boughttogether",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "buffalojackson.com",
-                "darkestfox.com",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/related",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "buffalojackson.com",
-                "ledhut.co.uk",
-                "purebulk.com",
-                "smokea.com",
-                "www.motionrc.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/boughttogether",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
-            "cnames": [],
-            "responseHashes": [
-                "c07560c0054dde877819556321301ac9ee960932139c9d8faa1dd1c2b7b3bf96",
-                "81350395378e6d13b4b4914a2fa930b5441c5c6133de8c1a911ea84139566491",
-                "ef35025e4e092c84bd7ab802fb0b4331faf8dd0ac86e205736d260de789ba539",
-                "15f5984a48d168ccf5464f09ac7cf6adad1f354b4bf1f2b489dfb0dea2a8539c",
-                "0dddd7f27405625bcb9778ba7529bd63b6cf6a5a71bdcd641a1b56a30196fd11"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "buffalojackson.com",
-                "darkestfox.com",
-                "monstrumtactical.com",
-                "purebulk.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/related",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [
-                "a63b7e5d8ccaea52d08967b8ad7adcb458756597cc1210f649114c2be6b2fe60",
-                "1443fcfcae76b9505d5defb03b16a148861a9665c72157b0c560e15de6c0a812",
-                "dc4ff1e84c71228f7f4c61fe632f888568ae9bd22a1e9c88552c301a1e026e3d",
-                "c14b4874ebe10358eedce6febd79b3482e611a285c6c1be00e7317a019841a6a"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "buffalojackson.com",
-                "ledhut.co.uk",
-                "purebulk.com",
-                "smokea.com",
-                "www.motionrc.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/popular",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "craftshack.com",
-                "ledhut.co.uk",
-                "purebulk.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/v1\\/popular",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "storefront"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
-            "cnames": [],
-            "responseHashes": [
-                "f41b30c49134858a03d6abc16da331838f177dccb3ecd1efc0b9ce569f3c695d",
-                "67157325ee13fe545180f48b4dc9d23a171e0f03a2a4c2633ae40d1e774f1504",
-                "ec6dee9324a7c787c74569fa334c99223c132a7383521b037f3d85fdc097d892",
-                "d5de6fdb9e5f8f465c038d38032756c994ce80f8e3c616b474539e9acdd12a7e",
-                "b5976595748b15c59b7d525ce834e26260f821417c1e207b38726db66e878fe4",
-                "7edfaaaf1f36c8830f2e046e3545b8deea99cdb94cb764f10408baed0c349225"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "craftshack.com",
-                "ledhut.co.uk",
-                "purebulk.com",
-                "www.dutchgrown.com",
-                "www.motionrc.com",
-                "www.mushroomrevival.com",
-                "www.tilley.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/snippets\\/images\\/no-image\\.svg",
+            "rule": "personalizer\\.io\\/storefront\\/css\\/recommendation\\.fda880d2b53035043b05\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -705,74 +435,1328 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "2c40c1a59187b417f7bf08358e5294c5507273572c3e6d517de1ce6839620c10"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "motionrc.com",
-                "www.motionrc.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/storefront\\/shopify\\/themes\\/js\\/yourstore\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "edge"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "928c8b4c080ef615b22121bafe09e96e278a24819e41e9971fdd74e925b7cbe8"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "romadesignerjewelry.com",
-                "www.romadesignerjewelry.com"
-            ]
-        },
-        {
-            "rule": "personalizer\\.io\\/storefront\\/shopify\\/themes\\/css\\/yourstore\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "edge"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "14d85bb9df1ff618c7c13ded6d6794809823c593f01efebec5d5663d608cd648"
+                "59428b52384e067242ccb49d5ab7f03b4b5de178175cd76ecb14d4dc4398a2dc"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "romadesignerjewelry.com",
-                "www.romadesignerjewelry.com"
+                "bicyclewarehouse.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/youmaylike",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000746,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+                "f57b0b601f0fc7e54e73372d1bcc9db8a0b63d053712c97c4a675588e41f6ae0",
+                "13b5f89c638194b680d51da28798a6db46a2f0c8d0dd7b6d6bfd156b4c98df75"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "tanbooks.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/youmaylike",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000746,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "tanbooks.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/channel\\/core\\.fda880d2b53035043b05\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "8a19af1fe49380e885bd8284aae1dc79f0d72d4b357d4b7558224f6495495a3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/activityLogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.5dtactical.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/activityLogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bicyclewarehouse.com",
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.5dtactical.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/runtime\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000136,
+            "cnames": [],
+            "responseHashes": [
+                "132d39947cdc377096c818fc675839ab92cfb7eb0fd15c078376d43b9b94ee49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blade-city.com",
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.hukgear.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/shopify\\/main\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0.0000881,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.localStorage": 14,
+                "window.sessionStorage": 13,
+                "window.name": 13,
+                "Document.cookie getter": 13,
+                "Document.cookie setter": 13,
+                "Date.prototype.getTime": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000102,
+            "cnames": [],
+            "responseHashes": [
+                "f27c53b1c4f0b8a11252d69902b0275f01b8ce46db6df5c02fa59559853fb7dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lsContextID": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00008133497810733507,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blade-city.com",
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.hukgear.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/6704\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 17,
+                "Screen.prototype.width": 13,
+                "Screen.prototype.height": 13
+            },
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "3bab3058e3fc692cc8aa617f06b961403f42433139bb7edd6d32f89edee8073e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/8396\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.innerWidth": 17,
+                "Navigator.prototype.userAgent": 16
+            },
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "2dd3c06dbae42424cba7cef44853d46e3001bbbc8ab1774f3f409d14c4de96af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/7593\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000881,
+            "cnames": [],
+            "responseHashes": [
+                "e2b161cc38e9fdf75d2c9b1ee48febf4f8bec9d52ba17a9f51436b28a69d968a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/3552\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000881,
+            "cnames": [],
+            "responseHashes": [
+                "11833bc2545d6fb3529c27bd21e734f3543770d616613d8b31eeff97f631e9f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/6092\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "99ff5d7f9c4571f5cc844851d86c558dbeadc3d7c114ded2cf5710a1894a6bee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/989\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 17,
+                "Navigator.prototype.userAgent": 17
+            },
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "62e60e10109fcf26678cdbc55ab0cf1a4bc14b138b614ebd40e73aa9899718be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/4730\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "ed6d67083d63b4d1f9b1b81fd17b63e71c7bdb8cc1e2d5973a7a080d49243e8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/channel\\/core\\.7d6781f0ea0d38e11082\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "7ac87a846acf61727a9aa53d76fd187adb3226a75dcacffdf7760975d8e491d5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/css\\/recommendation\\.7d6781f0ea0d38e11082\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000108,
+            "cnames": [],
+            "responseHashes": [
+                "59428b52384e067242ccb49d5ab7f03b4b5de178175cd76ecb14d4dc4398a2dc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/trending",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "0ffd413512685c60dd6cb977198f98e4206c7bfc507abb7548b44228a3f29b1b",
+                "0d1d2e2114c29837afc42f16d86709f2ea1c12f674484b9abed7702b4e92fc1b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "sprinklersupplystore.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/trending",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "sprinklersupplystore.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/channel\\/core\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0.000108,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.localStorage": 16,
+                "Document.cookie setter": 16
+            },
+            "sites": 18,
+            "prevalence": 0.000122,
+            "cnames": [],
+            "responseHashes": [
+                "8a19af1fe49380e885bd8284aae1dc79f0d72d4b357d4b7558224f6495495a3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "fultonfishmarket.com",
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "sprinklersupplystore.com",
+                "tanbooks.com",
+                "www.braceability.com",
+                "www.dynavap.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.littlegiantladders.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/boughttogether",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "cfe4b0b6b88fe8b7ff624c68d16c00f37dbf92cbb3a88189f959c2851a63c18b",
+                "ff7068673aaf5be7d5aec29b4a9d7d0257e1121b71f465858862d9abc9685aef",
+                "e088a89b4d74bf3f40d14ce04cff7bfeb53165a8da6fec3dab70e44f7ee08efc",
+                "e9069b504feff724625bedc8753431a2774e280a7636160d33fc43fad95bb814",
+                "3a51d8f815fd1c6ee0529b6667981eb829b33620eeedf11e805e79368acfe5a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/boughttogether",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/crosssell",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "debcb48a0ffcc79bf3464afb243af0bcf300a8d45008812b4f2f1d137f56c2e0",
+                "1bbc1f9a03832f9f0c66224ff44f4b127d58afb6033b38888b9bb43b90861a75",
+                "6bf273c4620bc1c97ee255557fd0d25505101696b617bbd07cb3f80a44ca3fad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/crosssell",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darkestfox.com",
+                "monstrumtactical.com",
+                "optcorp.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/popular",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000813,
+            "cnames": [],
+            "responseHashes": [
+                "084be6e683115e3793918c678f114924c9f87fa0cc00680c60e24ad99b6216ed",
+                "b3b0b18e397825fe769cf5013dd4ad8e6c94b57913296e0fbca76d46889b224d",
+                "d6ac37ca0f4fcb4d95492042e26ef269456939992ce8b57b45d07816ebbd9a62",
+                "d6494819cbdd6de3093a07467a17f3b5c33ded5808b4e1e37b8fe045304b11a1",
+                "efb4a10525b6acc4644e34ebf27725d531150c1ed7b3bc13d48d548791fb4df7",
+                "b18901f039728d9dbcbcf6962c7cdd33452e9951e9f0bcbe95f24cdbb75017b3",
+                "a119832b96a6c3056c99351df4ac229a42d00319902b15c865ead75b3c487b7f",
+                "7edd45463a3c84dfcd2e2bad1769c044c15a5d0be8eb1fd6deb5b887d3e0ff08",
+                "172d3a4907c366180a242802527d19ba4631ee99a9633fea9877f78ca9620b1b",
+                "2e61a7009e7974fecd517d890ba55c19f3d8caae908dcc433d80564ed4b2ec6c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fultonfishmarket.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "tanbooks.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/popular",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000813,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fultonfishmarket.com",
+                "optcorp.com",
+                "purebulk.com",
+                "smokea.com",
+                "tanbooks.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com",
+                "www.tilley.com",
+                "www.vikingsbrand.co",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/related",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000542,
+            "cnames": [],
+            "responseHashes": [
+                "96a8aa052d14f4f4664a3a86ca649bced5b4b6a04e387e341021ec685cd6a9ee",
+                "5e54231e143d2d548c58b1d20e8cfdb84984a47932bfa7a8e23579eec52ca54c",
+                "de2d5a99add4982ac78f914071f4779c353441bd9e64c2781a27a3f75622c74e",
+                "d211b2201394a2a06e6084ed1fb0a9c703b574755fa3247f94b7fa3043e15bb5",
+                "0e2355fcb45eae614755ecb3ef89a273bb2219def54d34aeb1bc88061b74013e",
+                "61e6c6c14d646588c641d072a7b9ff9c39dc25c983c9a89d42447a2c4ae7236c",
+                "9be28ce517e2a2bc182827d66cc6993c2949bc554e96ba404067cdc79b6dbeaa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com",
+                "www.vikingsbrand.co"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/related",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000542,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janeiredale.com",
+                "optcorp.com",
+                "purebulk.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com",
+                "www.vikingsbrand.co"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/2584\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "f56b511eb3c520a20541ddca79c3a88975f863b63085860209da11aad0b2f74f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "smokea.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/7607\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "0919e2b99a8ab50727a9582eceee03c923a1908e5d0033d1117e49840fce7a2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "smokea.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/4180\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "229e2d996820776c59b37d4c17bfba2408ee26e25e42b0832684c3a97f1996b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janeiredale.com",
+                "monstrumtactical.com",
+                "smokea.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/2\\.0\\.0\\/js\\/bigcommerce\\/storefront\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "33432a059ab16249efea67c9e92372ed21931b49d796021de3ed6b0a7608386b",
+                "7ca02d883a1a4dcfb5c7817d3a646dc8474e5191b2beecc9f0ea101210123949"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monstrumtactical.com",
+                "tanbooks.com",
+                "www.5dtactical.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/bigcommerce\\/main\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0.0000339,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "window.name": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "a9531a68aa6ac87f21b89428fec97d1c89a487f1840e9330ae0f5a8705bfa812"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lsContextID": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.000033889574211389605,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monstrumtactical.com",
+                "tanbooks.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/56\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "4e4580355c14c5c174136c89d9900fbf8910ac9dc1cc1044797a945a2354313c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monstrumtactical.com",
+                "tanbooks.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/2689\\.7d6781f0ea0d38e11082\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "e89c8dd7448d698f09cacfeb4efd67ced252292bbba8ff0da60fb6f54cfb1fa5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optcorp.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/css\\/bundle\\.7d6781f0ea0d38e11082\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "aec28d23161551fc3fd39d7ea2fae349f62c93867bd89d0fb09089b2cadc4540"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optcorp.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/users",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optcorp.com",
+                "sprinklersupplystore.com",
+                "www.tilley.com",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/users",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optcorp.com",
+                "sprinklersupplystore.com",
+                "www.tilley.com",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/bigcommerce\\/main\\.fda880d2b53035043b05\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "window.name": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "6ed3a28d3bc2332fda2f44de0e0c359daf851c394782ed6910b0bf4d516578d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lsContextID": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "5dtactical.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/56\\.fda880d2b53035043b05\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "4e4580355c14c5c174136c89d9900fbf8910ac9dc1cc1044797a945a2354313c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "5dtactical.com",
+                "www.5dtactical.com",
+                "www.spicylingerie.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/productVariants",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everythingcanamoffroad.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/v1\\/productVariants",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "f805854b6fbce68bba2db1582e91daa5c58c0fa9a4dfd27b1672f8c7a937e54f",
+                "4d9c0786d0dfe4fcf62577fa15c1af3349a15d2a639ffb5b2332e2c460514c64",
+                "fe219ab762de0eec7a403896f32775a8a657de8db2ecf8219f95393ed7352bec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everythingcanamoffroad.com",
+                "www.everythingcanamoffroad.com",
+                "www.everythingpolarisranger.com",
+                "www.everythingpolarisrzr.com"
+            ]
+        },
+        {
+            "rule": "personalizer\\.io\\/storefront\\/shopify\\/themes\\/css\\/debutify\\.7d6781f0ea0d38e11082\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "63a425c8ff76cc7fb6221a377735b3f56f9ec7ffc6a847ed412949b4a03db3dd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vikingsbrand.co",
+                "www.vikingsbrand.co"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0002,
+    "cookies": 0.000285,
     "types": {
-        "Script": 45,
-        "Preflight": 66,
-        "XHR": 66,
-        "Document": 14,
-        "Stylesheet": 15,
-        "Image": 10
+        "Script": 242,
+        "Fetch": 115,
+        "Preflight": 112,
+        "Document": 21,
+        "Stylesheet": 24
     },
     "nameservers": [
         "alec.ns.cloudflare.com",

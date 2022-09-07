@@ -7,36 +7,90 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.00131,
+    "prevalence": 0.0013,
     "sites": 13,
     "subdomains": [
-        "serverbid-sync.nyc3.cdn"
+        "bmc-cdn.nyc3",
+        "adepem-assets.fra1",
+        "choukapieces-prod-assets.fra1"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "digitaloceanspaces\\.com\\/ss\\/1032790\\.html",
+            "rule": "digitaloceanspaces\\.com\\/Fonts\\/65d75eb0-2601-4da5-a9a4-9ee67a470a59\\.woff",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "serverbid-sync.nyc3.cdn"
+                "bmc-cdn.nyc3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e84fe3447551e08771ce136640268d758e479dcd11a0c8c4879366f63e3726fb"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freefrontend.com",
+                "www.parismalanders.com"
+            ]
+        },
+        {
+            "rule": "digitaloceanspaces\\.com\\/public\\/css\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adepem-assets.fra1",
+                "choukapieces-prod-assets.fra1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ed5f0d0af4f7d2d0354473a32ee9b7f2d063d17a8d9ec5bd0961d65fcbb1950c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adepem.com",
+                "www.choukapieces.com"
+            ]
+        },
+        {
+            "rule": "digitaloceanspaces\\.com\\/public\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "adepem-assets.fra1",
+                "choukapieces-prod-assets.fra1"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 1,
+                "Event.prototype.timeStamp": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.product": 1,
+                "window.innerHeight": 1
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "62dfe992f48c3ae7c1b6b12225a2a16e80177a3bdec3ae9064b012fad19166ac"
+                "521ca7c057b0f268f3f414530e50a7a05b233e03111c6c1d6537518a82808269"
             ],
-            "type": "Document",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "urbandictionary.com",
-                "www.urbandictionary.com"
+                "adepem.com",
+                "www.choukapieces.com"
             ]
         }
     ],
@@ -46,7 +100,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Document": 2
+        "Font": 2,
+        "Stylesheet": 2,
+        "Script": 2
     },
     "nameservers": [
         "kim.ns.cloudflare.com",

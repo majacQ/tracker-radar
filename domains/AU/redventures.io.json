@@ -13,26 +13,32 @@
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "redventures\\.io\\/lib\\/api\\/client-info",
+            "rule": "redventures\\.io\\/lib\\/api\\/v1\\/event",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "at.adtech"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000501,
+            "sites": 9,
+            "prevalence": 0.000902,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gamespot.com",
                 "download.cnet.com",
+                "gamefaqs.gamespot.com",
+                "thepointsguy.com",
+                "www.cnet.com",
                 "www.gamespot.com",
-                "www.giantbomb.com",
-                "www.metacritic.com"
+                "www.metacritic.com",
+                "www.tvguide.com",
+                "www.zdnet.com"
             ]
         },
         {
@@ -43,8 +49,30 @@
                 "at.adtech"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000501,
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "gamefaqs.gamespot.com",
+                "www.metacritic.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "redventures\\.io\\/lib\\/api\\/client-info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "at.adtech"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
                 "7cac2266f580747bd11f6591d941f96608b94424754d4d4a85e15e7745349875"
@@ -53,44 +81,20 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gamespot.com",
-                "download.cnet.com",
-                "www.gamespot.com",
-                "www.giantbomb.com",
-                "www.metacritic.com"
-            ]
-        },
-        {
-            "rule": "redventures\\.io\\/lib\\/api\\/v1\\/event",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "at.adtech"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
                 "cnet.com",
-                "www.gamespot.com",
+                "gamefaqs.gamespot.com",
+                "www.metacritic.com",
                 "www.zdnet.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000702,
+    "cookies": 0.000802,
     "types": {
-        "Preflight": 5,
-        "Fetch": 5,
-        "Other": 3
+        "Ping": 9,
+        "Preflight": 4,
+        "Fetch": 4
     },
     "nameservers": [
         "ns-211.awsdns-26.com",

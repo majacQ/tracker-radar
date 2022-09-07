@@ -4,77 +4,88 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000601,
-    "sites": 6,
+    "prevalence": 0.0013,
+    "sites": 13,
     "subdomains": [
         "custom"
     ],
     "cnames": [
         {
-            "original": "plausible.zorin.com",
-            "resolved": "custom.plausible.io"
-        },
-        {
             "original": "pm.redbull.com",
             "resolved": "custom.plausible.io"
         }
     ],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "plausible\\.io\\/js\\/plausible\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [],
             "apis": {
-                "window.localStorage": 5
+                "Navigator.prototype.webdriver": 10,
+                "window.localStorage": 10,
+                "window.innerWidth": 10
             },
-            "sites": 5,
-            "prevalence": 0.000501,
+            "sites": 11,
+            "prevalence": 0.0011,
             "cnames": [],
             "responseHashes": [
-                "6f83d3325e1f1c2e668992bfac0f08d9c5c046be534513c76a1e49707cff3914"
+                "ae4216bfc85c99ffd32e7745f0d7d4cd5f57b714f3a4911176b8cd78a176c97c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "alphr.com",
+                "marketrealist.com",
+                "pop.system76.com",
+                "techraptor.net",
                 "www.alphr.com",
-                "www.corybernardi.com.au",
+                "www.atlasobscura.com",
+                "www.bluey.tv",
+                "www.natgeokids.com",
                 "www.ravelry.com",
-                "www.ukcolumn.org"
+                "www.redvoicemedia.com",
+                "www.revolver.news",
+                "www.superpharmacy.com.au"
             ]
         },
         {
-            "rule": "plausible\\.io\\/js\\/index\\.js",
+            "rule": "plausible\\.io\\/api\\/event",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "custom"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
+            "sites": 13,
+            "prevalence": 0.0013,
             "cnames": [
                 {
                     "original": "pm.redbull.com",
                     "resolved": "custom.plausible.io"
-                },
-                {
-                    "original": "plausible.zorin.com",
-                    "resolved": "custom.plausible.io"
                 }
             ],
             "responseHashes": [
-                "6f83d3325e1f1c2e668992bfac0f08d9c5c046be534513c76a1e49707cff3914"
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "redbull.com",
-                "zorin.com"
+                "marketrealist.com",
+                "pop.system76.com",
+                "techraptor.net",
+                "www.alphr.com",
+                "www.atlasobscura.com",
+                "www.bluey.tv",
+                "www.mobilezap.com.au",
+                "www.natgeokids.com",
+                "www.ravelry.com",
+                "www.redbull.com",
+                "www.redvoicemedia.com",
+                "www.revolver.news",
+                "www.superpharmacy.com.au"
             ]
         }
     ],
@@ -82,10 +93,11 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 7
+        "Script": 11,
+        "XHR": 13
     },
     "nameservers": [
-        "eric.ns.cloudflare.com",
-        "iris.ns.cloudflare.com"
+        "iris.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
     ]
 }

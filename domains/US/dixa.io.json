@@ -4,14 +4,19 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000552,
-    "sites": 8,
+    "prevalence": 0.0000407,
+    "sites": 6,
     "subdomains": [
         "widget",
-        "api"
+        "api",
+        "messenger",
+        "messenger-edge",
+        "api.bulletins",
+        "files.messenger",
+        "bulletins"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "dixa\\.io\\/assets\\/scripts\\/javascript\\/loader\\.js",
@@ -21,27 +26,25 @@
                 "widget"
             ],
             "apis": {
-                "window.localStorage": 5
+                "window.localStorage": 3
             },
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "406441ed08e898018fc9c808a20c99fdca9ae57aef129e9b794ebcde4468b755"
+                "8aaae900cd6ec8410965bc22c16dd2eb6db087dbadb3604b7060a8938f62bf92"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mammut.com",
-                "www.rapha.cc",
-                "www.rockymountainoils.com",
-                "www.saxo.com",
-                "www.thule.com"
+                "1md.org",
+                "www.mammut.com",
+                "www.rockymountainoils.com"
             ]
         },
         {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/a4175199-ed63-4658-b397-532b5ecb3f82\\/settings",
+            "rule": "dixa\\.io\\/v1\\/widgets\\/4d1b2f11-173d-440d-b4df-19b3dd1aa014\\/settings",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -49,7 +52,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "415797aabfd7f0a9b356a3dd74b3f4d84cab2ae8d439a39f2431fce64759e884"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mammut.com",
+                "www.mammut.com"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/v1\\/widgets\\/4d1b2f11-173d-440d-b4df-19b3dd1aa014\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -61,40 +86,20 @@
             ]
         },
         {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/a4175199-ed63-4658-b397-532b5ecb3f82\\/settings",
+            "rule": "dixa\\.io\\/bootstrap\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "api"
+                "messenger"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "78c339cdb79338361f2d0b19cff4511fa0db9120687e49ec47a5fd9b00a8d21e"
+                "b496c752a854d35568cb79fb560c5d5c8d6a810ace27b5a6e4cf505762888197"
             ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "mammut.com",
-                "www.mammut.com"
-            ]
-        },
-        {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/0a6018bf-16bd-4ea3-8eb8-eec946400ac0\\/settings",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -103,20 +108,24 @@
             ]
         },
         {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/0a6018bf-16bd-4ea3-8eb8-eec946400ac0\\/settings",
+            "rule": "dixa\\.io\\/vendorda8c029593b8056206f1\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 2,
             "subdomains": [
-                "api"
+                "messenger"
             ],
-            "apis": {},
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.userAgent": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a97118abfa3ff3a5076411ea45b665f7aef52ab252cacbafe9170afbea727e15"
+                "707b65fcbbae17527afd0a49e4c46fdbac487e56c0de83230e5663f240e44a84"
             ],
-            "type": "XHR",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -125,7 +134,208 @@
             ]
         },
         {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/d08f9612-4f3c-4446-a1c3-05c6c33e46f8\\/settings",
+            "rule": "dixa\\.io\\/shim9303dcfbfbcdfa5364e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "messenger"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f53fee11c599828983265c66f5c0494566b02302e13963a26c713a607c3be8e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/toggler\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a28645f51bdfe0ffe1652ed1b3bf410fd66614179b3d968e3162a0ca9c9ea514"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/widget\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6f2fb0620ce8948abf4a8514e22d1955b5985ad22fd188bef295b6659ca47b75"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/toggler1aab48bc915d02ada4d3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ca4c9b20adab698adeacd4e6ebd587dc5f2116d5060d6d2cc3a9b2f5d725853c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/widgeta6d8af8b82feb210affe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b1b1b378b6105c6feefa0914806e3b82419a0be51d2f5b751bb1baf4d278da34"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/v1\\/messenger\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger-edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "99d5f2fb3be2bc7686556bcdbc1aa9c33016663c1704c6178a702c829bf27e4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/boards\\/774041d0-fba1-493a-8820-c71d5547ae5d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.bulletins"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0b3f2a880c22c83445a4ccad2dbeac01be88c7a54bf4e0759702d9b7c17ca1f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/2890bf53ec62d3b32d493fe858bf12ef",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files.messenger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0ff28d31f1abdc7710e7d311ff67f95dd52abe47c49873b674c97508621bf2ac"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/774041d0-fba1-493a-8820-c71d5547ae5d\\/bulletins\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bulletins"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "0db8a66080cd4262ceea6028361c60dbf63faa629163bbe45bdbe1274bb15b9c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rapha.cc",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "dixa\\.io\\/v1\\/widgets\\/651d5742-9d56-4017-bc81-df97e7b6d77d\\/settings",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -133,10 +343,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7c25090063eddeab12ba5289a469aad0c5a750e153c331fb0ca6e3d2c4a8073a"
+                "f1040bbcdaf5f736d52937ece71c8fb8ce705628dd0bee411ed799d96074007b"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -147,7 +357,7 @@
             ]
         },
         {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/d08f9612-4f3c-4446-a1c3-05c6c33e46f8\\/settings",
+            "rule": "dixa\\.io\\/v1\\/widgets\\/651d5742-9d56-4017-bc81-df97e7b6d77d\\/settings",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -155,7 +365,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -164,48 +374,6 @@
             "exampleSites": [
                 "rockymountainoils.com",
                 "www.rockymountainoils.com"
-            ]
-        },
-        {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/f7fabfb4-8fb2-4a78-963c-8805fc3ba3f5\\/settings",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "saxo.com",
-                "www.saxo.com"
-            ]
-        },
-        {
-            "rule": "dixa\\.io\\/v1\\/widgets\\/f7fabfb4-8fb2-4a78-963c-8805fc3ba3f5\\/settings",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "9c78794a81aca66248e5457d6a0eb13bbb57236063ad0a06245d476accf56c3f"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "saxo.com",
-                "www.saxo.com"
             ]
         }
     ],
@@ -213,14 +381,17 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5,
-        "Preflight": 8,
-        "XHR": 8
+        "Script": 13,
+        "XHR": 4,
+        "Preflight": 4,
+        "Document": 4,
+        "Fetch": 6,
+        "Image": 2
     },
     "nameservers": [
-        "ns-356.awsdns-44.com",
-        "ns-669.awsdns-19.net",
         "ns-1476.awsdns-56.org",
+        "ns-669.awsdns-19.net",
+        "ns-356.awsdns-44.com",
         "ns-1575.awsdns-04.co.uk"
     ]
 }

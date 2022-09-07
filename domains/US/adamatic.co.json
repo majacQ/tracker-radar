@@ -4,12 +4,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000483,
+    "prevalence": 0.0000474,
     "sites": 7,
     "subdomains": [
         "js",
-        "dc",
-        "pxl"
+        "hst",
+        "www"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -22,10 +22,11 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.vendor": 2
+                "Navigator.prototype.vendor": 2,
+                "Event.prototype.timeStamp": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "18fd4edbb4406ea34687a35221e88d9dfceac87142d966cc844b4042ba41dc0e"
@@ -39,25 +40,25 @@
             ]
         },
         {
-            "rule": "adamatic\\.co\\/dynamic-content\\/html",
+            "rule": "adamatic\\.co\\/sessions\\/session",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "dc"
+                "hst"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "498f1640113e44426b2dc7462048c620dc30a2e559aa8f06e948d20f5862956c"
+                "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ksl.com",
-                "cars.ksl.com"
+                "classifieds.ksl.com"
             ]
         },
         {
@@ -68,10 +69,10 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.vendor": 2
+                "Navigator.prototype.vendor": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "80f859fafb251d70a65071743acfbea0c940ac497de13258facb952395e1d9b9"
@@ -81,41 +82,44 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "ksl.com",
-                "classifieds.ksl.com"
+                "classifieds.ksl.com",
+                "www.ksl.com"
             ]
         },
         {
-            "rule": "adamatic\\.co\\/integrations\\/general",
-            "cookies": 0.0000138,
+            "rule": "adamatic\\.co\\/js\\/logging\\.js",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "pxl"
+                "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Document",
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "utah.com",
+                "rcwilley.com",
                 "www.rcwilley.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0,
     "types": {
-        "Script": 4,
-        "Document": 4
+        "Script": 7,
+        "Document": 2
     },
     "nameservers": [
-        "ns-1590.awsdns-06.co.uk",
-        "ns-538.awsdns-03.net",
         "ns-1465.awsdns-55.org",
-        "ns-174.awsdns-21.com"
+        "ns-538.awsdns-03.net",
+        "ns-174.awsdns-21.com",
+        "ns-1590.awsdns-06.co.uk"
     ]
 }

@@ -12,22 +12,26 @@
     "prevalence": 0.00271,
     "sites": 27,
     "subdomains": [
-        "appleid",
-        "static"
+        "appleid"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/en_US\\/appleid\\.auth\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 3,
             "subdomains": [
                 "appleid"
             ],
-            "apis": {},
-            "sites": 22,
-            "prevalence": 0.00221,
+            "apis": {
+                "window.innerWidth": 23,
+                "window.innerHeight": 23,
+                "window.screenLeft": 23,
+                "window.screenTop": 23
+            },
+            "sites": 23,
+            "prevalence": 0.00231,
             "cnames": [],
             "responseHashes": [
                 "60e60bf2583cf7444b00a4b0b8d46de5fd5816f768fc72fd71c643357132df69"
@@ -36,36 +40,41 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mobile.twitter.com",
                 "quizlet.com",
+                "thechive.com",
                 "twitter.com",
                 "www.goodreads.com",
                 "www.realtor.com",
-                "player.fm",
-                "www.molotov.tv",
-                "www.motogp.com",
-                "search.twitter.com",
-                "www.flytap.com",
                 "www.showroomprive.com",
+                "gettr.com",
+                "www.bible.com",
+                "www.motogp.com",
+                "www.molotov.tv",
                 "www.cafeyn.co",
                 "www.strava.com",
-                "www.geovelo.fr",
-                "twitter.fr",
-                "www.wish.com",
-                "jow.fr",
-                "m.twitter.com",
-                "genshin.mihoyo.com",
-                "www.pcloud.com"
+                "www.pcloud.com",
+                "www.instant-gaming.com",
+                "www.twitter.fr",
+                "www.domestika.org",
+                "www.nzherald.co.nz",
+                "search.twitter.com",
+                "www.bandsintown.com",
+                "player.fm"
             ]
         },
         {
             "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/fr_FR\\/appleid\\.auth\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 3,
             "subdomains": [
                 "appleid"
             ],
-            "apis": {},
+            "apis": {
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.screenLeft": 3,
+                "window.screenTop": 3
+            },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
@@ -78,31 +87,7 @@
             "exampleSites": [
                 "mk2.com",
                 "www.mk2.com",
-                "www.ouicar.fr"
-            ]
-        },
-        {
-            "rule": "cdn-apple\\.com\\/businesschat\\/start-chat-button\\/2\\.1\\.0\\/index\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "1a4318f8b6d5376f1656e2b00b7ed8705d5799dd2be22378cbc43ca6e4b8f8ce"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "engie.fr",
-                "particuliers.engie.fr"
+                "www.voyage-prive.com"
             ]
         }
     ],
@@ -110,7 +95,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 27
+        "Script": 26
     },
     "nameservers": [
         "a.ns.apple.com",

@@ -9,10 +9,13 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000402,
-    "sites": 4,
+    "prevalence": 0.000502,
+    "sites": 5,
     "subdomains": [
-        "browser.pipe.aria"
+        "browser.pipe.aria",
+        "eu-mobile.events.data",
+        "c1",
+        "browser.events.data"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -22,11 +25,12 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "browser.pipe.aria"
+                "browser.pipe.aria",
+                "eu-mobile.events.data"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -36,7 +40,54 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "clevelandclinic.org",
-                "my.clevelandclinic.org"
+                "my.clevelandclinic.org",
+                "www.po.co"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/c\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/OneCollector\\/1\\.0\\/",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.events.data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "eeb1b2d378e3e0227f2dee89cb27032edaa2b03f06f361b6ba2dd38f1b5b2d27",
+                "afd588d7d1c94d797ef932006d524de973f6fc54556e62f0f340412c87f99d58"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net",
+                "www.trekbikes.com"
             ]
         }
     ],
@@ -47,14 +98,15 @@
         "CDN"
     ],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.0001,
     "types": {
-        "XHR": 2
+        "XHR": 6,
+        "Image": 2
     },
     "nameservers": [
-        "ns1-205.azure-dns.com",
-        "ns2-205.azure-dns.net",
-        "ns4-205.azure-dns.info",
-        "ns3-205.azure-dns.org"
+        "ns3-39.azure-dns.org",
+        "ns4-39.azure-dns.info",
+        "ns1-39.azure-dns.com",
+        "ns2-39.azure-dns.net"
     ]
 }

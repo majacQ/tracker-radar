@@ -7,34 +7,102 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "consent.cookies",
-        "assets.cookies"
+        "cross",
+        "sdrive",
+        "assets.cookies",
+        "cars"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "skoda-auto\\.com\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "skoda-auto\\.com\\/sdrive\\/endpoint\\.js",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
             "subdomains": [
-                "consent.cookies"
+                "cross"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "1a689ea32e803b063ddd6f9c43b2310c8855a8df7b2d5cc7391e79f6405de12a"
+                "df8573b86814bb19c073e13805b769d616dfabda3561da7420d90b59fe17da30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "opt_sync": {
+                    "ttl": 31536006,
+                    "length": 4,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.3333333333333333
+                },
+                "aid": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.000020333744526833766,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de",
+                "www.skoda.co.uk"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/sdrive\\/sync\\.html",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cross"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "230d6071deaa7b1adfc62750f6d8344df1b6cc2d93fd4d941c94908d13b7e67b"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "skoda-auto.de",
+                "www.skoda-auto.de",
+                "www.skoda.co.uk"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/api\\/AgentId",
+            "cookies": 0.00000678,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdrive"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de",
                 "www.skoda.co.uk"
             ]
         },
@@ -46,8 +114,8 @@
                 "assets.cookies"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "dcf54859f98cc0c7bc87be9d41ce911fb35a65395f96263999f198d352c8ebd1"
@@ -57,7 +125,33 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "skoda-auto.de",
+                "www.skoda-auto.de",
                 "www.skoda.co.uk"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/scripttemplates\\/otSDKStub\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.cookies"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d06c1d1f95928227b923f8e2b201da367b26a9f30cce47c39eb994bdc1120eea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de"
             ]
         },
         {
@@ -68,59 +162,190 @@
                 "assets.cookies"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "0fae6500f2dc4c3609c1005a720c9e36b019f964ac12aafb3b4999b39058df45"
+                "87c04d45d6c387db06fc6fc1cb6db6834c3e5541796fc2455c294acd34485499"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "skoda-auto.de",
+                "www.skoda-auto.de",
                 "www.skoda.co.uk"
             ]
         },
         {
-            "rule": "skoda-auto\\.com\\/Scripts\\/iframe\\.min\\.js",
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/consent\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\.json",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "consent.cookies"
+                "assets.cookies"
             ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d789b306289b34db5bac9cc159e7da76b53273f8464edfa10e9c3f8cbf7e185b"
+                "8f7d29ae856cc376dbf47a596db81087bf03f444bed1e2b7b640519bb0d43bdc"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "skoda-auto.de",
-                "www.skoda.co.uk"
+                "www.skoda-auto.de"
             ]
         },
         {
-            "rule": "skoda-auto\\.com\\/Consent",
-            "cookies": 0.0000207,
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/scripttemplates\\/6\\.36\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets.cookies"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.languages": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "00bab1a0ca70bae23e6e733c1b78045476a2d2688aa0c5cf26fc7efa81ccaa0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536007,
+                    "length": 12,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536007,
+                    "length": 24,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/consent\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/267412fb-2505-4824-9457-d177960acd31\\/de\\.json",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "consent.cookies"
+                "assets.cookies"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8abc318bf135b409a460f635afa620259156bbb1a34fe5beb8b79090e1d7d763"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/scripttemplates\\/6\\.36\\.0\\/assets\\/otCenterRounded\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.cookies"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1da25cf82f065474aadce40a8c7369f6df48e1847cb95c21bd9083488eff7390"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/scripttemplates\\/6\\.36\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.cookies"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b74420758de35d9e305c4be91525ace39bc3961b99841ab0624834b863b7cd01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/scripts\\/ee1e7da0-dbea-4ae2-a6aa-ab533223331a\\/scripttemplates\\/6\\.36\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.cookies"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "74c39b5ec5a61c19ff20d81c0418fabd61d6deb6ac0c967da28761d6b895ff7d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.de",
+                "www.skoda-auto.de"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/logos\\/static\\/poweredBy_ot_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.cookies"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "38413fe74b505bfdd9a1d880b83b24116766ab419a7eb5e957aeae9b3d94b9ec",
+                "b3bf8bddd965548c59548766c2a4d91ed73f55591b965b7447bb21e204bf5aaa"
             ],
-            "type": "XHR",
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -137,13 +362,14 @@
                 "assets.cookies"
             ],
             "apis": {
-                "Document.cookie getter": 2
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "11b947e74a7ba8f1d433b84ab7a719799ec0662a9035a8b4a2ab4d7d1eb2d681"
+                "d06c1d1f95928227b923f8e2b201da367b26a9f30cce47c39eb994bdc1120eea"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -162,10 +388,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "919dc705c39051cac7879ef42ed1527d6a300ab212e0b2530befc94ec1ad52ff"
+                "b3b17545a2393f975e0f1f880faa30c6e68939ccd4002682d544f3927930a12c"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -176,8 +402,8 @@
             ]
         },
         {
-            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.23\\.0\\/otBannerSdk\\.js",
-            "cookies": 0.0000138,
+            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.36\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "assets.cookies"
@@ -192,20 +418,48 @@
                 "Navigator.prototype.vendor": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "99ac0e388250281fe8851ef71799b3222bab0db5612c2c17deba3962626e0ec1"
+                "00bab1a0ca70bae23e6e733c1b78045476a2d2688aa0c5cf26fc7efa81ccaa0b"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "OptanonConsent": {
-                    "ttl": 31536005,
+                    "ttl": 31536010,
                     "length": 12,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
+                },
+                "OptanonAlertBoxClosed": {
+                    "ttl": 31536010,
+                    "length": 24,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
                 }
             },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda.co.uk",
+                "www.skoda.co.uk"
+            ]
+        },
+        {
+            "rule": "skoda-auto\\.com\\/api\\/SimilarCar\\/getImage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cars"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f52cc577d9566bfa1caa05faa1a1f186305035f30716fb845c5e55ada71126ea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "skoda.co.uk",
@@ -221,10 +475,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f921c83b8c1ec3b2f6ffcce0b6f37ba62e3fdc3d68e1cbe5d8368fde061d632a"
+                "2df17695c241a5c4436f6d510f1ca8af0006e9fab347b358a1c14f8f0e3c8e74"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -235,7 +489,7 @@
             ]
         },
         {
-            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.23\\.0\\/assets\\/otCenterRounded\\.json",
+            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.36\\.0\\/assets\\/otCenterRounded\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -243,10 +497,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b26a37736a1c5a3e268b492a0b89a278c88208bdf6ea88543c0720c0317854c8"
+                "1da25cf82f065474aadce40a8c7369f6df48e1847cb95c21bd9083488eff7390"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -257,7 +511,7 @@
             ]
         },
         {
-            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.23\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.36\\.0\\/assets\\/v2\\/otPcCenter\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -265,10 +519,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "59415c8f1106151e421f5a3e46e8f8aca679ea9cefba5eb1d386ca0381d48c18"
+                "b74420758de35d9e305c4be91525ace39bc3961b99841ab0624834b863b7cd01"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -279,7 +533,7 @@
             ]
         },
         {
-            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.23\\.0\\/assets\\/otCommonStyles\\.css",
+            "rule": "skoda-auto\\.com\\/scripts\\/63ec5e47-d46d-47ab-8004-710fa0b4b268\\/scripttemplates\\/6\\.36\\.0\\/assets\\/otCommonStyles\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -287,10 +541,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "2ee6fdf3d0f4d826380054030e5a9fd6fc8c451d9fe28123f1d76e632332e659"
+                "74c39b5ec5a61c19ff20d81c0418fabd61d6deb6ac0c967da28761d6b895ff7d"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -303,14 +557,14 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000271,
     "types": {
-        "Document": 2,
-        "Stylesheet": 2,
-        "Image": 2,
-        "Script": 6,
-        "XHR": 5,
-        "Fetch": 8
+        "Script": 14,
+        "Document": 3,
+        "Stylesheet": 3,
+        "Image": 8,
+        "XHR": 4,
+        "Fetch": 16
     },
     "nameservers": [
         "skoda2.skoda-auto.cz",

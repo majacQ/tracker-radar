@@ -1,18 +1,21 @@
 {
     "domain": "captcha-delivery.com",
-    "owner": {},
+    "owner": {
+        "name": "DataDome",
+        "displayName": "DataDome"
+    },
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.0013,
-    "sites": 13,
+    "prevalence": 0.0024,
+    "sites": 24,
     "subdomains": [
         "ct",
         "geo",
         "static"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "captcha-delivery\\.com\\/c\\.js",
@@ -22,77 +25,113 @@
                 "ct"
             ],
             "apis": {
-                "Document.cookie getter": 1
+                "Navigator.prototype.userAgent": 21,
+                "Document.cookie getter": 21
             },
-            "sites": 13,
-            "prevalence": 0.0013,
+            "sites": 23,
+            "prevalence": 0.0023,
             "cnames": [],
             "responseHashes": [
-                "7543150fa5976a2ef521e91d816fd056b2c280e0676e3330efa317dfa2716a4c"
+                "7a05e08af11e356e51fd213c2d785673ffc13c80b3e846ef91c2eafa79264745"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acties.nl",
-                "www.comwo.nl",
-                "www.fnac.com",
-                "www.hermes.com",
-                "www.idealista.com",
-                "www.idealista.it",
-                "www.idealista.pt",
-                "www.laredoute.nl",
-                "www.leroymerlin.fr",
-                "www.sport2000.nl",
-                "www.thefork.com",
+                "allegro.pl",
+                "bulbapedia.bulbagarden.net",
                 "www.thefork.nl",
-                "www.topshoe.nl"
+                "www.leroymerlin.fr",
+                "www.idealista.com",
+                "www.blablacar.nl",
+                "www.bellesdemeures.com",
+                "www.acties.nl",
+                "www.leboncoin.fr",
+                "www.seloger.com",
+                "www.logic-immo.com",
+                "www.agriaffaires.nl",
+                "www.addictivetips.com",
+                "tidal.com",
+                "www.thefork.com",
+                "www.thebody.com",
+                "www.raileurope.com",
+                "nl.kompass.com",
+                "www.idealista.pt",
+                "www.traktorpool.nl"
             ]
         },
         {
             "rule": "captcha-delivery\\.com\\/captcha\\/",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "geo"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "Navigator.prototype.language": 10,
-                "Date.prototype.getTime": 1
+                "Navigator.prototype.language": 22,
+                "Navigator.prototype.userAgent": 22,
+                "Navigator.prototype.deviceMemory": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.localStorage": 3
             },
-            "sites": 13,
-            "prevalence": 0.0013,
+            "sites": 24,
+            "prevalence": 0.0024,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                "fa2f842d9cf68cde86c751225cbb6172c6a54decd0ec48ac93c815abac0d2124",
-                "255d9a5711a886fa2fd68b4c799beea353dbcdaa5412cb0e5fcbb23eb9aa4d2b",
-                "bed2a5f2c1424f2b3f98e2e8aab2f519a509ad991ccb68545212b27562543425",
-                "97ccd25ab6bdde97549a4a5a00de69c83cb690395a14de321114d59836924159",
-                "72f6b0d15aeab97e6a99f3e4f4add9c8eaf0e697e6587cad4b72ed353115dfc1",
-                "cdb8ba0d852f77cf675889fc7888e322e3a0f0b85991cf59398f78501030d154",
-                "e02023eac02b6a19077143c1d7416cb7fb96ceceb5a6d57a6f0013cb226d32ca",
-                "0eb26ee2ff7714915a4ab4e67185134970ed31ba35f5f06277add9467d39c84b",
-                "9b656d85ad95b8dabed7c8daa879f4ed4d66ae5dca9251d0ab4f18ae4d9b7741"
+                "58a2c9298d5789f80eb28327b8e56862cbdcb637003c3c770c1d554c2b5678d3",
+                "f1a0530844c5c3efffe0e335d6c13b8bc6cdf8ae0bf543ca46f5678ff47c26cd",
+                "982ea0868c520e593290cb7834984e55e950d5cfba2e017652b10b3f58fa842d",
+                "ae39210fd4d27178359f59af0baef548d9ecc870fc459cd2f8a1a19061d61488",
+                "53048cf651c7016db2d68575e68e38bc5b88c519824ea8fe4af00bb5b4e15aa3",
+                "2f91bf8f4e77601b50b6595fb03e41ab76069cd6f934981ae1da152bf984a360",
+                "5b3f96bac9287d2f79c111998566e985c7e4a8a27ebdfa708f499a1a56b92601",
+                "0aee366c995e2220ce2cabe007652b842fde2a2cb7ee873164ac7b65fd79a781",
+                "9f905095627d741d53bb13ba4ab008d32e3b7ebe4745bd19ccba03266ef531e4",
+                "1f6637d5b514468f18a3514a15903c1c538959b2623bf8eb1c42341872b01ff6",
+                "7ebd2c6ff34aac4eb9bb762196a92c667a810e19b097d842eb4fc435668ac9b9",
+                "a9914ad0a0383c690f88c6ee4f191da984aacac1fa6de25ae38122860942c978",
+                "3b934bc5b89addbd6e245c6c0d8df924cfc4f22f19a2e24e9455f4fd49e4f1f9",
+                "4f620d2274e778169b9d873704c9f15f62b13fa0de664f54c478f0cf41a52759",
+                "7969dcc810e8f0b0a4da76c7ad10b561366b1fa0c6e7e4d61999f7e28aaf8cdb",
+                "c77afa630736d128f22d71f4f7385d8dd12c69fc06d3ff9fee17a1c397c19e17",
+                "f73bdd04a845011efdd0a4d7d72fd446bf5fd1b06d31afcf77c299927f0ab7df",
+                "732a9d3564f558b392d69c0b3054c5ff0dd075da9792e15ee824526442c827fe",
+                "0b802db0ff3b67e5c28d2231c6701ad6e91a821c308631844cc407234070709f",
+                "567f1e1e8b38f1b9165d5dfbbe832905fbf7fcce469b2d0a830223ade0113b72",
+                "9bdd59c83eb7e89b8e360d9876a8f8039c3a400b33e3a7a22ccc6a336f88e1a6",
+                "121c165bf0845ef41553fcedbb30ace8be553902431056cfa4148f95375c97b2",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acties.nl",
-                "www.comwo.nl",
-                "www.fnac.com",
-                "www.hermes.com",
-                "www.idealista.com",
-                "www.idealista.it",
-                "www.idealista.pt",
-                "www.laredoute.nl",
-                "www.leroymerlin.fr",
-                "www.sport2000.nl",
-                "www.thefork.com",
+                "allegro.pl",
+                "bulbapedia.bulbagarden.net",
+                "www.blablacar.nl",
+                "www.raileurope.com",
                 "www.thefork.nl",
-                "www.topshoe.nl"
+                "www.idealista.it",
+                "www.musicnotes.com",
+                "www.realclearpolitics.com",
+                "www.agriaffaires.nl",
+                "www.acties.nl",
+                "www.bellesdemeures.com",
+                "www.leroymerlin.fr",
+                "www.thebody.com",
+                "tidal.com",
+                "www.addictivetips.com",
+                "www.idealista.pt",
+                "nl.kompass.com",
+                "www.traktorpool.nl",
+                "www.leboncoin.fr",
+                "www.alltrails.com"
             ]
         },
         {
@@ -103,8 +142,8 @@
                 "static"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 23,
+            "prevalence": 0.0023,
             "cnames": [],
             "responseHashes": [
                 "ed243a7fa712a26559089ad5eadb7bffb314357ac21966fe20f5cef1fb6355b1"
@@ -113,16 +152,51 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acties.nl",
-                "www.fnac.com",
-                "www.hermes.com",
+                "allegro.pl",
+                "bulbapedia.bulbagarden.net",
+                "www.idealista.it",
+                "www.acties.nl",
+                "www.musicnotes.com",
+                "www.alltrails.com",
+                "tidal.com",
+                "www.logic-immo.com",
+                "www.addictivetips.com",
+                "www.agriaffaires.nl",
+                "www.bellesdemeures.com",
+                "www.thefork.nl",
+                "www.leboncoin.fr",
+                "www.thebody.com",
+                "www.idealista.pt",
+                "www.realclearpolitics.com",
+                "www.thefork.com",
+                "nl.kompass.com",
+                "www.seloger.com",
+                "www.blablacar.nl"
+            ]
+        },
+        {
+            "rule": "captcha-delivery\\.com\\/common\\/fonts\\/open-sans\\/font-face\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "a522fb7a62014bd93e8d23d880012c50f41b6d9baaa56c6600cc9872b9e550c1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allegro.pl",
+                "www.blablacar.nl",
                 "www.idealista.com",
                 "www.idealista.it",
-                "www.idealista.pt",
-                "www.laredoute.nl",
-                "www.leroymerlin.fr",
-                "www.thefork.com",
-                "www.thefork.nl"
+                "www.idealista.pt"
             ]
         },
         {
@@ -133,26 +207,182 @@
                 "static"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.001,
+            "sites": 23,
+            "prevalence": 0.0023,
             "cnames": [],
             "responseHashes": [
-                "fab79f1dfdc7b759da9e1c4d80169bc879352b47bf0cf9352e3eeaed39e55de7"
+                "654fd354888b75183969aa11eeeee3d8e411be45d2696bdfbd098b2b095b08a6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "acties.nl",
-                "www.fnac.com",
-                "www.hermes.com",
+                "allegro.pl",
+                "bulbapedia.bulbagarden.net",
+                "www.raileurope.com",
+                "www.alltrails.com",
+                "www.musicnotes.com",
+                "www.bellesdemeures.com",
+                "tidal.com",
                 "www.idealista.com",
-                "www.idealista.it",
-                "www.idealista.pt",
-                "www.laredoute.nl",
+                "www.seloger.com",
                 "www.leroymerlin.fr",
                 "www.thefork.com",
+                "www.idealista.it",
+                "www.idealista.pt",
+                "www.thefork.nl",
+                "www.blablacar.nl",
+                "www.thebody.com",
+                "www.addictivetips.com",
+                "www.acties.nl",
+                "www.agriaffaires.nl",
+                "www.leboncoin.fr"
+            ]
+        },
+        {
+            "rule": "captcha-delivery\\.com\\/common\\/fonts\\/open-sans\\/open-sans\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "778b8cd899b9ebf3913aaa46e397ce897bb192b100b276982869f5f00525b39f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allegro.pl",
+                "www.blablacar.nl",
+                "www.idealista.com",
+                "www.idealista.it",
+                "www.idealista.pt"
+            ]
+        },
+        {
+            "rule": "captcha-delivery\\.com\\/common\\/fonts\\/roboto\\/font-face\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.0018,
+            "cnames": [],
+            "responseHashes": [
+                "03cd31e4d3c37c852aec70f0c5bb40641131ba56ea401ba48b7b5d4c68f3d39a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "nl.kompass.com",
+                "tidal.com",
+                "www.acties.nl",
+                "www.addictivetips.com",
+                "www.agriaffaires.nl",
+                "www.alltrails.com",
+                "www.bellesdemeures.com",
+                "www.leboncoin.fr",
+                "www.leroymerlin.fr",
+                "www.logic-immo.com",
+                "www.musicnotes.com",
+                "www.raileurope.com",
+                "www.realclearpolitics.com",
+                "www.seloger.com",
+                "www.thebody.com",
+                "www.thefork.com",
                 "www.thefork.nl"
+            ]
+        },
+        {
+            "rule": "captcha-delivery\\.com\\/common\\/fonts\\/roboto\\/roboto\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.0018,
+            "cnames": [],
+            "responseHashes": [
+                "81d931a8c973b5bc8f9ded86a3440bd247a58e592b3897bf755c1a5d8390d763"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bulbagarden.net",
+                "nl.kompass.com",
+                "tidal.com",
+                "www.acties.nl",
+                "www.addictivetips.com",
+                "www.agriaffaires.nl",
+                "www.alltrails.com",
+                "www.bellesdemeures.com",
+                "www.leboncoin.fr",
+                "www.leroymerlin.fr",
+                "www.logic-immo.com",
+                "www.musicnotes.com",
+                "www.raileurope.com",
+                "www.realclearpolitics.com",
+                "www.seloger.com",
+                "www.thebody.com",
+                "www.thefork.com",
+                "www.thefork.nl"
+            ]
+        },
+        {
+            "rule": "captcha-delivery\\.com\\/common\\/fonts\\/open-sans\\/open-sans-300\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "57448185041ed1b29f54c778c6d48af032778fb2497b5a08f7b2a77dff712fcf"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealista.com",
+                "www.idealista.it",
+                "www.idealista.pt"
+            ]
+        },
+        {
+            "rule": "captcha-delivery\\.com\\/captcha\\/assets\\/set\\/3f613c55d57f95fe15534edae86f6863d67d2df1\\/logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "506b343b00ff65c6d0ba0ae410bb77dcdc7f0e39eb0521533d7a309d91612fa2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leboncoin.fr",
+                "www.leboncoin.fr"
             ]
         },
         {
@@ -164,10 +394,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "5b5ec502de291eed3a943c33f1d2dbefc91fd20e8f5a99f72c4cfcb6e93d9c09"
+                "c3719c1d0647d14e759ac4c86d47aa19f349bcb37838825defc9b6cefca7517e"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -182,10 +412,11 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 13,
-        "Document": 13,
-        "Stylesheet": 10,
-        "Image": 12
+        "Script": 23,
+        "Document": 24,
+        "Stylesheet": 46,
+        "Image": 27,
+        "Font": 26
     },
     "nameservers": [
         "ns-1456.awsdns-54.org",

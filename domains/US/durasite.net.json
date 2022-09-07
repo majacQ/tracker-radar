@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000966,
-    "sites": 14,
+    "prevalence": 0.000108,
+    "sites": 16,
     "subdomains": [
         "netdreamersad",
         "obunshaad",
@@ -18,9 +18,9 @@
         "obunshaimg",
         "consumer-api",
         "img-fujisan",
-        "img-goo",
+        "picture.goobike",
         "catalogphoto",
-        "proto2img"
+        "cdn-takarakuji"
     ],
     "cnames": [
         {
@@ -28,19 +28,23 @@
             "resolved": "catalogphoto.durasite.net"
         },
         {
+            "original": "cdn.takarakuji-official.jp",
+            "resolved": "cdn-takarakuji.durasite.net"
+        },
+        {
             "original": "img.fujisan.co.jp",
             "resolved": "img-fujisan.durasite.net"
         },
         {
-            "original": "img.goo-net.com",
-            "resolved": "img-goo.durasite.net"
+            "original": "picture.goobike.com",
+            "resolved": "picture.goobike.durasite.net"
         }
     ],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "durasite\\.net\\/A-affiliate2\\/mobile",
-            "cookies": 0.0000207,
+            "cookies": 0.0000203,
             "fingerprinting": 0,
             "subdomains": [
                 "netdreamersad",
@@ -49,12 +53,13 @@
                 "sankei2ad"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-                "110aeab7740635e3ae7a3e1ed89898cca65fcdffa8e79bc93ed58ca0337c7343",
+                "be4ac667e37266ee061183782587222c71f625eeb0f3ca0491d0359af637312f",
+                "06ee1770b411be66bc12621d7be5de9874805913330267c52eed2a37698927d5",
+                "fadbf76f1ae0b36c96badc3c2c8e7abe17f9c53f266c61de18c95d59a3fd8df1",
                 "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
             ],
             "type": "Script",
@@ -64,14 +69,15 @@
                 "netkeiba.com",
                 "db.netkeiba.com",
                 "passnavi.evidus.com",
-                "www.goo-net.com",
+                "race.netkeiba.com",
                 "www.goobike.com",
-                "www.sankeibiz.jp"
+                "www.goo-net.com",
+                "www.zakzak.co.jp"
             ]
         },
         {
             "rule": "durasite\\.net\\/DuraUidSegmentMap\\.js",
-            "cookies": 0,
+            "cookies": 0.00000678,
             "fingerprinting": 1,
             "subdomains": [
                 "ala"
@@ -79,16 +85,24 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "9e027eac78f0f934656571d7bb7a5b4e72d8e5337f30209e49ad250e4334b121"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "__dura_sessionTargets2": {
+                    "ttl": 2592005,
+                    "length": 12,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "evidus.com",
@@ -104,10 +118,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a2e0d35eb4afb15b4214cf31d7013de472e6958f4102fbe10f0e5183b237a5b4"
+                "5b15c0180fd3a63c8ed06c2ceb63e0bb57ba5063b38b1dfb049d530cc224bb62"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -126,7 +140,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "5d601f120d5427fc9c0e5ada47f1212bf816e68c6749e80df556556d121ac852"
@@ -141,20 +155,20 @@
         },
         {
             "rule": "durasite\\.net\\/DuraDmpTracking\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "ala"
             ],
             "apis": {
-                "Document.cookie getter": 1,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie setter": 1,
+                "Document.cookie setter": 2,
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "996416a3e46265a96bdcfe984d2316593f509d6bf8b9422550544cc2d6943d94"
@@ -162,21 +176,21 @@
             "type": "Script",
             "firstPartyCookies": {
                 "__duraid": {
-                    "ttl": 7776004,
+                    "ttl": 7776007,
                     "length": 36,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "o_uid": {
-                    "ttl": 7776004,
+                    "ttl": 7776007,
                     "length": 36,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "__bid": {
-                    "ttl": 23328004,
+                    "ttl": 23328007,
                     "length": 36,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 }
             },
@@ -195,7 +209,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -210,14 +224,14 @@
         },
         {
             "rule": "durasite\\.net\\/bq_load",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "consumer-api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -225,10 +239,32 @@
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "__duraid": 0.000006902073382844206,
-                "o_uid": 0.000006902073382844206,
-                "__bid": 0.000006902073382844206
+                "__duraid": 0.000013555829684555844,
+                "o_uid": 0.000013555829684555844,
+                "__bid": 0.000013555829684555844
             },
+            "exampleSites": [
+                "evidus.com",
+                "passnavi.evidus.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/A-affiliate2\\/mobile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obunshaad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
             "exampleSites": [
                 "evidus.com",
                 "passnavi.evidus.com"
@@ -243,7 +279,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "img.fujisan.co.jp",
@@ -251,7 +287,7 @@
                 }
             ],
             "responseHashes": [
-                "6ba55e4803225b2181a4fa8fab3cc3b26382e8ae44bb0245fdf1689f3579f6a5"
+                "b0213c02f387e0b9587d81cd4ff5f49bfe8777c8a866f933e65a143ffaea86d8"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -262,192 +298,381 @@
             ]
         },
         {
-            "rule": "durasite\\.net\\/cache\\/common\\/newlogo_header_210628\\.png",
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8159_1AW\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "5075fd6d65b1c6776c78573a747d589e81121b6856d50f83fa0af60e305b9bf6"
+                "19b5a46393bc4ded1e7241a7267d729fdbcde2ff363f31eec127ec731bb12d4f"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
-            "rule": "durasite\\.net\\/cache\\/common_v2\\/img_kurumaLogo_210519\\.png",
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8159_2AW\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "506dec7b9e48b138e1e23bf7175c148bd55465547c0daf85d9829d65c18fec88"
+                "47c684c65544acd4ed3b1e438aede379063171aa81200adb2aa8ff937e76268c"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
-            "rule": "durasite\\.net\\/common_v2\\/img\\/bg_footer_line\\.gif",
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8159_3AW\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "9707da365a5ac3ff328cbd9c7a75fa430f8dfd0f5200d74b497f4d4d0be0dac6"
+                "2feb44854512a773e341bbaafcddbc1d77f0c1093095727e05ae56aad31b3a71"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
-            "rule": "durasite\\.net\\/common_v2\\/img\\/bg_copyright\\.gif",
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8159_4AW\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "6c28dce0e10fb78bae8d3b111cb88335a17ba6de4259b938141596b3826279e0"
+                "8464ddbf90b70eebef8d82fe4bdaf4ab72c5c8f5c5b3987ced2d3d9e9164f7b8"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
-            "rule": "durasite\\.net\\/cache\\/common_v2\\/sprite_icon_kurumaService_v2\\.png",
+            "rule": "durasite\\.net\\/shop\\/850\\/8500699\\/L\\/8500699B\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "64637658eca948481823772f6a4356840b9e0af6f82edc881ff91a588fe2244c"
+                "7206cd488e2474ab45b62e43b9bb42df166ac814baf350899817799932f9b1d6"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
-            "rule": "durasite\\.net\\/common_v2\\/img\\/bg_footer_line_left\\.gif",
+            "rule": "durasite\\.net\\/after\\/work\\/880\\/8800733\\/L\\/8800733_14687_1AW\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "190ab0ef285a3e163cbe5fb57f29d37a8dbb84a2788cc780d29950c5471badd5"
+                "c0a6c2b8bcb5fea2f1cac20a0396e278cd3f2090f2c3cfe0f20e312cc3278ad0"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
-            "rule": "durasite\\.net\\/common_v2\\/img\\/bg_footer_line_right\\.gif",
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8501683\\/L\\/8501683_4819_1AW\\.jpg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img-goo"
+                "picture.goobike"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
-                    "original": "img.goo-net.com",
-                    "resolved": "img-goo.durasite.net"
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
                 }
             ],
             "responseHashes": [
-                "22c5f3ea25f3d0a5fcecea2a4d82d431c9762a310e3f89824a04afa06410d1df"
+                "5b55dbd5ac819a95398d1e4350d4e3912620505b6fbf0568aa679845508c2c72"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goo-net.com",
-                "www.goo-net.com"
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8689_1AW\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "a9f8caeb8a79a8b25a6af0728284efafbc41303211024813cfbab5154d63e8d2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8685_1AW\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "aec25240247e2f4fc323a9111ffa4b9ceda83e4186afb171f026f956ce003b57"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8667_1AW\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "931884b7e3463f49e8db3c841eae79c96ed38ed4748511644f444ba99d610cdd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8663_1AW\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "bbe26c92660c84aa98a2d4efac8ba249619910d00a5fe7f7417461697e31e199"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/after\\/work\\/850\\/8500699\\/L\\/8500699_8662_1AW\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "b396e7a172a664b161958c798575a897762f4b9b23808dff87698936c7a2d807"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/shop\\/880\\/8800733\\/L\\/8800733B\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "35004ee9fee2314888bdf5af96d98d1b43c0009c79c301cbdcdefc742076a02b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/shop\\/850\\/8501683\\/L\\/8501683B\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "picture.goobike"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "picture.goobike.com",
+                    "resolved": "picture.goobike.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "e97a3c34a77f950051bb644b4c0cff08cac70ed700a6d16c4e7f36fef09f9f57"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goobike.com",
+                "www.goobike.com"
             ]
         },
         {
@@ -459,7 +684,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "catalogphoto.goo-net.com",
@@ -467,7 +692,7 @@
                 }
             ],
             "responseHashes": [
-                "f9ece571c147b2703409ab6b933ce7e59d1eef74f2a8aa6c3b691247d30bbf6a"
+                "7092e7b07ee436674da7576b47bafcd98fac3eefecc69d5f6927fe5834ec2a09"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -478,62 +703,233 @@
             ]
         },
         {
-            "rule": "durasite\\.net\\/A-affiliate2\\/mobile",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "proto2ad"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "ee43b88625f42c0b57ebb3eb50cc5652ff508292a7dfb016e608d8437c1eaf5b"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "goobike.com",
-                "www.goobike.com"
-            ]
-        },
-        {
-            "rule": "durasite\\.net\\/images\\/proto\\/7295\\/7295img_special_contents01\\.gif",
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/common\\/logo-site001\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "proto2img"
+                "cdn-takarakuji"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
             "responseHashes": [
-                "5d65f9a0bdf2d4bf030bc5a05d3d980dfb6477a2c0f16fa97fddeee3990c275a"
+                "1442e4bf9289c638d30cb9454c8adbc69089f2ba52bd7f3784732ed43806d971"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "goobike.com",
-                "www.goobike.com"
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/common\\/btn-search001\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "0ee67e11dba25aea6abbee0af86bdb2c0c25dfac34997ddfae3283d1acae9ac6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/pc\\/common\\/ttl-r-clmn-welcome001\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "3226b8f0a176aaf1f18c1a4450f8aeb37cd193ba718928100a467a70b974dbf6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/pc\\/common\\/ttl-r-clmn-schedule001\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "8f3c8f05a83747a55307ff6d0a02680cef3c20c731d6d8d51713bde5de0b5856"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/pc\\/common\\/ttl-r-clmn-tw-fb001\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "92e6d9f1d47866959b2a925a663ddec06f71a5dc25af2e8b756b541ac6912d89"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/common\\/btn-facebook001\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "bdc0cf86342890b74133ff4d030ae41642ba7361ce0938eed28432af290d59c5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/common\\/btn-twitter001\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "764c745b52d66ce2b3f6da365cb9e651d8d1e32f02686a8faf7adff2a9ee16e1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
+            ]
+        },
+        {
+            "rule": "durasite\\.net\\/\\/assets\\/img\\/common\\/btn-login-sp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-takarakuji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "cdn.takarakuji-official.jp",
+                    "resolved": "cdn-takarakuji.durasite.net"
+                }
+            ],
+            "responseHashes": [
+                "775ec424fc88858ba39c3a6da50ea10a24acbc1587bd3b33816b6c1fb8bc75d0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takarakuji-official.jp",
+                "www.takarakuji-official.jp"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000414,
+    "cookies": 0.0000339,
     "types": {
-        "Script": 16,
-        "XHR": 2,
-        "Image": 20,
-        "Document": 2
+        "Script": 17,
+        "XHR": 4,
+        "Image": 48
     },
     "nameservers": [
         "dns-a.iij.ad.jp",
-        "vns01.accelia.net",
-        "ns-ocn-01.accelia.net"
+        "ns-ocn-01.accelia.net",
+        "vns01.accelia.net"
     ]
 }

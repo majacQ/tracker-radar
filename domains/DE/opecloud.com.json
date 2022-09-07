@@ -4,148 +4,376 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.00451,
-    "sites": 45,
+    "prevalence": 0.00231,
+    "sites": 23,
     "subdomains": [
         "tagger",
+        "sdo.profiles.tagger",
         "asmi.profiles.tagger",
-        "profiles.tagger"
+        "ringierch.profiles.tagger",
+        "adalliance.profiles.tagger",
+        "raspl.profiles.tagger",
+        "cdn",
+        "profiles.tagger",
+        "tagger-scmp"
     ],
-    "cnames": [],
-    "fingerprinting": 1,
+    "cnames": [
+        {
+            "original": "tagger.ope.scmp.com",
+            "resolved": "tagger-scmp.opecloud.com"
+        }
+    ],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "opecloud\\.com\\/lefigaro\\/v2\\/tcf-tagger\\.js",
+            "rule": "opecloud\\.com\\/sdo\\/v2\\/tcf-tagger\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "2013459c85de2003538dc399782673649d0f048f1ae6faf59d151eccfb02786d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exxpress.at",
+                "wienerin.at"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/v1\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdo.profiles.tagger",
+                "asmi.profiles.tagger",
+                "ringierch.profiles.tagger",
+                "adalliance.profiles.tagger",
+                "raspl.profiles.tagger"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.0016,
+            "cnames": [],
+            "responseHashes": [
+                "ead8a899cf7d4940c94df04aedb7708f3d1d088cd44f733a5f043ecf2cfd0bba",
+                "12e108ec70cd70208b66a34669e90b228d86a37dcd00e271605902f2ea6ac0c8",
+                "41e5622d63f840aafd051180f1a0334597632dd913b74be4612e91e0ac9d52ee",
+                "b5d7609cfb389241c74e7c6bb8bb266ee7e0bf95fc5ef0be47c41a348b44065b",
+                "87e3b58d7ae51c82a02fb04f644f79fc3ae9074a83eefb6b4f64467798af5171",
+                "e4ad7085e71b025f3ecd3ff7f1e4e039203cd81881f8162913c92bc7f7a86152",
+                "2a879e497d71b2d9a7586c3541f5e38b724d9bab7a40e0fa3ec120a60e45a9ac",
+                "f711fcfe3a1417ea12dd0f81ede6239676dd8df5a13de34f69710563d6da3e0d",
+                "95e62a021a35f17a97ff61028daa85505793076d99f9d1b95ada2fbae6dfc39f",
+                "03b58b9937603242bfdb4b869c3d6a18d77c260346194925c242891931381734",
+                "62fbb98f35a0c1d92bdaff0d7f016e765494bb78f96e15f55a94d62a16c55626",
+                "896a3b1813814e1373ad48876c4e64ce713a2e071a5790d8a99f0f59b88e1f5a",
+                "bbbe3785dbb567e7901f997c4a8eaa7a8c1fd65b8c9f75df8c9b006cec2d7539",
+                "0b839ee1507b9dbc49a73681bdd3a05dda82154c11347329e8be8bc0c7a0c41a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__cmpconsentx24566": 0.00040092212087801946,
+                "get_top_level_domain_cookie": 0.0005011526510975244
+            },
+            "exampleSites": [
+                "exxpress.at",
+                "fragen.lifeline.de",
+                "m.motorsport-total.com",
+                "www.9monate.de",
+                "www.beobachter.ch",
+                "www.blick.ch",
+                "www.formel1.de",
+                "www.gesundheit.de",
+                "www.handelszeitung.ch",
+                "www.kleinezeitung.at",
+                "www.lifeline.de",
+                "www.motorsport-total.com",
+                "www.rtl2.de",
+                "www.schweizer-illustrierte.ch",
+                "www.spiegel.de",
+                "zapytaj.onet.pl"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/ope-asmi\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.colorDepth": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "bb50c96b4b22c5f80c55846e72c47b57e94b6e68a0e20ed16f44fd19c5d9b329"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeline.de",
+                "m.motorsport-total.com",
+                "www.9monate.de",
+                "www.formel1.de",
+                "www.gesundheit.de",
+                "www.lifeline.de",
+                "www.motorsport-total.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/asmi\\/v2\\/pixel\\.gif",
+            "cookies": 0.000802,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__cmpconsentx24566": 0.0005011526510975244
+            },
+            "exampleSites": [
+                "lifeline.de",
+                "fragen.lifeline.de",
+                "m.motorsport-total.com",
+                "www.9monate.de",
+                "www.formel1.de",
+                "www.gesundheit.de",
+                "www.lifeline.de",
+                "www.motorsport-total.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/asmi\\/v2\\/custom-no-tagger",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__cmpconsentx24566": 0.00040092212087801946,
+                "springBID": 0.000701613711536534
+            },
+            "exampleSites": [
+                "lifeline.de",
+                "www.9monate.de",
+                "www.gesundheit.de",
+                "www.lifeline.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/smart\\/pbfs\\.gif",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "tagger"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeline.de",
+                "www.9monate.de",
+                "www.gesundheit.de",
+                "www.lifeline.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/appnexus\\/pbfs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nexusId": 0.00040092212087801946
+            },
+            "exampleSites": [
+                "lifeline.de",
+                "www.9monate.de",
+                "www.gesundheit.de",
+                "www.lifeline.de",
+                "www.rtl2.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/dbm\\/opecs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000802,
             "cnames": [],
             "responseHashes": [
-                "24c6612de1da047a4a8b295ac292fc290e0b603d217a34f8527ac932a94530cb"
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeline.de",
+                "mawdoo3.com",
+                "www.9monate.de",
+                "www.gesundheit.de",
+                "www.lifeline.de",
+                "www.rtl2.de",
+                "www.scmp.com",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/adition\\/pbfs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeline.de",
+                "www.9monate.de",
+                "www.gesundheit.de",
+                "www.lifeline.de",
+                "www.rtl2.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/rubicon\\/pbfs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeline.de",
+                "www.9monate.de",
+                "www.lifeline.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/ope-ringierch\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.colorDepth": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "bb50c96b4b22c5f80c55846e72c47b57e94b6e68a0e20ed16f44fd19c5d9b329"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "journaldesfemmes.fr",
-                "www.lefigaro.fr"
+                "beobachter.ch",
+                "www.blick.ch",
+                "www.handelszeitung.ch",
+                "www.schweizer-illustrierte.ch"
             ]
         },
         {
-            "rule": "opecloud\\.com\\/v1\\/targeting",
+            "rule": "opecloud\\.com\\/ringierch\\/v2\\/metrics\\/sdk-consent-rejected",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "asmi.profiles.tagger"
+                "tagger"
             ],
             "apis": {},
-            "sites": 34,
-            "prevalence": 0.00341,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00020062192797672785
-            },
-            "exampleSites": [
-                "www.businessinsider.com",
-                "www.welt.de",
-                "www.sport1.de",
-                "www.rollingstone.de",
-                "www.motorsport-total.com",
-                "www.bz-berlin.de",
-                "www.myhomebook.de",
-                "fragen.lifeline.de",
-                "speedtest.computerbild.de",
-                "www.stylebook.de",
-                "www.travelbook.de",
-                "scheidenpilz.com",
-                "www.metal-hammer.de",
-                "www.9monate.de",
-                "www.businessinsider.de",
-                "m.motorsport-total.com",
-                "www.finanzen.net",
-                "www.techbook.de",
-                "www.computerbild.de",
-                "www.musikexpress.de"
-            ]
-        },
-        {
-            "rule": "opecloud\\.com\\/v1\\/targeting",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "asmi.profiles.tagger"
-            ],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.00341,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "3b849aced649665bec5903af9e3bd27efd431333ffe93e94dd8b9b2f3ca6a35b",
-                "66024d0397403c85e92c67700dbf803ebc49471d904aa6d4711d099fc2026570",
-                "624bae3654756602e8d06a1047e24749d68cf1c7eeafa9781604b09baf3828c6",
-                "723cbde22f01d46c2a999ed7c6e03265e33226e688ee1494bf585df1556849cf",
-                "06e41c4796c72544c94909bedbc557499c3fc8a360fda6cbc7aef4dbfd3d20d7",
-                "1f08e2da1a55f86ec7d551a281a9e3a83f0b6af748ea899c6498eef7dc615e8f",
-                "585b44606168678d8a3f5be4354eec2fb3eeff1e404d8f3e9167d518f05ba3c8",
-                "678b5a9f373df03da84993e04ceeb6a8cc72724b2dfb4925cb7dc037853cbde5",
-                "9c0de67a8b8a53d417612bf74f69b0f3f3d1e085adfa0988c02a55059a32a564",
-                "915adb96cc01ba77ea304169e7db73d70f052b192b1848ca630343f78b0d3986",
-                "4f1efdb89b2ce994459bea00b3a786cdd579207cc8863e0d85cf2e5e507c74c2",
-                "ace7a5309dfbd73d22fe27baebb8cd14abdb7b9c092a8e26e3c9e072ec046c18",
-                "e8a9b81f0a837dea69aff9bb580201d5ed77834072f51741d7b5a82054198e23",
-                "0e58fe120826b4d2a8b16d294a8a5c4b306f83951ca9a9d731b51fe0f2b91f99",
-                "f76dd86fe2d8706ce20f1faf5938fa4f1bc4286b2577e66188fc2a250fdee452",
-                "79f9f24067dfc617482115a68f3d3787a03c489b1f53c4a21cd240ce259fe9d2",
-                "fd3f29109463adf648c8e7f37a3fa69e53052117cbad70052f59fd6a608cc39d",
-                "826d6d2c7d7d6388db9d9424e103e9020071dfa1f8bc2730e681c6f83f483d00",
-                "2f286e8ed948ef5e72a1abb66351d716c8e00157ba99dc82cbd15fef81ebc6ea",
-                "3aba07ec12cc8532994782be68743ed859b9cd9afd01b26789ea8d4604600558",
-                "8d238d74af278b9c259e658e13380acf4af038680ceefbb2957ebb2455fdbbe3",
-                "d9e6bdaa1589f53076031a28adaf3655f0603b6cbad6f8843a4c10da7755a934",
-                "89bce36e12a89a68396e1a3855a81cbebc8752eebcb7ad53d049552cb66c6507",
-                "59ba341441d48f04d94d184036d5c167909ace9761a1c39a13a5e66ca0b8f4bd",
-                "35d964f25350464afd6902eb78566a68ce88090be3e0ddf9d473809769d7f34b",
-                "3da064fd00ce5e3d5dd18b263df16116b32de9303a1e95e679e74f0b680fbdfd",
-                "9cab221d40282510d3ab84bc37fd372d4773004cf4f7020aeb6ec560bc08d6a6",
-                "dea2d3a14690d7b94355be99d1d2355cf6a495706f6c4bc69a9e04a71f3fad50",
-                "3cbec37d864c9dccedf33f68b0a8718f1be17f1e976877c826db240ac7b02b25",
-                "38781c165e9febe5948d7d5ac4361ff5cf6089750b7f373bf45d7cf305804d37",
-                "ee42211fae4eccf789f2333c58f4ab3ab1114eb55cd355b4414b2446717abf2b"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00020062192797672785
+                "leuconsent": 0.00040092212087801946,
+                "adpconsent": 0.00040092212087801946,
+                "euconsent": 0.00040092212087801946
             },
             "exampleSites": [
-                "www.businessinsider.com",
-                "www.welt.de",
-                "speedtest.computerbild.de",
-                "fragen.lifeline.de",
-                "m.motorsport-total.com",
-                "www.bz-berlin.de",
-                "servicecenter.autobild.de",
-                "www.finanzen.net",
-                "www.9monate.de",
-                "sportbild.bild.de",
-                "scheidenpilz.com",
-                "www.lifeline.de",
-                "www.metal-hammer.de",
-                "www.travelbook.de",
-                "www.sport1.de",
-                "www.computerbild.de",
-                "tipps.computerbild.de",
-                "www.bike-bild.de",
-                "www.autobild.de",
-                "www.formel1.de"
+                "beobachter.ch",
+                "www.blick.ch",
+                "www.handelszeitung.ch",
+                "www.schweizer-illustrierte.ch"
             ]
         },
         {
@@ -166,79 +394,33 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "20min.ch",
+                "homegate.ch",
                 "www.ricardo.ch",
                 "www.tagesanzeiger.ch"
             ]
         },
         {
             "rule": "opecloud\\.com\\/goldbach\\/v2\\/custom-no-tagger",
-            "cookies": 0.000401,
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "tagger"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "dakt_2_uuid": 0.00010031096398836393
+                "dakt_2_uuid": 0.00030069159065851457
             },
             "exampleSites": [
-                "20min.ch",
-                "www.20min.ch",
+                "homegate.ch",
                 "www.ricardo.ch",
-                "www.tagesanzeiger.ch"
-            ]
-        },
-        {
-            "rule": "opecloud\\.com\\/appnexus\\/pbfs\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tagger"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "20min.ch",
-                "www.falstaff.de",
-                "www.ricardo.ch",
-                "www.tagesanzeiger.ch"
-            ]
-        },
-        {
-            "rule": "opecloud\\.com\\/dbm\\/opecs\\.gif",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tagger"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "6adc3d4c1056996e4e8b765a62604c78b1f867cceb3b15d0b9bedb7c4857f992"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "20min.ch",
-                "www.falstaff.de",
-                "www.ricardo.ch",
-                "www.scmp.com",
                 "www.tagesanzeiger.ch"
             ]
         },
@@ -251,33 +433,111 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "bbbe3785dbb567e7901f997c4a8eaa7a8c1fd65b8c9f75df8c9b006cec2d7539"
+            ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nitro-tv.de",
-                "www.tele5.de"
+                "rtl2.de",
+                "www.spiegel.de"
             ]
         },
         {
-            "rule": "opecloud\\.com\\/scmp\\/pcs\\.gif",
-            "cookies": 0.000201,
+            "rule": "opecloud\\.com\\/ope-adalliance\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "6c5349ecba7654cb5cc46aed62e215c3f0080e729f4b8f9ed4310e323db9d87b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rtl2.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/adalliance\\/v2\\/pixel\\.gif",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fptthc": 0.00030069159065851457
+            },
+            "exampleSites": [
+                "rtl2.de",
+                "www.rtl2.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/tradedesk\\/pbfs\\.gif",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "tagger"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [],
             "type": "Image",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rtl2.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/scmp\\/v2\\/pixel\\.gif",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger-scmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "tagger.ope.scmp.com",
+                    "resolved": "tagger-scmp.opecloud.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "get_top_level_domain_cookie": 0.00020062192797672785
+                "get_top_level_domain_cookie": 0.00020046106043900973
             },
             "exampleSites": [
                 "scmp.com",
@@ -285,18 +545,68 @@
             ]
         },
         {
-            "rule": "opecloud\\.com\\/api\\/v1\\/raspl\\/profile",
-            "cookies": 0,
+            "rule": "opecloud\\.com\\/scmp\\/pcs\\.gif",
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
-                "profiles.tagger"
+                "tagger"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00020046106043900973
+            },
+            "exampleSites": [
+                "scmp.com",
+                "www.scmp.com"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/ope-raspl\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "6dcc35ff232832dea09ad4c0873db5d2b6008e970b8b986a36239db5d8030bd2"
+                "bb50c96b4b22c5f80c55846e72c47b57e94b6e68a0e20ed16f44fd19c5d9b329"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onet.pl",
+                "zapytaj.onet.pl"
+            ]
+        },
+        {
+            "rule": "opecloud\\.com\\/raspl\\/v2\\/metrics\\/sdk-consent-rejected",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -309,12 +619,12 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000502,
+    "cookies": 0.0012,
     "types": {
-        "Script": 2,
-        "Preflight": 34,
-        "XHR": 41,
-        "Image": 15
+        "Script": 17,
+        "Fetch": 16,
+        "Image": 50,
+        "XHR": 11
     },
     "nameservers": [
         "ns-1454.awsdns-53.org",

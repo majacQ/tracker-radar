@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000069,
-    "sites": 1,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "operations"
+        "operations",
+        "cookies.acquisition"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -21,10 +22,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "9ae4f9dca234b8d8ea41ef99a279c3cdbb6d10c2bc08e65c247968561a6b2665"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -41,17 +44,59 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "74b84748b67ec2805a94fdb3ca71db01602f6fe005086bb297e4ad7acba77f35"
-            ],
-            "type": "XHR",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "boutique-box-internet.fr",
                 "www.boutique-box-internet.fr"
+            ]
+        },
+        {
+            "rule": "papernest\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookies.acquisition"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boutique-box-internet.fr",
+                "www.boutique-box-internet.fr",
+                "www.switch-plan.co.uk"
+            ]
+        },
+        {
+            "rule": "papernest\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookies.acquisition"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "7dfdc833ca8613af92bb3e91d94a5da01753d90dd988f96a0c316df12bd80731"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boutique-box-internet.fr",
+                "www.boutique-box-internet.fr",
+                "www.switch-plan.co.uk"
             ]
         }
     ],
@@ -59,8 +104,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 2,
-        "XHR": 2
+        "XHR": 2,
+        "Preflight": 5,
+        "Fetch": 3
     },
     "nameservers": [
         "ns-668.awsdns-19.net",

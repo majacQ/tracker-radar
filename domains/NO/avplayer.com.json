@@ -1,17 +1,22 @@
 {
     "domain": "avplayer.com",
-    "owner": {},
+    "owner": {
+        "name": "AVPlayer",
+        "displayName": "AVPlayer.com"
+    },
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000401,
-    "sites": 4,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
         "player",
-        "atrack"
+        "track1",
+        "feed",
+        "content1"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "avplayer\\.com\\/script\\/2\\/v\\/avcplayer\\.js",
@@ -21,32 +26,39 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.appVersion": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.vendor": 2,
-                "Screen.prototype.orientation": 1
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.vendor": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Screen.prototype.orientation": 5
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "142d085939eff84bb1b7ca0a9707f6f6efc6c9b762fdf6616fce54901ef84663"
+                "4fb80b7bf623f709e8773d63406d7d20cbb8dda584d2259f86b7cc94050923d1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mangaeffect.com",
-                "www.gamerguides.com"
+                "gamerescape.com",
+                "mydramalist.com",
+                "quotetheanime.com",
+                "ww3.readkingdom.com",
+                "www.craiyon.com",
+                "www.light.gg",
+                "www.mangaread.org"
             ]
         },
         {
-            "rule": "avplayer\\.com\\/track",
+            "rule": "avplayer\\.com\\/ctrack",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "atrack"
+                "track1"
             ],
             "apis": {},
             "sites": 3,
@@ -57,22 +69,66 @@
             ],
             "type": "Image",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_ym_d": 0.00010035122930255896
-            },
+            "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mangaeffect.com",
-                "www.nationalreview.com",
-                "www.replaymatches.net"
+                "gamerescape.com",
+                "quotetheanime.com",
+                "www.light.gg"
+            ]
+        },
+        {
+            "rule": "avplayer\\.com\\/backend\\/get",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "122912568825311109b235aeaec62708b7db2dd31cb08f823bed43f7e93c7eee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quotetheanime.com",
+                "www.light.gg"
+            ]
+        },
+        {
+            "rule": "avplayer\\.com\\/6006a32f94a1ea4fe84a39a6\\/videos\\/625edad12c2bbd0fa201f6f6\\/625edb3e2d0dea26100d8f63\\/video\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5afef79109a45feb678bd4f323124ac7c333e0e1e0ca3a3518cac692491bdd92"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "light.gg",
+                "www.light.gg"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 2,
-        "Image": 3
+        "Script": 7,
+        "Image": 3,
+        "XHR": 2,
+        "Media": 2
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

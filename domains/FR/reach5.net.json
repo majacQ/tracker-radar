@@ -7,41 +7,23 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000703,
-    "sites": 7,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
-        "etam",
-        "123",
         "glenat",
         "hachette",
-        "livre-de-poche"
+        "livre-de-poche",
+        "gifi",
+        "sephora-fr"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "connect.gifi.fr",
+            "resolved": "gifi.reach5.net"
+        }
+    ],
     "fingerprinting": 0,
     "resources": [
-        {
-            "rule": "reach5\\.net\\/js\\/v1\\/identity\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "etam",
-                "123"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "c2ad4b87b8c5527851309acf4e0cba25cfcb4c606baa44d2b18eec82a2cdc90d"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "etam.com",
-                "www.maison123.com"
-            ]
-        },
         {
             "rule": "reach5\\.net\\/js\\/v1\\/fr\\/identity\\.js",
             "cookies": 0,
@@ -56,8 +38,8 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5b459d28e6a96d482494aeea15788d50a5849ba6227391eb72b53c16901a963d",
-                "d661ce9e44412e6b172e2fa305abef03a870983274bf2eaab36c2dc0ac814baa"
+                "34dc7c10da383a83ace35b64fc580a622c6bb1d107b5424c6f887bd76cab1828",
+                "b25bb9b2ca988426cc98babba68495d5621606b2c6198f1893e8e0dc95cb7a18"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -67,13 +49,44 @@
                 "www.hachette.fr",
                 "www.livredepoche.com"
             ]
+        },
+        {
+            "rule": "reach5\\.net\\/identity\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gifi",
+                "sephora-fr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "connect.gifi.fr",
+                    "resolved": "gifi.reach5.net"
+                }
+            ],
+            "responseHashes": [
+                "b956d39436c6a8c6be8f689f94b64626ee9c1438706e60b7b61d17b6866e1a81",
+                "20f8ed6088f1bd6e4b6b823afc9c6f2126e443eb17bc83b4bbc63127291c450c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gifi.fr",
+                "www.gifi.fr",
+                "www.sephora.fr"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5
+        "Script": 3,
+        "Fetch": 3
     },
     "nameservers": [
         "ns-18.awsdns-02.com",

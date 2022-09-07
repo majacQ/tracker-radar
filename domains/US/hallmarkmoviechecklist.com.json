@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "web"
+        "web",
+        "clientapi"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -15,29 +16,99 @@
         {
             "rule": "hallmarkmoviechecklist\\.com\\/web-sdk\\/1\\.0\\.0\\/movieChecklist\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "web"
             ],
             "apis": {
-                "Navigator.prototype.product": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.platform": 3,
-                "window.localStorage": 3
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3bbc266406b6d4bafc9f41e315fbe5d35e4994dc90367cdef7da43cf9dbc14bb"
+                "63d9dbfc79bb65175f75302c15948e6be2cd8bd71094312a4d0a82b76c938e57"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hallmarkdrama.com",
-                "www.hallmarkdrama.com",
+                "hallmarkmoviesandmysteries.com",
                 "www.hallmarkmoviesandmysteries.com"
+            ]
+        },
+        {
+            "rule": "hallmarkmoviechecklist\\.com\\/api\\/app\\/movie\\/code\\/ATM1018",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clientapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "fb9a452905edb580f451e6d9faf9c0d78fde91725370f86256cf479ff2b80d83"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hallmarkmoviesandmysteries.com",
+                "www.hallmarkmoviesandmysteries.com"
+            ]
+        },
+        {
+            "rule": "hallmarkmoviechecklist\\.com\\/web-sdk\\/1\\.0\\.2\\/movieChecklist\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "6e8642c8cbacb4c64d62add4d08c9da79307ec16741a4421aa914b7aeec6cf5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hallmarkchannel.com",
+                "www.hallmarkchannel.com"
+            ]
+        },
+        {
+            "rule": "hallmarkmoviechecklist\\.com\\/api\\/app\\/movie\\/code\\/419-0035887",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clientapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1da59947e90dfc24912cb8ed60834a3b2870f075f504718081dcc416c3eebe3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hallmarkchannel.com",
+                "www.hallmarkchannel.com"
             ]
         }
     ],
@@ -45,12 +116,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 3
+        "Script": 4,
+        "XHR": 4
     },
     "nameservers": [
+        "ns1-05.azure-dns.com",
         "ns2-05.azure-dns.net",
         "ns3-05.azure-dns.org",
-        "ns4-05.azure-dns.info",
-        "ns1-05.azure-dns.com"
+        "ns4-05.azure-dns.info"
     ]
 }

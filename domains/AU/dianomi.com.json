@@ -7,39 +7,41 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0011,
-    "sites": 11,
+    "prevalence": 0.0013,
+    "sites": 13,
     "subdomains": [
         "www",
         "data"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "dianomi\\.com\\/js\\/contextfeed\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
+            "apis": {
+                "window.innerWidth": 3
+            },
             "sites": 6,
-            "prevalence": 0.000601,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "993515a94bb2affe192f9243083507354b9df0eb5d39c2164b043bb64584d5b0"
+                "86b3d75a5e75754dfca38d6598f3d97f89a20e4d35af9efc9d34b2417a14d710"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "businessinsider.com",
+                "cnn.com",
                 "markets.businessinsider.com",
-                "www.aljazeera.com",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com",
-                "www.marketwatch.com"
+                "money.cnn.com",
+                "www.cnn.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
             ]
         },
         {
@@ -54,19 +56,43 @@
             "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "37173138d2f19764471a3c4e1ec51788e34a4e94d88d64ddd7ab3235dcef9960",
-                "57cfa1210a0ba842f137c0b471d282781a72b5d050aa5a179b58563957a7da89",
-                "befc382d560f00d642f3cfc835bfb42022643364925239978a362742b116bd67",
-                "a299f16c09526073e085aec8eb7b9302bfef285759cf119360c86a6abda516c8"
+                "83b473d43d2c50ea00de2be61c25316960a057fe2942702d1d5071860f9978a5",
+                "6fba365d90987ac122d8e296fb020453dc678ca318f364ad566aa02a0da41081",
+                "599568bd43f92ecb9a73507a3c92ccc9da43846f5856e014ee4bbbe1934a2dd0"
             ],
             "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010026067776218167
+            },
+            "exampleSites": [
+                "businessinsider.com",
+                "markets.businessinsider.com",
+                "money.cnn.com",
+                "www.marketwatch.com",
+                "www.wsj.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/partner\\/dianomi\\/css\\/dianomi-context\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "99781410070a5dd4d753fdb8a46f4272082b5be64541dcfcb1b2d3c4aea09c6c"
+            ],
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "businessinsider.com",
-                "markets.businessinsider.com",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com",
+                "money.cnn.com",
                 "www.marketwatch.com"
             ]
         },
@@ -78,57 +104,28 @@
                 "www"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "150739fd773d405867b1b4601472fe9d4d1b0d7ac1696b6cefe8562df3f83d68",
-                "16d620fb3c811969760b24b5776e1a08f7e512a77bb588b4da90a205e0cad6ee",
-                "f9e2383c79d3149e4545d0fd40f3f93c9ba4f9ba8f5c8d19e82e20846af9d43a",
-                "98dc3a74138d740bd408f487bf3dda9390284b72103312d9fc3cdf51c4c772e6",
-                "859e380d8a254c025f4008147dd3c3c8d4484143afd29fdae3f0c658f63e2628",
-                "fa9a0a58be4da2df86b561f3632dffde93e0711c119862916f8d1f00d39e1205",
-                "36f71bf19e9d123880816e8919a694b6305bc7c0ae4af0e238e606dd97f1594e"
+                "c1c39dbb57cdca45e117a36bc12967611a7308fe917878a28d953875d4fa6fca",
+                "b0215b6d897bca01ccaf408364592f2e3c089e7789bac36065e06b7f99146f78",
+                "e11220bf96dc84f470fef7eda154db81c57c6e241d601605e0f6132a92f94705",
+                "2896711cfe013656625959eb8444eb51329adcfbd65734b512d321048ffedac9",
+                "749139e03cd9268c705e5c67c0004439563063231f407093f4fef320950449e2",
+                "21ee0f3602c8bba9b14ff20e68c65c3cd34e5e16cb68348be8e01f02f6634e87"
             ],
             "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "cookies.js_dtest": 0.00010022048506714773,
-                "parsely_uuid": 0.00010022048506714773
-            },
-            "exampleSites": [
-                "businessinsider.com",
-                "markets.businessinsider.com",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com",
-                "www.investmentwatchblog.com",
-                "www.marketwatch.com",
-                "www.propertychat.com.au",
-                "www.themandarin.com.au"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/partner\\/dianomi\\/css\\/dianomi-context\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "99781410070a5dd4d753fdb8a46f4272082b5be64541dcfcb1b2d3c4aea09c6c"
-            ],
-            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "businessinsider.com",
-                "www.businessinsider.com.au",
+                "markets.businessinsider.com",
+                "money.cnn.com",
                 "www.businessinsider.com",
-                "www.marketwatch.com"
+                "www.marketwatch.com",
+                "www.propertychat.com.au",
+                "www.themandarin.com.au"
             ]
         },
         {
@@ -139,11 +136,11 @@
                 "www"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "70503c92bcbb8105d95ec4de2012f23098c3383586e95323e4b3384b56af4beb"
+                "20550e4714f2d7f97a2cc66263db388822f82869b42d45e89f688508623b2ea7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -151,9 +148,8 @@
             "exampleSites": [
                 "businessinsider.com",
                 "markets.businessinsider.com",
-                "www.businessinsider.com.au",
+                "money.cnn.com",
                 "www.businessinsider.com",
-                "www.investmentwatchblog.com",
                 "www.marketwatch.com",
                 "www.themandarin.com.au"
             ]
@@ -166,11 +162,11 @@
                 "www"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000501,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d4fa79afcf5a5cc5a0f12dedaf825f11530e6397d723fe7044cd37ba3c248e57"
+                "5b9f9740cd970dd23abcdee589e7813c133274660056c7c6a5e57e36b7323edb"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -178,24 +174,23 @@
             "exampleSites": [
                 "businessinsider.com",
                 "markets.businessinsider.com",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com",
+                "money.cnn.com",
                 "www.marketwatch.com"
             ]
         },
         {
-            "rule": "dianomi\\.com\\/js\\/viewability8\\.js",
+            "rule": "dianomi\\.com\\/js\\/viewability11\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "6a3187faa5db2e775c2e66b02056783833e2b5378efd3f396f7595dba1065010"
+                "b69810b05811735260bb9d32ae84fe5d0dfd66c74ee896f2cd7f3a13a31430d0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -203,9 +198,8 @@
             "exampleSites": [
                 "businessinsider.com",
                 "markets.businessinsider.com",
-                "www.businessinsider.com.au",
+                "money.cnn.com",
                 "www.businessinsider.com",
-                "www.investmentwatchblog.com",
                 "www.marketwatch.com",
                 "www.propertychat.com.au",
                 "www.themandarin.com.au"
@@ -213,23 +207,24 @@
         },
         {
             "rule": "dianomi\\.com\\/frontend\\/pixeljs",
-            "cookies": 0.000802,
-            "fingerprinting": 0,
+            "cookies": 0.000702,
+            "fingerprinting": 1,
             "subdomains": [
                 "data"
             ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000802,
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "9be063ce28ed9d62fae4115bb71357f49e6e6329441c108e5b3ef8723b63d500",
-                "679b49dfcaa2536070ca26b21566440f979cb6620bab15affe77c9ec92504524",
-                "05b18a4dc7c97bf2ac07e1dfd10559989c43efd2f7b96e54867668c9a0e50b35",
-                "39e17a5bbacc9eab612a11c89dce88b05f5894f4c9f3fd9a86a8709e39cf07bd",
-                "18908d27ba5cf6795a525e0a667148c7a0a2d035bbb3ebc1e9e88f41c40f54ca",
-                "1016632ded4efaed854cbe3be6e1c35f70d8ad051b3c7e901524800582c6f1bb",
-                "c85a6b61a26ff64907e63b16b31e3cac1007e8581d997195f54e1e658755bbd0"
+                "f8f34827fbe70a1313f3dfa78b8121fd7f079b3b884b9a77ee8edf1ce93bf623",
+                "b7600c5f5152382543f835b463c7b44f39e45250edfb8a5fa028cf416d6a490c",
+                "e3f543b47dba48cae0d29a8f01f7187dd45e0f3a97da6f7dcf52b75cf966b804",
+                "bed21cb580644d8bba93a2638e44ed44293fc0c17825341671379bc3f9f6cc81",
+                "4e07f71e6ffd8da199e39b4b9f9686515c21dfb0fab00103c7306fa7c098eb03",
+                "4484c04fe65a9e69353d4213b266b68ab9da76537aeafc145388b0c91691791a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -237,9 +232,37 @@
             "exampleSites": [
                 "businessinsider.com",
                 "markets.businessinsider.com",
-                "www.businessinsider.com.au",
+                "money.cnn.com",
                 "www.businessinsider.com",
-                "www.investmentwatchblog.com",
+                "www.marketwatch.com",
+                "www.propertychat.com.au",
+                "www.themandarin.com.au"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/frontend\\/pixel",
+            "cookies": 0.000702,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.00010026067776218167
+            },
+            "exampleSites": [
+                "businessinsider.com",
+                "markets.businessinsider.com",
+                "money.cnn.com",
+                "www.businessinsider.com",
                 "www.marketwatch.com",
                 "www.propertychat.com.au",
                 "www.themandarin.com.au"
@@ -254,7 +277,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "bb64a05f00722c48de7d8234e73289a6957a6c5d4c7f3cc026529ebff20037ed"
@@ -276,7 +299,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "3883cebc297d84326737e52db8a0cb55be322418988291c8944993e4528250ff"
@@ -287,6 +310,80 @@
             "exampleSites": [
                 "businessinsider.com",
                 "markets.businessinsider.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/frontend\\/bidswitch",
+            "cookies": 0.000702,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "13f86bd1a6d578ee82ca0c54a9a634e03d8d7db09380d72590b158f173f53790"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com",
+                "markets.businessinsider.com",
+                "money.cnn.com",
+                "www.businessinsider.com",
+                "www.marketwatch.com",
+                "www.propertychat.com.au",
+                "www.themandarin.com.au"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/frontend\\/rubicon",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "13f86bd1a6d578ee82ca0c54a9a634e03d8d7db09380d72590b158f173f53790"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com",
+                "www.businessinsider.com",
+                "www.propertychat.com.au",
+                "www.themandarin.com.au"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cgi-bin\\/pixeltrack\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2fb46fbb3363d97fbeb90b5f84bd30e2b7e8b5cfb53403386f3f398252ccafde"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "money.cnn.com",
+                "www.propertychat.com.au"
             ]
         },
         {
@@ -301,7 +398,7 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+                "13f86bd1a6d578ee82ca0c54a9a634e03d8d7db09380d72590b158f173f53790"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -313,434 +410,6 @@
             ]
         },
         {
-            "rule": "dianomi\\.com\\/img\\/a\\/pss\\/3542\\/11\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "d621c1a44ae63a3343c21f1c76eee8cbb701faf250b4c985ed9cf627f60d8009"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/pss\\/3514\\/8\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "b19652e1472b6ba9b548ca87a289539ed9dda3a328c48ee4ea93692af2d274f7"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/228401\\/6\\/125x100\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "b8693e1ec4e23ebe2b00992bc37b853c822b2d516acb723842e48811995c5139"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/pss\\/3515\\/21\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "a341109cb9ce49137b38a8e72785d7d1566b01a9a653c92b99ecdcf51e869c19"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/214652\\/3\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "eeb85013a4cbcf888f3e73b72f399c4f433f28049dea8cfc21a4d373d1f7749b"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/partner\\/businessinsider\\/fonts\\/LabGrotesque-Black\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "9cec8b6d623de39cfda2451d0c489f50e07cc49967b091fa9a80716908d602d6"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/partner\\/businessinsider\\/fonts\\/LabGrotesque-Regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "4ffe91bdc3f86561585173a7ec98ea87b4f28e0d208fa4b23e5660e087b7da83"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/184412\\/3\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "00cbdd8fc504e54c3cf2ee94e75ad42df4af8e9e70920ae0290cc0eafceaddee"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/211688\\/3\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "70ffa7777a1de57366bdece9d923c3bf5c0e6882deda5eaf24147276e0c4303f"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/205385\\/3\\/125x100\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "38f0a27974cf87d4f3950a5c243631226eac8ab7dcd38acd25c282a8b0bb250c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/205385\\/3\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "ba1aec6dccb77a7ef880cc794ea8ed146bcc1bae758d889ead824e913bd51fa0"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/cgi-bin\\/pixeltrack\\.pl",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000601,
-            "cnames": [],
-            "responseHashes": [
-                "2fb46fbb3363d97fbeb90b5f84bd30e2b7e8b5cfb53403386f3f398252ccafde"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com.au",
-                "www.businessinsider.com",
-                "www.marketwatch.com",
-                "www.propertychat.com.au",
-                "www.themandarin.com.au"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/228400\\/6\\/125x100\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "d702c5736b52156e9df971f4412d3b198735c16d9c6784a105f85baf58df66e5"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/214653\\/3\\/125x100\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "2bedc1ec2def3ad8a2a8c8d5bdcdf0e9f555961c2c365bb912ccc8b92c5e6e63"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/214653\\/3\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "7e45d7d7e867bdf02174aeb77a5aa18abd451d8b1df2d822a00905aff0919916"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/185302\\/5\\/125x100\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "cd347daafe875436148714db2b49252fec78f0feea0dcf52618eab9c09192043"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/228401\\/6\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "2bfbd3bb6c7ddb581f98d49c097afce3b9d91d0a61be721e355238531a867201"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com.au",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/205383\\/3\\/125x100\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "5b7e8864016f90179a697a8a7679fbcf97a3a5c2467d63d6f3e97298850b3e1a"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com",
-                "www.businessinsider.com"
-            ]
-        },
-        {
-            "rule": "dianomi\\.com\\/img\\/a\\/sav2\\/228402\\/6\\/326x183\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [
-                "713bdbebdf8ba17ac891bb06e26790327f0a14e07cda9ee04e7f999bbad6db81"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "businessinsider.com",
-                "www.businessinsider.com"
-            ]
-        },
-        {
             "rule": "dianomi\\.com\\/partner\\/abp\\/px\\.gif",
             "cookies": 0,
             "fingerprinting": 0,
@@ -748,17 +417,18 @@
                 "www"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "d69cbc552cfe8de4931deb191dd349a881ff4448ed3251571e0bacd0257519b1"
+                "ad08fe912067b894aaf2e64e0c025a3ee1792279f24ad12ad3337bd0baa1f758"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "marketwatch.com",
+                "businessinsider.com",
+                "www.businessinsider.com",
                 "www.marketwatch.com",
                 "www.propertychat.com.au"
             ]
@@ -772,10 +442,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "70503c92bcbb8105d95ec4de2012f23098c3383586e95323e4b3384b56af4beb"
+                "20550e4714f2d7f97a2cc66263db388822f82869b42d45e89f688508623b2ea7"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -794,7 +464,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "28d6f3929b6c2dc7f150b29c3b1a0c2d39de20f6c1854db507c5deacd1f3f949"
@@ -806,18 +476,40 @@
                 "themandarin.com.au",
                 "www.themandarin.com.au"
             ]
+        },
+        {
+            "rule": "dianomi\\.com\\/images-resizer\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d62eba2ec4b2c54d30dbd2ff740c7023e806d43569ebbcfe5b9d366314e540e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themandarin.com.au",
+                "www.themandarin.com.au"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.001,
+    "cookies": 0.000902,
     "types": {
-        "Script": 22,
-        "XHR": 11,
-        "Document": 8,
-        "Stylesheet": 15,
-        "Image": 47,
-        "Font": 10
+        "Script": 20,
+        "XHR": 15,
+        "Stylesheet": 5,
+        "Document": 7,
+        "Image": 32,
+        "Font": 4
     },
     "nameservers": [
         "ben.ns.cloudflare.com",

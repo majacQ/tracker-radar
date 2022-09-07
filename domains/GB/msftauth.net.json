@@ -4,17 +4,18 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
-        "aadcdn"
+        "aadcdn",
+        "amcdn"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "msftauth\\.net\\/shared\\/1\\.0\\/content\\/js\\/ConvergedLogin_PCore_I521IOYX4o7sg2DM4l7ufQ2\\.js",
-            "cookies": 0,
+            "rule": "msftauth\\.net\\/shared\\/1\\.0\\/content\\/js\\/ConvergedLogin_PCore_V_8hCKvQdmDpy_Z9V0bDYg2\\.js",
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "aadcdn"
@@ -22,72 +23,60 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.connection": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b79abb3bc2880252e513a75fdc495cbf090c94d07eb126109f92d83ab99f6afd"
+                "837d0cdee2b881b853063e1edfa6d0cae2c96eefa5767a9878fce5ef8f3506df"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "microsoft.com",
-                "outlook.office.com"
+                "portal.azure.com"
             ]
         },
         {
-            "rule": "msftauth\\.net\\/ests\\/2\\.1\\/content\\/cdnbundles\\/converged\\.v2\\.login\\.min_lgjnfq3xbrj5zvj5ionvww2\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "msftauth\\.net\\/shared\\/1\\.0\\/content\\/js\\/oneDs_8363475333f6d315e7ae\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
             "subdomains": [
                 "aadcdn"
             ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "4cc1914204beca4a34eac1ed055f49f42ad77f143d97271fafa00e4810383fef"
             ],
-            "type": "Other",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "MSFPC": {
+                    "ttl": 31536000,
+                    "length": 4,
+                    "prevalence": 0.00010028078620136381,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "microsoft.com",
-                "outlook.office.com",
-                "portal.azure.com",
-                "teams.microsoft.com"
+                "portal.azure.com"
             ]
         },
         {
-            "rule": "msftauth\\.net\\/ests\\/2\\.1\\/content\\/cdnbundles\\/ux\\.converged\\.login\\.strings-en\\.min_adqtkgeasdv5me2-b1wumg2\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "aadcdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "microsoft.com",
-                "outlook.office.com",
-                "portal.azure.com",
-                "teams.microsoft.com"
-            ]
-        },
-        {
-            "rule": "msftauth\\.net\\/shared\\/1\\.0\\/content\\/images\\/backgrounds\\/2_bc3d32a696895f78c19df6c717586a5d\\.svg",
+            "rule": "msftauth\\.net\\/ests\\/2\\.1\\/content\\/cdnbundles\\/converged\\.v2\\.login\\.min_il46_7m1dp2y07llib10fw2\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -98,14 +87,58 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "0e88b6fcbb8591edfd28184fa70a04b6dd3af8a14367c628edd7caba32e58c68"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Image",
+            "type": "Other",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "microsoft.com",
-                "teams.microsoft.com"
+                "portal.azure.com"
+            ]
+        },
+        {
+            "rule": "msftauth\\.net\\/ests\\/2\\.1\\/content\\/cdnbundles\\/ux\\.converged\\.login\\.strings-en\\.min_kh7yrha_g0278c7gvzlivq2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aadcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "portal.azure.com"
+            ]
+        },
+        {
+            "rule": "msftauth\\.net\\/shared\\/1\\.0\\/content\\/js\\/asyncchunk\\/convergedlogin_pcustomizationloader_20ead0268c36816fd612\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aadcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25f5265955426811bb79ece323eca40c41e4d9ba61f859f5f63f93a3ad123c00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "portal.azure.com"
             ]
         },
         {
@@ -116,8 +149,8 @@
                 "aadcdn"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "04d29248ee3a13a074518c93a18d6efc491bf1f298f9b87fc989a6ae4b9fad7a"
@@ -127,9 +160,7 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "microsoft.com",
-                "outlook.office.com",
-                "portal.azure.com",
-                "teams.microsoft.com"
+                "portal.azure.com"
             ]
         },
         {
@@ -140,8 +171,8 @@
                 "aadcdn"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "8e6db1634f1812d42516778fc890010aa57f3e39914fb4803df2c38abbf56d93"
@@ -151,45 +182,41 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "microsoft.com",
-                "outlook.office.com",
-                "portal.azure.com",
-                "teams.microsoft.com"
+                "portal.azure.com"
             ]
         },
         {
-            "rule": "msftauth\\.net\\/shared\\/1\\.0\\/content\\/js\\/ConvergedLogin_PCore_K6sxFOiq5RA7iKp07WnW3g2\\.js",
+            "rule": "msftauth\\.net\\/meversion",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "aadcdn"
+                "amcdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.connection": 2
+                "window.sessionStorage": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "7da407f048f1855b7e00ca7881cdb430ead77028a663e2feb351c6497430367d"
+                "638e8b82362d8549bbfacc90b4c7ef8ecce8c1593be1a99edd0250ceba0da1c7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "azure.com",
-                "teams.microsoft.com"
+                "microsoft.com",
+                "powerbi.microsoft.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
-        "Script": 4,
-        "Other": 8,
-        "Image": 10
+        "Script": 8,
+        "Other": 4,
+        "Image": 4
     },
     "nameservers": [
         "a28-64.akam.net",

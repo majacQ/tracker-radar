@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.0000949,
+    "sites": 14,
     "subdomains": [
         "direct"
     ],
@@ -20,18 +20,28 @@
                 "direct"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "fc02b9a3ab81b2a4b30da6515acbfa67abf678f6bfcbd8e4a1021327ae1629a1",
+                "449cff29b787a3e85519569aac7a3140ec3f6f712eb3f002aba59765287fea69",
+                "1c37915d9c5621268f98d8040918f46ba469130b03d55f26af05d62d87f31529",
+                "54f77b963d8835bcde3eb6cffd2cc0e3cfbb078df91adb3d750ac05041da7f63",
+                "d42c6dc3d2e3a3e720f6c5ff8d29322e65f1811005c18985422d6cb737e94cfa",
+                "bbfe2d14538502a331b71a39535b3b85741884e8420e323a41a6f8e30bf92fa1"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "glassesusa.com",
                 "m.glassesusa.com",
                 "nuts.com",
-                "www.glassesusa.com"
+                "www.allbirds.com",
+                "www.glassesusa.com",
+                "www.hugoboss.com",
+                "www.stadiumgoods.com"
             ]
         },
         {
@@ -42,22 +52,45 @@
                 "direct"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
-            "responseHashes": [
-                "e676945393b29043e79e29073dab961a71ce50515eec0f73252636747d8b13c8",
-                "87c25c765a3675ca77a0cbcc757761ce355cd53d739b4e566ffe2680ee080a88",
-                "dd286d835c887c9ac57c5730008190daa31e94eca0b810ac8d60197609fabdfe"
-            ],
-            "type": "XHR",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "glassesusa.com",
                 "m.glassesusa.com",
+                "madeincookware.com",
                 "nuts.com",
-                "www.glassesusa.com"
+                "www.allbirds.com",
+                "www.glassesusa.com",
+                "www.hugoboss.com",
+                "www.nespresso.com",
+                "www.stadiumgoods.com"
+            ]
+        },
+        {
+            "rule": "dy-api\\.com\\/v2\\/serve\\/user\\/choose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5f4262a127d987ce8ac1a45ca3e9cd92dcf63ed4431f62f687e6c6b625ef56b4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madeincookware.com",
+                "www.nespresso.com"
             ]
         }
     ],
@@ -65,8 +98,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 4,
-        "XHR": 4
+        "XHR": 7,
+        "Preflight": 9,
+        "Fetch": 2
     },
     "nameservers": [
         "ns-687.awsdns-21.net",

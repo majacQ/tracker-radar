@@ -4,74 +4,53 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000828,
-    "sites": 12,
+    "prevalence": 0.0000678,
+    "sites": 10,
     "subdomains": [
-        "promotionapi-v4",
-        "promotioneventsapi-v4",
-        "cdn-v4"
+        "promotionapi-v5",
+        "promotioneventsapi-v5"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "discountninja\\.io\\/api\\/ApplicablePromotions",
+            "rule": "discountninja\\.io\\/api\\/v5\\.1\\/ApplicablePromotions",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "promotionapi-v4"
+                "promotionapi-v5"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.0000345,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "c110db02c5bb9062e51c463145e506d0d348367cb4638f1ef1f821bf3bf774ef",
-                "c828f763c3124fe2a09f05c8369e08482eb70fdc13d260cc2adf4b8d7c0d7556",
-                "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
-                "d345111be3944c586488e8fcec5a63a4dca7af0ac33269b2c0bb3073a170df79"
+                "0f9cba43089109ecc4c440c8defc78a82efb2ac47518578828993ede83755251",
+                "32ed6059d89d0cdf33f6af1b2f3d172fb8cdab6050aa1bd5238297c5e8fb14fa",
+                "36cd4296b07a0ed6904bf3b43d435b73afe9e530bbd1e617bb374e7bf4faef97",
+                "6d4c69a7298ac3717bdf9628a2bd6400de8fe7eeee2c9dcaaf70cc378aa0ecbe"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
+                "blackstoneproducts.com",
                 "caskcartel.com",
-                "www.bettystoybox.com",
                 "www.braceability.com",
-                "www.cigarsdirect.com",
-                "www.wtb.com"
+                "www.heydudeshoesusa.com",
+                "www.mcgeeandco.com"
             ]
         },
         {
-            "rule": "discountninja\\.io\\/api\\/AddPromotionEvents",
+            "rule": "discountninja\\.io\\/api\\/v5\\.1\\/AddPromotionEvents",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "promotioneventsapi-v4"
+                "promotioneventsapi-v5"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "caskcartel.com",
-                "www.braceability.com"
-            ]
-        },
-        {
-            "rule": "discountninja\\.io\\/api\\/AddPromotionEvents",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "promotioneventsapi-v4"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
@@ -80,39 +59,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "caskcartel.com",
+                "blackstoneproducts.com",
                 "www.braceability.com"
-            ]
-        },
-        {
-            "rule": "discountninja\\.io\\/scripts\\/limoniapps-discountninja\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn-v4"
-            ],
-            "apis": {
-                "window.sessionStorage": 3,
-                "Date.prototype.getTime": 3,
-                "PerformanceTiming.prototype.navigationStart": 3,
-                "Date.prototype.getTimezoneOffset": 3,
-                "window.localStorage": 3,
-                "Document.cookie getter": 3,
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "9fa87715b7d2684ea28998fd08150c3171319177c09a17177dc95a9d75805ba0"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bettystoybox.com",
-                "www.bettystoybox.com",
-                "www.wtb.com"
             ]
         }
     ],
@@ -120,12 +68,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "XHR": 7,
-        "Preflight": 2,
-        "Script": 3
+        "XHR": 7
     },
     "nameservers": [
-        "adi.ns.cloudflare.com",
-        "jack.ns.cloudflare.com"
+        "jack.ns.cloudflare.com",
+        "adi.ns.cloudflare.com"
     ]
 }

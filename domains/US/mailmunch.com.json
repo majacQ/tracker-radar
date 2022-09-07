@@ -4,13 +4,14 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.000156,
+    "sites": 23,
     "subdomains": [
-        "cf"
+        "cf",
+        "app"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "mailmunch\\.com\\/partner\\/mailmunch\\/logo_branding\\.png",
@@ -20,18 +21,53 @@
                 "cf"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
-                "60615cf3ddf0b34046ce24ba4a0f5a5c352c10a9ae6e03043b93f8e0f5c6b509"
+                "c76c91df932c7ce2ec724dd9a8823274fb91ba6cd93639d53b5e7f95037a7e75"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "fagsworshipalphas.com",
-                "thespiritnomad.com"
+                "florencetrust.org",
+                "thespiritnomad.com",
+                "www.davisinstruments.com",
+                "www.imfdb.org",
+                "www.investmentwatchblog.com",
+                "www.tarotingie.com",
+                "www.vanguardngr.com"
+            ]
+        },
+        {
+            "rule": "mailmunch\\.com\\/app\\/v1\\/site\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "e9c1e5d5c41ed04c566bdc9366fb457bc840c990852d020139de85d001757629"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amusingplanet.com",
+                "www.amusingplanet.com",
+                "www.fieldandstream.com",
+                "www.haystravel.co.uk",
+                "www.outdoorlife.com",
+                "www.popphoto.com",
+                "www.popsci.com"
             ]
         }
     ],
@@ -39,7 +75,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Image": 2
+        "Image": 7,
+        "Script": 7
     },
     "nameservers": [
         "cass.ns.cloudflare.com",

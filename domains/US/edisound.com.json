@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000069,
-    "sites": 10,
+    "prevalence": 0.000176,
+    "sites": 26,
     "subdomains": [
         "publishers",
-        "platform"
+        "platform",
+        "media"
     ],
     "cnames": [],
     "fingerprinting": 1,
@@ -22,124 +23,222 @@
                 "platform"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
+            "sites": 20,
+            "prevalence": 0.000136,
             "cnames": [],
             "responseHashes": [
-                "e15c4befa1af662b80492f1aaf8ba77965a2a641c0667052996c99add5076af5",
-                "45de9a754045c98538a8ea9febb50a5cf7f10de0b62504ee1b2d0348ad0cff07"
+                "8d27e5df4b4f899558607ab96f5b8429c96fa0e0b68762b01dd7a2cbe7b21fcf"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "maison-travaux.fr",
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "deco.journaldesfemmes.fr",
+                "monjardinmamaison.maison-travaux.fr",
+                "sante-medecine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.auto-moto.com",
+                "www.autonews.fr",
                 "www.autoplus.fr",
                 "www.bibamagazine.fr",
                 "www.closermag.fr",
                 "www.grazia.fr",
+                "www.journaldunet.com",
+                "www.journaldesfemmes.fr",
                 "www.journaldunet.fr",
+                "www.linternaute.com",
                 "www.maison-travaux.fr",
-                "www.mariefrance.fr",
-                "www.rtl.be",
-                "www.zdnet.de"
+                "www.psychologies.com",
+                "www.telestar.fr",
+                "www.topsante.com"
             ]
         },
         {
-            "rule": "edisound\\.com\\/api\\/p\\/medias\\/fetch",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "edisound\\.com\\/player\\/javascript\\/podcast-1ecbfe6a-aad5-6db0-a62c-997a7fa595f5\\.js",
+            "cookies": 0.0000407,
+            "fingerprinting": 1,
             "subdomains": [
                 "publishers"
             ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "maison-travaux.fr",
-                "www.autoplus.fr",
-                "www.bibamagazine.fr",
-                "www.closermag.fr",
-                "www.grazia.fr",
-                "www.journaldunet.fr",
-                "www.maison-travaux.fr",
-                "www.mariefrance.fr",
-                "www.rtl.be",
-                "www.zdnet.de"
-            ]
-        },
-        {
-            "rule": "edisound\\.com\\/api\\/p\\/medias\\/fetch",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "publishers"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000407,
             "cnames": [],
             "responseHashes": [
-                "f663f1b7e9bf39d78ea11f1d682f11fe2ae994874c5996eb4258e4a0dd7967c7",
-                "a3f03e8b33ab90a2a1e94eb0b5e6ecb6b49ae04218ccefd514dec9803bbd326a",
-                "65740c749d0d0e8759b57c3fc22fdd063dc21d64540c175985f2a926ab42acc9",
-                "13ac343b76f045f5f0183ec8ab63d4de624b7484eb6be39c31752a7488e30330",
-                "11a751aa0e666921ccfd50004a76e537e13a7dc729795e7a6e08dd58e459dd17",
-                "a92b7dbcf270f405f2635ba92acb64b1b477e5fbd1a8366c5d40670d0d303318",
-                "81b2403824c0302ae02ef4047ae0dc875ad5f41c050af101d37d78c9f20e56d0",
-                "e1d8ea4867b8caa3f5ef96b99d3ee82b77c0fdb06cb1d5fe795a6ae1496edda7",
-                "f1f099a47a807c698160690fc1b5aaa1fdbe71c416878d160361b44e2b44523d"
+                "2f77f67922961072784caaba99a783309bd7efbe5bfa1148b1a72f2bc8dbb33d",
+                "b671a224bceffcdc1fb3630574d8886c6cd61d0b9ea8df783b5a216f39c84f98",
+                "f7c486833f3098a4257fe00e3dde998b08e6ebe15abfe84b018cf90ecaf753e0",
+                "d3d7ac5a1acb362f578ebec6d5af6c6b47b4f3fec96e85cd9b0f6dafcaeb176e",
+                "bbdfef776b706390559af2d51dc0d936826b04727a44765d7a678295c061a111"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_edisound_player": {
+                    "ttl": 31536018,
+                    "length": 36,
+                    "prevalence": 0.00004066748905366753,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "deco.journaldesfemmes.fr",
+                "sante-medecine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/api\\/p\\/medias\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.000129,
+            "cnames": [],
+            "responseHashes": [
+                "7cd888ab5740d08157751c80e7465645d86a1fbd092010eac2f9b956798974f1",
+                "7bec7c25e0bde307af71e1516d37bf50728dcf4ba829dcf73e9ff243b49429e3",
+                "7607ecc339000310fddf9680e8ee7ac660a7050418caf9e203b265230e16b5fb",
+                "15a7a38215aae554005b48dee33a622534fef233b6317845fb4eaca0c0280da8",
+                "22ab1cd22929e82598177c6559c24379b3ed76bf29b1a3a03e8ca6c49f444263",
+                "09257d758af648ae41133d669bd96b51fd6691d3304a36a7e650d637986c4fd3",
+                "8cb5e0e1ed7d7eac00a3329c23c398d9894838080a8d7c8bbb549ae030b82248",
+                "511c02be8bb7326a66d0fd1af7d8eb9bfd6006cb2f8c9a7b36a36f1952a6edc0",
+                "d0e028c0ff4e677622ebf92bbefa5303200bc2e58c4d75fc899e7a4d132ac962",
+                "3d897175b23ec44642e257f4f75a24f91ed8f912c5d767704c0435f4d571780b",
+                "2c7f848f5002d4750977835eab4b4a3dc881d5fd82574f2af6032721cdeb1e9a",
+                "8996fac5145a867eac49966e4a76cca27de69f3b33e7a71718b19f26038ac862",
+                "2c8dbd93fe09b223f00d47661a5e13bb2c4a8001f34afa39475e497d21a38f37",
+                "05df49b4fffc3a5a0e11df1e600d54ed4205a081c7a47ec16cd8eb047de014fc",
+                "a6f6e1d4d904ad9ee8b35a524364a5b30599dda60f8ed9170c8b1c63bfc8d9b6",
+                "cfb378c76798afe3670f9c3312d99f6dde42be5566573a7808939ba8d9a5a663",
+                "4b95de6590ffb758c034bcab22ea12338316aab81351d2dad005ea93d1c1af99",
+                "ea56900e2b2174fe469e5ea774253b07ccc8469f025ed071af6ed4662ba29a23"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "maison-travaux.fr",
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "deco.journaldesfemmes.fr",
+                "monjardinmamaison.maison-travaux.fr",
+                "sante-medecine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.auto-moto.com",
+                "www.autonews.fr",
                 "www.autoplus.fr",
                 "www.bibamagazine.fr",
                 "www.closermag.fr",
                 "www.grazia.fr",
+                "www.journaldunet.com",
+                "www.journaldesfemmes.fr",
                 "www.journaldunet.fr",
+                "www.linternaute.com",
                 "www.maison-travaux.fr",
-                "www.mariefrance.fr",
-                "www.rtl.be",
-                "www.zdnet.de"
+                "www.telestar.fr",
+                "www.topsante.com"
             ]
         },
         {
-            "rule": "edisound\\.com\\/player\\/skin\\/1ec10e56-eca8-6404-8ccc-03a804556839",
+            "rule": "edisound\\.com\\/player\\/skin\\/1ed14c0d-2775-660e-8111-352182f98aa0",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "publishers"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
-                "07b6a8c30b27915a350398fa705636c49b77cd09c379370b81768279bd4746bd"
+                "8790afa290468c8c8b08fc2e2a2526b8f9f7abb3309ff5ce49219f6f5ac048a5"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "maison-travaux.fr",
-                "www.autoplus.fr",
-                "www.bibamagazine.fr",
-                "www.closermag.fr",
-                "www.grazia.fr",
-                "www.maison-travaux.fr",
-                "www.mariefrance.fr"
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "deco.journaldesfemmes.fr",
+                "sante-medecine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.journaldunet.com",
+                "www.journaldesfemmes.fr",
+                "www.journaldunet.fr",
+                "www.linternaute.com"
             ]
         },
         {
-            "rule": "edisound\\.com\\/build\\/player\\.8452bdf6\\.css",
+            "rule": "edisound\\.com\\/build\\/player-format-sidebar\\.6f3f6b2f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000061,
+            "cnames": [],
+            "responseHashes": [
+                "76e7bfa8d7deb9aade24fdc44a084a712954cf6abad11b5d7cd1a6ddfa3c8c85"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "deco.journaldesfemmes.fr",
+                "sante-medecine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.journaldunet.com",
+                "www.journaldesfemmes.fr",
+                "www.journaldunet.fr",
+                "www.linternaute.com"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/medias\\/series\\/image\\/89cbe41d316484e4177c60c1fbf62e506007d5fbd59aa77347fc2ec3d203\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "f6d50441e1a2a17c9c3cf6481cfab83f7688f27b1468dc75c817b26e4afa78cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "deco.journaldesfemmes.fr",
+                "sante-medecine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.journaldesfemmes.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/player\\/skin\\/1ed14c0d-2775-660a-8111-352182f98aa0",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -147,10 +246,10 @@
             ],
             "apis": {},
             "sites": 8,
-            "prevalence": 0.0000552,
+            "prevalence": 0.0000542,
             "cnames": [],
             "responseHashes": [
-                "29a448af791e199a759c4f274b39955d147cb32adc490e6c3c394eae172a378f"
+                "8790afa290468c8c8b08fc2e2a2526b8f9f7abb3309ff5ce49219f6f5ac048a5"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -162,23 +261,52 @@
                 "www.closermag.fr",
                 "www.grazia.fr",
                 "www.maison-travaux.fr",
-                "www.mariefrance.fr",
-                "www.zdnet.de"
+                "www.telestar.fr",
+                "www.topsante.com"
             ]
         },
         {
-            "rule": "edisound\\.com\\/build\\/player-reduced\\.96dceb45\\.css",
+            "rule": "edisound\\.com\\/build\\/4681\\.9f6357d4\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "publishers"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.0000552,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
-                "be83d888768da2fe01efd93b900848a1dd9a0d6ecab12f30a2f2a2635ddb279c"
+                "8525675d8f33d1942601405be8b3b3c0f6fb5363d3e80ac2a756f04430f21dc1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maison-travaux.fr",
+                "www.auto-moto.com",
+                "www.autonews.fr",
+                "www.autoplus.fr",
+                "www.bibamagazine.fr",
+                "www.grazia.fr",
+                "www.maison-travaux.fr",
+                "www.telestar.fr",
+                "www.topsante.com"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/build\\/player-format-reduced\\.390caa89\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000407,
+            "cnames": [],
+            "responseHashes": [
+                "494a38a2e3253fab9531084af49da43716d02c067a9abeddb1d190e71de22e77"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -187,45 +315,144 @@
                 "maison-travaux.fr",
                 "www.autoplus.fr",
                 "www.bibamagazine.fr",
-                "www.closermag.fr",
-                "www.grazia.fr",
                 "www.maison-travaux.fr",
-                "www.mariefrance.fr",
-                "www.zdnet.de"
+                "www.telestar.fr",
+                "www.topsante.com"
             ]
         },
         {
-            "rule": "edisound\\.com\\/build\\/player-small\\.713d8b43\\.css",
+            "rule": "edisound\\.com\\/player\\/skin\\/1ed14c0d-2775-6649-8111-352182f98aa0",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "publishers",
-                "platform"
+                "publishers"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "b297ffcd29cbd482fc4985391a1865a30189982790b0ec7f66f7856c69bbbb15"
+                "8790afa290468c8c8b08fc2e2a2526b8f9f7abb3309ff5ce49219f6f5ac048a5"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "journaldunet.fr",
-                "www.rtl.be"
+                "auto-moto.com",
+                "www.autonews.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/player\\/javascript\\/podcast-1eb7520c-70bd-6372-8bb0-95ad3fef3cf3\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5065d3c8668489a4dab5a256e9d047f7b79bbdadb52e6da0803f8d439342ff31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_edisound_player": {
+                    "ttl": 31536014,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldunet.com",
+                "www.journaldunet.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/player\\/javascript\\/podcast-1eb4391d-ccd3-63ec-8f89-ef28850bb95e\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b9c0d10f202a9234e95fb92c90d6a9901e740cf173e16e49533bd98decd183a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_edisound_player": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telestar.fr",
+                "www.telestar.fr"
+            ]
+        },
+        {
+            "rule": "edisound\\.com\\/player\\/javascript\\/podcast-1eb618ae-c6f7-6172-b48d-f98bdb3bb4ce\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publishers"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c1b718db28fa3be2bc27ad7d6d96fb46e0ccf05371b7ef5f4133b77fdded0b22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_edisound_player": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topsante.com",
+                "www.topsante.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000069,
+    "cookies": 0.000156,
     "types": {
-        "Script": 10,
-        "Preflight": 10,
-        "Fetch": 10,
-        "Stylesheet": 25
+        "Script": 32,
+        "Fetch": 19,
+        "Stylesheet": 43,
+        "Image": 6
     },
     "nameservers": [
         "matt.ns.cloudflare.com",

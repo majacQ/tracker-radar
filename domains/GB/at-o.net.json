@@ -4,42 +4,74 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
-        "buf-lemonde-fr-cddc"
+        "at-pagesjaunes-fr-cddc",
+        "zug-sbb-ch-cddc"
     ],
     "cnames": [
         {
-            "original": "buf.lemonde.fr",
-            "resolved": "buf-lemonde-fr-cddc.at-o.net"
+            "original": "at.pagesjaunes.fr",
+            "resolved": "at-pagesjaunes-fr-cddc.at-o.net"
+        },
+        {
+            "original": "zug.sbb.ch",
+            "resolved": "zug-sbb-ch-cddc.at-o.net"
         }
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "at-o\\.net\\/lmd",
-            "cookies": 0.000201,
+            "rule": "at-o\\.net\\/wa\\.pj",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "buf-lemonde-fr-cddc"
+                "at-pagesjaunes-fr-cddc"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [
                 {
-                    "original": "buf.lemonde.fr",
-                    "resolved": "buf-lemonde-fr-cddc.at-o.net"
+                    "original": "at.pagesjaunes.fr",
+                    "resolved": "at-pagesjaunes-fr-cddc.at-o.net"
                 }
             ],
-            "responseHashes": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lemonde.fr",
-                "www.lemonde.fr"
+                "pagesjaunes.fr",
+                "www.pagesjaunes.fr"
+            ]
+        },
+        {
+            "rule": "at-o\\.net\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zug-sbb-ch-cddc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "zug.sbb.ch",
+                    "resolved": "zug-sbb-ch-cddc.at-o.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbb.ch",
+                "www.sbb.ch"
             ]
         }
     ],
@@ -47,7 +79,8 @@
     "performance": {},
     "cookies": 0.0001,
     "types": {
-        "Image": 2
+        "Image": 2,
+        "Ping": 2
     },
     "nameservers": []
 }

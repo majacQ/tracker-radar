@@ -4,15 +4,86 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
+        "pdp",
         "analytics",
-        "cdn"
+        "hits"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "gokwik\\.co\\/merchant-integration\\/build\\/merchant\\.integration\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pdp"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4aa3a29afb2ea14b1a7e987259a50271841a79c5f8d575d7b7de72e6c721559a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boat-lifestyle.com",
+                "www.boat-lifestyle.com"
+            ]
+        },
+        {
+            "rule": "gokwik\\.co\\/integration\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pdp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f34f1ef0747de5449c25ff03d7ad20d7a9fcbce553fda69567b8b3bdfd17105a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boat-lifestyle.com",
+                "www.boat-lifestyle.com"
+            ]
+        },
+        {
+            "rule": "gokwik\\.co\\/build\\/gokwik\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pdp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5bd42f611f70285ea1e5fbc6fe84a677140bb20affd9ba3da2372bc5e102fd7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boat-lifestyle.com",
+                "www.boat-lifestyle.com"
+            ]
+        },
         {
             "rule": "gokwik\\.co\\/analytics\\.js",
             "cookies": 0,
@@ -21,13 +92,14 @@
                 "analytics"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e9a892acc84ad094784c4ddac0590dcba235e9b646c43235aefe7cadc54eaaaa"
+                "d6e03c748001fa0d2ee5b6d876a2daa8b9946ae8f0028feaafff5c531a733d8c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -38,20 +110,18 @@
             ]
         },
         {
-            "rule": "gokwik\\.co\\/v4\\/dist\\/gokwik\\.min\\.js",
+            "rule": "gokwik\\.co\\/api\\/v1\\/header\\/events\\/update",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cdn"
+                "hits"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "a4805228f7fe73c416d1db2021f6a68bf8275ea542d7b56bad58f3431cf055ec"
-            ],
-            "type": "Script",
+            "responseHashes": [],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -60,20 +130,18 @@
             ]
         },
         {
-            "rule": "gokwik\\.co\\/v4\\/css\\/style\\.css",
+            "rule": "gokwik\\.co\\/api\\/v1\\/header\\/events\\/update",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "cdn"
+                "hits"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "677463fe68d1e724ff926d67393676c659f896c731006053dfc91d35f6cad728"
-            ],
-            "type": "Stylesheet",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -86,13 +154,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4,
-        "Stylesheet": 2
+        "Script": 8,
+        "Fetch": 2,
+        "Preflight": 2
     },
     "nameservers": [
         "ns-736.awsdns-28.net",
-        "ns-120.awsdns-15.com",
         "ns-1786.awsdns-31.co.uk",
+        "ns-120.awsdns-15.com",
         "ns-1485.awsdns-57.org"
     ]
 }

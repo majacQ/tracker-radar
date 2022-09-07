@@ -7,26 +7,26 @@
     "prevalence": 0.000602,
     "sites": 6,
     "subdomains": [
-        "global.stargate.cse"
+        "migration-geo-filter-prd.stargate.cse"
     ],
     "cnames": [
         {
             "original": "api-private.atlassian.com",
-            "resolved": "global.stargate.cse.ss-inf.net"
+            "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
         },
         {
             "original": "api.atlassian.com",
-            "resolved": "global.stargate.cse.ss-inf.net"
+            "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
         }
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "ss-inf\\.net\\/metal\\/ingest",
+            "rule": "ss-inf\\.net\\/sentry-cloud\\/api\\/5988886\\/envelope\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "global.stargate.cse"
+                "migration-geo-filter-prd.stargate.cse"
             ],
             "apis": {},
             "sites": 2,
@@ -34,11 +34,13 @@
             "cnames": [
                 {
                     "original": "api.atlassian.com",
-                    "resolved": "global.stargate.cse.ss-inf.net"
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
                 }
             ],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -51,7 +53,7 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "global.stargate.cse"
+                "migration-geo-filter-prd.stargate.cse"
             ],
             "apis": {},
             "sites": 3,
@@ -59,13 +61,39 @@
             "cnames": [
                 {
                     "original": "api.atlassian.com",
-                    "resolved": "global.stargate.cse.ss-inf.net"
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitbucket.org",
+                "marketplace.atlassian.com",
+                "www.atlassian.com"
+            ]
+        },
+        {
+            "rule": "ss-inf\\.net\\/metal\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "migration-geo-filter-prd.stargate.cse"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "api.atlassian.com",
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
                 }
             ],
             "responseHashes": [
                 "4c77f658ef5e2f949576fa5b76fc667097a122888791b209b156f7d12b764959"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -75,42 +103,11 @@
             ]
         },
         {
-            "rule": "ss-inf\\.net\\/gasv3\\/api\\/v1\\/batch",
+            "rule": "ss-inf\\.net\\/sentry-cloud\\/api\\/5988886\\/store\\/",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "global.stargate.cse"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000602,
-            "cnames": [
-                {
-                    "original": "api-private.atlassian.com",
-                    "resolved": "global.stargate.cse.ss-inf.net"
-                }
-            ],
-            "responseHashes": [
-                "3f96c74846d55df29bbcd7837594612211f600110fcac55a29cf536f6073a410"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bitbucket.org",
-                "community.atlassian.com",
-                "confluence.atlassian.com",
-                "marketplace.atlassian.com",
-                "support.atlassian.com",
-                "www.atlassian.com"
-            ]
-        },
-        {
-            "rule": "ss-inf\\.net\\/sentry\\/api\\/1163\\/store\\/",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "global.stargate.cse"
+                "migration-geo-filter-prd.stargate.cse"
             ],
             "apis": {},
             "sites": 2,
@@ -118,11 +115,11 @@
             "cnames": [
                 {
                     "original": "api.atlassian.com",
-                    "resolved": "global.stargate.cse.ss-inf.net"
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
                 }
             ],
             "responseHashes": [
-                "faeb6d1af0615c75beb298e1f55791de6d970aef679ace0eb46a5e0e9dd9624a"
+                "25172c5a49587c480ac8b9821e562fbf03b0103a445d6477660b5c7a0aad81b8"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -137,7 +134,7 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "global.stargate.cse"
+                "migration-geo-filter-prd.stargate.cse"
             ],
             "apis": {},
             "sites": 2,
@@ -145,7 +142,34 @@
             "cnames": [
                 {
                     "original": "api.atlassian.com",
-                    "resolved": "global.stargate.cse.ss-inf.net"
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
+                }
+            ],
+            "responseHashes": [
+                "17c8ecc360d55deea0bd43286b619b6d0db8a17da58b6113e9fdaf97d587836d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atlassian.com",
+                "marketplace.atlassian.com"
+            ]
+        },
+        {
+            "rule": "ss-inf\\.net\\/flags\\/api\\/v1\\/frontend\\/featureFlagValues",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "migration-geo-filter-prd.stargate.cse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.atlassian.com",
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
                 }
             ],
             "responseHashes": [],
@@ -158,30 +182,31 @@
             ]
         },
         {
-            "rule": "ss-inf\\.net\\/flags\\/api\\/v1\\/frontend\\/featureFlagValues",
+            "rule": "ss-inf\\.net\\/gasv3\\/api\\/v1\\/batch",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "global.stargate.cse"
+                "migration-geo-filter-prd.stargate.cse"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [
                 {
-                    "original": "api.atlassian.com",
-                    "resolved": "global.stargate.cse.ss-inf.net"
+                    "original": "api-private.atlassian.com",
+                    "resolved": "migration-geo-filter-prd.stargate.cse.ss-inf.net"
                 }
             ],
             "responseHashes": [
-                "94ba08a6bd1d11084bde8a0f0119df08b41ed8854bd0e0e4d86e6d727e06327e"
+                "3f96c74846d55df29bbcd7837594612211f600110fcac55a29cf536f6073a410"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "atlassian.com",
-                "marketplace.atlassian.com"
+                "confluence.atlassian.com",
+                "trello.com"
             ]
         }
     ],
@@ -189,10 +214,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 4,
-        "Other": 3,
-        "XHR": 6,
-        "Fetch": 4
+        "Fetch": 9,
+        "Preflight": 5,
+        "Ping": 3
     },
     "nameservers": []
 }

@@ -18,7 +18,7 @@
         {
             "rule": "laweekly\\.com\\/",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "engine"
             ],
@@ -26,14 +26,17 @@
                 "window.devicePixelRatio": 1,
                 "Screen.prototype.width": 1,
                 "Screen.prototype.height": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.webdriver": 1,
                 "Navigator.prototype.userAgent": 1,
                 "Element.prototype.getClientRects": 1
             },
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "3c84138b06588f3a12d1263004d0946ec7562bcbb799eef3096b6a212248e3ad"
+                "248f1277a0509750480e7dbcf0a52e566ac6d982175564f821f14ff698d20faa"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -44,7 +47,7 @@
             ]
         },
         {
-            "rule": "laweekly\\.com\\/data",
+            "rule": "laweekly\\.com\\/vb",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -52,12 +55,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -71,7 +74,7 @@
     "cookies": 0,
     "types": {
         "Script": 2,
-        "Other": 2
+        "Ping": 2
     },
     "nameservers": [
         "norm.ns.cloudflare.com",

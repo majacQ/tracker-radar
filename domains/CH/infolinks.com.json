@@ -7,50 +7,20 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.001,
-    "sites": 10,
+    "prevalence": 0.000703,
+    "sites": 7,
     "subdomains": [
-        "router",
         "resources",
-        "rt3054",
-        "rt3004",
-        "rt3050",
-        "rt3003",
-        "rt3060",
-        "rt3042"
+        "router",
+        "rt3029",
+        "rt3066",
+        "rt3007",
+        "rt3062",
+        "rt3009"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
-        {
-            "rule": "infolinks\\.com\\/dyn\\/r1-usync",
-            "cookies": 0.000903,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000903,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "wowhead.com",
-                "ffxiv.consolegameswiki.com",
-                "hypebeast.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
         {
             "rule": "infolinks\\.com\\/js\\/infolinks_main\\.js",
             "cookies": 0,
@@ -59,26 +29,90 @@
                 "resources"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "Date.prototype.getTime": 7
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 5
             },
             "sites": 7,
             "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "3be0a5a4f4980d0f231ca381f2ff37a91b9adcb061efe6d814cdb1c5a4f7f724"
+                "f924678c378b9d185ed32399be56f9218d73d24fb77fa1e9b628481bd0d078f8",
+                "cd8473d32847d9d3c12a0e61021ab3cf09a30653aa9c62ecbc8a50c85b4c8eb5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
+                "www.botasot.info",
                 "www.laweekly.com",
-                "www.psychforums.com",
+                "www.summitpost.org",
+                "www.villagevoice.com",
+                "www.washingtonexaminer.com",
                 "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/js\\/1817\\.004-3\\.025\\/ice\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2465918dbcf0f83207b6c734da96c80bedcdbd330f0b7c83ea0b21c64aa6839a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "logglytrackingsession": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 1
+                },
+                "gCStest": {
+                    "ttl": -714144143,
+                    "length": 8,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 1
+                },
+                "fc": {
+                    "ttl": 27,
+                    "length": 76,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 1
+                },
+                "pv": {
+                    "ttl": 27,
+                    "length": 39,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.summitpost.org",
+                "www.villagevoice.com"
             ]
         },
         {
@@ -89,75 +123,24 @@
                 "router"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "793649369fe37d1892b543a05017bac23fbc7e544b0ad55e3198f7cb7d6ba20d",
-                "c3a20f7c6965b5d1bb91e053da00d606f5a9b9c6dc62b4a15ec6f58c58713c29",
-                "df61ce31e05c3fe33dc7ac89b4dda856e71548760c3c5b1ad02656d7e0f75911",
-                "2c33e29f235766467bfc7e1843d7d2ae7d9da6abfc7834b6bd6bb81bf27bc520",
-                "882108182d40f342b23548a0228cdfec2963796bd1ffba5e894bc52ccf58ea72",
-                "438b906a5c28ac6fc1c823926de6667a0e0a0bd6189af21590064b078a567ab3"
+                "fd2f261c1efad338f0a825d249e7b24188876fdbe1d4ed071319ee6316ef98c8",
+                "2f537177adffaa02facede3c8a394056db7e4a410049c458f9b9b22badc73409",
+                "96b75fd5b8523708f8a23ddd5e1edb10448f6d63d99b62463b9c9609f2f8ce9f",
+                "4506d28f1ba21af8de7024075c58d7dcf36e9678a9dac1ec3bce49ecec676696"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
+                "www.botasot.info",
                 "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/js\\/pbice\\/3\\.025\\/pbice\\.js",
-            "cookies": 0.000703,
-            "fingerprinting": 2,
-            "subdomains": [
-                "resources"
-            ],
-            "apis": {
-                "Navigator.prototype.product": 7,
-                "Navigator.prototype.userAgent": 7,
-                "Navigator.prototype.cookieEnabled": 7,
-                "window.sessionStorage": 7,
-                "Navigator.prototype.appName": 7,
-                "window.localStorage": 7,
-                "Document.cookie getter": 7,
-                "Document.cookie setter": 7,
-                "Date.prototype.getTime": 7,
-                "Navigator.prototype.doNotTrack": 7,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.width": 2,
-                "Navigator.prototype.language": 2
-            },
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "95efc6a1b0e18636b608c1280049e1e31e5dac2f28c111ae489cea912f8b927b"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "_pbjs_userid_consent_data": {
-                    "ttl": 2592006,
-                    "length": 16,
-                    "prevalence": 0.0007025996185887784,
-                    "uniqueness": 0.14285714285714285
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
+                "www.washingtonexaminer.com",
                 "www.wikifeet.com"
             ]
         },
@@ -169,8 +152,8 @@
                 "router"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -179,81 +162,71 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
+                "www.botasot.info",
                 "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
+                "www.washingtonexaminer.com",
                 "www.wikifeet.com"
             ]
         },
         {
             "rule": "infolinks\\.com\\/gsd",
-            "cookies": 0.000703,
+            "cookies": 0.000602,
             "fingerprinting": 0,
             "subdomains": [
                 "router"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "b1b2fe8c7b5f0f8f8aaaaf567066018bd0b3ef13b4c5d906e5b3ee27d242475f",
-                "30515da9b1ccc5993ffc31554f02753dd8fd4fbcb64f92753c1dd96b774e163a",
-                "9da4f327db2c8ef3bb5746ef09a6dd66627909cadae2a97d9802799a9f113f91",
-                "aa1f2c87b98b317eb26c609d8dc44e10f2197e076a44c086b502f3d317c230cc",
-                "bf2fbf7984eba78db71274490a8c486360d8339f657d122ebb4e0539141b1ae1",
-                "d81e2008cd1e590e87796eae20da9966e2acd26b79c2fc70de33289a3bd0743f"
+                "c818064939af411c914c84a94874e67bdc9c9840b17cba54600fb5ccaaa726b1",
+                "ed85ea1502d41252974afcba05d2d9c28f2e3eb2c5ab3a6e7ab3f7d131357644",
+                "e080bc28546d518ea8339be0ef35636dd37311961b7356a309c356b98524dbb2",
+                "bc295f1b5fa5fd362790ab870797ae6c109e56acd3c79c37830fabdd3efae794"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
+                "www.botasot.info",
                 "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
+                "www.washingtonexaminer.com",
                 "www.wikifeet.com"
             ]
         },
         {
             "rule": "infolinks\\.com\\/action\\/doq\\.htm",
-            "cookies": 0.000703,
+            "cookies": 0.000402,
             "fingerprinting": 0,
             "subdomains": [
-                "rt3054",
-                "rt3004",
-                "rt3050",
-                "rt3003",
-                "rt3060",
-                "rt3042"
+                "rt3029",
+                "rt3066",
+                "rt3007",
+                "rt3062",
+                "rt3009"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "6461470dea2c14d909a0b9250beece7cd8affd9e16d71c58f9d4c05323af0046",
-                "c69ebb3d0a5386beb24d1fdc2f016f6d2b240df124c0334d98febddfc04451f5",
-                "df9a5a957b95f1d87b32f03516ef281fcf677a69b49257c7cdec9c4e7011bfdd",
-                "90deec8a700d4d7878ad83fe9c2d20c5d237764488fa353ffd6ae51f221a34e8",
-                "14b519e6eb66744b272e1994d001988d6f78b979037f33815cb7f092f156d734",
-                "b414368679b23db97713d5cfde6393a1f2963ec6c4a2464e49eafff04b3fa6ac"
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "e4c9c1c1d8654cf0ad2111276d574c9f9c97ba9bfcc81ac78816807128a0a408",
+                "bb6e46684166403a64f12d92a911d5e4d445ed9e06855f461c5a0dbb9cb6878b"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
+                "www.botasot.info",
                 "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
                 "www.wikifeet.com"
             ]
         },
@@ -265,8 +238,8 @@
                 "router"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -275,12 +248,260 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
+                "www.botasot.info",
                 "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/ox-usync",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.botasot.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/js\\/1817\\.004-3\\.025\\/in_search\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae938820655d8afb2bcaac1a4c8e03cb464fd7cf04c3f4c9f9ce7917eae728c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.villagevoice.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/js\\/pbice\\/3\\.025\\/pbice\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "95efc6a1b0e18636b608c1280049e1e31e5dac2f28c111ae489cea912f8b927b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.botasot.info",
+                "www.villagevoice.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/VR-usync",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/apn-usync",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.botasot.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/zmn-usync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.botasot.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/mnet-usync",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.botasot.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/zeta-usync",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.botasot.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/imd-usync",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/outh-usync",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.laweekly.com",
+                "www.villagevoice.com",
                 "www.wikifeet.com"
             ]
         },
@@ -289,332 +510,89 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "rt3054",
-                "rt3004",
-                "rt3050",
-                "rt3003",
-                "rt3060",
-                "rt3042"
+                "rt3029",
+                "rt3062",
+                "rt3009"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "22bc6c61650bff32c21ef3baf51765aeee2d69d2a77d1e986366140560194554",
-                "d40fd8876efbfa015fd0caa9a74ad86a664b40bf895bc844f094f028bf1970c4",
-                "7a0b7b2f34641fe424a2631666647c682fa22cc9ea85364c355817676c660117",
-                "e3efb281599a4e277f87df5a5714a1d8380d65179ffe121a13c1a06bf6417da0",
-                "17f567b308ce9cb67a40095128e485331f8ce25021077b30c02b339f218d0aad",
-                "0ac76d901fc8d7dcc7f1801ea61da084ddfc5fd2e650a9280f6b7e22f33b5642"
+                "665be437aef72b8b9c8d4793e2bc082bbc46861da0b744095d27cc7e52ed2413",
+                "751be4deada3860e84d3923add7e6730a1fd3cc1cea4502beb6a63f94e252252"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/sonobi-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
                 "www.wikifeet.com"
             ]
         },
         {
             "rule": "infolinks\\.com\\/dyn\\/ix-usync",
-            "cookies": 0.000703,
+            "cookies": 0.000402,
             "fingerprinting": 0,
             "subdomains": [
                 "router"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
                 "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
                 "www.wikifeet.com"
             ]
         },
         {
-            "rule": "infolinks\\.com\\/dyn\\/ox-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/apn-usync",
-            "cookies": 0.000803,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000803,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.sante-nutrition.org",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/zmn-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/action\\/shba\\.htm",
+            "rule": "infolinks\\.com\\/js\\/vidice\\/2\\.0\\/vidice\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rt3054",
-                "rt3004",
-                "rt3050",
-                "rt3003",
-                "rt3060",
-                "rt3042"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/VR-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/js\\/vidice\\/1\\.0\\/vidice\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "resources"
             ],
             "apis": {
-                "Date.prototype.getTime": 6,
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.maxTouchPoints": 6,
-                "Navigator.prototype.languages": 6,
-                "URL.createObjectURL": 6,
-                "HTMLMediaElement.prototype.canPlayType": 6,
-                "MediaSource.isTypeSupported": 6,
-                "Event.prototype.timeStamp": 5
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.languages": 1
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "610a427b4b6da16af92fa70bc4ebc4bc85ab2fbfc59bfea7d01a58e78412c88a"
+                "b2bdac211f43fbee9eeb4d50f8755206599f76296cd15316a97c9d2cb2050d2f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com"
+                "www.villagevoice.com"
             ]
         },
         {
-            "rule": "infolinks\\.com\\/dyn\\/outh-usync",
-            "cookies": 0.000703,
+            "rule": "infolinks\\.com\\/action\\/adview\\.htm",
+            "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [
-                "router"
+                "rt3029",
+                "rt3062",
+                "rt3009"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/zeta-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/usersync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -623,130 +601,125 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "consolegameswiki.com",
                 "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
+                "www.villagevoice.com",
                 "www.wikifeet.com"
             ]
         },
         {
-            "rule": "infolinks\\.com\\/dyn\\/sovrn-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "16957a3bb9422d4ba380be3b630db7a310e87e65f224e2be865dd64dd0b5664d"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/dyn\\/pbm-usync",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "router"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consolegameswiki.com",
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
-                "www.wikifeet.com"
-            ]
-        },
-        {
-            "rule": "infolinks\\.com\\/js\\/1757\\.010-3\\.025\\/ice\\.js",
-            "cookies": 0.000602,
+            "rule": "infolinks\\.com\\/js\\/1812\\.010-3\\.025\\.ab\\.1817\\.004-3\\.025\\/ice\\.js",
+            "cookies": 0.000301,
             "fingerprinting": 2,
             "subdomains": [
                 "resources"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Date.prototype.getTime": 6,
-                "Document.cookie getter": 6,
-                "window.localStorage": 6,
-                "Navigator.prototype.plugins": 6,
-                "Date.prototype.getTimezoneOffset": 6,
-                "window.sessionStorage": 6,
-                "Document.cookie setter": 6,
-                "Navigator.prototype.cookieEnabled": 6,
-                "Screen.prototype.colorDepth": 6,
-                "Screen.prototype.availWidth": 6,
-                "Screen.prototype.availHeight": 6
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "cc8562872dc541ccfe9ab57d0d85581b33b22924c126651f11d1dc3456ad7961"
+                "00a6c0c3e96c824b25ca0e2d5a7f85e3ca4714536cfc035789c37888bb815f04"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "gCStest": {
-                    "ttl": -686465844,
-                    "length": 8,
-                    "prevalence": 0.0006022282445046673,
-                    "uniqueness": 1
-                },
                 "logglytrackingsession": {
                     "ttl": null,
                     "length": 36,
-                    "prevalence": 0.00010037137408411121,
+                    "prevalence": 0.0003012350637614218,
+                    "uniqueness": 1
+                },
+                "gCStest": {
+                    "ttl": -714146717,
+                    "length": 8,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 1
+                },
+                "fc": {
+                    "ttl": 23,
+                    "length": 76,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                },
+                "pv": {
+                    "ttl": 23,
+                    "length": 39,
+                    "prevalence": 0.00010041168792047395,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "seatemperature.info",
-                "www.bellazon.com",
-                "www.iplocation.net",
-                "www.laweekly.com",
-                "www.psychforums.com",
+                "botasot.info",
+                "www.washingtonexaminer.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/js\\/1812\\.010-3\\.025\\.ab\\.1817\\.004-3\\.025\\/in_search\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae938820655d8afb2bcaac1a4c8e03cb464fd7cf04c3f4c9f9ce7917eae728c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "botasot.info",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/dyn\\/sonobi-usync",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
                 "www.wikifeet.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.001,
+    "cookies": 0.000602,
     "types": {
-        "Image": 94,
-        "Script": 47,
-        "Document": 7,
-        "XHR": 14
+        "Script": 37,
+        "Document": 6,
+        "XHR": 5,
+        "Image": 51
     },
     "nameservers": [
         "bob.ns.cloudflare.com",

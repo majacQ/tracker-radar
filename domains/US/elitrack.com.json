@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000339,
+    "sites": 5,
     "subdomains": [
         "tck"
     ],
@@ -23,22 +23,50 @@
                 "tck"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "e5bce51ed07389ca262d1863d92092df82424916cd59ad1a14aca82e1c7cd1eb"
+                "b2a06a8dba9683fac93560155883c646b41d078c6568d675f1149d47ca8a73c6",
+                "f89f4efdc2ac7232e58942642740b16e79b827b036fbe2d035adf140def0bd8e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "bricomarche.com",
-                "www.whisky.fr"
+                "www.bricomarche.com",
+                "www.bricorama.fr"
             ]
         },
         {
-            "rule": "elitrack\\.com\\/consent",
+            "rule": "elitrack\\.com\\/tag\\/store",
+            "cookies": 0.0000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tck"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "e505fe52a0e40e1de1df31d600d65168c512312e6b6bb2d95d7cd03b9a34b541"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricomarche.com",
+                "www.bricomarche.com",
+                "www.bricorama.fr"
+            ]
+        },
+        {
+            "rule": "elitrack\\.com\\/impression",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -46,48 +74,24 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
+            "responseHashes": [],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "motoblouz.com",
-                "www.motoblouz.com"
-            ]
-        },
-        {
-            "rule": "elitrack\\.com\\/tag\\/store",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tck"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "motoblouz.com",
-                "www.motoblouz.com"
+                "motoservices.com",
+                "www.motoservices.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000207,
+    "cookies": 0.0000271,
     "types": {
-        "Script": 2,
-        "Image": 4
+        "Script": 6,
+        "Image": 2
     },
     "nameservers": [
         "ns-83-a.gandi.net",

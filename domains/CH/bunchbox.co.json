@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000903,
-    "sites": 9,
+    "prevalence": 0.000803,
+    "sites": 8,
     "subdomains": [
         "cdn"
     ],
@@ -14,7 +14,7 @@
     "resources": [
         {
             "rule": "bunchbox\\.co\\/5c921d8d5954af76549a18ce\\.min\\.js",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -22,6 +22,8 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.language": 2,
                 "window.localStorage": 2
             },
@@ -29,10 +31,23 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "d7c0e4b459675ee2a00483d2bc57c2f481aa5df9cfdf34f498bb47f16f8be2c6"
+                "4100c05eba5bc6bae3cca7506e915f4206888399b5f28bee349601e960e01984"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "_bb": {
+                    "ttl": 63072003,
+                    "length": 24,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 1
+                },
+                "_bb_t": {
+                    "ttl": 63072003,
+                    "length": 6,
+                    "prevalence": 0.0002008233758409479,
+                    "uniqueness": 0.5
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "swr.de",
@@ -42,7 +57,7 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000401,
+    "cookies": 0.000602,
     "types": {
         "Script": 2
     },

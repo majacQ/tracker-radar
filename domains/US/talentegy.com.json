@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.000061,
+    "sites": 9,
     "subdomains": [
         "analytics",
         "powerview4",
+        "powerview5",
         "powerview2"
     ],
     "cnames": [],
@@ -16,20 +17,20 @@
     "resources": [
         {
             "rule": "talentegy\\.com\\/d159acb6-3ac2-415e-98c2-e2252dedf190\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "analytics"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "49424e399e2a550327041fe95e60d6121c7a1d2e1b14e199bad74988f0752942"
+                "5df74672954c115479fa10325e6416274b6e24ec1ff8cf231d85fdd1a5ea3e01"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -41,14 +42,141 @@
         },
         {
             "rule": "talentegy\\.com\\/talentegy\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000203,
             "fingerprinting": 2,
             "subdomains": [
-                "powerview4"
+                "powerview4",
+                "powerview5"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "window.name": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "b6fbd9fb5abefa11ab681e0f7d3bbcd7601a553a9bee2955246daea018329133",
+                "5e64cb46c997b0324750ab85238367f97a8dd1ae387e67941be553fd60c56280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.2.02d8": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_ses.2.02d8": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_id.4.904d": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_ses.4.904d": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_id.39.9c0c": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_ses.39.9c0c": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hcahealthcare.com",
+                "careers.hcahealthcare.com",
+                "careers.walmart.com",
+                "www.uchealth.com"
+            ]
+        },
+        {
+            "rule": "talentegy\\.com\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "powerview4",
+                "powerview5"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hcahealthcare.com",
+                "careers.walmart.com",
+                "encompasshealth.com",
+                "www.uchealth.com"
+            ]
+        },
+        {
+            "rule": "talentegy\\.com\\/4fb3a33c-57cb-46cb-90ae-0b29fd02f151\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a15eeadad32ba5a2fdfe6bb8e4121fc01d2a80f9b2820d34ca233b475f0928e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "walmart.com",
+                "careers.walmart.com"
+            ]
+        },
+        {
+            "rule": "talentegy\\.com\\/matomo\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "powerview4",
+                "powerview2"
             ],
             "apis": {
                 "Date.prototype.getTime": 2,
-                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.vendor": 1,
                 "Document.cookie getter": 2,
                 "Document.cookie setter": 2,
                 "Navigator.prototype.doNotTrack": 2,
@@ -62,57 +190,47 @@
                 "Navigator.prototype.platform": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e8d96ae35558fa7a77dc65f048dcb7a311ab0864757a66f769380ce98c1caedf"
+                "2f7740f4d041322f270f742f6b976b679237f87cfc651986b48a1908276f6f95"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "_pk_id.2.44dc": {
-                    "ttl": 33955210,
+                "_pk_id.126.e393": {
+                    "ttl": 33955203,
                     "length": 28,
-                    "prevalence": 0.000013804146765688412,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
-                "_pk_ses.2.44dc": {
-                    "ttl": 1809,
+                "_pk_ses.126.e393": {
+                    "ttl": 1810,
                     "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_id.127.fdc6": {
+                    "ttl": 33955201,
+                    "length": 52,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "_pk_ses.127.fdc6": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hcahealthcare.com",
-                "careers.hcahealthcare.com"
-            ]
-        },
-        {
-            "rule": "talentegy\\.com\\/matomo\\.php",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "powerview4"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "hcahealthcare.com",
-                "careers.hcahealthcare.com"
+                "encompasshealth.com",
+                "www.lockheedmartinjobs.com"
             ]
         },
         {
             "rule": "talentegy\\.com\\/4939f8bf-b9b3-437c-a1df-94b9bb9fa647\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 1,
             "subdomains": [
                 "analytics"
@@ -121,61 +239,13 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "d2666c19f697976db3fef4a5636379b82e34645074c8db4b23df95507c0fe5dd"
+                "ce168044949e367a2438005afd6bba3b4388569f7aaf2a3ddf81ee3ae0e08ecd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "lockheedmartinjobs.com",
-                "www.lockheedmartinjobs.com"
-            ]
-        },
-        {
-            "rule": "talentegy\\.com\\/matomo\\.js",
-            "cookies": 0.0000138,
-            "fingerprinting": 2,
-            "subdomains": [
-                "powerview2"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "window.name": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Navigator.prototype.javaEnabled": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "2f7740f4d041322f270f742f6b976b679237f87cfc651986b48a1908276f6f95"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "_pk_id.127.fdc6": {
-                    "ttl": 33955203,
-                    "length": 52,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 1
-                },
-                "_pk_ses.127.fdc6": {
-                    "ttl": 1803,
-                    "length": 1,
-                    "prevalence": 0.000013804146765688412,
-                    "uniqueness": 0.5
-                }
-            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "lockheedmartinjobs.com",
@@ -191,10 +261,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
             ],
             "type": "Image",
             "firstPartyCookies": {},
@@ -207,10 +277,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000276,
+    "cookies": 0.000061,
     "types": {
-        "Script": 8,
-        "Other": 2,
+        "Script": 12,
+        "Ping": 4,
         "Image": 2
     },
     "nameservers": [

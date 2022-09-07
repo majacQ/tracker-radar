@@ -4,14 +4,64 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
-    "sites": 2,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "resources"
+        "go",
+        "resources",
+        "config"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "planetnine\\.com\\/regtag\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "32d8b508e5348bb8cec0c1c5ad6401aeca01ad61e6e8c2b2de33f3b173e3a56f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topgear.nl",
+                "www.filmladder.nl"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/player\\/latest\\/Pnvp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8d53713ee1ec39cf6e64ce50f1823e3212fb521bbb439ad2def06a90afbda36e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topgear.nl",
+                "www.filmladder.nl"
+            ]
+        },
         {
             "rule": "planetnine\\.com\\/scripts\\/filmladder\\.nl\\.js",
             "cookies": 0,
@@ -20,15 +70,39 @@
                 "resources"
             ],
             "apis": {
-                "URL.createObjectURL": 2
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "02a5e80c1e41237444915b55eae518d1341e07ce585b01e1513825716e02240d"
+                "f89c5c45c8a5cd1d772016b80d7c28afe2c7d298583a579faeb065dfa6324692"
             ],
             "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmladder.nl",
+                "www.filmladder.nl"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/api\\/config\\/filmladder\\.nl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7ec4ccc05e060a6c5e54b6e4d0360882c21fc9a8c069605ac758c8296edbfb23"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -41,11 +115,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Fetch": 2,
+        "Script": 4,
+        "XHR": 2
     },
     "nameservers": [
-        "ns3.hostnetbv.nl",
-        "ns1.hostnet.nl",
-        "ns2.hostnetbv.com"
+        "ns01.hostnet.nl",
+        "ns02.hostnet.nl"
     ]
 }

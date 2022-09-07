@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-GB"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.0016,
+    "sites": 16,
     "subdomains": [
         "get"
     ],
@@ -13,23 +13,30 @@
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "geojs\\.io\\/v1\\/ip\\/geo\\.js",
+            "rule": "geojs\\.io\\/v1\\/ip\\/country\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "get"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Script",
+            "responseHashes": [
+                "25edf9e0698609beece2b6ef44e8d5878913e3aafe1bba5400b993be048a0157"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dxomark.com",
-                "www.hesgoal.com"
+                "cityam.com",
+                "www.cityam.com",
+                "www.goalcast.com",
+                "www.maxim.com",
+                "www.phonearena.com",
+                "www.thewrap.com",
+                "www.washingtonexaminer.com"
             ]
         },
         {
@@ -40,17 +47,65 @@
                 "get"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "f79fbd1517ae80c01767e09732641211c054723b36f5b506b9105d54b46c2ccc"
+                "3644f5e8e5826e8866dd7fb1714a49ac0d6590ade1fb1ad72ea4bbfd9d0dc0e7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuckit.cc",
+                "www.pythonforbeginners.com",
+                "www.rectube.webcam",
+                "www.wxx.wtf"
+            ]
+        },
+        {
+            "rule": "geojs\\.io\\/v1\\/ip\\/geo\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9e3602976c011618ca81385e9cbd7e400c2059b4f04aac0db1f458284ec1edde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hesgoal.com",
+                "www.hesgoal.com",
+                "www.reviews.io"
+            ]
+        },
+        {
+            "rule": "geojs\\.io\\/v1\\/ip\\/geo\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "3644f5e8e5826e8866dd7fb1714a49ac0d6590ade1fb1ad72ea4bbfd9d0dc0e7"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "holiday-weather.com",
+                "www.outdoorworlddirect.co.uk",
                 "www.scoopwhoop.com"
             ]
         }
@@ -59,8 +114,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2,
-        "XHR": 2
+        "Fetch": 11,
+        "Script": 3,
+        "XHR": 3
     },
     "nameservers": [
         "kim.ns.cloudflare.com",

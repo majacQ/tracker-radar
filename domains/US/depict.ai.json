@@ -4,29 +4,127 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
-    "sites": 6,
+    "prevalence": 0.000122,
+    "sites": 18,
     "subdomains": [
         "cdn",
-        "proxy",
-        "api"
+        "ws",
+        "api",
+        "proxy"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "depict\\.ai\\/cdon\\/modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "dd7e91e2fdcbd584fc103bb40e881d0b7dc0000d96cf384e3d6c4b13b84bee9a"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdon.fi",
+                "cdon.se"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/ws\\/create-events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000542,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdon.fi",
+                "cdon.se",
+                "knix.com",
+                "www.elon.se",
+                "www.plantagen.fi",
+                "www.plantagen.se",
+                "www.plantasjen.no",
+                "www.synsam.se"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/v2\\/recommend\\/products\\/general",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "942a9029f2318c507e598e6a16d25597388c57045882c871b191f261a0331e98",
+                "e55f9dd0ed438c27d14e1f4ef4147c84ce00419d65c3c4e5a98bf09691e0d68f",
+                "11ecfc05adb95dcf5e3859607c469555e7272bb1689b8b58f4eb6b52c1982848"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdon.se",
+                "cdon.fi",
+                "www.elon.se",
+                "www.synsam.se"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/elon\\/modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a3c5f09af8cccfb3cfe94c78c076184c865efd9600d4973e32214321537982c7"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elon.se",
+                "www.elon.se"
+            ]
+        },
         {
             "rule": "depict\\.ai\\/odla\\/depict-ai\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
                 "window.localStorage": 2,
+                "window.innerWidth": 2,
                 "BroadcastChannel.prototype.constructor": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "ff1c06d8b28fb825241c274b93017c20c7539a7b63fa2e908f785c873f4e70cb"
@@ -47,8 +145,8 @@
                 "proxy"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
@@ -56,59 +154,106 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "odla.nu",
-                "www.odla.nu",
-                "www.plantagen.se",
-                "www.plantasjen.no"
+                "www.odla.nu"
             ]
         },
         {
-            "rule": "depict\\.ai\\/plantagen_21_06_14\\/depict-ai\\.js",
+            "rule": "depict\\.ai\\/plantagen-2022-03-31\\/depict-ai\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "BroadcastChannel.prototype.constructor": 2
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 4,
+                "window.innerWidth": 4,
+                "BroadcastChannel.prototype.constructor": 3
             },
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "5a9081af0d11b23ef3c9623757a4e2cadd98de7d23e39a0b6648632350142582"
+                "3d6f652798d814e1df0c807a5796a923deb81e7c56489e212b469898849608a4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "plantagen.se",
+                "plantagen.fi",
+                "www.plantagen.fi",
                 "www.plantagen.se",
                 "www.plantasjen.no"
             ]
         },
         {
-            "rule": "depict\\.ai\\/recommend",
+            "rule": "depict\\.ai\\/v2\\/recommend\\/products\\/product",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "0cda81553f7fdc3152ea25800f6c72820ab0eba34a0639b291574e6ee6f9c706",
-                "2366a2730c4cff34854350f1992ef5fce74f410924b3fcadb581e9ee58818492"
+                "b9f73b05e62ceb89627aaee112b86c63412ba30c66ede8abd76efed6bfb0fb82",
+                "0ba5a0c68e8e9f8e1d30b09aefeaacd0eeebf666061ba9fb72f6d1aaa197ff85",
+                "e7507b21c78c0b7b2c35f5b9106eb6800c0aebff9b335fd6d491d4e30fd0afb4"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "plantagen.se",
+                "plantagen.fi",
+                "www.plantagen.fi",
                 "www.plantagen.se",
                 "www.plantasjen.no"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/synsam\\/modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1d2016e34b80277032dacd01b50f7efafe2105475b8cf90eb8f0e55a47dd6a32"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synsam.se",
+                "www.synsam.se"
+            ]
+        },
+        {
+            "rule": "depict\\.ai\\/v2\\/recommend\\/products\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "f34c37ecc8c27be2a38f8d3f972b3a51a7f83e5695328dd573f8f3dabfe4841d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synsam.se",
+                "www.synsam.se"
             ]
         }
     ],
@@ -116,9 +261,10 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 5,
-        "WebSocket": 4,
-        "Fetch": 3
+        "Other": 6,
+        "WebSocket": 10,
+        "Fetch": 10,
+        "Script": 6
     },
     "nameservers": [
         "rosa.ns.cloudflare.com",

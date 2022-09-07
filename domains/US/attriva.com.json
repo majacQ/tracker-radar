@@ -4,43 +4,58 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "gtm"
+        "scripts"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "attriva\\.com\\/attrivaDrift\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "attriva\\.com\\/gam\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
             "subdomains": [
-                "gtm"
+                "scripts"
             ],
-            "apis": {},
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "816d3d55a73669c34adc387ba21fa1dd6f99c240d99720bd9013a481b0d70e1d"
+            ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "gam_user_tracking": {
+                    "ttl": 31536004,
+                    "length": 702,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "getcloudapp.com",
-                "www.getcloudapp.com"
+                "plannthat.com",
+                "www.plannthat.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000136,
     "types": {
         "Script": 2
     },
     "nameservers": [
-        "ns1.gsgp4.siteground.asia",
-        "ns2.gsgp4.siteground.asia"
+        "ns1.siteground.net",
+        "ns2.siteground.net"
     ]
 }

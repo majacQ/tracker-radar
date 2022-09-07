@@ -7,10 +7,12 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
-        "js-api"
+        "js-api",
+        "cdn",
+        "widget"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -23,18 +25,20 @@
                 "js-api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b93c4cd1c8c5e3343a0489bffb8615bf5da747fdd4b3baf0b217df801234394d"
+                "e45becbb8bcfdff02d85b0c6e30856d2f49a0bb51f56841f0af12b8dd7b4ebe4",
+                "fad60f47bbd10f92affd1dc7fc636f45a80c99cdad297c6428c496bc5e1ffd30"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gaz-tarif-reglemente.fr",
-                "www.es.fr"
+                "www.es.fr",
+                "www.fortuneo.fr"
             ]
         },
         {
@@ -45,18 +49,110 @@
                 "js-api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "9b366bd754822a2b9f30889d9df0f463a6ba3638a7d5ddb2527572235909fb1d"
+                "9b366bd754822a2b9f30889d9df0f463a6ba3638a7d5ddb2527572235909fb1d",
+                "3edfb14804f28d101fc2cacab7d3066b91b0a46cdc113cb80eb99b51aafa88fa"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "gaz-tarif-reglemente.fr",
-                "www.es.fr"
+                "www.es.fr",
+                "www.fortuneo.fr"
+            ]
+        },
+        {
+            "rule": "dial-once\\.com\\/integrations-widget-widget\\/assets\\/auto\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ab897cdf7bdef960903c87650a438aa4c62e863714fa162bd98399b62a551184"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darty.com",
+                "www.kiabi.com",
+                "www.vattenfall.fr"
+            ]
+        },
+        {
+            "rule": "dial-once\\.com\\/integrations-widget-widget\\/assets\\/autoBundle-62e991bb3d4e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7a6c5bff0d86c48843e537919bbcb6f3b10d093e05a69696c3410c8881bfc905"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darty.com",
+                "www.kiabi.com",
+                "www.vattenfall.fr"
+            ]
+        },
+        {
+            "rule": "dial-once\\.com\\/api\\/widgets\\/95e68615-b27e-4d04-8e99-f38d37d1ea52",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a8155701771038dddcf417c689ea19e9d9145ff636a1127f6fec449fae09c8f5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darty.com",
+                "www.darty.com"
+            ]
+        },
+        {
+            "rule": "dial-once\\.com\\/api\\/widgets\\/e024de40-9336-4ee9-96bb-798acbb79c62",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a662a1f6c04ebb8df1e0f8d674c667c1a799056914bc4666550571a917c2d44e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kiabi.com",
+                "www.kiabi.com"
             ]
         }
     ],
@@ -64,7 +160,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "XHR": 4
+        "XHR": 6,
+        "Script": 6,
+        "Fetch": 4
     },
     "nameservers": [
         "ns-cloud-a1.googledomains.com",

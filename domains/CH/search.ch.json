@@ -7,35 +7,178 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
-        "meteo",
-        "lib"
+        "map",
+        "lib",
+        "meteo"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "search\\.ch\\/widget\\/Kerzers",
-            "cookies": 0.0001,
+            "rule": "search\\.ch\\/api\\/map\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.devicePixelRatio": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0241615fbdd8f2670098dc32948873c733db06814f3b44addc632ab33ae00178"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hkvbs.ch",
+                "www.parking.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/itjs\\/fonts\\.css",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "meteo"
+                "lib"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "f36f688dc0816c33d1dfbbfe8c71b1b74091499ea3f5ab6313f907ddb10effad"
+                "45445e3360e5d7379e7fb532a2818cbe6258bbf6663c812432fbee0245596302"
             ],
-            "type": "Document",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kerzers.ch",
-                "www.kerzers.ch"
+                "hkvbs.ch",
+                "www.parking.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/api\\/itjs\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "36da4a9880a072bd086e75e87daa42007e1254e9ebff13fb324db4a4977aa0c3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hkvbs.ch",
+                "www.parking.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/chmap\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "457cbffe09cd599cb54b100867cdaf2e17ffa396b9e233c01d864532b8361105",
+                "e7571a5cacd10fc078d466ea904de0dac5493e22d7c18e4d72648acaac3b3bbe"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hkvbs.ch",
+                "www.hkvbs.ch",
+                "www.parking.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/chmap\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f3bed1aae94458d181dc7e59854982dfc911ab9ffaf935bec8a7432a391f34bc",
+                "5c9e6463d43416a7b61378cbd63f64a6b0c603c87a4921bcc4a1b9ecff137bb3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hkvbs.ch",
+                "www.hkvbs.ch",
+                "www.parking.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/fonts\\/OpenSans-400\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e97b6c18e68e67073b8da5f6a4c2cec52e131a775e390d9c7691850a07a820c0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hkvbs.ch",
+                "www.lacrux.com",
+                "www.parking.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/fonts\\/OpenSans-600\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b457ac6f5e3aaffd8f3cbecb16e04a0c7c40284f1b694010309f3f8ea8ee66b6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hkvbs.ch",
+                "www.parking.ch"
             ]
         },
         {
@@ -51,18 +194,18 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "2a0b2e6835645e5cbd33e24683f4519bc8c6625815be4548495f92b16a6196de"
+                "1c8e132fffce362c27076a3189d7c4c04e93cbf3fa3a295b7b7d08241e68332e"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kerzers.ch",
-                "www.kerzers.ch"
+                "lacrux.com",
+                "www.lacrux.com"
             ]
         },
         {
-            "rule": "search\\.ch\\/images\\/chart\\/kerzers\\.svg",
+            "rule": "search\\.ch\\/images\\/chart\\/ausserferrera\\.svg",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -73,52 +216,30 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "9a175423a95e39b41384d5e2bb05c76d3ec0af4865f247a199dbb82b204fc487"
+                "b60005552a9297341aa07ca8955e878edb6c27c4a48e6fc95370c0c4a71b48bb"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "kerzers.ch",
-                "www.kerzers.ch"
-            ]
-        },
-        {
-            "rule": "search\\.ch\\/fonts\\/OpenSans-400\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "lib"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "54c64f3c66372027154f01fc9f24b4e25fdfe405b70d1994c79abbc2576ff775"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kerzers.ch",
-                "www.parking.ch"
+                "lacrux.com",
+                "www.lacrux.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.000301,
     "types": {
-        "Document": 2,
-        "Stylesheet": 2,
-        "Image": 2,
-        "Font": 2
+        "Script": 2,
+        "Stylesheet": 6,
+        "Image": 8,
+        "Font": 5
     },
     "nameservers": [
+        "ns-cloud-e4.googledomains.com",
         "ns-cloud-e1.googledomains.com",
-        "ns-cloud-e2.googledomains.com",
         "ns-cloud-e3.googledomains.com",
-        "ns-cloud-e4.googledomains.com"
+        "ns-cloud-e2.googledomains.com"
     ]
 }

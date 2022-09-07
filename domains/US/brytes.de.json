@@ -4,17 +4,18 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
         "api",
-        "lw"
+        "lw",
+        "ingestion"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "brytes\\.de\\/v4\\/getgeolocation",
+            "rule": "brytes\\.de\\/v6\\/getgeolocation",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -22,7 +23,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "9b202ecbc6d45c6d8901d989a918878397a3eb9d00e8f48022fc051b19d21a1d"
@@ -36,7 +37,7 @@
             ]
         },
         {
-            "rule": "brytes\\.de\\/v4\\/getabvariation",
+            "rule": "brytes\\.de\\/v6\\/getabvariation",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -44,10 +45,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "feb35c7e69987ee67b6d0557a4ebcd169a9c9fd1231e0f6fef2f1636d01fc005"
+                "f4da3c49cf2be95d9a71b4a30bc5e21c21d8cb1a5a410814ffcb413c852d3d50"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -66,12 +67,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
             ],
-            "type": "Other",
+            "type": "Ping",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -80,7 +81,47 @@
             ]
         },
         {
-            "rule": "brytes\\.de\\/v4\\/getip",
+            "rule": "brytes\\.de\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        },
+        {
+            "rule": "brytes\\.de\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        },
+        {
+            "rule": "brytes\\.de\\/v6\\/getip",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -88,7 +129,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "7f674579668ecf1c831e762dd9a76603eeff5436d4e20870c18a90587fb05172"
@@ -106,8 +147,9 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Fetch": 6,
-        "Other": 2
+        "Fetch": 8,
+        "Ping": 2,
+        "Preflight": 2
     },
     "nameservers": [
         "ns.udag.de",

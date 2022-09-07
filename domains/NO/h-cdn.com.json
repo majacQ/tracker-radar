@@ -7,11 +7,14 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.000802,
+    "sites": 8,
     "subdomains": [
         "player",
-        "link"
+        "link",
+        "perr",
+        "zagent30",
+        "zagent29"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -24,25 +27,27 @@
                 "player"
             ],
             "apis": {
-                "window.localStorage": 6,
-                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 9,
+                "Navigator.prototype.userAgent": 9,
                 "Navigator.prototype.product": 1,
                 "Navigator.prototype.platform": 1,
                 "Navigator.prototype.maxTouchPoints": 1,
                 "window.sessionStorage": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Element.prototype.getClientRects": 1,
-                "window.devicePixelRatio": 1
+                "window.devicePixelRatio": 1,
+                "window.innerHeight": 1
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 9,
+            "prevalence": 0.000903,
             "cnames": [],
             "responseHashes": [
-                "92389a2c97f4a0ce320db0a5b9a0e05351801743e0f9d0d7f7e24254f5a8ff4d",
-                "6634dd420c196d32bc41c7add078085a4c4941b8beb88fb7d8f2e5fb39a52c58",
-                "c0993650ef7094056dc669b85a7fb95d6cb643225e004e3b91ee58002660ad3a",
-                "f8457f64b045a21dac76a0728a7742c4e387405afe6a7fb6e9fb1bc97f0da128",
-                "708d5aea2bc301135b1278cfe88db9d57ea326de121cb3750d0b9e6d014b2dc5"
+                "576e9cfdafac068b7f11e2b2bd24bd1c338c39227a283b8ffc6e9a05f9e040dd",
+                "ca729ff0cdbd560760f67045e17ea586017508795b07cf42fcb92315c0f4a478",
+                "30489ba9286dfe4e2c847cbd0a979f8150f744403fab7b1f23f40c701151b617",
+                "520e8898d877c16429bf5beaccf96d61a852a9cb4e3519e65fff97ed7c916c89",
+                "c2849c757b232fb826cb44621258cec6a7b5358144235f4eb14210504ae0a99d",
+                "e14e1af0cb1e2b3cb998b0f4be37305e428a096999f51eeea45626c595b76229",
+                "202adcb82abe517e8e3ff501e80037bb2c57d7011b259dcbdc13815b1acbb953",
+                "bfc0d24cbc29c2dc5590df7e719c9229064aabf5cc584ee3bb30429fc5963ac2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -50,10 +55,13 @@
             "exampleSites": [
                 "dw.com",
                 "m.dw.com",
+                "toppgolf.no",
+                "video.foxnews.com",
+                "www.blick.ch",
                 "www.dw.com",
                 "www.foxnews.com",
-                "www.tagesschau.de",
-                "www.wral.com"
+                "www.sportschau.de",
+                "www.tagesschau.de"
             ]
         },
         {
@@ -64,26 +72,104 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 8,
+            "prevalence": 0.000802,
             "cnames": [],
             "responseHashes": [
-                "3c9fbcbdde5ec53ff3aeb31d436052e1866eaa7d3abd4ccae05e330ee58aa52a",
-                "b7472420f6c5ff7ad046134bb54d6290cadb5b8c1fd948e4f0568fc4a1c6efd9",
-                "1b25dec139b02cf9d23cc7ea7c090d9a41b150eb467017ebc1c56018ee10e737",
-                "b738e9af13af928f6fb31808e161ae045669ef418324a3d7455418b0909c17d8"
+                "6b8614fd67af366c07b999ce186cf1d338f22427dabc1e782c558681a96e9ddb",
+                "5d8774b07a6d981066b70af66a860971d1bea72f4f2531b93365ca0f0e427ecb",
+                "8c6a8c34071d1e257a7ce7dcff2086f897a0609b0d93805de71bd1fcb5f2615c",
+                "af3ef9ac9e5e27a3c83ae5993f8a3a3040ee320c6a4e07edfe60eac9b4f7a500",
+                "9b412dad3e2238b969544c2aa1c6481af250f8c9e502f4bc4fd08b78796aad4c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dw.com",
+                "toppgolf.no",
+                "video.foxnews.com",
+                "www.blick.ch",
                 "www.dw.com",
                 "www.foxnews.com",
-                "www.tagesschau.de",
-                "www.wral.com"
+                "www.sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "b141a7524bb772ea57aaf05440bcae1e74fe44208644cad5bcd70f8a3c6e2ba4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "video.foxnews.com",
+                "www.dw.com",
+                "www.foxnews.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/playlist\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "42224d4aca0ff3faca9c8ff6dddfc649dfdda53c48cede3db38150b71190bf07"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "video.foxnews.com",
+                "www.dw.com",
+                "www.foxnews.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "6d9e8bd4ecb5a31c088f741d63ce36809a5e0da0cd5b25be6b2d37384e8fe7a1",
+                "53ffd3bf85b29439d138373fff740b3a0dcce10f17582d14bfc01a7cb46138c3",
+                "081e138108decd0d7e979db12ed66507adedb239753247a7825a884365f4b94f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "video.foxnews.com",
+                "www.dw.com",
+                "www.foxnews.com"
             ]
         },
         {
@@ -103,81 +189,56 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "dw.com",
+                "video.foxnews.com",
                 "www.dw.com",
-                "www.foxnews.com",
-                "www.wral.com"
+                "www.foxnews.com"
             ]
         },
         {
-            "rule": "h-cdn\\.com\\/get",
+            "rule": "h-cdn\\.com\\/be_client_cgi\\/perr",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "link"
+                "perr"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 2,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "5fc20e7e578b38041f533ba1c5bfe2e25bfaaf943f22b3ba2dd757e873890d7d",
-                "a6c1444ecf2a8835eaa9e7d7207efeaedd7a25703296ab84f4d1c02bc4be8410",
-                "8839f11bb51f9ec9f10d98b6b04781c4779bd0556f21c47dcafe0cb4eaf644a4"
+                "0373df4435dd56e813083406055ac208593c8bd3c1faeff1f9974f532d485abc"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dw.com",
-                "www.dw.com",
-                "www.foxnews.com",
-                "www.wral.com"
+                "foxnews.com",
+                "www.foxnews.com"
             ]
         },
         {
-            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/widget\\.css",
+            "rule": "h-cdn\\.com\\/cmd\\/get_links_info",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "player"
+                "zagent30",
+                "zagent29"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b141a7524bb772ea57aaf05440bcae1e74fe44208644cad5bcd70f8a3c6e2ba4"
+                "d911ac8a1211096ff3ccaf40fa482dda73c11c6f18bc71b407be65e6c181e4a7",
+                "0c71fea14acda4d0893c515bd99c5a885cbbf9b85ffabb25d123f79e1332176c"
             ],
-            "type": "Stylesheet",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dw.com",
-                "www.dw.com",
-                "www.foxnews.com"
-            ]
-        },
-        {
-            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/playlist\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "42224d4aca0ff3faca9c8ff6dddfc649dfdda53c48cede3db38150b71190bf07"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "dw.com",
-                "www.dw.com",
-                "www.foxnews.com"
+                "sportschau.de",
+                "www.sportschau.de",
+                "www.tagesschau.de"
             ]
         }
     ],
@@ -185,15 +246,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 11,
-        "Preflight": 4,
-        "XHR": 4,
-        "Stylesheet": 6
+        "Script": 17,
+        "Stylesheet": 8,
+        "XHR": 9,
+        "Preflight": 4
     },
     "nameservers": [
-        "ns-1405.awsdns-47.org",
-        "ns-1554.awsdns-02.co.uk",
         "ns-43.awsdns-05.com",
-        "ns-661.awsdns-18.net"
+        "ns-661.awsdns-18.net",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-1405.awsdns-47.org"
     ]
 }

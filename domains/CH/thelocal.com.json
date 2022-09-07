@@ -7,39 +7,63 @@
     "prevalence": 0.000201,
     "sites": 2,
     "subdomains": [
-        "itp"
+        "a",
+        "www"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "thelocal\\.com\\/",
+            "rule": "thelocal\\.com\\/g\\/collect",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.0002008233758409479
+            },
+            "exampleSites": [
+                "thelocal.ch",
+                "www.thelocal.ch"
+            ]
+        },
+        {
+            "rule": "thelocal\\.com\\/wp-content\\/themes\\/thelocal2021\\/style\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "itp"
+                "www"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "796d9a165eddaaef9746eb197f8a9520efe26f06d013012a0b55d8a4ede1e5c2"
             ],
-            "type": "XHR",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "thelocal.de",
-                "www.thelocal.de"
+                "thelocal.ch",
+                "www.thelocal.ch"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0.000201,
     "types": {
-        "XHR": 2
+        "Fetch": 2,
+        "Stylesheet": 2
     },
     "nameservers": [
         "ara.ns.cloudflare.com",

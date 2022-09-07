@@ -7,29 +7,31 @@
     "prevalence": 0.0001,
     "sites": 1,
     "subdomains": [
-        "stream"
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "binance\\.com\\/stream",
+            "rule": "binance\\.com\\/api\\/v3\\/klines",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "stream"
+                "api"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
-            "responseHashes": [],
-            "type": "WebSocket",
+            "responseHashes": [
+                "63054228d85be2104983c9cf344a8ebadd6b66e46194ca359c9383cb66c6dbeb"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "courscrypto.com",
-                "www.courscrypto.com"
+                "infobae.com",
+                "www.infobae.com"
             ]
         }
     ],
@@ -37,7 +39,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "WebSocket": 2
+        "XHR": 2
     },
     "nameservers": [
         "ns-1319.awsdns-36.org",

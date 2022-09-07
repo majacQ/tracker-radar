@@ -4,15 +4,30 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000201,
+    "sites": 2,
     "subdomains": [
-        "wup-b45f5437.au.v2"
+        "wup-b45f5437.au.v2",
+        "log-b45f5437.au.v2",
+        "log-d8814f41.au.v2",
+        "wup-d8814f41.au.v2"
     ],
     "cnames": [
         {
+            "original": "blog.suncorpbank.com.au",
+            "resolved": "log-b45f5437.au.v2.we-stats.com"
+        },
+        {
             "original": "bwup.suncorpbank.com.au",
             "resolved": "wup-b45f5437.au.v2.we-stats.com"
+        },
+        {
+            "original": "log-d8814f41.commbank.com.au",
+            "resolved": "log-d8814f41.au.v2.we-stats.com"
+        },
+        {
+            "original": "wup-d8814f41.commbank.com.au",
+            "resolved": "wup-d8814f41.au.v2.we-stats.com"
         }
     ],
     "fingerprinting": 3,
@@ -26,7 +41,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [
                 {
                     "original": "bwup.suncorpbank.com.au",
@@ -34,7 +49,7 @@
                 }
             ],
             "responseHashes": [
-                "c53c4f7abdceb05140ef33ebb25c9b7e499fee2678a4837a124aa0450a99bb18"
+                "a30c4e7885e011b10590220721e74bf8d66a91bac34f12403b21e0ccbf8bdc35"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -43,13 +58,72 @@
                 "suncorpbank.com.au",
                 "internetbanking.suncorpbank.com.au"
             ]
+        },
+        {
+            "rule": "we-stats\\.com\\/api\\/v1\\/sendLogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log-b45f5437.au.v2",
+                "log-d8814f41.au.v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "blog.suncorpbank.com.au",
+                    "resolved": "log-b45f5437.au.v2.we-stats.com"
+                },
+                {
+                    "original": "log-d8814f41.commbank.com.au",
+                    "resolved": "log-d8814f41.au.v2.we-stats.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "suncorpbank.com.au",
+                "www.my.commbank.com.au"
+            ]
+        },
+        {
+            "rule": "we-stats\\.com\\/client\\/v3\\.1\\/web\\/wup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wup-d8814f41.au.v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "wup-d8814f41.commbank.com.au",
+                    "resolved": "wup-d8814f41.au.v2.we-stats.com"
+                }
+            ],
+            "responseHashes": [
+                "e7d61f24d9b5f2ad560a84913ccd0ee86456f35e68b60c03798e6f383a0ee1fd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "commbank.com.au",
+                "www.my.commbank.com.au"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "XHR": 2
+        "XHR": 6
     },
     "nameservers": []
 }

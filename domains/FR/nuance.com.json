@@ -1,12 +1,18 @@
 {
     "domain": "nuance.com",
-    "owner": {},
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.0001,
-    "sites": 1,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
+        "media-us2.digital",
         "media-us1.digital"
     ],
     "cnames": [],
@@ -17,23 +23,127 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "media-us2.digital",
                 "media-us1.digital"
             ],
             "apis": {
-                "window.name": 2,
-                "Navigator.prototype.userAgent": 2
+                "window.name": 4,
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 4,
+            "prevalence": 0.000401,
             "cnames": [],
             "responseHashes": [
-                "2e8f4f6158ee4e23d270f962be25b0a2a1e56b62c32eaeaf96c46c329b507dec"
+                "d1154fd7d189e668252048a6494fafca17b055a9a0bef457034af5ceff0f9fc5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ups.com",
+                "att.com",
+                "www.att.com",
+                "www.directv.com",
+                "www.ups.com"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/media\\/launch\\/pr\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-us2.digital",
+                "media-us1.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b7464b78f205849f6ed3959ae187743d402530b21748f847841752af466417f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.ups.com"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/media\\/launch\\/tcFramework\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media-us2.digital",
+                "media-us1.digital"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a08e41e26f184b5112ce7eb44ffe7cf04f823b9c9be03c83c193bfcee9ebdb49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.ups.com"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/media\\/launch\\/ci\\/InqFramework\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-us2.digital",
+                "media-us1.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.ups.com"
+            ]
+        },
+        {
+            "rule": "nuance\\.com\\/media\\/launch\\/acif\\/acif\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-us2.digital",
+                "media-us1.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
                 "www.ups.com"
             ]
         }
@@ -42,7 +152,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 8,
+        "Other": 4
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

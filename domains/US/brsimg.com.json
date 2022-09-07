@@ -7,10 +7,12 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
-        "cdn"
+        "cdn",
+        "s",
+        "c0012"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -24,10 +26,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "da10a00b310180891869385f9afdfc41cb9c6673142744a3d8418697d6dca85b"
+                "5ec68d5e113096e89b7856e4db722a0dd2cb05e908aac239095098f91ef98dcc"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -38,8 +40,8 @@
             ]
         },
         {
-            "rule": "brsimg\\.com\\/gdpr\\/sdk\\.5c29131bf5a880037bcdbc24eb9010aa54f3f45d\\.js",
-            "cookies": 0.0000138,
+            "rule": "brsimg\\.com\\/gdpr\\/sdk\\.c8ffb21252950a85321b7557bcb66a7b03f3bc71\\.js",
+            "cookies": 0.0000136,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
@@ -55,23 +57,29 @@
                 "Date.prototype.getTimezoneOffset": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "bf8e8c622dea606a7d8e53cc9e251446b6d564cb7545750158e2f5850a4c78d1"
+                "6f91ff60e1f142dc8a6479e62d9bba78d8993b3218c0927ca1fb634d3301e01c"
             ],
             "type": "Script",
             "firstPartyCookies": {
+                "euconsent-v2": {
+                    "ttl": 15814804,
+                    "length": 329,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
                 "didomi_token": {
-                    "ttl": 15811202,
-                    "length": 186,
-                    "prevalence": 0.000013804146765688412,
+                    "ttl": 15814804,
+                    "length": 566,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 1
                 },
                 "didomi_cookies": {
-                    "ttl": 31536002,
-                    "length": 9,
-                    "prevalence": 0.000013804146765688412,
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.000013555829684555844,
                     "uniqueness": 0.5
                 }
             },
@@ -82,7 +90,31 @@
             ]
         },
         {
-            "rule": "brsimg\\.com\\/gdpr\\/ui-gdpr-fr\\.5c29131bf5a880037bcdbc24eb9010aa54f3f45d\\.js",
+            "rule": "brsimg\\.com\\/gdpr\\/ui-gdpr-fr\\.c8ffb21252950a85321b7557bcb66a7b03f3bc71\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8cbc697b14676cfe68d4bd5a59a523342cc93e630d7d2299ace5e869881f10ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama-banque.com",
+                "www.boursorama-banque.com"
+            ]
+        },
+        {
+            "rule": "brsimg\\.com\\/gdpr\\/images\\/9af1c165b9d06b9fdee91ff69236b91b-privacy-management-didomi\\.png",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -90,12 +122,82 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "fd51f76a440df0e46f09f7343f75156f099140dd0fbefba130715d582fefbc92"
+                "4a8c15501dd35a5de578a8dc3477cb4212ca7489531651d1d208e86225cdf681"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama-banque.com",
+                "www.boursorama-banque.com"
+            ]
+        },
+        {
+            "rule": "brsimg\\.com\\/static-000\\/cache\\/js\\/tagcommander\\/2\\/e\\/d\\/2ed97d449a63b65ebde3aa5d09eadca1\\.eJwrSY5Pyi8tKs4vSsxNjDfUyyrWLkEVAokBXDBcItIOdQ\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.javaEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "730f3e11930d30c5f8449dcd6594e49b398a142afcacb219ee5d50df35edcc75"
             ],
             "type": "Script",
+            "firstPartyCookies": {
+                "tc_prvBarPageCounter": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 0.5
+                },
+                "AB_TESTING_RTG": {
+                    "ttl": 15552005,
+                    "length": 7,
+                    "prevalence": 0.000013555829684555844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama-banque.com",
+                "www.boursorama-banque.com"
+            ]
+        },
+        {
+            "rule": "brsimg\\.com\\/xiti",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c0012"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -106,9 +208,10 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000136,
     "types": {
-        "Script": 6
+        "Script": 8,
+        "Image": 4
     },
     "nameservers": [
         "ns1.boursorama.com",

@@ -15,22 +15,27 @@
         {
             "rule": "systempay\\.fr\\/static\\/js\\/krypton-client\\/V4\\.0\\/stable\\/kr-payment-form\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "api"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "Event.prototype.timeStamp": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
                 "Navigator.prototype.language": 2,
-                "Navigator.prototype.platform": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "a6adac93d30eb26aa5cfea65efd96205f41e79f46d4bb6d2195a94286b238cdc"
+                "35a17ee966dfc6b9a457bc712feff03758f1ec86b0f8eeea56802106f986816c"
             ],
             "type": "Script",
             "firstPartyCookies": {},

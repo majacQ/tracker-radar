@@ -4,102 +4,137 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.000502,
-    "sites": 5,
+    "prevalence": 0.000601,
+    "sites": 6,
     "subdomains": [
         "api.uk",
+        "api",
+        "dnb-api.us",
+        "api.eu1",
         "custom-api",
-        "api.us1",
-        "api"
+        "raisin-api"
     ],
     "cnames": [
         {
             "original": "exp-api.my-jewellery.com",
             "resolved": "custom-api.exponea.com"
+        },
+        {
+            "original": "exponea-api.dnb.com",
+            "resolved": "dnb-api.us.exponea.com"
         }
     ],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "exponea\\.com\\/js\\/exponea\\.min\\.js",
-            "cookies": 0.000401,
+            "cookies": 0.000601,
             "fingerprinting": 2,
             "subdomains": [
                 "api.uk",
+                "api",
+                "dnb-api.us",
+                "api.eu1",
                 "custom-api",
-                "api.us1"
+                "raisin-api"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.indexedDB": 3,
-                "window.localStorage": 3,
-                "window.sessionStorage": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.vendor": 3,
-                "Document.cookie setter": 3
+                "Navigator.prototype.userAgent": 4,
+                "window.indexedDB": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.vendor": 4,
+                "Document.cookie setter": 4,
+                "Notification.permission": 1,
+                "window.innerWidth": 1
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 6,
+            "prevalence": 0.000601,
             "cnames": [
+                {
+                    "original": "exponea-api.dnb.com",
+                    "resolved": "dnb-api.us.exponea.com"
+                },
                 {
                     "original": "exp-api.my-jewellery.com",
                     "resolved": "custom-api.exponea.com"
                 }
             ],
             "responseHashes": [
-                "e46087a870db4aa0b43dc8a8b4a356be623db7ced080ec8f5fbdd04d9c4a0a2c",
-                "208381f44536581966386d955b74f4cd1289afff79979d80d78930b359c34bf2"
+                "dea5f9af1c7cbd7911c3dce3472221d70ccc3fd81b9f985b43c8843da32cceb1",
+                "ff3b6f2e05175772ed8ce8f2c6d038073831a124a7c33ebe6eea8cd3bb3e7b25",
+                "21ff2d6950773f79d0fb2b5d4d3f05d73e51612fdccc0d723adc44eb0e78ba70",
+                "8329c98c11217bef5e74f743a68bf3d4732ef25c34b475a4a52597bad98b06ba"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "__exponea_etc__": {
-                    "ttl": 94608003,
+                    "ttl": 94608008,
                     "length": 36,
-                    "prevalence": 0.00030102347983142685,
+                    "prevalence": 0.0004008016032064128,
                     "uniqueness": 1
                 },
                 "__exponea_time2__": {
-                    "ttl": 3603,
-                    "length": 20,
-                    "prevalence": 0.00030102347983142685,
+                    "ttl": 3608,
+                    "length": 19,
+                    "prevalence": 0.0004008016032064128,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "patient.info",
+                "pixers.nl",
+                "www.dnb.com",
+                "www.goossenswonen.nl",
                 "www.my-jewellery.com",
-                "www.sheetmusicplus.com",
-                "www.vivobarefoot.com"
+                "www.raisin.nl"
             ]
         },
         {
             "rule": "exponea\\.com\\/bulk",
-            "cookies": 0.000401,
+            "cookies": 0.000601,
             "fingerprinting": 0,
             "subdomains": [
                 "api.uk",
                 "api",
-                "api.us1"
+                "dnb-api.us",
+                "api.eu1",
+                "custom-api",
+                "raisin-api"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
+            "sites": 6,
+            "prevalence": 0.000601,
+            "cnames": [
+                {
+                    "original": "exponea-api.dnb.com",
+                    "resolved": "dnb-api.us.exponea.com"
+                },
+                {
+                    "original": "exp-api.my-jewellery.com",
+                    "resolved": "custom-api.exponea.com"
+                }
+            ],
             "responseHashes": [
-                "752528c9b6220cdaf697281e6bea8fdcd8c562e817249a1e4ebc95331a1bb7b4",
-                "835bacab180bb1a5a7bfc5fa85744a7000266da09866564b1b0bdaf1de6177b9",
-                "909899bb37dc76c2e4d766261be96dac6d9664b671a15ab2cccfa97da496705f"
+                "4aee49982c377ac97e8c4f69a5f5413e14d06e266044660f14c53238a80e213f",
+                "d65f85bfe39d42eca0f29789897397a25384a85186cf673b61df822c6c45cd0a",
+                "764ca99074ed1938ca7455b4f2ba88257a8eea14f52d260ece7c0b64155691db",
+                "813e0fd96f0ee6b8a2349bf6916200c89826504d8a92850a2113b24ad522e115",
+                "e1be5c7da7cf504a054ccdae66213cf200c651fc1e9a2a67711a20a207930cb9"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "patient.info",
+                "pixers.nl",
+                "www.dnb.com",
+                "www.goossenswonen.nl",
                 "www.my-jewellery.com",
-                "www.sheetmusicplus.com",
-                "www.vivobarefoot.com"
+                "www.raisin.nl"
             ]
         },
         {
@@ -109,35 +144,49 @@
             "subdomains": [
                 "api.uk",
                 "api",
-                "api.us1"
+                "dnb-api.us",
+                "custom-api",
+                "raisin-api"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [
+                {
+                    "original": "exponea-api.dnb.com",
+                    "resolved": "dnb-api.us.exponea.com"
+                },
+                {
+                    "original": "exp-api.my-jewellery.com",
+                    "resolved": "custom-api.exponea.com"
+                }
+            ],
             "responseHashes": [
-                "9ecc155c1a20b00b0ed06cb25a949c26ede5f170e02ec814bc6d9b444cc65d2d"
+                "252032b9f7647142466aebdf8ec3af5a4fbaa752fb397f19a22c51d2f16e4ec3",
+                "9ecc155c1a20b00b0ed06cb25a949c26ede5f170e02ec814bc6d9b444cc65d2d",
+                "d74c56784693f329996927e26edef93c80bd3730d518bc23f1e00a17d642b955"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "patient.info",
+                "pixers.nl",
+                "www.dnb.com",
                 "www.my-jewellery.com",
-                "www.sheetmusicplus.com",
-                "www.vivobarefoot.com"
+                "www.raisin.nl"
             ]
         },
         {
             "rule": "exponea\\.com\\/webxp\\/script\\/393ef2ce-c701-11e8-9f34-0a580a204b4a\\/new\\/modifications\\.min\\.js",
-            "cookies": 0,
+            "cookies": 0.0002,
             "fingerprinting": 1,
             "subdomains": [
                 "custom-api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [
                 {
                     "original": "exp-api.my-jewellery.com",
@@ -145,7 +194,7 @@
                 }
             ],
             "responseHashes": [
-                "319b89b67d5988949beaa4acd5cff97ed54b08cbf2d11e6bdce464dbc50b49db"
+                "a9b3ea7655cd6f9a13e5b500666cb5f7063e3788f164abdbb9a2c5c3eec88c6e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -154,14 +203,42 @@
                 "my-jewellery.com",
                 "www.my-jewellery.com"
             ]
+        },
+        {
+            "rule": "exponea\\.com\\/campaigns\\/banners\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "custom-api",
+                "raisin-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [
+                {
+                    "original": "exp-api.my-jewellery.com",
+                    "resolved": "custom-api.exponea.com"
+                }
+            ],
+            "responseHashes": [
+                "d62cc643099ff89b09fa13140efa86c37d2668a23b83e2cdd972f3ac5b25d62a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "my-jewellery.com",
+                "www.raisin.nl"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000401,
+    "cookies": 0.000601,
     "types": {
-        "Script": 6,
-        "Fetch": 8
+        "Script": 8,
+        "Fetch": 13
     },
     "nameservers": [
         "ns-cloud-e1.googledomains.com",

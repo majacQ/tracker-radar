@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000345,
-    "sites": 5,
+    "prevalence": 0.0000407,
+    "sites": 6,
     "subdomains": [
         "prod.realfile",
         "cdn",
@@ -17,24 +17,26 @@
         {
             "rule": "rtsclients\\.com\\/js\\/rf-tables\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "prod.realfile"
             ],
-            "apis": {},
+            "apis": {
+                "window.localStorage": 2
+            },
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "085ae0b24fe62e4a8e4436839472f3b4a7cb8ddcca5661720bbcde7e08da5fbc"
+                "6a7af46fb86a015c5015f8288fcde4528b2d3e8584024abd3c1b44e207de8255"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bernco.gov",
-                "www.bernco.gov",
+                "nm.gov",
                 "www.mvd.newmexico.gov",
+                "www.rld.nm.gov",
                 "www.tax.newmexico.gov"
             ]
         },
@@ -49,18 +51,42 @@
                 "window.sessionStorage": 4
             },
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "0a31c4fae126c8bd1a7c757a7c8265f2243178e2facaacf20800f84563ab0393"
+                "bf723631300d95379752d5045ad062d2da5b5b0bf69c169aa6e5e4289e9fad78"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bernco.gov",
-                "www.bernco.gov",
+                "nm.gov",
                 "www.mvd.newmexico.gov",
+                "www.rld.nm.gov",
+                "www.tax.newmexico.gov"
+            ]
+        },
+        {
+            "rule": "rtsclients\\.com\\/js\\/rf_sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.realfile"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "bf723631300d95379752d5045ad062d2da5b5b0bf69c169aa6e5e4289e9fad78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nm.gov",
+                "www.mvd.newmexico.gov",
+                "www.rld.nm.gov",
                 "www.tax.newmexico.gov"
             ]
         },
@@ -73,7 +99,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "edc69bc3bff7fccf72665ab3ca28193beba87c6e116413025d6d25d9a9b2d01d"
@@ -97,7 +123,7 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "2ad1e148f0e46550a17c3f239b2112811d6af5e249e5f088aa288eafc565bf57"
@@ -121,7 +147,7 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "35d268635b7f002533269822dee58333306209defdf0cfbb00fc6c27f21cf946"
@@ -139,7 +165,7 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 14
+        "Script": 18
     },
     "nameservers": [
         "ns-539.awsdns-03.net",

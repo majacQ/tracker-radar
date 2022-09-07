@@ -11,7 +11,7 @@
     "sites": 1,
     "subdomains": [
         "www",
-        "f2"
+        "i1"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -22,11 +22,12 @@
             "fingerprinting": 2,
             "subdomains": [
                 "www",
-                "f2"
+                "i1"
             ],
             "apis": {
                 "window.localStorage": 1,
                 "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.mediaDevices": 1,
                 "Navigator.prototype.appName": 1,
                 "Navigator.prototype.language": 1,
                 "Screen.prototype.width": 1,
@@ -37,12 +38,34 @@
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "9c3ec609ff5c8019ad9becf1b545bfa3a06a5f3e4adc25e4999627b1ee63199e"
+                "9d7bb1ff9d7a469e17ed91b1d81a0b1a0f26391616d75062a75b70b25850fd41"
             ],
             "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nisbets.com.au",
+                "www.nisbets.com.au"
+            ]
+        },
+        {
+            "rule": "vivocha\\.com\\/a\\/nisbets_australia\\/api\\/v3\\/public\\/campaigns\\/5f43d9b86ed09d000820feae\\/agents",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc21b8161c56393753a3e488e76b45d6b9c5b6b33fcc8b1628414bf1dc9e1b1e"
+            ],
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -53,14 +76,15 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 2
+        "Script": 2,
+        "Fetch": 2
     },
     "nameservers": [
-        "ns-661.awsdns-18.net",
         "ns-420.awsdns-52.com",
         "ns-1065.awsdns-05.org",
-        "ns-1821.awsdns-35.co.uk"
+        "ns-1821.awsdns-35.co.uk",
+        "ns-661.awsdns-18.net"
     ]
 }

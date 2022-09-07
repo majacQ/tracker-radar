@@ -7,52 +7,136 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
-    "subdomains": [],
+    "prevalence": 0.0000271,
+    "sites": 4,
+    "subdomains": [
+        "iframe",
+        "iframe-assets",
+        "recommenders"
+    ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "fresh8\\.co\\/822521\\/embed\\.js",
+            "rule": "fresh8\\.co\\/index\\.html",
             "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
+            "fingerprinting": 0,
+            "subdomains": [
+                "iframe"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "de4b16fdb911899712a40ca0bd0a7bdbc94353cb0da7fb8836e7043e7cb466ea"
+                "1179a2c8ea2269f7b11aa1328da1eff6c7597a58dd6b6d8c229e4cba5999da09"
             ],
-            "type": "Script",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "soccerway.com",
-                "uk.soccerway.com"
+                "espnsoccernet.com",
+                "www.espnsoccernet.com"
             ]
         },
         {
-            "rule": "fresh8\\.co\\/822521\\/adtag\\.js",
+            "rule": "fresh8\\.co\\/adtag\\.js",
             "cookies": 0,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "iframe"
+            ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "e2d2782189dd696def76fe3f1b7d3b933dc132def4c4165357cfd90cbe6de239"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "soccerway.com",
-                "uk.soccerway.com"
+                "espnsoccernet.com",
+                "www.espnsoccernet.com"
+            ]
+        },
+        {
+            "rule": "fresh8\\.co\\/v4\\/_assets\\/index\\.c4d7ad94\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "iframe-assets"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "c214bb4d471629b227e48bbac2adb546f8129dba3cc86bda81b3a51a4a5450cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espnsoccernet.com",
+                "www.espnsoccernet.com",
+                "www.numberfire.com",
+                "www.terra.com.br"
+            ]
+        },
+        {
+            "rule": "fresh8\\.co\\/v4\\/_assets\\/style\\.84ff78c4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iframe-assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [
+                "994341a87284bdc476439d0c8bed189dc10afb6a4bd1fa56024d35ac8a908453"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espnsoccernet.com",
+                "www.espnsoccernet.com",
+                "www.numberfire.com",
+                "www.terra.com.br"
+            ]
+        },
+        {
+            "rule": "fresh8\\.co\\/v1\\/publisher",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommenders"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "776ec60fb88b97db15c25ac689e8e67dbee19e389d021432153808e33b34f164"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "numberfire.com",
+                "www.terra.com.br"
             ]
         }
     ],
@@ -60,12 +144,15 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 4
+        "Document": 2,
+        "Script": 6,
+        "Stylesheet": 4,
+        "Fetch": 2
     },
     "nameservers": [
-        "ns-1181.awsdns-19.org",
-        "ns-1622.awsdns-10.co.uk",
         "ns-484.awsdns-60.com",
-        "ns-854.awsdns-42.net"
+        "ns-1181.awsdns-19.org",
+        "ns-854.awsdns-42.net",
+        "ns-1622.awsdns-10.co.uk"
     ]
 }

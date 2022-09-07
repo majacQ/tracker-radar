@@ -4,27 +4,30 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000207,
-    "sites": 3,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
-        "static"
+        "static",
+        "secure"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "payu\\.com\\/res\\/v2\\/widget-products-installments\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f093968d214b4d53284e15df54748919722d771b9e80f9465e75554453a52e21"
+                "bad1b059a9357e56c284a9f2017c4d738626fac251a309264cfbcf14e5557757"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -33,13 +36,35 @@
                 "ebilet.pl",
                 "www.ebilet.pl"
             ]
+        },
+        {
+            "rule": "payu\\.com\\/javascript\\/sdk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5418c440568977f4935a0692f84cbe316651a61437f337a74560ed2140ecf4f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rossmann.pl",
+                "www.rossmann.pl"
+            ]
         }
     ],
     "categories": [],
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 2
+        "Script": 4
     },
     "nameservers": [
         "a16-66.akam.net",

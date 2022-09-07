@@ -4,60 +4,16 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
-    "sites": 4,
+    "prevalence": 0.0000136,
+    "sites": 2,
     "subdomains": [
-        "cdn",
         "w",
+        "cdn",
         "channelapi"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
-        {
-            "rule": "liqpay\\.ua\\/static\\/media\\/icon-open\\.41a41b3a\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "e144e9f5756517c61677d1349091767cc7a9a103bb7f49d33a299230480ad7b3"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "privatbank.ua",
-                "www.privat24.ua"
-            ]
-        },
-        {
-            "rule": "liqpay\\.ua\\/static\\/media\\/icon-close\\.24a6719c\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "ac9136248b258af284b3f6c33dc04a09c572d6f69b5bd20b0324ba87b4529f64"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "privatbank.ua",
-                "www.privat24.ua"
-            ]
-        },
         {
             "rule": "liqpay\\.ua\\/chat",
             "cookies": 0,
@@ -77,13 +33,16 @@
                 "Navigator.prototype.languages": 2,
                 "Screen.prototype.availHeight": 2,
                 "Screen.prototype.availWidth": 2,
+                "window.innerHeight": 2,
                 "Date.prototype.getTime": 2,
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
+            "responseHashes": [
+                "17f9d7e2b2313c30d70fa31227982a091cb5c8ed0a02da90af2fca3c77d339e9"
+            ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
@@ -101,7 +60,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "d1dccc3dc7f9d66e9dd252ee175fdb782b48454d5bd5217efe4f62395122702b"
@@ -123,10 +82,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "975a149905549db44d7e2f3936a608c41a8182b974a50b6de9bb3130562b3ed2"
+                "586c69c23e2c9efd49520b7ffe8c30362179599affe079a09403d56fedbe640c"
             ],
             "type": "Media",
             "firstPartyCookies": {},
@@ -145,7 +104,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "4d030afde7aaefa06b4815217b3a3896b8c3f52e0c43bd8cfd2dc49a65dc31fb"
@@ -167,10 +126,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "3d77afea809ad1375eebd8e204e13590a5940e7c4a7a4469439b8cff647594e6"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -187,12 +148,74 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "privat24.ua",
+                "www.privat24.ua"
+            ]
+        },
+        {
+            "rule": "liqpay\\.ua\\/1\\.0\\/ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "channelapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "privat24.ua",
+                "www.privat24.ua"
+            ]
+        },
+        {
+            "rule": "liqpay\\.ua\\/static\\/media\\/icon-open\\.41a41b3a\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "673543e6df12b3818bc585ee054fcab7a5080ec13b4ee0123f3aea3c99798694"
+                "e144e9f5756517c61677d1349091767cc7a9a103bb7f49d33a299230480ad7b3"
             ],
-            "type": "XHR",
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "privat24.ua",
+                "www.privat24.ua"
+            ]
+        },
+        {
+            "rule": "liqpay\\.ua\\/static\\/media\\/icon-close\\.24a6719c\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "ac9136248b258af284b3f6c33dc04a09c572d6f69b5bd20b0324ba87b4529f64"
+            ],
+            "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -213,7 +236,7 @@
                 "window.sessionStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "de9fe66c792970c9db2b83303a04d75d844262c226237db4f379345d752976c2"
@@ -235,32 +258,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "ed20c211ace391bced65f95adf44ae220228a79335815b32e8703921089c9189"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "privat24.ua",
-                "www.privat24.ua"
-            ]
-        },
-        {
-            "rule": "liqpay\\.ua\\/1\\.0\\/ws",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "channelapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "WebSocket",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -273,12 +276,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Image": 4,
         "Script": 10,
         "Media": 2,
-        "Preflight": 2,
         "XHR": 2,
-        "WebSocket": 2
+        "Preflight": 2,
+        "WebSocket": 2,
+        "Image": 4
     },
     "nameservers": [
         "ns-29.awsdns-03.com",

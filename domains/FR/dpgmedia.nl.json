@@ -4,66 +4,19 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000402,
-    "sites": 4,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
         "myprivacy",
-        "cmp"
+        "cmp",
+        "login"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/fonts\\/SharpSans-Bold\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
-            "cnames": [],
-            "responseHashes": [
-                "29892367dc2b602044a98fa344ee4109a3a3c2aa076c39958d7287e7ccb05426"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "7sur7.be",
-                "www.hln.be",
-                "www.nu.nl",
-                "www.volkskrant.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/fonts\\/Montserrat-Regular\\.woff2",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000402,
-            "cnames": [],
-            "responseHashes": [
-                "329622b39b0743628824776ffd95c8eba5c6cac6ef694f97676845ac8023a10d"
-            ],
-            "type": "Font",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "7sur7.be",
-                "www.hln.be",
-                "www.nu.nl",
-                "www.volkskrant.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/logos\\/none\\.png",
-            "cookies": 0,
+            "rule": "dpgmedia\\.nl\\/consent",
+            "cookies": 0.000201,
             "fingerprinting": 0,
             "subdomains": [
                 "myprivacy"
@@ -73,129 +26,67 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+                "c4437758587e35c7fb4c3d13aaf91ed13ed468d26893ed0cb3e2d62718992eeb"
             ],
-            "type": "Image",
+            "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "hln.be",
-                "www.nu.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.nl\\/consent\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "b96e1373690687082da8e79c8e081f71e23b4d14d8ec35e6449a766cbe7112e0"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nu.nl",
+                "ad.nl",
                 "www.volkskrant.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/logos\\/dpgmedia-logo\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "269b79a884e834de9dcd94a42925676ea1fdbd19ecfb76ab116f84e6ba304615"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nu.nl",
-                "www.volkskrant.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/logos\\/logo-nu\\.svg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "myprivacy"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "21800643349441c94c25cd9eabf5f892990d52772f409b5b1912eedba47fd38c"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nu.nl",
-                "www.nu.nl"
             ]
         },
         {
             "rule": "dpgmedia\\.nl\\/unified\\/wrapperMessagingWithoutDetection\\.js",
-            "cookies": 0,
+            "cookies": 0.000301,
             "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "727d1709a79641a09d3fc00aa33f7d1204e46f13aec53dc4c696729cea28a072"
+                "871253b52e47bc964b32817714d9248a14dc7cfd8eab522f4ebe828e5080380a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
         {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/fonts\\/Montserrat-Regular\\.ttf",
+            "rule": "dpgmedia\\.nl\\/unified\\/3\\.6\\.3\\/gdpr-tcf\\.52bc741007b8279460bd\\.bundle\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "myprivacy"
+                "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "077cdab15161232a9ba7124d2ddd7a9425145750788e9a966c156cc66274f525"
+                "f2333a337cd9097f7fe63b86f32acfbb930573639ae16373086ca793d809cd1f"
             ],
-            "type": "Font",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
@@ -207,37 +98,40 @@
                 "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "df2d39aba671c513fe488671d1f41eb41c0471e991eb0c24cd2db6df2fd7f693",
+                "b27219653d930819bbff0e634b71bc19b72e4adb39b442d3b185398bb764a5d9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ad.nl",
+                "www.nu.nl",
+                "www.volkskrant.nl"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.nl\\/wrapper\\/v2\\/get_messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
-                "www.volkskrant.nl"
-            ]
-        },
-        {
-            "rule": "dpgmedia\\.nl\\/wrapper\\/v2\\/get_messages",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cmp"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e8f47c6ba8f8dbbe9ce712778b284d4949d44ff62ef692bd84ce45e014fbb21f"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
@@ -249,39 +143,43 @@
                 "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "a260891bd547b0e0b0e84f532fb25d3f0ae51246ff443150dc1201ca450030a0"
+                "869d747f2bf6b7f0c75ea35b9c806658e2d812731bdaef414bb707243f292a73"
             ],
             "type": "Document",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "consentUUID": 0.00030096308186195825
+            },
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
         {
-            "rule": "dpgmedia\\.nl\\/Notice\\.03819\\.css",
+            "rule": "dpgmedia\\.nl\\/Notice\\.a2194\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "51eb44a48f2ec3bf5ee39395698b49d23ad55ed26f05bcbbccbeb1e128f477ef"
+                "d07c218cf2ede8daec9179c818dce7dce1e65d78ae24c9e9bf08f26f42386077"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
@@ -293,8 +191,8 @@
                 "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
                 "533b23c57b1770cc3ee9c15b998b2eb494fa0adb2d6929fd22a9b78adfade3a7"
@@ -303,90 +201,114 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
         {
-            "rule": "dpgmedia\\.nl\\/Notice\\.f7529\\.js",
+            "rule": "dpgmedia\\.nl\\/Notice\\.0b008\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
             "apis": {
-                "Navigator.prototype.languages": 2
+                "Navigator.prototype.languages": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "45b3ed28f8c8462d7f7486977f798ab4a4b6e32f4f2f4daba42763c120372e09"
+                "51cd20cbb2c5e74c8b23c00ad7ea5fc75d2beabb048db2fd0eebbb6cbd2bcbc4"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
         {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/logos\\/logo-dpgmedia\\.svg",
+            "rule": "dpgmedia\\.nl\\/wrapper\\/v2\\/messages\\/choice\\/gdpr\\/11",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "myprivacy"
+                "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
-            "responseHashes": [
-                "ee366726e835cdea2d2f7a39debd71b4d195ff1d3fd79f7d4d43eb58a934484f"
-            ],
-            "type": "Image",
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "nu.nl",
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         },
         {
-            "rule": "dpgmedia\\.nl\\/consent\\/resources\\/logos\\/logo-vk\\.svg",
+            "rule": "dpgmedia\\.nl\\/wrapper\\/v2\\/messages\\/choice\\/gdpr\\/11",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "myprivacy"
+                "cmp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
-            "responseHashes": [
-                "bd791a53785d6e4493bbd4774d84971ab934f2d964ecff95f9f54f35554b4e90"
-            ],
-            "type": "Image",
+            "responseHashes": [],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "volkskrant.nl",
+                "ad.nl",
+                "www.nu.nl",
+                "www.volkskrant.nl"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.nl\\/ssosession",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "87be0e03b257491a7c8dde475b456470c9d1353e668c91623a419a435d1e187b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ad.nl",
+                "www.nu.nl",
                 "www.volkskrant.nl"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.000301,
     "types": {
-        "Font": 10,
-        "Image": 10,
-        "Script": 8,
-        "Preflight": 2,
-        "XHR": 2,
-        "Document": 2,
-        "Stylesheet": 2
+        "Document": 5,
+        "Script": 12,
+        "XHR": 6,
+        "Preflight": 6,
+        "Stylesheet": 3,
+        "Fetch": 3
     },
     "nameservers": [
         "eur2.akam.net",

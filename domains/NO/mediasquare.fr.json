@@ -7,10 +7,11 @@
     "source": [
         "DuckDuckGo-NO"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000502,
+    "sites": 5,
     "subdomains": [
-        "pbs-front"
+        "pbs-front",
+        "cdn"
     ],
     "cnames": [],
     "fingerprinting": 0,
@@ -23,18 +24,23 @@
                 "pbs-front"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 5,
+            "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "1b02670ded4980d944dd9bc2671ba5c7b5147865180a173cf98870beb1a442fc"
+                "c427a5003aa903a1c44707277d6ebecbc4336754c86ccca5ed10d906ea093d1a",
+                "142b278abd1b0a664f8c181f03da149933d9be31f6217ec477d7ac2aa69d2cc4",
+                "e791dc6945797c93969b3ffd97ecab2625a0a004953f8d4b6115fdad4b81362f"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "commentcamarche.net",
-                "www.commentcamarche.net"
+                "meteofrance.com",
+                "www.cuisineaz.com",
+                "www.lachainemeteo.com",
+                "www.larousse.fr",
+                "www.topsante.com"
             ]
         },
         {
@@ -49,24 +55,74 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "5c6dde90636ce86c1438f07b9d79cbf069b94311f4c59d40982810b870f7d779"
             ],
             "type": "Image",
             "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.00020062192797672785
+            },
+            "exampleSites": [
+                "meteofrance.com",
+                "www.lachainemeteo.com",
+                "www.topsante.com"
+            ]
+        },
+        {
+            "rule": "mediasquare\\.fr\\/scripts\\/msq_cookie_sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c83cbe5f922ce0117b7c4029124d57d7a9c31b70e7929801a894b8bc9ab7022f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "commentcamarche.net",
-                "forums.commentcamarche.net",
-                "www.commentcamarche.net"
+                "larousse.fr",
+                "www.topsante.com"
+            ]
+        },
+        {
+            "rule": "mediasquare\\.fr\\/cookie_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pbs-front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "eupubconsent-v2": 0.00010031096398836393
+            },
+            "exampleSites": [
+                "larousse.fr",
+                "www.topsante.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000201,
+    "cookies": 0.000401,
     "types": {
-        "XHR": 2,
-        "Image": 3
+        "XHR": 5,
+        "Image": 3,
+        "Script": 2,
+        "Document": 2
     },
     "nameservers": [
         "ns200.anycast.me",

@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000138,
+    "prevalence": 0.0000136,
     "sites": 2,
     "subdomains": [
         "events"
@@ -13,7 +13,7 @@
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "limango\\.com\\/events\\/consent-banner-displayed",
+            "rule": "limango\\.com\\/events\\/session-started",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -21,7 +21,27 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "limango.de",
+                "www.limango.de"
+            ]
+        },
+        {
+            "rule": "limango\\.com\\/events\\/session-started",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -41,10 +61,30 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "limango.de",
+                "www.limango.de"
+            ]
+        },
+        {
+            "rule": "limango\\.com\\/events\\/consent-banner-displayed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -57,11 +97,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Preflight": 2,
-        "Fetch": 2
+        "Fetch": 4,
+        "Preflight": 4
     },
     "nameservers": [
-        "ns1.hans.hosteurope.de",
-        "ns2.hans.hosteurope.de"
+        "ns-260.awsdns-32.com",
+        "ns-1013.awsdns-62.net",
+        "ns-1298.awsdns-34.org",
+        "ns-2018.awsdns-60.co.uk"
     ]
 }

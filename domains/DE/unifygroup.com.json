@@ -4,54 +4,120 @@
     "source": [
         "DuckDuckGo-DE"
     ],
-    "prevalence": 0.000702,
-    "sites": 7,
+    "prevalence": 0.0002,
+    "sites": 2,
     "subdomains": [
-        "pegasus"
+        "pegasus",
+        "conf.pegasus"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "unifygroup\\.com\\/lib\\/pegasus\\.burda\\.min\\.js",
+            "rule": "unifygroup\\.com\\/lib\\/pegasus\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "pegasus"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.appVersion": 6,
-                "Navigator.prototype.vendor": 6,
-                "window.localStorage": 6,
-                "Date.prototype.getTime": 6,
-                "Document.cookie getter": 6,
-                "window.sessionStorage": 6
+                "window.localStorage": 2
             },
-            "sites": 6,
-            "prevalence": 0.000602,
+            "sites": 2,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "26ea70955c0641892049c8dddc829c6fe02fdaaefc0e57edc8fa4a8d3b835c49"
+                "8068611ccdba9cedc13216358c3abc47762ca20532d7319fcded8c022c2c9e7d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "gofeminin.de",
-                "beauty.gofeminin.de",
-                "beziehung.gofeminin.de",
-                "liebe.gofeminin.de",
-                "schwangerschaft.gofeminin.de",
-                "www.gofeminin.de"
+                "marmiton.org",
+                "www.netmums.com"
+            ]
+        },
+        {
+            "rule": "unifygroup\\.com\\/lib\\/pegasus\\.legacy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pegasus"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "82d28f034ab7001206fd356a16bff968f3c982bf72a633ed3a46c06f4b5752f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.netmums.com"
+            ]
+        },
+        {
+            "rule": "unifygroup\\.com\\/pegasus-conf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf.pegasus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "993ebc3d2937f5eb6570482e9e389913ad37fd835daff1966f0a4e3a00e31091"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.netmums.com"
+            ]
+        },
+        {
+            "rule": "unifygroup\\.com\\/pegasus-conf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "conf.pegasus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.netmums.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0002,
     "types": {
-        "Script": 6
+        "Script": 4,
+        "XHR": 2,
+        "Preflight": 2
     },
     "nameservers": [
         "ns-277.awsdns-34.com",

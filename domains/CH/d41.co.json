@@ -7,13 +7,13 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000703,
-    "sites": 7,
+    "prevalence": 0.000602,
+    "sites": 6,
     "subdomains": [
-        "api3847",
-        "ecf",
-        "api9251",
-        "api7831",
+        "vid9430",
+        "vid0377",
+        "api9865",
+        "api3469",
         "api7291",
         "cdn-0"
     ],
@@ -21,19 +21,40 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "d41\\.co\\/sync\\/",
-            "cookies": 0.000703,
+            "rule": "d41\\.co\\/api\\/",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "api3847",
-                "ecf",
-                "api9251",
-                "api7831",
+                "vid9430"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4e9406e38fdf4fb9575bb500b6b8fad147f0c91dffb79e954899e389d593c994"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpe.com",
+                "www.hpe.com"
+            ]
+        },
+        {
+            "rule": "d41\\.co\\/sync\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vid0377",
+                "api9865",
+                "api3469",
                 "api7291"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 4,
+            "prevalence": 0.000402,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -42,75 +63,10 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "computerwoche.de",
-                "www.computerworld.com",
-                "www.delltechnologies.com",
-                "www.ni.com",
-                "www.pluralsight.com",
-                "www.sonicwall.com",
-                "www.tecchannel.de"
-            ]
-        },
-        {
-            "rule": "d41\\.co\\/tags\\/dnb_coretag_v4\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn-0"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4
-            },
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "240fbcfd9cce9f9883216b7f5097be022d5af697075bb9987439d7b8bba5aeb9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "computerwoche.de",
-                "www.computerworld.com",
-                "www.sonicwall.com",
-                "www.tecchannel.de"
-            ]
-        },
-        {
-            "rule": "d41\\.co\\/api\\/",
-            "cookies": 0.000703,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api3847",
-                "ecf",
-                "api9251",
-                "api7831",
-                "api7291"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
-            "cnames": [],
-            "responseHashes": [
-                "3f3a90c7f5d642a9b4fb0b0643de7b2a473caa8fb5b330cb1837c109f90cca44",
-                "2ef7aaeb93ca8f4cd592d619f32dc7eb70f03d45eb26326ebfc5d98b3ea568b3",
-                "c4b545f02757da39b73732371bd2064e9efafd3bfb694f6a4d16dbade6da7028",
-                "fe36a0310f0182acd976bf2115f59b809a7d024543ab92a0150dc929bd37e7be",
-                "841047bab0039fed20ad13a738dc527071253919954251574451f43e80480c06",
-                "24b449a78ec40b8d1e09625ce4739a422e18e50be45ef19079a2f954b8feb934"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "computerwoche.de",
-                "www.computerworld.com",
-                "www.delltechnologies.com",
-                "www.ni.com",
-                "www.pluralsight.com",
-                "www.sonicwall.com",
-                "www.tecchannel.de"
+                "hp.com",
+                "www.nutanix.com",
+                "www.servicenow.com",
+                "www.sonicwall.com"
             ]
         },
         {
@@ -127,23 +83,75 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "33df908fca09a79114c7c3710e237470a642951b6989ee28eef97ceff23d6244"
+                "6cc0b251ec54fdd5cd55d98cbe7a7af00bd34f9cfd71fd01ca08c83121c89720"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ni.com",
-                "www.pluralsight.com"
+                "hp.com",
+                "www.servicenow.com"
+            ]
+        },
+        {
+            "rule": "d41\\.co\\/api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vid0377",
+                "api9865",
+                "api3469",
+                "api7291"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5e357ed6df400c254e5bcd3daed056a45232a5fc7a1837b3121593cf2ab19960"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "www.nutanix.com",
+                "www.servicenow.com",
+                "www.sonicwall.com"
+            ]
+        },
+        {
+            "rule": "d41\\.co\\/tags\\/dnb_coretag_v4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-0"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "52c766d175703482411d165b1339220aac1167e3315b792928eb51de6d6b3183"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutanix.com",
+                "www.sonicwall.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000703,
+    "cookies": 0.0001,
     "types": {
-        "Script": 13,
-        "XHR": 7
+        "XHR": 2,
+        "Script": 8,
+        "Fetch": 4
     },
     "nameservers": [
         "ns-1457.awsdns-54.org",

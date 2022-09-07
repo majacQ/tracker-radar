@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000401,
-    "sites": 4,
+    "prevalence": 0.000301,
+    "sites": 3,
     "subdomains": [
-        "ga"
+        "ga",
+        "ga2"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 0,
     "resources": [
         {
-            "rule": "getresponse\\.com\\/index\\.php",
+            "rule": "getresponse\\.com\\/script\\/ga\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -24,23 +25,48 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "4c2e504625bafbd334bcbcfa7296a88bcbfcc89f26460afd1169d754175ece3f",
+                "4ee0b0fbeb2a8e1b287b5e0ddadffab0db8f8aac9dd1ef05e1b77f8cabc4d2f5"
             ],
-            "type": "Image",
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "educba.com",
                 "www.steg-electronics.ch",
-                "www.techmania.ch"
+                "www.swissactivities.com"
+            ]
+        },
+        {
+            "rule": "getresponse\\.com\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ga2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gaVisitorUuid": 0.0003012350637614218
+            },
+            "exampleSites": [
+                "educba.com",
+                "www.steg-electronics.ch",
+                "www.swissactivities.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0001,
+    "cookies": 0,
     "types": {
-        "Image": 3
+        "Script": 3,
+        "Fetch": 3
     },
     "nameservers": [
         "ns1.dnsmadeeasy.com",

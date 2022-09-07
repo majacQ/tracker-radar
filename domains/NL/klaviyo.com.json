@@ -9,13 +9,13 @@
     "source": [
         "DuckDuckGo-NL"
     ],
-    "prevalence": 0.00271,
-    "sites": 27,
+    "prevalence": 0.00371,
+    "sites": 37,
     "subdomains": [
         "static",
+        "static-tracking",
         "fast.a",
         "telemetrics",
-        "www",
         "a"
     ],
     "cnames": [],
@@ -24,458 +24,387 @@
         {
             "rule": "klaviyo\\.com\\/onsite\\/js\\/klaviyo\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2
-            },
-            "sites": 24,
-            "prevalence": 0.00241,
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00351,
             "cnames": [],
             "responseHashes": [
-                "a15073c9a98dfc5775dc82f013f255afcdcc14542effa84375d7423ea485121c",
-                "fb929e90914042e45fc1a54292c2f10e746e514f57614b9b662ef96a97652e23",
-                "54da673ab80811f8231c7f77f44f3174feb6a52d18dde60700b31079fafe4368",
-                "13d7a926257d4500cb60d00f8e57bf18c139fb10ed98e3d9bb7f536cd63f2c44",
-                "cbdfddfe807e3b91bef271416922a8527ba59cd741a715eeefba44ea1b03e7ab",
-                "374905ed3ce13f884f74f4c998a26ee2b75b97dff3321b513ea0d170854ba718",
-                "6ef592e399e737b1c048afabd4c691678597ae9b4c5444a77b5c66469f051148",
-                "2022b82d90309edbc0a0ac9f9fc336108e40ae4b9149fa669f936884205c842c",
-                "9ced7f9358c3ccf5b39b7dd0931e44ae8f1945d44a6424abe8a7811c44e45d55",
-                "1e8f5920252c2a04d7a08f6977ce82dc27c0a33bed18d4564044daeed206a456",
-                "dc966be48d223f2aad0a3d54b86e4470701b0ec1254080af7f3d543a11fe89f9",
-                "35ba8c69d72f63687fbbc9ef92229190365f7eff5d07484103b13807e4be8b0b",
-                "72329617c95362c7cfbf7366c946908d22c2367a77a3a80120adc7ca9138cb3b",
-                "58bf45ecff040a238736b88c08da0bbe41824af8b3878733dae00ef53802e0d1",
-                "8938dae9662bc01ecede22fdaa8e00a2758c5d629c27b5d6eb2bac38311d503c",
-                "3b9c2fc65ac71ece99f9eb9458406f550d1a67cf70198e1bf57b8774d8f1d096",
-                "b1bcfcce1bf1a85122c9870e29d2d562e00eb7977b92e837878d6601299891d6",
-                "73ea5c8014d88c34d770460c1449f4ffa86c8d8882da45ee53c99e67922009d8",
-                "7d9fc30e76b4101d78c5919694858a505188f3d058ca97c60fb21e35b560ea8c",
-                "85dcadb12e447db7676827432925b31f029e8a77bf0e1ec83c1e9c284f87429b",
-                "ec194498839db6320bb84cefb3162673e2164c29f6c39c1af23837203cfcea24",
-                "dd24434914552d05453bf75172060af63854e5b1685b84f92f31d461785fad27"
+                "12d158d7a7143405b7fb3ba4a20d0e59f605ac7b180f8a389adefe831d370b40",
+                "edc1151dadb92d2ae06ec7c145eddd96034ebb82f904a2ac84579c255b58c041",
+                "12af49687b3474c1fdcc05de8a311465e4901bd7aabd83ededd133970dfbe893",
+                "bc9b5eccff21e7ec22755eed1ca0b874c0ce70dc530b8be5a9d069521ea0fc83",
+                "06530179aef0463f2a6817c15b098739949f2b082719bf7b301c3b1ed0de2bcf",
+                "d853f52a23b62ee715fffe6f6db4c2c75e31bf7f444aeedac7f4e4e3797ef960",
+                "b3cfe73a01275fe45a899981a053fdfb7093af078d21ec57c085024e9b6c42b1",
+                "d03a94eba753a744b75d11635e7d021ca4895bb55716335d0ee31bbba8dcbb6c",
+                "ee973c9f36bb343658a05cc10b48eda8e04f97865f621cb6302ab4afdfa2efc4",
+                "90ad73d3080418df0915730deb1e2dfeb50c40fb9fb79b029cc24df576d12a7c",
+                "d705e13f9fe6b3d3dfa76d322d6507576b5e1dee1be9f8bd24a4c93d345a52d2",
+                "4633846a9ebf0d59485d1668e7ba573f682369b96bc3814123f96df6d65cdec2",
+                "b77f430ba18090245fa619e317090e49ed0dd2a94dc36e25ec4aaf9966af861a",
+                "137eecae06a347e28d69cdd64a846364f69cec0c173be440c64f4ddf7e5f42fe",
+                "5cfca01bda82ef8d2df2c0454c8401f33eb99aa663218405c2e02b92bfffb04a",
+                "cdf30020573f537e7565357d28cc0415c5a5176bd4e2ee1d094fda9288d4302b",
+                "576a9f3ed450c2d51c7d4b5d7692e8d0b50c57afd439259decefa455c73e8419",
+                "d2fa1fa6a0c118d5e0ac2b8e32cd2c8a9e0b5ac9e0f35defb18b893e84123c32",
+                "608a3f0f5b130af716d51aed6faa835062dce0617b2c2a4aec4e7d0390ff549b",
+                "a1349f1f1f0a1bae0a2482e25c00f0b23e29fa76c7d3aa300c24d433d4755604",
+                "e65d1b83f69078d59f4ae36d36aad0a363a4578cd4e8459db002b837a89684d5",
+                "be83e2cf379592d45936df8ae06473422de644387e07df5b22b834578ff8447a",
+                "d65e4db08741765cd8a6d7da1bedf6a9adc66d64efe0bf82757557e669655400",
+                "834a00bffa5d5ac0cbea8e272d871ec8acb956e1a70ee956ebba3eb9c969092b",
+                "44e88da6c8f44cd11f0328b0cbd23ccce585483c63034aa00a0d247b52bb9899",
+                "4cc3f3d6ed1c51b7b7e442b991ee163a14f66ba8074f6d0f1263f567891ac0e3",
+                "00a852f7664222871c80fb28dba27bf4dbeebb15e2e5fd035a256f925646b3a8",
+                "31822646b35f751f650063777b7fec5d64128843c8027b7b184f414e31086cd8",
+                "390d65387a567129f26910b43703fb7d95e7ad5c3baa55b12bde4b231b42b35a",
+                "aa0637c1fea96ce386275d619721a92597e70143704c1016900c1d08e9a47053",
+                "48608b87e9be8de34c9ece8444b72ab14d09b6a0e7ea28762b184e99d2d0a9b0",
+                "72ade9febd4009c08c755d035fd34336fa6bd715844e14aa33759cba5b05e13f",
+                "2609f5a8d207ea8b362ea45747e74544c7d03c1c3f0746a4c27c9e3c0e6be943",
+                "3526ccc039e458884fe7ce79b2dbae6e7ecb13b822903676a99f73fb07f728fd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "softwarekeep.com",
+                "thechive.com",
                 "lampgigant.nl",
-                "happy-spirit.nl",
-                "www.etosdrogistonlineassen.nl",
-                "www.na-kd.com",
-                "vanilia.com",
+                "www.wikiart.org",
+                "www.eastpak.com",
+                "flyingtiger.com",
+                "www.omlet.nl",
+                "www.keychron.com",
                 "nl.air-up.com",
-                "frame.work",
-                "www.bodystore.nl",
-                "www.naturalheroes.nl",
-                "www.bellesa.co",
-                "sensiseeds.com",
-                "www.johnbeerens.com",
                 "www.travelbags.nl",
-                "www.vanmoof.com",
-                "www.voorpositiviteit.nl",
-                "www.trendjuwelier.nl",
+                "www.plantsome.nl",
+                "www.sprinklr.co",
+                "steelseries.com",
+                "nl.stoov.com",
                 "leapp.nl",
-                "www.viavaishoes.com",
-                "mastertools.nl"
+                "www.ecotools.nl",
+                "www.manify.nl",
+                "www.whoppah.com",
+                "quotetheanime.com",
+                "www.specialized.com",
+                "sensiseeds.com"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/onsite-analytics\\.4f385432cebb383e3e0e\\.js",
-            "cookies": 0.000301,
-            "fingerprinting": 2,
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/fender_analytics\\.51f95a5e38c9309b9386\\.js",
+            "cookies": 0.00331,
+            "fingerprinting": 1,
             "subdomains": [
-                "static"
+                "static-tracking"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Document.cookie setter": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.vendor": 3,
-                "Navigator.prototype.platform": 3
+                "window.localStorage": 35,
+                "Navigator.prototype.userAgent": 35,
+                "Date.prototype.getTime": 35,
+                "Navigator.prototype.vendor": 35,
+                "Navigator.prototype.platform": 35,
+                "Document.cookie getter": 33,
+                "Document.cookie setter": 33
             },
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 35,
+            "prevalence": 0.00351,
             "cnames": [],
             "responseHashes": [
-                "59fb1935571a84878d3e22d15fed39d3433d76a074484d571ceb7ad4afa81183"
+                "ef2dfcfeace1a28bb665c14b5b082f13023911960144a6f00013ede5e1a16d9d"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "__kla_id": {
-                    "ttl": 63072004,
-                    "length": 220,
-                    "prevalence": 0.00030102347983142685,
+                    "ttl": 63072003,
+                    "length": 238,
+                    "prevalence": 0.003306613226452906,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "frame.work",
-                "steelseries.com",
-                "www.na-kd.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/profiling\\.6922a10a88481a3b66a5\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.connection": 3,
-                "Navigator.prototype.storage": 3,
-                "Navigator.prototype.deviceMemory": 3,
-                "Navigator.prototype.hardwareConcurrency": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "e88c26784b5f16bc9f7b083bb20e9a5662c19d9066724759bd3481c4ee47526e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frame.work",
-                "steelseries.com",
-                "www.na-kd.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/api\\/v2\\/modules",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "fast.a"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "d213bd4e1364ab51afd24737906ebc4aa82e63118324e9448417c686c914fe82"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frame.work",
-                "steelseries.com",
-                "www.na-kd.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/fender_analytics\\.b2286175f729ec5cc951\\.js",
-            "cookies": 0.001,
-            "fingerprinting": 2,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "window.localStorage": 21,
-                "Date.prototype.getTime": 21,
-                "Navigator.prototype.userAgent": 21,
-                "Navigator.prototype.vendor": 21,
-                "Navigator.prototype.platform": 21,
-                "Document.cookie getter": 10,
-                "Document.cookie setter": 10
-            },
-            "sites": 21,
-            "prevalence": 0.00211,
-            "cnames": [],
-            "responseHashes": [
-                "39432470933df9b572b27b537a698f4b7e556697352ad26cf20624129a06aa0c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "__kla_id": {
-                    "ttl": 63072006,
-                    "length": 226,
-                    "prevalence": 0.0010034115994380895,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.bellesa.co",
-                "happy-spirit.nl",
-                "leapp.nl",
-                "www.trendjuwelier.nl",
-                "www.johnbeerens.com",
-                "softwarekeep.com",
-                "www.voorpositiviteit.nl",
-                "mastertools.nl",
+                "thechive.com",
+                "www.travelbags.nl",
+                "www.sleepfoundation.org",
+                "sensiseeds.com",
+                "www.manify.nl",
+                "www.bodystore.nl",
+                "www.wikiart.org",
+                "lampgigant.nl",
                 "nl.air-up.com",
-                "www.etosdrogistonlineassen.nl",
+                "quotetheanime.com",
+                "www.keychron.com",
+                "www.sprinklr.co",
+                "www.whoppah.com",
+                "www.omlet.nl",
+                "www.decathlon.com",
+                "www.johnbeerens.com",
+                "www.bellesa.co",
+                "flyingtiger.com",
+                "www.meesterslijpers.nl",
+                "www.drmartens.com"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/static\\.444020cd426b0bea12c1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static-tracking"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 35,
+                "Navigator.prototype.storage": 35,
+                "Navigator.prototype.deviceMemory": 35,
+                "Navigator.prototype.hardwareConcurrency": 35
+            },
+            "sites": 35,
+            "prevalence": 0.00351,
+            "cnames": [],
+            "responseHashes": [
+                "94eb37f3ca8ec6a7d028370dfadf216aaa9a5b6f794a7462707f422aa7098f18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thechive.com",
+                "steelseries.com",
+                "www.tuinmeubelen.nl",
                 "www.decathlon.com",
                 "www.travelbags.nl",
-                "lampgigant.nl",
-                "www.vecteezy.com",
-                "www.vanmoof.com",
-                "www.bodystore.nl",
+                "www.omlet.nl",
                 "sensiseeds.com",
-                "www.naturalheroes.nl",
-                "www.viavaishoes.com",
-                "vanilia.com"
+                "www.meesterslijpers.nl",
+                "goldprice.org",
+                "nl.pit-pit.com",
+                "www.plantsome.nl",
+                "www.eastpak.com",
+                "happy-spirit.nl",
+                "leapp.nl",
+                "www.sprinklr.co",
+                "www.keychron.com",
+                "www.wikiart.org",
+                "www.manify.nl",
+                "www.carid.com",
+                "www.ecotools.nl"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/sharedUtils\\.16d936f15fdc35eb7f71\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/runtime\\.8bc49d3eb59cc20349df\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.00211,
+            "sites": 35,
+            "prevalence": 0.00351,
             "cnames": [],
             "responseHashes": [
-                "4dffae6b51c95f478349784f67822f36e8e0574a2e58174dec55e72447088837"
+                "390d7456d767619a330c60d7a627c20457b2046f342e34f52bca584f9be6226a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.johnbeerens.com",
-                "sensiseeds.com",
-                "nl.air-up.com",
-                "www.viavaishoes.com",
-                "www.travelbags.nl",
-                "leapp.nl",
-                "www.specialized.com",
-                "mastertools.nl",
+                "thechive.com",
+                "www.meesterslijpers.nl",
+                "www.drmartens.com",
+                "happy-spirit.nl",
+                "steelseries.com",
                 "www.bodystore.nl",
-                "vanilia.com",
-                "www.voorpositiviteit.nl",
+                "nl.stoov.com",
+                "www.omlet.nl",
+                "nl.pit-pit.com",
+                "www.keychron.com",
+                "www.travelbags.nl",
+                "www.johnbeerens.com",
+                "flyingtiger.com",
+                "www.manify.nl",
+                "www.vanmoof.com",
+                "www.tuinmeubelen.nl",
+                "www.whoppah.com",
+                "lampgigant.nl",
+                "www.ecotools.nl",
+                "quotetheanime.com"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/sharedUtils\\.5871e7244b09df3896d9\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 28,
+                "window.innerHeight": 28
+            },
+            "sites": 35,
+            "prevalence": 0.00351,
+            "cnames": [],
+            "responseHashes": [
+                "12cc49dbabec4bcfcdfa77d5452d428bd8fe25ed16346f2601137678e8a8e951"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thechive.com",
+                "www.vanmoof.com",
+                "www.ecotools.nl",
+                "nl.pit-pit.com",
+                "www.omlet.nl",
+                "lampgigant.nl",
+                "www.keychron.com",
+                "www.tuinmeubelen.nl",
+                "www.manify.nl",
+                "www.bellesa.co",
                 "www.trendjuwelier.nl",
-                "www.etosdrogistonlineassen.nl",
-                "www.vecteezy.com",
-                "www.naturalheroes.nl",
-                "www.vanmoof.com",
-                "happy-spirit.nl",
-                "lampgigant.nl",
-                "www.bellesa.co",
-                "softwarekeep.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/static\\.ab6af2a1efeff571d023\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.connection": 21,
-                "Navigator.prototype.storage": 20,
-                "Navigator.prototype.deviceMemory": 20,
-                "Navigator.prototype.hardwareConcurrency": 21
-            },
-            "sites": 21,
-            "prevalence": 0.00211,
-            "cnames": [],
-            "responseHashes": [
-                "8b3fe3a696404e8d2aea0b47d3aaebfa242a29d44b923275603a154df1f5b8fe"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "www.viavaishoes.com",
-                "leapp.nl",
-                "www.johnbeerens.com",
-                "sensiseeds.com",
-                "happy-spirit.nl",
-                "www.bellesa.co",
-                "www.etosdrogistonlineassen.nl",
                 "nl.air-up.com",
-                "www.vecteezy.com",
-                "vanilia.com",
-                "www.voorpositiviteit.nl",
-                "www.bodystore.nl",
-                "www.naturalheroes.nl",
-                "mastertools.nl",
+                "steelseries.com",
+                "www.sprinklr.co",
                 "www.travelbags.nl",
-                "www.specialized.com",
-                "www.trendjuwelier.nl",
+                "www.bodystore.nl",
                 "www.decathlon.com",
-                "lampgigant.nl",
-                "www.vanmoof.com"
+                "www.plantsome.nl",
+                "www.drmartens.com",
+                "www.meesterslijpers.nl"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/sentry\\.957bb8d322d8fad44127\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~signup_forms\\.f7066e273a66876a4dee\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "console.memory": 17
+                "window.localStorage": 28,
+                "Navigator.prototype.userAgent": 28,
+                "Document.cookie getter": 25
             },
-            "sites": 17,
-            "prevalence": 0.00171,
+            "sites": 28,
+            "prevalence": 0.00281,
             "cnames": [],
             "responseHashes": [
-                "08657f3620388cf5ff7fd7c6c4a583b64a4414993c627016d5f195eecf9637b5"
+                "ca4e54a215c2edea6b34afc63e441afc24084fb33b4a66ae99e5be43e17b02bf"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "happy-spirit.nl",
-                "lampgigant.nl",
-                "leapp.nl",
-                "nl.air-up.com",
+                "thechive.com",
+                "quotetheanime.com",
+                "www.vanmoof.com",
+                "nl.stoov.com",
+                "www.keychron.com",
+                "www.sprinklr.co",
+                "www.johnbeerens.com",
+                "www.drmartens.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
                 "sensiseeds.com",
-                "softwarekeep.com",
-                "vanilia.com",
+                "nl.pit-pit.com",
+                "happy-spirit.nl",
+                "steelseries.com",
+                "www.wikiart.org",
+                "www.plantsome.nl",
+                "www.omlet.nl",
                 "www.bellesa.co",
                 "www.bodystore.nl",
-                "www.decathlon.com",
-                "www.johnbeerens.com",
-                "www.specialized.com",
-                "www.travelbags.nl",
-                "www.vanmoof.com",
-                "www.vecteezy.com",
-                "www.viavaishoes.com",
-                "www.voorpositiviteit.nl"
+                "www.eastpak.com"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~signup_forms~signup_forms_new\\.07f87a93a16a0d9c5b3f\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "window.localStorage": 17,
-                "Navigator.prototype.userAgent": 17,
-                "Document.cookie getter": 8,
-                "Document.cookie setter": 2
-            },
-            "sites": 17,
-            "prevalence": 0.00171,
-            "cnames": [],
-            "responseHashes": [
-                "cda5356b0060662b83d012375120383549fef421f633e9db8d9f2c2a152d5f0f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "KL_FORMS_MODAL": {
-                    "ttl": 31536008,
-                    "length": 67,
-                    "prevalence": 0.0002006823198876179,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "happy-spirit.nl",
-                "lampgigant.nl",
-                "leapp.nl",
-                "nl.air-up.com",
-                "sensiseeds.com",
-                "softwarekeep.com",
-                "vanilia.com",
-                "www.bellesa.co",
-                "www.bodystore.nl",
-                "www.decathlon.com",
-                "www.johnbeerens.com",
-                "www.specialized.com",
-                "www.travelbags.nl",
-                "www.vanmoof.com",
-                "www.vecteezy.com",
-                "www.viavaishoes.com",
-                "www.voorpositiviteit.nl"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/signup_forms~signup_forms_new\\.deeb9788d5e666b8675b\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/signup_forms\\.c2c4ecbc8d929579d042\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 14
+                "window.localStorage": 28,
+                "Date.prototype.getTime": 19
             },
-            "sites": 17,
-            "prevalence": 0.00171,
+            "sites": 28,
+            "prevalence": 0.00281,
             "cnames": [],
             "responseHashes": [
-                "9dffeba70023cc52a906d9361f1ad66a5d7a2a71d58c954897ca57b509e03097"
+                "dff4b5ab26d1cf57c120a216d3bf9bce278a349ed3ad4b6e12d4b8e30b6f587c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "happy-spirit.nl",
-                "lampgigant.nl",
-                "leapp.nl",
-                "nl.air-up.com",
+                "thechive.com",
                 "sensiseeds.com",
-                "softwarekeep.com",
-                "vanilia.com",
-                "www.bellesa.co",
+                "happy-spirit.nl",
+                "www.plantsome.nl",
+                "leapp.nl",
+                "lampgigant.nl",
+                "www.sprinklr.co",
+                "www.eastpak.com",
+                "goldprice.org",
+                "steelseries.com",
+                "quotetheanime.com",
                 "www.bodystore.nl",
+                "nl.stoov.com",
                 "www.decathlon.com",
-                "www.johnbeerens.com",
                 "www.specialized.com",
-                "www.travelbags.nl",
-                "www.vanmoof.com",
-                "www.vecteezy.com",
-                "www.viavaishoes.com",
-                "www.voorpositiviteit.nl"
+                "www.sleepfoundation.org",
+                "nl.air-up.com",
+                "www.omlet.nl",
+                "www.bellesa.co",
+                "www.drmartens.com"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/signup_forms_new\\.f7eee781a32f9b6b2707\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/sentry\\.32defc2659e6aaee877c\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
+                "static-tracking",
                 "static"
             ],
-            "apis": {},
-            "sites": 17,
-            "prevalence": 0.00171,
+            "apis": {
+                "console.memory": 28
+            },
+            "sites": 28,
+            "prevalence": 0.00281,
             "cnames": [],
             "responseHashes": [
-                "ed67ca07573cb915c0aae18812d1921115758126541b11a360262902047f9580"
+                "1b74a880e9d1210332daddfd254a62050679989f2f3e3cc82c4e5c42c0b3201d"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "happy-spirit.nl",
-                "lampgigant.nl",
-                "leapp.nl",
+                "thechive.com",
                 "nl.air-up.com",
-                "sensiseeds.com",
-                "softwarekeep.com",
-                "vanilia.com",
-                "www.bellesa.co",
-                "www.bodystore.nl",
-                "www.decathlon.com",
+                "leapp.nl",
+                "happy-spirit.nl",
+                "www.carid.com",
                 "www.johnbeerens.com",
-                "www.specialized.com",
-                "www.travelbags.nl",
                 "www.vanmoof.com",
-                "www.vecteezy.com",
-                "www.viavaishoes.com",
-                "www.voorpositiviteit.nl"
+                "lampgigant.nl",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "nl.pit-pit.com",
+                "www.plantsome.nl",
+                "quotetheanime.com",
+                "www.keychron.com",
+                "www.sprinklr.co",
+                "www.wikiart.org",
+                "flyingtiger.com",
+                "steelseries.com",
+                "sensiseeds.com",
+                "www.specialized.com"
             ]
         },
         {
@@ -486,132 +415,245 @@
                 "fast.a"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.00171,
+            "sites": 28,
+            "prevalence": 0.00281,
             "cnames": [],
             "responseHashes": [
                 "53a85651866852f33fcaf1ee1eff6e5002e8dfe32e4dd49187007b3a7c1367ea",
-                "aa1dd7a08368f78b252fec3b902f0d4c21e12b3c0986ce2afc48e15e3f9cf936",
-                "961596ea1a40b5f99c04f503aeecd45e0855aafb55cdda8eb28f4cb137bd0ad1",
-                "1010f3ef61dcdc8d6fee6a948e743a6dc0bd314bfd1b03b7dab0edb3b8dc5f43",
-                "fae0ecc04bbfa147147e722497501f1dd974d2d3baabbc775722fd9a4963a29d",
-                "dc6b09bc1776854c9c11b89784e611a7134a5400e5ebdd0e6a7c9f3a7ba54ac2",
-                "658e3d49710e7ab294aa060e2ff00937c1527be084d342496190a675998d72e5",
-                "98fa0f7319ebffffcc42c67d3d4faa1ad0aff36d38ceeaca009f4f3af03ce911"
+                "f1e3a37d8e4c307283e23214a767be37513dc3f2337fade9cb25fa293b88ebe8",
+                "20dc010d9f602a30089a9bea8d5bc584232be978db922b482ddb60d20432f703",
+                "aeb23b329a97fb0f5419020c93d724de1c913c3194b8c9c2909d548a8ac60767",
+                "567d79e2da52b7bf07b173bfffb71fd5e785223c76688b0bb5efdcfc075f3ab1",
+                "c2eb09ad242eac0f5930f65be4032f997a84f09de8489ec4cbf2b6ab7008fb72",
+                "6af167058a56d95fe2fdc7b064d86bffd41d938d8717264465f28903948f92b2",
+                "e599da02f233c7f2b7cf7034cd62ce0db2bc8294bb4a3f2461cb00f37dbbff0b",
+                "0a921d0ffedf195882c0ad334eef52f8cf9b16ee09d9364eca51f405e1d9ba16",
+                "2246ad5ca73cc6e28ccacff25a04be11ed659dcad5c2fb95fe0798097b6299fa",
+                "154363058c7163e2a3a0895db0dd736e90c8eec7ee22e7f0d871785533e80d74",
+                "8415a56e0d01f09e7476494b521794c4718a7f71311abaaeccbf484018481ecd",
+                "0fa1fff611c8519892ae3e1b3ae2d49e8f947b702360a750447537a5275e76fb",
+                "052077ace081c7fa5ad01e9d9ce7693c8e7433b346e71eecf09b1798486d0412",
+                "95d7bba948255c03ce98ebe0b07c91fb9ba032e4f8ac633e1f932b16159c0cb9",
+                "7782bc457bb033b379bb507fc5d43a8d612820125975c7b761502f3e70781770",
+                "66e0bc7dc594038b6c1277a89bb79817e8482583d7a421455fdd42cde9be9cae",
+                "fbff05f88672265315b3c72390f73c36409a962c1b4d1abe358f0f257e5b41a0",
+                "97c3cbcf689b212fc19ac207fc765b89289f2847a5a18724bbe81fab38311a07",
+                "4a2b46bb9da1aa193052f0434196b8a125195e2667b42608a4fe70e9c337b892",
+                "b10a72ce72a133660777eafedbb81b76cb3f423d38663ca65f44a6e8aa4058cd",
+                "6a21572c5927a7ecf16fa9306d9ac1f45d5921c10d90679c2eee65999a5a17f4",
+                "8b423b0e9d6ed10720789d3f30c25520665a7c279be0aa435deffd8d5d882260",
+                "4ad7fe80b77c0b1b945c269d40f6dc8c2d44d4dced552df8b427f9163f14b20b"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "happy-spirit.nl",
-                "lampgigant.nl",
-                "leapp.nl",
-                "nl.air-up.com",
+                "thechive.com",
+                "nl.stoov.com",
+                "nl.pit-pit.com",
+                "www.eastpak.com",
+                "steelseries.com",
+                "www.keychron.com",
+                "www.carid.com",
+                "www.sleepfoundation.org",
+                "www.sprinklr.co",
+                "flyingtiger.com",
+                "www.omlet.nl",
                 "sensiseeds.com",
-                "softwarekeep.com",
-                "vanilia.com",
-                "www.bellesa.co",
-                "www.bodystore.nl",
+                "www.drmartens.com",
+                "quotetheanime.com",
+                "happy-spirit.nl",
+                "www.plantsome.nl",
                 "www.decathlon.com",
-                "www.johnbeerens.com",
-                "www.specialized.com",
-                "www.travelbags.nl",
-                "www.vanmoof.com",
-                "www.vecteezy.com",
-                "www.viavaishoes.com",
-                "www.voorpositiviteit.nl"
+                "nl.air-up.com",
+                "www.bellesa.co",
+                "lampgigant.nl"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/13\\.f492a3d1ada3f6002e9a\\.css",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~ClientStore\\.248c8843a456574316b6\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "0d8d9ef6c7fad587c453c7ece144254a3988cefd3c41011adccefb6c304e209e"
+                "352ee442394492652c3a3c48e93e9f9e5e1104e4c8f4196018856c17be8a42d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyingtiger.com",
+                "leapp.nl",
+                "nl.air-up.com",
+                "www.bodystore.nl",
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com",
+                "www.wikiart.org"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/ClientStore\\.239f1d6fb9107e84619a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static",
+                "static-tracking"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "a697c9ebca22c82fac6e3d328fee026c6cdc398399acdf1330ef261342f830b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyingtiger.com",
+                "leapp.nl",
+                "nl.air-up.com",
+                "www.bodystore.nl",
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com",
+                "www.wikiart.org"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/532\\.dd9a1df84d96cf83ca19\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static",
+                "static-tracking"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "1d15e670416ef39727da495163f8624f3e0fa3b18b2389bb6f350d55a48f45c1"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "softwarekeep.com",
-                "www.bodystore.nl"
+                "flyingtiger.com",
+                "leapp.nl",
+                "nl.air-up.com",
+                "www.bodystore.nl",
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/styles\\.ec377baea03477f8c36d\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/styles\\.06769e22f72371c9b731\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "a96fb8a9a1ab432b3954fe8e7fde836649d7e7870f0fafa3eff343029a3e0db4"
+                "aa114477f5fd7d346d7e6a7df82a0dcbbc0e0f44699ee58a07b4a05c1c7443e9"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "softwarekeep.com",
-                "www.bodystore.nl"
+                "flyingtiger.com",
+                "leapp.nl",
+                "nl.air-up.com",
+                "www.bodystore.nl",
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~Render\\.6f4df34887104328c71b\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~Render\\.d67bcbf78caa39f7838e\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "e10dbc8fd6dcea24f2cf7ce2a15fe780659a46448553500ddfe88e9dc2230d5e"
+                "e394c989c5e541ddfafd25ded980449ed98d809707fb88996ef8814bb1542269"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "softwarekeep.com",
-                "www.bodystore.nl"
+                "flyingtiger.com",
+                "leapp.nl",
+                "nl.air-up.com",
+                "www.bodystore.nl",
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/Render\\.bfb9abf1d7135df1f7c3\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/Render\\.9eccb014bbbfde80550c\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "94e898363a1537ad7d8bd4c31c1407007babdfe174b8b182328a32084953c264"
+                "287951305dc962d07e353c60eac966e86d6c72aa6f13f21cf13d37da43920d72"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "softwarekeep.com",
-                "www.bodystore.nl"
+                "flyingtiger.com",
+                "leapp.nl",
+                "nl.air-up.com",
+                "www.bodystore.nl",
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com",
+                "www.wikiart.org"
             ]
         },
         {
@@ -622,8 +664,8 @@
                 "telemetrics"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000702,
+            "sites": 8,
+            "prevalence": 0.000802,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -632,36 +674,14 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
+                "flyingtiger.com",
                 "nl.air-up.com",
-                "softwarekeep.com",
-                "vanilia.com",
-                "www.bellesa.co",
                 "www.bodystore.nl",
-                "www.vecteezy.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/media\\/js\\/public\\/klaviyo_subscribe\\.js",
-            "cookies": 0.000301,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "c98ad91fb505c5274ffd7c7f24fa62878c420db7778edb428ecb4d4e387df3ae"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "privacypros.io",
-                "www.dennisdeal.com",
-                "www.spigen.com"
+                "www.decathlon.com",
+                "www.eastpak.com",
+                "www.manify.nl",
+                "www.sleepfoundation.org",
+                "www.specialized.com"
             ]
         },
         {
@@ -672,40 +692,105 @@
                 "static"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 10,
+            "prevalence": 0.001,
             "cnames": [],
             "responseHashes": [
-                "73ea5c8014d88c34d770460c1449f4ffa86c8d8882da45ee53c99e67922009d8"
+                "bc9b5eccff21e7ec22755eed1ca0b874c0ce70dc530b8be5a9d069521ea0fc83",
+                "b3cfe73a01275fe45a899981a053fdfb7093af078d21ec57c085024e9b6c42b1",
+                "90ad73d3080418df0915730deb1e2dfeb50c40fb9fb79b029cc24df576d12a7c",
+                "cdf30020573f537e7565357d28cc0415c5a5176bd4e2ee1d094fda9288d4302b",
+                "d2fa1fa6a0c118d5e0ac2b8e32cd2c8a9e0b5ac9e0f35defb18b893e84123c32",
+                "44e88da6c8f44cd11f0328b0cbd23ccce585483c63034aa00a0d247b52bb9899",
+                "aa0637c1fea96ce386275d619721a92597e70143704c1016900c1d08e9a47053",
+                "48608b87e9be8de34c9ece8444b72ab14d09b6a0e7ea28762b184e99d2d0a9b0",
+                "3526ccc039e458884fe7ce79b2dbae6e7ecb13b822903676a99f73fb07f728fd"
             ],
             "type": "Other",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "decathlon.com",
-                "www.trendjuwelier.nl"
+                "lampgigant.nl",
+                "leapp.nl",
+                "nl.stoov.com",
+                "steelseries.com",
+                "www.drmartens.com",
+                "www.ecotools.nl",
+                "www.plantsome.nl",
+                "www.trendjuwelier.nl",
+                "www.tuinmeubelen.nl",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/media\\/css\\/public\\/klaviyo_subscribe\\.css",
-            "cookies": 0.0001,
+            "rule": "klaviyo\\.com\\/media\\/js\\/onsite\\/onsite\\.js",
+            "cookies": 0.000501,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000501,
+            "cnames": [],
+            "responseHashes": [
+                "cc6a07524e88b23ff3141a801d7f5e9d1566dd312a8b64dca06cbfdb8fa6f328"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "air-up.com",
+                "nl.stoov.com",
+                "www.eastpak.com",
+                "www.keychron.com",
+                "www.sprinklr.co"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/api\\/onsite\\/identify",
+            "cookies": 0.0002,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.000201,
+            "prevalence": 0.0002,
             "cnames": [],
             "responseHashes": [
-                "10bef3b064f8cca0d068891052b927a95f9a10db372a59a0099743046785d43a"
+                "22ae19b4845b3b1d9b75e9be81ab78eb6cb2e2c89a6a2c4dd71b138572ca71c5"
             ],
-            "type": "Stylesheet",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "dennisdeal.com",
-                "www.vanmoof.com"
+                "drmartens.com",
+                "www.whoppah.com"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/api\\/track",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0002,
+            "cnames": [],
+            "responseHashes": [
+                "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drmartens.com",
+                "www.whoppah.com"
             ]
         }
     ],
@@ -718,17 +803,17 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.00161,
+    "cookies": 0.00341,
     "types": {
-        "Script": 173,
-        "XHR": 27,
-        "Stylesheet": 5,
-        "Other": 2
+        "Script": 314,
+        "XHR": 40,
+        "Stylesheet": 10,
+        "Other": 10
     },
     "nameservers": [
+        "ns-1372.awsdns-43.org",
         "ns-1555.awsdns-02.co.uk",
         "ns-224.awsdns-28.com",
-        "ns-963.awsdns-56.net",
-        "ns-1372.awsdns-43.org"
+        "ns-963.awsdns-56.net"
     ]
 }

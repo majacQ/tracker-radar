@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000552,
-    "sites": 8,
+    "prevalence": 0.0000813,
+    "sites": 12,
     "subdomains": [
         "login",
         "notifikace"
@@ -16,6 +16,10 @@
     "cnames": [
         {
             "original": "login.kupi.cz",
+            "resolved": "login.szn.cz"
+        },
+        {
+            "original": "login.prozeny.cz",
             "resolved": "login.szn.cz"
         },
         {
@@ -27,8 +31,16 @@
             "resolved": "login.szn.cz"
         },
         {
+            "original": "login.super.cz",
+            "resolved": "login.szn.cz"
+        },
+        {
             "original": "login.zbozi.cz",
             "resolved": "login.szn.cz"
+        },
+        {
+            "original": "notifikace.prozeny.cz",
+            "resolved": "notifikace.szn.cz"
         },
         {
             "original": "notifikace.sauto.cz",
@@ -43,72 +55,20 @@
             "resolved": "notifikace.szn.cz"
         }
     ],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "szn\\.cz\\/static\\/badge\\/api\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "login"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "login.kupi.cz",
-                    "resolved": "login.szn.cz"
-                }
-            ],
-            "responseHashes": [
-                "5e1adbb6569d99f3254e1e2bb7ad84fe9edbd431c0459edd33c020041dbed315"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kupi.cz",
-                "www.kupi.cz"
-            ]
-        },
-        {
-            "rule": "szn\\.cz\\/js\\/api\\/badge\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "login"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "login.kupi.cz",
-                    "resolved": "login.szn.cz"
-                }
-            ],
-            "responseHashes": [
-                "41238aae21792c97775a9c707d13dcfd308f57388e16a08f37110e8e43ef5efe"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kupi.cz",
-                "www.kupi.cz"
-            ]
-        },
         {
             "rule": "szn\\.cz\\/js\\/api\\/login\\.js",
             "cookies": 0,
-            "fingerprinting": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "login"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "apis": {
+                "window.innerWidth": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [
                 {
                     "original": "login.kupi.cz",
@@ -116,7 +76,7 @@
                 }
             ],
             "responseHashes": [
-                "0c24e3d09888ae3e5e1ebe28ace3a781221411ec1c59bcab91d4d4202f26f500"
+                "536ea4d8643bc1653bf050645c452fb62fa52ad74952dfa0730316bc017bf83a"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -124,130 +84,30 @@
             "exampleSites": [
                 "kupi.cz",
                 "www.kupi.cz",
+                "www.prozeny.cz",
                 "www.sauto.cz",
                 "www.seznamzpravy.cz",
-                "www.zbozi.cz"
-            ]
-        },
-        {
-            "rule": "szn\\.cz\\/badge",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "login"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "login.kupi.cz",
-                    "resolved": "login.szn.cz"
-                }
-            ],
-            "responseHashes": [
-                "fd7267c487e34f161c1d13d12387e0356e975fccaa86e3510c01289b168b59b0"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kupi.cz",
-                "www.kupi.cz"
-            ]
-        },
-        {
-            "rule": "szn\\.cz\\/static\\/badge\\/badge\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "login"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "login.kupi.cz",
-                    "resolved": "login.szn.cz"
-                }
-            ],
-            "responseHashes": [
-                "7d2d90597b853d2f7691c5a73d8f91e27d22cab271a16ff80146ea8a442cfbe5"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kupi.cz",
-                "www.kupi.cz"
-            ]
-        },
-        {
-            "rule": "szn\\.cz\\/static\\/js\\/api\\/login\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "login"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [
-                {
-                    "original": "login.kupi.cz",
-                    "resolved": "login.szn.cz"
-                }
-            ],
-            "responseHashes": [
-                "0c24e3d09888ae3e5e1ebe28ace3a781221411ec1c59bcab91d4d4202f26f500"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kupi.cz",
-                "www.kupi.cz"
-            ]
-        },
-        {
-            "rule": "szn\\.cz\\/api\\/v1\\/autologin",
-            "cookies": 0.0000345,
-            "fingerprinting": 0,
-            "subdomains": [
-                "login"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
-            "cnames": [],
-            "responseHashes": [
-                "f896036e8a34188ffce919f622d64fc4891ca2b464a049a975aeaae6d69f628d"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "kupi.cz",
-                "www.kupi.cz",
-                "www.sauto.cz",
-                "www.seznamzpravy.cz",
+                "www.super.cz",
                 "www.zbozi.cz"
             ]
         },
         {
             "rule": "szn\\.cz\\/api\\/v1\\/user\\/badge",
-            "cookies": 0.0000345,
+            "cookies": 0.0000474,
             "fingerprinting": 0,
             "subdomains": [
                 "login"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 7,
+            "prevalence": 0.0000474,
             "cnames": [
                 {
                     "original": "login.kupi.cz",
+                    "resolved": "login.szn.cz"
+                },
+                {
+                    "original": "login.prozeny.cz",
                     "resolved": "login.szn.cz"
                 },
                 {
@@ -256,6 +116,10 @@
                 },
                 {
                     "original": "login.seznamzpravy.cz",
+                    "resolved": "login.szn.cz"
+                },
+                {
+                    "original": "login.super.cz",
                     "resolved": "login.szn.cz"
                 },
                 {
@@ -272,8 +136,37 @@
             "exampleSites": [
                 "kupi.cz",
                 "www.kupi.cz",
+                "www.prozeny.cz",
                 "www.sauto.cz",
                 "www.seznamzpravy.cz",
+                "www.super.cz",
+                "www.zbozi.cz"
+            ]
+        },
+        {
+            "rule": "szn\\.cz\\/api\\/v1\\/autologin",
+            "cookies": 0.0000474,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000474,
+            "cnames": [],
+            "responseHashes": [
+                "f896036e8a34188ffce919f622d64fc4891ca2b464a049a975aeaae6d69f628d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kupi.cz",
+                "www.kupi.cz",
+                "www.prozeny.cz",
+                "www.sauto.cz",
+                "www.seznamzpravy.cz",
+                "www.super.cz",
                 "www.zbozi.cz"
             ]
         },
@@ -285,9 +178,13 @@
                 "notifikace"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [
+                {
+                    "original": "notifikace.prozeny.cz",
+                    "resolved": "notifikace.szn.cz"
+                },
                 {
                     "original": "notifikace.sauto.cz",
                     "resolved": "notifikace.szn.cz"
@@ -306,7 +203,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sauto.cz",
+                "prozeny.cz",
+                "www.prozeny.cz",
                 "www.sauto.cz",
                 "www.seznamzpravy.cz",
                 "www.zbozi.cz"
@@ -315,16 +213,14 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000483,
+    "cookies": 0.0000813,
     "types": {
-        "Stylesheet": 4,
-        "Script": 9,
-        "Document": 2,
-        "XHR": 10,
-        "WebSocket": 4
+        "Script": 7,
+        "XHR": 14,
+        "WebSocket": 5
     },
     "nameservers": [
-        "ans.seznam.cz",
-        "ams.seznam.cz"
+        "ams.seznam.cz",
+        "ans.seznam.cz"
     ]
 }

@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.000401,
+    "sites": 4,
     "subdomains": [
         "www"
     ],
@@ -14,22 +14,38 @@
     "resources": [
         {
             "rule": "optico\\.fr\\/client\\.js",
-            "cookies": 0,
+            "cookies": 0.000201,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "optico_unique_visitor_id": {
+                    "ttl": 1576800006,
+                    "length": 36,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "optico_visitId": {
+                    "ttl": 1807,
+                    "length": 24,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "quelle-demarche.com",
+                "horaires-piscine.info",
+                "ma-dechetterie.fr",
                 "www.allo-medecins.fr"
             ]
         },
@@ -45,26 +61,28 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "2e098af8ed8380cac4f776532823fe1ee9ef83ed904fd642ef0f2b71151c7a06"
+                "9151b0780f8809f3cb5609cff713b8cfede700d42dcc0e18c071e48f0bfba585"
             ],
             "type": "Script",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "optico_unique_visitor_id": 0.00020064205457463884
+            },
             "exampleSites": [
-                "quelle-demarche.com",
+                "ma-dechetterie.fr",
                 "www.allo-medecins.fr"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000201,
     "types": {
-        "Script": 4
+        "Script": 5
     },
     "nameservers": [
-        "ns-50-a.gandi.net",
         "ns-33-b.gandi.net",
-        "ns-131-c.gandi.net"
+        "ns-131-c.gandi.net",
+        "ns-50-a.gandi.net"
     ]
 }

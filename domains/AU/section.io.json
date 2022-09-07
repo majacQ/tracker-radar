@@ -4,13 +4,29 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.0022,
-    "sites": 22,
+    "prevalence": 0.00201,
+    "sites": 20,
     "subdomains": [
-        "bacon"
+        "bacon",
+        "api-prod.freedom.com.au.c",
+        "content.health.vic.gov.au.c",
+        "content.sdp.education.vic.gov.au.c"
     ],
-    "cnames": [],
-    "fingerprinting": 1,
+    "cnames": [
+        {
+            "original": "api-prod.freedom.com.au",
+            "resolved": "api-prod.freedom.com.au.c.section.io"
+        },
+        {
+            "original": "content.health.vic.gov.au",
+            "resolved": "content.health.vic.gov.au.c.section.io"
+        },
+        {
+            "original": "content.sdp.education.vic.gov.au",
+            "resolved": "content.sdp.education.vic.gov.au.c.section.io"
+        }
+    ],
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "section\\.io\\/navigationtiming",
@@ -20,8 +36,8 @@
                 "bacon"
             ],
             "apis": {},
-            "sites": 16,
-            "prevalence": 0.0016,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -30,61 +46,112 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "adairs.com.au",
-                "www.adorebeauty.com.au",
+                "oroton.com",
                 "www.amcal.com.au",
-                "www.bulknutrients.com.au",
-                "www.citybeach.com.au",
-                "www.drmartens.com.au",
+                "www.citybeach.com",
                 "www.fantasticfurniture.com.au",
-                "www.innovations.com.au",
+                "www.firstchoiceliquor.com.au",
                 "www.intrepidtravel.com",
-                "www.liquorland.com.au",
-                "www.petbarn.com.au",
-                "www.pillowtalk.com.au",
-                "www.platypusshoes.com.au",
-                "www.skechers.com.au",
-                "www.styletread.com.au",
-                "www.vans.com.au"
+                "www.vintagecellars.com.au"
             ]
         },
         {
-            "rule": "section\\.io\\/resourcetiming",
+            "rule": "section\\.io\\/greenlitrest\\/v2\\/freedomfurniture\\/cms\\/components",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prod.freedom.com.au.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api-prod.freedom.com.au",
+                    "resolved": "api-prod.freedom.com.au.c.section.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freedom.com.au",
+                "www.freedom.com.au"
+            ]
+        },
+        {
+            "rule": "section\\.io\\/greenlitrest\\/v2\\/freedomfurniture\\/cms\\/components",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "bacon"
+                "api-prod.freedom.com.au.c"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000501,
-            "cnames": [],
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api-prod.freedom.com.au",
+                    "resolved": "api-prod.freedom.com.au.c.section.io"
+                }
+            ],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "11f29f7a6e92807e4e99694806a323eca6ac0313762879e45a38958cb0404df9"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "drmartens.com.au",
-                "www.intrepidtravel.com",
-                "www.platypusshoes.com.au",
-                "www.skechers.com.au",
-                "www.vans.com.au"
+                "freedom.com.au",
+                "www.freedom.com.au"
+            ]
+        },
+        {
+            "rule": "section\\.io\\/sites\\/default\\/files\\/site_logo\\/logo_0\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content.health.vic.gov.au.c",
+                "content.sdp.education.vic.gov.au.c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "content.health.vic.gov.au",
+                    "resolved": "content.health.vic.gov.au.c.section.io"
+                },
+                {
+                    "original": "content.sdp.education.vic.gov.au",
+                    "resolved": "content.sdp.education.vic.gov.au.c.section.io"
+                }
+            ],
+            "responseHashes": [
+                "bee547f70011980c98ce3fa7bd2d12a11324e840c71f12097301fc6e315fc483"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "health.vic.gov.au",
+                "www2.education.vic.gov.au"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0012,
+    "cookies": 0.001,
     "types": {
-        "Image": 16,
-        "XHR": 5
+        "Image": 9,
+        "Preflight": 2,
+        "XHR": 2
     },
     "nameservers": [
-        "ns-1000.awsdns-61.net",
         "ns-1219.awsdns-24.org",
         "ns-1621.awsdns-10.co.uk",
-        "ns-376.awsdns-47.com"
+        "ns-376.awsdns-47.com",
+        "ns-1000.awsdns-61.net"
     ]
 }

@@ -4,14 +4,14 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000069,
+    "prevalence": 0.0000678,
     "sites": 10,
     "subdomains": [
         "cdn",
         "widget"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "memberspace\\.com\\/scripts\\/widgets\\.js",
@@ -21,13 +21,14 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 6
+                "window.sessionStorage": 5,
+                "window.localStorage": 5
             },
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "f8952cfb1b3195115dfeb4385a1c0aa50638b18d673bf22113e551fa31c0dcf5"
+                "d561456fc357ad0057d37ba339fb794a8807aa40163442ca1da2f73ee71bd61b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -36,27 +37,31 @@
                 "illuminatiwatcher.com",
                 "unlimitedhangout.com",
                 "www.amandalinettemeder.com",
-                "www.floodmap.net",
-                "www.greataustralianparty.com.au",
-                "www.ncbcenter.org"
+                "www.bluebombers.com",
+                "www.floodmap.net"
             ]
         },
         {
-            "rule": "memberspace\\.com\\/20210928T183033X206663268\\/scripts\\/main\\.js",
+            "rule": "memberspace\\.com\\/20220819T174729X183081965\\/scripts\\/main\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 6,
-                "Navigator.prototype.userAgent": 6
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "window.innerWidth": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.availWidth": 5,
+                "window.innerHeight": 5,
+                "Document.cookie getter": 5
             },
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "ecbedb9e61acd984d7ec99808dc9f75af3a5dcf9189a77ddd6a593b2200d08dc"
+                "f126a0d3406c8c8cb0e7aa73715085e37780079c68d56d03a361d63675c1de35"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -65,24 +70,23 @@
                 "illuminatiwatcher.com",
                 "unlimitedhangout.com",
                 "www.amandalinettemeder.com",
-                "www.floodmap.net",
-                "www.greataustralianparty.com.au",
-                "www.ncbcenter.org"
+                "www.bluebombers.com",
+                "www.floodmap.net"
             ]
         },
         {
-            "rule": "memberspace\\.com\\/20210928T183033X206663268\\/styles\\/widget\\.css",
+            "rule": "memberspace\\.com\\/20220819T174729X183081965\\/styles\\/widget\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 5,
+            "prevalence": 0.0000339,
             "cnames": [],
             "responseHashes": [
-                "b3c4042906e04c96f61e7d9af49200167bc64adf781a0e7b4ffb9ff8bc583d47"
+                "aea4a973c19bac1d3c114187f462669b6e861d024feefbf02acd8c27a963cdb2"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
@@ -91,9 +95,8 @@
                 "illuminatiwatcher.com",
                 "unlimitedhangout.com",
                 "www.amandalinettemeder.com",
-                "www.floodmap.net",
-                "www.greataustralianparty.com.au",
-                "www.ncbcenter.org"
+                "www.bluebombers.com",
+                "www.floodmap.net"
             ]
         },
         {
@@ -105,30 +108,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amandalinettemeder.com",
-                "www.amandalinettemeder.com"
-            ]
-        },
-        {
-            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/amandalinettemeder\\/configuration",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "widget"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "353ce227cb9c00a36bd6880cea470a18b6b499a238dc96374ab43722cbce1b2d"
+                "9faf905a80e764366f16081c97d79759278ea04039dd856a9d56da8f986c05f6"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
@@ -139,7 +122,7 @@
             ]
         },
         {
-            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/greataustralianparty\\/configuration",
+            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/bluebombershub\\/configuration",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -147,41 +130,21 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "greataustralianparty.com.au",
-                "www.greataustralianparty.com.au"
-            ]
-        },
-        {
-            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/greataustralianparty\\/configuration",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "widget"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f19121c1d25abdaa92bab63b5a1bff8c3b8012981bd7241441022267cc7c3a27"
+                "ba0567f9d54b1c695e47b3c5ce07d9284ce822af8adad8ae0a7e06c7c7b28ae9"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "greataustralianparty.com.au",
-                "www.greataustralianparty.com.au"
+                "bluebombers.com",
+                "www.bluebombers.com"
             ]
         },
         {
-            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/ncbcenter\\/configuration",
+            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/floodmap\\/configuration",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -189,37 +152,17 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "ncbcenter.org",
-                "www.ncbcenter.org"
-            ]
-        },
-        {
-            "rule": "memberspace\\.com\\/api\\/v2\\/sites\\/ncbcenter\\/configuration",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "widget"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "449ca1b751cfec7866f7afdf5b49a214d809382623917878fcbb00fb19eb2db9"
+                "765877b4c58766b81f837ffb3cce82e78268900be1dd8a901035792de61fef1f"
             ],
             "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ncbcenter.org",
-                "www.ncbcenter.org"
+                "floodmap.net",
+                "www.floodmap.net"
             ]
         }
     ],
@@ -227,9 +170,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 12,
-        "Stylesheet": 6,
-        "Preflight": 6,
+        "Script": 10,
+        "Stylesheet": 5,
         "Fetch": 6
     },
     "nameservers": [

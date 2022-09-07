@@ -9,14 +9,14 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000173,
-    "sites": 25,
+    "prevalence": 0.000176,
+    "sites": 26,
     "subdomains": [
         "www",
         "maps"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "google\\.co\\.jp\\/cse\\/brand",
@@ -26,39 +26,35 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.appName": 2,
-                "Navigator.prototype.platform": 2
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.platform": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000276,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
-            "responseHashes": [
-                "6395e6f9f6fbcd953f0ffa40615094c565d86c265fb5028e64dd2dc872b5ce69"
-            ],
+            "responseHashes": [],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "nicovideo.jp",
                 "dic.nicovideo.jp",
-                "rubese.net",
                 "www.wowgame.jp"
             ]
         },
         {
             "rule": "google\\.co\\.jp\\/coop\\/cse\\/brand",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.appName": 7,
-                "Navigator.prototype.platform": 7,
-                "Navigator.prototype.languages": 1
+                "Navigator.prototype.appName": 6,
+                "Navigator.prototype.platform": 6
             },
-            "sites": 9,
-            "prevalence": 0.0000621,
+            "sites": 8,
+            "prevalence": 0.0000542,
             "cnames": [],
             "responseHashes": [
                 "6395e6f9f6fbcd953f0ffa40615094c565d86c265fb5028e64dd2dc872b5ce69"
@@ -67,15 +63,14 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "earthreview.net",
+                "jr-shinkansen.net",
+                "mayareki.biz",
                 "ramendb.supleks.jp",
                 "thehikaku.net",
                 "www.animatetimes.com",
-                "www.benricho.org",
                 "www.gigafree.net",
-                "www.time-j.net",
-                "www.toshin.com",
-                "www.vercalendario.info"
+                "www.jp-guide.net",
+                "www.time-j.net"
             ]
         },
         {
@@ -86,19 +81,115 @@
                 "maps"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.0000345,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "enechange.jp",
-                "lipscosme.com",
-                "mitsui-shopping-park.com",
-                "www.e-mansion.co.jp",
+                "e-mansion.co.jp",
                 "www.goo.ne.jp"
+            ]
+        },
+        {
+            "rule": "google\\.co\\.jp\\/maps\\/api\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "window.devicePixelRatio": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "a2176422eb9b3644fa636f1fb5ca017446ef51ac1c36683b93b6c72fcd0dd4a8",
+                "64593c6766fedc50ba3970698f5ab814cdebbd643332c452f314e5b73c384eb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jtb.co.jp",
+                "www.taiyakan.co.jp",
+                "www.teishinkai.jp"
+            ]
+        },
+        {
+            "rule": "google\\.co\\.jp\\/maps\\/vt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "d8d97415e2f466e6b4f77742ebcd6524b3ed8c3842475b6e7844a17dea4b19c7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jtb.co.jp",
+                "www.jtb.co.jp"
+            ]
+        },
+        {
+            "rule": "google\\.co\\.jp\\/maps-api-v3\\/api\\/js\\/50\\/1\\/intl\\/ja_ALL\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3f7591bc3aa3eea0b24203b80749cec6a4e8b6a8d1199ae12e7fa1545eff6096"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taiyakan.co.jp",
+                "www.teishinkai.jp"
+            ]
+        },
+        {
+            "rule": "google\\.co\\.jp\\/maps-api-v3\\/api\\/js\\/50\\/1\\/intl\\/ja_ALL\\/util\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9e7d8a8255a8ecb604ca3bb1889c4f3104f23c994204b6722360a21aa6e242e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taiyakan.co.jp",
+                "www.teishinkai.jp"
             ]
         }
     ],
@@ -106,13 +197,14 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 13,
-        "Document": 5
+        "Script": 18,
+        "Document": 2,
+        "Image": 2
     },
     "nameservers": [
-        "ns4.google.com",
+        "ns3.google.com",
         "ns1.google.com",
         "ns2.google.com",
-        "ns3.google.com"
+        "ns4.google.com"
     ]
 }

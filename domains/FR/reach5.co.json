@@ -4,42 +4,57 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000904,
-    "sites": 9,
+    "prevalence": 0.000702,
+    "sites": 7,
     "subdomains": [
+        "pbel1-ciam",
         "assets"
     ],
-    "cnames": [],
+    "cnames": [
+        {
+            "original": "auth.parcasterix.fr",
+            "resolved": "pbel1-ciam.reach5.co"
+        },
+        {
+            "original": "sso.futuroscope.com",
+            "resolved": "pbel1-ciam.reach5.co"
+        }
+    ],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "reach5\\.co\\/hassets\\/sdk\\/identity\\.en\\.d0ea17b33d4a45b6530c\\.js",
+            "rule": "reach5\\.co\\/identity\\/v1\\/config",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
-                "assets"
+                "pbel1-ciam"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.appName": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sso.futuroscope.com",
+                    "resolved": "pbel1-ciam.reach5.co"
+                },
+                {
+                    "original": "auth.parcasterix.fr",
+                    "resolved": "pbel1-ciam.reach5.co"
+                }
+            ],
             "responseHashes": [
-                "1a2c9e6f45b5d59e2cdb1d96e137fae883b5fc8211a06ab4ce905ce2b1524faf"
+                "eb2ecd1a5b7e420735fb9d4b747ce590dc414de158444df8e313cf0186506a9a"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "editions-tissot.fr",
-                "www.etam.com",
-                "www.maison123.com"
+                "futuroscope.com",
+                "www.parcasterix.fr"
             ]
         },
         {
-            "rule": "reach5\\.co\\/hassets\\/sdk\\/identity\\.fr\\.e61a3d226871700629a6\\.js",
+            "rule": "reach5\\.co\\/hassets\\/sdk\\/identity\\.fr\\.ac883fd428dd2550a131\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -48,13 +63,13 @@
             "apis": {
                 "Navigator.prototype.userAgent": 3,
                 "Navigator.prototype.appName": 3,
-                "Event.prototype.timeStamp": 2
+                "Event.prototype.timeStamp": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "f418c1fabf27ec420f269e96f2410accb55fd5f9c545daf8ebadef68bfcd911b"
+                "5fcb69d9f7d0df0a08910eaabf65dc0b7ba64f6567e0c4def4fd7cb307d52764"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -68,14 +83,15 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0001,
     "types": {
-        "Script": 6
+        "Fetch": 2,
+        "Script": 3
     },
     "nameservers": [
-        "ns-63.awsdns-07.com",
-        "ns-1015.awsdns-62.net",
         "ns-1972.awsdns-54.co.uk",
-        "ns-1447.awsdns-52.org"
+        "ns-1447.awsdns-52.org",
+        "ns-63.awsdns-07.com",
+        "ns-1015.awsdns-62.net"
     ]
 }

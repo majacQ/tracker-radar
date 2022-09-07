@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
-        "lb.apps.os"
+        "lb.apps.os",
+        "cl1-public.lbs.openshift"
     ],
     "cnames": [
         {
@@ -16,7 +17,7 @@
         },
         {
             "original": "laendlepunkte.vol.at",
-            "resolved": "lb.apps.os.russmedia.digital"
+            "resolved": "cl1-public.lbs.openshift.russmedia.digital"
         },
         {
             "original": "zuckerl.vienna.at",
@@ -34,7 +35,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "zuckerl.vienna.at",
@@ -42,7 +43,7 @@
                 }
             ],
             "responseHashes": [
-                "ece023eb1ff3c3df635d762774d9076c67eab7f4f536b350fc62dd01b678c0c9"
+                "9f2f1f8c7dfea82cd7b0ecd5dfc184f36855407577a4a941e90e6a3386408db3"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -61,7 +62,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [
                 {
                     "original": "laendlepunkte-ws.vol.at",
@@ -83,23 +84,50 @@
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "lb.apps.os"
+                "cl1-public.lbs.openshift"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [
                 {
                     "original": "laendlepunkte.vol.at",
-                    "resolved": "lb.apps.os.russmedia.digital"
+                    "resolved": "cl1-public.lbs.openshift.russmedia.digital"
                 }
             ],
             "responseHashes": [
-                "9abf43ecbc820c0b72278c1fd8ee0e521aa9ae404bf02266ba98e6c37e0dabd9"
+                "589f8952fde647ab71ec0260f2e1103a1a92f28c91d90d06cacc4a07f9d2ec93"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vol.at",
+                "www.vol.at"
+            ]
+        },
+        {
+            "rule": "russmedia\\.digital\\/notification\\/detail\\/421",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl1-public.lbs.openshift"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [
+                {
+                    "original": "laendlepunkte.vol.at",
+                    "resolved": "cl1-public.lbs.openshift.russmedia.digital"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "get_top_level_domain_cookie": 0.000013555829684555844
+            },
             "exampleSites": [
                 "vol.at",
                 "www.vol.at"
@@ -111,7 +139,8 @@
     "cookies": 0,
     "types": {
         "Script": 4,
-        "WebSocket": 3
+        "WebSocket": 3,
+        "Document": 2
     },
     "nameservers": []
 }

@@ -7,11 +7,11 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000131,
-    "sites": 19,
+    "prevalence": 0.000217,
+    "sites": 32,
     "subdomains": [
-        "integrations",
         "widget",
+        "integrations",
         "metrics",
         "metrics-nl"
     ],
@@ -19,175 +19,213 @@
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "fitanalytics\\.com\\/shop\\/shein\\/jan2020\\/pdp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "integrations"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "3f1b9afd6290092161447887b94979d33abb0ed9d1111d43b52953e1db6aceaf"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "shein.com",
-                "www.shein.com.mx",
-                "www.shein.com"
-            ]
-        },
-        {
-            "rule": "fitanalytics\\.com\\/widget_zepto\\.js",
-            "cookies": 0.0000207,
+            "rule": "fitanalytics\\.com\\/widget_pdp\\.js",
+            "cookies": 0.0000339,
             "fingerprinting": 1,
             "subdomains": [
                 "widget"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.userAgent": 8,
                 "Screen.prototype.width": 7,
                 "Screen.prototype.height": 7,
                 "window.sessionStorage": 7,
-                "Event.prototype.timeStamp": 7,
-                "Document.cookie getter": 7,
-                "Document.cookie setter": 3,
-                "Date.prototype.getTime": 2
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 5
             },
             "sites": 9,
-            "prevalence": 0.0000621,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
-                "24a1cac6a19603ce3e04b5ed640bd33f44c355f4c273fcab6fb9e3d4107ccbf6"
+                "26821d81667fb09b507879d14cf2298e8a1b9808751a1f3cdcb60ddf1b043edd"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "rrfDisabled": {
-                    "ttl": null,
-                    "length": 1,
-                    "prevalence": 0.000006902073382844206,
+                "fita.sid.shein": {
+                    "ttl": 34160010,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
-                "fita.sid.onrunning": {
-                    "ttl": 7776005,
+                "fita.sid.boohoo": {
+                    "ttl": 34160003,
                     "length": 32,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
-                "fita.sid.superdry": {
-                    "ttl": 7776010,
+                "fita.sid.fjallraven": {
+                    "ttl": 34160006,
                     "length": 32,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "fita.sid.boss": {
+                    "ttl": 2592028,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "fita.sid.intersport_iic": {
+                    "ttl": 34160005,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "shein.com",
-                "www.carhartt-wip.com",
+                "us.boohoo.com",
+                "us.puma.com",
                 "www.fjallraven.com",
+                "www.hugoboss.com",
+                "www.intersport.at",
+                "www.lulus.com",
                 "www.mammut.com",
-                "www.massimodutti.com",
-                "www.on-running.com",
-                "www.shein.com.mx",
-                "www.shein.com",
-                "www.superdry.com"
+                "www.massimodutti.com"
             ]
         },
         {
             "rule": "fitanalytics\\.com\\/config",
-            "cookies": 0.000117,
+            "cookies": 0.00021,
             "fingerprinting": 0,
             "subdomains": [
                 "widget"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000117,
+            "sites": 31,
+            "prevalence": 0.00021,
             "cnames": [],
             "responseHashes": [
-                "1dcf09c4934db199e251177369d2c21c5ace517b2e502a5c54a398b6e0529d34",
-                "cc06575a0600e9da6462606f3d5e1cf5229bd46e94c52f1f6cb73d9b3a906d4a",
-                "c46a541dcaefd5f47ecfc94bc99b51fb139b9daafd945c03241f11f40cb11a2b",
-                "4bc261631d304771cccf7d79c5015128ce1bdf17dd4b17c9f540c2764793da13",
-                "01decfd55ec5dcb07b3ea91d3441033bd482ef33325254828ba8f79e1d17ca71",
-                "cda0c9cb999f96f5644300843480284801c0a587060a9036e9fe2498553ce669",
-                "57f6a6d9ba3f6202859afdb188b68274d2be2f26ae4200fdb1eee6b07d47ece2",
-                "6863198209f4ab215b5fe62d6ac00cdc0626557e5db9377b5d578cbd04a7e16e",
-                "c65cd328373fe159d978fd12bd29a031e890045d480d49d3043bc5768ad5476a",
-                "3bade84799a3db3a04860563bb9c9306d409e8c8bd75d8a5b06707b08a310215",
-                "6ac5f69840f096ac2d69374ecbc7db20435bc4b2a5fa3d57641098369865f790",
-                "ba4343337ab3fa3859a12995651004c42a3e0341f368d02466a09cec7afa201f",
-                "1bdfcb2d34f04d5bf4113e1369ad9706d948d43e51297a0f4733eb057ee39a4f",
-                "1697b328ca6a55d9afb03b81cec8f38d89e83925ad0023db9fba3e2ef623db49",
-                "8cab496416fd5044fbcf908ed7db68ead121afd0fdc1ba55a752135f108ce949",
-                "1b0fb54d71e5c9de388f04e6695e25c11383474b0305bd28ea488044e2741f7c"
+                "809899175965bdf7f359e1097c123d1b15dcfe4dca2e0addd5722af11b7d1920",
+                "ff0865a069393353849d1657e1b8a87b06a22152ef0a3a5c4bd130b52a3f2b94",
+                "e24cca4d8507017a9a7fd8ded01956021801a83664024f2651130e369e53b51d",
+                "b4f1ec40474b98a901409f17cbc06748d88f145052106a17565aded0b61f6699",
+                "bd821cf2e6eb7b1c62e86109cd323bcffa59f924ce5b7a62d1709aea495b485c",
+                "a9f99ae71e2ddecda73b812963121165fb8d6b71ffd37179f1f25bdf9eed2444",
+                "8ef7f6726c70ae38d5d53b8a1064e3b2a906de771605cc5d7d113edea14c6ea0",
+                "e1bec49436a76098bd1dfa6f59d80f5c9c1755ffa63c6457dacd8cd79d70bf3d",
+                "540759502bf941ebbc1e46b0d2ad7e8a0a89c7c2fbd440462a801420009758e7",
+                "bba0dc3486bf87ecaae754c4740d190499daf5e1586a3a128e94dc9b809bdb71",
+                "f1375cc07b436d643ce0801fb526e936fc9fc112521b36faaafdc80d0fe94ab2",
+                "9d87caacb5ef00efd360623f9b305f42a4280a69f696a56c084a0af3de6ece9d",
+                "d65422639e2dcc5792c4a327f0533ba1624615db27775769228eb6e3f1ffac7c",
+                "267b98bb13deebc3a23d70f668cf79915c4ea96c762269780e29f18d719c85b3",
+                "ee262c8aa343f57e4c3c8976f0047ea23f8de50d61c76c5f6ff8215f4119e3c4",
+                "f61c0eac39487993392ba9dfe363529c7206535edba4761d5ba3033f4cf13290",
+                "0992dcfa931b1f52df80341871a39ffe6ce48e83ce2ac8b4fb252e8abd9dd3e7",
+                "70eb102356dba70b09472fdab8b6efa3e58bc2dadb6678f8f9426c2a5503101b",
+                "1c9352da622df67648e47af33716887c119bac1620b34ff0783ba21d8117623c",
+                "8620c478a2605440100692f74ded6cfe5af2c3b6bf1f9c91c9b07a5a5975d276",
+                "c65683124dd24bf5e047ae0c7169cabc7b4fb08f1c6531262dd2399422ee63d3",
+                "e3a860ca8f15657bee6a46582fa0abc46e5508ce09ac7f35826b0aa5d15bd747",
+                "fdeff03dc460d31ab28230914866dcbfbccb4352a08df35e8a8d324656f9c19d",
+                "75a893990e18e9d9d5973072a4d3e8f09ac85a5cc8b87da9c96a3cf0e958b4ce",
+                "d32ddd2d035e5c2b929ee2d86a176c551f709b7bc0a3d0a7a902d63ec563ade8",
+                "500f2e8b1dc75e21054e6725c47f9bc871e1026fe9d95e35eef767a790eff2ab",
+                "f5c37a793e8971517a530f788eaed90a04685ccaeee077e8e5b9cb262fc83310",
+                "6ddfc8c1ebcf6e82b5bb08bc1b160f11959063400b40388a0cb038e3d007bd20",
+                "b6976d64d240da4b3f6aecdb822455912a39e8a2458eb787016cfedcfe3e348e",
+                "61d2e96180597a9aca1de286b94cf2de34eb7c197bf96f71e1e5846b996df7e2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "shein.com",
-                "mobile.yoox.com",
-                "usa.tommy.com",
-                "www.armedangels.com",
-                "www.carhartt-wip.com",
-                "www.chicos.com",
-                "www.fjallraven.com",
-                "www.hugoboss.com",
-                "www.mammut.com",
-                "www.massimodutti.com",
-                "www.nautica.com",
                 "www.on-running.com",
-                "www.peek-cloppenburg.de",
-                "www.shein.com.mx",
-                "www.shein.com",
                 "www.superdry.com",
-                "www.yoox.com"
+                "www.bergfreunde.eu",
+                "www.lacoste.com",
+                "www.greatgardenplants.com",
+                "usa.tommy.com",
+                "www.massimodutti.com",
+                "www.intersport.at",
+                "www.nautica.com",
+                "www.marksandspencer.com",
+                "www.berg-freunde.ch",
+                "www.thenorthface.co.uk",
+                "www.hugoboss.com",
+                "www.chicos.com",
+                "us.puma.com",
+                "mobile.yoox.com",
+                "www.peek-cloppenburg.at",
+                "www.falabella.com",
+                "www.alltricks.fr",
+                "www.peek-cloppenburg.de"
             ]
         },
         {
-            "rule": "fitanalytics\\.com\\/widget\\/productload",
-            "cookies": 0.000069,
+            "rule": "fitanalytics\\.com\\/assets\\/button\\/fit-finder-pdp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "9fae0c146d9dc587a44fea7ec8ae214e20869cb8ed3860a558130cc2a5a4800d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shein.com",
+                "www.fjallraven.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/products",
+            "cookies": 0.0000678,
             "fingerprinting": 0,
             "subdomains": [
                 "widget"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000069,
+            "sites": 11,
+            "prevalence": 0.0000746,
             "cnames": [],
             "responseHashes": [
-                "efcb819912268d035b961a1850d145dd7801b2396c70b76dee55e5074bbb5075",
-                "6bc7160867952fc980318700a2569dfe8603dd9a323ee7577d219b8a78c76e81",
-                "a212eee58f51bb0fcbba504172c2e2c03bd48de7146c6be0e3050993d093938e",
-                "a6730697852deaa0362f7e38deb45057466fa3d30cddb9f2582334dc81b66f89",
-                "b5ef4846b484c08f9b0b8105901ba765c3583babf2bf8ad6b51ef61b39e3fde4",
-                "6ac2d03256e045b498f7b8f05000eeecd0b042a8b96cee3c3eec754f93bfad0e",
-                "b1952a1e0e146aa58ee3ac215576c32fa1eb2acc1a5d6bc25335d740079e8780",
-                "1152172e70de95c6766a8ae535d8fc32d96d321c921697816d30ad37a4526992",
-                "e0e7543daba519e4d4bc9d320ad842feb2109bf44c7b3220911585d6f80f843d"
+                "09d62e18680accbeb6b81f56cf820ae257ceea7fe59e0870098997fd9b4cee07",
+                "3a7ff2224f284c3a3c949cb5da86050652883fce84f7149a5f2eeda11cc9d8fe",
+                "9bac668c4d5e0e1b5d212aae10bdf31a0c07b740f901f904dd40b2c810f967ae",
+                "1cbad8c9f4f5178c6757f18a929f1457f1e8f1729b529a6b5bd0a048163f5819",
+                "f11a947cfd086e455b0d83643a1a21096a3e883cafceead66010e964c5033b51",
+                "c12acbed245d01df2c172911afb7f47da34c8be209a22b1037120d5952ee7a43",
+                "94175e9751df4524795d78aa656d9e4a6db880479171710dfee5b3f0f153db06",
+                "58d2474a8de159835f6f49bfbd1b28c04b8ea7ae98b9afea5d62d184e8f213bb",
+                "b30d5a68076d8d6c7324999cba14de6d39c539920c1cc821d67c1914552938dc"
             ],
-            "type": "Script",
+            "type": "Fetch",
             "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
+            "firstPartyCookiesSent": {
+                "bi_session_id": 0.000013555829684555844,
+                "fita.sid.shein": 0.000013555829684555844,
+                "_ga": 0.000006777914842277922,
+                "fita.sid.bergfreunde": 0.000006777914842277922,
+                "fita.sid.chicos": 0.000006777914842277922,
+                "fita.sid.fjallraven": 0.000006777914842277922,
+                "fita.sid.intersport_iic": 0.000006777914842277922,
+                "fita.sid.millets": 0.000006777914842277922,
+                "fita.sid.onrunning": 0.000006777914842277922,
+                "fita.sid.tnf_eu": 0.000006777914842277922
+            },
             "exampleSites": [
                 "shein.com",
-                "fr.shein.com",
-                "www.armedangels.com",
-                "www.carhartt-wip.com",
+                "ca.shein.com",
+                "us.princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.chicos.com",
                 "www.fjallraven.com",
+                "www.intersport.at",
+                "www.lulus.com",
+                "www.millets.co.uk",
                 "www.on-running.com",
-                "www.peek-cloppenburg.de",
-                "www.shein.com.mx",
-                "www.shein.com",
-                "www.superdry.com"
+                "www.thenorthface.co.uk"
             ]
         },
         {
@@ -200,36 +238,43 @@
             ],
             "apis": {},
             "sites": 10,
-            "prevalence": 0.000069,
+            "prevalence": 0.0000678,
             "cnames": [],
             "responseHashes": [
-                "7683d83351ae19ff5b132ebd2d2b3ee489dd26b99cfc58eb89e80dc490887c02",
-                "cefeb9a173abda413a1d7bc634381caddbd410abc9e29a093a5c294023713556",
-                "14655ad52fceb368c999fe7fec6757892374f247d6a92e096c854e243b0ef757",
-                "ed80d4e48ab88e37c2d92dc4e650b208b52f079ae3eabfb5886dc930312018d5",
-                "d64dc8172f74bcd04beaa87134c744de8177a4d6f5b0188cb2540b057a21627e",
-                "227850aae016233b050edf6739ef3d820422a5d6184ff1bedff57c8c0701f0ea",
-                "60cb08fd97fc52061c87003a58eb4ebd40145d96abafb1d0e9dbe97105e4be01",
-                "9f93718b296c92375668d19d07f35a1ee3df7c465853139919e4e55a58ecd341",
-                "92cc3c90c9f2fe8eb3ec3820b0cc800dbb3ae29cd599c08abd2b9d6daba0a554"
+                "a4d2674b2136fbb8041ab9fc0d154e15228af5a45ae0d5fcfbf18f4b43ea131a",
+                "528160611f6563041a83a03fe7e9df4990b7dc47faec1e07735a6a1b1ad7a58a",
+                "31cfa16340efd3cf888265f625565cea1d6d22aaef1b56050d7db12f2beb5d98",
+                "1fe169495887a9ae0b9fec245a209c1a582a2514e79f4a6f72c53589650068df",
+                "777708cfc89f5a8719a5ea26c3324506860814d995bbb7abf3668c582d754425",
+                "a4cb3409b8f1acde30bf03c2f26cc5e3532b6868d69fc21628402958f513bc03",
+                "28c91443ff26b10da54b6bef17bbdc37c271561c786589a551cb9a8449e4f861",
+                "ae94044c846b8e8435ee783fd164a6261f20c1c89f2631b26ba75b2af224b78e"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "fita.sid.onrunning": 0.000006902073382844206,
-                "fita.sid.superdry": 0.000006902073382844206
+                "bi_session_id": 0.000013555829684555844,
+                "fita.sid.shein": 0.000013555829684555844,
+                "_ga": 0.000006777914842277922,
+                "fita.sid.bergfreunde": 0.000006777914842277922,
+                "fita.sid.chicos": 0.000006777914842277922,
+                "fita.sid.fjallraven": 0.000006777914842277922,
+                "fita.sid.intersport_iic": 0.000006777914842277922,
+                "fita.sid.millets": 0.000006777914842277922,
+                "fita.sid.onrunning": 0.000006777914842277922,
+                "fita.sid.tnf_eu": 0.000006777914842277922
             },
             "exampleSites": [
                 "shein.com",
-                "fr.shein.com",
-                "www.armedangels.com",
-                "www.carhartt-wip.com",
+                "ca.shein.com",
+                "us.princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.chicos.com",
                 "www.fjallraven.com",
+                "www.intersport.at",
+                "www.millets.co.uk",
                 "www.on-running.com",
-                "www.peek-cloppenburg.de",
-                "www.shein.com.mx",
-                "www.shein.com",
-                "www.superdry.com"
+                "www.thenorthface.co.uk"
             ]
         },
         {
@@ -243,10 +288,10 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "60730fdd94df761c5efc1eb9b0543b645a8321b89982725ea4503854af645427"
+                "e39502cacf0083597a56142f710f2ffee9244caadc7db3312e9cb371a137ae52"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -258,7 +303,7 @@
         },
         {
             "rule": "fitanalytics\\.com\\/widget\\.js",
-            "cookies": 0,
+            "cookies": 0.00000678,
             "fingerprinting": 1,
             "subdomains": [
                 "widget"
@@ -268,78 +313,40 @@
                 "Screen.prototype.width": 4,
                 "Screen.prototype.height": 4,
                 "window.sessionStorage": 4,
-                "Document.cookie getter": 1
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
             },
-            "sites": 6,
-            "prevalence": 0.0000414,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
-                "d6c0573172f7ef7cf215c18c561f84550428c35acdf5389820899591ac83b8fa"
+                "7bd3989dc2d134f3e1cc3981cf0f6df28854bea99990aeb839f5a4ce28db1a7a"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "fita.sid.tnf_eu": {
+                    "ttl": 7776027,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "yoox.com",
                 "usa.tommy.com",
-                "www.hugoboss.com",
+                "www.greatgardenplants.com",
+                "www.gu-global.com",
                 "www.nautica.com",
                 "www.peek-cloppenburg.de",
+                "www.peek-cloppenburg.at",
+                "www.thenorthface.co.uk",
                 "www.yoox.com"
             ]
         },
         {
-            "rule": "fitanalytics\\.com\\/widget\\/api\\/recommendations",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "widget"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "fita.sid.onrunning": 0.000006902073382844206,
-                "fita.sid.superdry": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "armedangels.com",
-                "www.on-running.com",
-                "www.superdry.com"
-            ]
-        },
-        {
-            "rule": "fitanalytics\\.com\\/widget\\/api\\/recommendations",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "widget"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "b98ab238030ca4e05a1ff73400e59e7bd61248887297078e7e49a68d721c6648"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "fita.sid.onrunning": 0.000006902073382844206,
-                "fita.sid.superdry": 0.000006902073382844206
-            },
-            "exampleSites": [
-                "armedangels.com",
-                "www.on-running.com",
-                "www.superdry.com"
-            ]
-        },
-        {
-            "rule": "fitanalytics\\.com\\/shop\\/massimodutti\\/pdp\\.js",
+            "rule": "fitanalytics\\.com\\/shop\\/falabella\\/pdp\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -349,17 +356,71 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "da189fa1daa1606e7f31bef00ec2fb373d940d58d4a4c05362153121a67864fc"
+                "2eceeb5c2d97675b3ce41aa922bcdac998afa1bc29ac8fb43cdedd2e4cc50fbb"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "massimodutti.com",
-                "www.massimodutti.com"
+                "falabella.com",
+                "www.falabella.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget_zepto\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 3,
+                "Event.prototype.timeStamp": 4,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 11,
+            "prevalence": 0.0000746,
+            "cnames": [],
+            "responseHashes": [
+                "c094cf2a7762d173b73ea627bb2a4caf596294bc933cc2f9183c40691b7a78ed",
+                "049f6330aafdacba4f55638992028ed5dfeb224ae884c411505dfbc3ab0b3bd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "fita.sid.bergfreunde": {
+                    "ttl": 7776005,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "fita.sid.onrunning": {
+                    "ttl": 34160019,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falabella.com",
+                "us.princesspolly.com",
+                "www.alltricks.fr",
+                "www.berg-freunde.ch",
+                "www.bergfreunde.eu",
+                "www.falabella.com",
+                "www.lacoste.com",
+                "www.mangooutlet.com",
+                "www.marksandspencer.com",
+                "www.on-running.com",
+                "www.superdry.com"
             ]
         },
         {
@@ -370,40 +431,120 @@
                 "widget"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 4,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "00ce1323324b66438e26103d58c4c9e6dc2372bfc3b65086ddd37eede34b5bb4"
+                "f7b13dbf4573ffdf5b007168a06b6dddaba307d634237e88db10770075b9dfcf"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "on-running.com",
-                "www.superdry.com"
+                "princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.on-running.com",
+                "www.thenorthface.co.uk"
             ]
         },
         {
-            "rule": "fitanalytics\\.com\\/aliases",
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/recommendations",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000271,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000006777914842277922,
+                "fita.sid.bergfreunde": 0.000006777914842277922,
+                "fita.sid.fjallraven": 0.000006777914842277922,
+                "fita.sid.onrunning": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.fjallraven.com",
+                "www.on-running.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/recommendations",
+            "cookies": 0.0000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000339,
+            "cnames": [],
+            "responseHashes": [
+                "2d127c94c77b9f9dbb360051e6820ffbfd6e1ee160be7cdfadd35871d9c39435"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000006777914842277922,
+                "fita.sid.bergfreunde": 0.000006777914842277922,
+                "fita.sid.fjallraven": 0.000006777914842277922,
+                "fita.sid.onrunning": 0.000006777914842277922,
+                "fita.sid.tnf_eu": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.fjallraven.com",
+                "www.on-running.com",
+                "www.thenorthface.co.uk"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/V3-upper\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "metrics",
-                "metrics-nl"
+                "widget"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "www.thenorthface.co.uk"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/texts\\/V3-en\\.amd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "ca2d851608b153ddbefe0ce82c766d8f259121c5e17e13ce6c512fe97b4dd716"
+                "77785b2a94142af24453a156c38d90bf114d835d6f07f272aca19b64c7c5c19c"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "on-running.com",
+                "princesspolly.com",
+                "www.bergfreunde.eu",
                 "www.on-running.com"
             ]
         },
@@ -415,24 +556,72 @@
                 "widget"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "6334b1e4521f57a964244b35b8dacffc09427352f1396a04ab8a5ccce175cfaf"
+                "a76b8d97a2b2ac7ef254751b903b40efc5218269966c09a763abec3081a1cc87"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "on-running.com",
-                "www.superdry.com"
+                "princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.on-running.com"
             ]
         },
         {
-            "rule": "fitanalytics\\.com\\/widget\\/V3-base2\\.js",
+            "rule": "fitanalytics\\.com\\/widget\\/V3-base3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "edd25ecb9ee88cbda7b44b6c7ecf790ee4f37e6b9855e6fa794ab39cd387594d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "www.bergfreunde.eu",
+                "www.on-running.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/shop\\/bergfreunde\\/pdp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "integrations"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "44082ea6db94417bb1559d2dea398760bb25e774724fa9e6a41dca321b353e36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berg-freunde.ch",
+                "www.bergfreunde.eu"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/V3-shoes\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -440,28 +629,171 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "9fd1f9077ccd32a5ab9c9809be3b3b5de00d99dbab7f59296ff8a23291470249"
+                "f3d4484aceb14eb43ebfc312744d8c146c3bf2523eac86220403f47bd96a85f9"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "on-running.com",
-                "www.superdry.com"
+                "bergfreunde.eu",
+                "www.on-running.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget_jq\\.js",
+            "cookies": 0.0000136,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Element.prototype.getClientRects": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3a539444cc33d8f310b9d067dab94ad540add4e2472291ad1dc1535873435ff2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "fita.sid.chicos": {
+                    "ttl": 7776029,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                },
+                "fita.sid.millets": {
+                    "ttl": 7776007,
+                    "length": 32,
+                    "prevalence": 0.000006777914842277922,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicos.com",
+                "www.millets.co.uk"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/shop\\/fjallraven\\/v0622\\/pdp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2d08aa434e377fc1c080182042cbc91e1658558e4191b9eefd18fbf1de2eb994"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fjallraven.com",
+                "www.fjallraven.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/totalfit_zepto\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "76a731e3fe72657060bf3d30b6b43760b0b60f615b7e62471572eefac54dcbbf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hugoboss.com",
+                "www.thenorthface.co.uk"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/boss",
+            "cookies": 0.0000136,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c13c66adb3b22c28715e9a6dc635ac047843895d2f8d2f907f8c6f1e737c32f1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gid": 0.000006777914842277922,
+                "fita.sid.boss": 0.000006777914842277922
+            },
+            "exampleSites": [
+                "hugoboss.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/shop\\/massimodutti\\/pdp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8209b306ea1a919fb5531e93e69fcb1646c618a79ad3911e9df4dcb3ac28ac36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "massimodutti.com",
+                "www.massimodutti.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000124,
+    "cookies": 0.000217,
     "types": {
-        "Script": 65,
-        "Preflight": 3,
-        "XHR": 3,
-        "Stylesheet": 2
+        "Script": 97,
+        "Image": 2,
+        "Fetch": 18,
+        "Stylesheet": 4,
+        "Preflight": 4
     },
     "nameservers": [
         "duke.ns.cloudflare.com",

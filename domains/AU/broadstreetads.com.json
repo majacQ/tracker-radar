@@ -7,37 +7,15 @@
     "source": [
         "DuckDuckGo-AU"
     ],
-    "prevalence": 0.000601,
+    "prevalence": 0.000602,
     "sites": 6,
     "subdomains": [
         "cdn",
         "ad"
     ],
     "cnames": [],
-    "fingerprinting": 1,
+    "fingerprinting": 2,
     "resources": [
-        {
-            "rule": "broadstreetads\\.com\\/init\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "fishingmonthly.com.au",
-                "www.dendy.com.au"
-            ]
-        },
         {
             "rule": "broadstreetads\\.com\\/init-2\\.min\\.js",
             "cookies": 0,
@@ -46,22 +24,50 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 4
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4
             },
-            "sites": 4,
-            "prevalence": 0.000401,
+            "sites": 5,
+            "prevalence": 0.000501,
             "cnames": [],
             "responseHashes": [
-                "16534145c570e8757046ab7f239531e4a9c80a4204fd3b696d99f1bf4f843b8f"
+                "c63ef4f5bfa50cf4faee69fb3148cd50b09a1468b031d5ee7a2e903a950d5435"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "arthritis.org",
+                "timeandtidewatches.com",
+                "www.arthritis.org",
                 "www.australiangeographic.com.au",
                 "www.mondaq.com",
                 "www.stereonet.com"
+            ]
+        },
+        {
+            "rule": "broadstreetads\\.com\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d23fbc52271c02babff7c4060d804e24e284df8f3c098c98caaf24e869038c9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dendy.com.au",
+                "www.dendy.com.au"
             ]
         },
         {
@@ -73,31 +79,11 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                "797aa8886bfdb2b6b3f9d8237403336a9d5dd27dd58ae367e40763a2800ff84f"
             ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "stereonet.com",
-                "www.stereonet.com"
-            ]
-        },
-        {
-            "rule": "broadstreetads\\.com\\/zdisplay\\/68321\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0002,
-            "cnames": [],
-            "responseHashes": [],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
@@ -115,10 +101,10 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "505401690c26b8279b53c29940ae46a8bc6d5b97addf2e28acbe9b9a426fde1a"
+                "1861186aa0af008d710516bdf7ac557f5eca11baee8155457157706385a28742"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -137,7 +123,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0002,
+            "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -155,7 +141,7 @@
     "performance": {},
     "cookies": 0.000501,
     "types": {
-        "Script": 12,
+        "Script": 11,
         "XHR": 2
     },
     "nameservers": [

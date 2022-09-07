@@ -9,14 +9,15 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.00241,
-    "sites": 24,
+    "prevalence": 0.00422,
+    "sites": 42,
     "subdomains": [
         "static",
+        "static-tracking",
         "fast.a",
         "telemetrics",
-        "www",
-        "a"
+        "a",
+        "www"
     ],
     "cnames": [],
     "fingerprinting": 2,
@@ -24,370 +25,394 @@
         {
             "rule": "klaviyo\\.com\\/onsite\\/js\\/klaviyo\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "window.localStorage": 1
-            },
-            "sites": 24,
-            "prevalence": 0.00241,
+            "apis": {},
+            "sites": 42,
+            "prevalence": 0.00422,
             "cnames": [],
             "responseHashes": [
-                "b4355284f9578a269e8b1c512643a8495b163d0cdd5c8b24956ad0c491fea9cc",
-                "2022b82d90309edbc0a0ac9f9fc336108e40ae4b9149fa669f936884205c842c",
-                "c5cee56efb14c62e4fb4e60ed29c9ae377eefc3083b240a7632165be57274816",
-                "97f0759c00eec7bcead4871fbf4ab6507cf13780c457cb7540fcf92fb2dd1e39",
-                "374905ed3ce13f884f74f4c998a26ee2b75b97dff3321b513ea0d170854ba718",
-                "6ef592e399e737b1c048afabd4c691678597ae9b4c5444a77b5c66469f051148",
-                "8f3513254414a399abbdc3bc4f5d263f694ef5fd8fda30c5791dabeb7eec427c",
-                "e73a51b79af3ad44db5160d140183ba2d9f01e4af62e151c6b05d59856dd5ef9",
-                "d9a0335b33b53b819540731c8d76d6736addc0a559ccf20ef73bd8a61eec3f69",
-                "b029db0ba06f4879a4cd23169e771dfec2690bc1bf80efbbddfc7747bbc5c07a",
-                "b56f93db39c8d43cf2986070b59e16be8caccb1e1ef35073439da0f001393cec",
-                "20559ef1d1d838e5a370de048fe08298a288dd082aa4aa1ca619d21015a00e4b",
-                "1e8f5920252c2a04d7a08f6977ce82dc27c0a33bed18d4564044daeed206a456",
-                "7a12ced5bee243f919270a322ed8f6cce731271e571d56e324e12ced33160889",
-                "35ba8c69d72f63687fbbc9ef92229190365f7eff5d07484103b13807e4be8b0b",
-                "05b8e9f989686926c8934882d8311afda5096ba32f93d56d1ed29b79afc7f1de",
-                "fe8599412dbca8f5c9e743ee2aa07e2ec2d701e4c50e028d61661ff70cdf9d1e",
-                "92adeeccdac0b05bbc91bb1cb76bd342bf9c35b2913e9d1af18bb15815bae0d3",
-                "df4ba47d6813f60abf868599f7ee7bfed7f87c7ec4227e09c222723f51a22869",
-                "cf7f943e0d5df8470da9318c89f75ad46055c77473c2d422a9e57b4bb6b7dc45",
-                "3b9c2fc65ac71ece99f9eb9458406f550d1a67cf70198e1bf57b8774d8f1d096",
-                "5beadd80f239bede36492ee7a424a7b1e026af211d9dd77b49a83fb753ebfa6e",
-                "4915ceb84ce1a599bf22b17df52374494268d877204ed9b344fe391cc6a3c66a"
+                "03b935dff6ae9a49b0d9fbbbda7b5f8ceaef70f893168ebc291d0dd8cf2eec14",
+                "61b96d44210ea5c62ef827f183c8304e0f8fa28fa9a24792089eb43bc2b51635",
+                "9f4ead1ce353e0a5a7220c125f7df107d7b89ab7a0b4cee7a4f97836bc67aefd",
+                "1386b05f003683b01a1d693f0037892ae59bf1746a5b1b93581492bc8d7d4d7f",
+                "bfc39631e0ef401135397e1f2957cd66753feeebfe79f93d4dfca8e52478bb5c",
+                "bca5d125ffd67955f95e1dcc0c8720a00ee6a668fecdc5eef839b3a77376b8a3",
+                "d68dd841d2e811fdcaa44cf83e0f71ef662a7eaadbc9e139b07957abc4eb9d67",
+                "8432b86f09b1cd403002faefb9e229100d9e2a172a2191a2a7cf53b537b5afe7",
+                "3450890ce1e68245662c6af9007f8f509a88be08279eb206b2083b1ae4e3d6ba",
+                "f380f4e67a06b0a59ab91c0467738ed4285267e9215a2b5a807d8fce20f7d292",
+                "2f038291aef7f54f874a8e1750ff1dd886b0bc30acaf7460ac287287b3def308",
+                "399cca163f43637cd9c0ee51234ba3ca18461ea5230079cb8b9d52f43d3fd4bd",
+                "6e4cd5c385b746f1402816c3720c401e221e86bf24e1bd755d36910b44e89ff2",
+                "e8822d2ddbf334a4fb69dc5cc4944e7adf8f9beca87e5d38d7d2264eda698990",
+                "8b9611bb591d672741782697022d884120a90c03e80bbac387b681b3f513c1dc",
+                "587dbaa4537b59da34cbcffd3b648917b2e312d7dc476415b2ab78af9ba2746f",
+                "a5c5f226ca59f862a8c1eef8b4a03d7a095413d3a3a694ee0f30196374f50e0f",
+                "169a968d84d5d540713879877a34e1a8942fd10018d2011561ef3bd188f5a5cf",
+                "023219e397a676d9bc760c9b80b4b903d5a1d912ad595032435a814c1bc5bc50",
+                "dbe6c36d416cae2742b03da28468b6664337ff26f10ee580b70b62bcbfd21221",
+                "86af77440054f21328aabc73944b32e2eafdffc8734098918973703e04d7f8c3",
+                "de345452b84daaa07a0a8918622a45317b38e5aa8c522be6683502a05ef1013e",
+                "a045de39dd47e8c92051acd8af30c89684e830b026c5700068ce695fb794209f",
+                "eab1c89ef30c540a4bbb2415222de8e721b2b135ef2de1595e23b4f29f10b3de",
+                "798b3a72cc7476639b6c27d712b826adbc4274b001d5f1ff2bcdcbb73b15ce60",
+                "72ffb0e151ddcb8b6ec9cd922f5a9332f852e9f89af8eeda608231a3440e06c2",
+                "c866fb0c1c943765055573131be870ec050c9fe898f9491fc7bbfe9b4e5d245c",
+                "3e721ff21083b67b10b6bd6336652ed0c6af15011788fa8b9f88eed09cc48529",
+                "5a94b3f74dfd6d1c352593f8e09a6a99b8b2a5aee7e1bc73b7d90abd2d0c4820",
+                "81d103c7e5f84785dafa67a691ac04bf2acd71ca5e60e3c5b23511bcabf33ef4",
+                "2b0f94ff92633d921b93f18511373b01638e60af6ff3e0c3bb6b526ee0a4ad40",
+                "4130f095efe89aaa65ee67c698929eca258ef14c8cf9c52507c8a8ae831c4ea5",
+                "a95307467920110e02588f7c4d679d45ca4f0f15262c95f3ae0c719854e5ede2",
+                "69bebea35c1127347ab6f38da1f69efc61e3be029b0e316ec694a848c2729d12",
+                "d15a7669f8011a0d5f194429c91b0d8e74ff948e79b0f169dda9d3ec9cd92390",
+                "fe0e9190854a71f636251b329639933cca93b3f341f64ac8307d76479bab8c7b",
+                "20446a5663db883bc2c63a5e61460e9dc9df817fc9114722aa5bb809f3453e4b",
+                "8028130802d917db0db54d6c7e3dfb7e9f395f03aff1c5454c4116a3f6751bfe",
+                "92bc36484bc79c5446f79a967ac195c2abb69d34ae10b9b582ab725224efb046",
+                "47e7be67679ff3e0f642b33c89eef37b98a7b89cc974dfef11a536f702bcdcac",
+                "73e27acc4fef93957ac8345d93e72f5facff0c009d49516b7ecbd11c6caac5cd"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "ultimus.ch",
-                "softwarekeep.com",
-                "online-learning.harvard.edu",
-                "air-up.com",
-                "www.diskinternals.com",
-                "www.amorana.ch",
-                "stash.ch",
-                "www.pamono.ch",
-                "frame.work",
-                "en.nikinclothing.com",
-                "sdbullion.com",
-                "www.specialized.com",
-                "techstudio.ch",
-                "www.armysurplusworld.com",
+                "dailycaller.com",
+                "thechive.com",
+                "tabak.kkiosk.ch",
                 "www.victorinox.com",
-                "www.hodinkee.com",
-                "www.bellesa.co",
-                "www.decathlon.com",
+                "www.pamono.ch",
+                "www.fontis-shop.ch",
+                "kettlersport.com",
+                "www.wikiart.org",
                 "sensiseeds.com",
-                "www.busbud.com"
+                "www.kybun.ch",
+                "www.brain-effect.com",
+                "www.sostrenegrene.online",
+                "www.plantura.garden",
+                "www.bodum.com",
+                "mr-green.ch",
+                "www.ridefox.com",
+                "www.keychron.com",
+                "www.gesundheitszentrale.eu",
+                "yoga-boutique.ch",
+                "www.motorcycleid.com"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/fender_analytics\\.b2286175f729ec5cc951\\.js",
-            "cookies": 0.000903,
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/fender_analytics\\.51f95a5e38c9309b9386\\.js",
+            "cookies": 0.00422,
             "fingerprinting": 1,
             "subdomains": [
-                "static"
+                "static-tracking"
             ],
             "apis": {
-                "window.localStorage": 22,
-                "Document.cookie getter": 9,
-                "Date.prototype.getTime": 22,
-                "Document.cookie setter": 9,
-                "Navigator.prototype.userAgent": 22,
-                "Navigator.prototype.vendor": 22,
-                "Navigator.prototype.platform": 22
+                "window.localStorage": 42,
+                "Navigator.prototype.userAgent": 42,
+                "Document.cookie getter": 42,
+                "Date.prototype.getTime": 42,
+                "Document.cookie setter": 42,
+                "Navigator.prototype.vendor": 42,
+                "Navigator.prototype.platform": 42
             },
-            "sites": 22,
-            "prevalence": 0.00221,
+            "sites": 42,
+            "prevalence": 0.00422,
             "cnames": [],
             "responseHashes": [
-                "39432470933df9b572b27b537a698f4b7e556697352ad26cf20624129a06aa0c"
+                "ef2dfcfeace1a28bb665c14b5b082f13023911960144a6f00013ede5e1a16d9d"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "__kla_id": {
                     "ttl": 63072004,
-                    "length": 228,
-                    "prevalence": 0.0009033423667570009,
+                    "length": 232,
+                    "prevalence": 0.0042172908926599055,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "www.diskinternals.com",
-                "www.specialized.com",
-                "air-up.com",
-                "www.busbud.com",
-                "ultimus.ch",
-                "www.amorana.ch",
-                "en.nikinclothing.com",
-                "online-learning.harvard.edu",
-                "www.tantaly.com",
-                "www.victorinox.com",
-                "stash.ch",
-                "sensiseeds.com",
-                "www.pamono.ch",
-                "www.getfpv.com",
-                "weedseedshop.com",
-                "www.decathlon.com",
-                "sdbullion.com",
-                "techstudio.ch",
-                "www.armysurplusworld.com",
-                "www.bellesa.co"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/sharedUtils\\.16d936f15fdc35eb7f71\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 22,
-            "prevalence": 0.00221,
-            "cnames": [],
-            "responseHashes": [
-                "4dffae6b51c95f478349784f67822f36e8e0574a2e58174dec55e72447088837"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "weedseedshop.com",
+                "dailycaller.com",
+                "thechive.com",
+                "www.spigen.com",
+                "mr-green.ch",
+                "www.sostrenegrene.online",
+                "www.bmc-switzerland.com",
+                "www.wikiart.org",
+                "www.eliteprospects.com",
+                "kettlersport.com",
+                "www.aroma-zone.com",
                 "www.bellesa.co",
-                "www.busbud.com",
-                "sdbullion.com",
-                "stash.ch",
-                "www.armysurplusworld.com",
-                "www.diskinternals.com",
-                "www.tantaly.com",
-                "air-up.com",
-                "www.pamono.ch",
-                "www.hodinkee.com",
-                "techstudio.ch",
-                "www.amorana.ch",
-                "www.specialized.com",
-                "www.decathlon.com",
+                "www.kybun.ch",
                 "sensiseeds.com",
-                "online-learning.harvard.edu",
-                "softwarekeep.com",
-                "www.getfpv.com",
-                "en.nikinclothing.com"
+                "www.specialized.com",
+                "www.victorinox.com",
+                "www.motorcycleid.com",
+                "yoga-boutique.ch",
+                "www.decathlon.com",
+                "de.ecoflow.com",
+                "www.carid.com"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/static\\.ab6af2a1efeff571d023\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/static\\.444020cd426b0bea12c1\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "static"
+                "static-tracking"
             ],
             "apis": {
-                "Navigator.prototype.connection": 22,
-                "Navigator.prototype.storage": 22,
-                "Navigator.prototype.deviceMemory": 22,
-                "Navigator.prototype.hardwareConcurrency": 22
+                "Navigator.prototype.connection": 42,
+                "Navigator.prototype.storage": 41,
+                "Navigator.prototype.deviceMemory": 41,
+                "Navigator.prototype.hardwareConcurrency": 42
             },
-            "sites": 22,
-            "prevalence": 0.00221,
+            "sites": 42,
+            "prevalence": 0.00422,
             "cnames": [],
             "responseHashes": [
-                "8b3fe3a696404e8d2aea0b47d3aaebfa242a29d44b923275603a154df1f5b8fe"
+                "94eb37f3ca8ec6a7d028370dfadf216aaa9a5b6f794a7462707f422aa7098f18"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "online-learning.harvard.edu",
-                "stash.ch",
-                "sensiseeds.com",
-                "weedseedshop.com",
-                "www.diskinternals.com",
-                "softwarekeep.com",
-                "www.decathlon.com",
-                "www.bellesa.co",
-                "www.busbud.com",
+                "dailycaller.com",
+                "thechive.com",
+                "yoga-boutique.ch",
+                "www.ridefox.com",
+                "feey.ch",
+                "mr-green.ch",
+                "www.bobswatches.com",
+                "kettlersport.com",
+                "www.aroma-zone.com",
+                "www.giesswein.com",
+                "www.keychron.com",
+                "www.carid.com",
                 "www.victorinox.com",
-                "www.getfpv.com",
-                "www.amorana.ch",
-                "air-up.com",
-                "en.nikinclothing.com",
-                "www.armysurplusworld.com",
-                "ultimus.ch",
-                "techstudio.ch",
-                "www.pamono.ch",
-                "sdbullion.com",
-                "www.hodinkee.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/sentry\\.957bb8d322d8fad44127\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "console.memory": 17
-            },
-            "sites": 17,
-            "prevalence": 0.00171,
-            "cnames": [],
-            "responseHashes": [
-                "08657f3620388cf5ff7fd7c6c4a583b64a4414993c627016d5f195eecf9637b5"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
-                "online-learning.harvard.edu",
-                "sdbullion.com",
-                "sensiseeds.com",
                 "softwarekeep.com",
-                "stash.ch",
-                "weedseedshop.com",
                 "www.amorana.ch",
-                "www.armysurplusworld.com",
-                "www.bellesa.co",
-                "www.decathlon.com",
-                "www.hodinkee.com",
-                "www.pamono.ch",
-                "www.specialized.com",
-                "www.tantaly.com",
-                "www.victorinox.com"
+                "www.stoffwald.ch",
+                "www.kybun.ch",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.specialized.com"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~signup_forms~signup_forms_new\\.07f87a93a16a0d9c5b3f\\.js",
-            "cookies": 0.000502,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "window.localStorage": 17,
-                "Document.cookie getter": 8,
-                "Navigator.prototype.userAgent": 17,
-                "Document.cookie setter": 5
-            },
-            "sites": 17,
-            "prevalence": 0.00171,
-            "cnames": [],
-            "responseHashes": [
-                "cda5356b0060662b83d012375120383549fef421f633e9db8d9f2c2a152d5f0f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "KL_FORMS_MODAL": {
-                    "ttl": 31536006,
-                    "length": 67,
-                    "prevalence": 0.000501856870420556,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
-                "online-learning.harvard.edu",
-                "sdbullion.com",
-                "sensiseeds.com",
-                "softwarekeep.com",
-                "stash.ch",
-                "weedseedshop.com",
-                "www.amorana.ch",
-                "www.armysurplusworld.com",
-                "www.bellesa.co",
-                "www.decathlon.com",
-                "www.hodinkee.com",
-                "www.pamono.ch",
-                "www.specialized.com",
-                "www.tantaly.com",
-                "www.victorinox.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/signup_forms~signup_forms_new\\.deeb9788d5e666b8675b\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 14
-            },
-            "sites": 17,
-            "prevalence": 0.00171,
-            "cnames": [],
-            "responseHashes": [
-                "9dffeba70023cc52a906d9361f1ad66a5d7a2a71d58c954897ca57b509e03097"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
-                "online-learning.harvard.edu",
-                "sdbullion.com",
-                "sensiseeds.com",
-                "softwarekeep.com",
-                "stash.ch",
-                "weedseedshop.com",
-                "www.amorana.ch",
-                "www.armysurplusworld.com",
-                "www.bellesa.co",
-                "www.decathlon.com",
-                "www.hodinkee.com",
-                "www.pamono.ch",
-                "www.specialized.com",
-                "www.tantaly.com",
-                "www.victorinox.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/signup_forms_new\\.f7eee781a32f9b6b2707\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/runtime\\.d632ea86945cd442be19\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.00171,
+            "sites": 42,
+            "prevalence": 0.00422,
             "cnames": [],
             "responseHashes": [
-                "ed67ca07573cb915c0aae18812d1921115758126541b11a360262902047f9580"
+                "168a9000bab9703cd17432e5d6015a83fc7784026fdef91c897717788900a9f6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
-                "online-learning.harvard.edu",
-                "sdbullion.com",
-                "sensiseeds.com",
-                "softwarekeep.com",
-                "stash.ch",
-                "weedseedshop.com",
-                "www.amorana.ch",
-                "www.armysurplusworld.com",
-                "www.bellesa.co",
-                "www.decathlon.com",
-                "www.hodinkee.com",
+                "dailycaller.com",
+                "thechive.com",
+                "www.fielmann.de",
+                "www.spigen.com",
                 "www.pamono.ch",
                 "www.specialized.com",
-                "www.tantaly.com",
-                "www.victorinox.com"
+                "techstudio.ch",
+                "www.wikiart.org",
+                "www.bodum.com",
+                "www.decathlon.com",
+                "yoga-boutique.ch",
+                "www.kybun.ch",
+                "www.bobswatches.com",
+                "www.victorinox.com",
+                "www.keychron.com",
+                "www.brain-effect.com",
+                "www.motorcycleid.com",
+                "www.qwstion.com",
+                "sensiseeds.com",
+                "tabak.kkiosk.ch"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/sharedUtils\\.5871e7244b09df3896d9\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 35,
+                "window.innerHeight": 35
+            },
+            "sites": 42,
+            "prevalence": 0.00422,
+            "cnames": [],
+            "responseHashes": [
+                "12cc49dbabec4bcfcdfa77d5452d428bd8fe25ed16346f2601137678e8a8e951"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "thechive.com",
+                "www.eliteprospects.com",
+                "www.ridefox.com",
+                "www.kybun.ch",
+                "www.victorinox.com",
+                "www.pamono.ch",
+                "www.motorcycleid.com",
+                "www.fielmann.de",
+                "tabak.kkiosk.ch",
+                "www.plantura.garden",
+                "www.aroma-zone.com",
+                "www.keychron.com",
+                "www.fontis-shop.ch",
+                "www.stoffwald.ch",
+                "kettlersport.com",
+                "www.wikiart.org",
+                "www.bellesa.co",
+                "feey.ch",
+                "www.sostrenegrene.online"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/vendors~signup_forms\\.f7066e273a66876a4dee\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 35,
+                "Document.cookie getter": 35,
+                "Navigator.prototype.userAgent": 35
+            },
+            "sites": 35,
+            "prevalence": 0.00351,
+            "cnames": [],
+            "responseHashes": [
+                "ca4e54a215c2edea6b34afc63e441afc24084fb33b4a66ae99e5be43e17b02bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thechive.com",
+                "www.pamono.ch",
+                "www.bobswatches.com",
+                "www.victorinox.com",
+                "www.bmc-switzerland.com",
+                "www.decathlon.com",
+                "www.spigen.com",
+                "www.bodum.com",
+                "mysnowflake.ch",
+                "www.kybun.ch",
+                "www.sleepfoundation.org",
+                "www.eliteprospects.com",
+                "www.bellesa.co",
+                "www.ridefox.com",
+                "www.giesswein.com",
+                "www.fontis-shop.ch",
+                "www.carid.com",
+                "www.wikiart.org",
+                "www.brain-effect.com",
+                "tabak.kkiosk.ch"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/signup_forms\\.0d0e046448b52dcfaf42\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 35,
+                "Date.prototype.getTime": 22
+            },
+            "sites": 35,
+            "prevalence": 0.00351,
+            "cnames": [],
+            "responseHashes": [
+                "c892bbdb8cfec8ac71750dfe6a6b402e497986feb746ab8cc20c583a4a06041c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thechive.com",
+                "www.carid.com",
+                "www.kybun.ch",
+                "feey.ch",
+                "yoga-boutique.ch",
+                "kettlersport.com",
+                "www.plantura.garden",
+                "www.specialized.com",
+                "www.bellesa.co",
+                "mysnowflake.ch",
+                "www.keychron.com",
+                "www.goalzero.com",
+                "www.bmc-switzerland.com",
+                "www.pamono.ch",
+                "tabak.kkiosk.ch",
+                "www.giesswein.com",
+                "sensiseeds.com",
+                "www.fielmann.de",
+                "softwarekeep.com",
+                "www.brain-effect.com"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/sentry\\.32defc2659e6aaee877c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-tracking",
+                "static"
+            ],
+            "apis": {
+                "console.memory": 30
+            },
+            "sites": 30,
+            "prevalence": 0.00301,
+            "cnames": [],
+            "responseHashes": [
+                "1b74a880e9d1210332daddfd254a62050679989f2f3e3cc82c4e5c42c0b3201d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thechive.com",
+                "yoga-boutique.ch",
+                "tabak.kkiosk.ch",
+                "www.bmc-switzerland.com",
+                "www.spigen.com",
+                "www.bellesa.co",
+                "www.bobswatches.com",
+                "www.ridefox.com",
+                "www.sostrenegrene.online",
+                "sensiseeds.com",
+                "www.bodum.com",
+                "www.eliteprospects.com",
+                "www.amorana.ch",
+                "www.fielmann.de",
+                "www.victorinox.com",
+                "www.fontis-shop.ch",
+                "mysnowflake.ch",
+                "www.motorcycleid.com",
+                "www.keychron.com",
+                "www.brain-effect.com"
             ]
         },
         {
@@ -398,144 +423,360 @@
                 "fast.a"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.00181,
+            "sites": 35,
+            "prevalence": 0.00351,
             "cnames": [],
             "responseHashes": [
-                "8d2cbdbee587f2b1cb8838e27eb747d03315f7c4efce2c374b74e95b5d78642e",
-                "ecbb92e4c04203928ecbc61e25ad51f69f197c589ea226f47d73c91f87af6e56",
                 "53a85651866852f33fcaf1ee1eff6e5002e8dfe32e4dd49187007b3a7c1367ea",
-                "961596ea1a40b5f99c04f503aeecd45e0855aafb55cdda8eb28f4cb137bd0ad1",
-                "161ddbe1770b084a205de979f97a95acfd25b3ae85f6a4654fbb665624163966",
-                "d1f9e280b73ac246dc2c7801f55c401946057af1be38e97bf6c2d2a0c3a05123",
-                "fae0ecc04bbfa147147e722497501f1dd974d2d3baabbc775722fd9a4963a29d",
-                "e264a0b95b930761716bc741f31bf5995b51ea1fbd78503092d0e3a0de923a19",
-                "dc56ba9665e05c8045fe034919d93db32236bfe73f677c22307c3c5ccd0bb009",
-                "a7d02295d80ce36be31a102f04eeb33482b37aa4daff3de7aaefccdbf04ffe7a",
-                "658e3d49710e7ab294aa060e2ff00937c1527be084d342496190a675998d72e5"
+                "9aa26f18c1382e887a762516c6dfcd732d810701558d52b2dcb37cde76088736",
+                "e599da02f233c7f2b7cf7034cd62ce0db2bc8294bb4a3f2461cb00f37dbbff0b",
+                "f7d7af3d52e22d7c530bd35c8a5b41f7f4be92b724bf22df0379f41950aefe4c",
+                "2246ad5ca73cc6e28ccacff25a04be11ed659dcad5c2fb95fe0798097b6299fa",
+                "f00e0c0f0cfbc33cac4a06c30608966014669b4ab8013cc33bb7f14d29c5547d",
+                "154363058c7163e2a3a0895db0dd736e90c8eec7ee22e7f0d871785533e80d74",
+                "27de3a2bf8a1ad1e57ab6d0a5ac813969216017ed972f60875781dc855aadd58",
+                "7202fb3f21ea6e4ffcbc8b616c7453c9ca1220545424caec3fea161b63da72a3",
+                "197fea71b99946ba770ac72579a9e7f142e17639db90c4db04400134e9eb9181",
+                "8d07057e81322bb98a56f8db5ca2f95a501207340183a4877b058b2586069b09",
+                "8415a56e0d01f09e7476494b521794c4718a7f71311abaaeccbf484018481ecd",
+                "0fa1fff611c8519892ae3e1b3ae2d49e8f947b702360a750447537a5275e76fb",
+                "cbe600ee62e0d52fcccdd9f423d7afb731f4034c10854a9baf72c0edce9e3bb1",
+                "e5837d91f466591411a099647889a415187e7c5c53bb444de5d237369eaa80a8",
+                "58c24a584537142001dc431abf331d92ea0b1658b5a4abdb1e9e64dd7e051ee0",
+                "c46040050cc3331e1d973fed004ad5453136d6648149e3309b7d0d3aec8cc6e6",
+                "83ddaab60bbc51298f0b81f960c754ae7916fdb6d383a5816d4589b294a71b70",
+                "d859d7def588fa62f7b7626e7cdf2d0c067dd8ed8af87647b4a1c8f3b4338d8f",
+                "66e0bc7dc594038b6c1277a89bb79817e8482583d7a421455fdd42cde9be9cae",
+                "4d0c558cb75ceb1faf5c01ae78356f7a0fb22c65a1ab795bc7065b84a6648abd",
+                "72d7022084b9f96b8b6afb3ef1295808232c405e8b393c104a0bece8f3f213cd",
+                "651ea3af105234cb6edea9fc2c31b02aea51f1acbc1a4bba87ae3851a2586a49",
+                "b10a72ce72a133660777eafedbb81b76cb3f423d38663ca65f44a6e8aa4058cd",
+                "c6c19651eabdc4cb6a0039a9f68f334b2cfa4b4a762059ac549541e377c09ee6",
+                "6a21572c5927a7ecf16fa9306d9ac1f45d5921c10d90679c2eee65999a5a17f4",
+                "47b832a3cbc2939832ae42d795f45d78b2c859c7d0f1a7a99b2e40bad3a7e6c1",
+                "44f922a0542ce37980179530e3f0f616a2dc5910141e65cf7a1feb1ad397272f",
+                "72c0793434953f80d44050ac2514069066013749e0fb444ab9e7f81e965ed7f4",
+                "4ad7fe80b77c0b1b945c269d40f6dc8c2d44d4dced552df8b427f9163f14b20b"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
-                "online-learning.harvard.edu",
-                "sdbullion.com",
-                "sensiseeds.com",
-                "softwarekeep.com",
-                "stash.ch",
-                "weedseedshop.com",
-                "www.amorana.ch",
-                "www.armysurplusworld.com",
-                "www.bellesa.co",
+                "thechive.com",
+                "www.fontis-shop.ch",
+                "www.bmc-switzerland.com",
+                "www.plantura.garden",
+                "www.bobswatches.com",
                 "www.decathlon.com",
-                "www.eliteprospects.com",
-                "www.hodinkee.com",
+                "www.sleepfoundation.org",
+                "www.goalzero.com",
+                "www.bodum.com",
+                "www.spigen.com",
                 "www.pamono.ch",
-                "www.specialized.com",
-                "www.tantaly.com",
-                "www.victorinox.com"
+                "www.motorcycleid.com",
+                "www.amorana.ch",
+                "yoga-boutique.ch",
+                "www.brain-effect.com",
+                "www.fielmann.de",
+                "www.carid.com",
+                "tabak.kkiosk.ch",
+                "www.giesswein.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/13\\.f492a3d1ada3f6002e9a\\.css",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/klaviyo\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "1386b05f003683b01a1d693f0037892ae59bf1746a5b1b93581492bc8d7d4d7f",
+                "587dbaa4537b59da34cbcffd3b648917b2e312d7dc476415b2ab78af9ba2746f",
+                "a5c5f226ca59f862a8c1eef8b4a03d7a095413d3a3a694ee0f30196374f50e0f",
+                "798b3a72cc7476639b6c27d712b826adbc4274b001d5f1ff2bcdcbb73b15ce60",
+                "81d103c7e5f84785dafa67a691ac04bf2acd71ca5e60e3c5b23511bcabf33ef4",
+                "4130f095efe89aaa65ee67c698929eca258ef14c8cf9c52507c8a8ae831c4ea5",
+                "47e7be67679ff3e0f642b33c89eef37b98a7b89cc974dfef11a536f702bcdcac"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kettlersport.com",
+                "monocle.com",
+                "www.bobswatches.com",
+                "www.bodum.com",
+                "www.giesswein.com",
+                "www.pamono.ch",
+                "www.qwstion.com",
+                "www.wikiart.org"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/sentry\\.32defc2659e6aaee877c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "console.memory": 5
+            },
             "sites": 5,
             "prevalence": 0.000502,
             "cnames": [],
             "responseHashes": [
-                "0d8d9ef6c7fad587c453c7ece144254a3988cefd3c41011adccefb6c304e209e"
+                "1b74a880e9d1210332daddfd254a62050679989f2f3e3cc82c4e5c42c0b3201d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kettlersport.com",
+                "softwarekeep.com",
+                "www.giesswein.com",
+                "www.goalzero.com",
+                "www.plantura.garden"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/vendors~ClientStore\\.248c8843a456574316b6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static",
+                "static-tracking"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "352ee442394492652c3a3c48e93e9f9e5e1104e4c8f4196018856c17be8a42d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kettlersport.com",
+                "mysnowflake.ch",
+                "softwarekeep.com",
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/ClientStore\\.2223346489254e98c9ae\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static",
+                "static-tracking"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "444ae198053ff788337ed03ffaed0828a60bd878c3ad90957afa84b8e0270c41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kettlersport.com",
+                "mysnowflake.ch",
+                "softwarekeep.com",
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
+            ]
+        },
+        {
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/532\\.778f8c31218979d463ec\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static",
+                "static-tracking"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "7938b25262fb457e540afd0f50048e0ec9f951324fd1d85228b1242e0cdd81cc"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
+                "kettlersport.com",
+                "mysnowflake.ch",
                 "softwarekeep.com",
-                "www.hodinkee.com",
-                "www.victorinox.com"
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/styles\\.ec377baea03477f8c36d\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/styles\\.9a2ed024e2efa6ec3feb\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 18,
+            "prevalence": 0.00181,
             "cnames": [],
             "responseHashes": [
-                "a96fb8a9a1ab432b3954fe8e7fde836649d7e7870f0fafa3eff343029a3e0db4"
+                "e95bc60157e8f44ffa2111506290c2269268a6081aa3a729412cf9d1fda70ff7"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
+                "kettlersport.com",
+                "mysnowflake.ch",
                 "softwarekeep.com",
-                "www.hodinkee.com",
-                "www.victorinox.com"
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/vendors~Render\\.6f4df34887104328c71b\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/vendors~Render\\.d67bcbf78caa39f7838e\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 18,
+            "prevalence": 0.00181,
             "cnames": [],
             "responseHashes": [
-                "e10dbc8fd6dcea24f2cf7ce2a15fe780659a46448553500ddfe88e9dc2230d5e"
+                "e394c989c5e541ddfafd25ded980449ed98d809707fb88996ef8814bb1542269"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
+                "kettlersport.com",
+                "mysnowflake.ch",
                 "softwarekeep.com",
-                "www.hodinkee.com",
-                "www.victorinox.com"
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/Render\\.bfb9abf1d7135df1f7c3\\.js",
+            "rule": "klaviyo\\.com\\/onsite\\/js\\/build-preview\\/commit-f8d7d5e676f83cff200d6d822a1c5884d39316c7\\/Render\\.471cc098adffe0faf9c3\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "static"
+                "static",
+                "static-tracking"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
+            "sites": 18,
+            "prevalence": 0.00181,
             "cnames": [],
             "responseHashes": [
-                "94e898363a1537ad7d8bd4c31c1407007babdfe174b8b182328a32084953c264"
+                "c4d97100694bec8a243d3b00ba7778e824af691f94f9c2c4ad42bbc93f129738"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "en.nikinclothing.com",
+                "kettlersport.com",
+                "mysnowflake.ch",
                 "softwarekeep.com",
-                "www.hodinkee.com",
-                "www.victorinox.com"
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
             ]
         },
         {
@@ -546,8 +787,8 @@
                 "telemetrics"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 20,
+            "prevalence": 0.00201,
             "cnames": [],
             "responseHashes": [
                 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -556,99 +797,54 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "air-up.com",
-                "ch.air-up.com",
-                "en.nikinclothing.com",
+                "kettlersport.com",
+                "mysnowflake.ch",
                 "softwarekeep.com",
-                "www.bellesa.co",
-                "www.hodinkee.com",
-                "www.victorinox.com"
+                "www.aroma-zone.com",
+                "www.bmc-switzerland.com",
+                "www.bodum.com",
+                "www.brain-effect.com",
+                "www.decathlon.com",
+                "www.eliteprospects.com",
+                "www.fontis-shop.ch",
+                "www.gesundheitszentrale.eu",
+                "www.giesswein.com",
+                "www.goalzero.com",
+                "www.kybun.ch",
+                "www.ridefox.com",
+                "www.sleepfoundation.org",
+                "www.sostrenegrene.online",
+                "www.stoffwald.ch",
+                "www.victorinox.com",
+                "www.wikiart.org"
             ]
         },
         {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/onsite-analytics\\.4f385432cebb383e3e0e\\.js",
-            "cookies": 0.000201,
-            "fingerprinting": 2,
+            "rule": "klaviyo\\.com\\/media\\/js\\/onsite\\/onsite\\.js",
+            "cookies": 0.000602,
+            "fingerprinting": 1,
             "subdomains": [
-                "static"
+                "a"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
+                "Event.prototype.timeStamp": 1
             },
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 6,
+            "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "59fb1935571a84878d3e22d15fed39d3433d76a074484d571ceb7ad4afa81183"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {
-                "__kla_id": {
-                    "ttl": 63072004,
-                    "length": 227,
-                    "prevalence": 0.00020074274816822243,
-                    "uniqueness": 1
-                }
-            },
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frame.work",
-                "www.eliteprospects.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/profiling\\.6922a10a88481a3b66a5\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.connection": 2,
-                "Navigator.prototype.storage": 2,
-                "Navigator.prototype.deviceMemory": 2,
-                "Navigator.prototype.hardwareConcurrency": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e88c26784b5f16bc9f7b083bb20e9a5662c19d9066724759bd3481c4ee47526e"
+                "cc6a07524e88b23ff3141a801d7f5e9d1566dd312a8b64dca06cbfdb8fa6f328"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "frame.work",
-                "www.eliteprospects.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/api\\/v2\\/modules",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "fast.a"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f7c2c4353829350612549e358776dba848050b9394a1d951adde28af84cbbaea"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "frame.work",
-                "www.eliteprospects.com"
+                "mr-green.ch",
+                "www.giesswein.com",
+                "www.goalzero.com",
+                "www.keychron.com",
+                "www.sostrenegrene.online",
+                "yoga-boutique.ch"
             ]
         },
         {
@@ -663,15 +859,15 @@
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "c98ad91fb505c5274ffd7c7f24fa62878c420db7778edb428ecb4d4e387df3ae"
+                "4f2818d7620ede1e7f2b333529467365fd1b51264f1259f2ffd60e751d2ac2f5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "harvard.edu",
-                "sdbullion.com",
-                "www.getfpv.com"
+                "giesswein.com",
+                "www.qwstion.com",
+                "www.spigen.com"
             ]
         },
         {
@@ -692,32 +888,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "sdbullion.com",
-                "www.getfpv.com"
-            ]
-        },
-        {
-            "rule": "klaviyo\\.com\\/onsite\\/js\\/klaviyo\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "35ba8c69d72f63687fbbc9ef92229190365f7eff5d07484103b13807e4be8b0b",
-                "cf7f943e0d5df8470da9318c89f75ad46055c77473c2d422a9e57b4bb6b7dc45"
-            ],
-            "type": "Other",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "amorana.ch",
-                "www.decathlon.com",
-                "www.pamono.ch"
+                "giesswein.com",
+                "www.qwstion.com"
             ]
         }
     ],
@@ -730,12 +902,12 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.00151,
+    "cookies": 0.00422,
     "types": {
-        "Script": 180,
-        "XHR": 27,
-        "Stylesheet": 7,
-        "Other": 3
+        "Script": 414,
+        "XHR": 55,
+        "Other": 8,
+        "Stylesheet": 20
     },
     "nameservers": [
         "ns-1372.awsdns-43.org",

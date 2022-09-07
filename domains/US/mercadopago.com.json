@@ -7,25 +7,25 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000104,
-    "sites": 15,
+    "prevalence": 0.0000271,
+    "sites": 4,
     "subdomains": [
         "www",
-        "api",
-        "melidata",
-        "analytics"
+        "api"
     ],
     "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "mercadopago\\.com\\/v2\\/security\\.js",
-            "cookies": 0.0000138,
+            "cookies": 0.0000136,
             "fingerprinting": 3,
             "subdomains": [
                 "www"
             ],
             "apis": {
+                "Navigator.prototype.mediaDevices": 2,
+                "MediaDevices.prototype.enumerateDevices": 2,
                 "Navigator.prototype.userAgent": 2,
                 "Navigator.prototype.storage": 2,
                 "HTMLCanvasElement.prototype.toDataURL": 1,
@@ -57,10 +57,15 @@
                 "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
                 "Date.prototype.getTimezoneOffset": 1,
                 "Navigator.prototype.maxTouchPoints": 1,
-                "Navigator.prototype.vendor": 1
+                "Navigator.prototype.vendor": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "window.outerHeight": 1,
+                "window.outerWidth": 1,
+                "Navigator.prototype.webdriver": 1
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "f57c7212fd3c303c5a79e95d877d401f9c60345229d95e925e8b83db8f480396"
@@ -75,17 +80,19 @@
         },
         {
             "rule": "mercadopago\\.com\\/v1\\/device_sessions\\/web_device",
-            "cookies": 0,
+            "cookies": 0.0000136,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
-            "responseHashes": [],
-            "type": "Preflight",
+            "responseHashes": [
+                "94fa979ec4f44c9722c3172e9df8d8acea0fdd5ff5d63cad8ebc3df3c4dca816"
+            ],
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -95,28 +102,6 @@
         },
         {
             "rule": "mercadopago\\.com\\/v1\\/device_sessions\\/web_device",
-            "cookies": 0.0000138,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "148ea903974d0afc5f53d13135a31fd2dc661e905b718b0c517dce5d4631b74d"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consultaremedios.com.br",
-                "www.clickbus.com.br"
-            ]
-        },
-        {
-            "rule": "mercadopago\\.com\\/v1\\/device_sessions\\/anonymous_device_session",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -124,29 +109,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "6e00dbe58e590e0f909d6920b230e8421626545f0e1644af1836556f4248cdef"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "consultaremedios.com.br",
-                "www.clickbus.com.br"
-            ]
-        },
-        {
-            "rule": "mercadopago\\.com\\/v1\\/device_sessions\\/anonymous_device_session",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -158,55 +121,45 @@
             ]
         },
         {
-            "rule": "mercadopago\\.com\\/pixel\\.gif",
-            "cookies": 0.0000483,
+            "rule": "mercadopago\\.com\\/v1\\/device_sessions\\/anonymous_device_session",
+            "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "melidata"
+                "api"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.0000483,
+            "sites": 2,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+                "c94d0ace09445f8c434c133ec7d8eddc95e6114678074383ad4b4e7729d8f636"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "_d2id": 0.000027608293531376825
-            },
-            "exampleSites": [
-                "mercadolibre.cl",
-                "listado.mercadolibre.cl",
-                "listado.mercadolibre.com.pe",
-                "www.mercadolibre.cl",
-                "www.mercadopago.com.ar",
-                "www.mercadopago.com.br",
-                "www.portalinmobiliario.com"
-            ]
-        },
-        {
-            "rule": "mercadopago\\.com\\/pixel",
-            "cookies": 0.0000207,
-            "fingerprinting": 0,
-            "subdomains": [
-                "analytics"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
-            ],
-            "type": "Image",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "mercadopago.com.ar",
-                "www.mercadopago.com.ar",
-                "www.mercadopago.com.br"
+                "consultaremedios.com.br",
+                "www.clickbus.com.br"
+            ]
+        },
+        {
+            "rule": "mercadopago\\.com\\/v1\\/device_sessions\\/anonymous_device_session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "consultaremedios.com.br",
+                "www.clickbus.com.br"
             ]
         }
     ],
@@ -216,17 +169,16 @@
         "Embedded Content"
     ],
     "performance": {},
-    "cookies": 0.000104,
+    "cookies": 0.0000271,
     "types": {
         "Script": 2,
-        "Preflight": 4,
         "XHR": 4,
-        "Image": 10
+        "Preflight": 4
     },
     "nameservers": [
-        "ns-283.awsdns-35.com",
-        "ns-787.awsdns-34.net",
+        "ns-1084.awsdns-07.org",
         "ns-1599.awsdns-07.co.uk",
-        "ns-1084.awsdns-07.org"
+        "ns-283.awsdns-35.com",
+        "ns-787.awsdns-34.net"
     ]
 }

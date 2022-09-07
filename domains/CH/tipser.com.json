@@ -4,108 +4,118 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000201,
-    "sites": 2,
+    "prevalence": 0.000402,
+    "sites": 4,
     "subdomains": [
-        "img"
+        "cdn",
+        "ab-testing"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "tipser\\.com\\/t_large\\/img\\/b64905194d68aca6b3b3c4e0bbf9fdd2\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "rule": "tipser\\.com\\/tipser-script\\/v3\\/tipser-script\\.min\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
             "subdomains": [
-                "img"
+                "cdn"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "5a5528eb9fd6a28acf8991554db7ce7e3bf2f03654316d72decdadf2ec282ad3"
+                "9166ed1c2aaf8d55f9a6827ccfb22f53fb3892589f5dba952779fa3acce996ce",
+                "c1c117187ac41d164f28064624d6ae4c3fba422f72a9194546dcc5c433b776c7"
             ],
-            "type": "Image",
-            "firstPartyCookies": {},
+            "type": "Script",
+            "firstPartyCookies": {
+                "tipserExperiments": {
+                    "ttl": null,
+                    "length": 35,
+                    "prevalence": 0.0003012350637614218,
+                    "uniqueness": 0.3333333333333333
+                },
+                "tipserAnalyticsSessionId": {
+                    "ttl": null,
+                    "length": 24,
+                    "prevalence": 0.0003012350637614218,
+                    "uniqueness": 1
+                },
+                "tipserToken": {
+                    "ttl": 31536003,
+                    "length": 518,
+                    "prevalence": 0.00010041168792047395,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "glamour.com",
-                "www.glamour.de"
+                "fuersie.de",
+                "www.grazia-magazin.de",
+                "www.vital.de"
             ]
         },
         {
-            "rule": "tipser\\.com\\/t_large\\/img\\/f49e75ad83b23704e4df616c65b93a39\\.jpg",
+            "rule": "tipser\\.com\\/tipser-script\\/v3\\/tipser-script\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img"
+                "cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "cafff809875f9a40e90b8e68261ded9a3672d1fa7e39e6e6c3481d51a73f10c8"
+                "835b57967dbeb9ad4d6f230b9999e926f4dc183939006e00755bce54b6aa79c7",
+                "3f209e5d324e5ac5755ec77a0f1b9b584be8087e3de41c60643b84f0418aea4a"
             ],
-            "type": "Image",
+            "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "glamour.com",
-                "www.glamour.de"
+                "fuersie.de",
+                "www.grazia-magazin.de",
+                "www.vital.de"
             ]
         },
         {
-            "rule": "tipser\\.com\\/t_large\\/img\\/86c835c54bd5eb6cb81959ba5de81c90\\.jpg",
+            "rule": "tipser\\.com\\/experiments-v2\\.json",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "img"
+                "ab-testing"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
+            "sites": 3,
+            "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "820564ca2618732ff8e2500bc97be83ad18d3eddcdfb5c8c30e3e4f7329511f9"
+                "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
             ],
-            "type": "Image",
+            "type": "Fetch",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "glamour.com",
-                "www.glamour.de"
-            ]
-        },
-        {
-            "rule": "tipser\\.com\\/t_large\\/img\\/4e58f8a0bfbe59ed818a876727e25894\\.jpg",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "img"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "5749e1ba73f49d34598d9cd1dd6732d0f7e8019173135d344cf1883fad70ee41"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "glamour.com",
-                "www.glamour.de"
+                "fuersie.de",
+                "www.grazia-magazin.de",
+                "www.vital.de"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.000402,
     "types": {
-        "Image": 8
+        "Script": 3,
+        "Stylesheet": 3,
+        "Fetch": 3
     },
     "nameservers": [
         "anna.ns.cloudflare.com",

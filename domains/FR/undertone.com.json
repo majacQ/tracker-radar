@@ -9,16 +9,110 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.000301,
-    "sites": 3,
+    "prevalence": 0.00291,
+    "sites": 29,
     "subdomains": [
+        "hb",
+        "cdn",
+        "usr",
         "ads",
-        "evt",
-        "usr"
+        "evt"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "undertone\\.com\\/hb",
+            "cookies": 0.00231,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.002307383627608347
+            },
+            "exampleSites": [
+                "www.howtogeek.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "voiture-conseil.fr",
+                "www.livescience.com",
+                "www.gamesradar.com",
+                "www.cyclingnews.com",
+                "www.pcgamer.com",
+                "www.xxlmag.com",
+                "universites-numeriques.fr",
+                "whatculture.com",
+                "www.whattowatch.com",
+                "www.whathifi.com",
+                "www.cyclingweekly.com",
+                "www.ssbwiki.com",
+                "www.space.com",
+                "www.imore.com",
+                "www.marieclaire.com",
+                "www.loudersound.com",
+                "www.t3.com"
+            ]
+        },
+        {
+            "rule": "undertone\\.com\\/js\\/usersync\\.html",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0b7ba09f2858349da926e9fdfad78d3b6ac5e56ddceb16e48416186a0c952b18"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "universites-numeriques.fr",
+                "voiture-conseil.fr",
+                "www.xxlmag.com"
+            ]
+        },
+        {
+            "rule": "undertone\\.com\\/userPixel\\/sync",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "universites-numeriques.fr",
+                "voiture-conseil.fr",
+                "www.xxlmag.com"
+            ]
+        },
         {
             "rule": "undertone\\.com\\/u",
             "cookies": 0.0001,
@@ -40,50 +134,6 @@
                 "www.ups.com",
                 "www.xfinity.com"
             ]
-        },
-        {
-            "rule": "undertone\\.com\\/userPixel\\/sync",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "usr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Image",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "xn--homopathie-d7a.com",
-                "www.xn--homopathie-d7a.com"
-            ]
-        },
-        {
-            "rule": "undertone\\.com\\/userPixel\\/sync",
-            "cookies": 0.000201,
-            "fingerprinting": 0,
-            "subdomains": [
-                "usr"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "xn--homopathie-d7a.com",
-                "www.xn--homopathie-d7a.com"
-            ]
         }
     ],
     "categories": [
@@ -91,10 +141,11 @@
         "Advertising"
     ],
     "performance": {},
-    "cookies": 0.000301,
+    "cookies": 0.00291,
     "types": {
-        "Image": 5,
-        "Document": 2
+        "XHR": 26,
+        "Document": 3,
+        "Image": 6
     },
     "nameservers": [
         "dns1.p09.nsone.net",

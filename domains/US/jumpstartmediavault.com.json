@@ -7,8 +7,8 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000966,
-    "sites": 14,
+    "prevalence": 0.000136,
+    "sites": 20,
     "subdomains": [
         "assets"
     ],
@@ -24,7 +24,7 @@
             ],
             "apis": {},
             "sites": 7,
-            "prevalence": 0.0000483,
+            "prevalence": 0.0000474,
             "cnames": [],
             "responseHashes": [
                 "0437ef9e11c79dd1a8517ea024d4902bcb08fea9209fecd46d815b9942931b10"
@@ -45,18 +45,20 @@
         {
             "rule": "jumpstartmediavault\\.com\\/shared\\/jam_ad_utils\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Navigator.prototype.userAgent": 1,
-                "window.localStorage": 2
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 8
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 9,
+            "prevalence": 0.000061,
             "cnames": [],
             "responseHashes": [
                 "4d65b0668ba0d7d62af2cd166dc1d2c7cd37b9425b5c4fc51e261dbb58f2c471"
@@ -66,7 +68,14 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "carbuzz.com",
-                "www.caranddriver.com"
+                "cars.usnews.com",
+                "www.autobytel.com",
+                "www.autoweek.com",
+                "www.caranddriver.com",
+                "www.iseecars.com",
+                "www.nadaguides.com",
+                "www.roadandtrack.com",
+                "www.usedcars.com"
             ]
         },
         {
@@ -78,17 +87,107 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "034a7a294ca51fc72112a825b2b05188ea10c485951e3111f476e16af44de6b5"
+                "7f17b71548c011ce0eda5898ef44d21e549e31096429e478f1a587c833e302b6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "carbuzz.com",
+                "autoweek.com",
                 "www.caranddriver.com"
+            ]
+        },
+        {
+            "rule": "jumpstartmediavault\\.com\\/abd\\/v1\\/jam_abd_jdpa\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "41f25c2e8e88bf3ee5e39c8d9ee3eea5d8123014f351c4bff9afde15a8606a82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdpower.com",
+                "www.jdpower.com"
+            ]
+        },
+        {
+            "rule": "jumpstartmediavault\\.com\\/abd\\/v1\\/jam_abd\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "8f97e20666a45c7eb8b127e92712bf02565b67099a8f8eed5c4f6df74426407d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jdpower.com",
+                "www.jdpower.com"
+            ]
+        },
+        {
+            "rule": "jumpstartmediavault\\.com\\/abd\\/v2\\/jam_abd_nag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1d9505a9e6b614f6c4b7383b9fbb6945e7f9eb4c419ba0027b9358503e5acde1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nadaguides.com",
+                "www.nadaguides.com"
+            ]
+        },
+        {
+            "rule": "jumpstartmediavault\\.com\\/abd\\/v2\\/jam_abd\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b44eee5edf4970998f960c13e74109c075bda59dcd78aa092f45717fd54b769a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nadaguides.com",
+                "www.nadaguides.com"
             ]
         }
     ],
@@ -96,10 +195,12 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 11
+        "Script": 26
     },
     "nameservers": [
-        "ns73.domaincontrol.com",
-        "ns74.domaincontrol.com"
+        "ns-456.awsdns-57.com",
+        "ns-840.awsdns-41.net",
+        "ns-1594.awsdns-07.co.uk",
+        "ns-1361.awsdns-42.org"
     ]
 }

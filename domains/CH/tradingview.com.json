@@ -4,204 +4,661 @@
     "source": [
         "DuckDuckGo-CH"
     ],
-    "prevalence": 0.000703,
-    "sites": 7,
+    "prevalence": 0.000803,
+    "sites": 8,
     "subdomains": [
-        "s3",
         "s",
+        "static",
         "widgetdata",
-        "pushstream"
+        "pushstream",
+        "telemetry",
+        "s3-symbol-logo",
+        "s3"
     ],
     "cnames": [],
-    "fingerprinting": 2,
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-market-overview\\.js",
+            "rule": "tradingview\\.com\\/widgetembed\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3c7dfbcb1f1e92ad3ca73cfb4d2428fcf6d5306b1983dd0bdcb2843274441b0b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "udmsrc": 0.00010041168792047395
+            },
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/localization\\/translations\\/en\\.22caaab9a0424620\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s3"
+                "static"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "2e125e3760778156c5d10a0aa1d97e056b9fdc66d6c907a59d8627158e83c3db"
+                "fd00312dbdfe331dcf6fc3fe5ed04882405a355b0bb4b82921b586eefa689aa6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com",
-                "www.kitco.com"
+                "kursprognose.com",
+                "ussanews.com",
+                "www.blic.rs"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/embed-widget\\/market-overview\\/",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/runtime\\.b9a77c68207fa58f1de4\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "8f7462c47d9fd9c27f56a287bd72de20f8ea59068d07df6e21b7278142e6d11c"
-            ],
-            "type": "Document",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com",
-                "www.kitco.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/runtime\\.4c9c34c0a6f4b036c066\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {},
             "sites": 7,
             "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "ed756fdd1587ec57fdfac580e4054d2ce007da58f088531586e369e34991021c"
+                "d9534363dfabd4e2ae2cba46bcb2c013a2ddbd6779516372ce88d95c8400ff7f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "beforeitsnews.com",
                 "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
                 "www.elespanol.com",
-                "www.entrepreneur.com",
-                "www.investopedia.com",
-                "www.kitco.com"
+                "www.gevestor.de"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/vendors_embed\\.e927b4e60b2fca9e453e\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/72369\\.b61fa4c9e7d5dfa7e09d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "36a213f5707dd6d17a29725cb1d1d169b8208b91610f69e28c9efe30884947c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/75932\\.cd4f83e4607134502a66\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "11d8ab754a7bd056500e49e7f473228063c95032e33794319a5f28cfaa511cb8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/95170\\.8c229ea611144b3d939d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.indexedDB": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "1284f3e8b0bd1cba40326776843f02447eaefa32133cccbb558699477c21723f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/60521\\.54f261019f51ca591b90\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "b65039a94064f388aaec2c599431508b384d3006f5db0177520d957c1ecf42ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/49569\\.0b5219368412d4053f00\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {
                 "Navigator.prototype.maxTouchPoints": 7,
                 "Navigator.prototype.userAgent": 7,
                 "Navigator.prototype.vendor": 7,
-                "Navigator.prototype.platform": 7,
-                "Date.prototype.getTime": 7,
-                "Event.prototype.timeStamp": 1
+                "Navigator.prototype.platform": 7
             },
             "sites": 7,
             "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "054cbb953c07093cc762a6cded92e8bca501812bd91d2888146a1c892fb17537"
+                "be949954cf78b6b456c66d07d41760366d3ce5a91d4e730f80238144d9b780d0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "beforeitsnews.com",
                 "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
                 "www.elespanol.com",
-                "www.entrepreneur.com",
-                "www.investopedia.com",
-                "www.kitco.com"
+                "www.gevestor.de"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_market_overview_widget\\.c67e25343dae37b71749\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/24951\\.3c1bad3e325b4f4d9a6c\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cbb16fb37c08d4395fa3f44167864c807b04d01289512303ed29ee8e11dc24ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/40117\\.2b6fa250f313645039ee\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "Navigator.prototype.storage": 3,
-                "Navigator.prototype.userAgent": 3,
-                "window.indexedDB": 3,
-                "Navigator.prototype.maxTouchPoints": 3,
-                "Navigator.prototype.language": 3,
-                "BroadcastChannel.prototype.constructor": 3,
-                "window.devicePixelRatio": 3,
-                "Element.prototype.getClientRects": 1
+                "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "b915ea2db07029aa8e4ef34e4e85596e2907487da07b195e943909071572529a"
+                "91228d1aba4359ea95e12794c8ddd70f1ffa6eea5ef887ef84e0a9b1315dcca2"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com",
-                "www.kitco.com"
+                "kursprognose.com",
+                "ussanews.com",
+                "www.blic.rs"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/css_embed_normalize\\.5decea81a5d9f250c172\\.css",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/35664\\.d2d84158aec377ba99cd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.indexedDB": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "28664aaf9edfc40500dea7dc4ba8c5d28681039a2e18b6881ab05070ce46b1c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.gevestor.de",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/16603\\.5b436487a786899300bc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5fd9e633a97902ec95d5f7c97a016703185006ae4eb2760edf21c28258f8ef35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/48083\\.3cf917a562ad9de9d494\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.storage": 7,
+                "Document.cookie getter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "b5f28a28d25d5689668bb73ae66aa8539c3f3b29a68f8952938aa06f35703d62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/47872\\.e319306fe12f17c73ece\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.indexedDB": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "aadc911be15a09628b26dcb506f0e8b6eedb5c2ab9377f4d114b9f00f7be7547"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/73405\\.5336b4994103f642eb0a\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "4e2a200949c34f07c6ecc625ca3376adf3efe894c76f303cba1abe194bed9c48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/61165\\.c5c761660f03dc83d50b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "2e9426cf8e839e4a9d090cfb921b110b6313dbb65f476f70c346a82acd020835"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/21629\\.416aa2c032d6757eadca\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
             ],
             "apis": {},
             "sites": 6,
             "prevalence": 0.000602,
             "cnames": [],
             "responseHashes": [
-                "61272354c450141b08dfb8d1bf7cb6d67e8e4236f605074ccc86c89749f7249a"
+                "5620a2908b029dd158bc7c02655d620c303bd6fc60914a1d7d181ae31e4b7bcf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/19965\\.508786d8d043f0662a4d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d802a9c16cd6891024683840c81232e62376983d5b95f697f474b77a2e0d329b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/64689\\.257d867ed0a8f8f1b799\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f4d87b1e6ec6d8f6605c089a604cfa1bebb59b2dd4d0410f38a627b2d496ae9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/97880\\.6f70c46f94fceb821834\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "718339c11ddafdc22fb2d14f2d69d431304d5b4326a9b537822ac1966511a44d"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "beforeitsnews.com",
-                "www.elespanol.com",
-                "www.entrepreneur.com",
-                "www.investopedia.com",
-                "www.kitco.com"
+                "kursprognose.com",
+                "ussanews.com"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_market_overview_widget\\.383d5a5c4e217bf45e37\\.css",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/15107\\.63246bb34b457234560d\\.css",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "7e5d31f68a2a2d54d25d587348f8b6a445113d310c159973eccd5192f08ee493"
+                "827d8bd0fe32f69311c6fa229d30c260a378dfab7f639d5ef9b02f605e34c213"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com",
-                "www.kitco.com"
+                "kursprognose.com",
+                "ussanews.com",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/93419\\.5e378482872bae547a16\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "8df2ae43e4368b0ee8b3826cba609f16ab5d43713668795230f3c1561db2e7e8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/4704\\.721cbfb1a5d6784e3109\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "d1b8a0fc8cd1e1cee4a88d59f5787fdd243f2fbf583f809d5c8d5028ea2b1162"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/22641\\.c7183a76dc0599de9f42\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "fe19334709cd41c6c626aa65d242a3c096e5ef4d92097fc19fc27ab73d31d50a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
             ]
         },
         {
@@ -212,349 +669,985 @@
                 "widgetdata"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000703,
+            "sites": 8,
+            "prevalence": 0.000803,
             "cnames": [],
             "responseHashes": [],
             "type": "WebSocket",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "beforeitsnews.com",
                 "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
                 "www.elespanol.com",
-                "www.entrepreneur.com",
-                "www.investopedia.com",
-                "www.kitco.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/303\\.ec7ca0f804a63d865c10\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "76844492baae9acad7de5a10b830bc7a22e97852a4a4859866104e84cf973b05"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "beforeitsnews.com",
-                "www.elespanol.com",
-                "www.entrepreneur.com",
+                "www.gevestor.de",
                 "www.investopedia.com"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/tradingview-copyright-data-impl\\.bc2a1d12352656925c8a\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/24377\\.8deec0977e8713101d07\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "6f4c7baf55e7c028d298c83e4a92e38dd451d5c025ed77ddc4703f4e0fb66253"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "beforeitsnews.com",
-                "www.elespanol.com",
-                "www.entrepreneur.com",
-                "www.investopedia.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/48\\.9078fb8f1629e3eee9bd\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "967c00071fa379622aedf84e215f7fe3fc73a7bfe167ecbd246e613cccd68326"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "kursprognose.com",
-                "www.entrepreneur.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/170\\.9110e93f1e53c3c319b9\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "401648263b2e824940392d7846ea093e62d13ceaef308d854696d839d109fdb7"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/226\\.dacaab2695d721575e15\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "f179d9e9a27b609a2e24166123c777dc60d125cca6fcf6fe8b2c8e2e75013881"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/0\\.b50c6303aea394b27ce8\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.000401,
-            "cnames": [],
-            "responseHashes": [
-                "3c32fcaa22c2178b3c28ca8085bb1f30f7b2f6c0fdf5db53422ac28ad6150209"
+                "7faee9e347145489eedd54716b73cb950af5124b702347489d4f71eebcc1b872"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
                 "kursprognose.com",
-                "www.entrepreneur.com",
-                "www.kitco.com"
+                "ussanews.com",
+                "www.blic.rs"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/8\\.8b3d74db93f1ab6f2363\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/25977\\.84991d3f49efb2a1d089\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d0c544c9bf3ca55dd654c735304649cd1c0fd5ce74da85050bd829f4ab4f3c22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/96425\\.843b93ad38325f8d47f8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "cf4c43d58c54505d75824a4d58e1715119ee2cd7c55f542a0a56014dcd1cc719"
+                "2153682a98b54f250ae86d34ea8563c3080ed9d734253eb406de712d162604f0"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
                 "kursprognose.com",
-                "www.entrepreneur.com"
+                "ussanews.com",
+                "www.blic.rs"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/16\\.59706ee061f3352fe294\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/60909\\.ce4f0b434b76686cfd47\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {},
             "sites": 3,
             "prevalence": 0.000301,
             "cnames": [],
             "responseHashes": [
-                "0ca25a5e5a63db64127da8be18cc390fa09e78b2619763dab21d9ae65ef28418"
+                "4ff1f7c74a12715b24fe7ce7560f940bef6c73c73d4d6de411f597c408f2e6d1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
                 "kursprognose.com",
-                "www.entrepreneur.com"
+                "ussanews.com",
+                "www.blic.rs"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/47\\.16fbbe8f88aa57b0e472\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/68647\\.9efbbbcee5285802a4a2\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
-            "cnames": [],
-            "responseHashes": [
-                "1d08186d26c440375e0f6a03ea56ede4ceb2ed87ff149c6d61c04bb186fe28e3"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "bachheimer.com",
-                "kursprognose.com",
-                "www.entrepreneur.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/create-tab-labels-impl\\.3e87f0ca71055c01424c\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "1d6b9def25663bab45e8cffa49ba5a9a995ad73b9294efd1f9938257df5c8427"
+                "1002cc32b8ed2b0ad77211c5e4ce6cc912b1b1c9847010595bd8dffd87dfa8d5"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "bachheimer.com",
-                "www.entrepreneur.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-ticker-tape\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "da8688a50b98af6cfcb106a460d4371795eed39b580da7672083e79149c6f3f9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "beforeitsnews.com",
-                "www.elespanol.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/localization\\/translations\\/en\\.041d4e29a6eef8fc\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "18cd561d3956855d501ebc3a3b6252e13b9278414bdc31a897c7fe66d2dd30a9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "beforeitsnews.com",
                 "kursprognose.com",
-                "www.entrepreneur.com",
-                "www.investopedia.com",
-                "www.kitco.com"
+                "ussanews.com"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_ticker_tape_widget\\.b414ea6887bca4e4f792\\.js",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/49583\\.98077f1e112b2cfb9cbe\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Navigator.prototype.storage": 2,
-                "window.indexedDB": 2,
-                "Navigator.prototype.userAgent": 2
+                "window.devicePixelRatio": 2,
+                "Element.prototype.getClientRects": 2
             },
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "b14487eda81c1c98acff3aef72676156bb61c7319e5e9de059d70864a7238909"
+                "1f6f7f05f464112d0252300f1c82563aa3ff87ec8d50b32c70db648abeb3c493"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "beforeitsnews.com",
-                "www.elespanol.com"
+                "kursprognose.com",
+                "ussanews.com"
             ]
         },
         {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_ticker_tape_widget\\.1aadc88a7bafa11f9887\\.css",
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/33993\\.dff9a4fac8fdc174ddbc\\.js",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "static"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "6e5885cb048ca400e25c37ab41913ba7a288c31c5bf571e19b40e4366e17cd9f"
+                "fe25193f791f36885b4e97118fcea5fbd82f86679d954f0a6b440fc2909dd694"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/93987\\.85e71d95769efe86d05a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f2453b371011a3d590a24e1d7888eb6646247fe52ae4d8c4747a728d340b01b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/85518\\.6aa5abbd9ed626f22cbb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9ec0aaa98542d9842a1a35649fdd731a6e4c238d560e676dbdb94cfd4c9557c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/99752\\.21a02d5b33af97659929\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2b550ff80c7c4595daa12c4d515d76d25c673f23bd4a6419a08cb6d977065849"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/64679\\.c30d7e58e17e0e03116c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ebd6418d4a96d4e1f382a5b60bddba2e5078cb63848f64a81b6fde55b295ed2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/48874\\.022a415cd1901d8e5717\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2423f8f38ac55934a2adc7a4573b06cac8c1853100008b5183f943bfbac73cd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/52388\\.4ab0730c719b7a98de64\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae623330506c91b65a851a9dd2bbba868c0484b5ea5c3c0dc869421bacc56ddb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/40968\\.c03118774db5ab27340d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1936e738f7a427b90f543854b204b743d8fdac43f2660323344592b00cc455a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/65872\\.675fb1c540b9ecb9f06e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "45ecc717691344d7aa8cd881af705a3e82e39b8c69c7d13c4a11cb41ab939fb5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/25192\\.98efb1f636edd4faac90\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d3173f0f8881fb787f800035daf1320c817674494dd14eb3468cc8c146063046"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/40662\\.ce105a3b7062ec05fa47\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "af0e613590a15aac47f23b03961dcc6317a680f1e4a7039049c635d7dc1431f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/2641\\.9c3b383aa49df2eb4e35\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1cd53e0fbaf4b93d009605a87bcd9024340c3904cbd2dbe7865d87b20d6ca785"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/64170\\.ec20c065d85b169c9cc1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "32d542c5b0392e7d12a44b572354eae07fd42ee2024dffc5662ca8ee0ad08a79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/12591\\.7026e360e3cb2907179f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6d58f455f493bdd150b9ae717acae23c1aa746f1de8da49b109bf9250535803b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/44993\\.82d9534e367baa891ce3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "af447d57c6b117d2b72227761cf2a70abc4d6950c2b51e5b878a7eee2dc11a22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_advanced_chart_widget\\.e9b5369a27fe2115fefa\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "document.fonts.check": 2,
+                "CanvasRenderingContext2D.prototype.measureText": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8c3bf83c5043bc1a0e5309b7f870b4310d9584ab10a7e71edeba44079e2522ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/29806\\.2ebb0ac71efa3a6a3852\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6966ef3bb94c2737873a823bc43c7cb52f923378868a91c824c26a5a604a39b9"
             ],
             "type": "Stylesheet",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "beforeitsnews.com",
-                "www.elespanol.com"
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/13991\\.9df4e9627cab6cd78559\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cde095ab64f60c38a7c6583f3e7ffce2be5116996e9a365ff4bae6309b949f9f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/87234\\.251aff7bb77034f9ccfc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eb2db798fd046f5559fceedeb5e5c00efca1d72632e825538726d6aa16751951"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/23500\\.c60b67c9b09d37f1e710\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1f05750728c34b226a3120b63dcebccfd62e36fd1f37d0efb8a4175fd65de546"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/90519\\.fbb750fd312778403036\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/5979\\.1e5ce1d1118ba997619e\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a9d489ffc24a3404462a2ae21f34411e1b5014ef685f7ce3cb9624da01257215"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/21834\\.7f76032dfacf47603e3f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "678bb3c31c1e1312d1da6b8900fc6ebc15c2833f21aa313cddad7d9b248d6630"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/44155\\.d1d85b86f795ef8c0376\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00fcd4904bf44a0192fa4c681f1bae1ae6be465fc47d07e7c4bcd3815dcace43"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/24384\\.a2c39dfde90d6db48ca8\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2485bfe2d2382c511e2d46bde1839eed3c111115f38fca8e51d5f0d8d4aefea6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/2036\\.b437c23c48140e28ba99\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e8b5e86226a2bd34cbfbd51fa5b903a462521e27ed4cb08a495c11e14d2bca5b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/35015\\.49df061e77de66d17181\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8edf214093f8bdd1c67713b9bc2beb5aed0b97133d90deaf4ee5cb76f1853557"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/48705\\.913dfcb363f38250e047\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4324dfeb454bb3b6a547889b1c837958335b748241a8046a3f32c9c4ebd1111a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/60669\\.1f9ce2b45943536c7e18\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "78fb25eee16c657ec07f43368ad310313dc3cc3a6594022ec4d9329a3dca6733"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/87995\\.c75138a19e8f08490b03\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0a7ae0f803afa923f032f6b7ccb625ff0dbcaa820f72c0951821672df66edbf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/93921\\.3d19edc2159b72645d54\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "615308cb972fd294c0e2b9fc6158172bac2018cebe74d0f46854c2e1530fe704"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/91622\\.c8fa9b7b966ab5d81c91\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "467d769d27104aed91f548c0984d465974aee6bd03837fb75c91adaba5fa37d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/50067\\.813580528db7b03e5467\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d5ba3b7efa26d78f20687c666d1b8f62d16e5fa2fdd13fbab8c68c4e2eee9a8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/chart-widget-gui\\.826a5d9ed77b4d8754be\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ade942ee82264a0680bcd249699fc8c27dfde5c41ed7c7bb7f25be87e91d0426"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/3086\\.0d1fcc5f4fdd633672c7\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "c7e58799078e5a29d5b03f677d5402d4c36edb7f2af33d6fad341cb998569ba2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/72066\\.f1aaa4b56bfc5daefd58\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "85a3d8af7a1f1580c3d29069e046b0bc5cea5406a3015d7f2de17d76fdef8711"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
             ]
         },
         {
@@ -574,7 +1667,631 @@
             "firstPartyCookiesSent": {},
             "exampleSites": [
                 "kursprognose.com",
-                "www.kitco.com"
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/81735\\.6c3e705f23241e900d4f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ccc57ddc7e242bd82b0f6a2f7ff7a175d03545a3256159c91516b1dffb9eeab9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/get-error-card\\.91df382116e1fa8dfea4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6e03044be8388bff900fa994fd0ac02a350851ee3d5f53476b818aa83fbc77b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/90926\\.5d2494131ac4dbc4a306\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "828041b49d3a86e2c34b3446088b569d892cae29ed05b58b0f2d3cb8f9b43f70"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/8834\\.ab81ea9960f83193438d\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4aa3dc34a474bf826cda9aac5b13556b9b8436f4bbb473da7107d6d4c4043758"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/30063\\.1a34a202bcba49a11474\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b647246742f2b01abb2a375ed8ed05cb3e772118331126f2f244716d36fbf6f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/48181\\.57152ce2f4de675f3d81\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0dda67368ff33c2bae273b487230021d62e2d33f860c022658d8cd5361227dc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/35354\\.993e72a07ec3f9b05590\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d816cb5ffba3426dd0738ead2970cf8c9fbb5b35fed8bc574c34c96eb8f451af"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/91670\\.1d58bb849548cee3d4a0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "94045ad58f1f65e8ac575c0dafe211f7b445a5655764ccbaaae03f12cb30922f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/82073\\.485d198a087a323aff79\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bf502b2d52b2767fdee84753f1ca55004e9eb44d3915b523b8299b41b188bf42"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/change-interval-dialog\\.e74c24125457205816a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fed59e94d894c3275798347c6829309a0cf04f1c5e20859f622dee4bec4fa8f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/44572\\.5fbf81e4ba986053534e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2013f9118b5afc19a399a2b40b22427318b83ba08fb262137e47d7cdbbf037af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/study-pane-views\\.7d5415ce5cb9bd7f8216\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6ace2fc3a27d892ead562700a36c2e5bb71d844727f4acad3edd56400e63b8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/EuclidCircular\\.be8f862db48c2976009f\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8fd31e8253ba34598089a61871ea69a79c854f726fdc0cdbd223c0c0cdf0661c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/widget\\/report",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telemetry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kursprognose.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/87461\\.a35256d3fbcae31c8817\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "38c24ad9f43bd9eb0a4b9fa67778e308a7a811294e0e006d49cc120604d58bb0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/9610\\.4b9f8462aa3659c59d53\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "3a5baaf48425b11d6685e6dc62508c1419d7aceb5815c59f4f34a3fa10a48fca"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/5735\\.4ed7cf8c51317bb05e7d\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "ba14936a73d58a00c0207ee0d8e2809b0a75474692536a83f357476ccca7c6ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/49859\\.57ed1f0e14de0ce7dcbb\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "80b9efd9b21348dab44deb944acf94010de9739b57a1cd4fd7acd6be951be5db"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/60518\\.ff03d1bbe4f870182df0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d6c944fac440672d6bb53561f8a0cce4edd373981410837b84fba660ee2f3cfd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/28903\\.aa1dd10ca152214f30b4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "65fa2849eb04b25dd3d737ee39791f24feb89ef65a01eea6820cf1eb95f15efa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/tradingview-copyright-data-impl\\.e58a177013f230536e29\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "d11358673e6944e9cfe0d14dabcc82f531dc2313ab636a8925607d76192e96e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.20minutos.es",
+                "www.blic.rs",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com",
+                "www.gevestor.de"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/metal\\/gold\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9ef7e93476a9f5132f0c3b909c3d8b569cbb727188f5a07f2abe7d881d786006"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.blic.rs"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-ticker-tape\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bb51d1e5236e0daeb078e0df8e945e5a0afc06e83e0ed54281d9af4877f58df0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20minutos.es",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/localization\\/translations\\/es\\.496ec8ea95253086\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ee82ef4957397af47ac024af24920440ab7535c1f975ee7115808c7acd1ecb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20minutos.es",
+                "www.elespanol.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/24209\\.a5ce399c8305a1871f03\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bb1cd14db11ac7dbc9d30112d3a3c8fd9550b7f870bf378a3399aa51224a9167"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20minutos.es",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_ticker_tape_widget\\.29809c7aa923a4a4c7e0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "195ac5f1c19bbdb0df0e48c35d8ae102bcf18cb386fb9c9df6a7385f684c8029"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20minutos.es",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/41848\\.9aed78f36422390299fd\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a5a4555a853a38c7209ad9ba749632a384bed64d8f9e05a9434a5ef53e2b6d6c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20minutos.es",
+                "www.cumhuriyet.com.tr",
+                "www.elespanol.com"
             ]
         },
         {
@@ -589,13 +2306,13 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "56768c8cf8ac332727fe60e27156c7c0a4975e77bc9c7e7656d4a8e57bb0822f"
+                "2657e4d6058c00eb8939ace3a0594f4c462262d5585ca8305eabd0920deb1204"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "entrepreneur.com",
+                "gevestor.de",
                 "www.investopedia.com"
             ]
         },
@@ -611,107 +2328,14 @@
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "81e8a1a0ee34e632ec207a0bf0ccdfafeb564a4ac4138711ab208798a5e87e34"
+                "d5a7d263b9a5151805e51558a775d2d3df7475ff21d36e11797bdebb3c3c7301"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "entrepreneur.com",
+                "gevestor.de",
                 "www.investopedia.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_tickers_widget\\.dd9b8591d4edc717cd6e\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Navigator.prototype.storage": 2,
-                "window.indexedDB": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "01ae88e7eee89d08e267888b738b0ea41767f71098b114bd7f5ef2587213a31e"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "entrepreneur.com",
-                "www.investopedia.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/embed_tickers_widget\\.96747009465ab7d23c4b\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "443f945d2d754a952f7ffe6a784427d4a2784298eeab23d6fccc5bed76ef897e"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "entrepreneur.com",
-                "www.investopedia.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/429\\.eed2a0543de78f48cd7e\\.css",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "4a9732d23296237036ee1a40b16aa13d6d80f933e783c3b86f543504b34b52d1"
-            ],
-            "type": "Stylesheet",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "entrepreneur.com",
-                "www.kitco.com"
-            ]
-        },
-        {
-            "rule": "tradingview\\.com\\/static\\/bundles\\/embed\\/time-frame-view-renderer\\.806add843185130edcd9\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "fcddb01854139eb257231ab7cf53828c4271e22b6de566e51486726ae97ada0f"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "entrepreneur.com",
-                "www.kitco.com"
             ]
         }
     ],
@@ -719,10 +2343,13 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 55,
-        "Document": 5,
-        "Stylesheet": 27,
-        "WebSocket": 9
+        "Document": 4,
+        "Script": 189,
+        "Stylesheet": 111,
+        "WebSocket": 10,
+        "Font": 2,
+        "Fetch": 2,
+        "Image": 2
     },
     "nameservers": [
         "ns-1533.awsdns-63.org",

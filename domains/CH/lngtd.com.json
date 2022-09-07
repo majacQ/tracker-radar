@@ -8,35 +8,12 @@
     "sites": 8,
     "subdomains": [
         "conf",
+        "it",
         "collect"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "lngtd\\.com\\/uesp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.000201,
-            "cnames": [],
-            "responseHashes": [
-                "28c9a2efbe394fdad7cacd90f9362ed30e6910e1f1ae764d73cab2d619f9afbe"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "uesp.net",
-                "en.uesp.net"
-            ]
-        },
         {
             "rule": "lngtd\\.com\\/lngtd-config",
             "cookies": 0,
@@ -49,12 +26,40 @@
             "prevalence": 0.000703,
             "cnames": [],
             "responseHashes": [
-                "5af83fea77b2fa7ed66da9529b5b4de66ab848c82e7542f68bbbaa0aee044701",
-                "902785bb3fbca28f1aa80ca8506cc44bca80de0de2db1342d716eae15e5ba731",
-                "8157c37b362a536ba9adca4ff7a7695211b8a8cb8b4eca049da31dfa603a2b15",
-                "2694c5ab8c520b2184745da610b66ee345e48d14ff327f99768ddc7fbbc6e66e",
-                "b849d887a709071d6818998b2f6bd561bf3b97f933a7f3c1424940d793909065",
-                "379a9f088479ca598098c77b231a8fedea96ab0d91d6c0f5f005e7c123473482"
+                "42ca42633332b5da97eda26a7156d0913f5881771300664e7196b61616db17a3",
+                "f4df5e5c8b0b5d577475f944ab24239dbc322ba0d5a8bdf217d464b499f5c3a2",
+                "bffe01de65877f79bf347e22cf56ea8f40c57afe26cf70439260026b369b22c7",
+                "dc069f23a8c4c3af8d49a7d92ff12ec942220a7922af77b2a93db7182295d53e",
+                "b5f97c7bc80f971fb0470195d9c95bac6eff0580cc0c3aa5b14813ecb4005ac3",
+                "b39bd06e7b711ea1c8ef10e796864b2fdede585a9e11640281a93a9e54975cdb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uesp.net",
+                "files.minecraftforge.net",
+                "forums.minecraftforge.net",
+                "socialblade.com",
+                "www.discogs.com",
+                "www.inhaltsangabe.de",
+                "www.sportingnews.com"
+            ]
+        },
+        {
+            "rule": "lngtd\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "it"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "bec0e9242d7fc80253a9323770a37778c4d86eb6b425aa7fa31be63fada73c18",
+                "60e5ddf71034ac5f81a340622e3db8289ac44de236d1de5a95c73746ad9e5c88"
             ],
             "type": "XHR",
             "firstPartyCookies": {},
@@ -62,11 +67,31 @@
             "exampleSites": [
                 "uesp.net",
                 "en.uesp.net",
-                "socialblade.com",
-                "u.gg",
-                "www.discogs.com",
-                "www.goal.com",
-                "www.gradesaver.com"
+                "files.minecraftforge.net",
+                "forums.minecraftforge.net",
+                "www.inhaltsangabe.de"
+            ]
+        },
+        {
+            "rule": "lngtd\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "it"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uesp.net",
+                "files.minecraftforge.net",
+                "forums.minecraftforge.net",
+                "www.inhaltsangabe.de"
             ]
         },
         {
@@ -85,8 +110,8 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "u.gg",
-                "us.soccerway.com"
+                "minecraftforge.net",
+                "forums.minecraftforge.net"
             ]
         },
         {
@@ -107,18 +132,17 @@
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "u.gg",
-                "us.soccerway.com"
+                "minecraftforge.net",
+                "forums.minecraftforge.net"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.000502,
+    "cookies": 0.000703,
     "types": {
-        "Script": 2,
-        "XHR": 9,
-        "Preflight": 2
+        "XHR": 14,
+        "Preflight": 6
     },
     "nameservers": [
         "ns-758.awsdns-30.net",

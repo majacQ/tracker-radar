@@ -4,36 +4,46 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000414,
+    "prevalence": 0.0000407,
     "sites": 6,
     "subdomains": [
         "pixel",
         "dmzls-dub"
     ],
     "cnames": [],
-    "fingerprinting": 0,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "safe-installation\\.com\\/js\\/funnel-data-v3\\.js",
-            "cookies": 0,
-            "fingerprinting": 0,
+            "cookies": 0.0000271,
+            "fingerprinting": 1,
             "subdomains": [
                 "pixel"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
             "sites": 4,
-            "prevalence": 0.0000276,
+            "prevalence": 0.0000271,
             "cnames": [],
             "responseHashes": [
-                "997bc10b3637036eff8e820434cebaf4665f05d7114a4442488be2be535d886b"
+                "9ee2d5fa9d5f277adf30031db237e95b7b29614a896577538e43b4694ddeb985"
             ],
             "type": "Script",
-            "firstPartyCookies": {},
+            "firstPartyCookies": {
+                "888TestData": {
+                    "ttl": 2592000,
+                    "length": 155,
+                    "prevalence": 0.000027111659369111688,
+                    "uniqueness": 1
+                }
+            },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "888casino.com",
-                "www.888casino.com",
+                "888poker.com",
                 "www.888poker.com",
+                "www.888casino.com",
                 "www.888sport.com"
             ]
         },
@@ -45,8 +55,30 @@
                 "dmzls-dub"
             ],
             "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "888casino.com",
+                "www.888casino.com"
+            ]
+        },
+        {
+            "rule": "safe-installation\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmzls-dub"
+            ],
+            "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [],
             "type": "Preflight",
@@ -67,7 +99,7 @@
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.0000207,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
@@ -84,16 +116,17 @@
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0,
+    "cookies": 0.0000407,
     "types": {
         "Script": 4,
+        "Fetch": 2,
         "Preflight": 3,
         "XHR": 3
     },
     "nameservers": [
         "sdns52.ultradns.com",
-        "sdns52.ultradns.biz",
         "sdns52.ultradns.net",
-        "sdns52.ultradns.org"
+        "sdns52.ultradns.org",
+        "sdns52.ultradns.biz"
     ]
 }

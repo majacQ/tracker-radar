@@ -9,72 +9,137 @@
     "source": [
         "DuckDuckGo-FR"
     ],
-    "prevalence": 0.00201,
-    "sites": 20,
+    "prevalence": 0.00461,
+    "sites": 46,
     "subdomains": [
-        "scdn",
         "cdn",
-        "api",
+        "scdn",
         "p1cluster",
         "comcluster",
-        "id"
+        "id",
+        "api",
+        "csyn-r",
+        "csyn",
+        "stats-collector"
     ],
     "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "cxense\\.com\\/cx\\.js",
-            "cookies": 0.00191,
-            "fingerprinting": 2,
+            "rule": "cxense\\.com\\/cx\\.cce\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "scdn",
-                "cdn"
+                "cdn",
+                "scdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 20,
-                "window.localStorage": 20,
-                "Navigator.prototype.userAgent": 20,
-                "Document.cookie setter": 19,
-                "Document.cookie getter": 19,
-                "Date.prototype.getTimezoneOffset": 13,
-                "window.sessionStorage": 13,
-                "Screen.prototype.width": 13,
-                "Screen.prototype.height": 13,
-                "window.devicePixelRatio": 13,
-                "Screen.prototype.colorDepth": 13,
-                "Navigator.prototype.language": 13,
-                "Navigator.prototype.appName": 10
+                "window.localStorage": 7
             },
-            "sites": 21,
-            "prevalence": 0.00211,
+            "sites": 30,
+            "prevalence": 0.00301,
             "cnames": [],
             "responseHashes": [
-                "cf14ec6594856b9c568e77bbeaa57781b321e206faf1bcca7b2217980a581b97"
+                "eb578e5229cead21a487f38f0428ce5362cc04b13dfbc686cb380be538c0e79f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slate.com",
+                "thechive.com",
+                "variety.com",
+                "www.cnbc.com",
+                "www.forbes.com",
+                "www.independent.co.uk",
+                "www.marketwatch.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.billboard.com",
+                "www.corriere.it",
+                "hbr.org",
+                "www.badische-zeitung.de",
+                "www.tdg.ch",
+                "www.refinery29.com",
+                "www.thelocal.fr",
+                "www.blick.ch",
+                "www.pinknews.co.uk",
+                "www.lalibre.be",
+                "inews.co.uk"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/cx\\.js",
+            "cookies": 0.00441,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "scdn"
+            ],
+            "apis": {
+                "window.localStorage": 44,
+                "Date.prototype.getTime": 44,
+                "Document.cookie setter": 44,
+                "Document.cookie getter": 44,
+                "Navigator.prototype.userAgent": 44,
+                "window.sessionStorage": 44,
+                "Date.prototype.getTimezoneOffset": 39,
+                "window.innerWidth": 41,
+                "window.innerHeight": 41,
+                "Screen.prototype.width": 37,
+                "Screen.prototype.height": 37,
+                "window.devicePixelRatio": 37,
+                "Screen.prototype.colorDepth": 37,
+                "Navigator.prototype.language": 37
+            },
+            "sites": 45,
+            "prevalence": 0.00451,
+            "cnames": [],
+            "responseHashes": [
+                "54122df2d34ada44099c84467adbed15c0c5dba9aa168c387c37c8d91ecdad83"
             ],
             "type": "Script",
             "firstPartyCookies": {
-                "cX_P": {
-                    "ttl": 31536006,
-                    "length": 16,
-                    "prevalence": 0.001004217714400482,
-                    "uniqueness": 1
-                },
                 "cX_S": {
                     "ttl": null,
                     "length": 16,
-                    "prevalence": 0.0012050612572805785,
+                    "prevalence": 0.0037118780096308188,
+                    "uniqueness": 1
+                },
+                "cX_P": {
+                    "ttl": 31536007,
+                    "length": 16,
+                    "prevalence": 0.0040128410914927765,
+                    "uniqueness": 1
+                },
+                "_pctx": {
+                    "ttl": 63072007,
+                    "length": 161,
+                    "prevalence": 0.0040128410914927765,
                     "uniqueness": 1
                 },
                 "cX_G": {
-                    "ttl": 31536007,
+                    "ttl": 31536012,
                     "length": 46,
-                    "prevalence": 0.0013054830287206266,
+                    "prevalence": 0.003109951845906902,
                     "uniqueness": 1
                 },
-                "cstp": {
+                "cX_partner": {
                     "ttl": null,
-                    "length": 1,
-                    "prevalence": 0.0001004217714400482,
+                    "length": 28,
+                    "prevalence": 0.0010032102728731941,
+                    "uniqueness": 0.4
+                },
+                "cX_cons": {
+                    "ttl": null,
+                    "length": 81,
+                    "prevalence": 0.00020064205457463884,
+                    "uniqueness": 1
+                },
+                "usr_bkt": {
+                    "ttl": 315360024,
+                    "length": 10,
+                    "prevalence": 0.00010032102728731942,
                     "uniqueness": 1
                 }
             },
@@ -82,24 +147,24 @@
             "exampleSites": [
                 "slate.com",
                 "thechive.com",
+                "variety.com",
                 "www.cbc.ca",
                 "www.cnbc.com",
+                "www.forbes.com",
+                "www.independent.co.uk",
                 "www.marketwatch.com",
-                "www.politico.com",
                 "www.snopes.com",
-                "www.journaldemontreal.com",
-                "ressourcessante.salutbonjour.ca",
-                "www.sport.es",
-                "www.dhnet.be",
+                "www.telegraph.co.uk",
+                "www.cinemagia.ro",
                 "www.wsj.com",
-                "www.rollingstone.com",
-                "www.tvanouvelles.ca",
-                "www.coupdepouce.com",
-                "www.lalibre.be",
-                "salutbonjour.ca",
-                "www.corriere.it",
+                "www.elmundo.es",
+                "www.7sur7.be",
+                "www.refinery29.com",
+                "www.billboard.com",
+                "www.tdg.ch",
                 "www.lavenir.net",
-                "www.tdg.ch"
+                "www.rollingstone.com",
+                "www.lesoir.be"
             ]
         },
         {
@@ -110,279 +175,478 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 13
+                "window.localStorage": 37
             },
-            "sites": 13,
-            "prevalence": 0.00131,
+            "sites": 38,
+            "prevalence": 0.00381,
             "cnames": [],
             "responseHashes": [
-                "c92cab84b44ac37925a00450873a018ac601883a2d6e7a760ea38fdde7671004"
+                "535be4b8bedf82433d210152dfb19dd4eaf5796c4e61c2be1c2ed356827b5580"
             ],
             "type": "Document",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "salutbonjour.ca",
-                "www.biblestudytools.com",
                 "www.cbc.ca",
                 "www.cnbc.com",
-                "www.coupdepouce.com",
-                "www.corriere.it",
-                "www.dhnet.be",
-                "www.journaldemontreal.com",
-                "www.lalibre.be",
-                "www.lavenir.net",
-                "www.rollingstone.com",
+                "www.forbes.com",
+                "www.independent.co.uk",
+                "www.marketwatch.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
                 "www.tdg.ch",
-                "www.wsj.com"
-            ]
-        },
-        {
-            "rule": "cxense\\.com\\/public\\/widget\\/data",
-            "cookies": 0.000502,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000502,
-            "cnames": [],
-            "responseHashes": [
-                "daabf104e87b1071b9ae1a41f403a200f051c156fa38d351334b3d7f17f0cfe0",
-                "2e6187be3d59af8132bed2fd2e5ea13bc48d90058a475ccedca1a442a5e65162",
-                "0c021301644c7b0259b4520a371cde3994ba09da128573a9d698f966a9b5dfdc",
-                "d0eb6f7f9c4187d4dc296a1e87223dae22a90b87c052e4292599624111faf2b9"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {
-                "IR_gbd": 0.0002008435428800964,
-                "cX_P": 0.000502108857200241
-            },
-            "exampleSites": [
-                "salutbonjour.ca",
+                "www.badische-zeitung.de",
+                "www.coupdepouce.com",
+                "www.buienradar.nl",
+                "www.refinery29.com",
+                "www.ledevoir.com",
+                "hbr.org",
+                "www.thelocal.fr",
+                "www.lavenir.net",
                 "ressourcessante.salutbonjour.ca",
-                "www.lalibre.be",
-                "www.rollingstone.com",
-                "www.wsj.com"
+                "www.nu.nl",
+                "www.sudinfo.be",
+                "www.lalibre.be"
             ]
         },
         {
             "rule": "cxense\\.com\\/p1\\.js",
-            "cookies": 0.00131,
+            "cookies": 0.00371,
             "fingerprinting": 0,
             "subdomains": [
                 "p1cluster"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.00131,
+            "sites": 37,
+            "prevalence": 0.00371,
             "cnames": [],
             "responseHashes": [
-                "1566d717d90a0ef0ffe9aea58040afdb47fd01eee54e6eacaa600c0ac3ce889b",
-                "b7890cf6f42ecb014eac4277bd8dae986553efbdd8d9145c0feb7d6adc70eefe",
-                "e687c61044a880980930df2473a91beb7cdf1db507b532a3d09679dd8e3581bd",
-                "a30d02bebc05519ec5fd8a0314f80ecb31da0c26b98b0681b6bed3ede9ffc9e5",
-                "8885b42ad90758bff235507fdbc1b8aca991cf3572e229661cc31d93509fb95c",
-                "9873d919561f14c7b85436439f88ec9cc5f9c9493ddfeef95304f3ac1146f1ed",
-                "a935945e190ae1b978f1c40885b2ab831a9100c42525e71579554dc7e56c02fc",
-                "71283c6b90d712d090bb2dc7d7f4fe14067633f3d5d2ff87bab6405dce711be5",
-                "d33dc62d18fb03cb6b886858734dd3bd8a34e8e706d442261a9193bd23c8a133",
-                "a0cf3fda1289d41ea1f88ce389ba1c5f5e9772e3c9b6f2eed39c042bc1365d92",
-                "8ffd98aa72226cbe0d9b569d79166d560259fdfee30ba7e7bef2e61c09cdede4",
-                "e714f267b29f89eb4eeb9d6fb40403638145d8d2d550c3f5553c78ede0475ec0"
+                "11cedc6c7dc62e89bacf7561b3ca9aef74dfe21642b24765bc07becd3197a7f6",
+                "821010d37a25d6c1aca050d6d2ad0738a833bd6edbdf9d6b899f2669415849e2",
+                "3a9e234f70d52ff7297c05d7ec1825a57b45380850bfafafd09350cd3f144a0f",
+                "56af3413b2fb58e6413bce07e687dab88b9b793bc77ccde76dbcece77d726555",
+                "f5d13276a63cbc20cffc2b223cc2a88fa384d8db461a54be321b052b66a3fe04",
+                "0a66aa2eef201614835355c8f0e1a38fac3e96dc36cd6a8c540582b630699863",
+                "3a9c1b23294e6c7566ee452fdd81e7b6e83977f948124b39c047a2bf58a64bc6",
+                "b9a351819c6d440230e284e131fbd42fd9665527534674deeebcd79690beadc3",
+                "0e079171bf1bd12837cce4de0ea7e770b8f867a84566e9c12fb543e16ecb6e6b",
+                "a89d674a9e27c7bef42cd495346a4d7d9fd19375dfe7f4c7424ee7171d005b46",
+                "18febcb2294083a0cab168a3f29f587bad0685a2422ae2ea8e3029068719b144",
+                "09c50fd1f44f22f998141400205ca20271e6a7574b09448cdaeeec6509ce6557",
+                "56668c0d3bbc44c90f8eefcefa6b57a1a7e7806f9ba0edf07f76d8d8d1424749",
+                "0ef6217e2919c4033e5bea500f3ae9377f1181d3fe1b02df39c32bfaeaf79961",
+                "053db448f563c85ca76640ab9763510f0127d66d63f1030e7d921814ed9627e8",
+                "b1235edb01bc05d23d5834fb8f1a9de330576b481a082ec792bb50437c595af4",
+                "94601da19bb99c8ec0ff8231df745c68771d6085ca592d65b66eb0ade32cde02",
+                "d58e43f3cd4f24071f8f1fd2f92cf7af128cd3984900af874ffe93e92c9cfaa6",
+                "b821478ba02a4ae75d31a7c93bcaaa3bd0d230572fad9544c7d49e9455ee1c6f",
+                "67cb31677f84dcb18ef951426ea4949756c5d52b0cd0a80fe62bf0250a339232",
+                "f578123af7d21400ee24a0451aae260f69315635d7c5fd6906ef6e6f68fc04c1",
+                "c29a92245d166684ee60dd75eeef2e415eac4ec080c946228d5b6c6a461daf5e",
+                "681e8f0d3cd24064262202328a5eefe672f6a971a1e4b9bd33ceebcd6dfebab5",
+                "eb8a1b9f10dfb0fa941c98e7274bb532ca9b6c6d26e1815ba94e5ff9d5ad7a7d",
+                "4abd461232208a9a447b5201111c44425aabc45ae58778b1813e937d00e2ef47",
+                "4ec2376e87204f9675854875b04e648e25f5a248e993d215524589387ecff7fd",
+                "1783a269b8fa8536fbac651289abef63e46f6f1959387aead87f9d8b215ffcd8",
+                "036de064db6354325955f4c23533d503b209993e91737872336441d21d85e4e8",
+                "7ebede6eb13c374c389d888405d01551f658f1a56976aea2d54d2230d474af53",
+                "203508c92eac4a7c44fad0f533298a98a27a9ced162750118459e9cff92efa97",
+                "4a870ff4e7f120a0e1870646b863bdc02743471a0b759ae18dbff2097ea91dbd",
+                "e08b8bdf7f2e58fca2d1a3126e15892a12e7f5959d2a8d7bd3924ad2cba243cf",
+                "de6bcf8ee2a3b0339917f915e70d26f28a00db1f037777eb5090a7169fe2765a",
+                "bf08896c61913cb3ba10a7f9c50cedb8bb288cb3c6e09d8c3eccda83a6d237a1"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "salutbonjour.ca",
-                "www.biblestudytools.com",
                 "www.cbc.ca",
                 "www.cnbc.com",
-                "www.coupdepouce.com",
+                "www.forbes.com",
+                "www.independent.co.uk",
+                "www.marketwatch.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.7sur7.be",
+                "www.cinemagia.ro",
                 "www.corriere.it",
-                "www.dhnet.be",
-                "www.journaldemontreal.com",
-                "www.lalibre.be",
-                "www.lavenir.net",
-                "www.rollingstone.com",
-                "www.tdg.ch",
-                "www.wsj.com"
+                "www.uol.com.br",
+                "www.thelocal.fr",
+                "hbr.org",
+                "www.elmundo.es",
+                "www.refinery29.com",
+                "www.paris-normandie.fr",
+                "www.badische-zeitung.de",
+                "www.sudinfo.be",
+                "www.lesoir.be",
+                "www.lest-eclair.fr"
             ]
         },
         {
             "rule": "cxense\\.com\\/Repo\\/rep\\.gif",
-            "cookies": 0.00131,
+            "cookies": 0.00371,
             "fingerprinting": 0,
             "subdomains": [
                 "comcluster"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.00131,
+            "sites": 37,
+            "prevalence": 0.00371,
             "cnames": [],
             "responseHashes": [
-                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
             ],
             "type": "Image",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.0003012653143201446,
-                "cX_P": 0.0009037959429604338,
-                "cX_S": 0.0012050612572805785,
-                "get_top_level_domain_cookie": 0.0004016870857601928,
-                "lotame_domain_check": 0.0001004217714400482,
-                "aveVisitorID": 0.0001004217714400482
+                "cX_P": 0.0056179775280898875,
+                "s_ppurl": 0.00010032102728731942,
+                "cX_S": 0.0037118780096308188,
+                "IR_gbd": 0.0004012841091492777,
+                "get_top_level_domain_cookie": 0.0017054574638844303,
+                "lotame_domain_check": 0.00010032102728731942,
+                "pnespsdk_visitor": 0.00020064205457463884,
+                "_dor": 0.00010032102728731942,
+                "_cb_svref": 0.00010032102728731942
             },
             "exampleSites": [
-                "salutbonjour.ca",
-                "www.biblestudytools.com",
                 "www.cbc.ca",
                 "www.cnbc.com",
-                "www.coupdepouce.com",
-                "www.corriere.it",
-                "www.dhnet.be",
+                "www.forbes.com",
+                "www.independent.co.uk",
+                "www.marketwatch.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.7sur7.be",
+                "www.lest-eclair.fr",
+                "www.uol.com.br",
+                "www.courrier-picard.fr",
                 "www.journaldemontreal.com",
-                "www.lalibre.be",
-                "www.lavenir.net",
-                "www.rollingstone.com",
+                "www.euractiv.fr",
+                "www.elmundo.es",
+                "www.billboard.com",
+                "www.corriere.it",
+                "www.paris-normandie.fr",
                 "www.tdg.ch",
-                "www.wsj.com"
+                "www.lunion.fr",
+                "www.ledevoir.com"
             ]
         },
         {
             "rule": "cxense\\.com\\/public\\/user\\/id",
-            "cookies": 0.00131,
+            "cookies": 0.00321,
             "fingerprinting": 0,
             "subdomains": [
                 "id"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.00131,
+            "sites": 34,
+            "prevalence": 0.00341,
             "cnames": [],
             "responseHashes": [
-                "d411331b579c405b85bbcf6b39c88510b1f897e6aa78a7e5e4bdc63a7ec17053",
-                "37fa5192c2f098e334c6aec6131e371f0bd6d9cfce1e474de99eb640ad40db2e",
-                "f86a7eb55e9654d3f3cf4e5353161ff0d8d5894ad296eaa6a78145b819f7d61c",
-                "f875ae382f881ef8e2bf0309d2ef30d548f8e83ecb7ace713f8fa72a6649edfe",
-                "09383ae7deed0cb841b3cdbf258b905b891667cb85766f998ea7714bda87b5ed",
-                "f8bd73629d1afece2714c63dd04b177923ccad90acbb79c6fe483af6c7508ce6",
-                "25c4b1b482843b8907afd0da052717504bd4540de6cd9047875d06f1d7adec16",
-                "2f640d3191ed6a85f4c149676f94773135b4ad9bc6950a2cd00edc5caf3169de",
-                "d9a2d9e09745c6feb6fc377dbe598c225b67ffb93e58cded9974012c19612bd7",
-                "1cf9618a7abc2efdf642873b0b0dbb95de2a83c0c930bff1320c81a8553e5220",
-                "d7300f4db55f0642c33bb914c86bdf2d9d6b939421420234dba575439ec4b899",
-                "e5ed7c26e71b6497a0f265cb43699193ea1fe05ec8d6b1364a3f8c9dd8d144fe"
+                "50c3f92b134d6c6944616f03078bd8a8dd36f1637c43f01b824df99a11da5f9c",
+                "5b7a04721c76a8c723cd01fb4a83a45f69cece60cd59c6e8e46a254328b57a1e",
+                "ef030f3214f237ef86b252edfc9cc37694f148d5178bed11d934065a7c90b0ff",
+                "09fd5f68eb3709fd18430dec58d307164956d9e64c49caeebdc58f8ba9d09e12",
+                "740dbe9eddb6d1969c49f8f5de7390ee9e0598a166e6552c86d164ff9e3e1bc8",
+                "3e03cd9b3ff8071c2c1b2e9fdcd53e46b1e31b7f656a91ff36e2e24bb2c4f0d6",
+                "8e99a7a483a3a5eecdccafa4e3fec3ab1ad30341d8b96d9ec2451e4ea2ce530f",
+                "aebc0c1aaf6838d73abe2b0ee6b51c71fe5738e03d14193052aa2e8a2b92cee8",
+                "a6444e1948ea454e1208590cc3ca057ab77cb7ddd21252e0c0f5c6f18c91a2d2",
+                "b908367503222f4fb28a33d999260febfcb659bf9d42d3e7457de6791802deec",
+                "0f885f6889c73ccc338e3871e0631cf70124515e7695eccba81592728c38277e",
+                "a7a6ca12cae9337a244945e2d64b86050577ddaa92894c32107210ad5ab5a1b2",
+                "937172c85a1b99269ff697180efe6caf98d5da9c1cb74052cb6f46898742789f",
+                "4a0c3a955ba072f4f84d73c095c52f6b048b6d8a849831123aa09c325d87f684",
+                "c42b31657dc72283b5999dc335f83d159bcff304f5f540f03faad6a888727a6e",
+                "2eb0a14e22b64381f50c5fd56f85658d464bce8ced6ea5b2fcfb318a57025154",
+                "0def57379b599ff503c7a43f46f2460beba9788447ff7316d9e0b93799e27452",
+                "ffe9fcb67a108f594982e2b69ed3bfbd7bf76b400e39e0d72b250897d994799d",
+                "2560b03ce106a9869d0f8fc41ea661a1ea87fa47e95cfd05866fc0a31555ba6f",
+                "246eff1661184177323905f27d194409323fde9523b02052441c86a263656c7a",
+                "9cf5ef6ca3b96fdc0626531965beaa3b8f8375f0ce01d86d586e4d4a6b309bf5",
+                "2508776b038c37de2fdb42e92c024f6670d5905c77a27f822566e21d589bac00",
+                "b38644fcd6f2a320bce5dd92163e6a2084e6ab9b68b588cd3b2aefbd46fd8feb",
+                "22ae5cb7597e4027a30a28a09f313af0558e4a2d8fa64d100675e1ccf3bb0d85",
+                "814e4642333c001e442d73af4db49b018449364cb24bc0e261d0d200518e0e50",
+                "d1ea6fb663a6d75d8150b41570e681166f0874d594c1a99e014985a3cd05264d",
+                "3059e0259db8fa97df069dfdea7fb17fcccd7b07ca866c88d141915d45a09a9d",
+                "65bf2641a2732ccc86928cadc82aa51c20dc74cb21a0f5ceb453af2f67f666e4",
+                "a17b3900ff058081824da87654b9c80f99c1e63ff79f6f45a7abbe4b2e3b363e",
+                "ddc5502f66bc0f306498169151c9f5bbe51da44c41121873d222b3f8bd89887f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "IR_gbd": 0.0003012653143201446,
-                "cX_P": 0.0009037959429604338,
-                "get_top_level_domain_cookie": 0.0004016870857601928,
-                "lotame_domain_check": 0.0001004217714400482
+                "cX_P": 0.00521669341894061,
+                "s_ppurl": 0.00010032102728731942,
+                "IR_gbd": 0.0004012841091492777,
+                "get_top_level_domain_cookie": 0.0016051364365971107,
+                "lotame_domain_check": 0.00010032102728731942,
+                "pnespsdk_visitor": 0.00020064205457463884,
+                "_dor": 0.00010032102728731942,
+                "_cb_svref": 0.00010032102728731942
             },
             "exampleSites": [
-                "salutbonjour.ca",
-                "www.biblestudytools.com",
                 "www.cbc.ca",
-                "www.cnbc.com",
-                "www.coupdepouce.com",
-                "www.corriere.it",
-                "www.dhnet.be",
-                "www.journaldemontreal.com",
-                "www.lalibre.be",
-                "www.lavenir.net",
-                "www.rollingstone.com",
-                "www.tdg.ch",
-                "www.wsj.com"
-            ]
-        },
-        {
-            "rule": "cxense\\.com\\/cx\\.cce\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn",
-                "scdn"
-            ],
-            "apis": {
-                "window.localStorage": 9
-            },
-            "sites": 13,
-            "prevalence": 0.00131,
-            "cnames": [],
-            "responseHashes": [
-                "78b341647e8bf718869378550c0c14b87bfe33967b4944d7dac6a2a1f3290d4c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "slate.com",
-                "thechive.com",
-                "www.biblestudytools.com",
-                "www.cnbc.com",
-                "www.corriere.it",
-                "www.dhnet.be",
-                "www.lalibre.be",
-                "www.marketwatch.com",
-                "www.politico.com",
-                "www.rollingstone.com",
+                "www.forbes.com",
+                "www.independent.co.uk",
                 "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.euractiv.fr",
+                "www.thelocal.fr",
+                "www.7sur7.be",
+                "www.cinemagia.ro",
+                "www.wsj.com",
+                "www.uol.com.br",
+                "www.pinknews.co.uk",
+                "inews.co.uk",
+                "www.sudinfo.be",
+                "www.paris-normandie.fr",
                 "www.tdg.ch",
-                "www.wsj.com"
+                "www.thedailybeast.com",
+                "hbr.org",
+                "www.lest-eclair.fr",
+                "www.coupdepouce.com"
             ]
         },
         {
-            "rule": "cxense\\.com\\/profile\\/user\\/segment",
-            "cookies": 0.000301,
+            "rule": "cxense\\.com\\/public\\/widget\\/data",
+            "cookies": 0.000702,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000301,
+            "sites": 7,
+            "prevalence": 0.000702,
             "cnames": [],
             "responseHashes": [
-                "53c2a2e9b20ba9001133acde62e10aa4c1f1d45b660c8a536204b90d5343b27b",
-                "2e2a4701d8d27119aae41c65507163cc3b0f70e912b0a17afd5f0401664955e2"
+                "bc701306a1a1fffdfc987ba1d7bc009fee03cfe2170a6cda3827b101f71604da",
+                "772e9a33f86f130058ecefba0e952e998f7091d00779ea1704e850bee1203963",
+                "a6860952325808e4f6433bfec7f93299c3775c147358dba7d5690a5965ba64dc",
+                "c037c529fcb5a0ce512809aa6aa70e860087ba39c4def177d6c9ee74c56c924d",
+                "7a6387cd88d0a86270a62c9bc468db5deca48eb0f8ac3397b79249b1490c49b2",
+                "c13745107c8742c9fb4da50dff8b6fc80ac3eb1e883630ad7353de17d9a62a04"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {
-                "cX_P": 0.0003012653143201446
+                "cX_P": 0.0008025682182985554,
+                "IR_gbd": 0.00020064205457463884,
+                "get_top_level_domain_cookie": 0.00010032102728731942
             },
             "exampleSites": [
-                "dhnet.be",
-                "www.dhnet.be",
-                "www.lalibre.be"
+                "salutbonjour.ca",
+                "ressourcessante.salutbonjour.ca",
+                "variety.com",
+                "www.ledevoir.com",
+                "www.marketwatch.com",
+                "www.rollingstone.com",
+                "www.wsj.com"
             ]
         },
         {
-            "rule": "cxense\\.com\\/public\\/widget\\/data",
-            "cookies": 0.000201,
+            "rule": "cxense\\.com\\/profile\\/user\\/segment",
+            "cookies": 0.0013,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0014,
+            "cnames": [],
+            "responseHashes": [
+                "dfe968f79553eb1004a7b54379ee744e0b5a14e5505e1fd00bbf9952741e1be8",
+                "6b828e332f41f78245e6162c3808ccb1e75226c6674c77592dbc7504aac0fe6a",
+                "c9bbe4f8f817468b9aad5417abf028433a4de707bdee88fe0c0a5ccfd118114a",
+                "60b9f36232fad860fbf42b1a6cb2d40ecd0404aa3a37da36502bbc448708dfc5",
+                "4d1b65cdf2f99c7d7e9ae1da760e369223325012fe5c0f0e697aea88aa5e7042",
+                "2e8d8c5b38fe89dca2b5b60dbfc99cd45a2a0045d2d48628e5fd74b0494cf898",
+                "d4d44e655d2fb383ee6c2cee7ad43ef840f202b5e560279e482331ffff86ed11",
+                "f5490f54a963f0940792627a2e4e717db9e2c7915e147459ed7724b8e5020898",
+                "e496e8f2fe7d3bc47e203beae35c5cb5de2b9f632cc0b525390201bd309e6f75",
+                "fc5547f8a874137a33bed4c71ce8b4419c0a5a342d1ff4ec33f53ff60296229a",
+                "f5e3f64a0c3f6908de0fe831f799cea0fb3f4ce0cafd1be330305eed5133e336"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.0014044943820224719
+            },
+            "exampleSites": [
+                "7sur7.be",
+                "www.7sur7.be",
+                "www.cinemagia.ro",
+                "www.courrier-picard.fr",
+                "www.lalibre.be",
+                "www.lavoixdunord.fr",
+                "www.lavenir.net",
+                "www.lest-eclair.fr",
+                "www.lesoir.be",
+                "www.lunion.fr",
+                "www.nu.nl",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.telegraaf.nl"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csyn-r"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000903,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_G": 0.0009028892455858748
+            },
+            "exampleSites": [
+                "7sur7.be",
+                "www.courrier-picard.fr",
+                "www.lavoixdunord.fr",
+                "www.lest-eclair.fr",
+                "www.lesoir.be",
+                "www.lunion.fr",
+                "www.nu.nl",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/pfm\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csyn"
             ],
             "apis": {},
             "sites": 2,
             "prevalence": 0.000201,
             "cnames": [],
             "responseHashes": [
-                "d5f27718ffa1a0234481714f39bb26ed376ef61848159d2725d3f074bfd1d66f"
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
             ],
-            "type": "Fetch",
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_G": 0.00020064205457463884
+            },
+            "exampleSites": [
+                "7sur7.be",
+                "www.nu.nl"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/apn\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csyn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "euconsent-v2": 0.0007022471910112359,
+                "cX_G": 0.0008025682182985554
+            },
+            "exampleSites": [
+                "courrier-picard.fr",
+                "www.lavoixdunord.fr",
+                "www.lest-eclair.fr",
+                "www.lesoir.be",
+                "www.lunion.fr",
+                "www.nu.nl",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/t_init\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b8e1d37fb69359a9159bcc857b1a3435fc044550d6ed1c9e639ade2ff3ed1f3b"
+            ],
+            "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "wsj.com",
-                "www.wsj.com"
+                "lalibre.be",
+                "www.lalibre.be",
+                "www.lavenir.net"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/track_banners_preamble\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "814f7f71ee45e845e203263cdebc7df6cbf2cbeab3b0af5ad793853c1c23f0b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lesoir.be",
+                "www.lesoir.be"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/cr-stats\\/event\\/imp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats-collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lesoir.be",
+                "www.lesoir.be"
             ]
         }
     ],
@@ -393,12 +657,12 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {},
-    "cookies": 0.00191,
+    "cookies": 0.00441,
     "types": {
-        "Script": 68,
-        "Document": 13,
-        "Image": 13,
-        "Fetch": 2
+        "Script": 172,
+        "Document": 38,
+        "Image": 56,
+        "XHR": 2
     },
     "nameservers": [
         "ns-1268.awsdns-30.org",

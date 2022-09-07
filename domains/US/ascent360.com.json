@@ -4,17 +4,18 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.0000276,
+    "prevalence": 0.0000271,
     "sites": 4,
     "subdomains": [
-        "files"
+        "files",
+        "customerapi"
     ],
     "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "ascent360\\.com\\/ascent\\/webtrack\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.00000678,
             "fingerprinting": 1,
             "subdomains": [
                 "files"
@@ -23,36 +24,37 @@
                 "Document.cookie getter": 1,
                 "Document.cookie setter": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
-                "8426aeb01498f9a2c530336c834777ff4aeb5471d3c2183ee31aacc35c28597b"
+                "0eebb09371203c6f925f63abab10f288d51ead4ec569c8deb8bc40b1aa051d1f"
             ],
             "type": "Script",
             "firstPartyCookies": {
                 "asVisitorId": {
-                    "ttl": 5187611,
+                    "ttl": 5184008,
                     "length": 32,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 },
                 "a360": {
-                    "ttl": 5187611,
+                    "ttl": 5184008,
                     "length": 9,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "deseretbook.com",
-                "www.smartwool.com"
+                "bigbear.com",
+                "www.bigbear.com",
+                "www.visitmammoth.com"
             ]
         },
         {
             "rule": "ascent360\\.com\\/ascent\\/fp\\.min\\.js",
-            "cookies": 0.0000069,
+            "cookies": 0.00000678,
             "fingerprinting": 3,
             "subdomains": [
                 "files"
@@ -84,8 +86,8 @@
                 "Document.cookie setter": 1,
                 "Document.cookie getter": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000138,
+            "sites": 3,
+            "prevalence": 0.0000203,
             "cnames": [],
             "responseHashes": [
                 "440513b311aa72850f53a442ba151b129e4f80d5b7d8f6b12573040c1436a646"
@@ -93,24 +95,51 @@
             "type": "Script",
             "firstPartyCookies": {
                 "cookietest": {
-                    "ttl": -1633236906,
+                    "ttl": -1660998458,
                     "length": 1,
-                    "prevalence": 0.000006902073382844206,
+                    "prevalence": 0.000006777914842277922,
                     "uniqueness": 1
                 }
             },
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "deseretbook.com",
-                "www.smartwool.com"
+                "bigbear.com",
+                "www.bigbear.com",
+                "www.visitmammoth.com"
+            ]
+        },
+        {
+            "rule": "ascent360\\.com\\/api\\/PushTrackingInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customerapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "asVisitorId": 0.000013555829684555844,
+                "a360": 0.000013555829684555844
+            },
+            "exampleSites": [
+                "visitmammoth.com",
+                "www.visitmammoth.com"
             ]
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000138,
+    "cookies": 0.0000136,
     "types": {
-        "Script": 4
+        "Script": 6,
+        "Image": 2
     },
     "nameservers": [
         "ns1.m57.siteground.biz",

@@ -7,14 +7,39 @@
     "source": [
         "DuckDuckGo-US"
     ],
-    "prevalence": 0.000166,
-    "sites": 24,
+    "prevalence": 0.000339,
+    "sites": 50,
     "subdomains": [
-        "ads"
+        "ads",
+        "assets"
     ],
     "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "counciladvertising\\.net\\/code\\/audience\\/media\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "54935522e8a19bcb91361ee885106d55cb9328d3bebd1867cc230da516b37f02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lewisham.gov.uk",
+                "www.bcpcouncil.gov.uk"
+            ]
+        },
         {
             "rule": "counciladvertising\\.net\\/code\\/cotswolds\\/leaderboard\\/public",
             "cookies": 0,
@@ -26,10 +51,10 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "8ce1f7090d1a9988b3b9d71e9383304aeaf0371fc87355abe352c3b4020616f6"
+                "7be90443b8be4b3de8e06555371decb2d79aa7a9bb6e098acc8202a3740e3f93"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -40,82 +65,6 @@
             ]
         },
         {
-            "rule": "counciladvertising\\.net\\/code\\/planningfinder\\/mpu\\/public",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "window.localStorage": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "480f996c248bac1ad0aab634c8971f34fd114f98699657df87be487d67befa66",
-                "c08fd1a1b914471845860b3e6eeca20faed992a49a6c7eabd5a5eff9b872dfff"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "eadt.co.uk",
-                "www.edp24.co.uk",
-                "www.ipswichstar.co.uk"
-            ]
-        },
-        {
-            "rule": "counciladvertising\\.net\\/code\\/planningfinder\\/media\\/public",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "window.localStorage": 3
-            },
-            "sites": 3,
-            "prevalence": 0.0000207,
-            "cnames": [],
-            "responseHashes": [
-                "e1f064d4714660f2c93fe24d609f8927a95a0b882fe1fa42e09e483606b31766",
-                "9fbffff06508690952fc878af2e027f5a509e395474aa98d88da8b12de5dff7c"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "eadt.co.uk",
-                "www.edp24.co.uk",
-                "www.ipswichstar.co.uk"
-            ]
-        },
-        {
-            "rule": "counciladvertising\\.net\\/tag\\/rtb\\/check",
-            "cookies": 0,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000276,
-            "cnames": [],
-            "responseHashes": [
-                "d86df284a64828cfa71fea050c3f3aaa00ccdaf13e071e1263c024268ec43872"
-            ],
-            "type": "XHR",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "eadt.co.uk",
-                "www.eadt.co.uk",
-                "www.edp24.co.uk",
-                "www.ipswichstar.co.uk"
-            ]
-        },
-        {
             "rule": "counciladvertising\\.net\\/code\\/ealinglbc\\/leaderboard\\/public",
             "cookies": 0,
             "fingerprinting": 1,
@@ -123,13 +72,15 @@
                 "ads"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "f4d08947df45cde1e5292d389331037690fc23e0e1873067062c65e77e2e90fa"
+                "0654ee8cc83c413d3932ba00be509a8921a32e6551ee888d60bcd43d99f605ac"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -150,10 +101,10 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "79e0e55ec817825ef55eb5da74ad8b3ce3f3b9463ea18ac6a823fc7da9e98127"
+                "473e1b0b6e2f664cdcf796e5ed25fd883974823c473c50aa408e89952128d277"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -164,6 +115,95 @@
             ]
         },
         {
+            "rule": "counciladvertising\\.net\\/tag\\/config\\/ealinglbc\\/ibar",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4834ee89a191c39f66ac34237169b66482ac2046487f1c4f0f07b81815ccfa0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ealing.gov.uk",
+                "www.ealing.gov.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/tag\\/config\\/ealinglbc\\/leaderboard",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "b4834ee89a191c39f66ac34237169b66482ac2046487f1c4f0f07b81815ccfa0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ealing.gov.uk",
+                "www.ealing.gov.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/v3\\/scripts\\/33c5aa25c38970faae4c327b935edb7d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3a9afef34bbbe21fc8d8708ac19410f12526f1b211868facfb00058fe28c038f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ealing.gov.uk",
+                "www.ealing.gov.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/v3\\/scripts\\/74656088c5d684ea81efd068f2f12f01\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000203,
+            "cnames": [],
+            "responseHashes": [
+                "7a56838b2151cf9f98e3977381df18a2d3e7e368783b58e7f4fe74b739058a44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ealing.gov.uk",
+                "www.ealing.gov.uk",
+                "www.wandsworth.gov.uk"
+            ]
+        },
+        {
             "rule": "counciladvertising\\.net\\/tag\\/head\\/entitled2",
             "cookies": 0,
             "fingerprinting": 1,
@@ -171,14 +211,13 @@
                 "ads"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0fc3beada1191ce276508fd00eeadde4c612091ca6960aa9c0c1b509c465c758"
+                "2a296fc570e1896a1b3b97b308d8041fe98e56d2a86ef59afcd1919dc0daea6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -199,10 +238,10 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "a394cb35e478710bd3a0d386eb09e1d82102c43e819b209154db909dca00ebe9"
+                "9180f2d4d1aee0b06da29dc74e8db98e124a7f6df4774cd9f44b7f4f3ea80f18"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -221,7 +260,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "4661c4d214063dd9964494d2c82f2687d103ccb1d9d20e557581fabd10056daf"
@@ -243,7 +282,7 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
                 "b073fcb354a00f82e90f51482eecd931b728d71d8d77daefa5695f368c94cbd4"
@@ -257,28 +296,27 @@
             ]
         },
         {
-            "rule": "counciladvertising\\.net\\/code\\/lancashirecc\\/leaderboard\\/public",
+            "rule": "counciladvertising\\.net\\/tag\\/head\\/miltonkeynesc",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "1a342b1f8e920997acedd23e76183d24a806d96274dd2f2d12f6836bea5fe293"
+                "2a296fc570e1896a1b3b97b308d8041fe98e56d2a86ef59afcd1919dc0daea6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
-                "lancashire.gov.uk",
-                "www.lancashire.gov.uk"
+                "milton-keynes.gov.uk",
+                "www.milton-keynes.gov.uk"
             ]
         },
         {
@@ -292,59 +330,10 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "df9354e836ddf5d2f8590e6ce2c3e60a78ef87f13759a376173fa4eb3758bbef"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "milton-keynes.gov.uk",
-                "www.milton-keynes.gov.uk"
-            ]
-        },
-        {
-            "rule": "counciladvertising\\.net\\/tag\\/head\\/miltonkeynesc",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "0fc3beada1191ce276508fd00eeadde4c612091ca6960aa9c0c1b509c465c758"
-            ],
-            "type": "Script",
-            "firstPartyCookies": {},
-            "firstPartyCookiesSent": {},
-            "exampleSites": [
-                "milton-keynes.gov.uk",
-                "www.milton-keynes.gov.uk"
-            ]
-        },
-        {
-            "rule": "counciladvertising\\.net\\/code\\/miltonkeynesc\\/media\\/public",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000138,
-            "cnames": [],
-            "responseHashes": [
-                "fb9d89542b2576aca3d428c06fa500b1300f535d5617699b57c44597126dbf95"
+                "779669844e7f49649c9a3701a5fd670d582733ff032b6f5ff38c64a756afd86b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -362,13 +351,13 @@
                 "ads"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0fc3beada1191ce276508fd00eeadde4c612091ca6960aa9c0c1b509c465c758"
+                "2a296fc570e1896a1b3b97b308d8041fe98e56d2a86ef59afcd1919dc0daea6f"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -389,10 +378,10 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "cbe911560d6c459495f43ff31d8dfcb16e75014172ac84ba67e5df15646b7871"
+                "73a856f5f75c1b5477ce1bdf1b74581619d316fcccfd18891fb8ff50cb7d891b"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -400,6 +389,198 @@
             "exampleSites": [
                 "myjobscotland.gov.uk",
                 "www.myjobscotland.gov.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/vnewforest\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "27b85ce758be672bca4b2152d0a9cb8aa795291efaa4d4c347b53ab702fb8b36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenewforest.co.uk",
+                "www.thenewforest.co.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/dorset\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "5346cfd911b8ca2bd10dd0c73425440c54950f1415304e3f1e9288a617aa709f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visit-dorset.com",
+                "www.visit-dorset.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/brighton\\/leaderboard2\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "2815c1c339e58537b3ba08aea3635dc3a1ba128a0932a41d6294cc6de8f21d04"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitbrighton.com",
+                "www.visitbrighton.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/brighton\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "82d228d25e0f0fa991ce0f83cf78e5daf7494f7083bf35a019b44ca03119936f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitbrighton.com",
+                "www.visitbrighton.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/cheshire\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "a514bf2dbae802f71f3019099e8a65eec5a4e1f787168afd812c51ca8d9e1d33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitcheshire.com",
+                "www.visitcheshire.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/visitlakedistrict\\/mpu\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "3bf40b296b578f98a8ff17fa59182b61cdec94ea874f109056eef1372fbaad3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitlakedistrict.com",
+                "www.visitlakedistrict.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/visitlakedistrict\\/mpu2\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "18721556740157d5d0ec207aa2cab65260f128ffe7b0e85cc008f3f177ad1342"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitlakedistrict.com",
+                "www.visitlakedistrict.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/lancashire\\/mpu\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "1b575873904fb7a77f7a0ad9b27e9c30633d314d789b974f44eac28088527dd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitlancashire.com",
+                "www.visitlancashire.com"
             ]
         },
         {
@@ -413,10 +594,10 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "7eef5c085544547d5e489f513faf4600cbbad8079d7ec92fa04e9582c35a238f"
+                "cdbb8990200d243e85d48dc1e0a9f89f8053e3032ac8559a426d57d7c81dd058"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -427,21 +608,142 @@
             ]
         },
         {
-            "rule": "counciladvertising\\.net\\/tag\\/head\\/wandsworthlbc",
+            "rule": "counciladvertising\\.net\\/code\\/southdevon\\/mpu\\/public",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "0fc3beada1191ce276508fd00eeadde4c612091ca6960aa9c0c1b509c465c758"
+                "13b149c90632c728fdc918bd88d43458f3d2e568b6919650259910e629db2327"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsouthdevon.co.uk",
+                "www.visitsouthdevon.co.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/southdevon\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "aa76b953fc289044b69b76e5a8bb98568b6796068031ad3799e24a32aa527dde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsouthdevon.co.uk",
+                "www.visitsouthdevon.co.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/southeast\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "06d0226746782e7fee81d269ee6a1924e075c126fe82d5a49c1c224569a923bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsoutheastengland.com",
+                "www.visitsoutheastengland.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/southeast\\/doublempu\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "7b53f41f92a4e23b7553a0a4b63021bbb192f55c42c9a703e482517034ddcfb8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsoutheastengland.com",
+                "www.visitsoutheastengland.com"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/wiltshire\\/mpu\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "c0d77f7cf208e7167ebe813aaeb2d23ecb17cd28f6aa01d9e4b367a81bdfeaed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitwiltshire.co.uk",
+                "www.visitwiltshire.co.uk"
+            ]
+        },
+        {
+            "rule": "counciladvertising\\.net\\/code\\/wandsworthlbc\\/leaderboard\\/public",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000136,
+            "cnames": [],
+            "responseHashes": [
+                "4429f683ab8f8b786e7a945688dfafbca388bbf4d8da11927098d0072a33eab6"
             ],
             "type": "Script",
             "firstPartyCookies": {},
@@ -452,7 +754,7 @@
             ]
         },
         {
-            "rule": "counciladvertising\\.net\\/code\\/wandsworthlbc\\/leaderboard\\/public",
+            "rule": "counciladvertising\\.net\\/tag\\/config\\/wandsworthlbc\\/leaderboard",
             "cookies": 0,
             "fingerprinting": 0,
             "subdomains": [
@@ -460,12 +762,12 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000138,
+            "prevalence": 0.0000136,
             "cnames": [],
             "responseHashes": [
-                "3208186b8d0213057323a531fba5519baaf8a1152a021f0850a316b668a54f78"
+                "4f8bf5c9ce763ef0104bc6cc092551eb58a6bfc7c9ad2db6a64d4e696bbdd5e3"
             ],
-            "type": "Script",
+            "type": "XHR",
             "firstPartyCookies": {},
             "firstPartyCookiesSent": {},
             "exampleSites": [
@@ -478,8 +780,8 @@
     "performance": {},
     "cookies": 0,
     "types": {
-        "Script": 38,
-        "XHR": 4
+        "Script": 59,
+        "XHR": 6
     },
     "nameservers": [
         "ns-316.awsdns-39.com",
